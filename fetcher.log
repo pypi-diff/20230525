@@ -240,3 +240,68 @@
 [2023-05-25 00:15:31] INFO root fetch - main [MainThread]: End processing [humanloop]: success
 [2023-05-25 00:16:10] INFO root fetch - main [MainThread]: End processing [service-configuration-lib]: success
 [2023-05-25 00:16:10] INFO root fetch - main [MainThread]: Store serial: [18236471]
+[2023-05-25 00:21:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18236471]
+[2023-05-25 00:21:19] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-25 00:21:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: LatePenalty
+[2023-05-25 00:21:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rocketapi
+[2023-05-25 00:21:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: atproto
+[2023-05-25 00:21:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pynose
+[2023-05-25 00:21:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-hostutils
+[2023-05-25 00:21:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: neon-homeassistant-skill
+[2023-05-25 00:21:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: iiif-tools
+[2023-05-25 00:21:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: libmozdata
+[2023-05-25 00:21:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: infra-buddy-too
+[2023-05-25 00:21:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: LatePenalty
+[2023-05-25 00:21:19] INFO root fetch - processPackages [infra-buddy-too]: New version: [68] Old Version: [67]
+[2023-05-25 00:21:19] WARNING root fetch - processPackages [LatePenalty]: Skipping, unable to determine old version
+[2023-05-25 00:21:19] WARNING root fetch - processPackages [LatePenalty]: Skipping, unable to determine old version
+[2023-05-25 00:21:19] INFO root fetch - processPackages [rocketapi]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-25 00:21:19] INFO root fetch - processPackages [atproto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 00:21:19] INFO root fetch - processPackages [LatePenalty]: Start processing: eia
+[2023-05-25 00:21:19] INFO root fetch - main [MainThread]: End processing [LatePenalty] error
+[2023-05-25 00:21:19] INFO root fetch - processPackages [LatePenalty]: Start processing: pymodd
+[2023-05-25 00:21:19] INFO root fetch - processPackages [pynose]: New version: [1.4.5] Old Version: [1.4.4]
+[2023-05-25 00:21:19] WARNING root fetch - processPackages [iiif-tools]: Skipping, unable to determine old version
+[2023-05-25 00:21:19] INFO root fetch - main [MainThread]: End processing [LatePenalty] error
+[2023-05-25 00:21:19] INFO root fetch - processPackages [infra-buddy-too]: executing diffoscope
+[2023-05-25 00:21:19] WARNING root fetch - processPackages [eia]: Skipping, unable to determine old version
+[2023-05-25 00:21:19] INFO root fetch - main [MainThread]: End processing [iiif-tools] error
+[2023-05-25 00:21:19] INFO root fetch - processPackages [neon-homeassistant-skill]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 00:21:19] INFO root fetch - processPackages [infra-buddy-too]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infra-buddy-too-67.tar.gz tmp/infra-buddy-too-68.tar.gz --markdown 20230525/i/infra-buddy-too/67-68/diff.md --exclude *.pyd
+[2023-05-25 00:21:19] INFO root fetch - main [MainThread]: End processing [eia] error
+[2023-05-25 00:21:19] INFO root fetch - processPackages [django-hostutils]: New version: [0.0.dev3] Old Version: [0.0.4]
+[2023-05-25 00:21:19] INFO root fetch - processPackages [libmozdata]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-25 00:21:20] INFO root fetch - processPackages [pymodd]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-25 00:21:20] INFO root fetch - processPackages [pynose]: Downloading https://files.pythonhosted.org/packages/6b/3b/d941d6768650472b5a8e87c7525d2c8dab0d4ebb36a3893c212d44c2055f/pynose-1.4.4.tar.gz
+[2023-05-25 00:21:20] INFO root fetch - processPackages [libmozdata]: Downloading https://files.pythonhosted.org/packages/04/17/cb2946afc81ed48c7ab7f00737970c7c38c824652e4d2dc9fe9c61b76a8f/libmozdata-0.2.2.tar.gz
+[2023-05-25 00:21:20] INFO root fetch - processPackages [django-hostutils]: Downloading https://files.pythonhosted.org/packages/e6/76/490c501b67cef208dfcc0d0c37e75409f3316111d7a1f83195bd69fb4af1/django-hostutils-0.0.4.tar.gz
+[2023-05-25 00:21:20] INFO root fetch - processPackages [rocketapi]: Downloading https://files.pythonhosted.org/packages/12/07/29ea22499b70bb73b55b1a8a03c5e54d5508743c1426874ff0d81fc877f1/rocketapi-1.0.3.tar.gz
+[2023-05-25 00:21:20] INFO root fetch - processPackages [neon-homeassistant-skill]: executing diffoscope
+[2023-05-25 00:21:20] INFO root fetch - processPackages [neon-homeassistant-skill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_homeassistant_skill-0.0.8.tar.gz tmp/neon_homeassistant_skill-0.0.9.tar.gz --markdown 20230525/n/neon-homeassistant-skill/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 00:21:20] INFO root fetch - processPackages [atproto]: Downloading https://files.pythonhosted.org/packages/77/1e/7dc305471e00c4c47363abdd5b249d56887681dfb22aa19f38866d6e7506/atproto-0.0.9.tar.gz
+[2023-05-25 00:21:20] INFO root fetch - processPackages [libmozdata]: Downloading https://files.pythonhosted.org/packages/4e/4e/d509f308e220b9854a9530a24c7c0b8c4426de5cedec286eb2a1935f7d06/libmozdata-0.2.3.tar.gz
+[2023-05-25 00:21:20] INFO root fetch - processPackages [atproto]: executing diffoscope
+[2023-05-25 00:21:20] INFO root fetch - processPackages [atproto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atproto-0.0.8.tar.gz tmp/atproto-0.0.9.tar.gz --markdown 20230525/a/atproto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 00:21:20] INFO root fetch - processPackages [pynose]: Downloading https://files.pythonhosted.org/packages/0a/99/6ff1de2101761ea8f6feec8ff7d4b68254f531dd5e67ac8afde5bec5a52b/pynose-1.4.5.tar.gz
+[2023-05-25 00:21:20] INFO root fetch - processPackages [pymodd]: Downloading https://files.pythonhosted.org/packages/b7/87/9311defe4dee49043f9761dc6f2191a7e9361c6fdeed32b074a7e8c33b5d/pymodd-1.0.1.tar.gz
+[2023-05-25 00:21:20] INFO root fetch - processPackages [rocketapi]: Downloading https://files.pythonhosted.org/packages/35/0a/87fba06444088aa857874e6fb54c8ec8f175709d9d287884c19c4ceda579/rocketapi-1.0.4.tar.gz
+[2023-05-25 00:21:20] INFO root fetch - processPackages [django-hostutils]: Downloading https://files.pythonhosted.org/packages/b8/21/220c53f91f40a9994f776fcb48ba454d5e247ac827338fc30b8d738d49aa/django-hostutils-0.0.dev3.tar.gz
+[2023-05-25 00:21:20] INFO root fetch - processPackages [libmozdata]: executing diffoscope
+[2023-05-25 00:21:20] INFO root fetch - processPackages [libmozdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libmozdata-0.2.2.tar.gz tmp/libmozdata-0.2.3.tar.gz --markdown 20230525/l/libmozdata/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-25 00:21:20] INFO root fetch - processPackages [pynose]: executing diffoscope
+[2023-05-25 00:21:20] INFO root fetch - processPackages [pynose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynose-1.4.4.tar.gz tmp/pynose-1.4.5.tar.gz --markdown 20230525/p/pynose/1.4.4-1.4.5/diff.md --exclude *.pyd
+[2023-05-25 00:21:20] INFO root fetch - processPackages [pymodd]: executing diffoscope
+[2023-05-25 00:21:20] INFO root fetch - processPackages [pymodd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymodd-1.0.0.tar.gz tmp/pymodd-1.0.1.tar.gz --markdown 20230525/p/pymodd/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-25 00:21:20] INFO root fetch - processPackages [rocketapi]: executing diffoscope
+[2023-05-25 00:21:20] INFO root fetch - processPackages [rocketapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rocketapi-1.0.3.tar.gz tmp/rocketapi-1.0.4.tar.gz --markdown 20230525/r/rocketapi/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-25 00:21:20] INFO root fetch - processPackages [django-hostutils]: executing diffoscope
+[2023-05-25 00:21:20] INFO root fetch - processPackages [django-hostutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-hostutils-0.0.4.tar.gz tmp/django-hostutils-0.0.dev3.tar.gz --markdown 20230525/d/django-hostutils/0.0.4-0.0.dev3/diff.md --exclude *.pyd
+[2023-05-25 00:21:21] INFO root fetch - main [MainThread]: End processing [neon-homeassistant-skill]: success
+[2023-05-25 00:21:21] INFO root fetch - main [MainThread]: End processing [rocketapi]: success
+[2023-05-25 00:21:21] INFO root fetch - main [MainThread]: End processing [libmozdata]: success
+[2023-05-25 00:21:22] INFO root fetch - main [MainThread]: End processing [infra-buddy-too]: success
+[2023-05-25 00:21:22] INFO root fetch - main [MainThread]: End processing [pymodd]: success
+[2023-05-25 00:21:22] INFO root fetch - main [MainThread]: End processing [pynose]: success
+[2023-05-25 00:21:22] INFO root fetch - main [MainThread]: End processing [django-hostutils]: success
+[2023-05-25 00:21:22] INFO root fetch - main [MainThread]: End processing [atproto]: success
+[2023-05-25 00:21:22] INFO root fetch - main [MainThread]: Store serial: [18236524]
