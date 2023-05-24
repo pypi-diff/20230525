@@ -305,3 +305,81 @@
 [2023-05-25 00:21:22] INFO root fetch - main [MainThread]: End processing [django-hostutils]: success
 [2023-05-25 00:21:22] INFO root fetch - main [MainThread]: End processing [atproto]: success
 [2023-05-25 00:21:22] INFO root fetch - main [MainThread]: Store serial: [18236524]
+[2023-05-25 00:26:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18236524]
+[2023-05-25 00:26:31] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-25 00:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tecton
+[2023-05-25 00:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wodoo
+[2023-05-25 00:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: transcriptionary
+[2023-05-25 00:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spark-etl
+[2023-05-25 00:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ConsolePrint
+[2023-05-25 00:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: LatePenalty
+[2023-05-25 00:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: text2story
+[2023-05-25 00:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: characterai
+[2023-05-25 00:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aggregate
+[2023-05-25 00:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyAmang
+[2023-05-25 00:26:31] WARNING root fetch - processPackages [LatePenalty]: Skipping, unable to determine old version
+[2023-05-25 00:26:31] INFO root fetch - processPackages [text2story]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-05-25 00:26:31] INFO root fetch - processPackages [LatePenalty]: Start processing: tlsxclient
+[2023-05-25 00:26:31] INFO root fetch - main [MainThread]: End processing [LatePenalty] error
+[2023-05-25 00:26:31] INFO root fetch - processPackages [spark-etl]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-25 00:26:31] INFO root fetch - processPackages [ConsolePrint]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-25 00:26:31] INFO root fetch - processPackages [characterai]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-05-25 00:26:31] INFO root fetch - processPackages [transcriptionary]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-25 00:26:31] WARNING root fetch - processPackages [pyAmang]: Skipping, unable to determine old version
+[2023-05-25 00:26:31] INFO root fetch - processPackages [wodoo]: New version: [0.3.99] Old Version: [0.3.96]
+[2023-05-25 00:26:31] INFO root fetch - processPackages [pyAmang]: Start processing: esphome
+[2023-05-25 00:26:31] INFO root fetch - main [MainThread]: End processing [pyAmang] error
+[2023-05-25 00:26:31] INFO root fetch - processPackages [tecton]: New version: [0.7.0b9] Old Version: [0.7.0b8]
+[2023-05-25 00:26:31] INFO root fetch - processPackages [aggregate]: New version: [0.9.6.8] Old Version: [0.9.6.5]
+[2023-05-25 00:26:31] WARNING root fetch - processPackages [tlsxclient]: Skipping, unable to determine old version
+[2023-05-25 00:26:31] INFO root fetch - processPackages [tlsxclient]: Start processing: dcss-api
+[2023-05-25 00:26:31] INFO root fetch - main [MainThread]: End processing [tlsxclient] error
+[2023-05-25 00:26:31] INFO root fetch - processPackages [text2story]: Downloading https://files.pythonhosted.org/packages/e7/12/567c885e53ff441b4c195f3adc149326c7dd976eb9c6851522a7fb912fe5/text2story-1.2.7.tar.gz
+[2023-05-25 00:26:32] INFO root fetch - processPackages [esphome]: New version: [2023.5.4] Old Version: [2023.5.3]
+[2023-05-25 00:26:32] INFO root fetch - processPackages [spark-etl]: Downloading https://files.pythonhosted.org/packages/f6/be/7e08c267f5123631b2088717c2f3e8d79bc4f043484419afb99c3bd25456/spark-etl-0.0.98.tar.gz
+[2023-05-25 00:26:32] INFO root fetch - processPackages [characterai]: Downloading https://files.pythonhosted.org/packages/b9/94/b995366881321200d97683befaf8cbea687b64ef7de9eca0b0b03db5f84e/characterai-0.4.1.tar.gz
+[2023-05-25 00:26:32] WARNING root fetch - processPackages [dcss-api]: Skipping, unable to determine old version
+[2023-05-25 00:26:32] INFO root fetch - processPackages [dcss-api]: Start processing: aij
+[2023-05-25 00:26:32] INFO root fetch - main [MainThread]: End processing [dcss-api] error
+[2023-05-25 00:26:32] INFO root fetch - processPackages [transcriptionary]: Downloading https://files.pythonhosted.org/packages/73/88/0819ace5be390366b3bafd012d19dd983f824d5a70ad15dd9dc41d9f37a7/transcriptionary-0.1.0.tar.gz
+[2023-05-25 00:26:32] INFO root fetch - processPackages [aggregate]: Downloading https://files.pythonhosted.org/packages/a1/2e/4e242c1aea148c7a00311a62a4ce27f9f31388bd67bd1b41b501879fbd6d/aggregate-0.9.6.5.tar.gz
+[2023-05-25 00:26:32] INFO root fetch - processPackages [aij]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-25 00:26:32] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/e8/94/a31c5a1bf1d7355fb334f4f1b934ea3a54df4ef0caeefa9ab40e535d238d/esphome-2023.5.3.tar.gz
+[2023-05-25 00:26:32] INFO root fetch - processPackages [ConsolePrint]: Downloading https://files.pythonhosted.org/packages/34/bc/b66771f094988bbb6941737c4a16982ec51a71f848ff43836ab0249bd0b9/consoleprint-1.0.3.tar.gz
+[2023-05-25 00:26:32] INFO root fetch - processPackages [aij]: executing diffoscope
+[2023-05-25 00:26:32] INFO root fetch - processPackages [aij]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aij-1.0.8.tar.gz tmp/aij-1.0.9.tar.gz --markdown 20230525/a/aij/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-25 00:26:32] INFO root fetch - processPackages [wodoo]: executing diffoscope
+[2023-05-25 00:26:32] INFO root fetch - processPackages [wodoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wodoo-0.3.96.tar.gz tmp/wodoo-0.3.99.tar.gz --markdown 20230525/w/wodoo/0.3.96-0.3.99/diff.md --exclude *.pyd
+[2023-05-25 00:26:32] INFO root fetch - processPackages [tecton]: executing diffoscope
+[2023-05-25 00:26:32] INFO root fetch - processPackages [tecton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tecton-0.7.0b8.tar.gz tmp/tecton-0.7.0b9.tar.gz --markdown 20230525/t/tecton/0.7.0b8-0.7.0b9/diff.md --exclude *.pyd
+[2023-05-25 00:26:32] INFO root fetch - processPackages [characterai]: Downloading https://files.pythonhosted.org/packages/aa/52/3d5a6ca906307863f0a18dd409ae8eba9fbc58d9df34188ef2bf83f54ebe/characterai-0.5.0.tar.gz
+[2023-05-25 00:26:32] INFO root fetch - processPackages [transcriptionary]: Downloading https://files.pythonhosted.org/packages/9d/f6/478601e3b416665f904e552a7d5e2d633e8a3355c39284ec66e4dbbc4c54/transcriptionary-0.1.1-py3-none-any.whl
+[2023-05-25 00:26:32] INFO root fetch - processPackages [text2story]: Downloading https://files.pythonhosted.org/packages/d4/91/9f56cf8e69f3fca8fc2d208391ef70dea145a796e3390ba7d92c8cee06ce/text2story-1.2.8.tar.gz
+[2023-05-25 00:26:32] INFO root fetch - processPackages [ConsolePrint]: executing diffoscope
+[2023-05-25 00:26:32] INFO root fetch - processPackages [ConsolePrint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/consoleprint-1.0.2.tar.gz tmp/consoleprint-1.0.3.tar.gz --markdown 20230525/C/ConsolePrint/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-25 00:26:32] INFO root fetch - processPackages [characterai]: executing diffoscope
+[2023-05-25 00:26:32] INFO root fetch - processPackages [characterai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/characterai-0.4.1.tar.gz tmp/characterai-0.5.0.tar.gz --markdown 20230525/c/characterai/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-05-25 00:26:32] INFO root fetch - processPackages [spark-etl]: Downloading https://files.pythonhosted.org/packages/7e/c5/872f0d9faab27544d5ecd31bfa811ab5f0d250333f8f1e6b04bf662c59a0/spark-etl-0.0.99.tar.gz
+[2023-05-25 00:26:32] INFO root fetch - processPackages [aggregate]: Downloading https://files.pythonhosted.org/packages/1c/1c/8b870217624ab1debcc4bfab850525095bd82c0d23359788efb2af71306b/aggregate-0.9.6.8.tar.gz
+[2023-05-25 00:26:32] INFO root fetch - processPackages [transcriptionary]: executing diffoscope
+[2023-05-25 00:26:32] INFO root fetch - processPackages [transcriptionary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transcriptionary-0.1.0.tar.gz tmp/transcriptionary-0.1.1-py3-none-any.whl.zip --markdown 20230525/t/transcriptionary/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-25 00:26:32] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/ce/9d/255dac476b405924ffe7a43b93908864660d8bfedbc6d95fb6c2ac3b0eb8/esphome-2023.5.4.tar.gz
+[2023-05-25 00:26:32] INFO root fetch - processPackages [text2story]: executing diffoscope
+[2023-05-25 00:26:32] INFO root fetch - processPackages [text2story]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text2story-1.2.7.tar.gz tmp/text2story-1.2.8.tar.gz --markdown 20230525/t/text2story/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-05-25 00:26:32] INFO root fetch - processPackages [esphome]: executing diffoscope
+[2023-05-25 00:26:32] INFO root fetch - processPackages [esphome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esphome-2023.5.3.tar.gz tmp/esphome-2023.5.4.tar.gz --markdown 20230525/e/esphome/2023.5.3-2023.5.4/diff.md --exclude *.pyd
+[2023-05-25 00:26:32] INFO root fetch - processPackages [spark-etl]: executing diffoscope
+[2023-05-25 00:26:32] INFO root fetch - processPackages [spark-etl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark-etl-0.0.98.tar.gz tmp/spark-etl-0.0.99.tar.gz --markdown 20230525/s/spark-etl/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-25 00:26:32] INFO root fetch - processPackages [aggregate]: executing diffoscope
+[2023-05-25 00:26:32] INFO root fetch - processPackages [aggregate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aggregate-0.9.6.5.tar.gz tmp/aggregate-0.9.6.8.tar.gz --markdown 20230525/a/aggregate/0.9.6.5-0.9.6.8/diff.md --exclude *.pyd
+[2023-05-25 00:26:34] INFO root fetch - main [MainThread]: End processing [ConsolePrint]: success
+[2023-05-25 00:26:34] INFO root fetch - main [MainThread]: End processing [transcriptionary]: success
+[2023-05-25 00:26:34] INFO root fetch - main [MainThread]: End processing [wodoo]: success
+[2023-05-25 00:26:34] INFO root fetch - main [MainThread]: End processing [characterai]: success
+[2023-05-25 00:26:34] INFO root fetch - main [MainThread]: End processing [aij]: success
+[2023-05-25 00:26:34] INFO root fetch - main [MainThread]: End processing [spark-etl]: success
+[2023-05-25 00:26:36] INFO root fetch - main [MainThread]: End processing [text2story]: success
+[2023-05-25 00:26:36] INFO root fetch - main [MainThread]: End processing [aggregate]: success
+[2023-05-25 00:26:37] INFO root fetch - main [MainThread]: End processing [tecton]: success
+[2023-05-25 00:27:20] INFO root fetch - main [MainThread]: End processing [esphome]: success
+[2023-05-25 00:27:20] INFO root fetch - main [MainThread]: Store serial: [18236589]
