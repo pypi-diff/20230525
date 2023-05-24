@@ -665,3 +665,52 @@
 [2023-05-25 00:54:10] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-05-25 00:54:20] INFO root fetch - main [MainThread]: End processing [Pyomo]: success
 [2023-05-25 00:54:20] INFO root fetch - main [MainThread]: Store serial: [18236879]
+[2023-05-25 00:59:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18236879]
+[2023-05-25 00:59:31] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-25 00:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metricflow
+[2023-05-25 00:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iiif-tools
+[2023-05-25 00:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: moto
+[2023-05-25 00:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jupysql
+[2023-05-25 00:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyAmang
+[2023-05-25 00:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ultralytics
+[2023-05-25 00:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tes-toolkit
+[2023-05-25 00:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sylk
+[2023-05-25 00:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: raptive-dp-hello-world
+[2023-05-25 00:59:31] INFO root fetch - processPackages [iiif-tools]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-25 00:59:31] INFO root fetch - processPackages [sylk]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-25 00:59:31] INFO root fetch - processPackages [metricflow]: New version: [0.93.0] Old Version: [0.92.1]
+[2023-05-25 00:59:31] INFO root fetch - processPackages [jupysql]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-05-25 00:59:31] INFO root fetch - processPackages [ultralytics]: New version: [8.0.99] Old Version: [8.0.98]
+[2023-05-25 00:59:31] INFO root fetch - processPackages [pyAmang]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-25 00:59:31] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-05-25 00:59:31] WARNING root fetch - processPackages [tes-toolkit]: Skipping, unable to determine old version
+[2023-05-25 00:59:31] INFO root fetch - main [MainThread]: End processing [tes-toolkit] error
+[2023-05-25 00:59:31] WARNING root fetch - processPackages [raptive-dp-hello-world]: Skipping, unable to determine old version
+[2023-05-25 00:59:31] INFO root fetch - main [MainThread]: End processing [raptive-dp-hello-world] error
+[2023-05-25 00:59:31] INFO root fetch - processPackages [sylk]: executing diffoscope
+[2023-05-25 00:59:31] INFO root fetch - processPackages [sylk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sylk-0.0.2-py3-none-any.whl.zip tmp/sylk-0.0.3-py3-none-any.whl.zip --markdown 20230525/s/sylk/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-25 00:59:31] INFO root fetch - processPackages [jupysql]: Downloading https://files.pythonhosted.org/packages/f2/b2/652f7bb72f6a406a673bb47e9741933ae6da70a2a61f16c2858148d533b6/jupysql-0.7.4.tar.gz
+[2023-05-25 00:59:31] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-05-25 00:59:31] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230525/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-05-25 00:59:31] INFO root fetch - processPackages [iiif-tools]: Downloading https://files.pythonhosted.org/packages/d8/a9/9cee9f7ad9a7db69586ec93ce74df72d096f9672742da30eeffb3aa7cf20/iiif_tools-0.0.1.tar.gz
+[2023-05-25 00:59:32] INFO root fetch - processPackages [pyAmang]: Downloading https://files.pythonhosted.org/packages/c9/29/18827dd7b52024b1cb77ed9b7d83359cef2a60459a760be153c067d9ed9b/pyAmang-1.0.4.tar.gz
+[2023-05-25 00:59:32] INFO root fetch - processPackages [metricflow]: executing diffoscope
+[2023-05-25 00:59:32] INFO root fetch - processPackages [metricflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metricflow-0.92.1.tar.gz tmp/metricflow-0.93.0.tar.gz --markdown 20230525/m/metricflow/0.92.1-0.93.0/diff.md --exclude *.pyd
+[2023-05-25 00:59:32] INFO root fetch - processPackages [iiif-tools]: Downloading https://files.pythonhosted.org/packages/bf/e7/fa300ee8cf5fc1dcfccdd8656c4f7776783bca3e9fa51507e76b53f1049d/iiif_tools-0.0.2.tar.gz
+[2023-05-25 00:59:32] INFO root fetch - processPackages [pyAmang]: executing diffoscope
+[2023-05-25 00:59:32] INFO root fetch - processPackages [pyAmang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAmang-1.0.3.tar.gz tmp/pyAmang-1.0.4.tar.gz --markdown 20230525/p/pyAmang/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-25 00:59:32] INFO root fetch - processPackages [ultralytics]: executing diffoscope
+[2023-05-25 00:59:32] INFO root fetch - processPackages [ultralytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics-8.0.98.tar.gz tmp/ultralytics-8.0.99.tar.gz --markdown 20230525/u/ultralytics/8.0.98-8.0.99/diff.md --exclude *.pyd
+[2023-05-25 00:59:32] INFO root fetch - processPackages [jupysql]: Downloading https://files.pythonhosted.org/packages/35/a5/285bd136cce7e5832e0dc77f902b6acf9ea72eacc72cec31a35abd7fb6a4/jupysql-0.7.5.tar.gz
+[2023-05-25 00:59:32] INFO root fetch - processPackages [iiif-tools]: executing diffoscope
+[2023-05-25 00:59:32] INFO root fetch - processPackages [iiif-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iiif_tools-0.0.1.tar.gz tmp/iiif_tools-0.0.2.tar.gz --markdown 20230525/i/iiif-tools/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-25 00:59:32] INFO root fetch - processPackages [jupysql]: executing diffoscope
+[2023-05-25 00:59:32] INFO root fetch - processPackages [jupysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupysql-0.7.4.tar.gz tmp/jupysql-0.7.5.tar.gz --markdown 20230525/j/jupysql/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-05-25 00:59:33] INFO root fetch - main [MainThread]: End processing [iiif-tools]: success
+[2023-05-25 00:59:33] INFO root fetch - main [MainThread]: End processing [jupysql]: success
+[2023-05-25 00:59:34] INFO root fetch - main [MainThread]: End processing [sylk]: success
+[2023-05-25 00:59:36] INFO root fetch - main [MainThread]: End processing [pyAmang]: success
+[2023-05-25 00:59:37] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
+[2023-05-25 00:59:41] INFO root fetch - main [MainThread]: End processing [metricflow]: success
+[2023-05-25 01:00:04] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-05-25 01:00:04] INFO root fetch - main [MainThread]: Store serial: [18236913]
