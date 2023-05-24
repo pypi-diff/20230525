@@ -383,3 +383,57 @@
 [2023-05-25 00:26:37] INFO root fetch - main [MainThread]: End processing [tecton]: success
 [2023-05-25 00:27:20] INFO root fetch - main [MainThread]: End processing [esphome]: success
 [2023-05-25 00:27:20] INFO root fetch - main [MainThread]: Store serial: [18236589]
+[2023-05-25 00:32:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18236589]
+[2023-05-25 00:32:29] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-25 00:32:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ovos-skill-date-time
+[2023-05-25 00:32:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netius
+[2023-05-25 00:32:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cubature
+[2023-05-25 00:32:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kedro-graphql
+[2023-05-25 00:32:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cleanvision
+[2023-05-25 00:32:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sensapex
+[2023-05-25 00:32:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gdstk
+[2023-05-25 00:32:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tlsxclient
+[2023-05-25 00:32:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: CanvasGroupy
+[2023-05-25 00:32:29] INFO root fetch - processPackages [cubature]: New version: [0.17.2] Old Version: [0.16.0]
+[2023-05-25 00:32:29] WARNING root fetch - processPackages [tlsxclient]: Skipping, unable to determine old version
+[2023-05-25 00:32:29] INFO root fetch - main [MainThread]: End processing [tlsxclient] error
+[2023-05-25 00:32:29] INFO root fetch - processPackages [sensapex]: New version: [1.400.0] Old Version: [1.22.8]
+[2023-05-25 00:32:29] INFO root fetch - processPackages [ovos-skill-date-time]: New version: [0.2.3a3] Old Version: [0.2.3a2]
+[2023-05-25 00:32:29] INFO root fetch - processPackages [kedro-graphql]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-25 00:32:29] INFO root fetch - processPackages [cleanvision]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-05-25 00:32:29] INFO root fetch - processPackages [netius]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-25 00:32:29] INFO root fetch - processPackages [gdstk]: New version: [0.9.40] Old Version: [0.9.39]
+[2023-05-25 00:32:29] WARNING root fetch - processPackages [CanvasGroupy]: Skipping, unable to determine old version
+[2023-05-25 00:32:29] INFO root fetch - main [MainThread]: End processing [CanvasGroupy] error
+[2023-05-25 00:32:29] INFO root fetch - processPackages [cubature]: Downloading https://files.pythonhosted.org/packages/d2/d0/337a8f0abada57745a5ecc82d76a4fba2b53439ca1721c5756aaaa243a75/cubature-0.16.0.tar.gz
+[2023-05-25 00:32:29] INFO root fetch - processPackages [sensapex]: Downloading https://files.pythonhosted.org/packages/70/59/10cf505af5624b1c2f315e2d81f3ac6340251686c903e073ffa379552fc7/sensapex-1.22.8.tar.gz
+[2023-05-25 00:32:29] INFO root fetch - processPackages [netius]: Downloading https://files.pythonhosted.org/packages/9f/cc/dc560e40bf54c9601334ae223b2bb1ec702b72c9561f3970f7bcb424e915/netius-1.9.8.tar.gz
+[2023-05-25 00:32:29] INFO root fetch - processPackages [gdstk]: Downloading https://files.pythonhosted.org/packages/3d/73/f78c808e4f404f8fc9621c1843ce6e77b06a25cea8771604819d6f85c34f/gdstk-0.9.39.tar.gz
+[2023-05-25 00:32:29] INFO root fetch - processPackages [cleanvision]: Downloading https://files.pythonhosted.org/packages/4f/3a/73ee54c2ee960c0c0c14b0146ed9c7d34313321e05bae6e1d783c719438e/cleanvision-0.2.1.tar.gz
+[2023-05-25 00:32:29] WARNING root fetch - processPackages [cubature]: Skipping package: exceeds size limit 15597880>=10485760
+[2023-05-25 00:32:29] INFO root fetch - main [MainThread]: End processing [cubature] error
+[2023-05-25 00:32:30] INFO root fetch - processPackages [ovos-skill-date-time]: Downloading https://files.pythonhosted.org/packages/a9/c2/e29031dedaf8138379955364542a9d915017236a9d06bf0852474e2867bb/ovos_skill_date_time-0.2.3a3-py3-none-any.whl
+[2023-05-25 00:32:30] INFO root fetch - processPackages [kedro-graphql]: Downloading https://files.pythonhosted.org/packages/dc/04/287d4965413dca76e2b72917bf38eca87a66db58cf1315bed67345290df9/kedro-graphql-0.3.0.tar.gz
+[2023-05-25 00:32:30] INFO root fetch - processPackages [kedro-graphql]: executing diffoscope
+[2023-05-25 00:32:30] INFO root fetch - processPackages [kedro-graphql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kedro-graphql-0.2.0.tar.gz tmp/kedro-graphql-0.3.0.tar.gz --markdown 20230525/k/kedro-graphql/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-25 00:32:30] INFO root fetch - processPackages [sensapex]: Downloading https://files.pythonhosted.org/packages/8a/b6/067c604a65db4a57a631d1fb02a7e05a940a692d0da9a94cbbb6ea96115e/sensapex-1.400.0.tar.gz
+[2023-05-25 00:32:30] INFO root fetch - processPackages [cleanvision]: Downloading https://files.pythonhosted.org/packages/db/f5/140eb73583f240f7a7bde04a304dd8121bf1ce91b7853905368d52899d5a/cleanvision-0.3.0.tar.gz
+[2023-05-25 00:32:30] INFO root fetch - processPackages [ovos-skill-date-time]: executing diffoscope
+[2023-05-25 00:32:30] INFO root fetch - processPackages [ovos-skill-date-time]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_skill_date_time-0.2.3a2-py3-none-any.whl.zip tmp/ovos_skill_date_time-0.2.3a3-py3-none-any.whl.zip --markdown 20230525/o/ovos-skill-date-time/0.2.3a2-0.2.3a3/diff.md --exclude *.pyd
+[2023-05-25 00:32:30] INFO root fetch - processPackages [sensapex]: executing diffoscope
+[2023-05-25 00:32:30] INFO root fetch - processPackages [sensapex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sensapex-1.22.8.tar.gz tmp/sensapex-1.400.0.tar.gz --markdown 20230525/s/sensapex/1.22.8-1.400.0/diff.md --exclude *.pyd
+[2023-05-25 00:32:30] INFO root fetch - processPackages [gdstk]: Downloading https://files.pythonhosted.org/packages/ca/78/c135e333fc771f27e1354d194061683ce9e34bd18e75b3c60f3026642f17/gdstk-0.9.40.tar.gz
+[2023-05-25 00:32:30] INFO root fetch - processPackages [netius]: Downloading https://files.pythonhosted.org/packages/09/62/273601b12c7e9be2c0f6956c568061931e7a8fe285e01d76085d66dc161c/netius-1.9.9.tar.gz
+[2023-05-25 00:32:30] INFO root fetch - processPackages [cleanvision]: executing diffoscope
+[2023-05-25 00:32:30] INFO root fetch - processPackages [cleanvision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cleanvision-0.2.1.tar.gz tmp/cleanvision-0.3.0.tar.gz --markdown 20230525/c/cleanvision/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-05-25 00:32:30] INFO root fetch - processPackages [gdstk]: executing diffoscope
+[2023-05-25 00:32:30] INFO root fetch - processPackages [gdstk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdstk-0.9.39.tar.gz tmp/gdstk-0.9.40.tar.gz --markdown 20230525/g/gdstk/0.9.39-0.9.40/diff.md --exclude *.pyd
+[2023-05-25 00:32:30] INFO root fetch - processPackages [netius]: executing diffoscope
+[2023-05-25 00:32:30] INFO root fetch - processPackages [netius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netius-1.9.8.tar.gz tmp/netius-1.9.9.tar.gz --markdown 20230525/n/netius/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-25 00:32:31] INFO root fetch - main [MainThread]: End processing [kedro-graphql]: success
+[2023-05-25 00:32:31] INFO root fetch - main [MainThread]: End processing [sensapex]: success
+[2023-05-25 00:32:31] INFO root fetch - main [MainThread]: End processing [cleanvision]: success
+[2023-05-25 00:32:32] INFO root fetch - main [MainThread]: End processing [gdstk]: success
+[2023-05-25 00:32:32] INFO root fetch - main [MainThread]: End processing [netius]: success
+[2023-05-25 00:32:38] INFO root fetch - main [MainThread]: End processing [ovos-skill-date-time]: success
+[2023-05-25 00:32:38] INFO root fetch - main [MainThread]: Store serial: [18236663]
