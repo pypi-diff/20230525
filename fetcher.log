@@ -520,3 +520,39 @@
 [2023-05-25 00:37:53] INFO root fetch - main [MainThread]: End processing [text2story]: success
 [2023-05-25 00:37:56] INFO root fetch - main [MainThread]: End processing [onnxruntime-azure]: success
 [2023-05-25 00:37:56] INFO root fetch - main [MainThread]: Store serial: [18236758]
+[2023-05-25 00:43:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18236758]
+[2023-05-25 00:43:05] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-25 00:43:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: intecomm-edc
+[2023-05-25 00:43:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ata-db-models
+[2023-05-25 00:43:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: termcolor-dg
+[2023-05-25 00:43:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: apiip
+[2023-05-25 00:43:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stac-asset
+[2023-05-25 00:43:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: horizonai
+[2023-05-25 00:43:05] INFO root fetch - processPackages [termcolor-dg]: New version: [1.0.0] Old Version: [0.9.3.2]
+[2023-05-25 00:43:05] INFO root fetch - processPackages [ata-db-models]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 00:43:05] INFO root fetch - processPackages [intecomm-edc]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-25 00:43:05] INFO root fetch - processPackages [horizonai]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-25 00:43:05] WARNING root fetch - processPackages [stac-asset]: Skipping, unable to determine old version
+[2023-05-25 00:43:05] INFO root fetch - main [MainThread]: End processing [stac-asset] error
+[2023-05-25 00:43:05] INFO root fetch - processPackages [apiip]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-25 00:43:05] INFO root fetch - processPackages [ata-db-models]: Downloading https://files.pythonhosted.org/packages/72/47/755779d5d081cb7fa5335b95e80df86dcb05070272bed7f92ad409b6269f/ata-db-models-0.0.8.tar.gz
+[2023-05-25 00:43:05] INFO root fetch - processPackages [termcolor-dg]: Downloading https://files.pythonhosted.org/packages/e7/0c/52ab7922cfff9bf8e1beb63db082cfec6c86a03fd53dc7e8abc29f328c37/termcolor_dg-0.9.3.2.tar.gz
+[2023-05-25 00:43:05] INFO root fetch - processPackages [intecomm-edc]: executing diffoscope
+[2023-05-25 00:43:05] INFO root fetch - processPackages [intecomm-edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intecomm-edc-0.1.8.tar.gz tmp/intecomm-edc-0.1.9.tar.gz --markdown 20230525/i/intecomm-edc/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-25 00:43:05] INFO root fetch - processPackages [horizonai]: executing diffoscope
+[2023-05-25 00:43:05] INFO root fetch - processPackages [horizonai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/horizonai-0.1.8.tar.gz tmp/horizonai-0.1.9.tar.gz --markdown 20230525/h/horizonai/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-25 00:43:05] INFO root fetch - processPackages [apiip]: Downloading https://files.pythonhosted.org/packages/20/9c/5cfad00b95175ccaa9350f662a24e0e5defad2424d7846503702f31d35c2/apiip-1.0.3.tar.gz
+[2023-05-25 00:43:05] INFO root fetch - processPackages [ata-db-models]: Downloading https://files.pythonhosted.org/packages/c6/bd/bb1f9829b9409db55fc6cbc7c7baac29902de817eb0302dd559b4604b9ed/ata-db-models-0.0.9.tar.gz
+[2023-05-25 00:43:05] INFO root fetch - processPackages [termcolor-dg]: Downloading https://files.pythonhosted.org/packages/0d/52/563041c15c003e5aff79f0b6523cc1a502b5f5d64fb14388aeed0f082b9c/termcolor_dg-1.0.0.tar.gz
+[2023-05-25 00:43:05] INFO root fetch - processPackages [termcolor-dg]: executing diffoscope
+[2023-05-25 00:43:05] INFO root fetch - processPackages [termcolor-dg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/termcolor_dg-0.9.3.2.tar.gz tmp/termcolor_dg-1.0.0.tar.gz --markdown 20230525/t/termcolor-dg/0.9.3.2-1.0.0/diff.md --exclude *.pyd
+[2023-05-25 00:43:05] INFO root fetch - processPackages [apiip]: executing diffoscope
+[2023-05-25 00:43:05] INFO root fetch - processPackages [apiip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apiip-1.0.2.tar.gz tmp/apiip-1.0.3.tar.gz --markdown 20230525/a/apiip/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-25 00:43:05] INFO root fetch - processPackages [ata-db-models]: executing diffoscope
+[2023-05-25 00:43:05] INFO root fetch - processPackages [ata-db-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ata-db-models-0.0.8.tar.gz tmp/ata-db-models-0.0.9.tar.gz --markdown 20230525/a/ata-db-models/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 00:43:06] INFO root fetch - main [MainThread]: End processing [apiip]: success
+[2023-05-25 00:43:06] INFO root fetch - main [MainThread]: End processing [horizonai]: success
+[2023-05-25 00:43:07] INFO root fetch - main [MainThread]: End processing [ata-db-models]: success
+[2023-05-25 00:43:07] INFO root fetch - main [MainThread]: End processing [termcolor-dg]: success
+[2023-05-25 00:43:10] INFO root fetch - main [MainThread]: End processing [intecomm-edc]: success
+[2023-05-25 00:43:10] INFO root fetch - main [MainThread]: Store serial: [18236789]
