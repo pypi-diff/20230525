@@ -630,3 +630,38 @@
 [2023-05-25 00:48:22] INFO root fetch - main [MainThread]: End processing [steamship]: success
 [2023-05-25 00:48:26] INFO root fetch - main [MainThread]: End processing [pyAmang]: success
 [2023-05-25 00:48:26] INFO root fetch - main [MainThread]: Store serial: [18236835]
+[2023-05-25 00:53:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18236835]
+[2023-05-25 00:53:35] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-25 00:53:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aqueduct-sdk
+[2023-05-25 00:53:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Pyomo
+[2023-05-25 00:53:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aqueduct-ml
+[2023-05-25 00:53:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sas7bdat-converter-cli
+[2023-05-25 00:53:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: moto
+[2023-05-25 00:53:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: arize-phoenix
+[2023-05-25 00:53:35] WARNING root fetch - processPackages [sas7bdat-converter-cli]: Skipping, unable to determine old version
+[2023-05-25 00:53:35] INFO root fetch - main [MainThread]: End processing [sas7bdat-converter-cli] error
+[2023-05-25 00:53:35] INFO root fetch - processPackages [aqueduct-sdk]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-25 00:53:35] INFO root fetch - processPackages [aqueduct-ml]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-25 00:53:36] INFO root fetch - processPackages [arize-phoenix]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 00:53:36] INFO root fetch - processPackages [Pyomo]: New version: [6.6.0] Old Version: [6.5.0]
+[2023-05-25 00:53:36] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-05-25 00:53:36] INFO root fetch - processPackages [Pyomo]: Downloading https://files.pythonhosted.org/packages/f6/e1/4245e936293827a8491cc6c80a89537946e69738fd83053f7ae2928ada7d/Pyomo-6.5.0.tar.gz
+[2023-05-25 00:53:36] INFO root fetch - processPackages [arize-phoenix]: executing diffoscope
+[2023-05-25 00:53:36] INFO root fetch - processPackages [arize-phoenix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arize_phoenix-0.0.8.tar.gz tmp/arize_phoenix-0.0.9.tar.gz --markdown 20230525/a/arize-phoenix/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 00:53:36] INFO root fetch - processPackages [aqueduct-ml]: Downloading https://files.pythonhosted.org/packages/a1/02/99092633b77801b961e2fe39d6ba1e8bf6f29170f5f142c8215ed5c35094/aqueduct-ml-0.3.4.tar.gz
+[2023-05-25 00:53:36] INFO root fetch - processPackages [aqueduct-sdk]: Downloading https://files.pythonhosted.org/packages/1e/05/2dc2a398c6285eceb2d419123ee0fb68356ba801069efa6fa5cf56835f08/aqueduct-sdk-0.3.4.tar.gz
+[2023-05-25 00:53:36] INFO root fetch - processPackages [aqueduct-ml]: executing diffoscope
+[2023-05-25 00:53:36] INFO root fetch - processPackages [aqueduct-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aqueduct-ml-0.3.3.tar.gz tmp/aqueduct-ml-0.3.4.tar.gz --markdown 20230525/a/aqueduct-ml/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-25 00:53:36] INFO root fetch - processPackages [aqueduct-sdk]: executing diffoscope
+[2023-05-25 00:53:36] INFO root fetch - processPackages [aqueduct-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aqueduct-sdk-0.3.3.tar.gz tmp/aqueduct-sdk-0.3.4.tar.gz --markdown 20230525/a/aqueduct-sdk/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-25 00:53:36] INFO root fetch - processPackages [Pyomo]: Downloading https://files.pythonhosted.org/packages/57/33/b61a59ef3c48b5e2878af072b030fa3cf6bc05d07c17d2361b295bd0853a/Pyomo-6.6.0.tar.gz
+[2023-05-25 00:53:36] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-05-25 00:53:36] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230525/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-05-25 00:53:36] INFO root fetch - processPackages [Pyomo]: executing diffoscope
+[2023-05-25 00:53:36] INFO root fetch - processPackages [Pyomo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pyomo-6.5.0.tar.gz tmp/Pyomo-6.6.0.tar.gz --markdown 20230525/P/Pyomo/6.5.0-6.6.0/diff.md --exclude *.pyd
+[2023-05-25 00:53:38] INFO root fetch - main [MainThread]: End processing [aqueduct-ml]: success
+[2023-05-25 00:53:38] INFO root fetch - main [MainThread]: End processing [aqueduct-sdk]: success
+[2023-05-25 00:53:55] INFO root fetch - main [MainThread]: End processing [arize-phoenix]: success
+[2023-05-25 00:54:10] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-05-25 00:54:20] INFO root fetch - main [MainThread]: End processing [Pyomo]: success
+[2023-05-25 00:54:20] INFO root fetch - main [MainThread]: Store serial: [18236879]
