@@ -1294,3 +1294,36 @@
 [2023-05-25 01:53:12] INFO root fetch - main [MainThread]: End processing [cerc-geometry]: success
 [2023-05-25 01:53:22] INFO root fetch - main [MainThread]: End processing [polyfile]: success
 [2023-05-25 01:53:22] INFO root fetch - main [MainThread]: Store serial: [18237308]
+[2023-05-25 01:58:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18237308]
+[2023-05-25 01:58:32] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-25 01:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-sops-secrets
+[2023-05-25 01:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arc-cli
+[2023-05-25 01:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coiled
+[2023-05-25 01:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DataDoctor
+[2023-05-25 01:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hagrid
+[2023-05-25 01:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chalk-harness
+[2023-05-25 01:58:32] INFO root fetch - processPackages [chalk-harness]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-25 01:58:32] INFO root fetch - processPackages [arc-cli]: New version: [8.4.2] Old Version: [8.4.1]
+[2023-05-25 01:58:32] WARNING root fetch - processPackages [DataDoctor]: Skipping, unable to determine old version
+[2023-05-25 01:58:32] INFO root fetch - main [MainThread]: End processing [DataDoctor] error
+[2023-05-25 01:58:32] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-05-25 01:58:32] INFO root fetch - processPackages [hagrid]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-25 01:58:32] INFO root fetch - processPackages [coiled]: New version: [0.6.8.dev6] Old Version: [0.6.8.dev5]
+[2023-05-25 01:58:32] INFO root fetch - processPackages [chalk-harness]: executing diffoscope
+[2023-05-25 01:58:32] INFO root fetch - processPackages [chalk-harness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalk-harness-0.9.8.tar.gz tmp/chalk-harness-0.9.9.tar.gz --markdown 20230525/c/chalk-harness/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-25 01:58:32] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-05-25 01:58:32] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230525/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-05-25 01:58:32] INFO root fetch - processPackages [arc-cli]: Downloading https://files.pythonhosted.org/packages/4a/2c/96454ae90e33c1efa09b506cfb076f03cce818e0396997902bb8ed24821f/arc_cli-8.4.2.tar.gz
+[2023-05-25 01:58:32] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/d6/52/4865ad29f0197b629d3c4f102cb1904a4766790af271012a683aa55d1421/coiled-0.6.8.dev6.tar.gz
+[2023-05-25 01:58:33] INFO root fetch - processPackages [hagrid]: executing diffoscope
+[2023-05-25 01:58:33] INFO root fetch - processPackages [hagrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagrid-0.3.8.tar.gz tmp/hagrid-0.3.9.tar.gz --markdown 20230525/h/hagrid/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-25 01:58:33] INFO root fetch - processPackages [arc-cli]: executing diffoscope
+[2023-05-25 01:58:33] INFO root fetch - processPackages [arc-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arc_cli-8.4.1.tar.gz tmp/arc_cli-8.4.2.tar.gz --markdown 20230525/a/arc-cli/8.4.1-8.4.2/diff.md --exclude *.pyd
+[2023-05-25 01:58:33] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-25 01:58:33] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.6.8.dev5.tar.gz tmp/coiled-0.6.8.dev6.tar.gz --markdown 20230525/c/coiled/0.6.8.dev5-0.6.8.dev6/diff.md --exclude *.pyd
+[2023-05-25 01:58:33] INFO root fetch - main [MainThread]: End processing [chalk-harness]: success
+[2023-05-25 01:58:34] INFO root fetch - main [MainThread]: End processing [hagrid]: success
+[2023-05-25 01:58:34] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-05-25 01:58:34] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-25 01:58:34] INFO root fetch - main [MainThread]: End processing [arc-cli]: success
+[2023-05-25 01:58:34] INFO root fetch - main [MainThread]: Store serial: [18237328]
