@@ -437,3 +437,86 @@
 [2023-05-25 00:32:32] INFO root fetch - main [MainThread]: End processing [netius]: success
 [2023-05-25 00:32:38] INFO root fetch - main [MainThread]: End processing [ovos-skill-date-time]: success
 [2023-05-25 00:32:38] INFO root fetch - main [MainThread]: Store serial: [18236663]
+[2023-05-25 00:37:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18236663]
+[2023-05-25 00:37:47] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-25 00:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: almapiwrapper
+[2023-05-25 00:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arraykit
+[2023-05-25 00:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: text2story
+[2023-05-25 00:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: onnxruntime-azure
+[2023-05-25 00:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lidl-plus
+[2023-05-25 00:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: edc-qol
+[2023-05-25 00:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: unstructured
+[2023-05-25 00:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dash-connectivity-viewer
+[2023-05-25 00:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: launchflow
+[2023-05-25 00:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: modelaapi
+[2023-05-25 00:37:48] INFO root fetch - processPackages [unstructured]: New version: [0.6.8] Old Version: [0.6.7]
+[2023-05-25 00:37:48] INFO root fetch - processPackages [edc-qol]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-25 00:37:48] INFO root fetch - processPackages [arraykit]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-05-25 00:37:48] INFO root fetch - processPackages [dash-connectivity-viewer]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-25 00:37:48] INFO root fetch - processPackages [lidl-plus]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-25 00:37:48] INFO root fetch - processPackages [onnxruntime-azure]: New version: [1.15.0] Old Version: [1.14.0]
+[2023-05-25 00:37:48] INFO root fetch - processPackages [text2story]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-25 00:37:48] INFO root fetch - processPackages [launchflow]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-25 00:37:48] INFO root fetch - processPackages [almapiwrapper]: New version: [0.9.0] Old Version: [0.8.6]
+[2023-05-25 00:37:48] INFO root fetch - processPackages [modelaapi]: New version: [0.6.100] Old Version: [0.6]
+[2023-05-25 00:37:48] INFO root fetch - processPackages [edc-qol]: executing diffoscope
+[2023-05-25 00:37:48] INFO root fetch - processPackages [edc-qol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-qol-0.1.8.tar.gz tmp/edc-qol-0.1.9.tar.gz --markdown 20230525/e/edc-qol/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-25 00:37:48] INFO root fetch - processPackages [dash-connectivity-viewer]: executing diffoscope
+[2023-05-25 00:37:48] INFO root fetch - processPackages [dash-connectivity-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash-connectivity-viewer-2.0.8.tar.gz tmp/dash-connectivity-viewer-2.0.9.tar.gz --markdown 20230525/d/dash-connectivity-viewer/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-25 00:37:48] INFO root fetch - processPackages [onnxruntime-azure]: Downloading https://files.pythonhosted.org/packages/c3/56/9a710263f328540cc8f0f15081285f72f0fc1579c93bd687f4cd8e3fae7a/onnxruntime_azure-1.14.0-cp39-cp39-win_amd64.whl
+[2023-05-25 00:37:48] INFO root fetch - processPackages [lidl-plus]: Downloading https://files.pythonhosted.org/packages/5b/95/d175b99114751b31fe2a11333ff80fd790ba541b56644b0474baa2008dfb/lidl-plus-0.2.3.tar.gz
+[2023-05-25 00:37:48] INFO root fetch - processPackages [launchflow]: Downloading https://files.pythonhosted.org/packages/2a/b0/56dc7bd9ba2263bd34aa1a371f6b9c20aea5efc162d9c5179983dcd3fd1b/launchflow-0.1.8.tar.gz
+[2023-05-25 00:37:48] WARNING root fetch - processPackages [launchflow]: Skipping package: exceeds size limit 96610312>=10485760
+[2023-05-25 00:37:48] INFO root fetch - processPackages [launchflow]: Start processing: wodoo
+[2023-05-25 00:37:48] INFO root fetch - main [MainThread]: End processing [launchflow] error
+[2023-05-25 00:37:48] INFO root fetch - processPackages [text2story]: Downloading https://files.pythonhosted.org/packages/80/ee/71ce7141a2b56fa418ede7482d975ec1beb769879025d512aad6a0745478/text2story-1.2.9.tar.gz
+[2023-05-25 00:37:48] INFO root fetch - processPackages [wodoo]: New version: [0.3.99] Old Version: [0.3.96]
+[2023-05-25 00:37:48] INFO root fetch - processPackages [arraykit]: Downloading https://files.pythonhosted.org/packages/d2/80/9c7c6e1ec819db7dc69c3dc83bd8e393492ed419113d6f2d03f2f6166285/arraykit-0.4.6.tar.gz
+[2023-05-25 00:37:48] INFO root fetch - processPackages [unstructured]: executing diffoscope
+[2023-05-25 00:37:48] INFO root fetch - processPackages [unstructured]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unstructured-0.6.7.tar.gz tmp/unstructured-0.6.8.tar.gz --markdown 20230525/u/unstructured/0.6.7-0.6.8/diff.md --exclude *.pyd
+[2023-05-25 00:37:48] INFO root fetch - processPackages [arraykit]: executing diffoscope
+[2023-05-25 00:37:48] INFO root fetch - processPackages [arraykit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arraykit-0.4.5.tar.gz tmp/arraykit-0.4.6.tar.gz --markdown 20230525/a/arraykit/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-05-25 00:37:48] INFO root fetch - processPackages [wodoo]: executing diffoscope
+[2023-05-25 00:37:48] INFO root fetch - processPackages [wodoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wodoo-0.3.96.tar.gz tmp/wodoo-0.3.99.tar.gz --markdown 20230525/w/wodoo/0.3.96-0.3.99/diff.md --exclude *.pyd
+[2023-05-25 00:37:48] INFO root fetch - processPackages [text2story]: executing diffoscope
+[2023-05-25 00:37:48] INFO root fetch - processPackages [text2story]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text2story-1.2.8.tar.gz tmp/text2story-1.2.9.tar.gz --markdown 20230525/t/text2story/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-25 00:37:48] INFO root fetch - processPackages [modelaapi]: Downloading https://files.pythonhosted.org/packages/da/4e/1c49e213eb81059fdb61552c502bef8a9cfd53d6d8029d1f005a8004e582/modelaapi-0.6.100.tar.gz
+[2023-05-25 00:37:48] INFO root fetch - processPackages [lidl-plus]: Downloading https://files.pythonhosted.org/packages/bd/68/3de6333132cf10dcf18985baeaed2be4b078724534ba675b61240767ed56/lidl-plus-0.2.4.tar.gz
+[2023-05-25 00:37:48] INFO root fetch - processPackages [almapiwrapper]: executing diffoscope
+[2023-05-25 00:37:48] INFO root fetch - processPackages [almapiwrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/almapiwrapper-0.8.6.tar.gz tmp/almapiwrapper-0.9.0.tar.gz --markdown 20230525/a/almapiwrapper/0.8.6-0.9.0/diff.md --exclude *.pyd
+[2023-05-25 00:37:48] INFO root fetch - processPackages [lidl-plus]: executing diffoscope
+[2023-05-25 00:37:48] INFO root fetch - processPackages [lidl-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lidl-plus-0.2.3.tar.gz tmp/lidl-plus-0.2.4.tar.gz --markdown 20230525/l/lidl-plus/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-25 00:37:48] INFO root fetch - processPackages [modelaapi]: executing diffoscope
+[2023-05-25 00:37:48] INFO root fetch - processPackages [modelaapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelaapi-0.6.tar.gz tmp/modelaapi-0.6.100.tar.gz --markdown 20230525/m/modelaapi/0.6-0.6.100/diff.md --exclude *.pyd
+[2023-05-25 00:37:49] INFO root fetch - processPackages [onnxruntime-azure]: Downloading https://files.pythonhosted.org/packages/51/61/783508723c4dc14bd6dea6600e5fc8083e68deba326f8f5f05697f1fbc7d/onnxruntime_azure-1.15.0-cp39-cp39-win_amd64.whl
+[2023-05-25 00:37:49] INFO root fetch - processPackages [edc-qol]: Start processing: edc
+[2023-05-25 00:37:49] INFO root fetch - main [MainThread]: End processing [edc-qol]: success
+[2023-05-25 00:37:49] INFO root fetch - processPackages [edc]: New version: [0.4.94] Old Version: [0.4.93]
+[2023-05-25 00:37:49] INFO root fetch - processPackages [dash-connectivity-viewer]: Start processing: opvious
+[2023-05-25 00:37:49] INFO root fetch - main [MainThread]: End processing [dash-connectivity-viewer]: success
+[2023-05-25 00:37:49] INFO root fetch - processPackages [opvious]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-25 00:37:49] INFO root fetch - processPackages [opvious]: executing diffoscope
+[2023-05-25 00:37:49] INFO root fetch - processPackages [opvious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opvious-0.9.5.tar.gz tmp/opvious-0.9.6.tar.gz --markdown 20230525/o/opvious/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-25 00:37:50] INFO root fetch - processPackages [edc]: Downloading https://files.pythonhosted.org/packages/62/4d/fd2b106cce127fc6e6b14556ed2bec31e7bc0b3c09967ebee69b1ce2c243/edc-0.4.94.tar.gz
+[2023-05-25 00:37:50] INFO root fetch - processPackages [edc]: executing diffoscope
+[2023-05-25 00:37:50] INFO root fetch - processPackages [edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-0.4.93.tar.gz tmp/edc-0.4.94.tar.gz --markdown 20230525/e/edc/0.4.93-0.4.94/diff.md --exclude *.pyd
+[2023-05-25 00:37:50] INFO root fetch - processPackages [lidl-plus]: Start processing: seutil
+[2023-05-25 00:37:50] INFO root fetch - main [MainThread]: End processing [lidl-plus]: success
+[2023-05-25 00:37:50] INFO root fetch - processPackages [seutil]: New version: [0.8.8] Old Version: [0.8.7]
+[2023-05-25 00:37:50] INFO root fetch - processPackages [seutil]: Downloading https://files.pythonhosted.org/packages/2c/ae/e7be04c764834f853d2b02043145ebb7eb2f90fb796b1ee1de2339178761/seutil-0.8.7.tar.gz
+[2023-05-25 00:37:50] INFO root fetch - processPackages [seutil]: Downloading https://files.pythonhosted.org/packages/11/b4/38d952d00bc3d8332233ec6dd425434e6297406b97398775d688dbe1ffc6/seutil-0.8.8.tar.gz
+[2023-05-25 00:37:50] INFO root fetch - main [MainThread]: End processing [arraykit]: success
+[2023-05-25 00:37:50] INFO root fetch - processPackages [onnxruntime-azure]: executing diffoscope
+[2023-05-25 00:37:50] INFO root fetch - processPackages [onnxruntime-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnxruntime_azure-1.14.0-cp39-cp39-win_amd64.whl.zip tmp/onnxruntime_azure-1.15.0-cp39-cp39-win_amd64.whl.zip --markdown 20230525/o/onnxruntime-azure/1.14.0-1.15.0/diff.md --exclude *.pyd
+[2023-05-25 00:37:50] INFO root fetch - processPackages [seutil]: executing diffoscope
+[2023-05-25 00:37:50] INFO root fetch - processPackages [seutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seutil-0.8.7.tar.gz tmp/seutil-0.8.8.tar.gz --markdown 20230525/s/seutil/0.8.7-0.8.8/diff.md --exclude *.pyd
+[2023-05-25 00:37:51] INFO root fetch - main [MainThread]: End processing [opvious]: success
+[2023-05-25 00:37:51] INFO root fetch - main [MainThread]: End processing [almapiwrapper]: success
+[2023-05-25 00:37:51] INFO root fetch - main [MainThread]: End processing [edc]: success
+[2023-05-25 00:37:51] INFO root fetch - main [MainThread]: End processing [wodoo]: success
+[2023-05-25 00:37:52] INFO root fetch - main [MainThread]: End processing [modelaapi]: success
+[2023-05-25 00:37:52] INFO root fetch - main [MainThread]: End processing [seutil]: success
+[2023-05-25 00:37:52] INFO root fetch - main [MainThread]: End processing [unstructured]: success
+[2023-05-25 00:37:53] INFO root fetch - main [MainThread]: End processing [text2story]: success
+[2023-05-25 00:37:56] INFO root fetch - main [MainThread]: End processing [onnxruntime-azure]: success
+[2023-05-25 00:37:56] INFO root fetch - main [MainThread]: Store serial: [18236758]
