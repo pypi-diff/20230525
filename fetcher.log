@@ -166,3 +166,77 @@
 [2023-05-25 00:10:14] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-05-25 00:10:14] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-05-25 00:10:14] INFO root fetch - main [MainThread]: Store serial: [18236424]
+[2023-05-25 00:15:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18236424]
+[2023-05-25 00:15:23] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-25 00:15:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: My-own-serializer
+[2023-05-25 00:15:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kfish
+[2023-05-25 00:15:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cellmachine
+[2023-05-25 00:15:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edges-io
+[2023-05-25 00:15:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: humanloop
+[2023-05-25 00:15:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: coastseg
+[2023-05-25 00:15:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gridappsd-python
+[2023-05-25 00:15:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gridappsd-field-bus
+[2023-05-25 00:15:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: text2story
+[2023-05-25 00:15:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: service-configuration-lib
+[2023-05-25 00:15:23] INFO root fetch - processPackages [cellmachine]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-25 00:15:23] INFO root fetch - processPackages [kfish]: New version: [99.0.202305242211] Old Version: [99.0.202305241202]
+[2023-05-25 00:15:23] INFO root fetch - processPackages [edges-io]: New version: [4.1.4] Old Version: [4.1.3]
+[2023-05-25 00:15:23] WARNING root fetch - processPackages [My-own-serializer]: Skipping, unable to determine old version
+[2023-05-25 00:15:23] INFO root fetch - processPackages [My-own-serializer]: Start processing: gkligo
+[2023-05-25 00:15:23] INFO root fetch - processPackages [coastseg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 00:15:23] INFO root fetch - main [MainThread]: End processing [My-own-serializer] error
+[2023-05-25 00:15:23] INFO root fetch - processPackages [text2story]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-05-25 00:15:23] INFO root fetch - processPackages [gkligo]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-25 00:15:23] INFO root fetch - processPackages [coastseg]: Downloading https://files.pythonhosted.org/packages/75/3b/19efffac60ef69a861417a37a370dc3f3a497cb93009fe8fff8dda38b476/coastseg-0.0.8.tar.gz
+[2023-05-25 00:15:23] INFO root fetch - processPackages [gridappsd-field-bus]: New version: [2023.5.1a9] Old Version: [2023.5.1a8]
+[2023-05-25 00:15:23] INFO root fetch - processPackages [text2story]: executing diffoscope
+[2023-05-25 00:15:23] INFO root fetch - processPackages [text2story]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text2story-1.2.5.tar.gz tmp/text2story-1.2.6.tar.gz --markdown 20230525/t/text2story/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-05-25 00:15:23] INFO root fetch - processPackages [service-configuration-lib]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-05-25 00:15:23] WARNING root fetch - processPackages [coastseg]: Skipping package: exceeds size limit 38421077>=10485760
+[2023-05-25 00:15:23] INFO root fetch - processPackages [coastseg]: Start processing: bpnet-lite
+[2023-05-25 00:15:23] INFO root fetch - main [MainThread]: End processing [coastseg] error
+[2023-05-25 00:15:23] INFO root fetch - processPackages [gridappsd-python]: New version: [2023.5.1a9] Old Version: [2023.5.1a8]
+[2023-05-25 00:15:23] INFO root fetch - processPackages [humanloop]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-05-25 00:15:23] INFO root fetch - processPackages [bpnet-lite]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-05-25 00:15:23] INFO root fetch - processPackages [cellmachine]: Downloading https://files.pythonhosted.org/packages/9a/9d/3b1e0f31957b26447a587b5c1a31db9eb01b4d24a7680a9eab5f8df2d965/cellmachine-1.0.1.tar.gz
+[2023-05-25 00:15:23] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/d0/77/1a04ba3d910248fe55317a1545c56dafdff753efa01630d254860d060bbb/kfish-99.0.202305241202-py3-none-any.whl
+[2023-05-25 00:15:23] INFO root fetch - processPackages [edges-io]: Downloading https://files.pythonhosted.org/packages/e4/ad/7738963b9aee0fac9a478f35f35f2f12ade9d272d8aaf2928609ff0b42f4/edges-io-4.1.3.tar.gz
+[2023-05-25 00:15:23] INFO root fetch - processPackages [gkligo]: Downloading https://files.pythonhosted.org/packages/70/0d/b31f25c3a79a88aebaab0071e9140431a6444995cbe243c6cc957fa6e03b/gkligo-0.1.1.tar.gz
+[2023-05-25 00:15:23] INFO root fetch - processPackages [gridappsd-field-bus]: Downloading https://files.pythonhosted.org/packages/53/31/ac27cd7585059e00c2eb6615da9749a4a80d7c373b59dd17aa90f7c6a7db/gridappsd_field_bus-2023.5.1a8.tar.gz
+[2023-05-25 00:15:23] INFO root fetch - processPackages [service-configuration-lib]: Downloading https://files.pythonhosted.org/packages/32/bc/50c0c486ef8868d70e1ede030d9152799090473991e4384059539a9b1e98/service-configuration-lib-2.8.0.tar.gz
+[2023-05-25 00:15:23] INFO root fetch - processPackages [gridappsd-python]: Downloading https://files.pythonhosted.org/packages/c7/89/481763327248ff166e39283d26f84ba1c8b39c4b01d0b3c3add3fbea5df7/gridappsd_python-2023.5.1a8.tar.gz
+[2023-05-25 00:15:23] INFO root fetch - processPackages [humanloop]: Downloading https://files.pythonhosted.org/packages/69/c8/f23697607e31746b55b2e664b9662c3e980b45761a2747e3f70492ebb1e7/humanloop-0.4.2.tar.gz
+[2023-05-25 00:15:23] WARNING root fetch - processPackages [edges-io]: Skipping package: exceeds size limit 24571146>=10485760
+[2023-05-25 00:15:23] INFO root fetch - main [MainThread]: End processing [edges-io] error
+[2023-05-25 00:15:23] INFO root fetch - processPackages [cellmachine]: Downloading https://files.pythonhosted.org/packages/7d/2b/26535070ddd31b3819069e1f5d9b1faf03ab04cd5ac2223e329c0b0ba112/cellmachine-1.0.2.tar.gz
+[2023-05-25 00:15:23] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/02/fa/d54f0a6977db2bfdf90862e4aea3081459098e07eb13c2764d936da75139/kfish-99.0.202305242211-py3-none-any.whl
+[2023-05-25 00:15:23] INFO root fetch - processPackages [cellmachine]: executing diffoscope
+[2023-05-25 00:15:23] INFO root fetch - processPackages [cellmachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmachine-1.0.1.tar.gz tmp/cellmachine-1.0.2.tar.gz --markdown 20230525/c/cellmachine/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-25 00:15:23] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-05-25 00:15:23] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202305241202-py3-none-any.whl.zip tmp/kfish-99.0.202305242211-py3-none-any.whl.zip --markdown 20230525/k/kfish/99.0.202305241202-99.0.202305242211/diff.md --exclude *.pyd
+[2023-05-25 00:15:23] INFO root fetch - processPackages [gkligo]: executing diffoscope
+[2023-05-25 00:15:23] INFO root fetch - processPackages [gkligo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gkligo-0.1.0.tar.gz tmp/gkligo-0.1.1.tar.gz --markdown 20230525/g/gkligo/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-25 00:15:23] INFO root fetch - processPackages [bpnet-lite]: executing diffoscope
+[2023-05-25 00:15:23] INFO root fetch - processPackages [bpnet-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpnet_lite-0.3.2-py3-none-any.whl.zip tmp/bpnet-lite-0.4.0.tar.gz --markdown 20230525/b/bpnet-lite/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-05-25 00:15:23] INFO root fetch - processPackages [gridappsd-python]: Downloading https://files.pythonhosted.org/packages/8e/3e/0cf87fd269276c3dff0a2323bfc1b01cc1c60c106d1578d1df460255dbc8/gridappsd_python-2023.5.1a9.tar.gz
+[2023-05-25 00:15:24] INFO root fetch - processPackages [gridappsd-field-bus]: Downloading https://files.pythonhosted.org/packages/d2/9a/7aa1932be7a2742766edd7c839b343d7408840667fbaf165f417a365c8d6/gridappsd_field_bus-2023.5.1a9.tar.gz
+[2023-05-25 00:15:24] INFO root fetch - processPackages [service-configuration-lib]: Downloading https://files.pythonhosted.org/packages/08/ad/99858a3ee1fce3071381a61c7a2502b9fd908605783332e4af449df36153/service-configuration-lib-2.9.0.tar.gz
+[2023-05-25 00:15:24] INFO root fetch - processPackages [gridappsd-python]: executing diffoscope
+[2023-05-25 00:15:24] INFO root fetch - processPackages [gridappsd-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gridappsd_python-2023.5.1a8.tar.gz tmp/gridappsd_python-2023.5.1a9.tar.gz --markdown 20230525/g/gridappsd-python/2023.5.1a8-2023.5.1a9/diff.md --exclude *.pyd
+[2023-05-25 00:15:24] INFO root fetch - processPackages [gridappsd-field-bus]: executing diffoscope
+[2023-05-25 00:15:24] INFO root fetch - processPackages [gridappsd-field-bus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gridappsd_field_bus-2023.5.1a8.tar.gz tmp/gridappsd_field_bus-2023.5.1a9.tar.gz --markdown 20230525/g/gridappsd-field-bus/2023.5.1a8-2023.5.1a9/diff.md --exclude *.pyd
+[2023-05-25 00:15:24] INFO root fetch - processPackages [service-configuration-lib]: executing diffoscope
+[2023-05-25 00:15:24] INFO root fetch - processPackages [service-configuration-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/service-configuration-lib-2.8.0.tar.gz tmp/service-configuration-lib-2.9.0.tar.gz --markdown 20230525/s/service-configuration-lib/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-05-25 00:15:25] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-05-25 00:15:25] INFO root fetch - processPackages [humanloop]: Downloading https://files.pythonhosted.org/packages/ed/35/f9a9b0857102053dd331b8f191f34d47d8e98368f7f3ded87f59a5329d0c/humanloop-0.4.3.tar.gz
+[2023-05-25 00:15:25] INFO root fetch - main [MainThread]: End processing [cellmachine]: success
+[2023-05-25 00:15:25] INFO root fetch - processPackages [humanloop]: executing diffoscope
+[2023-05-25 00:15:25] INFO root fetch - processPackages [humanloop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/humanloop-0.4.2.tar.gz tmp/humanloop-0.4.3.tar.gz --markdown 20230525/h/humanloop/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-05-25 00:15:25] INFO root fetch - main [MainThread]: End processing [gkligo]: success
+[2023-05-25 00:15:25] INFO root fetch - main [MainThread]: End processing [bpnet-lite]: success
+[2023-05-25 00:15:25] INFO root fetch - main [MainThread]: End processing [gridappsd-python]: success
+[2023-05-25 00:15:25] INFO root fetch - main [MainThread]: End processing [gridappsd-field-bus]: success
+[2023-05-25 00:15:28] INFO root fetch - main [MainThread]: End processing [text2story]: success
+[2023-05-25 00:15:31] INFO root fetch - main [MainThread]: End processing [humanloop]: success
+[2023-05-25 00:16:10] INFO root fetch - main [MainThread]: End processing [service-configuration-lib]: success
+[2023-05-25 00:16:10] INFO root fetch - main [MainThread]: Store serial: [18236471]
