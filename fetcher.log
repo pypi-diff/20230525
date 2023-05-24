@@ -1164,3 +1164,46 @@
 [2023-05-25 01:37:24] INFO root fetch - processPackages [rai-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rai_toolbox-0.3.1rc2.tar.gz tmp/rai_toolbox-0.3.1rc3.tar.gz --markdown 20230525/r/rai-toolbox/0.3.1rc2-0.3.1rc3/diff.md --exclude *.pyd
 [2023-05-25 01:37:27] INFO root fetch - main [MainThread]: End processing [rai-toolbox]: success
 [2023-05-25 01:37:27] INFO root fetch - main [MainThread]: Store serial: [18237237]
+[2023-05-25 01:42:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18237237]
+[2023-05-25 01:42:36] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-25 01:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: steamship
+[2023-05-25 01:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mythic-container
+[2023-05-25 01:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: modelaapi
+[2023-05-25 01:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: plasIDome
+[2023-05-25 01:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bentrl
+[2023-05-25 01:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: foursight
+[2023-05-25 01:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: quick-batch
+[2023-05-25 01:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: anisha-vehicles
+[2023-05-25 01:42:36] INFO root fetch - processPackages [mythic-container]: New version: [0.2.9] Old Version: [0.2.8rc5]
+[2023-05-25 01:42:36] INFO root fetch - processPackages [quick-batch]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-25 01:42:36] INFO root fetch - processPackages [foursight]: New version: [3.4.7.1b8] Old Version: [3.4.7.1b7]
+[2023-05-25 01:42:36] INFO root fetch - processPackages [modelaapi]: New version: [0.6.100] Old Version: [0.6]
+[2023-05-25 01:42:36] WARNING root fetch - processPackages [bentrl]: Skipping, unable to determine old version
+[2023-05-25 01:42:36] INFO root fetch - main [MainThread]: End processing [bentrl] error
+[2023-05-25 01:42:36] WARNING root fetch - processPackages [anisha-vehicles]: Skipping, unable to determine old version
+[2023-05-25 01:42:36] INFO root fetch - main [MainThread]: End processing [anisha-vehicles] error
+[2023-05-25 01:42:36] INFO root fetch - processPackages [plasIDome]: New version: [1.0.0] Old Version: [0.0.3]
+[2023-05-25 01:42:36] INFO root fetch - processPackages [modelaapi]: executing diffoscope
+[2023-05-25 01:42:36] INFO root fetch - processPackages [modelaapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelaapi-0.6.tar.gz tmp/modelaapi-0.6.100.tar.gz --markdown 20230525/m/modelaapi/0.6-0.6.100/diff.md --exclude *.pyd
+[2023-05-25 01:42:36] INFO root fetch - processPackages [foursight]: executing diffoscope
+[2023-05-25 01:42:36] INFO root fetch - processPackages [foursight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight-3.4.7.1b7.tar.gz tmp/foursight-3.4.7.1b8.tar.gz --markdown 20230525/f/foursight/3.4.7.1b7-3.4.7.1b8/diff.md --exclude *.pyd
+[2023-05-25 01:42:36] INFO root fetch - processPackages [steamship]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-25 01:42:36] INFO root fetch - processPackages [mythic-container]: executing diffoscope
+[2023-05-25 01:42:36] INFO root fetch - processPackages [mythic-container]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mythic_container-0.2.8rc5.tar.gz tmp/mythic_container-0.2.9.tar.gz --markdown 20230525/m/mythic-container/0.2.8rc5-0.2.9/diff.md --exclude *.pyd
+[2023-05-25 01:42:36] INFO root fetch - processPackages [quick-batch]: Downloading https://files.pythonhosted.org/packages/81/98/71e51d8be289009f56ad1df2a1989f25781f2722a274f4be8e8eb9fd6e12/quick_batch-0.1.0.tar.gz
+[2023-05-25 01:42:37] INFO root fetch - processPackages [plasIDome]: Downloading https://files.pythonhosted.org/packages/91/3d/070cbe72d743b7253849afbbd129b028b0b9495cacd9815b2965f7f6b68f/plasIDome-0.0.3.tar.gz
+[2023-05-25 01:42:37] INFO root fetch - processPackages [steamship]: executing diffoscope
+[2023-05-25 01:42:37] INFO root fetch - processPackages [steamship]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steamship-2.3.8.tar.gz tmp/steamship-2.3.9.tar.gz --markdown 20230525/s/steamship/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-25 01:42:37] INFO root fetch - processPackages [quick-batch]: Downloading https://files.pythonhosted.org/packages/20/12/12600c538ec016503aba6b1ab3ba2656e82393bf76aebf4274074996ae5c/quick_batch-0.1.1.tar.gz
+[2023-05-25 01:42:37] INFO root fetch - processPackages [plasIDome]: Downloading https://files.pythonhosted.org/packages/97/4e/0d0857a6d7f24abd33a6c1b660da58ca8f9382afdb3e3e994b2b6a62b4b3/plasIDome-1.0.0.tar.gz
+[2023-05-25 01:42:37] INFO root fetch - processPackages [quick-batch]: executing diffoscope
+[2023-05-25 01:42:37] INFO root fetch - processPackages [quick-batch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quick_batch-0.1.0.tar.gz tmp/quick_batch-0.1.1.tar.gz --markdown 20230525/q/quick-batch/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-25 01:42:37] INFO root fetch - processPackages [plasIDome]: executing diffoscope
+[2023-05-25 01:42:37] INFO root fetch - processPackages [plasIDome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plasIDome-0.0.3.tar.gz tmp/plasIDome-1.0.0.tar.gz --markdown 20230525/p/plasIDome/0.0.3-1.0.0/diff.md --exclude *.pyd
+[2023-05-25 01:42:38] INFO root fetch - main [MainThread]: End processing [plasIDome]: success
+[2023-05-25 01:42:38] INFO root fetch - main [MainThread]: End processing [quick-batch]: success
+[2023-05-25 01:42:38] INFO root fetch - main [MainThread]: End processing [mythic-container]: success
+[2023-05-25 01:42:39] INFO root fetch - main [MainThread]: End processing [foursight]: success
+[2023-05-25 01:42:39] INFO root fetch - main [MainThread]: End processing [modelaapi]: success
+[2023-05-25 01:42:40] INFO root fetch - main [MainThread]: End processing [steamship]: success
+[2023-05-25 01:42:40] INFO root fetch - main [MainThread]: Store serial: [18237263]
