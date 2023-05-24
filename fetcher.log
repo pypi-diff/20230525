@@ -556,3 +556,77 @@
 [2023-05-25 00:43:07] INFO root fetch - main [MainThread]: End processing [termcolor-dg]: success
 [2023-05-25 00:43:10] INFO root fetch - main [MainThread]: End processing [intecomm-edc]: success
 [2023-05-25 00:43:10] INFO root fetch - main [MainThread]: Store serial: [18236789]
+[2023-05-25 00:48:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18236789]
+[2023-05-25 00:48:19] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-25 00:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-events-framework
+[2023-05-25 00:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyAmang
+[2023-05-25 00:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: elevenlabslib
+[2023-05-25 00:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opvious
+[2023-05-25 00:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wise-pizza
+[2023-05-25 00:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: steamship
+[2023-05-25 00:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dss-python-backend
+[2023-05-25 00:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sylk
+[2023-05-25 00:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: scenera.node
+[2023-05-25 00:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: adsorption-file-parser
+[2023-05-25 00:48:19] INFO root fetch - processPackages [django-events-framework]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 00:48:19] INFO root fetch - processPackages [elevenlabslib]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-05-25 00:48:19] INFO root fetch - processPackages [dss-python-backend]: New version: [0.13.2rc1] Old Version: [0.13.1.dev0]
+[2023-05-25 00:48:19] INFO root fetch - processPackages [sylk]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-25 00:48:19] INFO root fetch - processPackages [steamship]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-25 00:48:19] INFO root fetch - processPackages [pyAmang]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-25 00:48:19] INFO root fetch - processPackages [wise-pizza]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-25 00:48:19] INFO root fetch - processPackages [opvious]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-25 00:48:19] INFO root fetch - processPackages [adsorption-file-parser]: New version: [0.2.4] Old Version: [0.2.2]
+[2023-05-25 00:48:19] INFO root fetch - processPackages [scenera.node]: New version: [0.3.16] Old Version: [0.3.0]
+[2023-05-25 00:48:19] INFO root fetch - processPackages [django-events-framework]: executing diffoscope
+[2023-05-25 00:48:19] INFO root fetch - processPackages [django-events-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-events-framework-0.0.8.tar.gz tmp/django-events-framework-0.0.9.tar.gz --markdown 20230525/d/django-events-framework/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 00:48:19] INFO root fetch - processPackages [opvious]: executing diffoscope
+[2023-05-25 00:48:19] INFO root fetch - processPackages [opvious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opvious-0.9.5.tar.gz tmp/opvious-0.9.6.tar.gz --markdown 20230525/o/opvious/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-25 00:48:19] INFO root fetch - processPackages [pyAmang]: Downloading https://files.pythonhosted.org/packages/bb/c8/4f76436b12dbb01d78c3881e2f197a0bc4a09ad7cfd56417f3f794cf516d/pyAmang-1.0.2.tar.gz
+[2023-05-25 00:48:19] INFO root fetch - processPackages [dss-python-backend]: Downloading https://files.pythonhosted.org/packages/d4/f8/6bfabc8d9d2a5f62d52fdd64f640a34c32713575934d1d4ec367f51dfef0/dss_python_backend-0.13.1.dev0-cp37-abi3-win_amd64.whl
+[2023-05-25 00:48:19] INFO root fetch - processPackages [steamship]: executing diffoscope
+[2023-05-25 00:48:19] INFO root fetch - processPackages [steamship]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steamship-2.3.8.tar.gz tmp/steamship-2.3.9.tar.gz --markdown 20230525/s/steamship/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-25 00:48:19] INFO root fetch - processPackages [sylk]: Downloading https://files.pythonhosted.org/packages/e7/ab/07cb2144947023d8738fd7eacf1e7ddb3e2d53e5a2568845606fb77ad922/sylk-0.0.2-py3-none-any.whl
+[2023-05-25 00:48:19] INFO root fetch - processPackages [wise-pizza]: Downloading https://files.pythonhosted.org/packages/35/18/8c24f5684509a82fbac7a104d239e79b8121e8d43e4fefb1f0becf5e7454/wise-pizza-0.1.5.tar.gz
+[2023-05-25 00:48:19] INFO root fetch - processPackages [elevenlabslib]: Downloading https://files.pythonhosted.org/packages/b8/5d/8c54d1c611b6bae37f1d264873bb938ba2cddbce78e1f771a7b1b77adb39/elevenlabslib-0.8.2.tar.gz
+[2023-05-25 00:48:19] INFO root fetch - processPackages [adsorption-file-parser]: Downloading https://files.pythonhosted.org/packages/7c/fd/7595b94575565fbadb4c177b96bc1f11519db8707a75c327061f502917d9/adsorption_file_parser-0.2.2.tar.gz
+[2023-05-25 00:48:19] INFO root fetch - processPackages [scenera.node]: Downloading https://files.pythonhosted.org/packages/bb/82/4e1e7153c3a7c5b5fea402e2fd9a2b0e3fa7c93aaa3121be396b4b0c1ba1/scenera.node-0.3.0.tar.gz
+[2023-05-25 00:48:19] INFO root fetch - processPackages [wise-pizza]: executing diffoscope
+[2023-05-25 00:48:19] INFO root fetch - processPackages [wise-pizza]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wise-pizza-0.1.4.tar.gz tmp/wise-pizza-0.1.5.tar.gz --markdown 20230525/w/wise-pizza/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-25 00:48:19] INFO root fetch - processPackages [elevenlabslib]: executing diffoscope
+[2023-05-25 00:48:19] INFO root fetch - processPackages [elevenlabslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elevenlabslib-0.8.1.tar.gz tmp/elevenlabslib-0.8.2.tar.gz --markdown 20230525/e/elevenlabslib/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-05-25 00:48:19] INFO root fetch - processPackages [pyAmang]: Downloading https://files.pythonhosted.org/packages/0a/e4/58ec1f59affe571cf2c3b1563e2d9e392e082a534b25dca8f82568ec44f2/pyAmang-1.0.3.tar.gz
+[2023-05-25 00:48:19] INFO root fetch - processPackages [sylk]: Downloading https://files.pythonhosted.org/packages/dd/a7/6f5f7e15c89daff9685906b0702efb91251aece0a33912c0ca5b768b6941/sylk-0.0.3-py3-none-any.whl
+[2023-05-25 00:48:19] INFO root fetch - processPackages [pyAmang]: executing diffoscope
+[2023-05-25 00:48:19] INFO root fetch - processPackages [pyAmang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAmang-1.0.2.tar.gz tmp/pyAmang-1.0.3.tar.gz --markdown 20230525/p/pyAmang/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-25 00:48:19] INFO root fetch - processPackages [scenera.node]: Downloading https://files.pythonhosted.org/packages/e1/52/c163ab020eda65950000a024c3169831ce146f6038f1684e911287618b5c/scenera.node-0.3.16.tar.gz
+[2023-05-25 00:48:19] INFO root fetch - processPackages [sylk]: executing diffoscope
+[2023-05-25 00:48:19] INFO root fetch - processPackages [sylk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sylk-0.0.2-py3-none-any.whl.zip tmp/sylk-0.0.3-py3-none-any.whl.zip --markdown 20230525/s/sylk/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-25 00:48:19] INFO root fetch - processPackages [scenera.node]: executing diffoscope
+[2023-05-25 00:48:19] INFO root fetch - processPackages [scenera.node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scenera.node-0.3.0.tar.gz tmp/scenera.node-0.3.16.tar.gz --markdown 20230525/s/scenera.node/0.3.0-0.3.16/diff.md --exclude *.pyd
+[2023-05-25 00:48:19] INFO root fetch - processPackages [adsorption-file-parser]: Downloading https://files.pythonhosted.org/packages/ea/8f/ca5d5bcd53c9f1f3ce9809fa4016b17a80773ecd7c7b3d1453317907d096/adsorption_file_parser-0.2.4.tar.gz
+[2023-05-25 00:48:20] INFO root fetch - processPackages [adsorption-file-parser]: executing diffoscope
+[2023-05-25 00:48:20] INFO root fetch - processPackages [adsorption-file-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adsorption_file_parser-0.2.2.tar.gz tmp/adsorption_file_parser-0.2.4.tar.gz --markdown 20230525/a/adsorption-file-parser/0.2.2-0.2.4/diff.md --exclude *.pyd
+[2023-05-25 00:48:20] WARNING root fetch - processPackages [dss-python-backend]: Skipping package: exceeds size limit 16823869>=10485760
+[2023-05-25 00:48:20] INFO root fetch - processPackages [dss-python-backend]: Start processing: pacparser
+[2023-05-25 00:48:20] INFO root fetch - main [MainThread]: End processing [dss-python-backend] error
+[2023-05-25 00:48:20] INFO root fetch - processPackages [pacparser]: New version: [1.4.1.dev9] Old Version: [1.4.1.dev8]
+[2023-05-25 00:48:20] INFO root fetch - processPackages [pacparser]: executing diffoscope
+[2023-05-25 00:48:20] INFO root fetch - processPackages [pacparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pacparser-1.4.1.dev8.tar.gz tmp/pacparser-1.4.1.dev9.tar.gz --markdown 20230525/p/pacparser/1.4.1.dev8-1.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-25 00:48:20] INFO root fetch - processPackages [django-events-framework]: Start processing: meow-sim
+[2023-05-25 00:48:20] INFO root fetch - main [MainThread]: End processing [django-events-framework]: success
+[2023-05-25 00:48:20] INFO root fetch - processPackages [meow-sim]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-25 00:48:21] INFO root fetch - main [MainThread]: End processing [wise-pizza]: success
+[2023-05-25 00:48:21] INFO root fetch - main [MainThread]: End processing [opvious]: success
+[2023-05-25 00:48:21] INFO root fetch - processPackages [meow-sim]: Downloading https://files.pythonhosted.org/packages/b7/11/cdb0927ee1f391b91855774b67fdde7a0e8769cda82dc8cc79e07f196801/meow-sim-0.3.3.tar.gz
+[2023-05-25 00:48:21] INFO root fetch - main [MainThread]: End processing [elevenlabslib]: success
+[2023-05-25 00:48:21] INFO root fetch - processPackages [meow-sim]: executing diffoscope
+[2023-05-25 00:48:21] INFO root fetch - processPackages [meow-sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meow-sim-0.3.2.tar.gz tmp/meow-sim-0.3.3.tar.gz --markdown 20230525/m/meow-sim/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-25 00:48:21] INFO root fetch - main [MainThread]: End processing [scenera.node]: success
+[2023-05-25 00:48:21] INFO root fetch - main [MainThread]: End processing [pacparser]: success
+[2023-05-25 00:48:22] INFO root fetch - main [MainThread]: End processing [meow-sim]: success
+[2023-05-25 00:48:22] INFO root fetch - main [MainThread]: End processing [sylk]: success
+[2023-05-25 00:48:22] INFO root fetch - main [MainThread]: End processing [adsorption-file-parser]: success
+[2023-05-25 00:48:22] INFO root fetch - main [MainThread]: End processing [steamship]: success
+[2023-05-25 00:48:26] INFO root fetch - main [MainThread]: End processing [pyAmang]: success
+[2023-05-25 00:48:26] INFO root fetch - main [MainThread]: Store serial: [18236835]
