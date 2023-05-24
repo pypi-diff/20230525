@@ -856,3 +856,35 @@
 [2023-05-25 01:10:34] INFO root fetch - main [MainThread]: End processing [metaphor-connectors]: success
 [2023-05-25 01:10:35] INFO root fetch - main [MainThread]: End processing [hoppr]: success
 [2023-05-25 01:10:35] INFO root fetch - main [MainThread]: Store serial: [18237005]
+[2023-05-25 01:15:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18237005]
+[2023-05-25 01:15:44] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-25 01:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vector-vault
+[2023-05-25 01:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ships-iiif
+[2023-05-25 01:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: speakeasy-client-sdk-python
+[2023-05-25 01:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dihash
+[2023-05-25 01:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sloth-framework
+[2023-05-25 01:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqlmesh
+[2023-05-25 01:15:44] INFO root fetch - processPackages [vector-vault]: New version: [1.1.0] Old Version: [1.0.8]
+[2023-05-25 01:15:44] WARNING root fetch - processPackages [ships-iiif]: Skipping, unable to determine old version
+[2023-05-25 01:15:44] INFO root fetch - main [MainThread]: End processing [ships-iiif] error
+[2023-05-25 01:15:44] INFO root fetch - processPackages [speakeasy-client-sdk-python]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-25 01:15:44] WARNING root fetch - processPackages [dihash]: Skipping, unable to determine old version
+[2023-05-25 01:15:44] INFO root fetch - processPackages [sloth-framework]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-25 01:15:44] INFO root fetch - main [MainThread]: End processing [dihash] error
+[2023-05-25 01:15:44] INFO root fetch - processPackages [sqlmesh]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-25 01:15:44] INFO root fetch - processPackages [speakeasy-client-sdk-python]: executing diffoscope
+[2023-05-25 01:15:44] INFO root fetch - processPackages [speakeasy-client-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speakeasy-client-sdk-python-1.9.0.tar.gz tmp/speakeasy-client-sdk-python-1.9.1.tar.gz --markdown 20230525/s/speakeasy-client-sdk-python/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-25 01:15:44] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/ed/bb/c9fbefe6b17b755f69e7cbce8123f13d427c2062f93cb634691162a945a5/vector_vault-1.1.0.tar.gz
+[2023-05-25 01:15:44] INFO root fetch - processPackages [sloth-framework]: Downloading https://files.pythonhosted.org/packages/c5/21/a3f4b11b255d9dd0622d60dda9ae2f370efa4fbd853dc59e5b33d279e178/sloth-framework-0.1.5.tar.gz
+[2023-05-25 01:15:44] INFO root fetch - processPackages [vector-vault]: executing diffoscope
+[2023-05-25 01:15:44] INFO root fetch - processPackages [vector-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_vault-1.0.8.tar.gz tmp/vector_vault-1.1.0.tar.gz --markdown 20230525/v/vector-vault/1.0.8-1.1.0/diff.md --exclude *.pyd
+[2023-05-25 01:15:44] INFO root fetch - processPackages [sqlmesh]: executing diffoscope
+[2023-05-25 01:15:44] INFO root fetch - processPackages [sqlmesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlmesh-0.8.1.tar.gz tmp/sqlmesh-0.9.0.tar.gz --markdown 20230525/s/sqlmesh/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-25 01:15:44] INFO root fetch - processPackages [sloth-framework]: Downloading https://files.pythonhosted.org/packages/2e/33/53111f2ded4323f08aa5034ccc21fae0b734ff2271ca57027f5692c3ab61/sloth-framework-0.1.6.tar.gz
+[2023-05-25 01:15:44] INFO root fetch - processPackages [sloth-framework]: executing diffoscope
+[2023-05-25 01:15:44] INFO root fetch - processPackages [sloth-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sloth-framework-0.1.5.tar.gz tmp/sloth-framework-0.1.6.tar.gz --markdown 20230525/s/sloth-framework/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-25 01:15:45] INFO root fetch - main [MainThread]: End processing [vector-vault]: success
+[2023-05-25 01:15:45] INFO root fetch - main [MainThread]: End processing [speakeasy-client-sdk-python]: success
+[2023-05-25 01:15:48] INFO root fetch - main [MainThread]: End processing [sloth-framework]: success
+[2023-05-25 01:16:20] INFO root fetch - main [MainThread]: End processing [sqlmesh]: success
+[2023-05-25 01:16:20] INFO root fetch - main [MainThread]: Store serial: [18237035]
