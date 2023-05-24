@@ -1207,3 +1207,52 @@
 [2023-05-25 01:42:39] INFO root fetch - main [MainThread]: End processing [modelaapi]: success
 [2023-05-25 01:42:40] INFO root fetch - main [MainThread]: End processing [steamship]: success
 [2023-05-25 01:42:40] INFO root fetch - main [MainThread]: Store serial: [18237263]
+[2023-05-25 01:47:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18237263]
+[2023-05-25 01:47:48] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-25 01:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bentrl
+[2023-05-25 01:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: biliup
+[2023-05-25 01:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyloobins
+[2023-05-25 01:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hordelib
+[2023-05-25 01:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: steamship
+[2023-05-25 01:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cerc-geometry
+[2023-05-25 01:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: v7e-utils
+[2023-05-25 01:47:49] INFO root fetch - processPackages [steamship]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-25 01:47:49] INFO root fetch - processPackages [pyloobins]: New version: [1.0.0] Old Version: [0.1.9]
+[2023-05-25 01:47:49] INFO root fetch - processPackages [bentrl]: New version: [0.3] Old Version: [0.2]
+[2023-05-25 01:47:49] INFO root fetch - processPackages [v7e-utils]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-25 01:47:49] INFO root fetch - processPackages [cerc-geometry]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-05-25 01:47:49] INFO root fetch - processPackages [biliup]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-25 01:47:49] INFO root fetch - processPackages [hordelib]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-05-25 01:47:49] INFO root fetch - processPackages [steamship]: executing diffoscope
+[2023-05-25 01:47:49] INFO root fetch - processPackages [steamship]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steamship-2.3.8.tar.gz tmp/steamship-2.3.9.tar.gz --markdown 20230525/s/steamship/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-25 01:47:49] INFO root fetch - processPackages [bentrl]: Downloading https://files.pythonhosted.org/packages/97/35/4455cc5ff16d3a89a4f0918d535900d0b75ccfd999c1cfc84291da2ec335/bentrl-0.2.zip
+[2023-05-25 01:47:49] INFO root fetch - processPackages [biliup]: Downloading https://files.pythonhosted.org/packages/33/26/87446b9e80024414938248abd6d5d23524d52b9a0e07980909695db33a0a/biliup-0.4.8.tar.gz
+[2023-05-25 01:47:49] INFO root fetch - processPackages [cerc-geometry]: Downloading https://files.pythonhosted.org/packages/c0/98/629240cf5d14b2121cea9262b085442741cf4c75f7f9aacf9b954699aff9/cerc-geometry-2.0.4.tar.gz
+[2023-05-25 01:47:49] INFO root fetch - processPackages [v7e-utils]: Downloading https://files.pythonhosted.org/packages/0f/38/2eaa27dde114927481524ff04bdd999b95aea4ea7f3f982e5b42008037bd/v7e_utils-0.3.0.tar.gz
+[2023-05-25 01:47:49] INFO root fetch - processPackages [hordelib]: Downloading https://files.pythonhosted.org/packages/83/e5/f473006957861a0b5b5f95aa14a748e4c7be091a6efd0225a22312d64821/hordelib-1.3.1.tar.gz
+[2023-05-25 01:47:49] INFO root fetch - processPackages [pyloobins]: Downloading https://files.pythonhosted.org/packages/7a/aa/e3c6c9080b33f0655ae91086d7418e26839fa7d08dbbab9fe9ecf9dadf72/pyloobins-1.0.0.tar.gz
+[2023-05-25 01:47:49] INFO root fetch - processPackages [bentrl]: Downloading https://files.pythonhosted.org/packages/dd/96/9d3c4ad08b3c9475dd0518bf250219b95b8cf6e8395bcd4bfc5d253992e1/bentrl-0.3.zip
+[2023-05-25 01:47:49] INFO root fetch - processPackages [pyloobins]: executing diffoscope
+[2023-05-25 01:47:49] INFO root fetch - processPackages [pyloobins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyloobins-0.1.9.tar.gz tmp/pyloobins-1.0.0.tar.gz --markdown 20230525/p/pyloobins/0.1.9-1.0.0/diff.md --exclude *.pyd
+[2023-05-25 01:47:49] INFO root fetch - processPackages [bentrl]: executing diffoscope
+[2023-05-25 01:47:49] INFO root fetch - processPackages [bentrl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bentrl-0.2.zip tmp/bentrl-0.3.zip --markdown 20230525/b/bentrl/0.2-0.3/diff.md --exclude *.pyd
+[2023-05-25 01:47:49] INFO root fetch - processPackages [cerc-geometry]: Downloading https://files.pythonhosted.org/packages/3f/22/094ba3ca9818840041452e97e344b1ebf18a0e7418dcec1f6a811fc5e9ad/cerc-geometry-2.0.5.tar.gz
+[2023-05-25 01:47:49] INFO root fetch - processPackages [biliup]: Downloading https://files.pythonhosted.org/packages/ca/50/28c81627954370eeba7075b44c9ef20597ed8f140a1390c814dd976e6c70/biliup-0.4.9.tar.gz
+[2023-05-25 01:47:49] INFO root fetch - processPackages [v7e-utils]: Downloading https://files.pythonhosted.org/packages/ef/f6/52a556e872097528b745d0982f48d68baa10f3f9cb47ed93208255df6574/v7e_utils-0.4.0.tar.gz
+[2023-05-25 01:47:49] INFO root fetch - processPackages [biliup]: executing diffoscope
+[2023-05-25 01:47:49] INFO root fetch - processPackages [biliup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biliup-0.4.8.tar.gz tmp/biliup-0.4.9.tar.gz --markdown 20230525/b/biliup/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-25 01:47:49] INFO root fetch - processPackages [v7e-utils]: executing diffoscope
+[2023-05-25 01:47:49] INFO root fetch - processPackages [v7e-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/v7e_utils-0.3.0.tar.gz tmp/v7e_utils-0.4.0.tar.gz --markdown 20230525/v/v7e-utils/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-25 01:47:49] INFO root fetch - processPackages [cerc-geometry]: executing diffoscope
+[2023-05-25 01:47:49] INFO root fetch - processPackages [cerc-geometry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerc-geometry-2.0.4.tar.gz tmp/cerc-geometry-2.0.5.tar.gz --markdown 20230525/c/cerc-geometry/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-05-25 01:47:50] INFO root fetch - main [MainThread]: End processing [bentrl]: success
+[2023-05-25 01:47:50] INFO root fetch - processPackages [hordelib]: Downloading https://files.pythonhosted.org/packages/56/00/441033950de064c97605d302e2e224876fa83be0d5ac5d3d50f39625e216/hordelib-1.3.2.tar.gz
+[2023-05-25 01:47:50] INFO root fetch - processPackages [hordelib]: executing diffoscope
+[2023-05-25 01:47:50] INFO root fetch - processPackages [hordelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hordelib-1.3.1.tar.gz tmp/hordelib-1.3.2.tar.gz --markdown 20230525/h/hordelib/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-05-25 01:47:50] INFO root fetch - main [MainThread]: End processing [pyloobins]: success
+[2023-05-25 01:47:50] INFO root fetch - main [MainThread]: End processing [v7e-utils]: success
+[2023-05-25 01:47:51] INFO root fetch - main [MainThread]: End processing [cerc-geometry]: success
+[2023-05-25 01:47:52] INFO root fetch - main [MainThread]: End processing [biliup]: success
+[2023-05-25 01:47:54] INFO root fetch - main [MainThread]: End processing [steamship]: success
+[2023-05-25 01:47:59] INFO root fetch - main [MainThread]: End processing [hordelib]: success
+[2023-05-25 01:47:59] INFO root fetch - main [MainThread]: Store serial: [18237285]
