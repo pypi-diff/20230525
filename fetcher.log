@@ -1256,3 +1256,41 @@
 [2023-05-25 01:47:54] INFO root fetch - main [MainThread]: End processing [steamship]: success
 [2023-05-25 01:47:59] INFO root fetch - main [MainThread]: End processing [hordelib]: success
 [2023-05-25 01:47:59] INFO root fetch - main [MainThread]: Store serial: [18237285]
+[2023-05-25 01:53:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18237285]
+[2023-05-25 01:53:08] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-25 01:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloud-volume
+[2023-05-25 01:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qworker
+[2023-05-25 01:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: polyfile
+[2023-05-25 01:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PythonCodes
+[2023-05-25 01:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cerc-geometry
+[2023-05-25 01:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: anisha-vehicles
+[2023-05-25 01:53:08] INFO root fetch - processPackages [qworker]: New version: [1.7.0] Old Version: [1.6.6]
+[2023-05-25 01:53:08] WARNING root fetch - processPackages [PythonCodes]: Skipping, unable to determine old version
+[2023-05-25 01:53:08] INFO root fetch - main [MainThread]: End processing [PythonCodes] error
+[2023-05-25 01:53:08] INFO root fetch - processPackages [cerc-geometry]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-05-25 01:53:08] INFO root fetch - processPackages [polyfile]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-05-25 01:53:08] INFO root fetch - processPackages [anisha-vehicles]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-25 01:53:08] INFO root fetch - processPackages [cloud-volume]: New version: [8.9.2] Old Version: [8.9.1]
+[2023-05-25 01:53:08] INFO root fetch - processPackages [qworker]: Downloading https://files.pythonhosted.org/packages/9f/a1/382e0070fa9eec4e31764e12c9f3c40f5d43280d25a684a540985fe142a6/qworker-1.6.6-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-25 01:53:08] INFO root fetch - processPackages [anisha-vehicles]: Downloading https://files.pythonhosted.org/packages/c8/a7/1fcc3c2b4b6adf4c528b418b1739109a1a88758f5f8275903c4a1c336c7f/anisha_vehicles-0.1.0.tar.gz
+[2023-05-25 01:53:08] INFO root fetch - processPackages [polyfile]: Downloading https://files.pythonhosted.org/packages/b5/b2/9d43cbd6208c5b7194719b6b3820b9730e072e40ed9ecaed94c7e0b5c90a/polyfile-0.5.1.tar.gz
+[2023-05-25 01:53:08] INFO root fetch - processPackages [cerc-geometry]: Downloading https://files.pythonhosted.org/packages/c8/23/ff50cbd0c87487a1cdc85cd5c258f32a76d9709ca011e67df0cb0d90eea6/cerc-geometry-2.0.6.tar.gz
+[2023-05-25 01:53:09] INFO root fetch - processPackages [anisha-vehicles]: Downloading https://files.pythonhosted.org/packages/80/d4/64f176e3e57052f537b6e16f66bd93ecee712d4a552b702ffcff7558ba5f/anisha_vehicles-0.1.1.tar.gz
+[2023-05-25 01:53:09] INFO root fetch - processPackages [anisha-vehicles]: executing diffoscope
+[2023-05-25 01:53:09] INFO root fetch - processPackages [anisha-vehicles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anisha_vehicles-0.1.0.tar.gz tmp/anisha_vehicles-0.1.1.tar.gz --markdown 20230525/a/anisha-vehicles/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-25 01:53:09] INFO root fetch - processPackages [qworker]: Downloading https://files.pythonhosted.org/packages/7c/07/d0fd8ee191da5a950e7c5c79d83c5dc542320baf8fe4a8972cf1a5ee1817/qworker-1.7.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-25 01:53:09] INFO root fetch - processPackages [cloud-volume]: executing diffoscope
+[2023-05-25 01:53:09] INFO root fetch - processPackages [cloud-volume]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-volume-8.9.1.tar.gz tmp/cloud-volume-8.9.2.tar.gz --markdown 20230525/c/cloud-volume/8.9.1-8.9.2/diff.md --exclude *.pyd
+[2023-05-25 01:53:09] INFO root fetch - processPackages [qworker]: executing diffoscope
+[2023-05-25 01:53:09] INFO root fetch - processPackages [qworker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qworker-1.6.6-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/qworker-1.7.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230525/q/qworker/1.6.6-1.7.0/diff.md --exclude *.pyd
+[2023-05-25 01:53:09] INFO root fetch - processPackages [cerc-geometry]: executing diffoscope
+[2023-05-25 01:53:09] INFO root fetch - processPackages [cerc-geometry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerc-geometry-2.0.5.tar.gz tmp/cerc-geometry-2.0.6.tar.gz --markdown 20230525/c/cerc-geometry/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-05-25 01:53:09] INFO root fetch - processPackages [polyfile]: Downloading https://files.pythonhosted.org/packages/89/29/e44b41e90d304af114d690899853bab914d334618ed86b96db77be2db7ea/polyfile-0.5.2.tar.gz
+[2023-05-25 01:53:09] INFO root fetch - processPackages [polyfile]: executing diffoscope
+[2023-05-25 01:53:09] INFO root fetch - processPackages [polyfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polyfile-0.5.1.tar.gz tmp/polyfile-0.5.2.tar.gz --markdown 20230525/p/polyfile/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-05-25 01:53:10] INFO root fetch - main [MainThread]: End processing [anisha-vehicles]: success
+[2023-05-25 01:53:10] INFO root fetch - main [MainThread]: End processing [qworker]: success
+[2023-05-25 01:53:10] INFO root fetch - main [MainThread]: End processing [cloud-volume]: success
+[2023-05-25 01:53:12] INFO root fetch - main [MainThread]: End processing [cerc-geometry]: success
+[2023-05-25 01:53:22] INFO root fetch - main [MainThread]: End processing [polyfile]: success
+[2023-05-25 01:53:22] INFO root fetch - main [MainThread]: Store serial: [18237308]
