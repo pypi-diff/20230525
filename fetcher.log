@@ -714,3 +714,70 @@
 [2023-05-25 00:59:41] INFO root fetch - main [MainThread]: End processing [metricflow]: success
 [2023-05-25 01:00:04] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-05-25 01:00:04] INFO root fetch - main [MainThread]: Store serial: [18236913]
+[2023-05-25 01:05:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18236913]
+[2023-05-25 01:05:13] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-25 01:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloud-files
+[2023-05-25 01:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: terrascope-api
+[2023-05-25 01:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: great-expectations-experimental
+[2023-05-25 01:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: speakeasy-client-sdk-python
+[2023-05-25 01:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tmnt-cu101
+[2023-05-25 01:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tmnt
+[2023-05-25 01:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flwr-nightly
+[2023-05-25 01:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: terrascope-sdk
+[2023-05-25 01:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: steamship
+[2023-05-25 01:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: CoLT5-attention
+[2023-05-25 01:05:13] INFO root fetch - processPackages [cloud-files]: New version: [4.9.1] Old Version: [4.9.0]
+[2023-05-25 01:05:13] INFO root fetch - processPackages [terrascope-api]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-25 01:05:13] INFO root fetch - processPackages [CoLT5-attention]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-25 01:05:13] INFO root fetch - processPackages [great-expectations-experimental]: New version: [0.1.20230524124] Old Version: [0.1.20230519093]
+[2023-05-25 01:05:13] INFO root fetch - processPackages [speakeasy-client-sdk-python]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-25 01:05:13] INFO root fetch - processPackages [terrascope-sdk]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-25 01:05:13] INFO root fetch - processPackages [steamship]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-25 01:05:13] INFO root fetch - processPackages [flwr-nightly]: New version: [1.5.0.dev20230523] Old Version: [1.5.0.dev20230522]
+[2023-05-25 01:05:13] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230524] Old Version: [0.7.0b20230523]
+[2023-05-25 01:05:13] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230524] Old Version: [0.7.0b20230523]
+[2023-05-25 01:05:13] INFO root fetch - processPackages [CoLT5-attention]: executing diffoscope
+[2023-05-25 01:05:13] INFO root fetch - processPackages [CoLT5-attention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CoLT5-attention-0.8.1.tar.gz tmp/CoLT5-attention-0.9.0.tar.gz --markdown 20230525/C/CoLT5-attention/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-25 01:05:13] INFO root fetch - processPackages [terrascope-api]: Downloading https://files.pythonhosted.org/packages/e6/78/55b9800fc35e6abd6bf69f420f453b05547714e35ad56598ff3d42509319/terrascope-api-1.0.4.tar.gz
+[2023-05-25 01:05:13] INFO root fetch - processPackages [terrascope-sdk]: Downloading https://files.pythonhosted.org/packages/73/7d/de16df1ab60a7be3b2d34da8ec552c6bc4177d6d845e5afcc8715bd058f7/terrascope-sdk-1.0.4.tar.gz
+[2023-05-25 01:05:13] INFO root fetch - processPackages [steamship]: executing diffoscope
+[2023-05-25 01:05:13] INFO root fetch - processPackages [steamship]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steamship-2.3.8.tar.gz tmp/steamship-2.3.9.tar.gz --markdown 20230525/s/steamship/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-25 01:05:13] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2023-05-25 01:05:13] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.5.0.dev20230522.tar.gz tmp/flwr_nightly-1.5.0.dev20230523.tar.gz --markdown 20230525/f/flwr-nightly/1.5.0.dev20230522-1.5.0.dev20230523/diff.md --exclude *.pyd
+[2023-05-25 01:05:13] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/ba/3c/8e8c856786addf26daa48b94506122c0a742c9465cd2bd96df7484f0828f/tmnt-0.7.0b20230523.tar.gz
+[2023-05-25 01:05:13] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/be/bb/5cc8d0157c812e04f07892065eb27ce6b34a47c74df69429751c1463d76f/tmnt-cu101-0.7.0b20230523.tar.gz
+[2023-05-25 01:05:13] INFO root fetch - processPackages [great-expectations-experimental]: Downloading https://files.pythonhosted.org/packages/25/98/f7c930d07b62d1bf0ac103fde6ae232dc6725ba5133d799a2579301e5435/great_expectations_experimental-0.1.20230524124.tar.gz
+[2023-05-25 01:05:13] INFO root fetch - processPackages [cloud-files]: executing diffoscope
+[2023-05-25 01:05:13] INFO root fetch - processPackages [cloud-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-files-4.9.0.tar.gz tmp/cloud-files-4.9.1.tar.gz --markdown 20230525/c/cloud-files/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2023-05-25 01:05:13] INFO root fetch - processPackages [great-expectations-experimental]: executing diffoscope
+[2023-05-25 01:05:13] INFO root fetch - processPackages [great-expectations-experimental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/great_expectations_experimental-0.1.20230519093.tar.gz tmp/great_expectations_experimental-0.1.20230524124.tar.gz --markdown 20230525/g/great-expectations-experimental/0.1.20230519093-0.1.20230524124/diff.md --exclude *.pyd
+[2023-05-25 01:05:13] INFO root fetch - processPackages [speakeasy-client-sdk-python]: executing diffoscope
+[2023-05-25 01:05:13] INFO root fetch - processPackages [speakeasy-client-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speakeasy-client-sdk-python-1.9.0.tar.gz tmp/speakeasy-client-sdk-python-1.9.1.tar.gz --markdown 20230525/s/speakeasy-client-sdk-python/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-25 01:05:13] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/3e/33/632ef83472b6b22be250949d9536239b926223f71cc59174bfd482b5f52f/tmnt-0.7.0b20230524.tar.gz
+[2023-05-25 01:05:13] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/e6/76/281692a2844da1631b1f16e41f4edf2562f239e83724e41101da87d28ea2/tmnt-cu101-0.7.0b20230524.tar.gz
+[2023-05-25 01:05:14] INFO root fetch - processPackages [terrascope-sdk]: Downloading https://files.pythonhosted.org/packages/dc/ba/1e76d794d221c669fce31d037696682b9836c380ed2bde58162e2f2e4cb1/terrascope-sdk-1.0.5.tar.gz
+[2023-05-25 01:05:14] INFO root fetch - processPackages [terrascope-api]: Downloading https://files.pythonhosted.org/packages/81/ae/b1db15ffd6afefdd9d5ae66d22be90a85424e6513a5bcdc93b146c59b396/terrascope-api-1.0.5.tar.gz
+[2023-05-25 01:05:14] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-05-25 01:05:14] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230523.tar.gz tmp/tmnt-0.7.0b20230524.tar.gz --markdown 20230525/t/tmnt/0.7.0b20230523-0.7.0b20230524/diff.md --exclude *.pyd
+[2023-05-25 01:05:14] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-05-25 01:05:14] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230523.tar.gz tmp/tmnt-cu101-0.7.0b20230524.tar.gz --markdown 20230525/t/tmnt-cu101/0.7.0b20230523-0.7.0b20230524/diff.md --exclude *.pyd
+[2023-05-25 01:05:14] INFO root fetch - processPackages [terrascope-sdk]: executing diffoscope
+[2023-05-25 01:05:14] INFO root fetch - processPackages [terrascope-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terrascope-sdk-1.0.4.tar.gz tmp/terrascope-sdk-1.0.5.tar.gz --markdown 20230525/t/terrascope-sdk/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-25 01:05:14] INFO root fetch - processPackages [terrascope-api]: executing diffoscope
+[2023-05-25 01:05:14] INFO root fetch - processPackages [terrascope-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terrascope-api-1.0.4.tar.gz tmp/terrascope-api-1.0.5.tar.gz --markdown 20230525/t/terrascope-api/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-25 01:05:15] INFO root fetch - processPackages [CoLT5-attention]: Start processing: localstack-core
+[2023-05-25 01:05:15] INFO root fetch - main [MainThread]: End processing [CoLT5-attention]: success
+[2023-05-25 01:05:15] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230524220416] Old Version: [2.0.3.dev20230524125728]
+[2023-05-25 01:05:15] INFO root fetch - main [MainThread]: End processing [cloud-files]: success
+[2023-05-25 01:05:15] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-05-25 01:05:15] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.3.dev20230524125728.tar.gz tmp/localstack-core-2.0.3.dev20230524220416.tar.gz --markdown 20230525/l/localstack-core/2.0.3.dev20230524125728-2.0.3.dev20230524220416/diff.md --exclude *.pyd
+[2023-05-25 01:05:15] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-05-25 01:05:15] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-05-25 01:05:15] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2023-05-25 01:05:15] INFO root fetch - main [MainThread]: End processing [great-expectations-experimental]: success
+[2023-05-25 01:05:16] INFO root fetch - main [MainThread]: End processing [speakeasy-client-sdk-python]: success
+[2023-05-25 01:05:16] INFO root fetch - main [MainThread]: End processing [terrascope-api]: success
+[2023-05-25 01:05:16] INFO root fetch - main [MainThread]: End processing [terrascope-sdk]: success
+[2023-05-25 01:05:19] INFO root fetch - main [MainThread]: End processing [steamship]: success
+[2023-05-25 01:05:21] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-05-25 01:05:21] INFO root fetch - main [MainThread]: Store serial: [18236956]
