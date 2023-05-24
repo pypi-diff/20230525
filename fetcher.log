@@ -781,3 +781,78 @@
 [2023-05-25 01:05:19] INFO root fetch - main [MainThread]: End processing [steamship]: success
 [2023-05-25 01:05:21] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-05-25 01:05:21] INFO root fetch - main [MainThread]: Store serial: [18236956]
+[2023-05-25 01:10:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18236956]
+[2023-05-25 01:10:30] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-25 01:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: raptive-dp-wmolina-hello-world
+[2023-05-25 01:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mixture-of-attention
+[2023-05-25 01:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: metaphor-connectors
+[2023-05-25 01:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: service-configuration-lib
+[2023-05-25 01:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Sophia-Optimizer
+[2023-05-25 01:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mixture-of-attention
+[2023-05-25 01:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: captif-slp
+[2023-05-25 01:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: MyoSuite
+[2023-05-25 01:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: llmo
+[2023-05-25 01:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: adsorption-file-parser
+[2023-05-25 01:10:30] INFO root fetch - processPackages [mixture-of-attention]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 01:10:30] INFO root fetch - processPackages [service-configuration-lib]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-05-25 01:10:30] INFO root fetch - processPackages [mixture-of-attention]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 01:10:30] WARNING root fetch - processPackages [raptive-dp-wmolina-hello-world]: Skipping, unable to determine old version
+[2023-05-25 01:10:30] INFO root fetch - processPackages [raptive-dp-wmolina-hello-world]: Start processing: hoppr
+[2023-05-25 01:10:30] INFO root fetch - main [MainThread]: End processing [raptive-dp-wmolina-hello-world] error
+[2023-05-25 01:10:30] INFO root fetch - processPackages [metaphor-connectors]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-25 01:10:30] INFO root fetch - processPackages [llmo]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-25 01:10:30] INFO root fetch - processPackages [captif-slp]: New version: [0.9] Old Version: [0.8]
+[2023-05-25 01:10:30] INFO root fetch - processPackages [adsorption-file-parser]: New version: [0.2.4] Old Version: [0.2.2]
+[2023-05-25 01:10:30] INFO root fetch - processPackages [MyoSuite]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-05-25 01:10:31] INFO root fetch - processPackages [Sophia-Optimizer]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-25 01:10:31] INFO root fetch - processPackages [mixture-of-attention]: executing diffoscope
+[2023-05-25 01:10:31] INFO root fetch - processPackages [mixture-of-attention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mixture-of-attention-0.0.8.tar.gz tmp/mixture-of-attention-0.0.9.tar.gz --markdown 20230525/m/mixture-of-attention/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 01:10:31] INFO root fetch - processPackages [service-configuration-lib]: executing diffoscope
+[2023-05-25 01:10:31] INFO root fetch - processPackages [service-configuration-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/service-configuration-lib-2.8.0.tar.gz tmp/service-configuration-lib-2.9.0.tar.gz --markdown 20230525/s/service-configuration-lib/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-05-25 01:10:31] INFO root fetch - processPackages [metaphor-connectors]: executing diffoscope
+[2023-05-25 01:10:31] INFO root fetch - processPackages [metaphor-connectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaphor-connectors-0.9.3.tar.gz tmp/metaphor-connectors-0.9.4.tar.gz --markdown 20230525/m/metaphor-connectors/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-25 01:10:31] INFO root fetch - processPackages [mixture-of-attention]: executing diffoscope
+[2023-05-25 01:10:31] INFO root fetch - processPackages [mixture-of-attention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mixture-of-attention-0.0.8.tar.gz tmp/mixture-of-attention-0.0.9.tar.gz --markdown 20230525/m/mixture-of-attention/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 01:10:31] INFO root fetch - processPackages [hoppr]: New version: [1.8.5] Old Version: [1.8.4]
+[2023-05-25 01:10:31] INFO root fetch - processPackages [adsorption-file-parser]: executing diffoscope
+[2023-05-25 01:10:31] INFO root fetch - processPackages [adsorption-file-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adsorption_file_parser-0.2.2.tar.gz tmp/adsorption_file_parser-0.2.4.tar.gz --markdown 20230525/a/adsorption-file-parser/0.2.2-0.2.4/diff.md --exclude *.pyd
+[2023-05-25 01:10:31] INFO root fetch - processPackages [captif-slp]: Downloading https://files.pythonhosted.org/packages/75/c7/7fb5e638eb2c7b5d22b7e0d723ee989855703084d4e73e59b9177bafba52/captif-slp-0.8.tar.gz
+[2023-05-25 01:10:31] INFO root fetch - processPackages [llmo]: Downloading https://files.pythonhosted.org/packages/d6/13/27e04fd25a8ea5ddfc6bda4545e26e1fa592de263c7d2e155d3e401654d6/llmo-0.4.1.tar.gz
+[2023-05-25 01:10:31] INFO root fetch - processPackages [hoppr]: Downloading https://files.pythonhosted.org/packages/fc/8c/2967d5c66b0e2c913fa926e51600ff1d2f68b813d54796ea8050658d2c62/hoppr-1.8.4.tar.gz
+[2023-05-25 01:10:31] INFO root fetch - processPackages [Sophia-Optimizer]: Downloading https://files.pythonhosted.org/packages/ef/b0/e8026850f774a1853c546b93408a04c4f0c30d020e7684b6126cb336b81e/Sophia-Optimizer-0.1.4.tar.gz
+[2023-05-25 01:10:31] INFO root fetch - processPackages [MyoSuite]: Downloading https://files.pythonhosted.org/packages/f8/e1/907ecb367b321f6b7d7611d8989baea5903747e0460fd898b3b788517534/MyoSuite-1.6.0.tar.gz
+[2023-05-25 01:10:31] WARNING root fetch - processPackages [MyoSuite]: Skipping package: exceeds size limit 36058935>=10485760
+[2023-05-25 01:10:31] INFO root fetch - processPackages [MyoSuite]: Start processing: Sophia-Optimizer
+[2023-05-25 01:10:31] INFO root fetch - main [MainThread]: End processing [MyoSuite] error
+[2023-05-25 01:10:31] INFO root fetch - processPackages [Sophia-Optimizer]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-25 01:10:31] INFO root fetch - processPackages [llmo]: Downloading https://files.pythonhosted.org/packages/a4/51/7e59497b39546260a3a1e63b302d27c2028b028aa6991f5bd99dced7dc0e/llmo-0.4.2.tar.gz
+[2023-05-25 01:10:31] INFO root fetch - processPackages [captif-slp]: Downloading https://files.pythonhosted.org/packages/08/59/6bc2fe7908f5fe4b6d93eb6f7c0c450a0e43b7ade9ce1906f1d0269f6d1f/captif-slp-0.9.tar.gz
+[2023-05-25 01:10:31] INFO root fetch - processPackages [hoppr]: Downloading https://files.pythonhosted.org/packages/c6/2e/6e06e734b6db3485fe7d44bdf78937e4de2d860cae7233e48661dbd5ad46/hoppr-1.8.5.tar.gz
+[2023-05-25 01:10:31] INFO root fetch - processPackages [Sophia-Optimizer]: Downloading https://files.pythonhosted.org/packages/83/2a/28dfdc2a99478d781c0fa80b350ef4074e29e892385b3fd50283d7364024/Sophia-Optimizer-0.1.5.tar.gz
+[2023-05-25 01:10:31] INFO root fetch - processPackages [captif-slp]: executing diffoscope
+[2023-05-25 01:10:31] INFO root fetch - processPackages [captif-slp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/captif-slp-0.8.tar.gz tmp/captif-slp-0.9.tar.gz --markdown 20230525/c/captif-slp/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-25 01:10:31] INFO root fetch - processPackages [Sophia-Optimizer]: Downloading https://files.pythonhosted.org/packages/83/2a/28dfdc2a99478d781c0fa80b350ef4074e29e892385b3fd50283d7364024/Sophia-Optimizer-0.1.5.tar.gz
+[2023-05-25 01:10:31] INFO root fetch - processPackages [llmo]: executing diffoscope
+[2023-05-25 01:10:31] INFO root fetch - processPackages [llmo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmo-0.4.1.tar.gz tmp/llmo-0.4.2.tar.gz --markdown 20230525/l/llmo/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-25 01:10:31] INFO root fetch - processPackages [hoppr]: executing diffoscope
+[2023-05-25 01:10:31] INFO root fetch - processPackages [hoppr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hoppr-1.8.4.tar.gz tmp/hoppr-1.8.5.tar.gz --markdown 20230525/h/hoppr/1.8.4-1.8.5/diff.md --exclude *.pyd
+[2023-05-25 01:10:31] INFO root fetch - processPackages [Sophia-Optimizer]: executing diffoscope
+[2023-05-25 01:10:31] INFO root fetch - processPackages [Sophia-Optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Sophia-Optimizer-0.1.4.tar.gz tmp/Sophia-Optimizer-0.1.5.tar.gz --markdown 20230525/S/Sophia-Optimizer/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-25 01:10:31] INFO root fetch - processPackages [Sophia-Optimizer]: executing diffoscope
+[2023-05-25 01:10:31] INFO root fetch - processPackages [Sophia-Optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Sophia-Optimizer-0.1.4.tar.gz tmp/Sophia-Optimizer-0.1.5.tar.gz --markdown 20230525/S/Sophia-Optimizer/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-25 01:10:32] INFO root fetch - processPackages [service-configuration-lib]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-05-25 01:10:32] INFO root fetch - main [MainThread]: End processing [service-configuration-lib]: success
+[2023-05-25 01:10:32] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.333] Old Version: [0.3.332]
+[2023-05-25 01:10:32] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-05-25 01:10:32] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.332.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.333.tar.gz --markdown 20230525/p/pepperize.cdk-ses-smtp-credentials/0.3.332-0.3.333/diff.md --exclude *.pyd
+[2023-05-25 01:10:32] INFO root fetch - main [MainThread]: End processing [mixture-of-attention]: success
+[2023-05-25 01:10:32] INFO root fetch - main [MainThread]: End processing [mixture-of-attention]: success
+[2023-05-25 01:10:33] INFO root fetch - main [MainThread]: End processing [llmo]: success
+[2023-05-25 01:10:33] INFO root fetch - main [MainThread]: End processing [Sophia-Optimizer]: success
+[2023-05-25 01:10:33] INFO root fetch - main [MainThread]: End processing [Sophia-Optimizer]: success
+[2023-05-25 01:10:33] INFO root fetch - main [MainThread]: End processing [captif-slp]: success
+[2023-05-25 01:10:33] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-05-25 01:10:33] INFO root fetch - main [MainThread]: End processing [adsorption-file-parser]: success
+[2023-05-25 01:10:34] INFO root fetch - main [MainThread]: End processing [metaphor-connectors]: success
+[2023-05-25 01:10:35] INFO root fetch - main [MainThread]: End processing [hoppr]: success
+[2023-05-25 01:10:35] INFO root fetch - main [MainThread]: Store serial: [18237005]
