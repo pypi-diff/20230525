@@ -6479,3 +6479,92 @@
 [2023-05-25 04:43:22] INFO root fetch - main [MainThread]: End processing [selenium-base]: success
 [2023-05-25 04:43:23] INFO root fetch - main [MainThread]: End processing [tidevice]: success
 [2023-05-25 04:43:23] INFO root fetch - main [MainThread]: Store serial: [18240166]
+[2023-05-25 04:48:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18240166]
+[2023-05-25 04:48:32] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-25 04:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: debug-print2
+[2023-05-25 04:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-invoice-merge
+[2023-05-25 04:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addons-oca-account-invoicing
+[2023-05-25 04:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ronnytest
+[2023-05-25 04:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cupy-cuda102
+[2023-05-25 04:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addons-oca-account-invoicing
+[2023-05-25 04:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: venv-pack2
+[2023-05-25 04:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: json-expand-o-matic
+[2023-05-25 04:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aind-data-schema
+[2023-05-25 04:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aind-data-schema
+[2023-05-25 04:48:32] INFO root fetch - processPackages [debug-print2]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-25 04:48:32] INFO root fetch - processPackages [odoo-addon-account-invoice-merge]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.9]
+[2023-05-25 04:48:32] INFO root fetch - processPackages [venv-pack2]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-05-25 04:48:32] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: New version: [16.0.20230524.0] Old Version: [16.0.20230516.0]
+[2023-05-25 04:48:32] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: New version: [16.0.20230524.0] Old Version: [16.0.20230516.0]
+[2023-05-25 04:48:32] INFO root fetch - processPackages [json-expand-o-matic]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-25 04:48:32] INFO root fetch - processPackages [ronnytest]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-25 04:48:32] INFO root fetch - processPackages [cupy-cuda102]: New version: [9.6.0] Old Version: [9.5.0]
+[2023-05-25 04:48:32] INFO root fetch - processPackages [aind-data-schema]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-25 04:48:32] INFO root fetch - processPackages [aind-data-schema]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-25 04:48:32] INFO root fetch - processPackages [aind-data-schema]: executing diffoscope
+[2023-05-25 04:48:32] INFO root fetch - processPackages [aind-data-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind-data-schema-0.9.5.tar.gz tmp/aind-data-schema-0.9.6.tar.gz --markdown 20230525/a/aind-data-schema/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-25 04:48:32] INFO root fetch - processPackages [aind-data-schema]: executing diffoscope
+[2023-05-25 04:48:32] INFO root fetch - processPackages [aind-data-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind-data-schema-0.9.5.tar.gz tmp/aind-data-schema-0.9.6.tar.gz --markdown 20230525/a/aind-data-schema/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-25 04:48:32] INFO root fetch - processPackages [debug-print2]: Downloading https://files.pythonhosted.org/packages/e3/ba/7d7deb9604189472beac24b67b8c6297396444ce443be278c23a8890f4e5/debug_print2-0.1.1.tar.gz
+[2023-05-25 04:48:32] INFO root fetch - processPackages [json-expand-o-matic]: Downloading https://files.pythonhosted.org/packages/c7/dc/295ed5bef3bb3124d9386c42f273ca057f28b9c9d338b491bb72f149822c/json_expand_o_matic-0.2.3.tar.gz
+[2023-05-25 04:48:32] INFO root fetch - processPackages [ronnytest]: Downloading https://files.pythonhosted.org/packages/0e/0d/828806032814d3a5a423daa90f2b8e958a8dac7dadbeecd77489e20624a8/ronnytest-0.1.1.tar.gz
+[2023-05-25 04:48:32] INFO root fetch - processPackages [cupy-cuda102]: Downloading https://files.pythonhosted.org/packages/9d/36/b76b59d1f180ae5dde9ab982d0e341cb7f5330b5d0389648aa1d32b50e79/cupy_cuda102-9.5.0-cp39-cp39-win_amd64.whl
+[2023-05-25 04:48:32] INFO root fetch - processPackages [venv-pack2]: Downloading https://files.pythonhosted.org/packages/b4/15/51fc73e55c331a57a6af0c652b76a707359763450d9639f593fb6df50955/venv_pack2-0.5.0-py3-none-any.whl
+[2023-05-25 04:48:32] INFO root fetch - processPackages [json-expand-o-matic]: executing diffoscope
+[2023-05-25 04:48:32] INFO root fetch - processPackages [json-expand-o-matic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_expand_o_matic-0.2.2.tar.gz tmp/json_expand_o_matic-0.2.3.tar.gz --markdown 20230525/j/json-expand-o-matic/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-25 04:48:32] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: Downloading https://files.pythonhosted.org/packages/7b/53/8ba29eba8b9cf3f0d3b1ad0f6263fae674efc944ffea528387636e64e72a/odoo_addons_oca_account_invoicing-16.0.20230524.0-py3-none-any.whl
+[2023-05-25 04:48:32] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: Downloading https://files.pythonhosted.org/packages/7b/53/8ba29eba8b9cf3f0d3b1ad0f6263fae674efc944ffea528387636e64e72a/odoo_addons_oca_account_invoicing-16.0.20230524.0-py3-none-any.whl
+[2023-05-25 04:48:32] INFO root fetch - processPackages [odoo-addon-account-invoice-merge]: executing diffoscope
+[2023-05-25 04:48:32] INFO root fetch - processPackages [odoo-addon-account-invoice-merge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_invoice_merge-16.0.1.0.0.9-py3-none-any.whl.zip tmp/odoo_addon_account_invoice_merge-16.0.1.0.1-py3-none-any.whl.zip --markdown 20230525/o/odoo-addon-account-invoice-merge/16.0.1.0.0.9-16.0.1.0.1/diff.md --exclude *.pyd
+[2023-05-25 04:48:32] INFO root fetch - processPackages [ronnytest]: executing diffoscope
+[2023-05-25 04:48:32] INFO root fetch - processPackages [ronnytest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ronnytest-0.1.0.tar.gz tmp/ronnytest-0.1.1.tar.gz --markdown 20230525/r/ronnytest/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-25 04:48:32] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: executing diffoscope
+[2023-05-25 04:48:32] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_account_invoicing-16.0.20230516.0-py3-none-any.whl.zip tmp/odoo_addons_oca_account_invoicing-16.0.20230524.0-py3-none-any.whl.zip --markdown 20230525/o/odoo-addons-oca-account-invoicing/16.0.20230516.0-16.0.20230524.0/diff.md --exclude *.pyd
+[2023-05-25 04:48:32] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: executing diffoscope
+[2023-05-25 04:48:32] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_account_invoicing-16.0.20230516.0-py3-none-any.whl.zip tmp/odoo_addons_oca_account_invoicing-16.0.20230524.0-py3-none-any.whl.zip --markdown 20230525/o/odoo-addons-oca-account-invoicing/16.0.20230516.0-16.0.20230524.0/diff.md --exclude *.pyd
+[2023-05-25 04:48:32] INFO root fetch - processPackages [debug-print2]: Downloading https://files.pythonhosted.org/packages/d8/2d/e0987f753c2b96b495145dae64dd602ca5457bf6ee573bb9488f38cfcd9a/debug_print2-0.1.2.tar.gz
+[2023-05-25 04:48:32] INFO root fetch - processPackages [venv-pack2]: Downloading https://files.pythonhosted.org/packages/a7/2f/c3033b2dd4dcf50673f5866e61cf4aaf15b62534cb303ef3bca709c64ac3/venv_pack2-0.6.0-py3-none-any.whl
+[2023-05-25 04:48:32] INFO root fetch - processPackages [debug-print2]: executing diffoscope
+[2023-05-25 04:48:32] INFO root fetch - processPackages [debug-print2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/debug_print2-0.1.1.tar.gz tmp/debug_print2-0.1.2.tar.gz --markdown 20230525/d/debug-print2/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-25 04:48:32] INFO root fetch - processPackages [venv-pack2]: executing diffoscope
+[2023-05-25 04:48:32] INFO root fetch - processPackages [venv-pack2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/venv_pack2-0.5.0-py3-none-any.whl.zip tmp/venv_pack2-0.6.0-py3-none-any.whl.zip --markdown 20230525/v/venv-pack2/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-05-25 04:48:32] WARNING root fetch - processPackages [cupy-cuda102]: Skipping package: exceeds size limit 43883817>=10485760
+[2023-05-25 04:48:32] INFO root fetch - processPackages [cupy-cuda102]: Start processing: tldrwl
+[2023-05-25 04:48:32] INFO root fetch - main [MainThread]: End processing [cupy-cuda102] error
+[2023-05-25 04:48:33] INFO root fetch - processPackages [tldrwl]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 04:48:33] INFO root fetch - processPackages [tldrwl]: executing diffoscope
+[2023-05-25 04:48:33] INFO root fetch - processPackages [tldrwl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tldrwl-0.0.8.tar.gz tmp/tldrwl-0.0.9.tar.gz --markdown 20230525/t/tldrwl/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 04:48:34] INFO root fetch - processPackages [ronnytest]: Start processing: HomoglyphsCJK
+[2023-05-25 04:48:34] INFO root fetch - main [MainThread]: End processing [ronnytest]: success
+[2023-05-25 04:48:34] INFO root fetch - processPackages [HomoglyphsCJK]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-05-25 04:48:34] INFO root fetch - processPackages [json-expand-o-matic]: Start processing: seeFretboard
+[2023-05-25 04:48:34] INFO root fetch - main [MainThread]: End processing [json-expand-o-matic]: success
+[2023-05-25 04:48:34] INFO root fetch - processPackages [seeFretboard]: New version: [0.0.9.2] Old Version: [0.0.9.1]
+[2023-05-25 04:48:34] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: Start processing: FreeplanIr
+[2023-05-25 04:48:34] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-account-invoicing]: success
+[2023-05-25 04:48:34] INFO root fetch - processPackages [FreeplanIr]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-25 04:48:34] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: Start processing: panml
+[2023-05-25 04:48:34] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-account-invoicing]: success
+[2023-05-25 04:48:34] INFO root fetch - processPackages [panml]: New version: [0.0.16] Old Version: [0.0.15]
+[2023-05-25 04:48:34] INFO root fetch - processPackages [FreeplanIr]: executing diffoscope
+[2023-05-25 04:48:34] INFO root fetch - processPackages [FreeplanIr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FreeplanIr-1.0.1.tar.gz tmp/FreeplanIr-1.0.2.tar.gz --markdown 20230525/F/FreeplanIr/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-25 04:48:34] INFO root fetch - processPackages [seeFretboard]: Downloading https://files.pythonhosted.org/packages/2d/82/0b5ad431c93b80ec59d7464b72a2aaa4ace348996a242506daf6244f2c05/seeFretboard-0.0.9.1.tar.gz
+[2023-05-25 04:48:34] INFO root fetch - processPackages [panml]: executing diffoscope
+[2023-05-25 04:48:34] INFO root fetch - processPackages [panml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panml-0.0.15.tar.gz tmp/panml-0.0.16.tar.gz --markdown 20230525/p/panml/0.0.15-0.0.16/diff.md --exclude *.pyd
+[2023-05-25 04:48:34] INFO root fetch - main [MainThread]: End processing [venv-pack2]: success
+[2023-05-25 04:48:34] INFO root fetch - processPackages [HomoglyphsCJK]: Downloading https://files.pythonhosted.org/packages/fb/65/e59eb988a4b23a9fba0db1a95b7fbd9af55538c1acea7b88b5858a44aa18/HomoglyphsCJK-0.1.0.tar.gz
+[2023-05-25 04:48:34] INFO root fetch - main [MainThread]: End processing [debug-print2]: success
+[2023-05-25 04:48:34] INFO root fetch - processPackages [HomoglyphsCJK]: executing diffoscope
+[2023-05-25 04:48:34] INFO root fetch - processPackages [HomoglyphsCJK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HomoglyphsCJK-0.0.9.tar.gz tmp/HomoglyphsCJK-0.1.0.tar.gz --markdown 20230525/H/HomoglyphsCJK/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-05-25 04:48:34] INFO root fetch - processPackages [seeFretboard]: Downloading https://files.pythonhosted.org/packages/ed/ac/4610d3ea22382fc75e5bb378ea8b35fcf443456ea125415920241d9ece0f/seeFretboard-0.0.9.2.tar.gz
+[2023-05-25 04:48:34] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-merge]: success
+[2023-05-25 04:48:34] INFO root fetch - main [MainThread]: End processing [tldrwl]: success
+[2023-05-25 04:48:35] INFO root fetch - processPackages [seeFretboard]: executing diffoscope
+[2023-05-25 04:48:35] INFO root fetch - processPackages [seeFretboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seeFretboard-0.0.9.1.tar.gz tmp/seeFretboard-0.0.9.2.tar.gz --markdown 20230525/s/seeFretboard/0.0.9.1-0.0.9.2/diff.md --exclude *.pyd
+[2023-05-25 04:48:35] INFO root fetch - main [MainThread]: End processing [aind-data-schema]: success
+[2023-05-25 04:48:35] INFO root fetch - main [MainThread]: End processing [aind-data-schema]: success
+[2023-05-25 04:48:35] INFO root fetch - main [MainThread]: End processing [FreeplanIr]: success
+[2023-05-25 04:48:35] INFO root fetch - main [MainThread]: End processing [panml]: success
+[2023-05-25 04:48:36] INFO root fetch - main [MainThread]: End processing [HomoglyphsCJK]: success
+[2023-05-25 04:48:43] INFO root fetch - main [MainThread]: End processing [seeFretboard]: success
+[2023-05-25 04:48:43] INFO root fetch - main [MainThread]: Store serial: [18240203]
