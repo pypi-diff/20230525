@@ -10730,3 +10730,64 @@
 [2023-05-25 08:22:32] INFO root fetch - main [MainThread]: End processing [seeFretboard]: success
 [2023-05-25 08:22:35] INFO root fetch - main [MainThread]: End processing [feffery-leaflet-components]: success
 [2023-05-25 08:22:35] INFO root fetch - main [MainThread]: Store serial: [18242207]
+[2023-05-25 08:27:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18242207]
+[2023-05-25 08:27:44] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-25 08:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rtx-deep
+[2023-05-25 08:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mw
+[2023-05-25 08:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: indecro
+[2023-05-25 08:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hackcqooc
+[2023-05-25 08:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: p-template-crawler
+[2023-05-25 08:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: acryl-executor
+[2023-05-25 08:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: indecro
+[2023-05-25 08:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fake-bpy-module-latest
+[2023-05-25 08:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: orbitkit
+[2023-05-25 08:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: yunpancli
+[2023-05-25 08:27:44] INFO root fetch - processPackages [mw]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-25 08:27:44] INFO root fetch - processPackages [rtx-deep]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-25 08:27:44] INFO root fetch - processPackages [acryl-executor]: New version: [0.0.3rc8] Old Version: [0.0.3rc7]
+[2023-05-25 08:27:44] WARNING root fetch - processPackages [indecro]: Skipping, unable to determine old version
+[2023-05-25 08:27:44] INFO root fetch - processPackages [indecro]: Start processing: vector-vault
+[2023-05-25 08:27:44] INFO root fetch - main [MainThread]: End processing [indecro] error
+[2023-05-25 08:27:44] WARNING root fetch - processPackages [indecro]: Skipping, unable to determine old version
+[2023-05-25 08:27:44] INFO root fetch - main [MainThread]: End processing [indecro] error
+[2023-05-25 08:27:44] INFO root fetch - processPackages [orbitkit]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-25 08:27:44] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230524] Old Version: [20230523]
+[2023-05-25 08:27:44] INFO root fetch - processPackages [p-template-crawler]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 08:27:44] INFO root fetch - processPackages [vector-vault]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-25 08:27:44] INFO root fetch - processPackages [hackcqooc]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 08:27:44] INFO root fetch - processPackages [mw]: executing diffoscope
+[2023-05-25 08:27:44] INFO root fetch - processPackages [mw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mw-0.0.2.tar.gz tmp/mw-0.0.3.tar.gz --markdown 20230525/m/mw/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-25 08:27:44] INFO root fetch - processPackages [yunpancli]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-25 08:27:44] INFO root fetch - processPackages [rtx-deep]: executing diffoscope
+[2023-05-25 08:27:44] INFO root fetch - processPackages [rtx-deep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rtx_deep-1.3.8-py39-none-any.whl.zip tmp/rtx_deep-1.3.9-py39-none-any.whl.zip --markdown 20230525/r/rtx-deep/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-25 08:27:44] INFO root fetch - processPackages [orbitkit]: executing diffoscope
+[2023-05-25 08:27:44] INFO root fetch - processPackages [orbitkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orbitkit-0.3.1.tar.gz tmp/orbitkit-0.3.2.tar.gz --markdown 20230525/o/orbitkit/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-25 08:27:44] INFO root fetch - processPackages [p-template-crawler]: executing diffoscope
+[2023-05-25 08:27:44] INFO root fetch - processPackages [p-template-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-template-crawler-0.0.8.tar.gz tmp/p-template-crawler-0.0.9.tar.gz --markdown 20230525/p/p-template-crawler/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 08:27:45] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/79/19/c22a2d8ae8e3eef1098239205b23371c9912505fc0fede2b5c03ef999ef2/fake-bpy-module-latest-20230524.tar.gz
+[2023-05-25 08:27:45] INFO root fetch - processPackages [acryl-executor]: Downloading https://files.pythonhosted.org/packages/d5/a9/8aeb3d356cfa303dc3282664aa2bb00b25fff24cd406b46f1092ac0b9eda/acryl-executor-0.0.3rc7.tar.gz
+[2023-05-25 08:27:45] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/05/2c/b42fb90694b7ce7d914815c23483001191c79c9090074f3f3c65d2bb7029/vector_vault-1.1.2.tar.gz
+[2023-05-25 08:27:45] INFO root fetch - processPackages [hackcqooc]: Downloading https://files.pythonhosted.org/packages/01/3d/d24a002ce7dc3710a35ea1d817ee940c37e5cb9e1e42125a593e0daaa1eb/hackcqooc-0.0.8.tar.gz
+[2023-05-25 08:27:45] INFO root fetch - processPackages [yunpancli]: Downloading https://files.pythonhosted.org/packages/01/17/4ea9c1db743b7059938dcd9e73df51d06a93123d58e500979d015eb9c04d/yunpancli-0.0.6.tar.gz
+[2023-05-25 08:27:45] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-05-25 08:27:45] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230523.tar.gz tmp/fake-bpy-module-latest-20230524.tar.gz --markdown 20230525/f/fake-bpy-module-latest/20230523-20230524/diff.md --exclude *.pyd
+[2023-05-25 08:27:45] INFO root fetch - processPackages [vector-vault]: executing diffoscope
+[2023-05-25 08:27:45] INFO root fetch - processPackages [vector-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_vault-1.1.1.tar.gz tmp/vector_vault-1.1.2.tar.gz --markdown 20230525/v/vector-vault/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-25 08:27:45] INFO root fetch - processPackages [yunpancli]: executing diffoscope
+[2023-05-25 08:27:45] INFO root fetch - processPackages [yunpancli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yunpancli-0.0.5.tar.gz tmp/yunpancli-0.0.6.tar.gz --markdown 20230525/y/yunpancli/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-25 08:27:45] INFO root fetch - processPackages [hackcqooc]: Downloading https://files.pythonhosted.org/packages/d5/b0/f670dbb936ecf600de9a2882f8915379ea33cf1ef3f65f2e7dd493008dac/hackcqooc-0.0.9.tar.gz
+[2023-05-25 08:27:45] INFO root fetch - processPackages [acryl-executor]: Downloading https://files.pythonhosted.org/packages/fd/1e/859918d10285958fb2010680cfbed8fb662415bc71783bc84a3fa1abcef8/acryl-executor-0.0.3rc8.tar.gz
+[2023-05-25 08:27:45] INFO root fetch - processPackages [hackcqooc]: executing diffoscope
+[2023-05-25 08:27:45] INFO root fetch - processPackages [hackcqooc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hackcqooc-0.0.8.tar.gz tmp/hackcqooc-0.0.9.tar.gz --markdown 20230525/h/hackcqooc/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 08:27:46] INFO root fetch - processPackages [acryl-executor]: executing diffoscope
+[2023-05-25 08:27:46] INFO root fetch - processPackages [acryl-executor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-executor-0.0.3rc7.tar.gz tmp/acryl-executor-0.0.3rc8.tar.gz --markdown 20230525/a/acryl-executor/0.0.3rc7-0.0.3rc8/diff.md --exclude *.pyd
+[2023-05-25 08:27:46] INFO root fetch - main [MainThread]: End processing [mw]: success
+[2023-05-25 08:27:46] INFO root fetch - main [MainThread]: End processing [p-template-crawler]: success
+[2023-05-25 08:27:46] INFO root fetch - main [MainThread]: End processing [orbitkit]: success
+[2023-05-25 08:27:46] INFO root fetch - main [MainThread]: End processing [vector-vault]: success
+[2023-05-25 08:27:46] INFO root fetch - main [MainThread]: End processing [yunpancli]: success
+[2023-05-25 08:27:47] INFO root fetch - main [MainThread]: End processing [rtx-deep]: success
+[2023-05-25 08:27:47] INFO root fetch - main [MainThread]: End processing [hackcqooc]: success
+[2023-05-25 08:27:47] INFO root fetch - main [MainThread]: End processing [acryl-executor]: success
+[2023-05-25 08:27:54] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-05-25 08:27:54] INFO root fetch - main [MainThread]: Store serial: [18242242]
