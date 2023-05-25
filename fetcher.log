@@ -8085,3 +8085,40 @@
 [2023-05-25 06:30:36] INFO root fetch - main [MainThread]: End processing [TorchPIV]: success
 [2023-05-25 06:30:36] INFO root fetch - main [MainThread]: End processing [sharetop]: success
 [2023-05-25 06:30:36] INFO root fetch - main [MainThread]: Store serial: [18241142]
+[2023-05-25 06:35:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18241142]
+[2023-05-25 06:35:45] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-25 06:35:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mdforest
+[2023-05-25 06:35:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo12-addon-product-pricelist-revision
+[2023-05-25 06:35:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: orange-utils
+[2023-05-25 06:35:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: suddendeath
+[2023-05-25 06:35:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: snowflake-connector-python-nightly
+[2023-05-25 06:35:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-product-attribute-archive
+[2023-05-25 06:35:45] INFO root fetch - processPackages [mdforest]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-05-25 06:35:45] INFO root fetch - processPackages [snowflake-connector-python-nightly]: New version: [2023.5.3] Old Version: [2023.5.25]
+[2023-05-25 06:35:45] INFO root fetch - processPackages [suddendeath]: New version: [0.5] Old Version: [0.3.0]
+[2023-05-25 06:35:45] INFO root fetch - processPackages [odoo12-addon-product-pricelist-revision]: New version: [12.0.1.2.0.99.dev5] Old Version: [12.0.1.2.0.99.dev4]
+[2023-05-25 06:35:45] WARNING root fetch - processPackages [orange-utils]: Skipping, unable to determine old version
+[2023-05-25 06:35:45] INFO root fetch - processPackages [odoo-addon-product-attribute-archive]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2023-05-25 06:35:45] INFO root fetch - main [MainThread]: End processing [orange-utils] error
+[2023-05-25 06:35:45] INFO root fetch - processPackages [mdforest]: executing diffoscope
+[2023-05-25 06:35:45] INFO root fetch - processPackages [mdforest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdforest-1.4.0.tar.gz tmp/mdforest-1.5.0.tar.gz --markdown 20230525/m/mdforest/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-05-25 06:35:45] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Downloading https://files.pythonhosted.org/packages/8b/d9/c13f5b8533230833bec8881f743596f9b501fef1b952399513ec349b4a57/snowflake_connector_python_nightly-2023.5.25-cp38-cp38-macosx_10_14_universal2.whl
+[2023-05-25 06:35:45] INFO root fetch - processPackages [odoo-addon-product-attribute-archive]: Downloading https://files.pythonhosted.org/packages/92/b7/f528035adb45a3a2d31f6018bd5dd2a4ce567edf0376feb8a4ee4e9305d7/odoo_addon_product_attribute_archive-16.0.1.0.0.4-py3-none-any.whl
+[2023-05-25 06:35:45] INFO root fetch - processPackages [odoo12-addon-product-pricelist-revision]: Downloading https://files.pythonhosted.org/packages/6f/93/d193c5be2201ab867fa6e9d568c6888b70883bfc373b599c0178d5995cc1/odoo12_addon_product_pricelist_revision-12.0.1.2.0.99.dev4-py3-none-any.whl
+[2023-05-25 06:35:45] INFO root fetch - processPackages [suddendeath]: Downloading https://files.pythonhosted.org/packages/b7/58/510ad03b3af1abe7a4908002293511deba55707d6027ec65e0d8bca504d4/suddendeath-0.3.0-py2.py3-none-any.whl
+[2023-05-25 06:35:46] INFO root fetch - processPackages [suddendeath]: Downloading https://files.pythonhosted.org/packages/11/9c/065e46443e94a7d7bd2561cb3d75af4740fa15effaa26dfffeb028eec37f/suddendeath-0.5.tar.gz
+[2023-05-25 06:35:46] INFO root fetch - processPackages [suddendeath]: executing diffoscope
+[2023-05-25 06:35:46] INFO root fetch - processPackages [suddendeath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suddendeath-0.3.0-py2.py3-none-any.whl.zip tmp/suddendeath-0.5.tar.gz --markdown 20230525/s/suddendeath/0.3.0-0.5/diff.md --exclude *.pyd
+[2023-05-25 06:35:46] INFO root fetch - processPackages [odoo12-addon-product-pricelist-revision]: Downloading https://files.pythonhosted.org/packages/65/b9/19f6caa913ffda286eab214753acc1027429cb603383035246b07a02cff6/odoo12_addon_product_pricelist_revision-12.0.1.2.0.99.dev5-py3-none-any.whl
+[2023-05-25 06:35:46] INFO root fetch - processPackages [odoo-addon-product-attribute-archive]: Downloading https://files.pythonhosted.org/packages/8f/be/6677f9d80f72b69e5acdef3291f453f94e01e312160b53ddb5ba80527f54/odoo_addon_product_attribute_archive-16.0.1.0.0.5-py3-none-any.whl
+[2023-05-25 06:35:46] INFO root fetch - processPackages [odoo12-addon-product-pricelist-revision]: executing diffoscope
+[2023-05-25 06:35:46] INFO root fetch - processPackages [odoo12-addon-product-pricelist-revision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_product_pricelist_revision-12.0.1.2.0.99.dev4-py3-none-any.whl.zip tmp/odoo12_addon_product_pricelist_revision-12.0.1.2.0.99.dev5-py3-none-any.whl.zip --markdown 20230525/o/odoo12-addon-product-pricelist-revision/12.0.1.2.0.99.dev4-12.0.1.2.0.99.dev5/diff.md --exclude *.pyd
+[2023-05-25 06:35:46] INFO root fetch - processPackages [odoo-addon-product-attribute-archive]: executing diffoscope
+[2023-05-25 06:35:46] INFO root fetch - processPackages [odoo-addon-product-attribute-archive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_attribute_archive-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_product_attribute_archive-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230525/o/odoo-addon-product-attribute-archive/16.0.1.0.0.4-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-05-25 06:35:46] WARNING root fetch - processPackages [snowflake-connector-python-nightly]: Skipping package: exceeds size limit 15533666>=10485760
+[2023-05-25 06:35:46] INFO root fetch - main [MainThread]: End processing [snowflake-connector-python-nightly] error
+[2023-05-25 06:35:46] INFO root fetch - main [MainThread]: End processing [mdforest]: success
+[2023-05-25 06:35:47] INFO root fetch - main [MainThread]: End processing [suddendeath]: success
+[2023-05-25 06:35:47] INFO root fetch - main [MainThread]: End processing [odoo12-addon-product-pricelist-revision]: success
+[2023-05-25 06:35:47] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-attribute-archive]: success
+[2023-05-25 06:35:47] INFO root fetch - main [MainThread]: Store serial: [18241175]
