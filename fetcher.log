@@ -8035,3 +8035,29 @@
 [2023-05-25 06:20:13] INFO root fetch - main [MainThread]: End processing [odoo-addon-mis-builder]: success
 [2023-05-25 06:20:15] INFO root fetch - main [MainThread]: End processing [pydantic-core]: success
 [2023-05-25 06:20:15] INFO root fetch - main [MainThread]: Store serial: [18241019]
+[2023-05-25 06:25:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18241019]
+[2023-05-25 06:25:24] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-25 06:25:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: salesea
+[2023-05-25 06:25:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: EasyTCR
+[2023-05-25 06:25:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quickstart-vdk
+[2023-05-25 06:25:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lightdash-client-python
+[2023-05-25 06:25:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TorchPIV
+[2023-05-25 06:25:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: udc
+[2023-05-25 06:25:24] INFO root fetch - processPackages [TorchPIV]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-25 06:25:24] WARNING root fetch - processPackages [udc]: Skipping, unable to determine old version
+[2023-05-25 06:25:24] INFO root fetch - main [MainThread]: End processing [udc] error
+[2023-05-25 06:25:24] WARNING root fetch - processPackages [lightdash-client-python]: Skipping, unable to determine old version
+[2023-05-25 06:25:24] INFO root fetch - main [MainThread]: End processing [lightdash-client-python] error
+[2023-05-25 06:25:24] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.876904352.dev10765] Old Version: [0.2.875478551.dev10715]
+[2023-05-25 06:25:25] WARNING root fetch - processPackages [salesea]: Skipping, unable to determine old version
+[2023-05-25 06:25:25] INFO root fetch - main [MainThread]: End processing [salesea] error
+[2023-05-25 06:25:25] WARNING root fetch - processPackages [EasyTCR]: Skipping, unable to determine old version
+[2023-05-25 06:25:25] INFO root fetch - main [MainThread]: End processing [EasyTCR] error
+[2023-05-25 06:25:25] INFO root fetch - processPackages [TorchPIV]: executing diffoscope
+[2023-05-25 06:25:25] INFO root fetch - processPackages [TorchPIV]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TorchPIV-0.1.1.tar.gz tmp/TorchPIV-0.1.2.tar.gz --markdown 20230525/T/TorchPIV/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-25 06:25:25] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/2f/d7/73f965b47b0cc1751070af80f764a2a43fba6ec886894625ac72fa7924b4/quickstart-vdk-0.2.876904352.dev10765.tar.gz
+[2023-05-25 06:25:25] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2023-05-25 06:25:25] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.875478551.dev10715.tar.gz tmp/quickstart-vdk-0.2.876904352.dev10765.tar.gz --markdown 20230525/q/quickstart-vdk/0.2.875478551.dev10715-0.2.876904352.dev10765/diff.md --exclude *.pyd
+[2023-05-25 06:25:26] INFO root fetch - main [MainThread]: End processing [TorchPIV]: success
+[2023-05-25 06:25:26] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2023-05-25 06:25:26] INFO root fetch - main [MainThread]: Store serial: [18241122]
