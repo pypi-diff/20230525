@@ -18001,3 +18001,98 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-25 14:15:22] INFO root fetch - main [MainThread]: End processing [tcod]: success
 [2023-05-25 14:15:22] INFO root fetch - main [MainThread]: End processing [Rabbit-in-a-Blender]: success
 [2023-05-25 14:15:22] INFO root fetch - main [MainThread]: Store serial: [18246339]
+[2023-05-25 14:20:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18246339]
+[2023-05-25 14:20:31] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-25 14:20:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: linkedinpdfextractor
+[2023-05-25 14:20:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iron-toolbox
+[2023-05-25 14:20:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Pandora-Cloud
+[2023-05-25 14:20:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: widefield-analysis
+[2023-05-25 14:20:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dbpyman
+[2023-05-25 14:20:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyrosexmod
+[2023-05-25 14:20:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bosch-alarm-mode2
+[2023-05-25 14:20:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: apimatic-core
+[2023-05-25 14:20:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: apimatic-requests-client-adapter
+[2023-05-25 14:20:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rendersrt
+[2023-05-25 14:20:31] INFO root fetch - processPackages [iron-toolbox]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-25 14:20:31] INFO root fetch - processPackages [pyrosexmod]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-25 14:20:31] INFO root fetch - processPackages [dbpyman]: New version: [0.1.211] Old Version: [0.1.21]
+[2023-05-25 14:20:31] INFO root fetch - processPackages [Pandora-Cloud]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-05-25 14:20:31] INFO root fetch - processPackages [apimatic-requests-client-adapter]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-25 14:20:31] INFO root fetch - processPackages [widefield-analysis]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-25 14:20:31] INFO root fetch - processPackages [apimatic-core]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-25 14:20:31] INFO root fetch - processPackages [bosch-alarm-mode2]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-25 14:20:31] WARNING root fetch - processPackages [rendersrt]: Skipping, unable to determine old version
+[2023-05-25 14:20:31] INFO root fetch - processPackages [rendersrt]: Start processing: odoo14-addon-edi-exchange-template-oca
+[2023-05-25 14:20:31] INFO root fetch - main [MainThread]: End processing [rendersrt] error
+[2023-05-25 14:20:31] INFO root fetch - processPackages [iron-toolbox]: executing diffoscope
+[2023-05-25 14:20:31] INFO root fetch - processPackages [iron-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iron_toolbox-1.0.8.tar.gz tmp/iron_toolbox-1.0.9.tar.gz --markdown 20230525/i/iron-toolbox/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-25 14:20:31] INFO root fetch - processPackages [linkedinpdfextractor]: New version: [1.2.6] Old Version: [1.2.4]
+[2023-05-25 14:20:31] INFO root fetch - processPackages [widefield-analysis]: executing diffoscope
+[2023-05-25 14:20:31] INFO root fetch - processPackages [widefield-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/widefield_analysis-0.1.2.tar.gz tmp/widefield_analysis-0.1.3.tar.gz --markdown 20230525/w/widefield-analysis/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-25 14:20:31] INFO root fetch - processPackages [Pandora-Cloud]: executing diffoscope
+[2023-05-25 14:20:31] INFO root fetch - processPackages [Pandora-Cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pandora-Cloud-0.2.2.tar.gz tmp/Pandora-Cloud-0.3.0.tar.gz --markdown 20230525/P/Pandora-Cloud/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-05-25 14:20:31] INFO root fetch - processPackages [bosch-alarm-mode2]: executing diffoscope
+[2023-05-25 14:20:31] INFO root fetch - processPackages [dbpyman]: Downloading https://files.pythonhosted.org/packages/44/3c/05008e754fc272fc2e6ac38be060cfeb8273736babc803bb6577a8a50047/dbpyman-0.1.211.tar.gz
+[2023-05-25 14:20:31] INFO root fetch - processPackages [bosch-alarm-mode2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bosch_alarm_mode2-0.3.8.tar.gz tmp/bosch_alarm_mode2-0.3.9.tar.gz --markdown 20230525/b/bosch-alarm-mode2/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-25 14:20:31] INFO root fetch - processPackages [apimatic-requests-client-adapter]: Downloading https://files.pythonhosted.org/packages/11/af/d7ea5860de5699439834b0ec74d7899a9890767a7da2d658ca9b04d04d2e/apimatic-requests-client-adapter-0.1.2.tar.gz
+[2023-05-25 14:20:31] INFO root fetch - processPackages [odoo14-addon-edi-exchange-template-oca]: New version: [14.0.1.5.0] Old Version: [14.0.1.4.2]
+[2023-05-25 14:20:31] INFO root fetch - processPackages [pyrosexmod]: Downloading https://files.pythonhosted.org/packages/74/5a/c8aabd3fd786aaa3c299b9b773b191a347e8dd2a8a4eb4994584fee795de/pyrosexmod-0.1.8.tar.gz
+[2023-05-25 14:20:31] INFO root fetch - processPackages [apimatic-core]: Downloading https://files.pythonhosted.org/packages/8a/f3/679f3d6d853f2510672b98cf86e723b58905e88c9702b9630deed3ade68a/apimatic-core-0.2.2.tar.gz
+[2023-05-25 14:20:32] INFO root fetch - processPackages [dbpyman]: executing diffoscope
+[2023-05-25 14:20:32] INFO root fetch - processPackages [dbpyman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbpyman-0.1.21.tar.gz tmp/dbpyman-0.1.211.tar.gz --markdown 20230525/d/dbpyman/0.1.21-0.1.211/diff.md --exclude *.pyd
+[2023-05-25 14:20:32] INFO root fetch - processPackages [pyrosexmod]: executing diffoscope
+[2023-05-25 14:20:32] INFO root fetch - processPackages [pyrosexmod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrosexmod-0.1.7.tar.gz tmp/pyrosexmod-0.1.8.tar.gz --markdown 20230525/p/pyrosexmod/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-25 14:20:32] INFO root fetch - processPackages [odoo14-addon-edi-exchange-template-oca]: Downloading https://files.pythonhosted.org/packages/d0/c1/fdfdca36a7673eedc98d9eceb42382ca81d8eb513f250ef14d7757030f4a/odoo14_addon_edi_exchange_template_oca-14.0.1.4.2-py3-none-any.whl
+[2023-05-25 14:20:32] INFO root fetch - processPackages [linkedinpdfextractor]: Downloading https://files.pythonhosted.org/packages/a7/8e/41e32171469b0912b47790c79e973456241bbc1b922693e87e95946c5ebe/linkedinpdfextractor-1.2.6.tar.gz
+[2023-05-25 14:20:32] INFO root fetch - processPackages [apimatic-requests-client-adapter]: Downloading https://files.pythonhosted.org/packages/61/a8/0c2fe8592e794f855f1da7b1a477f099944b8f8ce6b2c2182c10c5d7bbae/apimatic-requests-client-adapter-0.1.3.tar.gz
+[2023-05-25 14:20:32] INFO root fetch - processPackages [apimatic-core]: Downloading https://files.pythonhosted.org/packages/f1/62/bc2d8b9081e6cf6b6d10497749efabd6fdfd92d37ad42984d1be88e8723a/apimatic-core-0.2.3.tar.gz
+[2023-05-25 14:20:32] INFO root fetch - processPackages [linkedinpdfextractor]: executing diffoscope
+[2023-05-25 14:20:32] INFO root fetch - processPackages [linkedinpdfextractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linkedinpdfextractor-1.2.4.tar.gz tmp/linkedinpdfextractor-1.2.6.tar.gz --markdown 20230525/l/linkedinpdfextractor/1.2.4-1.2.6/diff.md --exclude *.pyd
+[2023-05-25 14:20:32] INFO root fetch - processPackages [odoo14-addon-edi-exchange-template-oca]: Downloading https://files.pythonhosted.org/packages/ec/24/1ab66f8be4cf33e83db8d648e98719f5b2a3623aa7caba7c2b9ae9dede5a/odoo14_addon_edi_exchange_template_oca-14.0.1.5.0-py3-none-any.whl
+[2023-05-25 14:20:32] INFO root fetch - processPackages [apimatic-requests-client-adapter]: executing diffoscope
+[2023-05-25 14:20:32] INFO root fetch - processPackages [apimatic-requests-client-adapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apimatic-requests-client-adapter-0.1.2.tar.gz tmp/apimatic-requests-client-adapter-0.1.3.tar.gz --markdown 20230525/a/apimatic-requests-client-adapter/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-25 14:20:32] INFO root fetch - processPackages [odoo14-addon-edi-exchange-template-oca]: executing diffoscope
+[2023-05-25 14:20:32] INFO root fetch - processPackages [odoo14-addon-edi-exchange-template-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_edi_exchange_template_oca-14.0.1.4.2-py3-none-any.whl.zip tmp/odoo14_addon_edi_exchange_template_oca-14.0.1.5.0-py3-none-any.whl.zip --markdown 20230525/o/odoo14-addon-edi-exchange-template-oca/14.0.1.4.2-14.0.1.5.0/diff.md --exclude *.pyd
+[2023-05-25 14:20:32] INFO root fetch - processPackages [apimatic-core]: executing diffoscope
+[2023-05-25 14:20:32] INFO root fetch - processPackages [apimatic-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apimatic-core-0.2.2.tar.gz tmp/apimatic-core-0.2.3.tar.gz --markdown 20230525/a/apimatic-core/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-25 14:20:33] INFO root fetch - processPackages [widefield-analysis]: Start processing: odoo14-addon-edi-oca
+[2023-05-25 14:20:33] INFO root fetch - main [MainThread]: End processing [widefield-analysis]: success
+[2023-05-25 14:20:33] INFO root fetch - processPackages [iron-toolbox]: Start processing: biaslyze
+[2023-05-25 14:20:33] INFO root fetch - main [MainThread]: End processing [iron-toolbox]: success
+[2023-05-25 14:20:33] WARNING root fetch - processPackages [biaslyze]: Skipping, unable to determine old version
+[2023-05-25 14:20:33] INFO root fetch - processPackages [biaslyze]: Start processing: bigdl-dllib
+[2023-05-25 14:20:33] INFO root fetch - main [MainThread]: End processing [biaslyze] error
+[2023-05-25 14:20:33] INFO root fetch - processPackages [bosch-alarm-mode2]: Start processing: sqlalchemy-exasol
+[2023-05-25 14:20:33] INFO root fetch - main [MainThread]: End processing [bosch-alarm-mode2]: success
+[2023-05-25 14:20:33] INFO root fetch - processPackages [bigdl-dllib]: New version: [2.4.0b20230524] Old Version: [2.4.0b20230523]
+[2023-05-25 14:20:33] INFO root fetch - processPackages [odoo14-addon-edi-oca]: New version: [14.0.1.9.2] Old Version: [14.0.1.9.1.dev1]
+[2023-05-25 14:20:33] INFO root fetch - processPackages [sqlalchemy-exasol]: New version: [4.5.0] Old Version: [4.4.0]
+[2023-05-25 14:20:33] INFO root fetch - processPackages [bigdl-dllib]: Downloading https://files.pythonhosted.org/packages/c8/52/4b9b0426318369ac12b92f6d48337527d5dcf2a91b673bb939f4726b613f/bigdl-dllib-2.4.0b20230523.tar.gz
+[2023-05-25 14:20:33] WARNING root fetch - processPackages [bigdl-dllib]: Skipping package: exceeds size limit 53560841>=10485760
+[2023-05-25 14:20:33] INFO root fetch - processPackages [bigdl-dllib]: Start processing: wikiseriesvincentlib
+[2023-05-25 14:20:33] INFO root fetch - main [MainThread]: End processing [bigdl-dllib] error
+[2023-05-25 14:20:33] INFO root fetch - processPackages [sqlalchemy-exasol]: Downloading https://files.pythonhosted.org/packages/47/7e/bd28490922d744e4212d42956ec78294d7c217705d8da2af02c14cf29920/sqlalchemy_exasol-4.5.0.tar.gz
+[2023-05-25 14:20:33] INFO root fetch - processPackages [pyrosexmod]: Start processing: cloud2
+[2023-05-25 14:20:33] INFO root fetch - main [MainThread]: End processing [pyrosexmod]: success
+[2023-05-25 14:20:33] INFO root fetch - processPackages [cloud2]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-25 14:20:33] ERROR root fetch - processPackages [wikiseriesvincentlib]: Unable to get metadata: No such project 'wikiseriesvincentlib'
+[2023-05-25 14:20:33] INFO root fetch - processPackages [wikiseriesvincentlib]: Start processing: anisha-vehicles
+[2023-05-25 14:20:33] INFO root fetch - main [MainThread]: End processing [wikiseriesvincentlib] error
+[2023-05-25 14:20:33] INFO root fetch - processPackages [sqlalchemy-exasol]: executing diffoscope
+[2023-05-25 14:20:33] INFO root fetch - processPackages [sqlalchemy-exasol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_exasol-4.4.0.tar.gz tmp/sqlalchemy_exasol-4.5.0.tar.gz --markdown 20230525/s/sqlalchemy-exasol/4.4.0-4.5.0/diff.md --exclude *.pyd
+[2023-05-25 14:20:33] INFO root fetch - main [MainThread]: End processing [dbpyman]: success
+[2023-05-25 14:20:33] WARNING root fetch - processPackages [anisha-vehicles]: Skipping, unable to determine old version
+[2023-05-25 14:20:33] INFO root fetch - main [MainThread]: End processing [anisha-vehicles] error
+[2023-05-25 14:20:34] INFO root fetch - processPackages [odoo14-addon-edi-oca]: executing diffoscope
+[2023-05-25 14:20:34] INFO root fetch - processPackages [odoo14-addon-edi-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_edi_oca-14.0.1.9.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_edi_oca-14.0.1.9.2-py3-none-any.whl.zip --markdown 20230525/o/odoo14-addon-edi-oca/14.0.1.9.1.dev1-14.0.1.9.2/diff.md --exclude *.pyd
+[2023-05-25 14:20:34] INFO root fetch - processPackages [cloud2]: executing diffoscope
+[2023-05-25 14:20:34] INFO root fetch - processPackages [cloud2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud2-0.0.1.tar.gz tmp/cloud2-0.0.2.tar.gz --markdown 20230525/c/cloud2/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-25 14:20:34] INFO root fetch - main [MainThread]: End processing [apimatic-requests-client-adapter]: success
+[2023-05-25 14:20:34] INFO root fetch - main [MainThread]: End processing [odoo14-addon-edi-exchange-template-oca]: success
+[2023-05-25 14:20:34] INFO root fetch - main [MainThread]: End processing [linkedinpdfextractor]: success
+[2023-05-25 14:20:35] INFO root fetch - main [MainThread]: End processing [sqlalchemy-exasol]: success
+[2023-05-25 14:20:35] INFO root fetch - main [MainThread]: End processing [cloud2]: success
+[2023-05-25 14:20:35] INFO root fetch - main [MainThread]: End processing [odoo14-addon-edi-oca]: success
+[2023-05-25 14:20:36] INFO root fetch - main [MainThread]: End processing [apimatic-core]: success
+[2023-05-25 14:20:58] INFO root fetch - main [MainThread]: End processing [Pandora-Cloud]: success
+[2023-05-25 14:20:58] INFO root fetch - main [MainThread]: Store serial: [18246394]
