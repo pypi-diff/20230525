@@ -22443,3 +22443,115 @@ EOFError: EOF read where object expected
 [2023-05-25 17:30:28] INFO root fetch - main [MainThread]: End processing [nowcasting-datamodel]: success
 [2023-05-25 17:30:36] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
 [2023-05-25 17:30:36] INFO root fetch - main [MainThread]: Store serial: [18249140]
+[2023-05-25 17:35:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18249140]
+[2023-05-25 17:35:46] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-25 17:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jfExt
+[2023-05-25 17:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: randomPlusPlus-tools
+[2023-05-25 17:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xugrid
+[2023-05-25 17:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aws-ddk-core
+[2023-05-25 17:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cloud2
+[2023-05-25 17:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ign-gpao-utils
+[2023-05-25 17:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lost-cat-office
+[2023-05-25 17:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: elgin
+[2023-05-25 17:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyvalueobjects
+[2023-05-25 17:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pref-voting
+[2023-05-25 17:35:46] INFO root fetch - processPackages [ign-gpao-utils]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-25 17:35:46] INFO root fetch - processPackages [pref-voting]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-25 17:35:46] INFO root fetch - processPackages [jfExt]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-05-25 17:35:46] WARNING root fetch - processPackages [randomPlusPlus-tools]: Skipping, unable to determine old version
+[2023-05-25 17:35:46] INFO root fetch - processPackages [randomPlusPlus-tools]: Start processing: fiddler-auditor
+[2023-05-25 17:35:46] INFO root fetch - processPackages [xugrid]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-25 17:35:46] INFO root fetch - main [MainThread]: End processing [randomPlusPlus-tools] error
+[2023-05-25 17:35:46] INFO root fetch - processPackages [lost-cat-office]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-25 17:35:46] INFO root fetch - processPackages [elgin]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-25 17:35:46] INFO root fetch - processPackages [aws-ddk-core]: New version: [1.0.0rc0] Old Version: [1.0.0b1]
+[2023-05-25 17:35:46] INFO root fetch - processPackages [cloud2]: New version: [0.1.7] Old Version: [0.0.80]
+[2023-05-25 17:35:46] INFO root fetch - processPackages [pyvalueobjects]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-25 17:35:46] INFO root fetch - processPackages [fiddler-auditor]: New version: [0.0.1rc3] Old Version: [0.0.1rc2]
+[2023-05-25 17:35:46] INFO root fetch - processPackages [pref-voting]: executing diffoscope
+[2023-05-25 17:35:46] INFO root fetch - processPackages [pref-voting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pref_voting-0.2.8.tar.gz tmp/pref_voting-0.2.9.tar.gz --markdown 20230525/p/pref-voting/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-25 17:35:46] INFO root fetch - processPackages [pyvalueobjects]: executing diffoscope
+[2023-05-25 17:35:46] INFO root fetch - processPackages [pyvalueobjects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvalueobjects-0.8.1.tar.gz tmp/pyvalueobjects-0.9.0.tar.gz --markdown 20230525/p/pyvalueobjects/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-25 17:35:46] INFO root fetch - processPackages [fiddler-auditor]: executing diffoscope
+[2023-05-25 17:35:46] INFO root fetch - processPackages [fiddler-auditor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiddler-auditor-0.0.1rc2.tar.gz tmp/fiddler-auditor-0.0.1rc3.tar.gz --markdown 20230525/f/fiddler-auditor/0.0.1rc2-0.0.1rc3/diff.md --exclude *.pyd
+[2023-05-25 17:35:46] INFO root fetch - processPackages [elgin]: Downloading https://files.pythonhosted.org/packages/5e/50/d6f2f26a021455eed8bc69662eb061bec5fc5eef94fce5ec26a809d492f9/elgin-0.1.1.tar.gz
+[2023-05-25 17:35:46] INFO root fetch - processPackages [lost-cat-office]: Downloading https://files.pythonhosted.org/packages/09/7a/26db4ae6f0bcdca8143bf0bf26aa3780339db239120a0880e3b5d226032f/lost_cat_office-0.0.3.tar.gz
+[2023-05-25 17:35:46] INFO root fetch - processPackages [ign-gpao-utils]: Downloading https://files.pythonhosted.org/packages/0b/f7/e7426f883d975e6086355e49ff9c39c3e7b9031e8d15aae32b04a934fd9e/ign-gpao-utils-0.0.1.tar.gz
+[2023-05-25 17:35:46] INFO root fetch - processPackages [xugrid]: Downloading https://files.pythonhosted.org/packages/a2/30/f4a7131361bdeb4a39b6cd750bb1604bdd63969bfe1f04c79c2d26cca9bd/xugrid-0.4.0.tar.gz
+[2023-05-25 17:35:46] INFO root fetch - processPackages [cloud2]: Downloading https://files.pythonhosted.org/packages/47/66/05076e37b3cda6f6845eed0d0f5e18cb67580e9455300e998e7b9428541f/cloud2-0.1.7.tar.gz
+[2023-05-25 17:35:46] INFO root fetch - processPackages [cloud2]: executing diffoscope
+[2023-05-25 17:35:46] INFO root fetch - processPackages [cloud2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud2-0.0.80.tar.gz tmp/cloud2-0.1.7.tar.gz --markdown 20230525/c/cloud2/0.0.80-0.1.7/diff.md --exclude *.pyd
+[2023-05-25 17:35:46] INFO root fetch - processPackages [elgin]: Downloading https://files.pythonhosted.org/packages/49/e7/aa35bbaab98353e64d66e48712177f7cde5e613187ace9455863ae4c54a5/elgin-0.1.2-py3-none-any.whl
+[2023-05-25 17:35:46] INFO root fetch - processPackages [jfExt]: executing diffoscope
+[2023-05-25 17:35:46] INFO root fetch - processPackages [jfExt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jfExt-1.9.2.tar.gz tmp/jfExt-1.9.3.tar.gz --markdown 20230525/j/jfExt/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-05-25 17:35:46] INFO root fetch - processPackages [ign-gpao-utils]: Downloading https://files.pythonhosted.org/packages/b8/88/a52314da3e279d7d5b4e79225298acb1f02277ed49161b3c94e3f7cf86ed/ign-gpao-utils-0.0.2.tar.gz
+[2023-05-25 17:35:46] INFO root fetch - processPackages [elgin]: executing diffoscope
+[2023-05-25 17:35:46] INFO root fetch - processPackages [elgin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elgin-0.1.1.tar.gz tmp/elgin-0.1.2-py3-none-any.whl.zip --markdown 20230525/e/elgin/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-25 17:35:46] INFO root fetch - processPackages [aws-ddk-core]: executing diffoscope
+[2023-05-25 17:35:46] INFO root fetch - processPackages [aws-ddk-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-ddk-core-1.0.0b1.tar.gz tmp/aws-ddk-core-1.0.0rc0.tar.gz --markdown 20230525/a/aws-ddk-core/1.0.0b1-1.0.0rc0/diff.md --exclude *.pyd
+[2023-05-25 17:35:46] INFO root fetch - processPackages [ign-gpao-utils]: executing diffoscope
+[2023-05-25 17:35:46] INFO root fetch - processPackages [ign-gpao-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ign-gpao-utils-0.0.1.tar.gz tmp/ign-gpao-utils-0.0.2.tar.gz --markdown 20230525/i/ign-gpao-utils/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-25 17:35:46] INFO root fetch - processPackages [lost-cat-office]: Downloading https://files.pythonhosted.org/packages/7d/d1/f1490035edce74d6ae04db63b3a968510c5c337ac36556b6d2697ae4c9f7/lost_cat_office-0.0.4.tar.gz
+[2023-05-25 17:35:46] INFO root fetch - processPackages [xugrid]: Downloading https://files.pythonhosted.org/packages/01/d5/7fcf09d92f16160ae24c5e932eb7af2b87c92acb7f90795a6b5676b8b82c/xugrid-0.5.0.tar.gz
+[2023-05-25 17:35:46] INFO root fetch - processPackages [lost-cat-office]: executing diffoscope
+[2023-05-25 17:35:46] INFO root fetch - processPackages [lost-cat-office]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lost_cat_office-0.0.3.tar.gz tmp/lost_cat_office-0.0.4.tar.gz --markdown 20230525/l/lost-cat-office/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-25 17:35:47] INFO root fetch - processPackages [xugrid]: executing diffoscope
+[2023-05-25 17:35:47] INFO root fetch - processPackages [xugrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xugrid-0.4.0.tar.gz tmp/xugrid-0.5.0.tar.gz --markdown 20230525/x/xugrid/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-25 17:35:48] INFO root fetch - processPackages [pref-voting]: Start processing: aiidalab
+[2023-05-25 17:35:48] INFO root fetch - main [MainThread]: End processing [pref-voting]: success
+[2023-05-25 17:35:48] INFO root fetch - processPackages [aiidalab]: New version: [23.3.1] Old Version: [23.3.0]
+[2023-05-25 17:35:48] INFO root fetch - processPackages [pyvalueobjects]: Start processing: lnschema_core
+[2023-05-25 17:35:48] INFO root fetch - main [MainThread]: End processing [pyvalueobjects]: success
+[2023-05-25 17:35:48] INFO root fetch - processPackages [lnschema_core]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-25 17:35:48] INFO root fetch - processPackages [aiidalab]: Downloading https://files.pythonhosted.org/packages/f5/00/fc8b6b529ea2e2e74aec618319350888b7ecee6121572bbda5a6c7594762/aiidalab-23.3.0.tar.gz
+[2023-05-25 17:35:48] INFO root fetch - processPackages [aiidalab]: Downloading https://files.pythonhosted.org/packages/b9/2f/3d34722d41fb504a0013dd8da206fcab69383f540231afcf7e42b1ccf045/aiidalab-23.3.1.tar.gz
+[2023-05-25 17:35:48] INFO root fetch - processPackages [aiidalab]: executing diffoscope
+[2023-05-25 17:35:48] INFO root fetch - processPackages [aiidalab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiidalab-23.3.0.tar.gz tmp/aiidalab-23.3.1.tar.gz --markdown 20230525/a/aiidalab/23.3.0-23.3.1/diff.md --exclude *.pyd
+[2023-05-25 17:35:48] INFO root fetch - processPackages [lnschema_core]: executing diffoscope
+[2023-05-25 17:35:48] INFO root fetch - processPackages [lnschema_core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_core-0.8.1.tar.gz tmp/lnschema_core-0.9.0.tar.gz --markdown 20230525/l/lnschema_core/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-25 17:35:48] INFO root fetch - processPackages [ign-gpao-utils]: Start processing: hexkit
+[2023-05-25 17:35:48] INFO root fetch - main [MainThread]: End processing [ign-gpao-utils]: success
+[2023-05-25 17:35:48] INFO root fetch - processPackages [hexkit]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-25 17:35:48] INFO root fetch - processPackages [cloud2]: Start processing: ibm-watson-pipelines
+[2023-05-25 17:35:48] INFO root fetch - main [MainThread]: End processing [cloud2]: success
+[2023-05-25 17:35:48] INFO root fetch - processPackages [ibm-watson-pipelines]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-25 17:35:48] INFO root fetch - processPackages [jfExt]: Start processing: text-image-generator
+[2023-05-25 17:35:48] INFO root fetch - main [MainThread]: End processing [jfExt]: success
+[2023-05-25 17:35:48] WARNING root fetch - processPackages [text-image-generator]: Skipping, unable to determine old version
+[2023-05-25 17:35:48] INFO root fetch - processPackages [text-image-generator]: Start processing: cloud2
+[2023-05-25 17:35:48] INFO root fetch - main [MainThread]: End processing [text-image-generator] error
+[2023-05-25 17:35:48] INFO root fetch - processPackages [cloud2]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-25 17:35:48] INFO root fetch - processPackages [ibm-watson-pipelines]: Downloading https://files.pythonhosted.org/packages/d5/8a/7e35dbb0d38a74d62b0e570b01e9a4d85a1879c2d6743524b281b89f19b8/ibm-watson-pipelines-1.0.0.tar.gz
+[2023-05-25 17:35:49] INFO root fetch - processPackages [elgin]: Start processing: itkdb-gtk
+[2023-05-25 17:35:49] INFO root fetch - main [MainThread]: End processing [elgin]: success
+[2023-05-25 17:35:49] INFO root fetch - processPackages [cloud2]: Downloading https://files.pythonhosted.org/packages/f2/78/9dff16390a1c27f4e31005eccf963be358408a6da2a836b57ae1c964baed/cloud2-0.1.8.tar.gz
+[2023-05-25 17:35:49] INFO root fetch - processPackages [aws-ddk-core]: Start processing: PySide1-Customized-Window
+[2023-05-25 17:35:49] INFO root fetch - main [MainThread]: End processing [aws-ddk-core]: success
+[2023-05-25 17:35:49] INFO root fetch - processPackages [hexkit]: executing diffoscope
+[2023-05-25 17:35:49] INFO root fetch - processPackages [hexkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hexkit-0.9.2.tar.gz tmp/hexkit-0.9.3.tar.gz --markdown 20230525/h/hexkit/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-25 17:35:49] INFO root fetch - processPackages [itkdb-gtk]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-25 17:35:49] INFO root fetch - processPackages [cloud2]: executing diffoscope
+[2023-05-25 17:35:49] INFO root fetch - processPackages [cloud2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud2-0.1.7.tar.gz tmp/cloud2-0.1.8.tar.gz --markdown 20230525/c/cloud2/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-25 17:35:49] INFO root fetch - processPackages [PySide1-Customized-Window]: New version: [1.4] Old Version: [1.3]
+[2023-05-25 17:35:49] INFO root fetch - processPackages [ibm-watson-pipelines]: Downloading https://files.pythonhosted.org/packages/a0/3a/2350efc1da4906c2cb610fb5e4e703705293888595efc062a1a58d576d1e/ibm-watson-pipelines-1.0.1.tar.gz
+[2023-05-25 17:35:49] INFO root fetch - processPackages [ibm-watson-pipelines]: executing diffoscope
+[2023-05-25 17:35:49] INFO root fetch - processPackages [ibm-watson-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibm-watson-pipelines-1.0.0.tar.gz tmp/ibm-watson-pipelines-1.0.1.tar.gz --markdown 20230525/i/ibm-watson-pipelines/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-25 17:35:49] INFO root fetch - main [MainThread]: End processing [lost-cat-office]: success
+[2023-05-25 17:35:49] INFO root fetch - processPackages [itkdb-gtk]: Downloading https://files.pythonhosted.org/packages/21/e1/b8e7c25229154c41a3186950bc0d0fbcf0e3a5b7cc541cd3044f2dcf22d2/itkdb_gtk-0.0.6.tar.gz
+[2023-05-25 17:35:49] INFO root fetch - processPackages [PySide1-Customized-Window]: Downloading https://files.pythonhosted.org/packages/39/56/c2f95b85cfae14c2337776a266a2b55376098b0d3f5116100e8b074c984c/PySide1_Customized_Window-1.3-py3-none-any.whl
+[2023-05-25 17:35:49] INFO root fetch - processPackages [PySide1-Customized-Window]: Downloading https://files.pythonhosted.org/packages/29/13/5bce5c71acd2ca3fbaa2e7ec41fd8a26e64c9258445cd9a8c1eef0487604/PySide1_Customized_Window-1.4-py3-none-any.whl
+[2023-05-25 17:35:49] INFO root fetch - processPackages [itkdb-gtk]: Downloading https://files.pythonhosted.org/packages/73/0d/254eb0749dcdcac6e6aff84ef57ef5f4a6abc94a11e04d46331706d5ac65/itkdb_gtk-0.0.7.tar.gz
+[2023-05-25 17:35:49] INFO root fetch - processPackages [PySide1-Customized-Window]: executing diffoscope
+[2023-05-25 17:35:49] INFO root fetch - processPackages [PySide1-Customized-Window]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide1_Customized_Window-1.3-py3-none-any.whl.zip tmp/PySide1_Customized_Window-1.4-py3-none-any.whl.zip --markdown 20230525/P/PySide1-Customized-Window/1.3-1.4/diff.md --exclude *.pyd
+[2023-05-25 17:35:49] INFO root fetch - processPackages [itkdb-gtk]: executing diffoscope
+[2023-05-25 17:35:49] INFO root fetch - processPackages [itkdb-gtk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itkdb_gtk-0.0.6.tar.gz tmp/itkdb_gtk-0.0.7.tar.gz --markdown 20230525/i/itkdb-gtk/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-25 17:35:50] INFO root fetch - main [MainThread]: End processing [lnschema_core]: success
+[2023-05-25 17:35:50] INFO root fetch - main [MainThread]: End processing [fiddler-auditor]: success
+[2023-05-25 17:35:50] INFO root fetch - main [MainThread]: End processing [aiidalab]: success
+[2023-05-25 17:35:50] INFO root fetch - main [MainThread]: End processing [cloud2]: success
+[2023-05-25 17:35:50] INFO root fetch - main [MainThread]: End processing [ibm-watson-pipelines]: success
+[2023-05-25 17:35:51] INFO root fetch - main [MainThread]: End processing [hexkit]: success
+[2023-05-25 17:35:51] INFO root fetch - main [MainThread]: End processing [PySide1-Customized-Window]: success
+[2023-05-25 17:35:51] INFO root fetch - main [MainThread]: End processing [xugrid]: success
+[2023-05-25 17:36:39] INFO root fetch - main [MainThread]: End processing [itkdb-gtk]: success
+[2023-05-25 17:36:39] INFO root fetch - main [MainThread]: Store serial: [18249253]
