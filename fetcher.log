@@ -18900,3 +18900,195 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-25 15:03:02] INFO root fetch - main [MainThread]: End processing [asposecellscloud]: success
 [2023-05-25 15:03:44] INFO root fetch - main [MainThread]: End processing [s27a-jbq]: success
 [2023-05-25 15:03:44] INFO root fetch - main [MainThread]: Store serial: [18246928]
+[2023-05-25 15:08:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18246928]
+[2023-05-25 15:08:53] INFO root fetch - main [MainThread]: Found 34 changed packages
+[2023-05-25 15:08:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dynareadout
+[2023-05-25 15:08:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: toolforge-weld
+[2023-05-25 15:08:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py115
+[2023-05-25 15:08:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edu-segmentation
+[2023-05-25 15:08:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dfmodule
+[2023-05-25 15:08:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: adt-cache
+[2023-05-25 15:08:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lab-utilities
+[2023-05-25 15:08:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Geode-Explicit
+[2023-05-25 15:08:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fbgemm-gpu-nightly-cpu
+[2023-05-25 15:08:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyscada-smbus
+[2023-05-25 15:08:53] INFO root fetch - processPackages [adt-cache]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-25 15:08:53] INFO root fetch - processPackages [dfmodule]: New version: [0.0.2.2] Old Version: [0.0.2.1]
+[2023-05-25 15:08:53] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2023.5.24] Old Version: [2023.5.23]
+[2023-05-25 15:08:53] INFO root fetch - processPackages [edu-segmentation]: New version: [0.0.67] Old Version: [0.0.66]
+[2023-05-25 15:08:53] WARNING root fetch - processPackages [pyscada-smbus]: Skipping, unable to determine old version
+[2023-05-25 15:08:53] INFO root fetch - processPackages [pyscada-smbus]: Start processing: modelon-impact-client
+[2023-05-25 15:08:53] INFO root fetch - main [MainThread]: End processing [pyscada-smbus] error
+[2023-05-25 15:08:53] INFO root fetch - processPackages [lab-utilities]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-05-25 15:08:53] WARNING root fetch - processPackages [py115]: Skipping, unable to determine old version
+[2023-05-25 15:08:53] INFO root fetch - processPackages [py115]: Start processing: aib-logging
+[2023-05-25 15:08:53] INFO root fetch - main [MainThread]: End processing [py115] error
+[2023-05-25 15:08:53] INFO root fetch - processPackages [dynareadout]: New version: [23.5] Old Version: [23.4.2]
+[2023-05-25 15:08:53] INFO root fetch - processPackages [toolforge-weld]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-25 15:08:53] INFO root fetch - processPackages [aib-logging]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-25 15:08:53] INFO root fetch - processPackages [modelon-impact-client]: New version: [3.0.0.dev9] Old Version: [3.0.0.dev8]
+[2023-05-25 15:08:54] INFO root fetch - processPackages [Geode-Explicit]: New version: [3.1.1rc1] Old Version: [3.1.0]
+[2023-05-25 15:08:54] INFO root fetch - processPackages [adt-cache]: Downloading https://files.pythonhosted.org/packages/33/6c/d89a523f1195dd7fe3329044a5b2688150080cf1772b89a07b2ab265894d/adt_cache-0.0.6.tar.gz
+[2023-05-25 15:08:54] INFO root fetch - processPackages [dfmodule]: Downloading https://files.pythonhosted.org/packages/5e/53/ac67c5b7eef628cc21ac84d56656000d91192cf9dd18f1c2a69f27d8999b/dfmodule-0.0.2.2.tar.gz
+[2023-05-25 15:08:54] INFO root fetch - processPackages [dynareadout]: Downloading https://files.pythonhosted.org/packages/f9/73/f3e4f94665de509d35c7bc29c8dad2cba057f7b9ba579fe8054918c9edc4/dynareadout-23.4.2.tar.gz
+[2023-05-25 15:08:54] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/98/39/ca60e0786c1072c9f10e3f6709aef1cfbf2a35262e384fc9dfc68f6f067a/fbgemm_gpu_nightly_cpu-2023.5.24-cp39-cp39-manylinux1_x86_64.whl
+[2023-05-25 15:08:54] INFO root fetch - processPackages [edu-segmentation]: Downloading https://files.pythonhosted.org/packages/9d/c6/aa30375684b6acad5640737ded0ccca91ada73b8f1eb55f249d5d6365260/edu_segmentation-0.0.67.tar.gz
+[2023-05-25 15:08:54] INFO root fetch - processPackages [modelon-impact-client]: executing diffoscope
+[2023-05-25 15:08:54] INFO root fetch - processPackages [modelon-impact-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelon_impact_client-3.0.0.dev8.tar.gz tmp/modelon_impact_client-3.0.0.dev9.tar.gz --markdown 20230525/m/modelon-impact-client/3.0.0.dev8-3.0.0.dev9/diff.md --exclude *.pyd
+[2023-05-25 15:08:54] INFO root fetch - processPackages [aib-logging]: Downloading https://files.pythonhosted.org/packages/0e/90/63e4b605716e4e0bf2e08f358fb990ccac51e270638cb9312b3cfb4f1a85/aib_logging-1.0.5.tar.gz
+[2023-05-25 15:08:54] INFO root fetch - processPackages [Geode-Explicit]: Downloading https://files.pythonhosted.org/packages/a2/f7/747d3b3639d3e97566bded5df7e43cbf8de75198d72c90d133d18a323cab/Geode_Explicit-3.1.0-cp39-cp39-win_amd64.whl
+[2023-05-25 15:08:54] INFO root fetch - processPackages [lab-utilities]: Downloading https://files.pythonhosted.org/packages/26/d4/6e534b7b4192212d970fd70dd580a8aeb0fa805cf63d765e585d25696547/lab_utilities-0.5.0.tar.gz
+[2023-05-25 15:08:54] INFO root fetch - processPackages [toolforge-weld]: Downloading https://files.pythonhosted.org/packages/43/21/0e080d65579ef4c7ccdc1a85ee8ca130367566bc2e4490df13d4146acc48/toolforge-weld-1.0.1.tar.gz
+[2023-05-25 15:08:54] INFO root fetch - processPackages [edu-segmentation]: executing diffoscope
+[2023-05-25 15:08:54] INFO root fetch - processPackages [edu-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edu_segmentation-0.0.66.tar.gz tmp/edu_segmentation-0.0.67.tar.gz --markdown 20230525/e/edu-segmentation/0.0.66-0.0.67/diff.md --exclude *.pyd
+[2023-05-25 15:08:54] INFO root fetch - processPackages [dfmodule]: executing diffoscope
+[2023-05-25 15:08:54] INFO root fetch - processPackages [dfmodule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfmodule-0.0.2.1.tar.gz tmp/dfmodule-0.0.2.2.tar.gz --markdown 20230525/d/dfmodule/0.0.2.1-0.0.2.2/diff.md --exclude *.pyd
+[2023-05-25 15:08:54] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2023-05-25 15:08:54] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2023.5.23-cp39-cp39-manylinux1_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2023.5.24-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20230525/f/fbgemm-gpu-nightly-cpu/2023.5.23-2023.5.24/diff.md --exclude *.pyd
+[2023-05-25 15:08:54] INFO root fetch - processPackages [adt-cache]: Downloading https://files.pythonhosted.org/packages/fe/ea/4b572196360c0d8bbb50ff2f6d22ae2b06235d7e216feb1e4a0c91a4c5da/adt_cache-0.0.7.tar.gz
+[2023-05-25 15:08:54] INFO root fetch - processPackages [dynareadout]: Downloading https://files.pythonhosted.org/packages/21/2b/c009bcc54b9559a61950fd2283d35394f9c4393f6bec06c79d114f5e1fdc/dynareadout-23.5.tar.gz
+[2023-05-25 15:08:54] INFO root fetch - processPackages [toolforge-weld]: executing diffoscope
+[2023-05-25 15:08:54] INFO root fetch - processPackages [toolforge-weld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toolforge-weld-1.0.0.tar.gz tmp/toolforge-weld-1.0.1.tar.gz --markdown 20230525/t/toolforge-weld/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-25 15:08:54] INFO root fetch - processPackages [aib-logging]: Downloading https://files.pythonhosted.org/packages/7c/7b/b2080f980e840791b73e9b0dc0b56aca96f63133c32b7f5c2e3b781cb271/aib_logging-1.0.6.tar.gz
+[2023-05-25 15:08:54] INFO root fetch - processPackages [adt-cache]: executing diffoscope
+[2023-05-25 15:08:54] INFO root fetch - processPackages [adt-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adt_cache-0.0.6.tar.gz tmp/adt_cache-0.0.7.tar.gz --markdown 20230525/a/adt-cache/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-25 15:08:54] INFO root fetch - processPackages [lab-utilities]: Downloading https://files.pythonhosted.org/packages/9f/45/94d0d443b39809e33d00268c5856a599f0d2d84f254209c8de73284a9b1d/lab_utilities-0.6.0.tar.gz
+[2023-05-25 15:08:54] INFO root fetch - processPackages [dynareadout]: executing diffoscope
+[2023-05-25 15:08:54] INFO root fetch - processPackages [dynareadout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynareadout-23.4.2.tar.gz tmp/dynareadout-23.5.tar.gz --markdown 20230525/d/dynareadout/23.4.2-23.5/diff.md --exclude *.pyd
+[2023-05-25 15:08:54] INFO root fetch - processPackages [lab-utilities]: executing diffoscope
+[2023-05-25 15:08:54] INFO root fetch - processPackages [lab-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lab_utilities-0.5.0.tar.gz tmp/lab_utilities-0.6.0.tar.gz --markdown 20230525/l/lab-utilities/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-05-25 15:08:54] INFO root fetch - processPackages [aib-logging]: executing diffoscope
+[2023-05-25 15:08:54] INFO root fetch - processPackages [aib-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aib_logging-1.0.5.tar.gz tmp/aib_logging-1.0.6.tar.gz --markdown 20230525/a/aib-logging/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-25 15:08:54] INFO root fetch - processPackages [Geode-Explicit]: Downloading https://files.pythonhosted.org/packages/5c/53/5ca6c7520fa4483b2c28dfc90f24343a5197f11b08720baf00ab94d98d0f/Geode_Explicit-3.1.1rc1-cp39-cp39-win_amd64.whl
+[2023-05-25 15:08:55] INFO root fetch - processPackages [Geode-Explicit]: executing diffoscope
+[2023-05-25 15:08:55] INFO root fetch - processPackages [Geode-Explicit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Explicit-3.1.0-cp39-cp39-win_amd64.whl.zip tmp/Geode_Explicit-3.1.1rc1-cp39-cp39-win_amd64.whl.zip --markdown 20230525/G/Geode-Explicit/3.1.0-3.1.1rc1/diff.md --exclude *.pyd
+[2023-05-25 15:08:55] INFO root fetch - processPackages [modelon-impact-client]: Start processing: aligned
+[2023-05-25 15:08:55] INFO root fetch - main [MainThread]: End processing [modelon-impact-client]: success
+[2023-05-25 15:08:55] INFO root fetch - processPackages [aligned]: New version: [0.0.9a0] Old Version: [0.0.9]
+[2023-05-25 15:08:55] INFO root fetch - processPackages [dfmodule]: Start processing: cf-deploy
+[2023-05-25 15:08:55] INFO root fetch - main [MainThread]: End processing [dfmodule]: success
+[2023-05-25 15:08:56] INFO root fetch - processPackages [cf-deploy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-25 15:08:56] INFO root fetch - processPackages [aligned]: executing diffoscope
+[2023-05-25 15:08:56] INFO root fetch - processPackages [aligned]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aligned-0.0.9.tar.gz tmp/aligned-0.0.9a0.tar.gz --markdown 20230525/a/aligned/0.0.9-0.0.9a0/diff.md --exclude *.pyd
+[2023-05-25 15:08:56] INFO root fetch - processPackages [toolforge-weld]: Start processing: langflow
+[2023-05-25 15:08:56] INFO root fetch - main [MainThread]: End processing [toolforge-weld]: success
+[2023-05-25 15:08:56] INFO root fetch - processPackages [adt-cache]: Start processing: edu-segmentation
+[2023-05-25 15:08:56] INFO root fetch - main [MainThread]: End processing [adt-cache]: success
+[2023-05-25 15:08:56] INFO root fetch - processPackages [edu-segmentation]: New version: [0.0.69] Old Version: [0.0.68]
+[2023-05-25 15:08:56] INFO root fetch - processPackages [langflow]: New version: [0.0.77] Old Version: [0.0.76]
+[2023-05-25 15:08:56] INFO root fetch - processPackages [cf-deploy]: executing diffoscope
+[2023-05-25 15:08:56] INFO root fetch - processPackages [cf-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cf_deploy-0.1.8.tar.gz tmp/cf_deploy-0.1.9.tar.gz --markdown 20230525/c/cf-deploy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-25 15:08:56] INFO root fetch - processPackages [edu-segmentation]: Downloading https://files.pythonhosted.org/packages/8c/a5/2f171376a9521b8c7f3698f72b729b1a789f74f0a8a21a77a29dd5734f10/edu_segmentation-0.0.68.tar.gz
+[2023-05-25 15:08:56] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/40/e6/d3ed8d5ea5a927d45a12a127578fc6dd1b953234af8efffd169898da1830/langflow-0.0.76.tar.gz
+[2023-05-25 15:08:56] INFO root fetch - processPackages [aib-logging]: Start processing: pyscada-serial
+[2023-05-25 15:08:56] INFO root fetch - main [MainThread]: End processing [aib-logging]: success
+[2023-05-25 15:08:56] INFO root fetch - processPackages [lab-utilities]: Start processing: wsic
+[2023-05-25 15:08:56] INFO root fetch - main [MainThread]: End processing [lab-utilities]: success
+[2023-05-25 15:08:56] INFO root fetch - processPackages [edu-segmentation]: Downloading https://files.pythonhosted.org/packages/28/ff/28ff4b7bfec9a0b4055eb1c7b50a76aab80837b251b180b09e70c4411a17/edu_segmentation-0.0.69.tar.gz
+[2023-05-25 15:08:56] WARNING root fetch - processPackages [pyscada-serial]: Skipping, unable to determine old version
+[2023-05-25 15:08:56] INFO root fetch - processPackages [pyscada-serial]: Start processing: questdb-connect
+[2023-05-25 15:08:56] INFO root fetch - main [MainThread]: End processing [pyscada-serial] error
+[2023-05-25 15:08:56] INFO root fetch - processPackages [wsic]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-05-25 15:08:56] INFO root fetch - processPackages [questdb-connect]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-25 15:08:56] INFO root fetch - processPackages [questdb-connect]: executing diffoscope
+[2023-05-25 15:08:56] INFO root fetch - processPackages [questdb-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/questdb-connect-1.0.5.tar.gz tmp/questdb-connect-1.0.6.tar.gz --markdown 20230525/q/questdb-connect/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-25 15:08:56] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/b8/a5/06aa51a31ef1de4285651b8d1daf568f3dc3c7de1bcbbe6a5f9c26a58729/langflow-0.0.77.tar.gz
+[2023-05-25 15:08:56] INFO root fetch - processPackages [edu-segmentation]: executing diffoscope
+[2023-05-25 15:08:56] INFO root fetch - processPackages [edu-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edu_segmentation-0.0.68.tar.gz tmp/edu_segmentation-0.0.69.tar.gz --markdown 20230525/e/edu-segmentation/0.0.68-0.0.69/diff.md --exclude *.pyd
+[2023-05-25 15:08:57] INFO root fetch - processPackages [wsic]: Downloading https://files.pythonhosted.org/packages/1e/50/1bc6edc89301556ac5f9d226c2a1982b6c1c6d6f50535f926103332d4fda/wsic-0.8.2.tar.gz
+[2023-05-25 15:08:57] INFO root fetch - processPackages [langflow]: executing diffoscope
+[2023-05-25 15:08:57] INFO root fetch - processPackages [langflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langflow-0.0.76.tar.gz tmp/langflow-0.0.77.tar.gz --markdown 20230525/l/langflow/0.0.76-0.0.77/diff.md --exclude *.pyd
+[2023-05-25 15:08:57] INFO root fetch - processPackages [dynareadout]: Start processing: nucliadb
+[2023-05-25 15:08:57] INFO root fetch - main [MainThread]: End processing [dynareadout]: success
+[2023-05-25 15:08:57] WARNING root fetch - processPackages [wsic]: Skipping package: exceeds size limit 22179947>=10485760
+[2023-05-25 15:08:57] INFO root fetch - processPackages [wsic]: Start processing: nucliadb-client
+[2023-05-25 15:08:57] INFO root fetch - main [MainThread]: End processing [wsic] error
+[2023-05-25 15:08:57] INFO root fetch - processPackages [nucliadb]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-25 15:08:57] INFO root fetch - processPackages [nucliadb-client]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-25 15:08:57] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-05-25 15:08:57] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip --markdown 20230525/n/nucliadb/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-25 15:08:57] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-05-25 15:08:57] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip --markdown 20230525/n/nucliadb-client/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-25 15:08:57] INFO root fetch - processPackages [edu-segmentation]: Start processing: nucliadb-dataset
+[2023-05-25 15:08:57] INFO root fetch - main [MainThread]: End processing [edu-segmentation]: success
+[2023-05-25 15:08:57] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-25 15:08:57] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-05-25 15:08:57] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip --markdown 20230525/n/nucliadb-dataset/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-25 15:08:58] INFO root fetch - processPackages [cf-deploy]: Start processing: nucliadb-models
+[2023-05-25 15:08:58] INFO root fetch - main [MainThread]: End processing [cf-deploy]: success
+[2023-05-25 15:08:58] INFO root fetch - processPackages [nucliadb-models]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-25 15:08:58] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-05-25 15:08:58] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip --markdown 20230525/n/nucliadb-models/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-25 15:08:58] INFO root fetch - processPackages [aligned]: Start processing: nucliadb-protos
+[2023-05-25 15:08:58] INFO root fetch - main [MainThread]: End processing [aligned]: success
+[2023-05-25 15:08:58] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-25 15:08:58] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-05-25 15:08:58] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip --markdown 20230525/n/nucliadb-protos/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-25 15:08:58] INFO root fetch - processPackages [questdb-connect]: Start processing: nucliadb-sdk
+[2023-05-25 15:08:58] INFO root fetch - main [MainThread]: End processing [questdb-connect]: success
+[2023-05-25 15:08:58] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-25 15:08:59] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-05-25 15:08:59] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip --markdown 20230525/n/nucliadb-sdk/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-25 15:08:59] INFO root fetch - processPackages [nucliadb-client]: Start processing: nucliadb-utils
+[2023-05-25 15:08:59] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-05-25 15:08:59] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-25 15:08:59] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-05-25 15:08:59] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip --markdown 20230525/n/nucliadb-utils/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-25 15:08:59] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: fancy-source-query
+[2023-05-25 15:08:59] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-05-25 15:08:59] INFO root fetch - processPackages [fancy-source-query]: New version: [0.1.5] Old Version: [0.1.2]
+[2023-05-25 15:08:59] INFO root fetch - processPackages [nucliadb-models]: Start processing: nbdev-stdlib
+[2023-05-25 15:08:59] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-05-25 15:08:59] INFO root fetch - processPackages [fancy-source-query]: Downloading https://files.pythonhosted.org/packages/64/72/c1db3fddfea14effe571d63143a00e5ca36ffa51e145051059fa9bdd7f36/fancy-source-query-0.1.2.tar.gz
+[2023-05-25 15:09:00] INFO root fetch - processPackages [fancy-source-query]: Downloading https://files.pythonhosted.org/packages/ad/a4/feb67801543130346f37f124fa628f5b0e3be4609580b08d0e20cec645bd/fancy-source-query-0.1.5.tar.gz
+[2023-05-25 15:09:00] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-25 15:09:00] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-05-25 15:09:00] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230525/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-25 15:09:00] INFO root fetch - processPackages [fancy-source-query]: executing diffoscope
+[2023-05-25 15:09:00] INFO root fetch - processPackages [fancy-source-query]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fancy-source-query-0.1.2.tar.gz tmp/fancy-source-query-0.1.5.tar.gz --markdown 20230525/f/fancy-source-query/0.1.2-0.1.5/diff.md --exclude *.pyd
+[2023-05-25 15:09:00] INFO root fetch - processPackages [nucliadb-protos]: Start processing: cybrid-api-bank-python
+[2023-05-25 15:09:00] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-05-25 15:09:00] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-25 15:09:00] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-05-25 15:09:00] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230525/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-25 15:09:00] INFO root fetch - processPackages [nucliadb-sdk]: Start processing: wagtail
+[2023-05-25 15:09:00] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-05-25 15:09:00] INFO root fetch - processPackages [wagtail]: New version: [5.0rc1] Old Version: [5.0]
+[2023-05-25 15:09:00] INFO root fetch - processPackages [wagtail]: Downloading https://files.pythonhosted.org/packages/c0/19/1ee6f7df3d67419b77b46f66c6d10c59b78042086b8b6b34cf3e7da38d3c/wagtail-5.0.tar.gz
+[2023-05-25 15:09:01] INFO root fetch - processPackages [edu-segmentation]: Start processing: gnssanalysis
+[2023-05-25 15:09:01] INFO root fetch - main [MainThread]: End processing [edu-segmentation]: success
+[2023-05-25 15:09:01] INFO root fetch - processPackages [gnssanalysis]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 15:09:01] INFO root fetch - processPackages [gnssanalysis]: executing diffoscope
+[2023-05-25 15:09:01] INFO root fetch - processPackages [gnssanalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gnssanalysis-0.0.8.tar.gz tmp/gnssanalysis-0.0.9.tar.gz --markdown 20230525/g/gnssanalysis/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 15:09:01] INFO root fetch - processPackages [wagtail]: Downloading https://files.pythonhosted.org/packages/9a/2e/aa666aa6c50eb3b06e4d506781d667bf294bdfe6536b21eb002110b5d53c/wagtail-5.0rc1.tar.gz
+[2023-05-25 15:09:01] INFO root fetch - processPackages [nucliadb-utils]: Start processing: rscad
+[2023-05-25 15:09:01] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-05-25 15:09:01] INFO root fetch - processPackages [nucliadb]: Start processing: FunID
+[2023-05-25 15:09:01] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-05-25 15:09:01] INFO root fetch - processPackages [FunID]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-05-25 15:09:01] INFO root fetch - processPackages [FunID]: Downloading https://files.pythonhosted.org/packages/a2/14/7ae571dd6e4b918e2a85ca1625481c5764c15f2f4ecebb64e738e4863c57/FunID-0.3.7.tar.gz
+[2023-05-25 15:09:01] INFO root fetch - processPackages [rscad]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-25 15:09:01] WARNING root fetch - processPackages [FunID]: Skipping package: exceeds size limit 51448775>=10485760
+[2023-05-25 15:09:01] INFO root fetch - processPackages [FunID]: Start processing: asposecellscloud
+[2023-05-25 15:09:01] INFO root fetch - main [MainThread]: End processing [FunID] error
+[2023-05-25 15:09:01] INFO root fetch - processPackages [asposecellscloud]: New version: [23.5] Old Version: [23.4]
+[2023-05-25 15:09:01] INFO root fetch - processPackages [rscad]: Downloading https://files.pythonhosted.org/packages/85/99/fb4d39f059af7392612b1afbb4317f8595ae5d29d12fa90a647414336c77/rscad-0.0.4.tar.gz
+[2023-05-25 15:09:01] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-05-25 15:09:01] INFO root fetch - processPackages [asposecellscloud]: executing diffoscope
+[2023-05-25 15:09:01] INFO root fetch - processPackages [asposecellscloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asposecellscloud-23.4.tar.gz tmp/asposecellscloud-23.5.tar.gz --markdown 20230525/a/asposecellscloud/23.4-23.5/diff.md --exclude *.pyd
+[2023-05-25 15:09:02] INFO root fetch - processPackages [rscad]: Downloading https://files.pythonhosted.org/packages/3b/fe/3ccf5174a6182e724e804de2f3409d81e5002c254664245fa9fc3b2882df/rscad-0.0.5.tar.gz
+[2023-05-25 15:09:02] INFO root fetch - main [MainThread]: End processing [fancy-source-query]: success
+[2023-05-25 15:09:02] INFO root fetch - processPackages [rscad]: executing diffoscope
+[2023-05-25 15:09:02] INFO root fetch - processPackages [rscad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rscad-0.0.4.tar.gz tmp/rscad-0.0.5.tar.gz --markdown 20230525/r/rscad/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-25 15:09:02] INFO root fetch - processPackages [wagtail]: executing diffoscope
+[2023-05-25 15:09:02] INFO root fetch - processPackages [wagtail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail-5.0.tar.gz tmp/wagtail-5.0rc1.tar.gz --markdown 20230525/w/wagtail/5.0-5.0rc1/diff.md --exclude *.pyd
+[2023-05-25 15:09:03] INFO root fetch - main [MainThread]: End processing [gnssanalysis]: success
+[2023-05-25 15:09:03] INFO root fetch - main [MainThread]: End processing [rscad]: success
+[2023-05-25 15:09:04] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-05-25 15:09:06] INFO root fetch - main [MainThread]: End processing [asposecellscloud]: success
+[2023-05-25 15:09:13] INFO root fetch - main [MainThread]: End processing [Geode-Explicit]: success
+[2023-05-25 15:09:24] INFO root fetch - main [MainThread]: End processing [langflow]: success
+[2023-05-25 15:09:53] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2023-05-25 15:12:02] ERROR root fetch - processPackages [wagtail]: Timeout during execution of pkgdiff
+[2023-05-25 15:12:02] INFO root fetch - main [MainThread]: End processing [wagtail] error
+[2023-05-25 15:12:02] INFO root fetch - main [MainThread]: Store serial: [18247040]
