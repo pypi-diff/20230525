@@ -21584,3 +21584,57 @@ EOFError: EOF read where object expected
 [2023-05-25 16:58:16] INFO root fetch - main [MainThread]: End processing [idf-component-manager]: success
 [2023-05-25 16:58:17] INFO root fetch - main [MainThread]: End processing [influxql-client]: success
 [2023-05-25 16:58:17] INFO root fetch - main [MainThread]: Store serial: [18248637]
+[2023-05-25 17:03:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18248637]
+[2023-05-25 17:03:26] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-25 17:03:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pxgrid-api
+[2023-05-25 17:03:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pixie-price-forecast
+[2023-05-25 17:03:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: einsum-pipe
+[2023-05-25 17:03:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mctextworld
+[2023-05-25 17:03:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coiled
+[2023-05-25 17:03:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jupyterlab-training
+[2023-05-25 17:03:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: proxpi
+[2023-05-25 17:03:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: datamarket
+[2023-05-25 17:03:26] INFO root fetch - processPackages [pxgrid-api]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-25 17:03:26] INFO root fetch - processPackages [einsum-pipe]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-25 17:03:26] INFO root fetch - processPackages [pixie-price-forecast]: New version: [3.2.0] Old Version: [3.1.0]
+[2023-05-25 17:03:26] INFO root fetch - processPackages [mctextworld]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-25 17:03:26] INFO root fetch - processPackages [proxpi]: New version: [1.2.0a0] Old Version: [1.1.0rc0]
+[2023-05-25 17:03:26] INFO root fetch - processPackages [jupyterlab-training]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-25 17:03:26] INFO root fetch - processPackages [datamarket]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-25 17:03:26] INFO root fetch - processPackages [coiled]: New version: [0.6.8.dev8] Old Version: [0.6.8.dev6]
+[2023-05-25 17:03:26] INFO root fetch - processPackages [pixie-price-forecast]: Downloading https://files.pythonhosted.org/packages/2e/37/17f46ccf2660fdd17c8a754a35b0bdd6bc7af70f8fb130faf8573eb520ec/pixie_price_forecast-3.1.0.tar.gz
+[2023-05-25 17:03:26] INFO root fetch - processPackages [mctextworld]: Downloading https://files.pythonhosted.org/packages/e5/ac/f9349b8112716b6b4c7174b468d5d09b4c0f53452755933eadf36192e987/mctextworld-1.0.2.tar.gz
+[2023-05-25 17:03:26] INFO root fetch - processPackages [jupyterlab-training]: Downloading https://files.pythonhosted.org/packages/8b/3e/6c5bd95dbfd49343403dd4427b984722e249c7c08ef2803d0bdb2f8c2ef5/jupyterlab_training-0.3.0.tar.gz
+[2023-05-25 17:03:26] INFO root fetch - processPackages [proxpi]: Downloading https://files.pythonhosted.org/packages/fb/44/0c4ce18ba9dabe6fda4325e5a1e781562ff15bb28459b763c2d6819a2416/proxpi-1.2.0a0.tar.gz
+[2023-05-25 17:03:27] INFO root fetch - processPackages [datamarket]: Downloading https://files.pythonhosted.org/packages/ac/35/6e1a7ac6d7f90430bc5a5d6a91e93936299c9f16248435bb3fe5167fa083/datamarket-0.3.2.tar.gz
+[2023-05-25 17:03:27] INFO root fetch - processPackages [pxgrid-api]: Downloading https://files.pythonhosted.org/packages/e4/fd/0202c837a9035df731603aa42f261b7d65b34f395eecf0d424bf9e81fe04/pxgrid-api-0.2.5.tar.gz
+[2023-05-25 17:03:27] INFO root fetch - processPackages [einsum-pipe]: Downloading https://files.pythonhosted.org/packages/c3/d3/9167b87f528808de0224518ec78d2853abcec501bc28d0dd5b2667d5230e/einsum_pipe-0.2.2.tar.gz
+[2023-05-25 17:03:27] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/86/08/5c0ff862c521faa3c41c0f1b38ef45677f2e991238806d3183a47cfe9ee8/coiled-0.6.8.dev8.tar.gz
+[2023-05-25 17:03:27] INFO root fetch - processPackages [datamarket]: executing diffoscope
+[2023-05-25 17:03:27] INFO root fetch - processPackages [datamarket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamarket-0.3.1.tar.gz tmp/datamarket-0.3.2.tar.gz --markdown 20230525/d/datamarket/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-25 17:03:27] INFO root fetch - processPackages [proxpi]: executing diffoscope
+[2023-05-25 17:03:27] INFO root fetch - processPackages [proxpi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proxpi-1.1.0rc0.tar.gz tmp/proxpi-1.2.0a0.tar.gz --markdown 20230525/p/proxpi/1.1.0rc0-1.2.0a0/diff.md --exclude *.pyd
+[2023-05-25 17:03:27] INFO root fetch - processPackages [mctextworld]: Downloading https://files.pythonhosted.org/packages/6c/1e/a9a8b16c377d70c717727c0c739807bf64d588887a731e4c207a7acc3416/mctextworld-1.0.3.tar.gz
+[2023-05-25 17:03:27] INFO root fetch - processPackages [pxgrid-api]: executing diffoscope
+[2023-05-25 17:03:27] INFO root fetch - processPackages [pxgrid-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pxgrid-api-0.2.4.tar.gz tmp/pxgrid-api-0.2.5.tar.gz --markdown 20230525/p/pxgrid-api/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-25 17:03:27] INFO root fetch - processPackages [einsum-pipe]: executing diffoscope
+[2023-05-25 17:03:27] INFO root fetch - processPackages [einsum-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/einsum_pipe-0.2.1.tar.gz tmp/einsum_pipe-0.2.2.tar.gz --markdown 20230525/e/einsum-pipe/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-25 17:03:27] INFO root fetch - processPackages [pixie-price-forecast]: Downloading https://files.pythonhosted.org/packages/76/bb/c255a0a0e3e4169666a5338d6e383ff7af76e3140d2d798ae6ec4d3ad7a1/pixie_price_forecast-3.2.0.tar.gz
+[2023-05-25 17:03:27] INFO root fetch - processPackages [jupyterlab-training]: Downloading https://files.pythonhosted.org/packages/70/c6/72d2392c0273187a402dffbfbafe2faeedf916c9c0f06a217de0b63d6ff8/jupyterlab_training-0.3.1.tar.gz
+[2023-05-25 17:03:27] INFO root fetch - processPackages [mctextworld]: executing diffoscope
+[2023-05-25 17:03:27] INFO root fetch - processPackages [mctextworld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mctextworld-1.0.2.tar.gz tmp/mctextworld-1.0.3.tar.gz --markdown 20230525/m/mctextworld/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-25 17:03:27] INFO root fetch - processPackages [pixie-price-forecast]: executing diffoscope
+[2023-05-25 17:03:27] INFO root fetch - processPackages [pixie-price-forecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixie_price_forecast-3.1.0.tar.gz tmp/pixie_price_forecast-3.2.0.tar.gz --markdown 20230525/p/pixie-price-forecast/3.1.0-3.2.0/diff.md --exclude *.pyd
+[2023-05-25 17:03:27] INFO root fetch - processPackages [jupyterlab-training]: executing diffoscope
+[2023-05-25 17:03:27] INFO root fetch - processPackages [jupyterlab-training]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_training-0.3.0.tar.gz tmp/jupyterlab_training-0.3.1.tar.gz --markdown 20230525/j/jupyterlab-training/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-25 17:03:27] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-25 17:03:27] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.6.8.dev6.tar.gz tmp/coiled-0.6.8.dev8.tar.gz --markdown 20230525/c/coiled/0.6.8.dev6-0.6.8.dev8/diff.md --exclude *.pyd
+[2023-05-25 17:03:28] INFO root fetch - main [MainThread]: End processing [einsum-pipe]: success
+[2023-05-25 17:03:29] INFO root fetch - main [MainThread]: End processing [pxgrid-api]: success
+[2023-05-25 17:03:29] INFO root fetch - main [MainThread]: End processing [mctextworld]: success
+[2023-05-25 17:03:29] INFO root fetch - main [MainThread]: End processing [datamarket]: success
+[2023-05-25 17:03:29] INFO root fetch - main [MainThread]: End processing [proxpi]: success
+[2023-05-25 17:03:29] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-25 17:03:29] INFO root fetch - main [MainThread]: End processing [pixie-price-forecast]: success
+[2023-05-25 17:03:35] INFO root fetch - main [MainThread]: End processing [jupyterlab-training]: success
+[2023-05-25 17:03:35] INFO root fetch - main [MainThread]: Store serial: [18248666]
