@@ -6265,3 +6265,94 @@
 [2023-05-25 04:27:35] INFO root fetch - main [MainThread]: End processing [authpy]: success
 [2023-05-25 04:27:35] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
 [2023-05-25 04:27:35] INFO root fetch - main [MainThread]: Store serial: [18240058]
+[2023-05-25 04:32:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18240058]
+[2023-05-25 04:32:44] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-25 04:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opvious
+[2023-05-25 04:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qcs-phy
+[2023-05-25 04:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hx-requests
+[2023-05-25 04:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: typedpy
+[2023-05-25 04:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sdif-toolkit
+[2023-05-25 04:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ddsp
+[2023-05-25 04:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: iam-actions
+[2023-05-25 04:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: llmpool
+[2023-05-25 04:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fetchify
+[2023-05-25 04:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: opvious
+[2023-05-25 04:32:44] INFO root fetch - processPackages [qcs-phy]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-25 04:32:44] INFO root fetch - processPackages [opvious]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-25 04:32:44] INFO root fetch - processPackages [llmpool]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-25 04:32:44] INFO root fetch - processPackages [ddsp]: New version: [3.7.0] Old Version: [3.6.0]
+[2023-05-25 04:32:44] INFO root fetch - processPackages [hx-requests]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-25 04:32:44] INFO root fetch - processPackages [sdif-toolkit]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-25 04:32:44] INFO root fetch - processPackages [fetchify]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-25 04:32:44] INFO root fetch - processPackages [opvious]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-25 04:32:44] INFO root fetch - processPackages [typedpy]: New version: [2.9.0] Old Version: [2.8.2]
+[2023-05-25 04:32:44] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230525] Old Version: [1.2.20230524]
+[2023-05-25 04:32:44] INFO root fetch - processPackages [opvious]: executing diffoscope
+[2023-05-25 04:32:44] INFO root fetch - processPackages [opvious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opvious-0.9.5.tar.gz tmp/opvious-0.9.6.tar.gz --markdown 20230525/o/opvious/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-25 04:32:44] INFO root fetch - processPackages [opvious]: executing diffoscope
+[2023-05-25 04:32:44] INFO root fetch - processPackages [opvious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opvious-0.9.5.tar.gz tmp/opvious-0.9.6.tar.gz --markdown 20230525/o/opvious/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-25 04:32:44] INFO root fetch - processPackages [llmpool]: Downloading https://files.pythonhosted.org/packages/ac/78/23a7694b9a54dc510a79ddb9cf8bd47fe657d117c3c141ba8ac23d9cba03/llmpool-0.2.1-py3-none-any.whl
+[2023-05-25 04:32:44] INFO root fetch - processPackages [qcs-phy]: Downloading https://files.pythonhosted.org/packages/ba/96/0dfb93808c19963989239e6570858a27442911eff39c1db29fb87ed710eb/qcs_phy-1.0.0.tar.gz
+[2023-05-25 04:32:44] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/44/c1/62c882f78ed4c4a2a3919b8aa93ccff1fa34fe8f85f7d137a3b14348394e/iam_actions-1.2.20230524.tar.gz
+[2023-05-25 04:32:44] INFO root fetch - processPackages [ddsp]: Downloading https://files.pythonhosted.org/packages/90/74/216824411f054c2c845b8932ac2d6c214d9f901f2e30a9bd461059450537/ddsp-3.6.0.tar.gz
+[2023-05-25 04:32:44] INFO root fetch - processPackages [sdif-toolkit]: Downloading https://files.pythonhosted.org/packages/7b/e3/c0697b9cbeda964b41e21e5d3542e3b83dc3b0e81090a84ade9be125a59b/sdif_toolkit-0.1.6.tar.gz
+[2023-05-25 04:32:44] INFO root fetch - processPackages [typedpy]: Downloading https://files.pythonhosted.org/packages/27/f4/f7ae09b3573eaf9438274f873686c75134c5c6d14d9ecbfe0759ef1a6908/typedpy-2.8.2.tar.gz
+[2023-05-25 04:32:44] INFO root fetch - processPackages [fetchify]: Downloading https://files.pythonhosted.org/packages/30/b4/7723bdfef08ab2d1cbd4fa7dd6ec9d04bd2df74e3848c6df34578f53a747/fetchify-1.1.2.tar.gz
+[2023-05-25 04:32:44] INFO root fetch - processPackages [qcs-phy]: Downloading https://files.pythonhosted.org/packages/61/ce/dc6fadd79e17f185b2b2fc84fe6266291aeb12416b8b400e74cd94b9d1cc/qcs_phy-1.0.1.tar.gz
+[2023-05-25 04:32:44] INFO root fetch - processPackages [fetchify]: executing diffoscope
+[2023-05-25 04:32:44] INFO root fetch - processPackages [fetchify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fetchify-1.1.1.tar.gz tmp/fetchify-1.1.2.tar.gz --markdown 20230525/f/fetchify/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-25 04:32:44] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/58/26/49cbca32c5903cc1835a4fadf091b0853e6efd68791c3ac4853ff903ab85/iam_actions-1.2.20230525.tar.gz
+[2023-05-25 04:32:44] INFO root fetch - processPackages [hx-requests]: executing diffoscope
+[2023-05-25 04:32:44] INFO root fetch - processPackages [hx-requests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hx_requests-0.8.0.tar.gz tmp/hx_requests-0.9.0.tar.gz --markdown 20230525/h/hx-requests/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-25 04:32:44] INFO root fetch - processPackages [sdif-toolkit]: Downloading https://files.pythonhosted.org/packages/f6/f4/e221751efb04effde9115126436c686cf2402e56208fc75a72c5276e34f3/sdif-toolkit-0.1.7.tar.gz
+[2023-05-25 04:32:45] INFO root fetch - processPackages [llmpool]: Downloading https://files.pythonhosted.org/packages/8c/d3/f270f3a6f85354394eb9b4375c4c0b1a7830cbded4cf0e8d48fe57c9ece4/llmpool-0.2.2-py3-none-any.whl
+[2023-05-25 04:32:45] INFO root fetch - processPackages [qcs-phy]: executing diffoscope
+[2023-05-25 04:32:45] INFO root fetch - processPackages [qcs-phy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcs_phy-1.0.0.tar.gz tmp/qcs_phy-1.0.1.tar.gz --markdown 20230525/q/qcs-phy/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-25 04:32:45] INFO root fetch - processPackages [ddsp]: Downloading https://files.pythonhosted.org/packages/03/d4/4de412fadc66bc70de3a6df9e95a4cde560b33d7cb3db4763d184ecb4268/ddsp-3.7.0.tar.gz
+[2023-05-25 04:32:45] INFO root fetch - processPackages [sdif-toolkit]: executing diffoscope
+[2023-05-25 04:32:45] INFO root fetch - processPackages [sdif-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdif_toolkit-0.1.6.tar.gz tmp/sdif-toolkit-0.1.7.tar.gz --markdown 20230525/s/sdif-toolkit/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-25 04:32:45] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-05-25 04:32:45] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230524.tar.gz tmp/iam_actions-1.2.20230525.tar.gz --markdown 20230525/i/iam-actions/1.2.20230524-1.2.20230525/diff.md --exclude *.pyd
+[2023-05-25 04:32:45] INFO root fetch - processPackages [llmpool]: executing diffoscope
+[2023-05-25 04:32:45] INFO root fetch - processPackages [llmpool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmpool-0.2.1-py3-none-any.whl.zip tmp/llmpool-0.2.2-py3-none-any.whl.zip --markdown 20230525/l/llmpool/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-25 04:32:45] INFO root fetch - processPackages [ddsp]: executing diffoscope
+[2023-05-25 04:32:45] INFO root fetch - processPackages [typedpy]: Downloading https://files.pythonhosted.org/packages/09/0d/3518f7fd28505046b25ea42ab09a2b7ca99222a917f91ffd54ea61a0e007/typedpy-2.9.0.tar.gz
+[2023-05-25 04:32:45] INFO root fetch - processPackages [ddsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddsp-3.6.0.tar.gz tmp/ddsp-3.7.0.tar.gz --markdown 20230525/d/ddsp/3.6.0-3.7.0/diff.md --exclude *.pyd
+[2023-05-25 04:32:45] INFO root fetch - processPackages [typedpy]: executing diffoscope
+[2023-05-25 04:32:45] INFO root fetch - processPackages [typedpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedpy-2.8.2.tar.gz tmp/typedpy-2.9.0.tar.gz --markdown 20230525/t/typedpy/2.8.2-2.9.0/diff.md --exclude *.pyd
+[2023-05-25 04:32:46] INFO root fetch - processPackages [opvious]: Start processing: cdk8s-plus-25
+[2023-05-25 04:32:46] INFO root fetch - main [MainThread]: End processing [opvious]: success
+[2023-05-25 04:32:46] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.8.1] Old Version: [2.8.0]
+[2023-05-25 04:32:46] INFO root fetch - processPackages [opvious]: Start processing: cdk8s-plus-26
+[2023-05-25 04:32:46] INFO root fetch - main [MainThread]: End processing [opvious]: success
+[2023-05-25 04:32:46] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.4.1] Old Version: [2.4.0]
+[2023-05-25 04:32:46] INFO root fetch - processPackages [fetchify]: Start processing: seven-cloudapp-frame
+[2023-05-25 04:32:46] INFO root fetch - main [MainThread]: End processing [fetchify]: success
+[2023-05-25 04:32:46] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.9.9] Old Version: [1.0.9.8]
+[2023-05-25 04:32:46] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/e3/a4/db9d6a7fe0d9735c166b35ce2aed14f8a9da3073ad994bc67aa8e91388d6/cdk8s-plus-26-2.4.0.tar.gz
+[2023-05-25 04:32:46] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/f1/bf/61f008606a06ae956f952809fd43db3eb77b2abeffc3deddf3a06e96abb1/cdk8s-plus-25-2.8.1.tar.gz
+[2023-05-25 04:32:46] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-05-25 04:32:46] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.9.8.tar.gz tmp/seven_cloudapp_frame-1.0.9.9.tar.gz --markdown 20230525/s/seven-cloudapp-frame/1.0.9.8-1.0.9.9/diff.md --exclude *.pyd
+[2023-05-25 04:32:46] INFO root fetch - processPackages [hx-requests]: Start processing: seleniumbase
+[2023-05-25 04:32:46] INFO root fetch - main [MainThread]: End processing [hx-requests]: success
+[2023-05-25 04:32:46] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-05-25 04:32:46] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.8.0.tar.gz tmp/cdk8s-plus-25-2.8.1.tar.gz --markdown 20230525/c/cdk8s-plus-25/2.8.0-2.8.1/diff.md --exclude *.pyd
+[2023-05-25 04:32:46] INFO root fetch - processPackages [seleniumbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-05-25 04:32:46] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/16/b8/4679654b974e4af9e1286975040476db829fe620a3772738437510caa6b4/cdk8s-plus-26-2.4.1.tar.gz
+[2023-05-25 04:32:46] INFO root fetch - main [MainThread]: End processing [qcs-phy]: success
+[2023-05-25 04:32:46] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-05-25 04:32:46] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.4.0.tar.gz tmp/cdk8s-plus-26-2.4.1.tar.gz --markdown 20230525/c/cdk8s-plus-26/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2023-05-25 04:32:47] INFO root fetch - main [MainThread]: End processing [llmpool]: success
+[2023-05-25 04:32:47] INFO root fetch - processPackages [seleniumbase]: Downloading https://files.pythonhosted.org/packages/d5/06/b4c4aa69540cf3a9c497a53072da777eefd704403fc8f952a88c69208ad1/seleniumbase-4.9.8.tar.gz
+[2023-05-25 04:32:47] INFO root fetch - main [MainThread]: End processing [sdif-toolkit]: success
+[2023-05-25 04:32:47] INFO root fetch - processPackages [seleniumbase]: Downloading https://files.pythonhosted.org/packages/9d/0f/462449b9921267bb9f0f0db257c72435e50ec2fcd4219764bb131be70686/seleniumbase-4.9.9.tar.gz
+[2023-05-25 04:32:47] INFO root fetch - main [MainThread]: End processing [ddsp]: success
+[2023-05-25 04:32:47] INFO root fetch - processPackages [seleniumbase]: executing diffoscope
+[2023-05-25 04:32:47] INFO root fetch - processPackages [seleniumbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seleniumbase-4.9.8.tar.gz tmp/seleniumbase-4.9.9.tar.gz --markdown 20230525/s/seleniumbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-05-25 04:32:47] INFO root fetch - main [MainThread]: End processing [typedpy]: success
+[2023-05-25 04:32:48] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-05-25 04:32:48] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-05-25 04:32:48] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-05-25 04:32:49] INFO root fetch - main [MainThread]: End processing [seleniumbase]: success
+[2023-05-25 04:32:55] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-05-25 04:32:55] INFO root fetch - main [MainThread]: Store serial: [18240099]
