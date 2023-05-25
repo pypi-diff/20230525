@@ -8122,3 +8122,101 @@
 [2023-05-25 06:35:47] INFO root fetch - main [MainThread]: End processing [odoo12-addon-product-pricelist-revision]: success
 [2023-05-25 06:35:47] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-attribute-archive]: success
 [2023-05-25 06:35:47] INFO root fetch - main [MainThread]: Store serial: [18241175]
+[2023-05-25 06:40:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18241175]
+[2023-05-25 06:40:56] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-25 06:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seeFretboard
+[2023-05-25 06:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TorchPIV
+[2023-05-25 06:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastapi-easy-cache
+[2023-05-25 06:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo12-addon-project-role
+[2023-05-25 06:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo13-addon-project-role
+[2023-05-25 06:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: molecule-qemu
+[2023-05-25 06:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-project-role
+[2023-05-25 06:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: discord-data-storage
+[2023-05-25 06:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-project-role
+[2023-05-25 06:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: suddendeath
+[2023-05-25 06:40:56] INFO root fetch - processPackages [odoo13-addon-project-role]: New version: [13.0.1.0.1.dev9] Old Version: [13.0.1.0.1.dev8]
+[2023-05-25 06:40:56] INFO root fetch - processPackages [TorchPIV]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-25 06:40:56] INFO root fetch - processPackages [odoo-addon-project-role]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2023-05-25 06:40:56] INFO root fetch - processPackages [fastapi-easy-cache]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-25 06:40:56] INFO root fetch - processPackages [odoo-addon-project-role]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2023-05-25 06:40:56] INFO root fetch - processPackages [suddendeath]: New version: [0.5] Old Version: [0.3.0]
+[2023-05-25 06:40:56] INFO root fetch - processPackages [seeFretboard]: New version: [0.0.9.5] Old Version: [0.0.9.4]
+[2023-05-25 06:40:56] INFO root fetch - processPackages [fastapi-easy-cache]: executing diffoscope
+[2023-05-25 06:40:56] INFO root fetch - processPackages [fastapi-easy-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_easy_cache-0.1.1.tar.gz tmp/fastapi_easy_cache-0.1.2.tar.gz --markdown 20230525/f/fastapi-easy-cache/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-25 06:40:56] WARNING root fetch - processPackages [molecule-qemu]: Skipping, unable to determine old version
+[2023-05-25 06:40:56] INFO root fetch - processPackages [molecule-qemu]: Start processing: agraph-python
+[2023-05-25 06:40:56] INFO root fetch - processPackages [suddendeath]: executing diffoscope
+[2023-05-25 06:40:56] INFO root fetch - main [MainThread]: End processing [molecule-qemu] error
+[2023-05-25 06:40:56] INFO root fetch - processPackages [suddendeath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suddendeath-0.3.0-py2.py3-none-any.whl.zip tmp/suddendeath-0.5.tar.gz --markdown 20230525/s/suddendeath/0.3.0-0.5/diff.md --exclude *.pyd
+[2023-05-25 06:40:56] INFO root fetch - processPackages [discord-data-storage]: New version: [0.1.0] Old Version: [0.0.0]
+[2023-05-25 06:40:56] INFO root fetch - processPackages [odoo12-addon-project-role]: New version: [12.0.3.0.1.99.dev8] Old Version: [12.0.3.0.1.99.dev7]
+[2023-05-25 06:40:56] INFO root fetch - processPackages [agraph-python]: New version: [6.2.2.0.4] Old Version: [6.2.2.0.3]
+[2023-05-25 06:40:56] INFO root fetch - processPackages [odoo13-addon-project-role]: Downloading https://files.pythonhosted.org/packages/50/4b/83dc7de6b4390fd051508d0ac987a4a0d15bae1ffb5c7187a36457276f3c/odoo13_addon_project_role-13.0.1.0.1.dev8-py3-none-any.whl
+[2023-05-25 06:40:57] INFO root fetch - processPackages [TorchPIV]: Downloading https://files.pythonhosted.org/packages/47/e0/8ff3741385c416974db560ccdbe4c1ef1b4c14cc3eb6023d3f5dcee74dc4/TorchPIV-0.1.4.tar.gz
+[2023-05-25 06:40:57] INFO root fetch - processPackages [TorchPIV]: executing diffoscope
+[2023-05-25 06:40:57] INFO root fetch - processPackages [TorchPIV]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TorchPIV-0.1.3.tar.gz tmp/TorchPIV-0.1.4.tar.gz --markdown 20230525/T/TorchPIV/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-25 06:40:57] INFO root fetch - processPackages [agraph-python]: Downloading https://files.pythonhosted.org/packages/e5/fe/8e371e0de91e38117a32efbf6df14438717e92216d8cc24983e569c215b0/agraph-python-6.2.2.0.3.tar.gz
+[2023-05-25 06:40:57] INFO root fetch - processPackages [discord-data-storage]: Downloading https://files.pythonhosted.org/packages/d7/4a/43dbc66a331b18e1f170ab8e6f6dc564b2337b15ba6a625981d29b56048e/discord_data_storage-0.0.0.tar.gz
+[2023-05-25 06:40:57] INFO root fetch - processPackages [odoo12-addon-project-role]: Downloading https://files.pythonhosted.org/packages/b7/a7/258ccf6a977f235acb91684a9700eef50aa2797c62a66a991eb5cf49c3ca/odoo12_addon_project_role-12.0.3.0.1.99.dev7-py3-none-any.whl
+[2023-05-25 06:40:57] INFO root fetch - processPackages [seeFretboard]: Downloading https://files.pythonhosted.org/packages/61/ac/85f6ac0cf227ae2fc8dc3cc22eba78497532d6ccfc388622e03f6b619ae6/seeFretboard-0.0.9.5.tar.gz
+[2023-05-25 06:40:57] INFO root fetch - processPackages [odoo-addon-project-role]: executing diffoscope
+[2023-05-25 06:40:57] INFO root fetch - processPackages [odoo-addon-project-role]: executing diffoscope
+[2023-05-25 06:40:57] INFO root fetch - processPackages [odoo-addon-project-role]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_role-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_project_role-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230525/o/odoo-addon-project-role/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-05-25 06:40:57] INFO root fetch - processPackages [odoo-addon-project-role]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_role-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_project_role-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230525/o/odoo-addon-project-role/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-05-25 06:40:57] INFO root fetch - processPackages [odoo13-addon-project-role]: Downloading https://files.pythonhosted.org/packages/6b/6b/b95b3571e85574cfb42ae9b0a8f95b356e4144e720595d63fcba81648bef/odoo13_addon_project_role-13.0.1.0.1.dev9-py3-none-any.whl
+[2023-05-25 06:40:57] INFO root fetch - processPackages [odoo12-addon-project-role]: Downloading https://files.pythonhosted.org/packages/09/c5/c54648f0e3a4dc3d5bb7524709ec1fa5ba70461182e81ed90c510f1f546f/odoo12_addon_project_role-12.0.3.0.1.99.dev8-py3-none-any.whl
+[2023-05-25 06:40:57] INFO root fetch - processPackages [odoo13-addon-project-role]: executing diffoscope
+[2023-05-25 06:40:57] INFO root fetch - processPackages [odoo13-addon-project-role]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_project_role-13.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo13_addon_project_role-13.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20230525/o/odoo13-addon-project-role/13.0.1.0.1.dev8-13.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2023-05-25 06:40:57] INFO root fetch - processPackages [discord-data-storage]: Downloading https://files.pythonhosted.org/packages/83/e6/25bc11784202daefaf9fa203343c2f01e49c61b2e51b88db7f75050cb666/discord_data_storage-0.1.0.tar.gz
+[2023-05-25 06:40:57] INFO root fetch - processPackages [odoo12-addon-project-role]: executing diffoscope
+[2023-05-25 06:40:57] INFO root fetch - processPackages [odoo12-addon-project-role]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_project_role-12.0.3.0.1.99.dev7-py3-none-any.whl.zip tmp/odoo12_addon_project_role-12.0.3.0.1.99.dev8-py3-none-any.whl.zip --markdown 20230525/o/odoo12-addon-project-role/12.0.3.0.1.99.dev7-12.0.3.0.1.99.dev8/diff.md --exclude *.pyd
+[2023-05-25 06:40:57] INFO root fetch - processPackages [agraph-python]: Downloading https://files.pythonhosted.org/packages/fc/d3/ad3e08324b0b50fbe8a2f5d560e1f7b8b76ed7bf7c61b5df203d4cc30a04/agraph-python-6.2.2.0.4.tar.gz
+[2023-05-25 06:40:57] INFO root fetch - processPackages [seeFretboard]: executing diffoscope
+[2023-05-25 06:40:57] INFO root fetch - processPackages [seeFretboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seeFretboard-0.0.9.4.tar.gz tmp/seeFretboard-0.0.9.5.tar.gz --markdown 20230525/s/seeFretboard/0.0.9.4-0.0.9.5/diff.md --exclude *.pyd
+[2023-05-25 06:40:57] INFO root fetch - processPackages [discord-data-storage]: executing diffoscope
+[2023-05-25 06:40:57] INFO root fetch - processPackages [discord-data-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discord_data_storage-0.0.0.tar.gz tmp/discord_data_storage-0.1.0.tar.gz --markdown 20230525/d/discord-data-storage/0.0.0-0.1.0/diff.md --exclude *.pyd
+[2023-05-25 06:40:57] INFO root fetch - processPackages [agraph-python]: executing diffoscope
+[2023-05-25 06:40:57] INFO root fetch - processPackages [agraph-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agraph-python-6.2.2.0.3.tar.gz tmp/agraph-python-6.2.2.0.4.tar.gz --markdown 20230525/a/agraph-python/6.2.2.0.3-6.2.2.0.4/diff.md --exclude *.pyd
+[2023-05-25 06:40:58] INFO root fetch - processPackages [suddendeath]: Start processing: odoo8-addon-purchase-add-product-supplierinfo
+[2023-05-25 06:40:58] INFO root fetch - main [MainThread]: End processing [suddendeath]: success
+[2023-05-25 06:40:58] INFO root fetch - processPackages [odoo8-addon-purchase-add-product-supplierinfo]: New version: [8.0.1.0.0.99.dev8] Old Version: [8.0.1.0.0.99.dev7]
+[2023-05-25 06:40:58] INFO root fetch - processPackages [fastapi-easy-cache]: Start processing: tf-nightly-macos
+[2023-05-25 06:40:58] INFO root fetch - main [MainThread]: End processing [fastapi-easy-cache]: success
+[2023-05-25 06:40:58] INFO root fetch - processPackages [TorchPIV]: Start processing: flowmachine
+[2023-05-25 06:40:58] INFO root fetch - main [MainThread]: End processing [TorchPIV]: success
+[2023-05-25 06:40:58] INFO root fetch - processPackages [tf-nightly-macos]: New version: [2.14.0.dev20230524] Old Version: [2.14.0.dev20230523]
+[2023-05-25 06:40:58] INFO root fetch - processPackages [odoo8-addon-purchase-add-product-supplierinfo]: executing diffoscope
+[2023-05-25 06:40:58] INFO root fetch - processPackages [odoo8-addon-purchase-add-product-supplierinfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_purchase_add_product_supplierinfo-8.0.1.0.0.99.dev7-py2-none-any.whl.zip tmp/odoo8_addon_purchase_add_product_supplierinfo-8.0.1.0.0.99.dev8-py2-none-any.whl.zip --markdown 20230525/o/odoo8-addon-purchase-add-product-supplierinfo/8.0.1.0.0.99.dev7-8.0.1.0.0.99.dev8/diff.md --exclude *.pyd
+[2023-05-25 06:40:58] INFO root fetch - processPackages [flowmachine]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-05-25 06:40:58] INFO root fetch - processPackages [flowmachine]: executing diffoscope
+[2023-05-25 06:40:58] INFO root fetch - processPackages [flowmachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowmachine-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230525/f/flowmachine/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-05-25 06:40:58] INFO root fetch - processPackages [odoo-addon-project-role]: Start processing: flowetl
+[2023-05-25 06:40:58] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-role]: success
+[2023-05-25 06:40:58] INFO root fetch - processPackages [tf-nightly-macos]: Downloading https://files.pythonhosted.org/packages/1f/be/2910d2a2ff8555fe593acde519b1078535663249fd2fd004824a9935f46a/tf_nightly_macos-2.14.0.dev20230523-cp39-cp39-macosx_12_0_arm64.whl
+[2023-05-25 06:40:58] INFO root fetch - processPackages [flowetl]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-05-25 06:40:58] WARNING root fetch - processPackages [tf-nightly-macos]: Skipping package: exceeds size limit 190350310>=10485760
+[2023-05-25 06:40:58] INFO root fetch - processPackages [tf-nightly-macos]: Start processing: noise2read
+[2023-05-25 06:40:58] INFO root fetch - main [MainThread]: End processing [tf-nightly-macos] error
+[2023-05-25 06:40:58] INFO root fetch - processPackages [noise2read]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-05-25 06:40:58] INFO root fetch - processPackages [flowetl]: executing diffoscope
+[2023-05-25 06:40:58] INFO root fetch - processPackages [flowetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowetl-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowetl-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230525/f/flowetl/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-05-25 06:40:59] INFO root fetch - processPackages [odoo-addon-project-role]: Start processing: odoo8-addon-purchase-rfq-bid-workflow
+[2023-05-25 06:40:59] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-role]: success
+[2023-05-25 06:40:59] INFO root fetch - processPackages [odoo8-addon-purchase-rfq-bid-workflow]: New version: [8.0.0.3.0.99.dev9] Old Version: [8.0.0.3.0.99.dev8]
+[2023-05-25 06:40:59] INFO root fetch - processPackages [noise2read]: executing diffoscope
+[2023-05-25 06:40:59] INFO root fetch - processPackages [noise2read]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noise2read-0.1.0.tar.gz tmp/noise2read-0.1.2.tar.gz --markdown 20230525/n/noise2read/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-05-25 06:40:59] INFO root fetch - main [MainThread]: End processing [odoo13-addon-project-role]: success
+[2023-05-25 06:40:59] INFO root fetch - main [MainThread]: End processing [odoo12-addon-project-role]: success
+[2023-05-25 06:40:59] INFO root fetch - processPackages [odoo8-addon-purchase-rfq-bid-workflow]: Downloading https://files.pythonhosted.org/packages/aa/21/dc4febae4c40044bd6387ed883a72a74b9ec3cc637e2fccce66b84e3ceea/odoo8_addon_purchase_rfq_bid_workflow-8.0.0.3.0.99.dev8-py2-none-any.whl
+[2023-05-25 06:40:59] INFO root fetch - main [MainThread]: End processing [discord-data-storage]: success
+[2023-05-25 06:40:59] INFO root fetch - processPackages [odoo8-addon-purchase-rfq-bid-workflow]: Downloading https://files.pythonhosted.org/packages/0f/32/8d477bd5040915edd9eb72a12b5b0f929e914fb5f5560180d32f24264938/odoo8_addon_purchase_rfq_bid_workflow-8.0.0.3.0.99.dev9-py2-none-any.whl
+[2023-05-25 06:40:59] INFO root fetch - processPackages [odoo8-addon-purchase-rfq-bid-workflow]: executing diffoscope
+[2023-05-25 06:40:59] INFO root fetch - processPackages [odoo8-addon-purchase-rfq-bid-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_purchase_rfq_bid_workflow-8.0.0.3.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_purchase_rfq_bid_workflow-8.0.0.3.0.99.dev9-py2-none-any.whl.zip --markdown 20230525/o/odoo8-addon-purchase-rfq-bid-workflow/8.0.0.3.0.99.dev8-8.0.0.3.0.99.dev9/diff.md --exclude *.pyd
+[2023-05-25 06:41:00] INFO root fetch - main [MainThread]: End processing [flowetl]: success
+[2023-05-25 06:41:00] INFO root fetch - main [MainThread]: End processing [odoo8-addon-purchase-add-product-supplierinfo]: success
+[2023-05-25 06:41:00] INFO root fetch - main [MainThread]: End processing [noise2read]: success
+[2023-05-25 06:41:01] INFO root fetch - main [MainThread]: End processing [agraph-python]: success
+[2023-05-25 06:41:01] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
+[2023-05-25 06:41:01] INFO root fetch - main [MainThread]: End processing [odoo8-addon-purchase-rfq-bid-workflow]: success
+[2023-05-25 06:41:06] INFO root fetch - main [MainThread]: End processing [seeFretboard]: success
+[2023-05-25 06:41:06] INFO root fetch - main [MainThread]: Store serial: [18241228]
