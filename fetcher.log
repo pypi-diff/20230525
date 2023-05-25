@@ -6063,3 +6063,47 @@
 [2023-05-25 04:01:09] INFO root fetch - main [MainThread]: End processing [pyviewer]: success
 [2023-05-25 04:01:09] INFO root fetch - main [MainThread]: End processing [kmport]: success
 [2023-05-25 04:01:09] INFO root fetch - main [MainThread]: Store serial: [18239910]
+[2023-05-25 04:06:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18239910]
+[2023-05-25 04:06:18] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-25 04:06:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: extract-msg
+[2023-05-25 04:06:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mapdata
+[2023-05-25 04:06:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mixture-of-attention
+[2023-05-25 04:06:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neon-utils
+[2023-05-25 04:06:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seeFretboard
+[2023-05-25 04:06:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hyundai-kia-connect-api
+[2023-05-25 04:06:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: phenocam-snow
+[2023-05-25 04:06:18] INFO root fetch - processPackages [mapdata]: New version: [1.8.2] Old Version: [1.8.1]
+[2023-05-25 04:06:18] INFO root fetch - processPackages [extract-msg]: New version: [0.41.2] Old Version: [0.41.1]
+[2023-05-25 04:06:18] INFO root fetch - processPackages [seeFretboard]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-25 04:06:18] WARNING root fetch - processPackages [phenocam-snow]: Skipping, unable to determine old version
+[2023-05-25 04:06:18] INFO root fetch - main [MainThread]: End processing [phenocam-snow] error
+[2023-05-25 04:06:18] INFO root fetch - processPackages [mixture-of-attention]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 04:06:18] INFO root fetch - processPackages [neon-utils]: New version: [1.5.0a9] Old Version: [1.5.0a8]
+[2023-05-25 04:06:18] INFO root fetch - processPackages [hyundai-kia-connect-api]: New version: [3.3.7] Old Version: [3.3.6]
+[2023-05-25 04:06:19] INFO root fetch - processPackages [mapdata]: Downloading https://files.pythonhosted.org/packages/c0/33/70252459a2115172eeacb9992968b0ac14388af42082e71abacb4681b40e/mapdata-1.8.1.tar.gz
+[2023-05-25 04:06:19] INFO root fetch - processPackages [seeFretboard]: Downloading https://files.pythonhosted.org/packages/72/80/d9e912b0fbae366d4fa4fcd3da39bf94d824b05b0c2fea119ebcf0beb3a1/seeFretboard-0.0.7.tar.gz
+[2023-05-25 04:06:19] INFO root fetch - processPackages [extract-msg]: Downloading https://files.pythonhosted.org/packages/05/7e/943a02855fd42bc4400846c524edcdf125a675c2542dcf35fce4e5a4badc/extract_msg-0.41.1.tar.gz
+[2023-05-25 04:06:19] INFO root fetch - processPackages [mixture-of-attention]: executing diffoscope
+[2023-05-25 04:06:19] INFO root fetch - processPackages [mixture-of-attention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mixture-of-attention-0.0.8.tar.gz tmp/mixture-of-attention-0.0.9.tar.gz --markdown 20230525/m/mixture-of-attention/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 04:06:19] INFO root fetch - processPackages [hyundai-kia-connect-api]: Downloading https://files.pythonhosted.org/packages/60/17/64a2808af1e0cfbf0fd8ca74e60b96a46c7e5898d3ef2fd92a05706b254f/hyundai_kia_connect_api-3.3.7.tar.gz
+[2023-05-25 04:06:19] INFO root fetch - processPackages [seeFretboard]: Downloading https://files.pythonhosted.org/packages/47/13/146d89cf0dda4b38f9050cbcf9be85703f67297fdcad0e51308e67582204/seeFretboard-0.0.8.tar.gz
+[2023-05-25 04:06:19] INFO root fetch - processPackages [neon-utils]: Downloading https://files.pythonhosted.org/packages/2d/6c/27e76528a5403271b05e7716bec93a152afca329d189957523c0e1ac70cd/neon_utils-1.5.0a9-py3-none-any.whl
+[2023-05-25 04:06:19] INFO root fetch - processPackages [hyundai-kia-connect-api]: executing diffoscope
+[2023-05-25 04:06:19] INFO root fetch - processPackages [hyundai-kia-connect-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyundai_kia_connect_api-3.3.6.tar.gz tmp/hyundai_kia_connect_api-3.3.7.tar.gz --markdown 20230525/h/hyundai-kia-connect-api/3.3.6-3.3.7/diff.md --exclude *.pyd
+[2023-05-25 04:06:19] INFO root fetch - processPackages [extract-msg]: Downloading https://files.pythonhosted.org/packages/c5/93/e5d2b2200020f07dcd4839fe2cd057589d3b238f24db8a7bc1643037e364/extract_msg-0.41.2.tar.gz
+[2023-05-25 04:06:19] INFO root fetch - processPackages [mapdata]: Downloading https://files.pythonhosted.org/packages/6e/cb/86211fd8e4643e4269cb2c699fe8ebdf14e32724fb936871c9ec8606058d/mapdata-1.8.2.tar.gz
+[2023-05-25 04:06:19] INFO root fetch - processPackages [neon-utils]: executing diffoscope
+[2023-05-25 04:06:19] INFO root fetch - processPackages [neon-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_utils-1.5.0a8-py3-none-any.whl.zip tmp/neon_utils-1.5.0a9-py3-none-any.whl.zip --markdown 20230525/n/neon-utils/1.5.0a8-1.5.0a9/diff.md --exclude *.pyd
+[2023-05-25 04:06:19] INFO root fetch - processPackages [seeFretboard]: executing diffoscope
+[2023-05-25 04:06:19] INFO root fetch - processPackages [seeFretboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seeFretboard-0.0.7.tar.gz tmp/seeFretboard-0.0.8.tar.gz --markdown 20230525/s/seeFretboard/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-25 04:06:19] INFO root fetch - processPackages [extract-msg]: executing diffoscope
+[2023-05-25 04:06:19] INFO root fetch - processPackages [extract-msg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extract_msg-0.41.1.tar.gz tmp/extract_msg-0.41.2.tar.gz --markdown 20230525/e/extract-msg/0.41.1-0.41.2/diff.md --exclude *.pyd
+[2023-05-25 04:06:19] INFO root fetch - processPackages [mapdata]: executing diffoscope
+[2023-05-25 04:06:19] INFO root fetch - processPackages [mapdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapdata-1.8.1.tar.gz tmp/mapdata-1.8.2.tar.gz --markdown 20230525/m/mapdata/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2023-05-25 04:06:20] INFO root fetch - main [MainThread]: End processing [mixture-of-attention]: success
+[2023-05-25 04:06:20] INFO root fetch - main [MainThread]: End processing [hyundai-kia-connect-api]: success
+[2023-05-25 04:06:20] INFO root fetch - main [MainThread]: End processing [mapdata]: success
+[2023-05-25 04:06:21] INFO root fetch - main [MainThread]: End processing [neon-utils]: success
+[2023-05-25 04:06:21] INFO root fetch - main [MainThread]: End processing [extract-msg]: success
+[2023-05-25 04:06:25] INFO root fetch - main [MainThread]: End processing [seeFretboard]: success
+[2023-05-25 04:06:25] INFO root fetch - main [MainThread]: Store serial: [18239934]
