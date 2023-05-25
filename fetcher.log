@@ -15964,3 +15964,79 @@ EOFError: EOF read where object expected
 [2023-05-25 12:45:44] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2023-05-25 12:46:20] INFO root fetch - main [MainThread]: End processing [robocorp-tasks]: success
 [2023-05-25 12:46:20] INFO root fetch - main [MainThread]: Store serial: [18245255]
+[2023-05-25 12:51:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18245255]
+[2023-05-25 12:51:29] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-25 12:51:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dav-tools
+[2023-05-25 12:51:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: momba
+[2023-05-25 12:51:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: momba-engine
+[2023-05-25 12:51:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: streamlit-folder-upload
+[2023-05-25 12:51:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dbtgenlib
+[2023-05-25 12:51:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: seven-cloudapp-frame
+[2023-05-25 12:51:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vdk-meta-jobs
+[2023-05-25 12:51:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dipex
+[2023-05-25 12:51:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: whatap-python
+[2023-05-25 12:51:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: py-gf-auto-doc
+[2023-05-25 12:51:29] INFO root fetch - processPackages [dipex]: New version: [4.9.2] Old Version: [4.9.1]
+[2023-05-25 12:51:29] INFO root fetch - processPackages [dav-tools]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-25 12:51:29] INFO root fetch - processPackages [dbtgenlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 12:51:29] INFO root fetch - processPackages [momba]: New version: [1.0.0.dev4] Old Version: [1.0.0.dev3]
+[2023-05-25 12:51:29] WARNING root fetch - processPackages [streamlit-folder-upload]: Skipping, unable to determine old version
+[2023-05-25 12:51:29] INFO root fetch - processPackages [streamlit-folder-upload]: Start processing: edu-segmentation
+[2023-05-25 12:51:29] INFO root fetch - main [MainThread]: End processing [streamlit-folder-upload] error
+[2023-05-25 12:51:29] WARNING root fetch - processPackages [py-gf-auto-doc]: Skipping, unable to determine old version
+[2023-05-25 12:51:29] INFO root fetch - processPackages [py-gf-auto-doc]: Start processing: tcsa
+[2023-05-25 12:51:29] INFO root fetch - main [MainThread]: End processing [py-gf-auto-doc] error
+[2023-05-25 12:51:29] INFO root fetch - processPackages [vdk-meta-jobs]: New version: [0.1.878788105] Old Version: [0.1.843440573]
+[2023-05-25 12:51:29] INFO root fetch - processPackages [whatap-python]: New version: [1.3.7] Old Version: [1.3.6]
+[2023-05-25 12:51:29] INFO root fetch - processPackages [momba-engine]: New version: [1.0.0_dev4] Old Version: [1.0.0_dev3]
+[2023-05-25 12:51:29] INFO root fetch - processPackages [edu-segmentation]: New version: [0.0.58] Old Version: [0.0.57]
+[2023-05-25 12:51:29] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.9.9] Old Version: [1.0.9.8]
+[2023-05-25 12:51:29] INFO root fetch - processPackages [dipex]: executing diffoscope
+[2023-05-25 12:51:29] INFO root fetch - processPackages [dipex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipex-4.9.1.tar.gz tmp/dipex-4.9.2.tar.gz --markdown 20230525/d/dipex/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2023-05-25 12:51:29] INFO root fetch - processPackages [dav-tools]: Downloading https://files.pythonhosted.org/packages/80/d9/c21597ec4e796e384d99b5ecb58793c41c9ee52aba9a2c6abd7788701323/dav_tools-0.0.6.tar.gz
+[2023-05-25 12:51:29] INFO root fetch - processPackages [tcsa]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-25 12:51:29] INFO root fetch - processPackages [momba]: Downloading https://files.pythonhosted.org/packages/f7/98/1afbcd09de8130be23f293dc6e219b9e2b7f3800ac9e5ca1218d13e619d6/momba-1.0.0.dev3.tar.gz
+[2023-05-25 12:51:29] INFO root fetch - processPackages [vdk-meta-jobs]: Downloading https://files.pythonhosted.org/packages/df/f3/bfe02e303c96177553d6705da677ff06e95ea80011f39584d500821cf258/vdk-meta-jobs-0.1.843440573.tar.gz
+[2023-05-25 12:51:30] INFO root fetch - processPackages [whatap-python]: Downloading https://files.pythonhosted.org/packages/6e/7b/ca0fb3801c5d5d69397419d514c82aef7e41a707a7b1e55361306dc9ff6b/whatap-python-1.3.6.tar.gz
+[2023-05-25 12:51:30] INFO root fetch - processPackages [edu-segmentation]: executing diffoscope
+[2023-05-25 12:51:30] INFO root fetch - processPackages [edu-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edu_segmentation-0.0.57.tar.gz tmp/edu_segmentation-0.0.58.tar.gz --markdown 20230525/e/edu-segmentation/0.0.57-0.0.58/diff.md --exclude *.pyd
+[2023-05-25 12:51:30] INFO root fetch - processPackages [momba-engine]: Downloading https://files.pythonhosted.org/packages/e2/8a/a2fbed9557ee17c5bfdc0e6faee825908699c33099af16a7e3c93beef681/momba_engine-1.0.0_dev3.tar.gz
+[2023-05-25 12:51:30] WARNING root fetch - processPackages [whatap-python]: Skipping package: exceeds size limit 26434519>=10485760
+[2023-05-25 12:51:30] INFO root fetch - processPackages [whatap-python]: Start processing: sequana-depletion
+[2023-05-25 12:51:30] INFO root fetch - main [MainThread]: End processing [whatap-python] error
+[2023-05-25 12:51:30] INFO root fetch - processPackages [tcsa]: Downloading https://files.pythonhosted.org/packages/1e/cb/0a7d23d79a5113436cfe33a311bd44205d1dd4eea601a117a840752aabb3/tcsa-0.1.2.tar.gz
+[2023-05-25 12:51:30] INFO root fetch - processPackages [dav-tools]: Downloading https://files.pythonhosted.org/packages/a8/49/b405e3fbe4551f4e796310be7ef4336b5c5c4499deabc6c5834c939a9d33/dav_tools-0.0.7.tar.gz
+[2023-05-25 12:51:30] INFO root fetch - processPackages [sequana-depletion]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-25 12:51:30] INFO root fetch - processPackages [dbtgenlib]: executing diffoscope
+[2023-05-25 12:51:30] INFO root fetch - processPackages [dbtgenlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbtgenlib-0.0.8.tar.gz tmp/dbtgenlib-0.0.9.tar.gz --markdown 20230525/d/dbtgenlib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 12:51:30] INFO root fetch - processPackages [momba]: Downloading https://files.pythonhosted.org/packages/14/8b/63e90f7979378b7bff6766573322e9393d51f7f4854fc17fc89db1f61607/momba-1.0.0.dev4.tar.gz
+[2023-05-25 12:51:30] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-05-25 12:51:30] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.9.8.tar.gz tmp/seven_cloudapp_frame-1.0.9.9.tar.gz --markdown 20230525/s/seven-cloudapp-frame/1.0.9.8-1.0.9.9/diff.md --exclude *.pyd
+[2023-05-25 12:51:30] INFO root fetch - processPackages [vdk-meta-jobs]: Downloading https://files.pythonhosted.org/packages/d8/a7/ed35e414187c966fd16296eb6a381dee0e0167ae9720a658a2fbcece01d6/vdk-meta-jobs-0.1.878788105.tar.gz
+[2023-05-25 12:51:30] INFO root fetch - processPackages [dav-tools]: executing diffoscope
+[2023-05-25 12:51:30] INFO root fetch - processPackages [dav-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dav_tools-0.0.6.tar.gz tmp/dav_tools-0.0.7.tar.gz --markdown 20230525/d/dav-tools/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-25 12:51:30] INFO root fetch - processPackages [sequana-depletion]: Downloading https://files.pythonhosted.org/packages/36/ab/cbe401b3f9757e7d6ac0ebf1a779d256c0a5306e994d9394791125e90200/sequana_depletion-0.1.0.tar.gz
+[2023-05-25 12:51:30] INFO root fetch - processPackages [vdk-meta-jobs]: executing diffoscope
+[2023-05-25 12:51:30] INFO root fetch - processPackages [vdk-meta-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-meta-jobs-0.1.843440573.tar.gz tmp/vdk-meta-jobs-0.1.878788105.tar.gz --markdown 20230525/v/vdk-meta-jobs/0.1.843440573-0.1.878788105/diff.md --exclude *.pyd
+[2023-05-25 12:51:30] INFO root fetch - processPackages [tcsa]: Downloading https://files.pythonhosted.org/packages/e7/26/719b3559325d77c3e3ad87c4aceaf94b9055f5e6bf50222634615a70f75d/tcsa-0.1.3.tar.gz
+[2023-05-25 12:51:30] INFO root fetch - processPackages [momba]: executing diffoscope
+[2023-05-25 12:51:30] INFO root fetch - processPackages [momba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/momba-1.0.0.dev3.tar.gz tmp/momba-1.0.0.dev4.tar.gz --markdown 20230525/m/momba/1.0.0.dev3-1.0.0.dev4/diff.md --exclude *.pyd
+[2023-05-25 12:51:30] INFO root fetch - processPackages [tcsa]: executing diffoscope
+[2023-05-25 12:51:30] INFO root fetch - processPackages [tcsa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcsa-0.1.2.tar.gz tmp/tcsa-0.1.3.tar.gz --markdown 20230525/t/tcsa/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-25 12:51:30] INFO root fetch - processPackages [sequana-depletion]: Downloading https://files.pythonhosted.org/packages/ae/9e/1d02b5bbb09e290098351387b0fe84e306093ad785c7ba9eed11e3f84fcb/sequana_depletion-0.2.0.tar.gz
+[2023-05-25 12:51:30] INFO root fetch - processPackages [momba-engine]: Downloading https://files.pythonhosted.org/packages/ac/18/cb7729022f1d5805a09f54f5e788b59422d0059d26c8ffddee91334af2a6/momba_engine-1.0.0_dev4.tar.gz
+[2023-05-25 12:51:30] INFO root fetch - processPackages [sequana-depletion]: executing diffoscope
+[2023-05-25 12:51:30] INFO root fetch - processPackages [sequana-depletion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sequana_depletion-0.1.0.tar.gz tmp/sequana_depletion-0.2.0.tar.gz --markdown 20230525/s/sequana-depletion/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-25 12:51:30] INFO root fetch - processPackages [momba-engine]: executing diffoscope
+[2023-05-25 12:51:30] INFO root fetch - processPackages [momba-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/momba_engine-1.0.0_dev3.tar.gz tmp/momba_engine-1.0.0_dev4.tar.gz --markdown 20230525/m/momba-engine/1.0.0_dev3-1.0.0_dev4/diff.md --exclude *.pyd
+[2023-05-25 12:51:31] INFO root fetch - main [MainThread]: End processing [dbtgenlib]: success
+[2023-05-25 12:51:31] INFO root fetch - main [MainThread]: End processing [dav-tools]: success
+[2023-05-25 12:51:32] INFO root fetch - main [MainThread]: End processing [vdk-meta-jobs]: success
+[2023-05-25 12:51:32] INFO root fetch - main [MainThread]: End processing [tcsa]: success
+[2023-05-25 12:51:32] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-05-25 12:51:32] INFO root fetch - main [MainThread]: End processing [momba-engine]: success
+[2023-05-25 12:51:32] INFO root fetch - main [MainThread]: End processing [sequana-depletion]: success
+[2023-05-25 12:51:33] INFO root fetch - main [MainThread]: End processing [momba]: success
+[2023-05-25 12:51:33] INFO root fetch - main [MainThread]: End processing [edu-segmentation]: success
+[2023-05-25 12:51:34] INFO root fetch - main [MainThread]: End processing [dipex]: success
+[2023-05-25 12:51:34] INFO root fetch - main [MainThread]: Store serial: [18245306]
