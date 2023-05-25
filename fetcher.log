@@ -7043,3 +7043,84 @@
 [2023-05-25 05:10:00] INFO root fetch - main [MainThread]: End processing [pano-airflow]: success
 [2023-05-25 05:10:31] INFO root fetch - main [MainThread]: End processing [otx]: success
 [2023-05-25 05:10:31] INFO root fetch - main [MainThread]: Store serial: [18240442]
+[2023-05-25 05:15:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18240442]
+[2023-05-25 05:15:40] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-25 05:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo12-addon-base-delivery-carrier-files
+[2023-05-25 05:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo13-addon-base-delivery-carrier-files
+[2023-05-25 05:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-ecs20140526-py2
+[2023-05-25 05:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: HomoglyphsCJK
+[2023-05-25 05:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-base-delivery-carrier-files
+[2023-05-25 05:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alibabacloud-ecs20140526
+[2023-05-25 05:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-delivery-state
+[2023-05-25 05:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo13-addon-dms
+[2023-05-25 05:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jupyter-scatter
+[2023-05-25 05:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rtx-deep
+[2023-05-25 05:15:40] INFO root fetch - processPackages [odoo14-addon-base-delivery-carrier-files]: New version: [14.0.1.0.1.dev8] Old Version: [14.0.1.0.1.dev7]
+[2023-05-25 05:15:40] INFO root fetch - processPackages [odoo12-addon-base-delivery-carrier-files]: New version: [12.0.1.0.1.99.dev5] Old Version: [12.0.1.0.1.99.dev4]
+[2023-05-25 05:15:40] INFO root fetch - processPackages [jupyter-scatter]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-25 05:15:40] INFO root fetch - processPackages [odoo13-addon-base-delivery-carrier-files]: New version: [13.0.1.0.1.dev7] Old Version: [13.0.1.0.1.dev6]
+[2023-05-25 05:15:40] INFO root fetch - processPackages [HomoglyphsCJK]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-25 05:15:40] INFO root fetch - processPackages [odoo-addon-delivery-state]: New version: [16.0.1.1.0.3] Old Version: [16.0.1.1.0.1]
+[2023-05-25 05:15:40] INFO root fetch - processPackages [rtx-deep]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-25 05:15:40] INFO root fetch - processPackages [alibabacloud-ecs20140526-py2]: New version: [3.0.8] Old Version: [3.0.7]
+[2023-05-25 05:15:40] INFO root fetch - processPackages [odoo13-addon-dms]: New version: [13.0.8.5.2.dev3] Old Version: [13.0.8.5.2.dev2]
+[2023-05-25 05:15:40] INFO root fetch - processPackages [alibabacloud-ecs20140526]: New version: [4.24.17] Old Version: [3.0.8]
+[2023-05-25 05:15:40] INFO root fetch - processPackages [odoo12-addon-base-delivery-carrier-files]: executing diffoscope
+[2023-05-25 05:15:40] INFO root fetch - processPackages [odoo12-addon-base-delivery-carrier-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_base_delivery_carrier_files-12.0.1.0.1.99.dev4-py3-none-any.whl.zip tmp/odoo12_addon_base_delivery_carrier_files-12.0.1.0.1.99.dev5-py3-none-any.whl.zip --markdown 20230525/o/odoo12-addon-base-delivery-carrier-files/12.0.1.0.1.99.dev4-12.0.1.0.1.99.dev5/diff.md --exclude *.pyd
+[2023-05-25 05:15:40] INFO root fetch - processPackages [odoo14-addon-base-delivery-carrier-files]: Downloading https://files.pythonhosted.org/packages/c7/e2/e3b16c636bea127b26a7cece6956756be9c823f9caa00a6f9e5b18b6ea58/odoo14_addon_base_delivery_carrier_files-14.0.1.0.1.dev7-py3-none-any.whl
+[2023-05-25 05:15:41] INFO root fetch - processPackages [odoo13-addon-base-delivery-carrier-files]: Downloading https://files.pythonhosted.org/packages/45/5f/3bb7f2d7e4c7b24001dcb92ed85d79ed82c806671ad00442a38b9893cf51/odoo13_addon_base_delivery_carrier_files-13.0.1.0.1.dev6-py3-none-any.whl
+[2023-05-25 05:15:41] INFO root fetch - processPackages [alibabacloud-ecs20140526]: Downloading https://files.pythonhosted.org/packages/a8/69/da2d67ed24ed83179c768cc5f5e1fadae11415ad49d6aca8f39eeb5ff1fa/alibabacloud_ecs20140526-3.0.8.tar.gz
+[2023-05-25 05:15:41] INFO root fetch - processPackages [odoo13-addon-dms]: Downloading https://files.pythonhosted.org/packages/44/d4/420d7c167e1d32d91477fb6a48f0c42f3b706c85a2829b9a6c995da3207f/odoo13_addon_dms-13.0.8.5.2.dev2-py3-none-any.whl
+[2023-05-25 05:15:41] INFO root fetch - processPackages [odoo-addon-delivery-state]: Downloading https://files.pythonhosted.org/packages/3e/ef/2d63a0642525c8b53f3f984685794edbe29ce4913e439bfceecda12d5d95/odoo_addon_delivery_state-16.0.1.1.0.1-py3-none-any.whl
+[2023-05-25 05:15:41] INFO root fetch - processPackages [alibabacloud-ecs20140526-py2]: Downloading https://files.pythonhosted.org/packages/85/b3/bb0988248433bb4692316eca3203eca55a5d88259bb4b73ac0473ab2055a/alibabacloud_ecs20140526_py2-3.0.7.tar.gz
+[2023-05-25 05:15:41] WARNING root fetch - processPackages [odoo13-addon-dms]: Skipping package: exceeds size limit 15629087>=10485760
+[2023-05-25 05:15:41] INFO root fetch - processPackages [odoo13-addon-dms]: Start processing: qky-tools
+[2023-05-25 05:15:41] INFO root fetch - main [MainThread]: End processing [odoo13-addon-dms] error
+[2023-05-25 05:15:41] INFO root fetch - processPackages [HomoglyphsCJK]: Downloading https://files.pythonhosted.org/packages/bd/82/661db3a3ebcd09123960f47165b6728a9e0f733a6f0e7d0907577df7a488/HomoglyphsCJK-0.1.1.tar.gz
+[2023-05-25 05:15:41] INFO root fetch - processPackages [rtx-deep]: Downloading https://files.pythonhosted.org/packages/9f/d9/e0892af7e7c8670c173078d10c71b9fc31cab8a6ad0a9acbb1c798001841/rtx_deep-1.3.9-py39-none-any.whl
+[2023-05-25 05:15:41] INFO root fetch - processPackages [jupyter-scatter]: executing diffoscope
+[2023-05-25 05:15:41] INFO root fetch - processPackages [jupyter-scatter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter-scatter-0.8.0.tar.gz tmp/jupyter-scatter-0.9.0.tar.gz --markdown 20230525/j/jupyter-scatter/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-25 05:15:41] INFO root fetch - processPackages [odoo14-addon-base-delivery-carrier-files]: Downloading https://files.pythonhosted.org/packages/42/a3/c69d5f14e5c7c06532baa26ac34eede98a93e815e8ef97814a85ea1408ef/odoo14_addon_base_delivery_carrier_files-14.0.1.0.1.dev8-py3-none-any.whl
+[2023-05-25 05:15:41] INFO root fetch - processPackages [qky-tools]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-05-25 05:15:41] INFO root fetch - processPackages [HomoglyphsCJK]: executing diffoscope
+[2023-05-25 05:15:41] INFO root fetch - processPackages [HomoglyphsCJK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HomoglyphsCJK-0.1.0.tar.gz tmp/HomoglyphsCJK-0.1.1.tar.gz --markdown 20230525/H/HomoglyphsCJK/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-25 05:15:41] INFO root fetch - processPackages [odoo-addon-delivery-state]: Downloading https://files.pythonhosted.org/packages/ef/60/5ee2df9369bb13cb3e7dc2fcdc7c26c44f38f819fcaf059041169d0dce5d/odoo_addon_delivery_state-16.0.1.1.0.3-py3-none-any.whl
+[2023-05-25 05:15:41] INFO root fetch - processPackages [rtx-deep]: executing diffoscope
+[2023-05-25 05:15:41] INFO root fetch - processPackages [rtx-deep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rtx_deep-1.3.8-py39-none-any.whl.zip tmp/rtx_deep-1.3.9-py39-none-any.whl.zip --markdown 20230525/r/rtx-deep/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-25 05:15:41] INFO root fetch - processPackages [alibabacloud-ecs20140526-py2]: Downloading https://files.pythonhosted.org/packages/87/27/34dcec76d58b97b2e1aff89bf978061267df0fbfa1972dacc532cdf6054c/alibabacloud_ecs20140526_py2-3.0.8.tar.gz
+[2023-05-25 05:15:41] INFO root fetch - processPackages [alibabacloud-ecs20140526]: Downloading https://files.pythonhosted.org/packages/0f/3c/f2e0d6a85b6b1f078daa29303ac569839a7ed977a1350c31c57a502fcc5c/alibabacloud_ecs20140526-4.24.17.tar.gz
+[2023-05-25 05:15:41] INFO root fetch - processPackages [odoo14-addon-base-delivery-carrier-files]: executing diffoscope
+[2023-05-25 05:15:41] INFO root fetch - processPackages [odoo14-addon-base-delivery-carrier-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_base_delivery_carrier_files-14.0.1.0.1.dev7-py3-none-any.whl.zip tmp/odoo14_addon_base_delivery_carrier_files-14.0.1.0.1.dev8-py3-none-any.whl.zip --markdown 20230525/o/odoo14-addon-base-delivery-carrier-files/14.0.1.0.1.dev7-14.0.1.0.1.dev8/diff.md --exclude *.pyd
+[2023-05-25 05:15:41] INFO root fetch - processPackages [odoo13-addon-base-delivery-carrier-files]: Downloading https://files.pythonhosted.org/packages/6e/01/6b470eb720a34b3e09f0dd72db8400f577a2fcec34a4020486da70cc2fc4/odoo13_addon_base_delivery_carrier_files-13.0.1.0.1.dev7-py3-none-any.whl
+[2023-05-25 05:15:41] INFO root fetch - processPackages [qky-tools]: Downloading https://files.pythonhosted.org/packages/e9/2b/b3630f7f56ac099e4002cd632ed020c38621cc36e60f2e2f3b381d17c35b/qky-tools-0.5.0.tar.gz
+[2023-05-25 05:15:41] INFO root fetch - processPackages [odoo-addon-delivery-state]: executing diffoscope
+[2023-05-25 05:15:41] INFO root fetch - processPackages [odoo-addon-delivery-state]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_delivery_state-16.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_delivery_state-16.0.1.1.0.3-py3-none-any.whl.zip --markdown 20230525/o/odoo-addon-delivery-state/16.0.1.1.0.1-16.0.1.1.0.3/diff.md --exclude *.pyd
+[2023-05-25 05:15:41] INFO root fetch - processPackages [alibabacloud-ecs20140526-py2]: executing diffoscope
+[2023-05-25 05:15:41] INFO root fetch - processPackages [alibabacloud-ecs20140526-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ecs20140526_py2-3.0.7.tar.gz tmp/alibabacloud_ecs20140526_py2-3.0.8.tar.gz --markdown 20230525/a/alibabacloud-ecs20140526-py2/3.0.7-3.0.8/diff.md --exclude *.pyd
+[2023-05-25 05:15:41] INFO root fetch - processPackages [odoo13-addon-base-delivery-carrier-files]: executing diffoscope
+[2023-05-25 05:15:41] INFO root fetch - processPackages [odoo13-addon-base-delivery-carrier-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_base_delivery_carrier_files-13.0.1.0.1.dev6-py3-none-any.whl.zip tmp/odoo13_addon_base_delivery_carrier_files-13.0.1.0.1.dev7-py3-none-any.whl.zip --markdown 20230525/o/odoo13-addon-base-delivery-carrier-files/13.0.1.0.1.dev6-13.0.1.0.1.dev7/diff.md --exclude *.pyd
+[2023-05-25 05:15:41] INFO root fetch - processPackages [alibabacloud-ecs20140526]: executing diffoscope
+[2023-05-25 05:15:41] INFO root fetch - processPackages [alibabacloud-ecs20140526]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ecs20140526-3.0.8.tar.gz tmp/alibabacloud_ecs20140526-4.24.17.tar.gz --markdown 20230525/a/alibabacloud-ecs20140526/3.0.8-4.24.17/diff.md --exclude *.pyd
+[2023-05-25 05:15:41] INFO root fetch - processPackages [qky-tools]: Downloading https://files.pythonhosted.org/packages/12/a8/5372f100bc5cd095c3b7001725d3d4506e955b32a40c6b976faa1a56a4af/qky-tools-0.6.0.tar.gz
+[2023-05-25 05:15:41] INFO root fetch - processPackages [qky-tools]: executing diffoscope
+[2023-05-25 05:15:41] INFO root fetch - processPackages [qky-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qky-tools-0.5.0.tar.gz tmp/qky-tools-0.6.0.tar.gz --markdown 20230525/q/qky-tools/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-05-25 05:15:43] INFO root fetch - processPackages [odoo12-addon-base-delivery-carrier-files]: Start processing: salesea
+[2023-05-25 05:15:43] INFO root fetch - main [MainThread]: End processing [odoo12-addon-base-delivery-carrier-files]: success
+[2023-05-25 05:15:43] INFO root fetch - processPackages [HomoglyphsCJK]: Start processing: py-data-mock
+[2023-05-25 05:15:43] INFO root fetch - main [MainThread]: End processing [HomoglyphsCJK]: success
+[2023-05-25 05:15:43] WARNING root fetch - processPackages [salesea]: Skipping, unable to determine old version
+[2023-05-25 05:15:43] INFO root fetch - main [MainThread]: End processing [salesea] error
+[2023-05-25 05:15:43] INFO root fetch - processPackages [py-data-mock]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-25 05:15:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-delivery-state]: success
+[2023-05-25 05:15:43] INFO root fetch - main [MainThread]: End processing [qky-tools]: success
+[2023-05-25 05:15:43] INFO root fetch - processPackages [py-data-mock]: Downloading https://files.pythonhosted.org/packages/79/df/69ce751cee1245da4b422c90270cc4001980c8514c9ffc4fbb6224f3f57d/py-data-mock-0.0.3.tar.gz
+[2023-05-25 05:15:43] INFO root fetch - main [MainThread]: End processing [odoo14-addon-base-delivery-carrier-files]: success
+[2023-05-25 05:15:43] INFO root fetch - main [MainThread]: End processing [rtx-deep]: success
+[2023-05-25 05:15:43] INFO root fetch - processPackages [py-data-mock]: executing diffoscope
+[2023-05-25 05:15:43] INFO root fetch - processPackages [py-data-mock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-data-mock-0.0.2.tar.gz tmp/py-data-mock-0.0.3.tar.gz --markdown 20230525/p/py-data-mock/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-25 05:15:43] INFO root fetch - main [MainThread]: End processing [alibabacloud-ecs20140526]: success
+[2023-05-25 05:15:43] INFO root fetch - main [MainThread]: End processing [odoo13-addon-base-delivery-carrier-files]: success
+[2023-05-25 05:15:44] INFO root fetch - main [MainThread]: End processing [py-data-mock]: success
+[2023-05-25 05:15:47] INFO root fetch - main [MainThread]: End processing [alibabacloud-ecs20140526-py2]: success
+[2023-05-25 05:15:58] INFO root fetch - main [MainThread]: End processing [jupyter-scatter]: success
+[2023-05-25 05:15:58] INFO root fetch - main [MainThread]: Store serial: [18240488]
