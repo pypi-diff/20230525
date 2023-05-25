@@ -12119,3 +12119,65 @@
 [2023-05-25 09:51:36] INFO root fetch - main [MainThread]: End processing [RealEstate-package]: success
 [2023-05-25 09:51:38] INFO root fetch - main [MainThread]: End processing [chellow]: success
 [2023-05-25 09:51:38] INFO root fetch - main [MainThread]: Store serial: [18243047]
+[2023-05-25 09:56:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18243047]
+[2023-05-25 09:56:47] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-25 09:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tracebloc-package-dev
+[2023-05-25 09:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: draggan
+[2023-05-25 09:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: irene-pro
+[2023-05-25 09:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tianrannlp
+[2023-05-25 09:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langchain-mpt-wrapper
+[2023-05-25 09:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: playmolecule
+[2023-05-25 09:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hackcqooc
+[2023-05-25 09:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lsst-ctrl-bps-htcondor
+[2023-05-25 09:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: domolibrary
+[2023-05-25 09:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lupin-grognard
+[2023-05-25 09:56:47] WARNING root fetch - processPackages [tianrannlp]: Skipping, unable to determine old version
+[2023-05-25 09:56:47] INFO root fetch - processPackages [tianrannlp]: Start processing: python-otbr-api
+[2023-05-25 09:56:47] INFO root fetch - main [MainThread]: End processing [tianrannlp] error
+[2023-05-25 09:56:47] INFO root fetch - processPackages [irene-pro]: New version: [0.0.43] Old Version: [0.0.42]
+[2023-05-25 09:56:47] INFO root fetch - processPackages [hackcqooc]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 09:56:47] WARNING root fetch - processPackages [langchain-mpt-wrapper]: Skipping, unable to determine old version
+[2023-05-25 09:56:47] INFO root fetch - processPackages [langchain-mpt-wrapper]: Start processing: astro-metadata-translator
+[2023-05-25 09:56:47] INFO root fetch - main [MainThread]: End processing [langchain-mpt-wrapper] error
+[2023-05-25 09:56:47] INFO root fetch - processPackages [lupin-grognard]: New version: [1.9.0] Old Version: [1.7.0]
+[2023-05-25 09:56:47] INFO root fetch - processPackages [domolibrary]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-25 09:56:47] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-05-25 09:56:47] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.0.42.tar.gz tmp/irene_pro-0.0.43.tar.gz --markdown 20230525/i/irene-pro/0.0.42-0.0.43/diff.md --exclude *.pyd
+[2023-05-25 09:56:47] INFO root fetch - processPackages [tracebloc-package-dev]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-25 09:56:47] WARNING root fetch - processPackages [draggan]: Skipping, unable to determine old version
+[2023-05-25 09:56:47] INFO root fetch - processPackages [lupin-grognard]: executing diffoscope
+[2023-05-25 09:56:47] INFO root fetch - processPackages [lupin-grognard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lupin-grognard-1.7.0.tar.gz tmp/lupin-grognard-1.9.0.tar.gz --markdown 20230525/l/lupin-grognard/1.7.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-25 09:56:47] INFO root fetch - processPackages [python-otbr-api]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-25 09:56:47] INFO root fetch - main [MainThread]: End processing [draggan] error
+[2023-05-25 09:56:47] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-05-25 09:56:47] INFO root fetch - processPackages [playmolecule]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-05-25 09:56:47] INFO root fetch - processPackages [hackcqooc]: executing diffoscope
+[2023-05-25 09:56:47] INFO root fetch - processPackages [hackcqooc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hackcqooc-0.0.8.tar.gz tmp/hackcqooc-0.0.9.tar.gz --markdown 20230525/h/hackcqooc/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 09:56:47] INFO root fetch - processPackages [astro-metadata-translator]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-05-25 09:56:47] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-05-25 09:56:47] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.1.8.tar.gz tmp/domolibrary-0.1.9.tar.gz --markdown 20230525/d/domolibrary/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-25 09:56:48] INFO root fetch - processPackages [python-otbr-api]: Downloading https://files.pythonhosted.org/packages/a1/e5/dc884ef5861013da1807ab311d61a218c4e05267784fb28cfc316e7d52ed/python-otbr-api-1.1.0.tar.gz
+[2023-05-25 09:56:48] INFO root fetch - processPackages [playmolecule]: Downloading https://files.pythonhosted.org/packages/00/05/ce419996a7e8a98c0a70ed91727061aa22cbf70f5d3240de9a30c994e96e/playmolecule-1.8.0.tar.gz
+[2023-05-25 09:56:48] INFO root fetch - processPackages [tracebloc-package-dev]: Downloading https://files.pythonhosted.org/packages/2f/30/8d392c09d87fb63aa0ea1ccab8b2df9fc09b837bc0173cf849f48ed4550a/tracebloc_package-dev-0.3.9.tar.gz
+[2023-05-25 09:56:48] INFO root fetch - processPackages [astro-metadata-translator]: executing diffoscope
+[2023-05-25 09:56:48] INFO root fetch - processPackages [astro-metadata-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro-metadata-translator-26.0.0a20230400.tar.gz tmp/astro-metadata-translator-26.0.0a20230500.tar.gz --markdown 20230525/a/astro-metadata-translator/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-05-25 09:56:48] INFO root fetch - processPackages [tracebloc-package-dev]: executing diffoscope
+[2023-05-25 09:56:48] INFO root fetch - processPackages [tracebloc-package-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tracebloc_package-dev-0.3.8.tar.gz tmp/tracebloc_package-dev-0.3.9.tar.gz --markdown 20230525/t/tracebloc-package-dev/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-25 09:56:48] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: executing diffoscope
+[2023-05-25 09:56:48] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-bps-htcondor-26.0.0a20230400.tar.gz tmp/lsst-ctrl-bps-htcondor-26.0.0a20230500.tar.gz --markdown 20230525/l/lsst-ctrl-bps-htcondor/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-05-25 09:56:48] INFO root fetch - processPackages [playmolecule]: Downloading https://files.pythonhosted.org/packages/d0/74/5576ad7579f28c1ab21a55567a28ff56fe3bd8c375a306554de18c24b467/playmolecule-1.8.1.tar.gz
+[2023-05-25 09:56:48] INFO root fetch - processPackages [playmolecule]: executing diffoscope
+[2023-05-25 09:56:48] INFO root fetch - processPackages [playmolecule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playmolecule-1.8.0.tar.gz tmp/playmolecule-1.8.1.tar.gz --markdown 20230525/p/playmolecule/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-05-25 09:56:48] INFO root fetch - processPackages [python-otbr-api]: Downloading https://files.pythonhosted.org/packages/85/82/1e0c3a437b904056cd28bed774e6940ea0b0c2a2d4c126b990d7a7ba49bb/python-otbr-api-1.2.0.tar.gz
+[2023-05-25 09:56:48] INFO root fetch - processPackages [python-otbr-api]: executing diffoscope
+[2023-05-25 09:56:48] INFO root fetch - processPackages [python-otbr-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-otbr-api-1.1.0.tar.gz tmp/python-otbr-api-1.2.0.tar.gz --markdown 20230525/p/python-otbr-api/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-25 09:56:49] INFO root fetch - main [MainThread]: End processing [hackcqooc]: success
+[2023-05-25 09:56:49] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-05-25 09:56:49] INFO root fetch - main [MainThread]: End processing [lupin-grognard]: success
+[2023-05-25 09:56:49] INFO root fetch - main [MainThread]: End processing [tracebloc-package-dev]: success
+[2023-05-25 09:56:50] INFO root fetch - main [MainThread]: End processing [astro-metadata-translator]: success
+[2023-05-25 09:56:50] INFO root fetch - main [MainThread]: End processing [playmolecule]: success
+[2023-05-25 09:56:50] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-05-25 09:56:50] INFO root fetch - main [MainThread]: End processing [python-otbr-api]: success
+[2023-05-25 09:56:50] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps-htcondor]: success
+[2023-05-25 09:56:50] INFO root fetch - main [MainThread]: Store serial: [18243086]
