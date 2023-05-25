@@ -12611,3 +12611,108 @@
 [2023-05-25 10:24:18] INFO root fetch - main [MainThread]: End processing [colossalai]: success
 [2023-05-25 10:24:20] INFO root fetch - main [MainThread]: End processing [spacy]: success
 [2023-05-25 10:24:20] INFO root fetch - main [MainThread]: Store serial: [18243466]
+[2023-05-25 10:29:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18243466]
+[2023-05-25 10:29:29] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-25 10:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: netbox-cisco-maintenance
+[2023-05-25 10:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ronnytest
+[2023-05-25 10:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hcai-nova-server-nightly
+[2023-05-25 10:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyrosexmod
+[2023-05-25 10:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bemserver-ui
+[2023-05-25 10:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cloudvision
+[2023-05-25 10:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zgw-consumers
+[2023-05-25 10:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: minet
+[2023-05-25 10:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: geoviews
+[2023-05-25 10:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ogc-na
+[2023-05-25 10:29:29] INFO root fetch - processPackages [ogc-na]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-25 10:29:29] INFO root fetch - processPackages [pyrosexmod]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-25 10:29:29] INFO root fetch - processPackages [hcai-nova-server-nightly]: New version: [0.1.6.dev202305250818] Old Version: [0.1.6.dev202305250759]
+[2023-05-25 10:29:29] INFO root fetch - processPackages [zgw-consumers]: New version: [0.9.0.dev9] Old Version: [0.9.0.dev8]
+[2023-05-25 10:29:29] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 10:29:29] INFO root fetch - processPackages [cloudvision]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-25 10:29:29] INFO root fetch - processPackages [geoviews]: New version: [1.9.7a2] Old Version: [1.9.6a5]
+[2023-05-25 10:29:29] INFO root fetch - processPackages [ronnytest]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-25 10:29:29] INFO root fetch - processPackages [bemserver-ui]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-05-25 10:29:29] INFO root fetch - processPackages [minet]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-05-25 10:29:29] INFO root fetch - processPackages [zgw-consumers]: Downloading https://files.pythonhosted.org/packages/91/ae/a9f10752bbc9dc95ff551c3631ad479329304fed2f0dbea1520d16f79ee5/zgw-consumers-0.9.0.dev8.tar.gz
+[2023-05-25 10:29:29] INFO root fetch - processPackages [pyrosexmod]: Downloading https://files.pythonhosted.org/packages/0c/cc/5131f948ad147ea6609a5cc21ecfaa3cc54ad72f537726950c5c651b7576/pyrosexmod-0.0.6.tar.gz
+[2023-05-25 10:29:29] INFO root fetch - processPackages [bemserver-ui]: Downloading https://files.pythonhosted.org/packages/6c/86/b169a0cf8930989d34fa7f2b22a0f00847b2c0500b69289a0bf464ac6922/bemserver-ui-0.5.1.tar.gz
+[2023-05-25 10:29:29] INFO root fetch - processPackages [hcai-nova-server-nightly]: Downloading https://files.pythonhosted.org/packages/51/7c/d15c9582a3a0dad42f84e5f8e8ffc5b3d3ce9b35780d2d6b3f32f9779a9b/hcai-nova-server-nightly-0.1.6.dev202305250818.tar.gz
+[2023-05-25 10:29:29] INFO root fetch - processPackages [ronnytest]: Downloading https://files.pythonhosted.org/packages/41/1b/a141366e6b0bf3bf2b7ea156de4feb787d06621ab411f1e54f054884e07a/ronnytest-0.2.1.tar.gz
+[2023-05-25 10:29:29] INFO root fetch - processPackages [cloudvision]: Downloading https://files.pythonhosted.org/packages/5f/1b/3cf9dde35b10912690b9df24e16110fc94a6787b00776ca57606da0da628/cloudvision-1.9.0.tar.gz
+[2023-05-25 10:29:29] INFO root fetch - processPackages [ogc-na]: executing diffoscope
+[2023-05-25 10:29:29] INFO root fetch - processPackages [ogc-na]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ogc_na-0.2.8.tar.gz tmp/ogc_na-0.2.9.tar.gz --markdown 20230525/o/ogc-na/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-25 10:29:29] INFO root fetch - processPackages [pyrosexmod]: executing diffoscope
+[2023-05-25 10:29:29] INFO root fetch - processPackages [pyrosexmod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrosexmod-0.0.5.tar.gz tmp/pyrosexmod-0.0.6.tar.gz --markdown 20230525/p/pyrosexmod/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-25 10:29:29] INFO root fetch - processPackages [hcai-nova-server-nightly]: executing diffoscope
+[2023-05-25 10:29:29] INFO root fetch - processPackages [hcai-nova-server-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-nova-server-nightly-0.1.6.dev202305250759.tar.gz tmp/hcai-nova-server-nightly-0.1.6.dev202305250818.tar.gz --markdown 20230525/h/hcai-nova-server-nightly/0.1.6.dev202305250759-0.1.6.dev202305250818/diff.md --exclude *.pyd
+[2023-05-25 10:29:29] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-05-25 10:29:29] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.8.tar.gz tmp/netbox-cisco-maintenance-0.0.9.tar.gz --markdown 20230525/n/netbox-cisco-maintenance/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 10:29:30] INFO root fetch - processPackages [minet]: executing diffoscope
+[2023-05-25 10:29:30] INFO root fetch - processPackages [minet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minet-1.0.0a8.tar.gz tmp/minet-1.0.0a9.tar.gz --markdown 20230525/m/minet/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-05-25 10:29:30] INFO root fetch - processPackages [geoviews]: executing diffoscope
+[2023-05-25 10:29:30] INFO root fetch - processPackages [geoviews]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geoviews-1.9.6a5.tar.gz tmp/geoviews-1.9.7a2.tar.gz --markdown 20230525/g/geoviews/1.9.6a5-1.9.7a2/diff.md --exclude *.pyd
+[2023-05-25 10:29:30] INFO root fetch - processPackages [ronnytest]: Downloading https://files.pythonhosted.org/packages/2d/16/2ce6522902b2b55e54f25c212f155b7cf8b0a8a6214750d924ad17d2f3e6/ronnytest-0.2.2.tar.gz
+[2023-05-25 10:29:30] INFO root fetch - processPackages [bemserver-ui]: Downloading https://files.pythonhosted.org/packages/61/04/f260ace9d225c327cf25e4c57be9e3cd6122ac48b75f87ed6695d5a727e5/bemserver-ui-0.5.2.tar.gz
+[2023-05-25 10:29:30] INFO root fetch - processPackages [zgw-consumers]: Downloading https://files.pythonhosted.org/packages/ca/cb/f4dc25ca25596f026574a84d5bea2a59788c9449566f7ceaf9415055fc4a/zgw-consumers-0.9.0.dev9.tar.gz
+[2023-05-25 10:29:30] INFO root fetch - processPackages [cloudvision]: Downloading https://files.pythonhosted.org/packages/08/38/784b150ba7e1f44287952e9c4a92ae3a982b1489575e8eea93681f9d323a/cloudvision-1.9.1.tar.gz
+[2023-05-25 10:29:30] INFO root fetch - processPackages [cloudvision]: executing diffoscope
+[2023-05-25 10:29:30] INFO root fetch - processPackages [cloudvision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudvision-1.9.0.tar.gz tmp/cloudvision-1.9.1.tar.gz --markdown 20230525/c/cloudvision/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-25 10:29:30] INFO root fetch - processPackages [ronnytest]: executing diffoscope
+[2023-05-25 10:29:30] INFO root fetch - processPackages [ronnytest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ronnytest-0.2.1.tar.gz tmp/ronnytest-0.2.2.tar.gz --markdown 20230525/r/ronnytest/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-25 10:29:30] INFO root fetch - processPackages [zgw-consumers]: executing diffoscope
+[2023-05-25 10:29:30] INFO root fetch - processPackages [zgw-consumers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zgw-consumers-0.9.0.dev8.tar.gz tmp/zgw-consumers-0.9.0.dev9.tar.gz --markdown 20230525/z/zgw-consumers/0.9.0.dev8-0.9.0.dev9/diff.md --exclude *.pyd
+[2023-05-25 10:29:30] INFO root fetch - processPackages [bemserver-ui]: executing diffoscope
+[2023-05-25 10:29:30] INFO root fetch - processPackages [bemserver-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bemserver-ui-0.5.1.tar.gz tmp/bemserver-ui-0.5.2.tar.gz --markdown 20230525/b/bemserver-ui/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-05-25 10:29:31] INFO root fetch - processPackages [pyrosexmod]: Start processing: TCLR
+[2023-05-25 10:29:31] INFO root fetch - main [MainThread]: End processing [pyrosexmod]: success
+[2023-05-25 10:29:31] INFO root fetch - processPackages [TCLR]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-25 10:29:31] INFO root fetch - processPackages [TCLR]: Downloading https://files.pythonhosted.org/packages/fa/22/bb3e2ac3c68886b68aaf002aefb342aa9797d3d681ce66fa239422dac607/TCLR-1.8.0.tar.gz
+[2023-05-25 10:29:31] INFO root fetch - processPackages [ogc-na]: Start processing: tensoul
+[2023-05-25 10:29:31] INFO root fetch - main [MainThread]: End processing [ogc-na]: success
+[2023-05-25 10:29:31] INFO root fetch - processPackages [netbox-cisco-maintenance]: Start processing: pyeCam
+[2023-05-25 10:29:31] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-05-25 10:29:31] INFO root fetch - processPackages [pyeCam]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 10:29:31] WARNING root fetch - processPackages [tensoul]: Skipping, unable to determine old version
+[2023-05-25 10:29:31] INFO root fetch - processPackages [tensoul]: Start processing: pygn
+[2023-05-25 10:29:31] INFO root fetch - main [MainThread]: End processing [tensoul] error
+[2023-05-25 10:29:31] INFO root fetch - processPackages [pyeCam]: executing diffoscope
+[2023-05-25 10:29:31] INFO root fetch - processPackages [pyeCam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyeCam-0.0.8.tar.gz tmp/pyeCam-0.0.9.tar.gz --markdown 20230525/p/pyeCam/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 10:29:31] INFO root fetch - processPackages [pygn]: New version: [0.9.14] Old Version: [0.9.13]
+[2023-05-25 10:29:31] INFO root fetch - processPackages [TCLR]: Downloading https://files.pythonhosted.org/packages/80/9a/ed1dacb357a719744d4f4c40d94459a15ee64cfc2d59cf6de2b64cdd546e/TCLR-1.9.0.tar.gz
+[2023-05-25 10:29:31] INFO root fetch - processPackages [ronnytest]: Start processing: aanalyticsact
+[2023-05-25 10:29:31] INFO root fetch - main [MainThread]: End processing [ronnytest]: success
+[2023-05-25 10:29:31] INFO root fetch - processPackages [aanalyticsact]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2023-05-25 10:29:31] INFO root fetch - processPackages [TCLR]: executing diffoscope
+[2023-05-25 10:29:31] INFO root fetch - processPackages [TCLR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TCLR-1.8.0.tar.gz tmp/TCLR-1.9.0.tar.gz --markdown 20230525/T/TCLR/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-25 10:29:32] INFO root fetch - processPackages [hcai-nova-server-nightly]: Start processing: space-rocks
+[2023-05-25 10:29:32] INFO root fetch - main [MainThread]: End processing [hcai-nova-server-nightly]: success
+[2023-05-25 10:29:32] INFO root fetch - processPackages [pygn]: Downloading https://files.pythonhosted.org/packages/fb/a9/a7f202f7425599b41a05efea826869d165158a880adaff3e2751826de467/pygn-0.9.13.tar.gz
+[2023-05-25 10:29:32] INFO root fetch - processPackages [space-rocks]: New version: [1.8.0] Old Version: [1.7.7]
+[2023-05-25 10:29:32] INFO root fetch - processPackages [aanalyticsact]: Downloading https://files.pythonhosted.org/packages/6d/7a/bc4458dbde2ae4eb43aa276bfe3b2ed50aa57a45b4f5470601a11ebb9bfd/aanalyticsact-0.0.0.8.tar.gz
+[2023-05-25 10:29:32] INFO root fetch - processPackages [pygn]: Downloading https://files.pythonhosted.org/packages/c9/45/98b152a1b3925a2f324e921868ca965658b295aa1ed9f4061bf290d3fc69/pygn-0.9.14.tar.gz
+[2023-05-25 10:29:32] INFO root fetch - processPackages [zgw-consumers]: Start processing: panoptic
+[2023-05-25 10:29:32] INFO root fetch - main [MainThread]: End processing [zgw-consumers]: success
+[2023-05-25 10:29:32] INFO root fetch - processPackages [pygn]: executing diffoscope
+[2023-05-25 10:29:32] INFO root fetch - processPackages [pygn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygn-0.9.13.tar.gz tmp/pygn-0.9.14.tar.gz --markdown 20230525/p/pygn/0.9.13-0.9.14/diff.md --exclude *.pyd
+[2023-05-25 10:29:32] INFO root fetch - processPackages [space-rocks]: Downloading https://files.pythonhosted.org/packages/d6/32/88c116461cc21bb44f402409de470a5b0929c83915d10a589603c6f850f1/space_rocks-1.7.7.tar.gz
+[2023-05-25 10:29:32] INFO root fetch - processPackages [aanalyticsact]: Downloading https://files.pythonhosted.org/packages/c7/ad/8dfb0ce46b1218b0fd738bd90a652d6f6c828910799e03dac35b1cb9ea20/aanalyticsact-0.0.0.9.tar.gz
+[2023-05-25 10:29:32] INFO root fetch - processPackages [panoptic]: New version: [0.0.9.dev0] Old Version: [0.0.8]
+[2023-05-25 10:29:32] INFO root fetch - processPackages [aanalyticsact]: executing diffoscope
+[2023-05-25 10:29:32] INFO root fetch - processPackages [aanalyticsact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aanalyticsact-0.0.0.8.tar.gz tmp/aanalyticsact-0.0.0.9.tar.gz --markdown 20230525/a/aanalyticsact/0.0.0.8-0.0.0.9/diff.md --exclude *.pyd
+[2023-05-25 10:29:32] INFO root fetch - processPackages [space-rocks]: Downloading https://files.pythonhosted.org/packages/2a/b7/69ea7596b4e0c3d015a4fc5c48288263989a41d91ac696fce088bf61fa05/space_rocks-1.8.0.tar.gz
+[2023-05-25 10:29:32] INFO root fetch - main [MainThread]: End processing [cloudvision]: success
+[2023-05-25 10:29:32] INFO root fetch - processPackages [space-rocks]: executing diffoscope
+[2023-05-25 10:29:32] INFO root fetch - processPackages [space-rocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/space_rocks-1.7.7.tar.gz tmp/space_rocks-1.8.0.tar.gz --markdown 20230525/s/space-rocks/1.7.7-1.8.0/diff.md --exclude *.pyd
+[2023-05-25 10:29:32] INFO root fetch - processPackages [panoptic]: Downloading https://files.pythonhosted.org/packages/03/ed/0e072e8181df683a17987579ef26efbb62c9e0433d7b4a2d49918d197305/panoptic-0.0.9.dev0.tar.gz
+[2023-05-25 10:29:32] INFO root fetch - main [MainThread]: End processing [pyeCam]: success
+[2023-05-25 10:29:32] INFO root fetch - processPackages [panoptic]: executing diffoscope
+[2023-05-25 10:29:32] INFO root fetch - processPackages [panoptic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panoptic-0.0.8.tar.gz tmp/panoptic-0.0.9.dev0.tar.gz --markdown 20230525/p/panoptic/0.0.8-0.0.9.dev0/diff.md --exclude *.pyd
+[2023-05-25 10:29:33] INFO root fetch - main [MainThread]: End processing [TCLR]: success
+[2023-05-25 10:29:33] INFO root fetch - main [MainThread]: End processing [pygn]: success
+[2023-05-25 10:29:33] INFO root fetch - main [MainThread]: End processing [aanalyticsact]: success
+[2023-05-25 10:29:34] INFO root fetch - main [MainThread]: End processing [panoptic]: success
+[2023-05-25 10:29:34] INFO root fetch - main [MainThread]: End processing [space-rocks]: success
+[2023-05-25 10:29:35] INFO root fetch - main [MainThread]: End processing [geoviews]: success
+[2023-05-25 10:29:35] INFO root fetch - main [MainThread]: End processing [minet]: success
+[2023-05-25 10:29:41] INFO root fetch - main [MainThread]: End processing [bemserver-ui]: success
+[2023-05-25 10:29:41] INFO root fetch - main [MainThread]: Store serial: [18243521]
