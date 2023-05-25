@@ -3591,3 +3591,70 @@
 [2023-05-25 02:46:46] INFO root fetch - main [MainThread]: End processing [cerc-geometry]: success
 [2023-05-25 02:46:57] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2023-05-25 02:46:57] INFO root fetch - main [MainThread]: Store serial: [18238447]
+[2023-05-25 02:52:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18238447]
+[2023-05-25 02:52:06] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-25 02:52:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kubric-nightly
+[2023-05-25 02:52:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tidy-tweet
+[2023-05-25 02:52:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-slack-chatbot
+[2023-05-25 02:52:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: projen
+[2023-05-25 02:52:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-databrew-cicd
+[2023-05-25 02:52:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: arc-cli
+[2023-05-25 02:52:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cyberdrop-dl
+[2023-05-25 02:52:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mb-utils
+[2023-05-25 02:52:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tap-mixpanel
+[2023-05-25 02:52:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dss-python
+[2023-05-25 02:52:06] INFO root fetch - processPackages [tidy-tweet]: New version: [1.0.0a1] Old Version: [0.4.0]
+[2023-05-25 02:52:06] INFO root fetch - processPackages [cdk-slack-chatbot]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-05-25 02:52:06] INFO root fetch - processPackages [mb-utils]: New version: [1.0.202305250048] Old Version: [1.0.202303150603]
+[2023-05-25 02:52:06] INFO root fetch - processPackages [tap-mixpanel]: New version: [1.5.0] Old Version: [1.4.3]
+[2023-05-25 02:52:06] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-25 02:52:06] INFO root fetch - processPackages [arc-cli]: New version: [8.5.0] Old Version: [8.4.2]
+[2023-05-25 02:52:06] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.2.47] Old Version: [4.2.46]
+[2023-05-25 02:52:06] INFO root fetch - processPackages [projen]: New version: [0.71.9] Old Version: [0.71.8]
+[2023-05-25 02:52:06] INFO root fetch - processPackages [kubric-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-25 02:52:06] INFO root fetch - processPackages [dss-python]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-05-25 02:52:06] INFO root fetch - processPackages [mb-utils]: Downloading https://files.pythonhosted.org/packages/84/92/c1d4da967f871352b88e9a2f031e46ea357af02c703dfd29ec9584518276/mb_utils-1.0.202303150603-py3-none-any.whl
+[2023-05-25 02:52:06] INFO root fetch - processPackages [tidy-tweet]: Downloading https://files.pythonhosted.org/packages/1f/52/d1f8ef0dfaaf0b3be57f79fa7d8a978efddcb28189b4db90f6130082b96f/tidy_tweet-0.4.0.tar.gz
+[2023-05-25 02:52:06] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/b4/e8/948c108e3b98a48658aff1e2d5ffe53a1efc6ee7d4c7f590e4674c34e0c2/cyberdrop-dl-4.2.47.tar.gz
+[2023-05-25 02:52:06] INFO root fetch - processPackages [arc-cli]: Downloading https://files.pythonhosted.org/packages/e3/f5/6d7523be6e8687806dadffe6f49e3d869a5822b2b9798854817e493ced51/arc_cli-8.5.0.tar.gz
+[2023-05-25 02:52:06] INFO root fetch - processPackages [dss-python]: Downloading https://files.pythonhosted.org/packages/ba/cf/a5abece290b5d45a750b25f6d114e5b1462f4576dc2639d8c1f557b61d72/dss_python-0.9.7-cp36-cp36m-win_amd64.whl
+[2023-05-25 02:52:06] INFO root fetch - processPackages [tap-mixpanel]: Downloading https://files.pythonhosted.org/packages/dc/cc/afa690fcbb395e0a88810f7219892dd4195f0eee3e41391bf02d24094ca3/tap-mixpanel-1.5.0.tar.gz
+[2023-05-25 02:52:06] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-05-25 02:52:06] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.2.46.tar.gz tmp/cyberdrop-dl-4.2.47.tar.gz --markdown 20230525/c/cyberdrop-dl/4.2.46-4.2.47/diff.md --exclude *.pyd
+[2023-05-25 02:52:06] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-05-25 02:52:06] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.8.tar.gz tmp/projen-0.71.9.tar.gz --markdown 20230525/p/projen/0.71.8-0.71.9/diff.md --exclude *.pyd
+[2023-05-25 02:52:06] INFO root fetch - processPackages [cdk-slack-chatbot]: executing diffoscope
+[2023-05-25 02:52:06] INFO root fetch - processPackages [cdk-slack-chatbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-slack-chatbot-1.0.98.tar.gz tmp/cdk-slack-chatbot-1.0.99.tar.gz --markdown 20230525/c/cdk-slack-chatbot/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-05-25 02:52:06] INFO root fetch - processPackages [tap-mixpanel]: executing diffoscope
+[2023-05-25 02:52:06] INFO root fetch - processPackages [tap-mixpanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap-mixpanel-1.4.3.tar.gz tmp/tap-mixpanel-1.5.0.tar.gz --markdown 20230525/t/tap-mixpanel/1.4.3-1.5.0/diff.md --exclude *.pyd
+[2023-05-25 02:52:06] INFO root fetch - processPackages [arc-cli]: executing diffoscope
+[2023-05-25 02:52:06] INFO root fetch - processPackages [arc-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arc_cli-8.4.2.tar.gz tmp/arc_cli-8.5.0.tar.gz --markdown 20230525/a/arc-cli/8.4.2-8.5.0/diff.md --exclude *.pyd
+[2023-05-25 02:52:07] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2023-05-25 02:52:07] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20230525/c/cdk-databrew-cicd/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-25 02:52:07] INFO root fetch - processPackages [mb-utils]: Downloading https://files.pythonhosted.org/packages/37/1d/fd3eaffc5444c1c8f604b8cec011f21d2559272f40775034f71981f7836b/mb_utils-1.0.202305250048-py3-none-any.whl
+[2023-05-25 02:52:07] INFO root fetch - processPackages [kubric-nightly]: executing diffoscope
+[2023-05-25 02:52:07] INFO root fetch - processPackages [kubric-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubric-nightly-2023.5.8.tar.gz tmp/kubric-nightly-2023.5.9.tar.gz --markdown 20230525/k/kubric-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-25 02:52:07] INFO root fetch - processPackages [tidy-tweet]: Downloading https://files.pythonhosted.org/packages/bd/88/918cae275e289346e0e968d87b20b6e5710c0f53d42ac915aa5fac2edfe3/tidy_tweet-1.0.0a1.tar.gz
+[2023-05-25 02:52:07] INFO root fetch - processPackages [mb-utils]: executing diffoscope
+[2023-05-25 02:52:07] INFO root fetch - processPackages [mb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_utils-1.0.202303150603-py3-none-any.whl.zip tmp/mb_utils-1.0.202305250048-py3-none-any.whl.zip --markdown 20230525/m/mb-utils/1.0.202303150603-1.0.202305250048/diff.md --exclude *.pyd
+[2023-05-25 02:52:07] INFO root fetch - processPackages [tidy-tweet]: executing diffoscope
+[2023-05-25 02:52:07] INFO root fetch - processPackages [tidy-tweet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidy_tweet-0.4.0.tar.gz tmp/tidy_tweet-1.0.0a1.tar.gz --markdown 20230525/t/tidy-tweet/0.4.0-1.0.0a1/diff.md --exclude *.pyd
+[2023-05-25 02:52:07] INFO root fetch - processPackages [dss-python]: Downloading https://files.pythonhosted.org/packages/01/44/9b7b908415f0e3ecbc413ebf6895b4465ca04c24d15d974ddac812e6cf2b/dss_python-0.9.8-cp37-cp37m-win_amd64.whl
+[2023-05-25 02:52:07] INFO root fetch - processPackages [dss-python]: executing diffoscope
+[2023-05-25 02:52:07] INFO root fetch - processPackages [dss-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dss_python-0.9.7-cp36-cp36m-win_amd64.whl.zip tmp/dss_python-0.9.8-cp37-cp37m-win_amd64.whl.zip --markdown 20230525/d/dss-python/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-05-25 02:52:08] INFO root fetch - processPackages [cdk-slack-chatbot]: Start processing: steamship
+[2023-05-25 02:52:08] INFO root fetch - main [MainThread]: End processing [cdk-slack-chatbot]: success
+[2023-05-25 02:52:08] INFO root fetch - processPackages [steamship]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-25 02:52:08] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-05-25 02:52:08] INFO root fetch - processPackages [steamship]: executing diffoscope
+[2023-05-25 02:52:08] INFO root fetch - processPackages [steamship]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steamship-2.3.8.tar.gz tmp/steamship-2.3.9.tar.gz --markdown 20230525/s/steamship/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-25 02:52:08] INFO root fetch - main [MainThread]: End processing [mb-utils]: success
+[2023-05-25 02:52:09] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-05-25 02:52:09] INFO root fetch - main [MainThread]: End processing [tap-mixpanel]: success
+[2023-05-25 02:52:10] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
+[2023-05-25 02:52:10] INFO root fetch - main [MainThread]: End processing [tidy-tweet]: success
+[2023-05-25 02:52:10] INFO root fetch - main [MainThread]: End processing [arc-cli]: success
+[2023-05-25 02:52:11] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2023-05-25 02:52:11] INFO root fetch - main [MainThread]: End processing [steamship]: success
+[2023-05-25 02:52:30] INFO root fetch - main [MainThread]: End processing [dss-python]: success
+[2023-05-25 02:52:30] INFO root fetch - main [MainThread]: Store serial: [18238478]
