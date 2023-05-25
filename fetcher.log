@@ -15714,3 +15714,70 @@ EOFError: EOF read where object expected
 [2023-05-25 12:29:45] INFO root fetch - main [MainThread]: End processing [emulsion]: success
 [2023-05-25 12:29:49] INFO root fetch - main [MainThread]: End processing [hordelib]: success
 [2023-05-25 12:29:49] INFO root fetch - main [MainThread]: Store serial: [18245095]
+[2023-05-25 12:34:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18245095]
+[2023-05-25 12:34:59] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-25 12:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: netbox-cisco-maintenance
+[2023-05-25 12:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CEEcache
+[2023-05-25 12:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libtorrent
+[2023-05-25 12:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiobtclientapi
+[2023-05-25 12:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lnschema_bionty
+[2023-05-25 12:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hive-cli
+[2023-05-25 12:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: isystem.connect
+[2023-05-25 12:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: MCPoly
+[2023-05-25 12:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pir-client
+[2023-05-25 12:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spai
+[2023-05-25 12:34:59] WARNING root fetch - processPackages [CEEcache]: Skipping, unable to determine old version
+[2023-05-25 12:34:59] INFO root fetch - processPackages [CEEcache]: Start processing: hive-cli
+[2023-05-25 12:34:59] INFO root fetch - main [MainThread]: End processing [CEEcache] error
+[2023-05-25 12:34:59] INFO root fetch - processPackages [pir-client]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-25 12:34:59] INFO root fetch - processPackages [spai]: New version: [2023.5.25] Old Version: [0.1.0]
+[2023-05-25 12:34:59] WARNING root fetch - processPackages [hive-cli]: Skipping, unable to determine old version
+[2023-05-25 12:34:59] INFO root fetch - processPackages [hive-cli]: Start processing: multiprocessorhdl
+[2023-05-25 12:34:59] INFO root fetch - main [MainThread]: End processing [hive-cli] error
+[2023-05-25 12:34:59] WARNING root fetch - processPackages [hive-cli]: Skipping, unable to determine old version
+[2023-05-25 12:34:59] INFO root fetch - processPackages [hive-cli]: Start processing: apertium2ud
+[2023-05-25 12:34:59] INFO root fetch - main [MainThread]: End processing [hive-cli] error
+[2023-05-25 12:34:59] INFO root fetch - processPackages [aiobtclientapi]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-05-25 12:34:59] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 12:34:59] INFO root fetch - processPackages [pir-client]: executing diffoscope
+[2023-05-25 12:34:59] INFO root fetch - processPackages [pir-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pir_client-1.1.0-py3-none-any.whl.zip tmp/pir_client-1.2.0-py3-none-any.whl.zip --markdown 20230525/p/pir-client/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-25 12:34:59] INFO root fetch - processPackages [libtorrent]: New version: [2.0.9] Old Version: [2.0.7]
+[2023-05-25 12:34:59] INFO root fetch - processPackages [spai]: executing diffoscope
+[2023-05-25 12:34:59] INFO root fetch - processPackages [spai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spai-0.1.0.tar.gz tmp/spai-2023.5.25.tar.gz --markdown 20230525/s/spai/0.1.0-2023.5.25/diff.md --exclude *.pyd
+[2023-05-25 12:34:59] INFO root fetch - processPackages [MCPoly]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-25 12:34:59] INFO root fetch - processPackages [lnschema_bionty]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-25 12:34:59] INFO root fetch - processPackages [isystem.connect]: New version: [9.21.99.0] Old Version: [9.21.98.0]
+[2023-05-25 12:34:59] WARNING root fetch - processPackages [multiprocessorhdl]: Skipping, unable to determine old version
+[2023-05-25 12:34:59] INFO root fetch - main [MainThread]: End processing [multiprocessorhdl] error
+[2023-05-25 12:34:59] INFO root fetch - processPackages [apertium2ud]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-25 12:34:59] INFO root fetch - processPackages [aiobtclientapi]: Downloading https://files.pythonhosted.org/packages/2a/06/5df49e08fd910e6ad3892691fde9b803298f3ecf03e738f1da910910cafe/aiobtclientapi-1.0.3.tar.gz
+[2023-05-25 12:34:59] INFO root fetch - processPackages [lnschema_bionty]: Downloading https://files.pythonhosted.org/packages/12/bb/32a1cbaa73ee4f038a3540bbbf0b3d7e27f22edcdbd7d7c80667fef68afd/lnschema_bionty-0.8.1.tar.gz
+[2023-05-25 12:34:59] INFO root fetch - processPackages [apertium2ud]: Downloading https://files.pythonhosted.org/packages/4d/93/e371298dcb4c8fb5283c7198c3a0af184b14a9d0572cd5aab6f26105b9be/apertium2ud-0.0.1.tar.gz
+[2023-05-25 12:35:00] INFO root fetch - processPackages [MCPoly]: Downloading https://files.pythonhosted.org/packages/6b/d8/51d146930a6783f8ac8f6c63e2d125c81437131663b532be5245508ba92a/MCPoly-0.3.2.tar.gz
+[2023-05-25 12:35:00] INFO root fetch - processPackages [libtorrent]: executing diffoscope
+[2023-05-25 12:35:00] INFO root fetch - processPackages [libtorrent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libtorrent-2.0.7-cp39-cp39-win_amd64.whl.zip tmp/libtorrent-2.0.9-cp39-cp39-win_amd64.whl.zip --markdown 20230525/l/libtorrent/2.0.7-2.0.9/diff.md --exclude *.pyd
+[2023-05-25 12:35:00] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-05-25 12:35:00] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.8.tar.gz tmp/netbox-cisco-maintenance-0.0.9.tar.gz --markdown 20230525/n/netbox-cisco-maintenance/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 12:35:00] INFO root fetch - processPackages [aiobtclientapi]: Downloading https://files.pythonhosted.org/packages/22/7e/cac7dc4b23435069ad00cb46fadafea00843502beeae298990f56b0f3f2d/aiobtclientapi-1.1.0.tar.gz
+[2023-05-25 12:35:00] INFO root fetch - processPackages [isystem.connect]: executing diffoscope
+[2023-05-25 12:35:00] INFO root fetch - processPackages [isystem.connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl.zip tmp/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl.zip --markdown 20230525/i/isystem.connect/9.21.98.0-9.21.99.0/diff.md --exclude *.pyd
+[2023-05-25 12:35:00] INFO root fetch - processPackages [MCPoly]: executing diffoscope
+[2023-05-25 12:35:00] INFO root fetch - processPackages [MCPoly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MCPoly-0.3.1.tar.gz tmp/MCPoly-0.3.2.tar.gz --markdown 20230525/M/MCPoly/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-25 12:35:00] INFO root fetch - processPackages [aiobtclientapi]: executing diffoscope
+[2023-05-25 12:35:00] INFO root fetch - processPackages [aiobtclientapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiobtclientapi-1.0.3.tar.gz tmp/aiobtclientapi-1.1.0.tar.gz --markdown 20230525/a/aiobtclientapi/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-05-25 12:35:00] INFO root fetch - processPackages [lnschema_bionty]: Downloading https://files.pythonhosted.org/packages/ed/64/d2babdba858b56f5825e7ac3e2d375cf42dcf278f3c6ad9daf179e40b556/lnschema_bionty-0.9.0.tar.gz
+[2023-05-25 12:35:00] INFO root fetch - processPackages [apertium2ud]: Downloading https://files.pythonhosted.org/packages/32/e0/56ec47045b7122e87d57e9aafd913b15669c1b7f5ef0067dfdd236b84015/apertium2ud-0.0.2.tar.gz
+[2023-05-25 12:35:00] INFO root fetch - processPackages [lnschema_bionty]: executing diffoscope
+[2023-05-25 12:35:00] INFO root fetch - processPackages [lnschema_bionty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_bionty-0.8.1.tar.gz tmp/lnschema_bionty-0.9.0.tar.gz --markdown 20230525/l/lnschema_bionty/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-25 12:35:00] INFO root fetch - processPackages [apertium2ud]: executing diffoscope
+[2023-05-25 12:35:00] INFO root fetch - processPackages [apertium2ud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apertium2ud-0.0.1.tar.gz tmp/apertium2ud-0.0.2.tar.gz --markdown 20230525/a/apertium2ud/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-25 12:35:00] INFO root fetch - main [MainThread]: End processing [pir-client]: success
+[2023-05-25 12:35:01] INFO root fetch - main [MainThread]: End processing [spai]: success
+[2023-05-25 12:35:01] INFO root fetch - main [MainThread]: End processing [libtorrent]: success
+[2023-05-25 12:35:01] INFO root fetch - main [MainThread]: End processing [aiobtclientapi]: success
+[2023-05-25 12:35:01] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-05-25 12:35:01] INFO root fetch - main [MainThread]: End processing [isystem.connect]: success
+[2023-05-25 12:35:02] INFO root fetch - main [MainThread]: End processing [MCPoly]: success
+[2023-05-25 12:35:02] INFO root fetch - main [MainThread]: End processing [lnschema_bionty]: success
+[2023-05-25 12:35:02] INFO root fetch - main [MainThread]: End processing [apertium2ud]: success
+[2023-05-25 12:35:02] INFO root fetch - main [MainThread]: Store serial: [18245165]
