@@ -15497,3 +15497,130 @@
 [2023-05-25 12:19:10] INFO root fetch - main [MainThread]: End processing [frds]: success
 [2023-05-25 12:19:16] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-05-25 12:19:16] INFO root fetch - main [MainThread]: Store serial: [18244979]
+[2023-05-25 12:24:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18244979]
+[2023-05-25 12:24:25] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-25 12:24:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scipion-em-tomo
+[2023-05-25 12:24:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netbox-cisco-maintenance
+[2023-05-25 12:24:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: klu
+[2023-05-25 12:24:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: st-clickable-img-gallery
+[2023-05-25 12:24:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: remotemanager
+[2023-05-25 12:24:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xontrib-jupyter
+[2023-05-25 12:24:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: clear-skies
+[2023-05-25 12:24:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mwrpy
+[2023-05-25 12:24:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gltf-shapes
+[2023-05-25 12:24:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: camminapy
+[2023-05-25 12:24:25] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 12:24:25] INFO root fetch - processPackages [remotemanager]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-25 12:24:25] INFO root fetch - processPackages [klu]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-25 12:24:25] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-05-25 12:24:25] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.8.tar.gz tmp/netbox-cisco-maintenance-0.0.9.tar.gz --markdown 20230525/n/netbox-cisco-maintenance/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 12:24:25] WARNING root fetch - processPackages [st-clickable-img-gallery]: Skipping, unable to determine old version
+[2023-05-25 12:24:25] INFO root fetch - processPackages [st-clickable-img-gallery]: Start processing: appmap
+[2023-05-25 12:24:25] INFO root fetch - main [MainThread]: End processing [st-clickable-img-gallery] error
+[2023-05-25 12:24:25] INFO root fetch - processPackages [mwrpy]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-25 12:24:25] INFO root fetch - processPackages [scipion-em-tomo]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 12:24:25] INFO root fetch - processPackages [gltf-shapes]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-25 12:24:25] WARNING root fetch - processPackages [xontrib-jupyter]: Skipping, unable to determine old version
+[2023-05-25 12:24:25] INFO root fetch - processPackages [xontrib-jupyter]: Start processing: camminapy
+[2023-05-25 12:24:25] INFO root fetch - main [MainThread]: End processing [xontrib-jupyter] error
+[2023-05-25 12:24:25] INFO root fetch - processPackages [remotemanager]: executing diffoscope
+[2023-05-25 12:24:25] INFO root fetch - processPackages [remotemanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotemanager-0.5.8.tar.gz tmp/remotemanager-0.5.9.tar.gz --markdown 20230525/r/remotemanager/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-25 12:24:25] INFO root fetch - processPackages [clear-skies]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-25 12:24:25] INFO root fetch - processPackages [klu]: Downloading https://files.pythonhosted.org/packages/6c/b4/463c6494a7aa92f1894ab99908ae22df5053e041b7179c60ff32af49011d/klu-0.1.3.tar.gz
+[2023-05-25 12:24:25] INFO root fetch - processPackages [appmap]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-25 12:24:25] INFO root fetch - processPackages [camminapy]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-05-25 12:24:25] INFO root fetch - processPackages [camminapy]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-05-25 12:24:25] INFO root fetch - processPackages [scipion-em-tomo]: Downloading https://files.pythonhosted.org/packages/8e/54/f7c0776e9516ae2c43bba075f25b62f44cd972286af90e15008778d5d07d/scipion-em-tomo-3.1.8.tar.gz
+[2023-05-25 12:24:25] INFO root fetch - processPackages [mwrpy]: Downloading https://files.pythonhosted.org/packages/b0/8f/b30914e40d93fd94695cc810bac4b3bc0f87bbc8aaa53cbc650700e27137/mwrpy-0.2.0.tar.gz
+[2023-05-25 12:24:25] INFO root fetch - processPackages [gltf-shapes]: Downloading https://files.pythonhosted.org/packages/57/61/25e28288e2424fea7d4063b2a580cdc2d6baeb3c51007f1e627d99107f1a/gltf-shapes-0.0.1.tar.gz
+[2023-05-25 12:24:25] INFO root fetch - processPackages [camminapy]: Downloading https://files.pythonhosted.org/packages/ff/dd/bf475c66d3af8d3e4af3c9109728649926776bd323fc3fa508365a415d97/camminapy-0.8.9.tar.gz
+[2023-05-25 12:24:25] INFO root fetch - processPackages [camminapy]: Downloading https://files.pythonhosted.org/packages/ff/dd/bf475c66d3af8d3e4af3c9109728649926776bd323fc3fa508365a415d97/camminapy-0.8.9.tar.gz
+[2023-05-25 12:24:25] INFO root fetch - processPackages [clear-skies]: executing diffoscope
+[2023-05-25 12:24:25] INFO root fetch - processPackages [clear-skies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clear-skies-1.8.0.tar.gz tmp/clear-skies-1.9.0.tar.gz --markdown 20230525/c/clear-skies/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-25 12:24:25] INFO root fetch - processPackages [klu]: Downloading https://files.pythonhosted.org/packages/d3/ba/6cf2c6553d66f5afd8fbaf4a799a772222d7684c5045520357483152fcac/klu-0.1.4.tar.gz
+[2023-05-25 12:24:25] INFO root fetch - processPackages [gltf-shapes]: Downloading https://files.pythonhosted.org/packages/80/9a/fcfa6c86d5cf32169eb2f31e0df14d807c0e55ebf5dd34fb7791f56c66c4/gltf-shapes-0.0.2.tar.gz
+[2023-05-25 12:24:25] INFO root fetch - processPackages [mwrpy]: Downloading https://files.pythonhosted.org/packages/a6/58/6dcc161d6357380ed377c587802eb65c7c73326fac6d75ad62690cb82975/mwrpy-0.3.0.tar.gz
+[2023-05-25 12:24:25] INFO root fetch - processPackages [scipion-em-tomo]: Downloading https://files.pythonhosted.org/packages/49/e8/860425d7e3f49a135d088eef9fb53406cd6c6fed051c232b09de1b80fa66/scipion-em-tomo-3.1.9.tar.gz
+[2023-05-25 12:24:25] INFO root fetch - processPackages [klu]: executing diffoscope
+[2023-05-25 12:24:25] INFO root fetch - processPackages [klu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klu-0.1.3.tar.gz tmp/klu-0.1.4.tar.gz --markdown 20230525/k/klu/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-25 12:24:25] INFO root fetch - processPackages [camminapy]: executing diffoscope
+[2023-05-25 12:24:25] INFO root fetch - processPackages [camminapy]: executing diffoscope
+[2023-05-25 12:24:25] INFO root fetch - processPackages [camminapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camminapy-0.8.8.tar.gz tmp/camminapy-0.8.9.tar.gz --markdown 20230525/c/camminapy/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-05-25 12:24:25] INFO root fetch - processPackages [camminapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camminapy-0.8.8.tar.gz tmp/camminapy-0.8.9.tar.gz --markdown 20230525/c/camminapy/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-05-25 12:24:25] INFO root fetch - processPackages [gltf-shapes]: executing diffoscope
+[2023-05-25 12:24:26] INFO root fetch - processPackages [gltf-shapes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gltf-shapes-0.0.1.tar.gz tmp/gltf-shapes-0.0.2.tar.gz --markdown 20230525/g/gltf-shapes/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-25 12:24:26] INFO root fetch - processPackages [mwrpy]: executing diffoscope
+[2023-05-25 12:24:26] INFO root fetch - processPackages [mwrpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwrpy-0.2.0.tar.gz tmp/mwrpy-0.3.0.tar.gz --markdown 20230525/m/mwrpy/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-25 12:24:26] INFO root fetch - processPackages [appmap]: executing diffoscope
+[2023-05-25 12:24:26] INFO root fetch - processPackages [appmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appmap-1.9.0.tar.gz tmp/appmap-1.9.1.tar.gz --markdown 20230525/a/appmap/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-25 12:24:26] INFO root fetch - processPackages [scipion-em-tomo]: executing diffoscope
+[2023-05-25 12:24:26] INFO root fetch - processPackages [scipion-em-tomo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-em-tomo-3.1.8.tar.gz tmp/scipion-em-tomo-3.1.9.tar.gz --markdown 20230525/s/scipion-em-tomo/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 12:24:26] INFO root fetch - processPackages [netbox-cisco-maintenance]: Start processing: panoptic
+[2023-05-25 12:24:26] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-05-25 12:24:26] INFO root fetch - processPackages [panoptic]: New version: [0.0.9.dev3] Old Version: [0.0.9.dev2]
+[2023-05-25 12:24:27] INFO root fetch - processPackages [panoptic]: Downloading https://files.pythonhosted.org/packages/cb/77/d1c82709fd82efa1d934f13604abec8e28d8363f6198e4dd89e71aa87700/panoptic-0.0.9.dev3.tar.gz
+[2023-05-25 12:24:27] INFO root fetch - processPackages [panoptic]: executing diffoscope
+[2023-05-25 12:24:27] INFO root fetch - processPackages [panoptic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panoptic-0.0.9.dev2.tar.gz tmp/panoptic-0.0.9.dev3.tar.gz --markdown 20230525/p/panoptic/0.0.9.dev2-0.0.9.dev3/diff.md --exclude *.pyd
+[2023-05-25 12:24:27] INFO root fetch - main [MainThread]: End processing [gltf-shapes]: success
+[2023-05-25 12:24:27] INFO root fetch - main [MainThread]: End processing [remotemanager]: success
+[2023-05-25 12:24:27] INFO root fetch - main [MainThread]: End processing [klu]: success
+[2023-05-25 12:24:28] INFO root fetch - main [MainThread]: End processing [camminapy]: success
+[2023-05-25 12:24:28] INFO root fetch - main [MainThread]: End processing [clear-skies]: success
+[2023-05-25 12:24:28] INFO root fetch - main [MainThread]: End processing [camminapy]: success
+[2023-05-25 12:24:28] INFO root fetch - main [MainThread]: End processing [scipion-em-tomo]: success
+[2023-05-25 12:24:29] INFO root fetch - main [MainThread]: End processing [panoptic]: success
+[2023-05-25 12:24:30] ERROR root fetch - processPackages [appmap]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+EOFError: EOF read where object expected
+
+[2023-05-25 12:24:30] INFO root fetch - main [MainThread]: End processing [appmap] error
+[2023-05-25 12:24:30] INFO root fetch - main [MainThread]: End processing [mwrpy]: success
+[2023-05-25 12:24:30] INFO root fetch - main [MainThread]: Store serial: [18245025]
