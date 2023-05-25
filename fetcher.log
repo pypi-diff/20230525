@@ -18806,3 +18806,97 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-25 14:57:43] INFO root fetch - main [MainThread]: End processing [varwizard]: success
 [2023-05-25 14:57:46] INFO root fetch - main [MainThread]: End processing [immuneML]: success
 [2023-05-25 14:57:46] INFO root fetch - main [MainThread]: Store serial: [18246859]
+[2023-05-25 15:02:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18246859]
+[2023-05-25 15:02:56] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-25 15:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autosrt
+[2023-05-25 15:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nowcasting-forecast
+[2023-05-25 15:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: asposecellscloud
+[2023-05-25 15:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: OpenGeode-Inspector
+[2023-05-25 15:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openepd
+[2023-05-25 15:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: edu-segmentation
+[2023-05-25 15:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: stac-asset
+[2023-05-25 15:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ths-quant
+[2023-05-25 15:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: idun-data-models
+[2023-05-25 15:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: typer-config
+[2023-05-25 15:02:56] INFO root fetch - processPackages [OpenGeode-Inspector]: New version: [3.0.5] Old Version: [3.0.4]
+[2023-05-25 15:02:56] WARNING root fetch - processPackages [stac-asset]: Skipping, unable to determine old version
+[2023-05-25 15:02:56] INFO root fetch - processPackages [stac-asset]: Start processing: pysdot
+[2023-05-25 15:02:56] WARNING root fetch - processPackages [ths-quant]: Skipping, unable to determine old version
+[2023-05-25 15:02:56] INFO root fetch - processPackages [ths-quant]: Start processing: cloud2
+[2023-05-25 15:02:56] WARNING root fetch - processPackages [idun-data-models]: Skipping, unable to determine old version
+[2023-05-25 15:02:56] INFO root fetch - processPackages [idun-data-models]: Start processing: pyscada-opcua
+[2023-05-25 15:02:56] INFO root fetch - processPackages [openepd]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-25 15:02:56] INFO root fetch - main [MainThread]: End processing [stac-asset] error
+[2023-05-25 15:02:56] INFO root fetch - main [MainThread]: End processing [ths-quant] error
+[2023-05-25 15:02:56] INFO root fetch - main [MainThread]: End processing [idun-data-models] error
+[2023-05-25 15:02:56] INFO root fetch - processPackages [edu-segmentation]: New version: [0.0.66] Old Version: [0.0.65]
+[2023-05-25 15:02:56] INFO root fetch - processPackages [cloud2]: New version: [0.0.78] Old Version: [0.0.5]
+[2023-05-25 15:02:56] INFO root fetch - processPackages [autosrt]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-25 15:02:56] INFO root fetch - processPackages [asposecellscloud]: New version: [23.5] Old Version: [23.4]
+[2023-05-25 15:02:56] INFO root fetch - processPackages [typer-config]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-25 15:02:56] INFO root fetch - processPackages [nowcasting-forecast]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-25 15:02:56] INFO root fetch - processPackages [openepd]: executing diffoscope
+[2023-05-25 15:02:56] INFO root fetch - processPackages [openepd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openepd-0.1.0.tar.gz tmp/openepd-0.1.1.tar.gz --markdown 20230525/o/openepd/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-25 15:02:56] INFO root fetch - processPackages [pysdot]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-05-25 15:02:56] WARNING root fetch - processPackages [pyscada-opcua]: Skipping, unable to determine old version
+[2023-05-25 15:02:56] INFO root fetch - processPackages [pyscada-opcua]: Start processing: s27a-jbq
+[2023-05-25 15:02:56] INFO root fetch - main [MainThread]: End processing [pyscada-opcua] error
+[2023-05-25 15:02:56] INFO root fetch - processPackages [edu-segmentation]: Downloading https://files.pythonhosted.org/packages/50/eb/852d9eb20fdd751d126d47cc542bf99467c3a0a64dbfadc89527352f20ec/edu_segmentation-0.0.66.tar.gz
+[2023-05-25 15:02:56] INFO root fetch - processPackages [s27a-jbq]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-25 15:02:56] INFO root fetch - processPackages [cloud2]: Downloading https://files.pythonhosted.org/packages/b6/a4/59110055ddc0abed777db80913e84cfb5fec9f2d5a923711e7f17dfb7695/cloud2-0.0.78.tar.gz
+[2023-05-25 15:02:56] INFO root fetch - processPackages [asposecellscloud]: Downloading https://files.pythonhosted.org/packages/29/27/8711d18c4fc6be86f144d0cf9d33e493f7013ef09d6886da9d3eca29f191/asposecellscloud-23.4.tar.gz
+[2023-05-25 15:02:56] INFO root fetch - processPackages [pysdot]: Downloading https://files.pythonhosted.org/packages/58/c8/07a56a466b82e7f91faaaed1e412c855bbb21a4da376ec56718ee02e2df7/pysdot-0.2.7.tar.gz
+[2023-05-25 15:02:56] INFO root fetch - processPackages [nowcasting-forecast]: Downloading https://files.pythonhosted.org/packages/1a/9b/94e5686d4db8e17ec07f89821d9eec001024ac34e78d6ca9b3580d9b5adf/nowcasting_forecast-1.3.8.tar.gz
+[2023-05-25 15:02:56] INFO root fetch - processPackages [edu-segmentation]: executing diffoscope
+[2023-05-25 15:02:56] INFO root fetch - processPackages [edu-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edu_segmentation-0.0.65.tar.gz tmp/edu_segmentation-0.0.66.tar.gz --markdown 20230525/e/edu-segmentation/0.0.65-0.0.66/diff.md --exclude *.pyd
+[2023-05-25 15:02:56] INFO root fetch - processPackages [cloud2]: executing diffoscope
+[2023-05-25 15:02:56] INFO root fetch - processPackages [cloud2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud2-0.0.5.tar.gz tmp/cloud2-0.0.78.tar.gz --markdown 20230525/c/cloud2/0.0.5-0.0.78/diff.md --exclude *.pyd
+[2023-05-25 15:02:56] INFO root fetch - processPackages [OpenGeode-Inspector]: executing diffoscope
+[2023-05-25 15:02:56] INFO root fetch - processPackages [OpenGeode-Inspector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_Inspector-3.0.4-cp39-cp39-win_amd64.whl.zip tmp/OpenGeode_Inspector-3.0.5-cp39-cp39-win_amd64.whl.zip --markdown 20230525/O/OpenGeode-Inspector/3.0.4-3.0.5/diff.md --exclude *.pyd
+[2023-05-25 15:02:56] INFO root fetch - processPackages [typer-config]: Downloading https://files.pythonhosted.org/packages/10/c0/0c7bef98c336c96c0c1d10a67ffe3298af46056e27b852c19e463a7bd416/typer_config-0.5.0.tar.gz
+[2023-05-25 15:02:57] INFO root fetch - processPackages [autosrt]: executing diffoscope
+[2023-05-25 15:02:57] INFO root fetch - processPackages [autosrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autosrt-1.2.8.tar.gz tmp/autosrt-1.2.9.tar.gz --markdown 20230525/a/autosrt/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-25 15:02:57] INFO root fetch - processPackages [typer-config]: executing diffoscope
+[2023-05-25 15:02:57] INFO root fetch - processPackages [typer-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typer_config-0.4.0.tar.gz tmp/typer_config-0.5.0.tar.gz --markdown 20230525/t/typer-config/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-25 15:02:57] INFO root fetch - processPackages [asposecellscloud]: Downloading https://files.pythonhosted.org/packages/36/c6/16b12109af7c10a96b5a81f36481f2e5aa3e642ad7d83198f776eae15131/asposecellscloud-23.5.tar.gz
+[2023-05-25 15:02:57] INFO root fetch - processPackages [nowcasting-forecast]: Downloading https://files.pythonhosted.org/packages/12/25/f079c128d585d077cb30e3dec159686cebd779faff6596b427c59287f911/nowcasting_forecast-1.3.9.tar.gz
+[2023-05-25 15:02:57] INFO root fetch - processPackages [s27a-jbq]: Downloading https://files.pythonhosted.org/packages/63/dc/6cc1312896e662e9200315b72525407dc44c73cb51363a400739769f0b58/s27a_jbq-1.0.2.tar.gz
+[2023-05-25 15:02:57] INFO root fetch - processPackages [nowcasting-forecast]: executing diffoscope
+[2023-05-25 15:02:57] INFO root fetch - processPackages [nowcasting-forecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nowcasting_forecast-1.3.8.tar.gz tmp/nowcasting_forecast-1.3.9.tar.gz --markdown 20230525/n/nowcasting-forecast/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-25 15:02:57] INFO root fetch - processPackages [pysdot]: executing diffoscope
+[2023-05-25 15:02:57] INFO root fetch - processPackages [pysdot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysdot-0.2.7.tar.gz tmp/pysdot-0.2.8.tar.gz --markdown 20230525/p/pysdot/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-05-25 15:02:57] INFO root fetch - processPackages [s27a-jbq]: executing diffoscope
+[2023-05-25 15:02:57] INFO root fetch - processPackages [s27a-jbq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s27a_jbq-1.0.1.tar.gz tmp/s27a_jbq-1.0.2.tar.gz --markdown 20230525/s/s27a-jbq/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-25 15:02:57] INFO root fetch - processPackages [asposecellscloud]: executing diffoscope
+[2023-05-25 15:02:57] INFO root fetch - processPackages [asposecellscloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asposecellscloud-23.4.tar.gz tmp/asposecellscloud-23.5.tar.gz --markdown 20230525/a/asposecellscloud/23.4-23.5/diff.md --exclude *.pyd
+[2023-05-25 15:02:58] INFO root fetch - processPackages [openepd]: Start processing: zeroconf
+[2023-05-25 15:02:58] INFO root fetch - main [MainThread]: End processing [openepd]: success
+[2023-05-25 15:02:58] INFO root fetch - processPackages [edu-segmentation]: Start processing: pyscada-onewire
+[2023-05-25 15:02:58] INFO root fetch - main [MainThread]: End processing [edu-segmentation]: success
+[2023-05-25 15:02:58] WARNING root fetch - processPackages [pyscada-onewire]: Skipping, unable to determine old version
+[2023-05-25 15:02:58] INFO root fetch - processPackages [pyscada-onewire]: Start processing: learnkeyhole
+[2023-05-25 15:02:58] INFO root fetch - main [MainThread]: End processing [pyscada-onewire] error
+[2023-05-25 15:02:58] INFO root fetch - processPackages [zeroconf]: New version: [0.63.0] Old Version: [0.62.0]
+[2023-05-25 15:02:58] INFO root fetch - processPackages [cloud2]: Start processing: PLpy234-project-1
+[2023-05-25 15:02:58] INFO root fetch - main [MainThread]: End processing [cloud2]: success
+[2023-05-25 15:02:58] WARNING root fetch - processPackages [PLpy234-project-1]: Skipping, unable to determine old version
+[2023-05-25 15:02:58] INFO root fetch - main [MainThread]: End processing [PLpy234-project-1] error
+[2023-05-25 15:02:58] INFO root fetch - processPackages [zeroconf]: Downloading https://files.pythonhosted.org/packages/86/8f/fac9aee8152dca745efc18ef65c55907dd52917ee5b5ae00d04beb025d7b/zeroconf-0.62.0.tar.gz
+[2023-05-25 15:02:58] INFO root fetch - processPackages [learnkeyhole]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-25 15:02:58] INFO root fetch - main [MainThread]: End processing [autosrt]: success
+[2023-05-25 15:02:59] INFO root fetch - processPackages [zeroconf]: Downloading https://files.pythonhosted.org/packages/46/64/f3f55dc5dba216ce9d20062b6fe5862e49a63b7ecce1c941388618f89224/zeroconf-0.63.0.tar.gz
+[2023-05-25 15:02:59] INFO root fetch - main [MainThread]: End processing [nowcasting-forecast]: success
+[2023-05-25 15:02:59] INFO root fetch - main [MainThread]: End processing [typer-config]: success
+[2023-05-25 15:02:59] INFO root fetch - processPackages [zeroconf]: executing diffoscope
+[2023-05-25 15:02:59] INFO root fetch - processPackages [zeroconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeroconf-0.62.0.tar.gz tmp/zeroconf-0.63.0.tar.gz --markdown 20230525/z/zeroconf/0.62.0-0.63.0/diff.md --exclude *.pyd
+[2023-05-25 15:02:59] INFO root fetch - main [MainThread]: End processing [pysdot]: success
+[2023-05-25 15:02:59] INFO root fetch - processPackages [learnkeyhole]: Downloading https://files.pythonhosted.org/packages/c4/81/1b2c37608876cf7d1da1063d4b5af9b707f3861a2c294e829845ee354b7f/learnkeyhole-0.1.1.tar.gz
+[2023-05-25 15:02:59] INFO root fetch - processPackages [learnkeyhole]: Downloading https://files.pythonhosted.org/packages/29/c1/47e39473e77f2ea324fabf2a693869f9871fa24c30e8aab2d745033269d8/learnkeyhole-0.1.2.tar.gz
+[2023-05-25 15:02:59] INFO root fetch - processPackages [learnkeyhole]: executing diffoscope
+[2023-05-25 15:02:59] INFO root fetch - processPackages [learnkeyhole]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/learnkeyhole-0.1.1.tar.gz tmp/learnkeyhole-0.1.2.tar.gz --markdown 20230525/l/learnkeyhole/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-25 15:03:00] INFO root fetch - main [MainThread]: End processing [OpenGeode-Inspector]: success
+[2023-05-25 15:03:00] INFO root fetch - main [MainThread]: End processing [zeroconf]: success
+[2023-05-25 15:03:01] INFO root fetch - main [MainThread]: End processing [learnkeyhole]: success
+[2023-05-25 15:03:02] INFO root fetch - main [MainThread]: End processing [asposecellscloud]: success
+[2023-05-25 15:03:44] INFO root fetch - main [MainThread]: End processing [s27a-jbq]: success
+[2023-05-25 15:03:44] INFO root fetch - main [MainThread]: Store serial: [18246928]
