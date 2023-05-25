@@ -6237,3 +6237,31 @@
 [2023-05-25 04:22:17] INFO root fetch - main [MainThread]: End processing [libsbmlnetworkeditor]: success
 [2023-05-25 04:22:24] INFO root fetch - main [MainThread]: End processing [seeFretboard]: success
 [2023-05-25 04:22:24] INFO root fetch - main [MainThread]: Store serial: [18240044]
+[2023-05-25 04:27:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18240044]
+[2023-05-25 04:27:33] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-25 04:27:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fedml-databricks
+[2023-05-25 04:27:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: authpy
+[2023-05-25 04:27:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: json-expand-o-matic
+[2023-05-25 04:27:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk8s-plus-24
+[2023-05-25 04:27:33] INFO root fetch - processPackages [json-expand-o-matic]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-25 04:27:33] INFO root fetch - processPackages [authpy]: New version: [1.1.0] Old Version: [0.0.0]
+[2023-05-25 04:27:33] INFO root fetch - processPackages [fedml-databricks]: New version: [1.0.3.dev0] Old Version: [1.0.3]
+[2023-05-25 04:27:33] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.8.1] Old Version: [2.8.0]
+[2023-05-25 04:27:33] INFO root fetch - processPackages [fedml-databricks]: Downloading https://files.pythonhosted.org/packages/b3/ba/e3276db7642b31992cba52e779310f0489ee23b3e6c79ae43d7d1fc44fb4/fedml_databricks-1.0.3.tar.gz
+[2023-05-25 04:27:33] INFO root fetch - processPackages [authpy]: Downloading https://files.pythonhosted.org/packages/f7/66/c79e81308acfce8443530f8ec1d36ad2710a4c8d36c1587fa018d1329c65/authpy-0.0.0.tar.gz
+[2023-05-25 04:27:33] INFO root fetch - processPackages [json-expand-o-matic]: Downloading https://files.pythonhosted.org/packages/0a/34/334e101b87f1a1d0b32d0dc3e7742fff595a4ecdbb956b9e039edd99ea11/json_expand_o_matic-0.2.2.tar.gz
+[2023-05-25 04:27:34] INFO root fetch - processPackages [json-expand-o-matic]: executing diffoscope
+[2023-05-25 04:27:34] INFO root fetch - processPackages [json-expand-o-matic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_expand_o_matic-0.2.1.tar.gz tmp/json_expand_o_matic-0.2.2.tar.gz --markdown 20230525/j/json-expand-o-matic/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-25 04:27:34] INFO root fetch - processPackages [authpy]: Downloading https://files.pythonhosted.org/packages/d4/50/e86bd864aa1fa60422de67b4fafd80e38458c9e6417ea7e52813ed2e5926/authpy-1.1.0.tar.gz
+[2023-05-25 04:27:34] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/f8/fa/688b9b0d2505bd4dae804e9f2f15d4255590c42949f280c917fcc453e539/cdk8s-plus-24-2.8.1.tar.gz
+[2023-05-25 04:27:34] INFO root fetch - processPackages [fedml-databricks]: executing diffoscope
+[2023-05-25 04:27:34] INFO root fetch - processPackages [fedml-databricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedml_databricks-1.0.3.tar.gz tmp/fedml_databricks-1.0.3.dev0.tar.gz --markdown 20230525/f/fedml-databricks/1.0.3-1.0.3.dev0/diff.md --exclude *.pyd
+[2023-05-25 04:27:34] INFO root fetch - processPackages [authpy]: executing diffoscope
+[2023-05-25 04:27:34] INFO root fetch - processPackages [authpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authpy-0.0.0.tar.gz tmp/authpy-1.1.0.tar.gz --markdown 20230525/a/authpy/0.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-25 04:27:34] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-05-25 04:27:34] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.8.0.tar.gz tmp/cdk8s-plus-24-2.8.1.tar.gz --markdown 20230525/c/cdk8s-plus-24/2.8.0-2.8.1/diff.md --exclude *.pyd
+[2023-05-25 04:27:35] INFO root fetch - main [MainThread]: End processing [json-expand-o-matic]: success
+[2023-05-25 04:27:35] INFO root fetch - main [MainThread]: End processing [fedml-databricks]: success
+[2023-05-25 04:27:35] INFO root fetch - main [MainThread]: End processing [authpy]: success
+[2023-05-25 04:27:35] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-05-25 04:27:35] INFO root fetch - main [MainThread]: Store serial: [18240058]
