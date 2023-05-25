@@ -6020,3 +6020,46 @@
 [2023-05-25 03:55:57] INFO root fetch - main [MainThread]: End processing [bambi]: success
 [2023-05-25 03:55:57] INFO root fetch - main [MainThread]: End processing [freerec]: success
 [2023-05-25 03:55:57] INFO root fetch - main [MainThread]: Store serial: [18239888]
+[2023-05-25 04:01:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18239888]
+[2023-05-25 04:01:06] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-25 04:01:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-omnilogic-local
+[2023-05-25 04:01:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: we-report
+[2023-05-25 04:01:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kmport
+[2023-05-25 04:01:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quick-pypi-test
+[2023-05-25 04:01:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tldrwl
+[2023-05-25 04:01:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyviewer
+[2023-05-25 04:01:07] INFO root fetch - processPackages [quick-pypi-test]: New version: [0.0.4] Old Version: [0.0.3a7]
+[2023-05-25 04:01:07] INFO root fetch - processPackages [we-report]: New version: [0.1.9] Old Version: [0.0.1.9]
+[2023-05-25 04:01:07] INFO root fetch - processPackages [pyviewer]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-05-25 04:01:07] INFO root fetch - processPackages [python-omnilogic-local]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-25 04:01:07] INFO root fetch - processPackages [kmport]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-25 04:01:07] INFO root fetch - processPackages [tldrwl]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 04:01:07] INFO root fetch - processPackages [python-omnilogic-local]: Downloading https://files.pythonhosted.org/packages/16/99/986a351939dde38dcd8bfaec1f0d6e249606cd158021d38819bd8d17b7ba/python_omnilogic_local-0.0.5.tar.gz
+[2023-05-25 04:01:07] INFO root fetch - processPackages [quick-pypi-test]: Downloading https://files.pythonhosted.org/packages/5b/fb/d2c75b2a69b04546c7c9d1ad9fbd16453a8b971f5d6eb65840af027ab244/quick-pypi-test-0.0.4.tar.gz
+[2023-05-25 04:01:07] INFO root fetch - processPackages [we-report]: Downloading https://files.pythonhosted.org/packages/7f/5b/f069e8b470fda168bedc9eb8e232d13f756e74a4fe33492efd7c7bf97930/we_report-0.0.1.9-py3-none-any.whl
+[2023-05-25 04:01:07] INFO root fetch - processPackages [kmport]: Downloading https://files.pythonhosted.org/packages/61/fa/d628f6cd69e6efdedad5ab9cd4fafac47fc31d431af5540789663f3e6d75/kmport-2.0.8.tar.gz
+[2023-05-25 04:01:07] INFO root fetch - processPackages [quick-pypi-test]: executing diffoscope
+[2023-05-25 04:01:07] INFO root fetch - processPackages [pyviewer]: Downloading https://files.pythonhosted.org/packages/5d/e1/89a649a1c93a55517ce5c7b57c68a24173259c704c182ec41a41c4c17d9c/pyviewer-1.3.3.tar.gz
+[2023-05-25 04:01:07] INFO root fetch - processPackages [quick-pypi-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quick-pypi-test-0.0.3a7.tar.gz tmp/quick-pypi-test-0.0.4.tar.gz --markdown 20230525/q/quick-pypi-test/0.0.3a7-0.0.4/diff.md --exclude *.pyd
+[2023-05-25 04:01:07] INFO root fetch - processPackages [tldrwl]: Downloading https://files.pythonhosted.org/packages/34/52/cf11847309af729a03281de7e982960116912e357bb202a55dd7fcbc1f82/tldrwl-0.0.9.tar.gz
+[2023-05-25 04:01:07] INFO root fetch - processPackages [tldrwl]: executing diffoscope
+[2023-05-25 04:01:07] INFO root fetch - processPackages [tldrwl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tldrwl-0.0.8.tar.gz tmp/tldrwl-0.0.9.tar.gz --markdown 20230525/t/tldrwl/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 04:01:07] INFO root fetch - processPackages [python-omnilogic-local]: Downloading https://files.pythonhosted.org/packages/b8/b2/289948eb2b3fe68a9888ab641ca71af1b298c3769ee37d036498257b7aba/python_omnilogic_local-0.0.6.tar.gz
+[2023-05-25 04:01:07] INFO root fetch - processPackages [we-report]: Downloading https://files.pythonhosted.org/packages/21/70/9834ac0b60a792134cb77fd37861642150d13170953b262a5bb83fe08df2/we_report-0.1.9-py3-none-any.whl
+[2023-05-25 04:01:07] INFO root fetch - processPackages [we-report]: executing diffoscope
+[2023-05-25 04:01:07] INFO root fetch - processPackages [we-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/we_report-0.0.1.9-py3-none-any.whl.zip tmp/we_report-0.1.9-py3-none-any.whl.zip --markdown 20230525/w/we-report/0.0.1.9-0.1.9/diff.md --exclude *.pyd
+[2023-05-25 04:01:07] INFO root fetch - processPackages [python-omnilogic-local]: executing diffoscope
+[2023-05-25 04:01:07] INFO root fetch - processPackages [python-omnilogic-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_omnilogic_local-0.0.5.tar.gz tmp/python_omnilogic_local-0.0.6.tar.gz --markdown 20230525/p/python-omnilogic-local/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-25 04:01:07] INFO root fetch - processPackages [kmport]: Downloading https://files.pythonhosted.org/packages/1e/6c/b0e5677c043977795bd55a43bd6564150ff35d707fee0d3c053cd82b2d18/kmport-2.0.9.tar.gz
+[2023-05-25 04:01:07] INFO root fetch - processPackages [kmport]: executing diffoscope
+[2023-05-25 04:01:07] INFO root fetch - processPackages [kmport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kmport-2.0.8.tar.gz tmp/kmport-2.0.9.tar.gz --markdown 20230525/k/kmport/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-25 04:01:08] INFO root fetch - processPackages [pyviewer]: Downloading https://files.pythonhosted.org/packages/d9/0e/d419be047abf49e265541d5159a11818da47bb2a30d1e05ababb19f5c454/pyviewer-1.3.4.tar.gz
+[2023-05-25 04:01:08] INFO root fetch - processPackages [pyviewer]: executing diffoscope
+[2023-05-25 04:01:08] INFO root fetch - processPackages [pyviewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyviewer-1.3.3.tar.gz tmp/pyviewer-1.3.4.tar.gz --markdown 20230525/p/pyviewer/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-05-25 04:01:08] INFO root fetch - main [MainThread]: End processing [quick-pypi-test]: success
+[2023-05-25 04:01:08] INFO root fetch - main [MainThread]: End processing [tldrwl]: success
+[2023-05-25 04:01:09] INFO root fetch - main [MainThread]: End processing [python-omnilogic-local]: success
+[2023-05-25 04:01:09] INFO root fetch - main [MainThread]: End processing [we-report]: success
+[2023-05-25 04:01:09] INFO root fetch - main [MainThread]: End processing [pyviewer]: success
+[2023-05-25 04:01:09] INFO root fetch - main [MainThread]: End processing [kmport]: success
+[2023-05-25 04:01:09] INFO root fetch - main [MainThread]: Store serial: [18239910]
