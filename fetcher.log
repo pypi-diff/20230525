@@ -15781,3 +15781,110 @@ EOFError: EOF read where object expected
 [2023-05-25 12:35:02] INFO root fetch - main [MainThread]: End processing [lnschema_bionty]: success
 [2023-05-25 12:35:02] INFO root fetch - main [MainThread]: End processing [apertium2ud]: success
 [2023-05-25 12:35:02] INFO root fetch - main [MainThread]: Store serial: [18245165]
+[2023-05-25 12:40:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18245165]
+[2023-05-25 12:40:11] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-25 12:40:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ScriptCollection
+[2023-05-25 12:40:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: analysisbykwok
+[2023-05-25 12:40:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: desim-tool
+[2023-05-25 12:40:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: robocorp-log
+[2023-05-25 12:40:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: act-scio
+[2023-05-25 12:40:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pywxdll
+[2023-05-25 12:40:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gnssanalysis
+[2023-05-25 12:40:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cubetools
+[2023-05-25 12:40:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hive-cli
+[2023-05-25 12:40:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spai
+[2023-05-25 12:40:11] INFO root fetch - processPackages [pywxdll]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-25 12:40:11] INFO root fetch - processPackages [act-scio]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 12:40:11] INFO root fetch - processPackages [hive-cli]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-25 12:40:11] INFO root fetch - processPackages [cubetools]: New version: [0.4.0] Old Version: [0.3.9]
+[2023-05-25 12:40:11] INFO root fetch - processPackages [spai]: New version: [2023.5.25.post2] Old Version: [2023.5.25]
+[2023-05-25 12:40:11] INFO root fetch - processPackages [gnssanalysis]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 12:40:11] INFO root fetch - processPackages [act-scio]: executing diffoscope
+[2023-05-25 12:40:11] INFO root fetch - processPackages [analysisbykwok]: New version: [0.0.29] Old Version: [0.0.28]
+[2023-05-25 12:40:11] INFO root fetch - processPackages [act-scio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/act-scio-0.0.8.tar.gz tmp/act-scio-0.0.9.tar.gz --markdown 20230525/a/act-scio/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 12:40:11] INFO root fetch - processPackages [desim-tool]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-25 12:40:11] INFO root fetch - processPackages [robocorp-log]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-25 12:40:11] INFO root fetch - processPackages [ScriptCollection]: New version: [3.3.94] Old Version: [3.3.93]
+[2023-05-25 12:40:11] INFO root fetch - processPackages [gnssanalysis]: executing diffoscope
+[2023-05-25 12:40:11] INFO root fetch - processPackages [gnssanalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gnssanalysis-0.0.8.tar.gz tmp/gnssanalysis-0.0.9.tar.gz --markdown 20230525/g/gnssanalysis/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 12:40:12] INFO root fetch - processPackages [hive-cli]: Downloading https://files.pythonhosted.org/packages/86/9b/fe50162771aed6751f0041fa3db34f3f8f390f8e650dc448fb1606228df3/hive-cli-0.2.0.tar.gz
+[2023-05-25 12:40:12] INFO root fetch - processPackages [spai]: Downloading https://files.pythonhosted.org/packages/c7/82/91dc7791e8314c1bceec43975c695689fae9cf71117a29a7b4caa5997d11/spai-2023.5.25.post2.tar.gz
+[2023-05-25 12:40:12] INFO root fetch - processPackages [cubetools]: executing diffoscope
+[2023-05-25 12:40:12] INFO root fetch - processPackages [cubetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubetools-0.3.9.tar.gz tmp/cubetools-0.4.0.tar.gz --markdown 20230525/c/cubetools/0.3.9-0.4.0/diff.md --exclude *.pyd
+[2023-05-25 12:40:12] INFO root fetch - processPackages [analysisbykwok]: Downloading https://files.pythonhosted.org/packages/d8/ac/69efb318acd24854885f102d350ace2a6e353e3140629a1dac442f950a92/analysisbykwok-0.0.28.tar.gz
+[2023-05-25 12:40:12] INFO root fetch - processPackages [desim-tool]: Downloading https://files.pythonhosted.org/packages/20/77/4697d876fb85719d7ae30f6d03cf6c9386d3ed3c38e715a0cfda9c216af2/desim-tool-0.3.1.tar.gz
+[2023-05-25 12:40:12] INFO root fetch - processPackages [robocorp-log]: Downloading https://files.pythonhosted.org/packages/a5/26/1e71e7ccc8f03d49ac5413437436f75f2983a001bff617a29ce90ae29eac/robocorp_log-0.1.1.tar.gz
+[2023-05-25 12:40:12] INFO root fetch - processPackages [spai]: executing diffoscope
+[2023-05-25 12:40:12] INFO root fetch - processPackages [spai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spai-2023.5.25.tar.gz tmp/spai-2023.5.25.post2.tar.gz --markdown 20230525/s/spai/2023.5.25-2023.5.25.post2/diff.md --exclude *.pyd
+[2023-05-25 12:40:12] INFO root fetch - processPackages [pywxdll]: Downloading https://files.pythonhosted.org/packages/bf/18/86bf9a782920dc1109b5913bf3c04a90920e3c248d1652e86c28f89b2332/pywxdll-0.1.6.tar.gz
+[2023-05-25 12:40:12] INFO root fetch - processPackages [pywxdll]: executing diffoscope
+[2023-05-25 12:40:12] INFO root fetch - processPackages [pywxdll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywxdll-0.1.5.tar.gz tmp/pywxdll-0.1.6.tar.gz --markdown 20230525/p/pywxdll/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-25 12:40:12] INFO root fetch - processPackages [ScriptCollection]: Downloading https://files.pythonhosted.org/packages/4d/e7/a1ed4dc002d52a4c81164fe755c6b5f5192cfcbc6ea9dbb139ef792e8473/ScriptCollection-3.3.94-py3-none-any.whl
+[2023-05-25 12:40:12] INFO root fetch - processPackages [analysisbykwok]: Downloading https://files.pythonhosted.org/packages/8e/9a/857dffa07437365f008e3f359570de909cf8525a04ae2b618139b1da36d1/analysisbykwok-0.0.29.tar.gz
+[2023-05-25 12:40:12] INFO root fetch - processPackages [hive-cli]: Downloading https://files.pythonhosted.org/packages/ed/2e/4dfa97c9c3cac2af596b8a521f693c25840fdcc9e90203add07d8950ae00/hive-cli-0.2.1.tar.gz
+[2023-05-25 12:40:12] INFO root fetch - processPackages [desim-tool]: Downloading https://files.pythonhosted.org/packages/71/04/7ee8619c52da7e6a715b2a4ca8be4f2ce4a61f33feca66e8389eb64810d6/desim-tool-0.3.2.tar.gz
+[2023-05-25 12:40:12] INFO root fetch - processPackages [ScriptCollection]: executing diffoscope
+[2023-05-25 12:40:12] INFO root fetch - processPackages [ScriptCollection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ScriptCollection-3.3.93-py3-none-any.whl.zip tmp/ScriptCollection-3.3.94-py3-none-any.whl.zip --markdown 20230525/S/ScriptCollection/3.3.93-3.3.94/diff.md --exclude *.pyd
+[2023-05-25 12:40:12] INFO root fetch - processPackages [hive-cli]: executing diffoscope
+[2023-05-25 12:40:12] INFO root fetch - processPackages [hive-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hive-cli-0.2.0.tar.gz tmp/hive-cli-0.2.1.tar.gz --markdown 20230525/h/hive-cli/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-25 12:40:12] INFO root fetch - processPackages [robocorp-log]: Downloading https://files.pythonhosted.org/packages/a1/56/f80ab9954acfdd864ae999cdfb7e8000b161d46abd8147a74e233bf6c968/robocorp_log-0.2.0.tar.gz
+[2023-05-25 12:40:12] INFO root fetch - processPackages [analysisbykwok]: executing diffoscope
+[2023-05-25 12:40:12] INFO root fetch - processPackages [analysisbykwok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/analysisbykwok-0.0.28.tar.gz tmp/analysisbykwok-0.0.29.tar.gz --markdown 20230525/a/analysisbykwok/0.0.28-0.0.29/diff.md --exclude *.pyd
+[2023-05-25 12:40:12] INFO root fetch - processPackages [desim-tool]: executing diffoscope
+[2023-05-25 12:40:12] INFO root fetch - processPackages [desim-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/desim-tool-0.3.1.tar.gz tmp/desim-tool-0.3.2.tar.gz --markdown 20230525/d/desim-tool/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-25 12:40:12] INFO root fetch - processPackages [robocorp-log]: executing diffoscope
+[2023-05-25 12:40:12] INFO root fetch - processPackages [robocorp-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robocorp_log-0.1.1.tar.gz tmp/robocorp_log-0.2.0.tar.gz --markdown 20230525/r/robocorp-log/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-25 12:40:13] INFO root fetch - processPackages [cubetools]: Start processing: dbtgenlib
+[2023-05-25 12:40:13] INFO root fetch - main [MainThread]: End processing [cubetools]: success
+[2023-05-25 12:40:13] INFO root fetch - processPackages [dbtgenlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 12:40:13] INFO root fetch - processPackages [spai]: Start processing: crewmate
+[2023-05-25 12:40:13] INFO root fetch - main [MainThread]: End processing [spai]: success
+[2023-05-25 12:40:13] INFO root fetch - processPackages [crewmate]: New version: [0.0.0.2] Old Version: [0.0.0.1]
+[2023-05-25 12:40:13] INFO root fetch - processPackages [dbtgenlib]: executing diffoscope
+[2023-05-25 12:40:13] INFO root fetch - processPackages [dbtgenlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbtgenlib-0.0.8.tar.gz tmp/dbtgenlib-0.0.9.tar.gz --markdown 20230525/d/dbtgenlib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 12:40:13] INFO root fetch - processPackages [crewmate]: Downloading https://files.pythonhosted.org/packages/0d/3f/3e0944a409aa393dd67bca1562530b6b5429ee01863ca8a2feb6f960100b/crewmate-0.0.0.1.tar.gz
+[2023-05-25 12:40:13] INFO root fetch - processPackages [act-scio]: Start processing: analysisbykwok
+[2023-05-25 12:40:13] INFO root fetch - main [MainThread]: End processing [act-scio]: success
+[2023-05-25 12:40:14] INFO root fetch - processPackages [analysisbykwok]: New version: [0.0.29] Old Version: [0.0.28]
+[2023-05-25 12:40:14] INFO root fetch - processPackages [pywxdll]: Start processing: localstack-core
+[2023-05-25 12:40:14] INFO root fetch - main [MainThread]: End processing [pywxdll]: success
+[2023-05-25 12:40:14] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230525100602] Old Version: [2.1.0]
+[2023-05-25 12:40:14] INFO root fetch - processPackages [analysisbykwok]: executing diffoscope
+[2023-05-25 12:40:14] INFO root fetch - processPackages [analysisbykwok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/analysisbykwok-0.0.28.tar.gz tmp/analysisbykwok-0.0.29.tar.gz --markdown 20230525/a/analysisbykwok/0.0.28-0.0.29/diff.md --exclude *.pyd
+[2023-05-25 12:40:14] INFO root fetch - processPackages [crewmate]: Downloading https://files.pythonhosted.org/packages/fd/3f/d0202f6fb021f64e0e766a3bb1b5766e2b18b74ffcf534b6b005d3dc96ae/crewmate-0.0.0.2.tar.gz
+[2023-05-25 12:40:14] INFO root fetch - processPackages [crewmate]: executing diffoscope
+[2023-05-25 12:40:14] INFO root fetch - processPackages [crewmate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crewmate-0.0.0.1.tar.gz tmp/crewmate-0.0.0.2.tar.gz --markdown 20230525/c/crewmate/0.0.0.1-0.0.0.2/diff.md --exclude *.pyd
+[2023-05-25 12:40:14] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/79/18/d25fdff886d25d478a5846eda042b7d2a3a8fabb56aff1261f57646cf2e6/localstack-core-2.1.0.tar.gz
+[2023-05-25 12:40:14] INFO root fetch - processPackages [gnssanalysis]: Start processing: scipion-em-motioncorr
+[2023-05-25 12:40:14] INFO root fetch - main [MainThread]: End processing [gnssanalysis]: success
+[2023-05-25 12:40:14] INFO root fetch - processPackages [desim-tool]: Start processing: netbox-cisco-maintenance
+[2023-05-25 12:40:14] INFO root fetch - main [MainThread]: End processing [desim-tool]: success
+[2023-05-25 12:40:14] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 12:40:14] INFO root fetch - processPackages [hive-cli]: Start processing: mmfutils
+[2023-05-25 12:40:14] INFO root fetch - main [MainThread]: End processing [hive-cli]: success
+[2023-05-25 12:40:14] INFO root fetch - processPackages [scipion-em-motioncorr]: New version: [3.9] Old Version: [3.8]
+[2023-05-25 12:40:14] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-05-25 12:40:14] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.8.tar.gz tmp/netbox-cisco-maintenance-0.0.9.tar.gz --markdown 20230525/n/netbox-cisco-maintenance/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 12:40:14] INFO root fetch - processPackages [mmfutils]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-05-25 12:40:14] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/8b/18/515b2bb0df0d86c8724d07391a5948b6756b60fc676706237965f0b0467d/localstack-core-2.1.1.dev20230525100602.tar.gz
+[2023-05-25 12:40:14] INFO root fetch - processPackages [scipion-em-motioncorr]: Downloading https://files.pythonhosted.org/packages/4e/5e/1524e55cbb1d407a41968009612ef702dfb3225c519d25ec69ae059974ec/scipion-em-motioncorr-3.8.tar.gz
+[2023-05-25 12:40:14] INFO root fetch - main [MainThread]: End processing [analysisbykwok]: success
+[2023-05-25 12:40:14] INFO root fetch - main [MainThread]: End processing [robocorp-log]: success
+[2023-05-25 12:40:14] INFO root fetch - main [MainThread]: End processing [ScriptCollection]: success
+[2023-05-25 12:40:14] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-05-25 12:40:14] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.0.tar.gz tmp/localstack-core-2.1.1.dev20230525100602.tar.gz --markdown 20230525/l/localstack-core/2.1.0-2.1.1.dev20230525100602/diff.md --exclude *.pyd
+[2023-05-25 12:40:14] INFO root fetch - processPackages [mmfutils]: Downloading https://files.pythonhosted.org/packages/93/dd/f2c8bcf6beeea01c2c1fb02959a1f49fe0fff9e1ce22a61988c2658b4bc3/mmfutils-0.6.3.tar.gz
+[2023-05-25 12:40:14] INFO root fetch - processPackages [scipion-em-motioncorr]: Downloading https://files.pythonhosted.org/packages/8f/7b/78b9b5e37ac9d4f03364a6e6070b17eed8ebdbfa541b94fba26721d3845b/scipion-em-motioncorr-3.9.tar.gz
+[2023-05-25 12:40:15] INFO root fetch - processPackages [scipion-em-motioncorr]: executing diffoscope
+[2023-05-25 12:40:15] INFO root fetch - processPackages [scipion-em-motioncorr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-em-motioncorr-3.8.tar.gz tmp/scipion-em-motioncorr-3.9.tar.gz --markdown 20230525/s/scipion-em-motioncorr/3.8-3.9/diff.md --exclude *.pyd
+[2023-05-25 12:40:15] INFO root fetch - processPackages [mmfutils]: Downloading https://files.pythonhosted.org/packages/8f/cf/eaed89b689a08ea6c515735fd4e7e0bd6b560b0cfaa5c751320cb1a178b0/mmfutils-0.6.4.tar.gz
+[2023-05-25 12:40:15] INFO root fetch - processPackages [mmfutils]: executing diffoscope
+[2023-05-25 12:40:15] INFO root fetch - processPackages [mmfutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmfutils-0.6.3.tar.gz tmp/mmfutils-0.6.4.tar.gz --markdown 20230525/m/mmfutils/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-05-25 12:40:15] INFO root fetch - main [MainThread]: End processing [dbtgenlib]: success
+[2023-05-25 12:40:15] INFO root fetch - main [MainThread]: End processing [analysisbykwok]: success
+[2023-05-25 12:40:15] INFO root fetch - main [MainThread]: End processing [crewmate]: success
+[2023-05-25 12:40:16] INFO root fetch - main [MainThread]: End processing [scipion-em-motioncorr]: success
+[2023-05-25 12:40:16] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-05-25 12:40:17] INFO root fetch - main [MainThread]: End processing [mmfutils]: success
+[2023-05-25 12:40:22] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-05-25 12:40:22] INFO root fetch - main [MainThread]: Store serial: [18245212]
