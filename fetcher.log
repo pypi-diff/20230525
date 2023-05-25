@@ -14170,3 +14170,154 @@
 [2023-05-25 11:14:43] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-majsoul]: success
 [2023-05-25 11:14:43] INFO root fetch - main [MainThread]: End processing [types-PyAutoGUI]: success
 [2023-05-25 11:14:43] INFO root fetch - main [MainThread]: Store serial: [18244207]
+[2023-05-25 11:19:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18244207]
+[2023-05-25 11:19:52] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-05-25 11:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edamame
+[2023-05-25 11:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: RobertCommonBasic
+[2023-05-25 11:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wok-code
+[2023-05-25 11:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nvfuser-cu121
+[2023-05-25 11:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xyhzxh
+[2023-05-25 11:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tf-nightly
+[2023-05-25 11:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pymodaq-plugins-horiba
+[2023-05-25 11:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ASTOCache
+[2023-05-25 11:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: apache-superset-test
+[2023-05-25 11:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PyMoosh
+[2023-05-25 11:19:52] INFO root fetch - processPackages [PyMoosh]: New version: [2.3] Old Version: [2.2]
+[2023-05-25 11:19:52] INFO root fetch - processPackages [nvfuser-cu121]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-05-25 11:19:52] INFO root fetch - processPackages [pymodaq-plugins-horiba]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-05-25 11:19:52] WARNING root fetch - processPackages [xyhzxh]: Skipping, unable to determine old version
+[2023-05-25 11:19:52] INFO root fetch - processPackages [wok-code]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-05-25 11:19:52] INFO root fetch - processPackages [xyhzxh]: Start processing: nvfuser-cu118
+[2023-05-25 11:19:52] INFO root fetch - processPackages [ASTOCache]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-25 11:19:52] INFO root fetch - main [MainThread]: End processing [xyhzxh] error
+[2023-05-25 11:19:52] INFO root fetch - processPackages [RobertCommonBasic]: New version: [0.1.40] Old Version: [0.1.39]
+[2023-05-25 11:19:52] INFO root fetch - processPackages [apache-superset-test]: New version: [2.1.1.1] Old Version: [2.0.1.5]
+[2023-05-25 11:19:52] INFO root fetch - processPackages [edamame]: New version: [0.57] Old Version: [0.56]
+[2023-05-25 11:19:52] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230525] Old Version: [2.14.0.dev20230524]
+[2023-05-25 11:19:52] INFO root fetch - processPackages [nvfuser-cu118]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-05-25 11:19:52] INFO root fetch - processPackages [PyMoosh]: Downloading https://files.pythonhosted.org/packages/b5/e7/62dd421a8aeb4c98cada3f547bf1edc9d541bfb98e29b48f38ffc991641c/PyMoosh-2.2.tar.gz
+[2023-05-25 11:19:52] INFO root fetch - processPackages [pymodaq-plugins-horiba]: Downloading https://files.pythonhosted.org/packages/52/1f/d5efa1b5178db51de95c1af2302ae22c2a06a5c97caa3127f068540bd334/pymodaq_plugins_horiba-0.1.0.tar.gz
+[2023-05-25 11:19:52] INFO root fetch - processPackages [edamame]: Downloading https://files.pythonhosted.org/packages/58/43/ad8f2e4cb25749283df226b9408d62c62a5f9903e13d8b415c01cc2b2f35/edamame-0.56.tar.gz
+[2023-05-25 11:19:52] INFO root fetch - processPackages [wok-code]: Downloading https://files.pythonhosted.org/packages/53/e5/1320c22e3012cc6bb99e77d2b382ecf6352feadd8caa00f062ec333e7ccb/wok_code-2.0.7.tar.gz
+[2023-05-25 11:19:52] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/03/4e/7d658986955fe32f13bee813366142379bf90ed61d37550034f489381b0c/tf_nightly-2.14.0.dev20230524-cp39-cp39-win_amd64.whl
+[2023-05-25 11:19:52] INFO root fetch - processPackages [RobertCommonBasic]: Downloading https://files.pythonhosted.org/packages/d5/29/bbaff5327c45a53bb59d66efdf619f6243d548bfccdb4a9ca94b3552d0a6/RobertCommonBasic-0.1.39.tar.gz
+[2023-05-25 11:19:52] INFO root fetch - processPackages [apache-superset-test]: Downloading https://files.pythonhosted.org/packages/02/ec/56caad287aee9dbdc55ab2ba7053988b6667280db125aeac3b89702fc46d/apache_superset_test-2.0.1.5-py3-none-any.whl
+[2023-05-25 11:19:52] WARNING root fetch - processPackages [apache-superset-test]: Skipping package: exceeds size limit 61009953>=10485760
+[2023-05-25 11:19:52] INFO root fetch - processPackages [apache-superset-test]: Start processing: edu-segmentation
+[2023-05-25 11:19:52] INFO root fetch - main [MainThread]: End processing [apache-superset-test] error
+[2023-05-25 11:19:52] INFO root fetch - processPackages [ASTOCache]: Downloading https://files.pythonhosted.org/packages/ea/72/61d0fcc2e4192eab50a90819fd4b6db1ef6aaf710ef779cd6581d600dd2d/ASTOCache-1.0.2.tar.gz
+[2023-05-25 11:19:52] INFO root fetch - processPackages [nvfuser-cu121]: executing diffoscope
+[2023-05-25 11:19:52] INFO root fetch - processPackages [nvfuser-cu121]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230525/n/nvfuser-cu121/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-05-25 11:19:52] INFO root fetch - processPackages [ASTOCache]: executing diffoscope
+[2023-05-25 11:19:52] INFO root fetch - processPackages [ASTOCache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ASTOCache-1.0.1.tar.gz tmp/ASTOCache-1.0.2.tar.gz --markdown 20230525/A/ASTOCache/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-25 11:19:52] INFO root fetch - processPackages [nvfuser-cu118]: executing diffoscope
+[2023-05-25 11:19:52] INFO root fetch - processPackages [nvfuser-cu118]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230525/n/nvfuser-cu118/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-05-25 11:19:52] INFO root fetch - processPackages [edu-segmentation]: New version: [0.0.56] Old Version: [0.0.55]
+[2023-05-25 11:19:52] INFO root fetch - processPackages [edamame]: Downloading https://files.pythonhosted.org/packages/0f/8e/42370df090b1b9aa1133f4e6cad2e65b10c201a3f5932e2808bd6aeb0e5b/edamame-0.57.tar.gz
+[2023-05-25 11:19:52] INFO root fetch - processPackages [PyMoosh]: Downloading https://files.pythonhosted.org/packages/06/fe/7e3bcfbd38523ca2088dfc5d3ecdc3486a599789336b92922299c7d9660b/PyMoosh-2.3.tar.gz
+[2023-05-25 11:19:52] INFO root fetch - processPackages [RobertCommonBasic]: Downloading https://files.pythonhosted.org/packages/b1/71/3132b870a19b574c1b571c9b295c68953265044cdf60210dd0b110ad924d/RobertCommonBasic-0.1.40.tar.gz
+[2023-05-25 11:19:52] INFO root fetch - processPackages [pymodaq-plugins-horiba]: Downloading https://files.pythonhosted.org/packages/87/28/801807a11f4c928f64549f8785936cb55e5776abe9075f717eb71ae0c99e/pymodaq_plugins_horiba-1.0.0.tar.gz
+[2023-05-25 11:19:53] INFO root fetch - processPackages [wok-code]: Downloading https://files.pythonhosted.org/packages/8e/c6/cbc3fffe0adac5f44cad4ab4fcb561b51e3706b5204c3a772ec052200cb9/wok_code-2.0.8.tar.gz
+[2023-05-25 11:19:53] INFO root fetch - processPackages [edamame]: executing diffoscope
+[2023-05-25 11:19:53] INFO root fetch - processPackages [edamame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edamame-0.56.tar.gz tmp/edamame-0.57.tar.gz --markdown 20230525/e/edamame/0.56-0.57/diff.md --exclude *.pyd
+[2023-05-25 11:19:53] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/f0/5e/df8c84ad9e4a16ce50d04482e86cd186b13a2a1d80410a96c081a4cc77f9/tf_nightly-2.14.0.dev20230525-cp39-cp39-win_amd64.whl
+[2023-05-25 11:19:53] INFO root fetch - processPackages [PyMoosh]: executing diffoscope
+[2023-05-25 11:19:53] INFO root fetch - processPackages [PyMoosh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyMoosh-2.2.tar.gz tmp/PyMoosh-2.3.tar.gz --markdown 20230525/P/PyMoosh/2.2-2.3/diff.md --exclude *.pyd
+[2023-05-25 11:19:53] INFO root fetch - processPackages [RobertCommonBasic]: executing diffoscope
+[2023-05-25 11:19:53] INFO root fetch - processPackages [RobertCommonBasic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RobertCommonBasic-0.1.39.tar.gz tmp/RobertCommonBasic-0.1.40.tar.gz --markdown 20230525/R/RobertCommonBasic/0.1.39-0.1.40/diff.md --exclude *.pyd
+[2023-05-25 11:19:53] INFO root fetch - processPackages [pymodaq-plugins-horiba]: executing diffoscope
+[2023-05-25 11:19:53] INFO root fetch - processPackages [pymodaq-plugins-horiba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymodaq_plugins_horiba-0.1.0.tar.gz tmp/pymodaq_plugins_horiba-1.0.0.tar.gz --markdown 20230525/p/pymodaq-plugins-horiba/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2023-05-25 11:19:53] INFO root fetch - processPackages [edu-segmentation]: Downloading https://files.pythonhosted.org/packages/4f/fa/6efe384c695ed23226998d53bfc57a100b10aee37782f6bf9c3277c112b8/edu_segmentation-0.0.55.tar.gz
+[2023-05-25 11:19:53] INFO root fetch - processPackages [wok-code]: executing diffoscope
+[2023-05-25 11:19:53] INFO root fetch - processPackages [wok-code]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wok_code-2.0.7.tar.gz tmp/wok_code-2.0.8.tar.gz --markdown 20230525/w/wok-code/2.0.7-2.0.8/diff.md --exclude *.pyd
+[2023-05-25 11:19:53] INFO root fetch - processPackages [tf-nightly]: executing diffoscope
+[2023-05-25 11:19:53] INFO root fetch - processPackages [tf-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly-2.14.0.dev20230524-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly-2.14.0.dev20230525-cp39-cp39-win_amd64.whl.zip --markdown 20230525/t/tf-nightly/2.14.0.dev20230524-2.14.0.dev20230525/diff.md --exclude *.pyd
+[2023-05-25 11:19:53] INFO root fetch - processPackages [edu-segmentation]: Downloading https://files.pythonhosted.org/packages/03/11/2abf30753acbf73c31ca152b582695aa3d89638fc66ade9cccba3765b02a/edu_segmentation-0.0.56.tar.gz
+[2023-05-25 11:19:53] INFO root fetch - processPackages [edu-segmentation]: executing diffoscope
+[2023-05-25 11:19:53] INFO root fetch - processPackages [edu-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edu_segmentation-0.0.55.tar.gz tmp/edu_segmentation-0.0.56.tar.gz --markdown 20230525/e/edu-segmentation/0.0.55-0.0.56/diff.md --exclude *.pyd
+[2023-05-25 11:19:54] INFO root fetch - processPackages [ASTOCache]: Start processing: nvfuser-cu117
+[2023-05-25 11:19:54] INFO root fetch - main [MainThread]: End processing [ASTOCache]: success
+[2023-05-25 11:19:54] INFO root fetch - processPackages [nvfuser-cu117]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-05-25 11:19:54] INFO root fetch - processPackages [edamame]: Start processing: easyfinemap
+[2023-05-25 11:19:54] INFO root fetch - main [MainThread]: End processing [edamame]: success
+[2023-05-25 11:19:54] INFO root fetch - processPackages [easyfinemap]: New version: [0.3.2] Old Version: [0.2.6]
+[2023-05-25 11:19:54] INFO root fetch - processPackages [nvfuser-cu117]: executing diffoscope
+[2023-05-25 11:19:54] INFO root fetch - processPackages [nvfuser-cu117]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230525/n/nvfuser-cu117/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-05-25 11:19:55] INFO root fetch - processPackages [pymodaq-plugins-horiba]: Start processing: FPC
+[2023-05-25 11:19:55] INFO root fetch - main [MainThread]: End processing [pymodaq-plugins-horiba]: success
+[2023-05-25 11:19:55] INFO root fetch - processPackages [tf-nightly]: Start processing: nonebot-plugin-majsoul
+[2023-05-25 11:19:55] INFO root fetch - main [MainThread]: End processing [tf-nightly]: success
+[2023-05-25 11:19:55] INFO root fetch - processPackages [easyfinemap]: Downloading https://files.pythonhosted.org/packages/bd/45/1b2499e57d949a881e644a1ca1c8364c61b1f0e434a9434a381b497b95a5/easyfinemap-0.2.6.tar.gz
+[2023-05-25 11:19:55] INFO root fetch - processPackages [nonebot-plugin-majsoul]: New version: [0.2.0] Old Version: [0.1.6]
+[2023-05-25 11:19:55] WARNING root fetch - processPackages [easyfinemap]: Skipping package: exceeds size limit 33790408>=10485760
+[2023-05-25 11:19:55] INFO root fetch - processPackages [easyfinemap]: Start processing: k2j
+[2023-05-25 11:19:55] INFO root fetch - main [MainThread]: End processing [easyfinemap] error
+[2023-05-25 11:19:55] INFO root fetch - processPackages [FPC]: New version: [0.9] Old Version: [0.8]
+[2023-05-25 11:19:55] INFO root fetch - processPackages [nvfuser-cu121]: Start processing: seaborn-extensions
+[2023-05-25 11:19:55] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
+[2023-05-25 11:19:55] INFO root fetch - processPackages [nonebot-plugin-majsoul]: executing diffoscope
+[2023-05-25 11:19:55] INFO root fetch - processPackages [nonebot-plugin-majsoul]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_majsoul-0.1.6.tar.gz tmp/nonebot_plugin_majsoul-0.2.0.tar.gz --markdown 20230525/n/nonebot-plugin-majsoul/0.1.6-0.2.0/diff.md --exclude *.pyd
+[2023-05-25 11:19:55] INFO root fetch - processPackages [seaborn-extensions]: New version: [0.1.0] Old Version: [0.0.20]
+[2023-05-25 11:19:55] WARNING root fetch - processPackages [k2j]: Skipping, unable to determine old version
+[2023-05-25 11:19:55] INFO root fetch - processPackages [k2j]: Start processing: microcosm
+[2023-05-25 11:19:55] INFO root fetch - main [MainThread]: End processing [k2j] error
+[2023-05-25 11:19:55] INFO root fetch - processPackages [seaborn-extensions]: executing diffoscope
+[2023-05-25 11:19:55] INFO root fetch - processPackages [seaborn-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seaborn_extensions-0.0.20.tar.gz tmp/seaborn_extensions-0.1.0.tar.gz --markdown 20230525/s/seaborn-extensions/0.0.20-0.1.0/diff.md --exclude *.pyd
+[2023-05-25 11:19:55] INFO root fetch - processPackages [microcosm]: New version: [3.2.0] Old Version: [3.1.0]
+[2023-05-25 11:19:55] INFO root fetch - processPackages [FPC]: Downloading https://files.pythonhosted.org/packages/21/8e/cb3fde359346e40cec7994e595614ef647675f843dea133076850fd2db07/FPC-0.8.tar.gz
+[2023-05-25 11:19:55] INFO root fetch - processPackages [RobertCommonBasic]: Start processing: pagure-messages
+[2023-05-25 11:19:55] INFO root fetch - main [MainThread]: End processing [RobertCommonBasic]: success
+[2023-05-25 11:19:55] INFO root fetch - processPackages [edu-segmentation]: Start processing: hopic
+[2023-05-25 11:19:55] INFO root fetch - main [MainThread]: End processing [edu-segmentation]: success
+[2023-05-25 11:19:55] INFO root fetch - processPackages [pagure-messages]: New version: [1.0.0] Old Version: [0.0.6]
+[2023-05-25 11:19:55] INFO root fetch - processPackages [PyMoosh]: Start processing: pymodaq-plugins-physik-instrumente
+[2023-05-25 11:19:55] INFO root fetch - main [MainThread]: End processing [PyMoosh]: success
+[2023-05-25 11:19:55] INFO root fetch - processPackages [microcosm]: Downloading https://files.pythonhosted.org/packages/1b/a7/7851c1b749240e4e6b668ed4cefd07d9d7ef83e1a8cf40bf0b575ca3dadf/microcosm-3.1.0.tar.gz
+[2023-05-25 11:19:55] INFO root fetch - processPackages [hopic]: New version: [1.61.1] Old Version: [1.61.0]
+[2023-05-25 11:19:55] INFO root fetch - processPackages [FPC]: Downloading https://files.pythonhosted.org/packages/2e/52/6ad17c7fd21298054bcd96fc5e86fe54f07e006467ce5452d57c016d92bc/FPC-0.9.tar.gz
+[2023-05-25 11:19:55] INFO root fetch - processPackages [pymodaq-plugins-physik-instrumente]: New version: [1.0.0] Old Version: [0.2.0]
+[2023-05-25 11:19:55] INFO root fetch - processPackages [pagure-messages]: Downloading https://files.pythonhosted.org/packages/ed/1c/2e3147d7d728cdee48fc5f585a09ddf5a3872dc7df7b3b75403970f15a03/pagure-messages-0.0.6.tar.gz
+[2023-05-25 11:19:55] INFO root fetch - processPackages [wok-code]: Start processing: PlumedToHTML
+[2023-05-25 11:19:55] INFO root fetch - main [MainThread]: End processing [wok-code]: success
+[2023-05-25 11:19:55] INFO root fetch - processPackages [FPC]: executing diffoscope
+[2023-05-25 11:19:55] INFO root fetch - processPackages [FPC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FPC-0.8.tar.gz tmp/FPC-0.9.tar.gz --markdown 20230525/F/FPC/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-25 11:19:55] INFO root fetch - processPackages [microcosm]: Downloading https://files.pythonhosted.org/packages/a4/60/e299207d1a8a9bd2829fa630237e27bb83ea8b5bb6a38d326321ec3af238/microcosm-3.2.0.tar.gz
+[2023-05-25 11:19:55] INFO root fetch - processPackages [PlumedToHTML]: New version: [0.9] Old Version: [0.8]
+[2023-05-25 11:19:55] INFO root fetch - processPackages [pymodaq-plugins-physik-instrumente]: Downloading https://files.pythonhosted.org/packages/da/87/8a53bd9605245581e34486ef90e29938aad12c5e2198d50a2212de6f41c8/pymodaq_plugins_physik_instrumente-0.2.0.tar.gz
+[2023-05-25 11:19:56] INFO root fetch - processPackages [microcosm]: executing diffoscope
+[2023-05-25 11:19:56] INFO root fetch - processPackages [microcosm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microcosm-3.1.0.tar.gz tmp/microcosm-3.2.0.tar.gz --markdown 20230525/m/microcosm/3.1.0-3.2.0/diff.md --exclude *.pyd
+[2023-05-25 11:19:56] INFO root fetch - processPackages [hopic]: Downloading https://files.pythonhosted.org/packages/ac/09/b6a5e51c4ba1bf525df641a8a81dd4f07e4c74c90eab3f2812cb28affdbb/hopic-1.61.1-py3-none-any.whl
+[2023-05-25 11:19:56] INFO root fetch - processPackages [pagure-messages]: Downloading https://files.pythonhosted.org/packages/07/2d/7cdd4abdab782666248b11ef9fef8d6c80ce6afabdd44b80d0ce94e64bb7/pagure-messages-1.0.0.tar.gz
+[2023-05-25 11:19:56] INFO root fetch - processPackages [hopic]: executing diffoscope
+[2023-05-25 11:19:56] INFO root fetch - processPackages [hopic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hopic-1.61.0.tar.gz tmp/hopic-1.61.1-py3-none-any.whl.zip --markdown 20230525/h/hopic/1.61.0-1.61.1/diff.md --exclude *.pyd
+[2023-05-25 11:19:56] INFO root fetch - processPackages [pagure-messages]: executing diffoscope
+[2023-05-25 11:19:56] INFO root fetch - processPackages [pagure-messages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pagure-messages-0.0.6.tar.gz tmp/pagure-messages-1.0.0.tar.gz --markdown 20230525/p/pagure-messages/0.0.6-1.0.0/diff.md --exclude *.pyd
+[2023-05-25 11:19:56] INFO root fetch - processPackages [PlumedToHTML]: Downloading https://files.pythonhosted.org/packages/81/95/5ed2d773d95e4fcba932cfdf67091abff694ff6ee4f10462588473535c97/PlumedToHTML-0.8.tar.gz
+[2023-05-25 11:19:56] INFO root fetch - processPackages [pymodaq-plugins-physik-instrumente]: Downloading https://files.pythonhosted.org/packages/ce/57/b915eaf2b2473de025b76bb7de01d9a75db6223eb501b941777ebc43c7a7/pymodaq_plugins_physik_instrumente-1.0.0.tar.gz
+[2023-05-25 11:19:56] INFO root fetch - processPackages [pymodaq-plugins-physik-instrumente]: executing diffoscope
+[2023-05-25 11:19:56] INFO root fetch - processPackages [pymodaq-plugins-physik-instrumente]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymodaq_plugins_physik_instrumente-0.2.0.tar.gz tmp/pymodaq_plugins_physik_instrumente-1.0.0.tar.gz --markdown 20230525/p/pymodaq-plugins-physik-instrumente/0.2.0-1.0.0/diff.md --exclude *.pyd
+[2023-05-25 11:19:56] INFO root fetch - processPackages [PlumedToHTML]: Downloading https://files.pythonhosted.org/packages/d0/90/42341120e8c5d44ef5413125d4ea0ec3c0e2ca685bfe6358a3c5aa6fc7f9/PlumedToHTML-0.9.tar.gz
+[2023-05-25 11:19:56] INFO root fetch - processPackages [PlumedToHTML]: executing diffoscope
+[2023-05-25 11:19:56] INFO root fetch - processPackages [PlumedToHTML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PlumedToHTML-0.8.tar.gz tmp/PlumedToHTML-0.9.tar.gz --markdown 20230525/P/PlumedToHTML/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-25 11:19:57] INFO root fetch - processPackages [FPC]: Start processing: u0-stitcher
+[2023-05-25 11:19:57] INFO root fetch - main [MainThread]: End processing [FPC]: success
+[2023-05-25 11:19:57] WARNING root fetch - processPackages [u0-stitcher]: Skipping, unable to determine old version
+[2023-05-25 11:19:57] INFO root fetch - processPackages [u0-stitcher]: Start processing: tbp-nightly
+[2023-05-25 11:19:57] INFO root fetch - main [MainThread]: End processing [u0-stitcher] error
+[2023-05-25 11:19:57] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-05-25 11:19:57] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-05-25 11:19:57] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230525/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-05-25 11:19:57] INFO root fetch - processPackages [nonebot-plugin-majsoul]: Start processing: edwh-sshfs-plugin
+[2023-05-25 11:19:57] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-majsoul]: success
+[2023-05-25 11:19:57] INFO root fetch - main [MainThread]: End processing [microcosm]: success
+[2023-05-25 11:19:57] INFO root fetch - main [MainThread]: End processing [hopic]: success
+[2023-05-25 11:19:57] WARNING root fetch - processPackages [edwh-sshfs-plugin]: Skipping, unable to determine old version
+[2023-05-25 11:19:57] INFO root fetch - main [MainThread]: End processing [edwh-sshfs-plugin] error
+[2023-05-25 11:19:57] INFO root fetch - main [MainThread]: End processing [nvfuser-cu117]: success
+[2023-05-25 11:19:58] INFO root fetch - main [MainThread]: End processing [PlumedToHTML]: success
+[2023-05-25 11:19:58] INFO root fetch - main [MainThread]: End processing [pagure-messages]: success
+[2023-05-25 11:19:58] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
+[2023-05-25 11:20:00] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-05-25 11:20:00] INFO root fetch - main [MainThread]: End processing [pymodaq-plugins-physik-instrumente]: success
+[2023-05-25 11:20:43] INFO root fetch - main [MainThread]: End processing [seaborn-extensions]: success
+[2023-05-25 11:20:43] INFO root fetch - main [MainThread]: Store serial: [18244294]
