@@ -12716,3 +12716,84 @@
 [2023-05-25 10:29:35] INFO root fetch - main [MainThread]: End processing [minet]: success
 [2023-05-25 10:29:41] INFO root fetch - main [MainThread]: End processing [bemserver-ui]: success
 [2023-05-25 10:29:41] INFO root fetch - main [MainThread]: Store serial: [18243521]
+[2023-05-25 10:34:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18243521]
+[2023-05-25 10:34:51] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-25 10:34:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bulma-sphinx-theme
+[2023-05-25 10:34:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: correction-helper
+[2023-05-25 10:34:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sslcompare
+[2023-05-25 10:34:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: interval-tools
+[2023-05-25 10:34:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: checkvsphere
+[2023-05-25 10:34:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: netbox-cisco-maintenance
+[2023-05-25 10:34:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tf-nightly-intel
+[2023-05-25 10:34:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mlopspython-inference
+[2023-05-25 10:34:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ronnytest
+[2023-05-25 10:34:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: envd
+[2023-05-25 10:34:51] INFO root fetch - processPackages [sslcompare]: New version: [1.6.1] Old Version: [1.3.1]
+[2023-05-25 10:34:51] INFO root fetch - processPackages [interval-tools]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-25 10:34:51] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 10:34:51] INFO root fetch - processPackages [mlopspython-inference]: New version: [9685412409802298096004] Old Version: [93446164921611003430826400]
+[2023-05-25 10:34:51] INFO root fetch - processPackages [ronnytest]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-25 10:34:51] INFO root fetch - processPackages [envd]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-25 10:34:51] INFO root fetch - processPackages [correction-helper]: New version: [2023.5] Old Version: [2022.9.16]
+[2023-05-25 10:34:51] INFO root fetch - processPackages [mlopspython-inference]: executing diffoscope
+[2023-05-25 10:34:51] INFO root fetch - processPackages [mlopspython-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlopspython-inference-93446164921611003430826400.tar.gz tmp/mlopspython-inference-9685412409802298096004.tar.gz --markdown 20230525/m/mlopspython-inference/93446164921611003430826400-9685412409802298096004/diff.md --exclude *.pyd
+[2023-05-25 10:34:51] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-05-25 10:34:51] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.8.tar.gz tmp/netbox-cisco-maintenance-0.0.9.tar.gz --markdown 20230525/n/netbox-cisco-maintenance/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 10:34:51] INFO root fetch - processPackages [checkvsphere]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-25 10:34:51] INFO root fetch - processPackages [bulma-sphinx-theme]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-25 10:34:51] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.14.0.dev20230524] Old Version: [2.14.0.dev20230518]
+[2023-05-25 10:34:51] INFO root fetch - processPackages [ronnytest]: executing diffoscope
+[2023-05-25 10:34:51] INFO root fetch - processPackages [interval-tools]: executing diffoscope
+[2023-05-25 10:34:51] INFO root fetch - processPackages [sslcompare]: Downloading https://files.pythonhosted.org/packages/96/ae/a225f32b6b0c2a60303987cef009622176a0076a330cb41697e0c300ab02/sslcompare-1.3.1-py3-none-any.whl
+[2023-05-25 10:34:51] INFO root fetch - processPackages [ronnytest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ronnytest-0.2.1.tar.gz tmp/ronnytest-0.2.2.tar.gz --markdown 20230525/r/ronnytest/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-25 10:34:51] INFO root fetch - processPackages [interval-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/interval-tools-0.9.0.tar.gz tmp/interval-tools-0.9.1.tar.gz --markdown 20230525/i/interval-tools/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-25 10:34:51] WARNING root fetch - processPackages [sslcompare]: Skipping package: exceeds size limit 96591491>=10485760
+[2023-05-25 10:34:51] INFO root fetch - processPackages [sslcompare]: Start processing: toolforge-weld
+[2023-05-25 10:34:51] INFO root fetch - main [MainThread]: End processing [sslcompare] error
+[2023-05-25 10:34:51] INFO root fetch - processPackages [envd]: Downloading https://files.pythonhosted.org/packages/40/8f/ca38bcdc6fb6476b2f39f7447c21359ec87ef0ed65e589349a047ed332cd/envd-0.3.8.tar.gz
+[2023-05-25 10:34:51] INFO root fetch - processPackages [checkvsphere]: Downloading https://files.pythonhosted.org/packages/a0/48/00418375b11e67b16b3841d450155b97e6988e756503ee9271d943d3ae92/checkvsphere-0.2.2.tar.gz
+[2023-05-25 10:34:51] INFO root fetch - processPackages [correction-helper]: Downloading https://files.pythonhosted.org/packages/50/82/57fcde9d96fdffd8c41a616e5e407184f0d17639f32cc59c684a55c93644/correction-helper-2022.9.16.tar.gz
+[2023-05-25 10:34:51] INFO root fetch - processPackages [bulma-sphinx-theme]: Downloading https://files.pythonhosted.org/packages/42/83/60e0617366873135a577e38862a1ac27f1b3352728d644a3f7028d1ecf50/bulma_sphinx_theme-0.0.1.tar.gz
+[2023-05-25 10:34:51] INFO root fetch - processPackages [toolforge-weld]: New version: [1.0.0] Old Version: [0.2.1]
+[2023-05-25 10:34:51] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/14/84/f7131ec712fec86e95a2cbcaf2ecae32919b88d76fb24c76f90a0e94ccd7/tf_nightly_intel-2.14.0.dev20230518-cp39-cp39-win_amd64.whl
+[2023-05-25 10:34:51] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 180889820>=10485760
+[2023-05-25 10:34:51] INFO root fetch - processPackages [tf-nightly-intel]: Start processing: geonode-importer
+[2023-05-25 10:34:51] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2023-05-25 10:34:51] INFO root fetch - processPackages [checkvsphere]: Downloading https://files.pythonhosted.org/packages/d0/e6/3951a1f36cba59f7658c5336ea245c39c439d94c009cabc7193e233c003b/checkvsphere-0.2.3.tar.gz
+[2023-05-25 10:34:51] INFO root fetch - processPackages [geonode-importer]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-25 10:34:51] INFO root fetch - processPackages [checkvsphere]: executing diffoscope
+[2023-05-25 10:34:51] INFO root fetch - processPackages [bulma-sphinx-theme]: Downloading https://files.pythonhosted.org/packages/f5/9b/dad9dee4e2b610987b8a936a3c7420136ce292abf42756ecde7f980b2b28/bulma_sphinx_theme-0.0.2.tar.gz
+[2023-05-25 10:34:51] INFO root fetch - processPackages [checkvsphere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkvsphere-0.2.2.tar.gz tmp/checkvsphere-0.2.3.tar.gz --markdown 20230525/c/checkvsphere/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-25 10:34:51] INFO root fetch - processPackages [correction-helper]: Downloading https://files.pythonhosted.org/packages/4e/6a/8bc30f74204e234265f5b286245c6f077448a3ba266dacfadf6e8c887ee1/correction-helper-2023.5.tar.gz
+[2023-05-25 10:34:51] INFO root fetch - processPackages [bulma-sphinx-theme]: executing diffoscope
+[2023-05-25 10:34:51] INFO root fetch - processPackages [bulma-sphinx-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bulma_sphinx_theme-0.0.1.tar.gz tmp/bulma_sphinx_theme-0.0.2.tar.gz --markdown 20230525/b/bulma-sphinx-theme/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-25 10:34:51] INFO root fetch - processPackages [toolforge-weld]: Downloading https://files.pythonhosted.org/packages/e1/f9/32ac3ec7682e100d1a4512be0be12639608b740a6115f1da93abce9473b4/toolforge-weld-1.0.0.tar.gz
+[2023-05-25 10:34:51] INFO root fetch - processPackages [correction-helper]: executing diffoscope
+[2023-05-25 10:34:51] INFO root fetch - processPackages [correction-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/correction-helper-2022.9.16.tar.gz tmp/correction-helper-2023.5.tar.gz --markdown 20230525/c/correction-helper/2022.9.16-2023.5/diff.md --exclude *.pyd
+[2023-05-25 10:34:51] INFO root fetch - processPackages [geonode-importer]: Downloading https://files.pythonhosted.org/packages/fb/d3/41591413fef1597988a6ffe401b94a2e1c5d99b7432c270693b9234d56c6/geonode_importer-1.0.1-py3-none-any.whl
+[2023-05-25 10:34:51] INFO root fetch - processPackages [toolforge-weld]: executing diffoscope
+[2023-05-25 10:34:51] INFO root fetch - processPackages [toolforge-weld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toolforge-weld-0.2.1.tar.gz tmp/toolforge-weld-1.0.0.tar.gz --markdown 20230525/t/toolforge-weld/0.2.1-1.0.0/diff.md --exclude *.pyd
+[2023-05-25 10:34:52] INFO root fetch - processPackages [geonode-importer]: Downloading https://files.pythonhosted.org/packages/15/92/0836150c62984570e886cf13fdee7bc96e7c7ebf8d5e71f69f7d2b121f24/geonode_importer-1.0.2-py3-none-any.whl
+[2023-05-25 10:34:52] INFO root fetch - processPackages [geonode-importer]: executing diffoscope
+[2023-05-25 10:34:52] INFO root fetch - processPackages [geonode-importer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geonode_importer-1.0.1-py3-none-any.whl.zip tmp/geonode_importer-1.0.2-py3-none-any.whl.zip --markdown 20230525/g/geonode-importer/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-25 10:34:52] INFO root fetch - processPackages [interval-tools]: Start processing: MechEyeAPI
+[2023-05-25 10:34:52] INFO root fetch - main [MainThread]: End processing [interval-tools]: success
+[2023-05-25 10:34:52] INFO root fetch - main [MainThread]: End processing [mlopspython-inference]: success
+[2023-05-25 10:34:52] INFO root fetch - processPackages [MechEyeAPI]: New version: [1.5.6.2.0.2] Old Version: [1.5.5.2.0.0]
+[2023-05-25 10:34:52] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-05-25 10:34:52] INFO root fetch - main [MainThread]: End processing [ronnytest]: success
+[2023-05-25 10:34:53] INFO root fetch - processPackages [MechEyeAPI]: Downloading https://files.pythonhosted.org/packages/c6/d2/3c69fb1b09dc5708c41f727346af349b34a9213350e0e494f5b505effa75/MechEyeAPI-1.5.5.2.0.0-py3-none-any.whl
+[2023-05-25 10:34:53] INFO root fetch - main [MainThread]: End processing [checkvsphere]: success
+[2023-05-25 10:34:53] INFO root fetch - main [MainThread]: End processing [correction-helper]: success
+[2023-05-25 10:34:53] INFO root fetch - main [MainThread]: End processing [toolforge-weld]: success
+[2023-05-25 10:34:53] INFO root fetch - main [MainThread]: End processing [geonode-importer]: success
+[2023-05-25 10:34:54] INFO root fetch - main [MainThread]: End processing [bulma-sphinx-theme]: success
+[2023-05-25 10:34:54] INFO root fetch - processPackages [MechEyeAPI]: Downloading https://files.pythonhosted.org/packages/4d/93/e32547f7877075bc74519d6c939e71169d87bb07ee35971f18785106ee3a/MechEyeAPI-1.5.6.2.0.2-py3-none-any.whl
+[2023-05-25 10:34:54] INFO root fetch - processPackages [envd]: Downloading https://files.pythonhosted.org/packages/6f/e2/02e4db7e4affa6e54962dd795208ba1de5a9bbca208205fca85382498bfa/envd-0.3.9.tar.gz
+[2023-05-25 10:34:54] INFO root fetch - processPackages [MechEyeAPI]: executing diffoscope
+[2023-05-25 10:34:54] INFO root fetch - processPackages [MechEyeAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MechEyeAPI-1.5.5.2.0.0-py3-none-any.whl.zip tmp/MechEyeAPI-1.5.6.2.0.2-py3-none-any.whl.zip --markdown 20230525/M/MechEyeAPI/1.5.5.2.0.0-1.5.6.2.0.2/diff.md --exclude *.pyd
+[2023-05-25 10:34:57] INFO root fetch - processPackages [envd]: executing diffoscope
+[2023-05-25 10:34:57] INFO root fetch - processPackages [envd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/envd-0.3.8.tar.gz tmp/envd-0.3.9.tar.gz --markdown 20230525/e/envd/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-25 10:35:23] INFO root fetch - main [MainThread]: End processing [MechEyeAPI]: success
+[2023-05-25 10:36:17] INFO root fetch - main [MainThread]: End processing [envd]: success
+[2023-05-25 10:36:17] INFO root fetch - main [MainThread]: Store serial: [18243567]
