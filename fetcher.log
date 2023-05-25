@@ -18224,3 +18224,93 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-25 14:26:14] INFO root fetch - main [MainThread]: End processing [humlab-penelope]: success
 [2023-05-25 14:26:14] INFO root fetch - main [MainThread]: End processing [Pandora-ChatGPT]: success
 [2023-05-25 14:26:14] INFO root fetch - main [MainThread]: Store serial: [18246463]
+[2023-05-25 14:31:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18246463]
+[2023-05-25 14:31:24] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-25 14:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl
+[2023-05-25 14:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tap-exact
+[2023-05-25 14:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-master
+[2023-05-25 14:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: meteva
+[2023-05-25 14:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cloud2
+[2023-05-25 14:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PyComputer
+[2023-05-25 14:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ccs-fit
+[2023-05-25 14:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xju
+[2023-05-25 14:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dh-potluck
+[2023-05-25 14:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: neurodeploy
+[2023-05-25 14:31:24] INFO root fetch - processPackages [meteva]: New version: [1.7.4] Old Version: [1.7.3]
+[2023-05-25 14:31:24] INFO root fetch - processPackages [tap-exact]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-25 14:31:24] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230525.5.52.968882] Old Version: [20230525.11.43.819848]
+[2023-05-25 14:31:24] INFO root fetch - processPackages [cloud2]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-25 14:31:24] INFO root fetch - processPackages [PyComputer]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-25 14:31:24] INFO root fetch - processPackages [cloud2]: executing diffoscope
+[2023-05-25 14:31:24] INFO root fetch - processPackages [cloud2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud2-0.0.4.tar.gz tmp/cloud2-0.0.5.tar.gz --markdown 20230525/c/cloud2/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-25 14:31:24] INFO root fetch - processPackages [neurodeploy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 14:31:24] INFO root fetch - processPackages [ccs-fit]: New version: [0.21.5] Old Version: [0.21.4]
+[2023-05-25 14:31:24] INFO root fetch - processPackages [dh-potluck]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-25 14:31:24] INFO root fetch - processPackages [xju]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-25 14:31:24] INFO root fetch - processPackages [meteva]: Downloading https://files.pythonhosted.org/packages/80/50/e0b6994b56ae2bfcae41110df4c4bc83d8f03eeaf28cb1e09fb893ff4257/meteva-1.7.3.tar.gz
+[2023-05-25 14:31:24] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/81/a3/7b36202708509d34e96affa0b754f4ffc7bb998907336ae516c657a37e56/certora-cli-alpha-master-20230525.11.43.819848.tar.gz
+[2023-05-25 14:31:24] INFO root fetch - processPackages [bigdl]: New version: [2.4.0b20230525] Old Version: [2.4.0b20230524]
+[2023-05-25 14:31:24] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 39068918>=10485760
+[2023-05-25 14:31:24] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: nexgraphx
+[2023-05-25 14:31:24] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-05-25 14:31:24] INFO root fetch - processPackages [tap-exact]: Downloading https://files.pythonhosted.org/packages/8d/4f/86d2da751d3046c61ae82a16448c23f9d4e4fbcd64081957d53a3016120c/tap_exact-0.4.1.tar.gz
+[2023-05-25 14:31:24] INFO root fetch - processPackages [tap-exact]: executing diffoscope
+[2023-05-25 14:31:24] INFO root fetch - processPackages [tap-exact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap_exact-0.4.0.tar.gz tmp/tap_exact-0.4.1.tar.gz --markdown 20230525/t/tap-exact/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-25 14:31:24] ERROR root fetch - processPackages [nexgraphx]: Unable to get metadata: No such project 'nexgraphx'
+[2023-05-25 14:31:24] INFO root fetch - processPackages [nexgraphx]: Start processing: text2story
+[2023-05-25 14:31:24] INFO root fetch - main [MainThread]: End processing [nexgraphx] error
+[2023-05-25 14:31:24] INFO root fetch - processPackages [text2story]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-25 14:31:24] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/8e/74/e4986c0ddc71009931c9b12d1a4fe965784940f3316476a331d327397064/bigdl-2.4.0b20230524-py3-none-manylinux1_x86_64.whl
+[2023-05-25 14:31:24] INFO root fetch - processPackages [PyComputer]: Downloading https://files.pythonhosted.org/packages/49/65/1f2a240e3feb969b379e9e56374e160a33559ec77e8e5e303c25db069186/PyComputer-1.0.3.tar.gz
+[2023-05-25 14:31:24] INFO root fetch - processPackages [neurodeploy]: executing diffoscope
+[2023-05-25 14:31:24] INFO root fetch - processPackages [neurodeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurodeploy-0.0.8.tar.gz tmp/neurodeploy-0.0.9.tar.gz --markdown 20230525/n/neurodeploy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 14:31:24] INFO root fetch - processPackages [ccs-fit]: Downloading https://files.pythonhosted.org/packages/fa/1d/3c616360a9b9be80b5fb970be166b4992d8584c72a67fd1b2595adb00144/ccs_fit-0.21.5.tar.gz
+[2023-05-25 14:31:24] INFO root fetch - processPackages [xju]: executing diffoscope
+[2023-05-25 14:31:24] INFO root fetch - processPackages [xju]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xju-1.2.8.tar.gz tmp/xju-1.2.9.tar.gz --markdown 20230525/x/xju/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-25 14:31:24] INFO root fetch - processPackages [dh-potluck]: executing diffoscope
+[2023-05-25 14:31:24] INFO root fetch - processPackages [dh-potluck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dh-potluck-1.9.0.tar.gz tmp/dh-potluck-1.9.1.tar.gz --markdown 20230525/d/dh-potluck/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-25 14:31:24] INFO root fetch - processPackages [meteva]: Downloading https://files.pythonhosted.org/packages/f9/0f/0c262d828a036d891ed4a537f3b00b794bd3d7a3ea5271430c80ff018474/meteva-1.7.4.tar.gz
+[2023-05-25 14:31:24] INFO root fetch - processPackages [PyComputer]: executing diffoscope
+[2023-05-25 14:31:24] INFO root fetch - processPackages [PyComputer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyComputer-1.0.2.tar.gz tmp/PyComputer-1.0.3.tar.gz --markdown 20230525/P/PyComputer/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-25 14:31:24] INFO root fetch - processPackages [text2story]: executing diffoscope
+[2023-05-25 14:31:24] INFO root fetch - processPackages [text2story]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text2story-1.2.8.tar.gz tmp/text2story-1.2.9.tar.gz --markdown 20230525/t/text2story/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-25 14:31:24] INFO root fetch - processPackages [ccs-fit]: executing diffoscope
+[2023-05-25 14:31:24] INFO root fetch - processPackages [ccs-fit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccs_fit-0.21.4.tar.gz tmp/ccs_fit-0.21.5.tar.gz --markdown 20230525/c/ccs-fit/0.21.4-0.21.5/diff.md --exclude *.pyd
+[2023-05-25 14:31:24] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/ba/ed/f4b55b8cb857f56ef3e9ee168bd04ab07e11a721c6e2aa4efd4f3065545b/bigdl-2.4.0b20230525-py3-none-manylinux1_x86_64.whl
+[2023-05-25 14:31:24] INFO root fetch - processPackages [meteva]: executing diffoscope
+[2023-05-25 14:31:24] INFO root fetch - processPackages [meteva]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meteva-1.7.3.tar.gz tmp/meteva-1.7.4.tar.gz --markdown 20230525/m/meteva/1.7.3-1.7.4/diff.md --exclude *.pyd
+[2023-05-25 14:31:24] INFO root fetch - processPackages [bigdl]: executing diffoscope
+[2023-05-25 14:31:24] INFO root fetch - processPackages [bigdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl-2.4.0b20230524-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl-2.4.0b20230525-py3-none-manylinux1_x86_64.whl.zip --markdown 20230525/b/bigdl/2.4.0b20230524-2.4.0b20230525/diff.md --exclude *.pyd
+[2023-05-25 14:31:25] INFO root fetch - processPackages [tap-exact]: Start processing: fdog
+[2023-05-25 14:31:25] INFO root fetch - main [MainThread]: End processing [tap-exact]: success
+[2023-05-25 14:31:25] INFO root fetch - processPackages [fdog]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-25 14:31:26] INFO root fetch - processPackages [fdog]: Downloading https://files.pythonhosted.org/packages/a3/96/e80531f9b64a2bfdde4aafa10e4dae4c4b1288107b471338f546d298cca7/fdog-0.1.8.tar.gz
+[2023-05-25 14:31:26] INFO root fetch - processPackages [neurodeploy]: Start processing: UComp
+[2023-05-25 14:31:26] INFO root fetch - main [MainThread]: End processing [neurodeploy]: success
+[2023-05-25 14:31:26] INFO root fetch - processPackages [fdog]: Downloading https://files.pythonhosted.org/packages/a4/13/402b01e3227678921c619da9ab8eb4399d3a11dba161163518f064df54d3/fdog-0.1.9.tar.gz
+[2023-05-25 14:31:26] WARNING root fetch - processPackages [UComp]: Skipping, unable to determine old version
+[2023-05-25 14:31:26] INFO root fetch - processPackages [UComp]: Start processing: ths-quant
+[2023-05-25 14:31:26] INFO root fetch - main [MainThread]: End processing [UComp] error
+[2023-05-25 14:31:26] WARNING root fetch - processPackages [ths-quant]: Skipping, unable to determine old version
+[2023-05-25 14:31:26] INFO root fetch - processPackages [ths-quant]: Start processing: solidago
+[2023-05-25 14:31:26] INFO root fetch - main [MainThread]: End processing [ths-quant] error
+[2023-05-25 14:31:26] INFO root fetch - processPackages [fdog]: executing diffoscope
+[2023-05-25 14:31:26] INFO root fetch - processPackages [fdog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdog-0.1.8.tar.gz tmp/fdog-0.1.9.tar.gz --markdown 20230525/f/fdog/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-25 14:31:26] WARNING root fetch - processPackages [solidago]: Skipping, unable to determine old version
+[2023-05-25 14:31:26] INFO root fetch - processPackages [solidago]: Start processing: YMS
+[2023-05-25 14:31:26] INFO root fetch - main [MainThread]: End processing [solidago] error
+[2023-05-25 14:31:26] INFO root fetch - main [MainThread]: End processing [cloud2]: success
+[2023-05-25 14:31:26] INFO root fetch - processPackages [YMS]: New version: [0.9] Old Version: [0.83]
+[2023-05-25 14:31:26] INFO root fetch - main [MainThread]: End processing [PyComputer]: success
+[2023-05-25 14:31:26] INFO root fetch - main [MainThread]: End processing [xju]: success
+[2023-05-25 14:31:26] INFO root fetch - processPackages [YMS]: Downloading https://files.pythonhosted.org/packages/de/30/3ce47561c81310fa9074b589f00cfeace71a8d85feae988c1a5fde2a580e/YMS-0.9.tar.gz
+[2023-05-25 14:31:27] INFO root fetch - processPackages [YMS]: executing diffoscope
+[2023-05-25 14:31:27] INFO root fetch - processPackages [YMS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YMS-0.83.tar.gz tmp/YMS-0.9.tar.gz --markdown 20230525/Y/YMS/0.83-0.9/diff.md --exclude *.pyd
+[2023-05-25 14:31:27] INFO root fetch - main [MainThread]: End processing [ccs-fit]: success
+[2023-05-25 14:31:27] INFO root fetch - main [MainThread]: End processing [bigdl]: success
+[2023-05-25 14:31:27] INFO root fetch - main [MainThread]: End processing [text2story]: success
+[2023-05-25 14:31:27] INFO root fetch - main [MainThread]: End processing [dh-potluck]: success
+[2023-05-25 14:31:28] INFO root fetch - main [MainThread]: End processing [fdog]: success
+[2023-05-25 14:31:28] INFO root fetch - main [MainThread]: End processing [YMS]: success
+[2023-05-25 14:31:28] INFO root fetch - main [MainThread]: End processing [meteva]: success
+[2023-05-25 14:31:28] INFO root fetch - main [MainThread]: Store serial: [18246527]
