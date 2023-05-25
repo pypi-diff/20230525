@@ -14663,3 +14663,108 @@
 [2023-05-25 11:31:30] INFO root fetch - main [MainThread]: End processing [returnn]: success
 [2023-05-25 11:31:48] INFO root fetch - main [MainThread]: End processing [anoncreds]: success
 [2023-05-25 11:31:48] INFO root fetch - main [MainThread]: Store serial: [18244475]
+[2023-05-25 11:37:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18244475]
+[2023-05-25 11:37:05] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-25 11:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: c65faucet
+[2023-05-25 11:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: panoptic
+[2023-05-25 11:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llm-rs
+[2023-05-25 11:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kinneykits
+[2023-05-25 11:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: metal-sdk
+[2023-05-25 11:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bioregistry
+[2023-05-25 11:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: metabypassrecaptcha3
+[2023-05-25 11:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: westat
+[2023-05-25 11:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: apache-flink
+[2023-05-25 11:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: FFHT-unofficial
+[2023-05-25 11:37:05] INFO root fetch - processPackages [apache-flink]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-05-25 11:37:05] INFO root fetch - processPackages [bioregistry]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-25 11:37:05] INFO root fetch - processPackages [c65faucet]: New version: [1.0.54] Old Version: [1.0.53]
+[2023-05-25 11:37:05] INFO root fetch - processPackages [panoptic]: New version: [0.0.9.dev2] Old Version: [0.0.9.dev1]
+[2023-05-25 11:37:05] WARNING root fetch - processPackages [kinneykits]: Skipping, unable to determine old version
+[2023-05-25 11:37:05] INFO root fetch - processPackages [kinneykits]: Start processing: llmspec
+[2023-05-25 11:37:05] INFO root fetch - main [MainThread]: End processing [kinneykits] error
+[2023-05-25 11:37:05] INFO root fetch - processPackages [FFHT-unofficial]: New version: [0.3] Old Version: [0.2]
+[2023-05-25 11:37:05] WARNING root fetch - processPackages [metabypassrecaptcha3]: Skipping, unable to determine old version
+[2023-05-25 11:37:05] INFO root fetch - processPackages [metal-sdk]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-25 11:37:05] INFO root fetch - processPackages [metabypassrecaptcha3]: Start processing: isoCycle
+[2023-05-25 11:37:05] INFO root fetch - main [MainThread]: End processing [metabypassrecaptcha3] error
+[2023-05-25 11:37:05] INFO root fetch - processPackages [llm-rs]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-25 11:37:05] INFO root fetch - processPackages [westat]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-25 11:37:05] INFO root fetch - processPackages [llmspec]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-25 11:37:05] INFO root fetch - processPackages [bioregistry]: executing diffoscope
+[2023-05-25 11:37:05] INFO root fetch - processPackages [bioregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioregistry-0.9.8.tar.gz tmp/bioregistry-0.9.9.tar.gz --markdown 20230525/b/bioregistry/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-25 11:37:05] INFO root fetch - processPackages [isoCycle]: New version: [0.0.43] Old Version: [0.0.42]
+[2023-05-25 11:37:05] INFO root fetch - processPackages [apache-flink]: Downloading https://files.pythonhosted.org/packages/d7/d4/ee61e98449c7ccd8a2235b7f31aa3f1e3ba15e7c1c3d7d66f12391c250a5/apache-flink-1.9.2.tar.gz
+[2023-05-25 11:37:06] INFO root fetch - processPackages [panoptic]: Downloading https://files.pythonhosted.org/packages/b5/b6/545da172bdd44a1c8dd92cfe9545d27f8f6f418803e2ace51be291330691/panoptic-0.0.9.dev1.tar.gz
+[2023-05-25 11:37:06] INFO root fetch - processPackages [c65faucet]: Downloading https://files.pythonhosted.org/packages/12/da/3a753c15ad8aa313b70ff18986009386fbdb78fc42f41d3d6514f28b3e4f/c65faucet-1.0.53.tar.gz
+[2023-05-25 11:37:06] WARNING root fetch - processPackages [apache-flink]: Skipping package: exceeds size limit 251149263>=10485760
+[2023-05-25 11:37:06] INFO root fetch - processPackages [apache-flink]: Start processing: conditionevaluator
+[2023-05-25 11:37:06] INFO root fetch - main [MainThread]: End processing [apache-flink] error
+[2023-05-25 11:37:06] INFO root fetch - processPackages [FFHT-unofficial]: Downloading https://files.pythonhosted.org/packages/5e/80/896116add877d5430dace764f2dc0633cf6a2346f2319621f7f212c9b702/FFHT-unofficial-0.2.tar.gz
+[2023-05-25 11:37:06] INFO root fetch - processPackages [llmspec]: executing diffoscope
+[2023-05-25 11:37:06] INFO root fetch - processPackages [llmspec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmspec-0.3.2.tar.gz tmp/llmspec-0.3.3.tar.gz --markdown 20230525/l/llmspec/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-25 11:37:06] WARNING root fetch - processPackages [conditionevaluator]: Skipping, unable to determine old version
+[2023-05-25 11:37:06] INFO root fetch - processPackages [conditionevaluator]: Start processing: asana-exporter
+[2023-05-25 11:37:06] INFO root fetch - main [MainThread]: End processing [conditionevaluator] error
+[2023-05-25 11:37:06] INFO root fetch - processPackages [metal-sdk]: Downloading https://files.pythonhosted.org/packages/7a/98/35c8b50e020a356d827528e975e57eb9bc1dee888f87fa509729d73de14b/metal_sdk-1.0.2.tar.gz
+[2023-05-25 11:37:06] INFO root fetch - processPackages [llm-rs]: Downloading https://files.pythonhosted.org/packages/3b/11/16c9740e4e9b9fea84170128b63ad4cf47d37c84cf74c7f379a5e2c93020/llm_rs-0.2.4.tar.gz
+[2023-05-25 11:37:06] INFO root fetch - processPackages [isoCycle]: Downloading https://files.pythonhosted.org/packages/ca/46/e9ccdfb86042c48011cc584fe1fee01053b9c321f4462461572fedffcf92/isoCycle-0.0.42.tar.gz
+[2023-05-25 11:37:06] WARNING root fetch - processPackages [asana-exporter]: Skipping, unable to determine old version
+[2023-05-25 11:37:06] INFO root fetch - processPackages [asana-exporter]: Start processing: camminapy
+[2023-05-25 11:37:06] INFO root fetch - main [MainThread]: End processing [asana-exporter] error
+[2023-05-25 11:37:06] WARNING root fetch - processPackages [isoCycle]: Skipping package: exceeds size limit 18272802>=10485760
+[2023-05-25 11:37:06] INFO root fetch - processPackages [isoCycle]: Start processing: dbt-clickhouse
+[2023-05-25 11:37:06] INFO root fetch - main [MainThread]: End processing [isoCycle] error
+[2023-05-25 11:37:06] INFO root fetch - processPackages [camminapy]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-05-25 11:37:06] INFO root fetch - processPackages [FFHT-unofficial]: Downloading https://files.pythonhosted.org/packages/d8/9e/e384f7128645766c9842f7f82211946f164ef685b6cebfbc678e7985c0b1/FFHT-unofficial-0.3.tar.gz
+[2023-05-25 11:37:06] INFO root fetch - processPackages [westat]: executing diffoscope
+[2023-05-25 11:37:06] INFO root fetch - processPackages [westat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/westat-0.1.8.tar.gz tmp/westat-0.1.9.tar.gz --markdown 20230525/w/westat/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-25 11:37:06] INFO root fetch - processPackages [dbt-clickhouse]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-05-25 11:37:06] INFO root fetch - processPackages [c65faucet]: Downloading https://files.pythonhosted.org/packages/0b/c0/4b22236e75ef3fc52e9578fc641a741677d123d4d7e222d6c2f14e5e7344/c65faucet-1.0.54.tar.gz
+[2023-05-25 11:37:06] INFO root fetch - processPackages [llm-rs]: Downloading https://files.pythonhosted.org/packages/ee/6d/aa708cc07c42646183850a2ef8462a5ec1a603dc297d8c4c6349e0104124/llm_rs-0.2.5.tar.gz
+[2023-05-25 11:37:06] INFO root fetch - processPackages [metal-sdk]: Downloading https://files.pythonhosted.org/packages/3a/e5/6066b6631362a5ba0035716d9a6b05b5b3104338ae81dbeb10576e311a7e/metal_sdk-1.0.3.tar.gz
+[2023-05-25 11:37:06] INFO root fetch - processPackages [panoptic]: Downloading https://files.pythonhosted.org/packages/f7/61/c009170d961f7d0814b5a463791230d91863ca0bf8d63e080cfc43be053e/panoptic-0.0.9.dev2.tar.gz
+[2023-05-25 11:37:06] INFO root fetch - processPackages [FFHT-unofficial]: executing diffoscope
+[2023-05-25 11:37:06] INFO root fetch - processPackages [FFHT-unofficial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FFHT-unofficial-0.2.tar.gz tmp/FFHT-unofficial-0.3.tar.gz --markdown 20230525/F/FFHT-unofficial/0.2-0.3/diff.md --exclude *.pyd
+[2023-05-25 11:37:06] INFO root fetch - processPackages [camminapy]: Downloading https://files.pythonhosted.org/packages/78/e0/7a72e70668a6849310cf6ead1a1c084b5a203105889fbe03d242593a3320/camminapy-0.8.1.tar.gz
+[2023-05-25 11:37:06] INFO root fetch - processPackages [metal-sdk]: executing diffoscope
+[2023-05-25 11:37:06] INFO root fetch - processPackages [metal-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metal_sdk-1.0.2.tar.gz tmp/metal_sdk-1.0.3.tar.gz --markdown 20230525/m/metal-sdk/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-25 11:37:06] INFO root fetch - processPackages [c65faucet]: executing diffoscope
+[2023-05-25 11:37:06] INFO root fetch - processPackages [c65faucet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c65faucet-1.0.53.tar.gz tmp/c65faucet-1.0.54.tar.gz --markdown 20230525/c/c65faucet/1.0.53-1.0.54/diff.md --exclude *.pyd
+[2023-05-25 11:37:06] INFO root fetch - processPackages [panoptic]: executing diffoscope
+[2023-05-25 11:37:06] INFO root fetch - processPackages [panoptic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panoptic-0.0.9.dev1.tar.gz tmp/panoptic-0.0.9.dev2.tar.gz --markdown 20230525/p/panoptic/0.0.9.dev1-0.0.9.dev2/diff.md --exclude *.pyd
+[2023-05-25 11:37:06] INFO root fetch - processPackages [dbt-clickhouse]: Downloading https://files.pythonhosted.org/packages/c1/9b/f15d48ed26a271595011bb460f56d68eed77ac3e28611c8f26c6f6ce0de0/dbt-clickhouse-1.4.1.tar.gz
+[2023-05-25 11:37:06] INFO root fetch - processPackages [llm-rs]: executing diffoscope
+[2023-05-25 11:37:06] INFO root fetch - processPackages [llm-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_rs-0.2.4.tar.gz tmp/llm_rs-0.2.5.tar.gz --markdown 20230525/l/llm-rs/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-25 11:37:06] INFO root fetch - processPackages [camminapy]: executing diffoscope
+[2023-05-25 11:37:06] INFO root fetch - processPackages [camminapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camminapy-0.8.0.tar.gz tmp/camminapy-0.8.1.tar.gz --markdown 20230525/c/camminapy/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-05-25 11:37:06] INFO root fetch - processPackages [dbt-clickhouse]: Downloading https://files.pythonhosted.org/packages/2b/e0/83902f9d694891dec062059180e0e0a6b6e5bc3bcd268c012c590aa48c9c/dbt-clickhouse-1.4.2.tar.gz
+[2023-05-25 11:37:06] INFO root fetch - processPackages [dbt-clickhouse]: executing diffoscope
+[2023-05-25 11:37:06] INFO root fetch - processPackages [dbt-clickhouse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-clickhouse-1.4.1.tar.gz tmp/dbt-clickhouse-1.4.2.tar.gz --markdown 20230525/d/dbt-clickhouse/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-05-25 11:37:07] INFO root fetch - processPackages [llmspec]: Start processing: camminapy
+[2023-05-25 11:37:07] INFO root fetch - main [MainThread]: End processing [llmspec]: success
+[2023-05-25 11:37:07] INFO root fetch - processPackages [camminapy]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-05-25 11:37:07] INFO root fetch - processPackages [camminapy]: Downloading https://files.pythonhosted.org/packages/97/e8/eb0d074fcfebd6f14d72c2c387335b08238756a752c8f07d0be608751564/camminapy-0.8.2.tar.gz
+[2023-05-25 11:37:07] INFO root fetch - processPackages [camminapy]: Downloading https://files.pythonhosted.org/packages/69/2f/e39a37d886231bc7f9c8ac1af6118999b330c99c528a66970ffa54519260/camminapy-0.8.3.tar.gz
+[2023-05-25 11:37:08] INFO root fetch - processPackages [camminapy]: executing diffoscope
+[2023-05-25 11:37:08] INFO root fetch - processPackages [camminapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camminapy-0.8.2.tar.gz tmp/camminapy-0.8.3.tar.gz --markdown 20230525/c/camminapy/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-05-25 11:37:08] INFO root fetch - processPackages [panoptic]: Start processing: aioairzone-cloud
+[2023-05-25 11:37:08] INFO root fetch - main [MainThread]: End processing [panoptic]: success
+[2023-05-25 11:37:08] INFO root fetch - processPackages [aioairzone-cloud]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-25 11:37:08] INFO root fetch - processPackages [metal-sdk]: Start processing: langchain-welm
+[2023-05-25 11:37:08] INFO root fetch - main [MainThread]: End processing [metal-sdk]: success
+[2023-05-25 11:37:08] INFO root fetch - processPackages [aioairzone-cloud]: Downloading https://files.pythonhosted.org/packages/5a/bc/c9fb68ca061d336000d61c37029cef964b4bfb77d092ee637fa166bbc329/aioairzone-cloud-0.1.5.tar.gz
+[2023-05-25 11:37:08] WARNING root fetch - processPackages [langchain-welm]: Skipping, unable to determine old version
+[2023-05-25 11:37:08] INFO root fetch - main [MainThread]: End processing [langchain-welm] error
+[2023-05-25 11:37:08] INFO root fetch - processPackages [aioairzone-cloud]: executing diffoscope
+[2023-05-25 11:37:08] INFO root fetch - processPackages [aioairzone-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioairzone-cloud-0.1.4.tar.gz tmp/aioairzone-cloud-0.1.5.tar.gz --markdown 20230525/a/aioairzone-cloud/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-25 11:37:08] INFO root fetch - main [MainThread]: End processing [camminapy]: success
+[2023-05-25 11:37:08] INFO root fetch - main [MainThread]: End processing [llm-rs]: success
+[2023-05-25 11:37:08] INFO root fetch - main [MainThread]: End processing [dbt-clickhouse]: success
+[2023-05-25 11:37:09] INFO root fetch - main [MainThread]: End processing [camminapy]: success
+[2023-05-25 11:37:09] INFO root fetch - main [MainThread]: End processing [aioairzone-cloud]: success
+[2023-05-25 11:37:10] INFO root fetch - main [MainThread]: End processing [FFHT-unofficial]: success
+[2023-05-25 11:37:13] INFO root fetch - main [MainThread]: End processing [c65faucet]: success
+[2023-05-25 11:39:06] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
+[2023-05-25 11:40:06] ERROR root fetch - processPackages [westat]: Timeout during execution of pkgdiff
+[2023-05-25 11:40:06] INFO root fetch - main [MainThread]: End processing [westat] error
+[2023-05-25 11:40:06] INFO root fetch - main [MainThread]: Store serial: [18244581]
