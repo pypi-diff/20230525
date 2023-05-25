@@ -14513,3 +14513,153 @@
 [2023-05-25 11:26:05] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-05-25 11:26:12] INFO root fetch - main [MainThread]: End processing [idyntree]: success
 [2023-05-25 11:26:12] INFO root fetch - main [MainThread]: Store serial: [18244401]
+[2023-05-25 11:31:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18244401]
+[2023-05-25 11:31:21] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-05-25 11:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iqm-client
+[2023-05-25 11:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: codecarbon
+[2023-05-25 11:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cluster-tools
+[2023-05-25 11:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: webknossos
+[2023-05-25 11:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wkcuber
+[2023-05-25 11:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: returnn
+[2023-05-25 11:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fantasy-agn
+[2023-05-25 11:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: isubrip
+[2023-05-25 11:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: SiteScraper
+[2023-05-25 11:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pf-fpga-tools
+[2023-05-25 11:31:21] INFO root fetch - processPackages [fantasy-agn]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-25 11:31:21] INFO root fetch - processPackages [SiteScraper]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-25 11:31:21] INFO root fetch - processPackages [returnn]: New version: [1.20230524.133005] Old Version: [1.20230524.103608]
+[2023-05-25 11:31:21] INFO root fetch - processPackages [isubrip]: New version: [2.4.1] Old Version: [2.4.0]
+[2023-05-25 11:31:21] INFO root fetch - processPackages [pf-fpga-tools]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-25 11:31:21] INFO root fetch - processPackages [iqm-client]: New version: [9.8] Old Version: [9.7]
+[2023-05-25 11:31:21] INFO root fetch - processPackages [cluster-tools]: New version: [1.61] Old Version: [1.60]
+[2023-05-25 11:31:21] INFO root fetch - processPackages [codecarbon]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-05-25 11:31:21] INFO root fetch - processPackages [webknossos]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-25 11:31:21] INFO root fetch - processPackages [wkcuber]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-25 11:31:21] INFO root fetch - processPackages [fantasy-agn]: Downloading https://files.pythonhosted.org/packages/cc/90/95397e6f29e928de891a8582d96bcac69e3666fd03167c7473b83c8f96f7/fantasy_agn-0.5.0.tar.gz
+[2023-05-25 11:31:21] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-05-25 11:31:21] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230524.103608.tar.gz tmp/returnn-1.20230524.133005.tar.gz --markdown 20230525/r/returnn/1.20230524.103608-1.20230524.133005/diff.md --exclude *.pyd
+[2023-05-25 11:31:21] INFO root fetch - processPackages [SiteScraper]: Downloading https://files.pythonhosted.org/packages/5d/e5/cb6b2ccef9a4796eb0f3dda2616b0f32931c255fe64bb01e594104c3252d/SiteScraper-0.2.1.tar.gz
+[2023-05-25 11:31:21] INFO root fetch - processPackages [iqm-client]: Downloading https://files.pythonhosted.org/packages/99/fc/f098b725596fbe26c658967e1c14b848d3a2c90549099d038fea031556f6/iqm-client-9.7.tar.gz
+[2023-05-25 11:31:21] INFO root fetch - processPackages [codecarbon]: Downloading https://files.pythonhosted.org/packages/9a/70/03a5e12f75320d158b4524f158470492e1e584e84fc524f6b51051f2f693/codecarbon-2.2.1.tar.gz
+[2023-05-25 11:31:22] INFO root fetch - processPackages [webknossos]: Downloading https://files.pythonhosted.org/packages/4d/c9/42745013d0db958e84167cf8ba8ddfd89dbae5c1261cbab4f13c519c94d3/webknossos-0.9.8.tar.gz
+[2023-05-25 11:31:22] INFO root fetch - processPackages [isubrip]: Downloading https://files.pythonhosted.org/packages/02/e9/7102467c16d9d416a30c6feda7ff814d3fb8df16cb8e03a9ce52165c3fdc/isubrip-2.4.1.tar.gz
+[2023-05-25 11:31:22] INFO root fetch - processPackages [cluster-tools]: Downloading https://files.pythonhosted.org/packages/55/95/8e06c87289a9b44d6590288790d348b307858d2b60a00ec30d67e9283c25/cluster_tools-1.60.tar.gz
+[2023-05-25 11:31:22] INFO root fetch - processPackages [wkcuber]: Downloading https://files.pythonhosted.org/packages/1f/47/f25418689a0e9fdac744fcb9b7be385689e30df7dc2920d46952c8f1d2a8/wkcuber-0.9.8.tar.gz
+[2023-05-25 11:31:22] INFO root fetch - processPackages [pf-fpga-tools]: Downloading https://files.pythonhosted.org/packages/fb/23/13781d2e32e45d24674e98d1577cc3188c68122f47b743056cd7860d218f/pf_fpga_tools-0.0.7.tar.gz
+[2023-05-25 11:31:22] INFO root fetch - processPackages [isubrip]: executing diffoscope
+[2023-05-25 11:31:22] INFO root fetch - processPackages [isubrip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isubrip-2.4.0.tar.gz tmp/isubrip-2.4.1.tar.gz --markdown 20230525/i/isubrip/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2023-05-25 11:31:22] INFO root fetch - processPackages [SiteScraper]: Downloading https://files.pythonhosted.org/packages/1f/f2/0017477345aaeaf6baacac17f07dcd8cabb766c48500559cf5e2e88eaf4a/SiteScraper-0.2.2.tar.gz
+[2023-05-25 11:31:22] INFO root fetch - processPackages [pf-fpga-tools]: executing diffoscope
+[2023-05-25 11:31:22] INFO root fetch - processPackages [pf-fpga-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pf_fpga_tools-0.0.6.tar.gz tmp/pf_fpga_tools-0.0.7.tar.gz --markdown 20230525/p/pf-fpga-tools/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-25 11:31:22] INFO root fetch - processPackages [codecarbon]: Downloading https://files.pythonhosted.org/packages/fe/13/110a99911196fb8d4f952b55c0068aaf75add6e2e5c69f8b535f331f1b3e/codecarbon-2.2.2.tar.gz
+[2023-05-25 11:31:22] INFO root fetch - processPackages [SiteScraper]: executing diffoscope
+[2023-05-25 11:31:22] INFO root fetch - processPackages [SiteScraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SiteScraper-0.2.1.tar.gz tmp/SiteScraper-0.2.2.tar.gz --markdown 20230525/S/SiteScraper/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-25 11:31:22] INFO root fetch - processPackages [codecarbon]: executing diffoscope
+[2023-05-25 11:31:22] INFO root fetch - processPackages [codecarbon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codecarbon-2.2.1.tar.gz tmp/codecarbon-2.2.2.tar.gz --markdown 20230525/c/codecarbon/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-05-25 11:31:22] INFO root fetch - processPackages [webknossos]: Downloading https://files.pythonhosted.org/packages/65/2d/254028182afa9bf201aacc282c3cd1026f4b26a37ffc1b5f38836ca32347/webknossos-0.9.9.tar.gz
+[2023-05-25 11:31:22] WARNING root fetch - processPackages [fantasy-agn]: Skipping package: exceeds size limit 97551877>=10485760
+[2023-05-25 11:31:22] INFO root fetch - processPackages [fantasy-agn]: Start processing: odoo-score
+[2023-05-25 11:31:22] INFO root fetch - main [MainThread]: End processing [fantasy-agn] error
+[2023-05-25 11:31:22] INFO root fetch - processPackages [iqm-client]: Downloading https://files.pythonhosted.org/packages/b5/0c/bc58a77ae5654da6f56e104c9317e6de8a82e0c8c546c5291848649874db/iqm-client-9.8.tar.gz
+[2023-05-25 11:31:22] INFO root fetch - processPackages [odoo-score]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-05-25 11:31:22] INFO root fetch - processPackages [webknossos]: executing diffoscope
+[2023-05-25 11:31:22] INFO root fetch - processPackages [webknossos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webknossos-0.9.8.tar.gz tmp/webknossos-0.9.9.tar.gz --markdown 20230525/w/webknossos/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-25 11:31:22] INFO root fetch - processPackages [cluster-tools]: Downloading https://files.pythonhosted.org/packages/f1/c8/cfa558d3aa9a9e9a7b5d923e1008b8553c75e12df34ecec1666b038ba0d1/cluster_tools-1.61.tar.gz
+[2023-05-25 11:31:22] INFO root fetch - processPackages [wkcuber]: Downloading https://files.pythonhosted.org/packages/1e/0d/56f73da95613fb934dde6a3aa295f38c542540f59b8e25cc7b6103d22a68/wkcuber-0.9.9.tar.gz
+[2023-05-25 11:31:22] INFO root fetch - processPackages [iqm-client]: executing diffoscope
+[2023-05-25 11:31:22] INFO root fetch - processPackages [iqm-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iqm-client-9.7.tar.gz tmp/iqm-client-9.8.tar.gz --markdown 20230525/i/iqm-client/9.7-9.8/diff.md --exclude *.pyd
+[2023-05-25 11:31:22] INFO root fetch - processPackages [odoo-score]: Downloading https://files.pythonhosted.org/packages/92/dd/25afb4e1a6f04ff3ace8dc26b49af0815f9642f93bcb0aca3c34f5696332/odoo_score-2.0.5.tar.gz
+[2023-05-25 11:31:22] INFO root fetch - processPackages [cluster-tools]: executing diffoscope
+[2023-05-25 11:31:22] INFO root fetch - processPackages [cluster-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cluster_tools-1.60.tar.gz tmp/cluster_tools-1.61.tar.gz --markdown 20230525/c/cluster-tools/1.60-1.61/diff.md --exclude *.pyd
+[2023-05-25 11:31:22] INFO root fetch - processPackages [wkcuber]: executing diffoscope
+[2023-05-25 11:31:22] INFO root fetch - processPackages [wkcuber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wkcuber-0.9.8.tar.gz tmp/wkcuber-0.9.9.tar.gz --markdown 20230525/w/wkcuber/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-25 11:31:23] INFO root fetch - processPackages [odoo-score]: Downloading https://files.pythonhosted.org/packages/41/4c/fe7a74eabb8ffa774d6180080493d1d18e46a7d80129b8215929c251cf0f/odoo_score-2.0.6.tar.gz
+[2023-05-25 11:31:23] INFO root fetch - processPackages [odoo-score]: executing diffoscope
+[2023-05-25 11:31:23] INFO root fetch - processPackages [odoo-score]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_score-2.0.5.tar.gz tmp/odoo_score-2.0.6.tar.gz --markdown 20230525/o/odoo-score/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-05-25 11:31:23] INFO root fetch - processPackages [pf-fpga-tools]: Start processing: hopic
+[2023-05-25 11:31:23] INFO root fetch - main [MainThread]: End processing [pf-fpga-tools]: success
+[2023-05-25 11:31:23] INFO root fetch - processPackages [hopic]: New version: [1.61.1] Old Version: [1.61.0]
+[2023-05-25 11:31:23] INFO root fetch - processPackages [SiteScraper]: Start processing: langchain-wenxin
+[2023-05-25 11:31:23] INFO root fetch - main [MainThread]: End processing [SiteScraper]: success
+[2023-05-25 11:31:23] INFO root fetch - processPackages [hopic]: executing diffoscope
+[2023-05-25 11:31:23] INFO root fetch - processPackages [hopic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hopic-1.61.0.tar.gz tmp/hopic-1.61.1-py3-none-any.whl.zip --markdown 20230525/h/hopic/1.61.0-1.61.1/diff.md --exclude *.pyd
+[2023-05-25 11:31:23] INFO root fetch - processPackages [langchain-wenxin]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-25 11:31:24] INFO root fetch - processPackages [isubrip]: Start processing: tianrannlp
+[2023-05-25 11:31:24] INFO root fetch - main [MainThread]: End processing [isubrip]: success
+[2023-05-25 11:31:24] INFO root fetch - processPackages [tianrannlp]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-25 11:31:24] INFO root fetch - processPackages [langchain-wenxin]: Downloading https://files.pythonhosted.org/packages/c2/2e/17fe606da9b695ae52d23215e080d34d679fcb1b382aa7f262cf6f6d3c9e/langchain_wenxin-0.2.0.tar.gz
+[2023-05-25 11:31:24] INFO root fetch - processPackages [langchain-wenxin]: executing diffoscope
+[2023-05-25 11:31:24] INFO root fetch - processPackages [langchain-wenxin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_wenxin-0.1.0.tar.gz tmp/langchain_wenxin-0.2.0.tar.gz --markdown 20230525/l/langchain-wenxin/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-25 11:31:24] INFO root fetch - processPackages [tianrannlp]: Downloading https://files.pythonhosted.org/packages/ae/8b/e3ecbaf8b5bb1367c013e516cf1786db5ba8a885ab679c947164544ccdd9/tianrannlp-0.0.3-py2.py3-none-any.whl
+[2023-05-25 11:31:24] INFO root fetch - processPackages [tianrannlp]: executing diffoscope
+[2023-05-25 11:31:24] INFO root fetch - processPackages [tianrannlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tianrannlp-0.0.2-py2.py3-none-any.whl.zip tmp/tianrannlp-0.0.3-py2.py3-none-any.whl.zip --markdown 20230525/t/tianrannlp/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-25 11:31:24] INFO root fetch - processPackages [codecarbon]: Start processing: netbox-cisco-maintenance
+[2023-05-25 11:31:24] INFO root fetch - main [MainThread]: End processing [codecarbon]: success
+[2023-05-25 11:31:24] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 11:31:24] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-05-25 11:31:24] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.8.tar.gz tmp/netbox-cisco-maintenance-0.0.9.tar.gz --markdown 20230525/n/netbox-cisco-maintenance/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 11:31:24] INFO root fetch - processPackages [cluster-tools]: Start processing: PyMoosh
+[2023-05-25 11:31:24] INFO root fetch - main [MainThread]: End processing [cluster-tools]: success
+[2023-05-25 11:31:24] INFO root fetch - processPackages [PyMoosh]: New version: [2.4] Old Version: [2.3]
+[2023-05-25 11:31:25] INFO root fetch - processPackages [PyMoosh]: Downloading https://files.pythonhosted.org/packages/8d/fc/6f18fd0de1c51d0d2d1d1348a510f9831fe7ff2e6d4b1c67f1629dfe4433/PyMoosh-2.4.tar.gz
+[2023-05-25 11:31:25] INFO root fetch - processPackages [PyMoosh]: executing diffoscope
+[2023-05-25 11:31:25] INFO root fetch - processPackages [PyMoosh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyMoosh-2.3.tar.gz tmp/PyMoosh-2.4.tar.gz --markdown 20230525/P/PyMoosh/2.3-2.4/diff.md --exclude *.pyd
+[2023-05-25 11:31:25] INFO root fetch - processPackages [hopic]: Start processing: camminapy
+[2023-05-25 11:31:25] INFO root fetch - main [MainThread]: End processing [hopic]: success
+[2023-05-25 11:31:25] INFO root fetch - processPackages [camminapy]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-05-25 11:31:25] INFO root fetch - processPackages [webknossos]: Start processing: PyEng
+[2023-05-25 11:31:25] INFO root fetch - main [MainThread]: End processing [webknossos]: success
+[2023-05-25 11:31:25] INFO root fetch - processPackages [camminapy]: executing diffoscope
+[2023-05-25 11:31:25] INFO root fetch - processPackages [camminapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camminapy-0.7.0.tar.gz tmp/camminapy-0.8.0.tar.gz --markdown 20230525/c/camminapy/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-05-25 11:31:25] INFO root fetch - processPackages [PyEng]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-25 11:31:25] INFO root fetch - processPackages [iqm-client]: Start processing: anoncreds
+[2023-05-25 11:31:25] INFO root fetch - main [MainThread]: End processing [iqm-client]: success
+[2023-05-25 11:31:25] INFO root fetch - processPackages [wkcuber]: Start processing: SiteScraper
+[2023-05-25 11:31:25] INFO root fetch - main [MainThread]: End processing [wkcuber]: success
+[2023-05-25 11:31:25] INFO root fetch - processPackages [SiteScraper]: New version: [1.2.2] Old Version: [0.2.4]
+[2023-05-25 11:31:25] INFO root fetch - processPackages [anoncreds]: New version: [0.1.0.dev18] Old Version: [0.1.0.dev17]
+[2023-05-25 11:31:25] INFO root fetch - processPackages [langchain-wenxin]: Start processing: langchain-mpt-wrapper
+[2023-05-25 11:31:25] INFO root fetch - main [MainThread]: End processing [langchain-wenxin]: success
+[2023-05-25 11:31:25] INFO root fetch - processPackages [PyEng]: Downloading https://files.pythonhosted.org/packages/8c/7b/fb0c86f8a376f574d74222bab7d15e5a53f726512bbff4be3a99c1c5ae31/PyEng-1.0.4.tar.gz
+[2023-05-25 11:31:25] INFO root fetch - processPackages [langchain-mpt-wrapper]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-25 11:31:25] INFO root fetch - processPackages [SiteScraper]: Downloading https://files.pythonhosted.org/packages/1c/a5/2380d2f0ba376da7e38beaafc3383a2d49ad8da4601c278991a5d3b43833/SiteScraper-0.2.4-py3-none-any.whl
+[2023-05-25 11:31:25] INFO root fetch - processPackages [tianrannlp]: Start processing: dbpyman
+[2023-05-25 11:31:25] INFO root fetch - main [MainThread]: End processing [tianrannlp]: success
+[2023-05-25 11:31:25] WARNING root fetch - processPackages [dbpyman]: Skipping, unable to determine old version
+[2023-05-25 11:31:25] INFO root fetch - processPackages [dbpyman]: Start processing: bluepyopt
+[2023-05-25 11:31:25] INFO root fetch - main [MainThread]: End processing [dbpyman] error
+[2023-05-25 11:31:25] INFO root fetch - processPackages [PyEng]: executing diffoscope
+[2023-05-25 11:31:25] INFO root fetch - processPackages [PyEng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyEng-1.0.3.tar.gz tmp/PyEng-1.0.4.tar.gz --markdown 20230525/P/PyEng/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-25 11:31:25] INFO root fetch - processPackages [langchain-mpt-wrapper]: Downloading https://files.pythonhosted.org/packages/5a/7c/4e244da561f2c8b1e5bbc5b1301210e25652ba48a972374e7b218cc5e314/langchain_mpt_wrapper-0.0.1.tar.gz
+[2023-05-25 11:31:26] INFO root fetch - processPackages [bluepyopt]: New version: [1.9.98] Old Version: [1.9.96]
+[2023-05-25 11:31:26] INFO root fetch - processPackages [anoncreds]: Downloading https://files.pythonhosted.org/packages/56/6c/688921c9a607d4f779236eafdaf43a03cfcee0668ce8aa9774f2266de873/anoncreds-0.1.0.dev18-py3-none-win_amd64.whl
+[2023-05-25 11:31:26] INFO root fetch - processPackages [SiteScraper]: Downloading https://files.pythonhosted.org/packages/c6/21/fa1c7673d5787c7a2b7561f76bd9769a708f3e63d145c0363480333c476d/SiteScraper-1.2.2-py3-none-any.whl
+[2023-05-25 11:31:26] INFO root fetch - processPackages [netbox-cisco-maintenance]: Start processing: dbdreader
+[2023-05-25 11:31:26] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-05-25 11:31:26] INFO root fetch - processPackages [langchain-mpt-wrapper]: Downloading https://files.pythonhosted.org/packages/14/d6/8653eac9a3ff183fb763218d02232f90ef2a87ee76401d8f9d45b7725c11/langchain_mpt_wrapper-0.0.2.tar.gz
+[2023-05-25 11:31:26] INFO root fetch - processPackages [bluepyopt]: Downloading https://files.pythonhosted.org/packages/02/51/e461071d827d1fafd2af5fbddbf633fa8ec6fe1cb1a547cb8afe2b45c2ef/bluepyopt-1.9.96.tar.gz
+[2023-05-25 11:31:26] INFO root fetch - processPackages [dbdreader]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-25 11:31:26] INFO root fetch - processPackages [langchain-mpt-wrapper]: executing diffoscope
+[2023-05-25 11:31:26] INFO root fetch - processPackages [SiteScraper]: executing diffoscope
+[2023-05-25 11:31:26] INFO root fetch - processPackages [langchain-mpt-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_mpt_wrapper-0.0.1.tar.gz tmp/langchain_mpt_wrapper-0.0.2.tar.gz --markdown 20230525/l/langchain-mpt-wrapper/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-25 11:31:26] INFO root fetch - processPackages [SiteScraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SiteScraper-0.2.4-py3-none-any.whl.zip tmp/SiteScraper-1.2.2-py3-none-any.whl.zip --markdown 20230525/S/SiteScraper/0.2.4-1.2.2/diff.md --exclude *.pyd
+[2023-05-25 11:31:26] INFO root fetch - main [MainThread]: End processing [odoo-score]: success
+[2023-05-25 11:31:26] INFO root fetch - processPackages [dbdreader]: Downloading https://files.pythonhosted.org/packages/cd/ed/b2684ba0195a585fa55bf8f5ad90c22deb209092834668fdb739e3af986b/dbdreader-0.4.8.tar.gz
+[2023-05-25 11:31:26] INFO root fetch - processPackages [bluepyopt]: Downloading https://files.pythonhosted.org/packages/65/0f/18a17694624fbea4932495e5caf19dd6d774a835d6a79289130c89a06a5e/bluepyopt-1.9.98.tar.gz
+[2023-05-25 11:31:26] INFO root fetch - processPackages [anoncreds]: executing diffoscope
+[2023-05-25 11:31:26] INFO root fetch - processPackages [anoncreds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anoncreds-0.1.0.dev17-py3-none-win_amd64.whl.zip tmp/anoncreds-0.1.0.dev18-py3-none-win_amd64.whl.zip --markdown 20230525/a/anoncreds/0.1.0.dev17-0.1.0.dev18/diff.md --exclude *.pyd
+[2023-05-25 11:31:26] INFO root fetch - processPackages [bluepyopt]: executing diffoscope
+[2023-05-25 11:31:26] INFO root fetch - processPackages [bluepyopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluepyopt-1.9.96.tar.gz tmp/bluepyopt-1.9.98.tar.gz --markdown 20230525/b/bluepyopt/1.9.96-1.9.98/diff.md --exclude *.pyd
+[2023-05-25 11:31:26] INFO root fetch - main [MainThread]: End processing [camminapy]: success
+[2023-05-25 11:31:27] INFO root fetch - main [MainThread]: End processing [PyMoosh]: success
+[2023-05-25 11:31:27] INFO root fetch - processPackages [dbdreader]: Downloading https://files.pythonhosted.org/packages/99/39/5aae2f710a3450516d386f796e10320ec4f834c92bd5431a8180f4da9746/dbdreader-0.4.9.tar.gz
+[2023-05-25 11:31:27] INFO root fetch - processPackages [dbdreader]: executing diffoscope
+[2023-05-25 11:31:27] INFO root fetch - processPackages [dbdreader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbdreader-0.4.8.tar.gz tmp/dbdreader-0.4.9.tar.gz --markdown 20230525/d/dbdreader/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-25 11:31:27] INFO root fetch - main [MainThread]: End processing [SiteScraper]: success
+[2023-05-25 11:31:27] INFO root fetch - main [MainThread]: End processing [langchain-mpt-wrapper]: success
+[2023-05-25 11:31:28] INFO root fetch - main [MainThread]: End processing [PyEng]: success
+[2023-05-25 11:31:28] INFO root fetch - main [MainThread]: End processing [dbdreader]: success
+[2023-05-25 11:31:29] INFO root fetch - main [MainThread]: End processing [bluepyopt]: success
+[2023-05-25 11:31:30] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-05-25 11:31:48] INFO root fetch - main [MainThread]: End processing [anoncreds]: success
+[2023-05-25 11:31:48] INFO root fetch - main [MainThread]: Store serial: [18244475]
