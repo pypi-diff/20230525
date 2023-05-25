@@ -12878,3 +12878,58 @@
 [2023-05-25 10:41:53] INFO root fetch - main [MainThread]: End processing [unified-planning]: success
 [2023-05-25 10:41:54] INFO root fetch - main [MainThread]: End processing [edsnlp]: success
 [2023-05-25 10:41:54] INFO root fetch - main [MainThread]: Store serial: [18243618]
+[2023-05-25 10:46:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18243618]
+[2023-05-25 10:47:04] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-25 10:47:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tff-nightly
+[2023-05-25 10:47:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyheartlib
+[2023-05-25 10:47:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: e2eqavn
+[2023-05-25 10:47:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hcai-nova-server-nightly
+[2023-05-25 10:47:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TCLR
+[2023-05-25 10:47:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pygsod
+[2023-05-25 10:47:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: conditionevaluator
+[2023-05-25 10:47:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: coconut-develop
+[2023-05-25 10:47:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: netbox-cisco-maintenance
+[2023-05-25 10:47:04] INFO root fetch - processPackages [e2eqavn]: New version: [1.2] Old Version: [1.1.1]
+[2023-05-25 10:47:04] INFO root fetch - processPackages [hcai-nova-server-nightly]: New version: [0.1.6.dev202305250824] Old Version: [0.1.6.dev202305250818]
+[2023-05-25 10:47:04] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 10:47:04] INFO root fetch - processPackages [coconut-develop]: New version: [3.0.1.post0.dev2] Old Version: [3.0.1.post0.dev1]
+[2023-05-25 10:47:04] INFO root fetch - processPackages [pyheartlib]: New version: [0.0.6] Old Version: [0.0.2]
+[2023-05-25 10:47:04] INFO root fetch - processPackages [pygsod]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-25 10:47:04] INFO root fetch - processPackages [e2eqavn]: executing diffoscope
+[2023-05-25 10:47:04] INFO root fetch - processPackages [e2eqavn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2eqavn-1.1.1-py3.10.egg tmp/e2eqavn-1.2-py2.py3-none-any.whl.zip --markdown 20230525/e/e2eqavn/1.1.1-1.2/diff.md --exclude *.pyd
+[2023-05-25 10:47:04] INFO root fetch - processPackages [TCLR]: New version: [2.0.0] Old Version: [1.8.0]
+[2023-05-25 10:47:04] WARNING root fetch - processPackages [conditionevaluator]: Skipping, unable to determine old version
+[2023-05-25 10:47:04] INFO root fetch - main [MainThread]: End processing [conditionevaluator] error
+[2023-05-25 10:47:04] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230525] Old Version: [0.0.1.dev20230524]
+[2023-05-25 10:47:04] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-05-25 10:47:04] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.8.tar.gz tmp/netbox-cisco-maintenance-0.0.9.tar.gz --markdown 20230525/n/netbox-cisco-maintenance/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 10:47:04] INFO root fetch - processPackages [hcai-nova-server-nightly]: Downloading https://files.pythonhosted.org/packages/a0/a3/5a6d794bc9788eb784f5b6ef1bd924336bfe608d7ef70c17c31f6be3a1fb/hcai-nova-server-nightly-0.1.6.dev202305250824.tar.gz
+[2023-05-25 10:47:04] INFO root fetch - processPackages [pygsod]: Downloading https://files.pythonhosted.org/packages/79/b3/a0b32b30c4db56fd894ccde21ab02d831b2e79419a9555da3ee3c2b3335b/pygsod-0.2.3.tar.gz
+[2023-05-25 10:47:04] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/d3/98/fca6fce83787792f50e7d9f2bbe158e67f0964fbd05376d1c41f766b57cf/tff_nightly-0.0.1.dev20230524-py2.py3-none-any.whl
+[2023-05-25 10:47:04] INFO root fetch - processPackages [pyheartlib]: Downloading https://files.pythonhosted.org/packages/8a/4c/ae17757e70955466da2e3f5f5757b293031f9058ca583afb36fe680aba57/pyheartlib-0.0.2.tar.gz
+[2023-05-25 10:47:04] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/3f/46/b9cd239b44837fc58f240e4009e5c0565bc5eb13ef5ad8683353e3d4ef4d/coconut-develop-3.0.1.post0.dev2.tar.gz
+[2023-05-25 10:47:04] INFO root fetch - processPackages [hcai-nova-server-nightly]: executing diffoscope
+[2023-05-25 10:47:04] INFO root fetch - processPackages [hcai-nova-server-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-nova-server-nightly-0.1.6.dev202305250818.tar.gz tmp/hcai-nova-server-nightly-0.1.6.dev202305250824.tar.gz --markdown 20230525/h/hcai-nova-server-nightly/0.1.6.dev202305250818-0.1.6.dev202305250824/diff.md --exclude *.pyd
+[2023-05-25 10:47:04] INFO root fetch - processPackages [coconut-develop]: executing diffoscope
+[2023-05-25 10:47:04] INFO root fetch - processPackages [coconut-develop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coconut-develop-3.0.1.post0.dev1.tar.gz tmp/coconut-develop-3.0.1.post0.dev2.tar.gz --markdown 20230525/c/coconut-develop/3.0.1.post0.dev1-3.0.1.post0.dev2/diff.md --exclude *.pyd
+[2023-05-25 10:47:04] INFO root fetch - processPackages [TCLR]: Downloading https://files.pythonhosted.org/packages/a3/2f/772ef549a641f2c7f911468fc379e9bfa1a5c7ee3e5a6381c5bd9d28732b/TCLR-2.0.0.tar.gz
+[2023-05-25 10:47:04] INFO root fetch - processPackages [pygsod]: Downloading https://files.pythonhosted.org/packages/e8/55/8d5d238a00fdd031d014f79b707b0169da48b6d76c85a565e7b3cfee04fc/pygsod-0.2.4.tar.gz
+[2023-05-25 10:47:04] INFO root fetch - processPackages [pyheartlib]: Downloading https://files.pythonhosted.org/packages/23/c0/0d436e9abf732d0ab771da27567aeab55b13b37868f3dde5bc7552697fce/pyheartlib-0.0.6.tar.gz
+[2023-05-25 10:47:04] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/a8/3e/09c500d7ab712c3340fbebe9e67b18dccc425f0536dc067fe4e82272acdb/tff_nightly-0.0.1.dev20230525-py2.py3-none-any.whl
+[2023-05-25 10:47:04] INFO root fetch - processPackages [pygsod]: executing diffoscope
+[2023-05-25 10:47:04] INFO root fetch - processPackages [pygsod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygsod-0.2.3.tar.gz tmp/pygsod-0.2.4.tar.gz --markdown 20230525/p/pygsod/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-25 10:47:04] INFO root fetch - processPackages [TCLR]: executing diffoscope
+[2023-05-25 10:47:04] INFO root fetch - processPackages [TCLR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TCLR-1.8.0.tar.gz tmp/TCLR-2.0.0.tar.gz --markdown 20230525/T/TCLR/1.8.0-2.0.0/diff.md --exclude *.pyd
+[2023-05-25 10:47:04] INFO root fetch - processPackages [pyheartlib]: executing diffoscope
+[2023-05-25 10:47:04] INFO root fetch - processPackages [pyheartlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyheartlib-0.0.2.tar.gz tmp/pyheartlib-0.0.6.tar.gz --markdown 20230525/p/pyheartlib/0.0.2-0.0.6/diff.md --exclude *.pyd
+[2023-05-25 10:47:05] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-05-25 10:47:05] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230524-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230525-py2.py3-none-any.whl.zip --markdown 20230525/t/tff-nightly/0.0.1.dev20230524-0.0.1.dev20230525/diff.md --exclude *.pyd
+[2023-05-25 10:47:05] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-05-25 10:47:05] INFO root fetch - main [MainThread]: End processing [e2eqavn]: success
+[2023-05-25 10:47:06] INFO root fetch - main [MainThread]: End processing [TCLR]: success
+[2023-05-25 10:47:06] INFO root fetch - main [MainThread]: End processing [pyheartlib]: success
+[2023-05-25 10:47:06] INFO root fetch - main [MainThread]: End processing [hcai-nova-server-nightly]: success
+[2023-05-25 10:47:06] INFO root fetch - main [MainThread]: End processing [pygsod]: success
+[2023-05-25 10:47:06] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
+[2023-05-25 10:47:11] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-05-25 10:47:11] INFO root fetch - main [MainThread]: Store serial: [18243643]
