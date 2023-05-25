@@ -10399,3 +10399,66 @@
 [2023-05-25 07:50:18] INFO root fetch - main [MainThread]: End processing [seeFretboard]: success
 [2023-05-25 07:50:36] INFO root fetch - main [MainThread]: End processing [volcengine-python-sdk]: success
 [2023-05-25 07:50:36] INFO root fetch - main [MainThread]: Store serial: [18242024]
+[2023-05-25 07:55:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18242024]
+[2023-05-25 07:55:46] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-25 07:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: slurmrestapi
+[2023-05-25 07:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-stock-release-channel
+[2023-05-25 07:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: olympipe
+[2023-05-25 07:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rsrch
+[2023-05-25 07:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flowmachine
+[2023-05-25 07:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flowclient
+[2023-05-25 07:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flowetl
+[2023-05-25 07:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: py-Ayiin
+[2023-05-25 07:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: certora-cli-alpha-master
+[2023-05-25 07:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: easyTCR
+[2023-05-25 07:55:46] INFO root fetch - processPackages [slurmrestapi]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-25 07:55:46] INFO root fetch - processPackages [rsrch]: New version: [0.2.0] Old Version: [0.1.4]
+[2023-05-25 07:55:46] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: New version: [16.0.2.0.1.2] Old Version: [16.0.2.0.1]
+[2023-05-25 07:55:46] INFO root fetch - processPackages [py-Ayiin]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-05-25 07:55:46] INFO root fetch - processPackages [olympipe]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-25 07:55:46] INFO root fetch - processPackages [easyTCR]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-25 07:55:46] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230525.5.52.968882] Old Version: [20230525.0.17.622583]
+[2023-05-25 07:55:46] INFO root fetch - processPackages [flowclient]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-05-25 07:55:46] INFO root fetch - processPackages [flowmachine]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-05-25 07:55:46] INFO root fetch - processPackages [flowetl]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-05-25 07:55:46] INFO root fetch - processPackages [rsrch]: Downloading https://files.pythonhosted.org/packages/06/86/a875665a7cc84905a16fbb6fcabe34f2825cb704774f364d397a740f1ce3/rsrch-0.1.4.tar.gz
+[2023-05-25 07:55:46] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: Downloading https://files.pythonhosted.org/packages/86/0c/70698866d0fd8b4277b3e6324e7cba24594a1d5784abad4f36eacafe74bb/odoo_addon_stock_release_channel-16.0.2.0.1-py3-none-any.whl
+[2023-05-25 07:55:46] INFO root fetch - processPackages [slurmrestapi]: Downloading https://files.pythonhosted.org/packages/9c/17/41eca8c2c86730e57ac24943ed99c118acedfdbce5a63576c0249a7af26a/slurmrestapi-1.0.0.tar.gz
+[2023-05-25 07:55:46] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/3d/19/4aa687304d81718cabbc1f070c605a0f03e74d2c46ec0bc76d6c073eb3b4/certora-cli-alpha-master-20230525.0.17.622583.tar.gz
+[2023-05-25 07:55:46] INFO root fetch - processPackages [easyTCR]: Downloading https://files.pythonhosted.org/packages/97/43/7844e1665fe05126f646b2a3f2337558745ee178b4b7170de6aa9b453b3c/EasyTCR-0.0.1.tar.gz
+[2023-05-25 07:55:46] INFO root fetch - processPackages [flowclient]: executing diffoscope
+[2023-05-25 07:55:46] INFO root fetch - processPackages [flowclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowclient-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowclient-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230525/f/flowclient/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-05-25 07:55:46] INFO root fetch - processPackages [flowmachine]: executing diffoscope
+[2023-05-25 07:55:46] INFO root fetch - processPackages [flowmachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowmachine-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230525/f/flowmachine/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-05-25 07:55:46] INFO root fetch - processPackages [flowetl]: executing diffoscope
+[2023-05-25 07:55:46] INFO root fetch - processPackages [flowetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowetl-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowetl-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230525/f/flowetl/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-05-25 07:55:46] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/f1/aa/bf046dcaff4dbf466baec184846857df09402450120ce6bd964daf66fca1/py-Ayiin-0.3.8.tar.gz
+[2023-05-25 07:55:46] INFO root fetch - processPackages [py-Ayiin]: executing diffoscope
+[2023-05-25 07:55:46] INFO root fetch - processPackages [py-Ayiin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-Ayiin-0.3.7.tar.gz tmp/py-Ayiin-0.3.8.tar.gz --markdown 20230525/p/py-Ayiin/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-05-25 07:55:46] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 39001836>=10485760
+[2023-05-25 07:55:46] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-05-25 07:55:46] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: Downloading https://files.pythonhosted.org/packages/60/48/8391e66b29dcd663f63c077825d48b8eba0b67ff4d29a360e7b19ec13edc/odoo_addon_stock_release_channel-16.0.2.0.1.2-py3-none-any.whl
+[2023-05-25 07:55:46] INFO root fetch - processPackages [slurmrestapi]: Downloading https://files.pythonhosted.org/packages/93/c8/e4b72395d032e438f065943716cbfbf83d9d9c037b83cbeabcc1888f595e/slurmrestapi-1.0.1.tar.gz
+[2023-05-25 07:55:46] INFO root fetch - processPackages [easyTCR]: Downloading https://files.pythonhosted.org/packages/60/d7/5dd6d62f39c86c4f57c8d1f89d0eee069c5a9ef662e2121e328a630cbd01/easyTCR-0.0.2.tar.gz
+[2023-05-25 07:55:46] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: executing diffoscope
+[2023-05-25 07:55:46] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_release_channel-16.0.2.0.1-py3-none-any.whl.zip tmp/odoo_addon_stock_release_channel-16.0.2.0.1.2-py3-none-any.whl.zip --markdown 20230525/o/odoo-addon-stock-release-channel/16.0.2.0.1-16.0.2.0.1.2/diff.md --exclude *.pyd
+[2023-05-25 07:55:46] INFO root fetch - processPackages [olympipe]: Downloading https://files.pythonhosted.org/packages/c6/b4/81274b4a76b41dc68692818f5a061ce7e9ff84d3f8e3c8f554a1cbab7870/olympipe-1.1.9.tar.gz
+[2023-05-25 07:55:46] INFO root fetch - processPackages [slurmrestapi]: executing diffoscope
+[2023-05-25 07:55:46] INFO root fetch - processPackages [slurmrestapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slurmrestapi-1.0.0.tar.gz tmp/slurmrestapi-1.0.1.tar.gz --markdown 20230525/s/slurmrestapi/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-25 07:55:47] INFO root fetch - processPackages [easyTCR]: executing diffoscope
+[2023-05-25 07:55:47] INFO root fetch - processPackages [easyTCR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EasyTCR-0.0.1.tar.gz tmp/easyTCR-0.0.2.tar.gz --markdown 20230525/e/easyTCR/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-25 07:55:47] INFO root fetch - processPackages [rsrch]: Downloading https://files.pythonhosted.org/packages/2d/40/2766dd2bc9fb8e1b43f2948a0a5770bb8f06630d93c7cbf666ea89e62d7d/rsrch-0.2.0.tar.gz
+[2023-05-25 07:55:47] INFO root fetch - processPackages [olympipe]: executing diffoscope
+[2023-05-25 07:55:47] INFO root fetch - processPackages [olympipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/olympipe-1.1.8.tar.gz tmp/olympipe-1.1.9.tar.gz --markdown 20230525/o/olympipe/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-25 07:55:47] INFO root fetch - processPackages [rsrch]: executing diffoscope
+[2023-05-25 07:55:47] INFO root fetch - processPackages [rsrch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rsrch-0.1.4.tar.gz tmp/rsrch-0.2.0.tar.gz --markdown 20230525/r/rsrch/0.1.4-0.2.0/diff.md --exclude *.pyd
+[2023-05-25 07:55:48] INFO root fetch - main [MainThread]: End processing [flowclient]: success
+[2023-05-25 07:55:48] INFO root fetch - main [MainThread]: End processing [flowetl]: success
+[2023-05-25 07:55:48] INFO root fetch - main [MainThread]: End processing [py-Ayiin]: success
+[2023-05-25 07:55:48] INFO root fetch - main [MainThread]: End processing [easyTCR]: success
+[2023-05-25 07:55:48] INFO root fetch - main [MainThread]: End processing [olympipe]: success
+[2023-05-25 07:55:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-release-channel]: success
+[2023-05-25 07:55:49] INFO root fetch - main [MainThread]: End processing [rsrch]: success
+[2023-05-25 07:55:49] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
+[2023-05-25 07:55:59] INFO root fetch - main [MainThread]: End processing [slurmrestapi]: success
+[2023-05-25 07:55:59] INFO root fetch - main [MainThread]: Store serial: [18242051]
