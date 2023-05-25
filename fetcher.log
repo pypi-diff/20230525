@@ -15443,3 +15443,57 @@
 [2023-05-25 12:13:54] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
 [2023-05-25 12:13:56] INFO root fetch - main [MainThread]: End processing [optuna-dashboard]: success
 [2023-05-25 12:13:56] INFO root fetch - main [MainThread]: Store serial: [18244951]
+[2023-05-25 12:19:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18244951]
+[2023-05-25 12:19:06] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-25 12:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyPreservica
+[2023-05-25 12:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: licensekeygentest
+[2023-05-25 12:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kcli
+[2023-05-25 12:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sequana-laa
+[2023-05-25 12:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: frds
+[2023-05-25 12:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: medivisio
+[2023-05-25 12:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: UEVaultManager
+[2023-05-25 12:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kfish
+[2023-05-25 12:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lazynovel
+[2023-05-25 12:19:06] INFO root fetch - processPackages [licensekeygentest]: New version: [1.1.2] Old Version: [1.0.2]
+[2023-05-25 12:19:06] WARNING root fetch - processPackages [medivisio]: Skipping, unable to determine old version
+[2023-05-25 12:19:06] INFO root fetch - main [MainThread]: End processing [medivisio] error
+[2023-05-25 12:19:06] INFO root fetch - processPackages [UEVaultManager]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-05-25 12:19:06] INFO root fetch - processPackages [lazynovel]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-25 12:19:06] INFO root fetch - processPackages [kfish]: New version: [99.0.202305250658] Old Version: [99.0.202305242211]
+[2023-05-25 12:19:06] INFO root fetch - processPackages [kcli]: New version: [99.0.202305250656] Old Version: [99.0.202305242209]
+[2023-05-25 12:19:06] INFO root fetch - processPackages [sequana-laa]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-25 12:19:06] INFO root fetch - processPackages [frds]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-05-25 12:19:06] INFO root fetch - processPackages [pyPreservica]: New version: [2.0.0] Old Version: [1.7.9]
+[2023-05-25 12:19:06] INFO root fetch - processPackages [lazynovel]: executing diffoscope
+[2023-05-25 12:19:06] INFO root fetch - processPackages [lazynovel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazynovel-0.1.0.tar.gz tmp/lazynovel-0.1.1.tar.gz --markdown 20230525/l/lazynovel/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-25 12:19:06] INFO root fetch - processPackages [licensekeygentest]: Downloading https://files.pythonhosted.org/packages/2c/6c/125c94ee4e4a4216bebd8cb2b87bffd68da7ba361b1cbd91910d5e8ced49/licensekeygentest-1.1.2.tar.gz
+[2023-05-25 12:19:06] INFO root fetch - processPackages [UEVaultManager]: Downloading https://files.pythonhosted.org/packages/fc/45/24bccb8cdae1d72d84e6bdc4678e72cb33cf46f6582bdf820eae32a17854/UEVaultManager-1.5.1.tar.gz
+[2023-05-25 12:19:06] INFO root fetch - processPackages [sequana-laa]: Downloading https://files.pythonhosted.org/packages/b4/4d/39f118cfaa6ac97456107547a9b337b2e95ac2c9d8f3b4dec8aded3de019/sequana_laa-0.8.0.tar.gz
+[2023-05-25 12:19:06] INFO root fetch - processPackages [frds]: Downloading https://files.pythonhosted.org/packages/1f/3f/28ad49e66353e06e1d4b0fe5938ca26ee782ac907122c105ba4614e66282/frds-1.0.1.tar.gz
+[2023-05-25 12:19:06] INFO root fetch - processPackages [licensekeygentest]: executing diffoscope
+[2023-05-25 12:19:06] INFO root fetch - processPackages [licensekeygentest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/licensekeygentest-1.0.2.tar.gz tmp/licensekeygentest-1.1.2.tar.gz --markdown 20230525/l/licensekeygentest/1.0.2-1.1.2/diff.md --exclude *.pyd
+[2023-05-25 12:19:06] INFO root fetch - processPackages [UEVaultManager]: executing diffoscope
+[2023-05-25 12:19:06] INFO root fetch - processPackages [UEVaultManager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UEVaultManager-1.5.0.tar.gz tmp/UEVaultManager-1.5.1.tar.gz --markdown 20230525/U/UEVaultManager/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-05-25 12:19:06] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/21/3c/5f087d5b307f6bac65455521b88466495333eac6d1bb65cad01d90858fc5/kfish-99.0.202305250658-py3-none-any.whl
+[2023-05-25 12:19:06] INFO root fetch - processPackages [pyPreservica]: executing diffoscope
+[2023-05-25 12:19:06] INFO root fetch - processPackages [pyPreservica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyPreservica-1.7.9.tar.gz tmp/pyPreservica-2.0.0.tar.gz --markdown 20230525/p/pyPreservica/1.7.9-2.0.0/diff.md --exclude *.pyd
+[2023-05-25 12:19:07] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-05-25 12:19:07] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202305242211-py3-none-any.whl.zip tmp/kfish-99.0.202305250658-py3-none-any.whl.zip --markdown 20230525/k/kfish/99.0.202305242211-99.0.202305250658/diff.md --exclude *.pyd
+[2023-05-25 12:19:07] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/0e/6d/934d26dfa4e8652176eeab49c4395e8a5ba416ecae0aee7162a7b407534e/kcli-99.0.202305250656-py3-none-any.whl
+[2023-05-25 12:19:07] INFO root fetch - processPackages [frds]: Downloading https://files.pythonhosted.org/packages/e4/a8/ff5f303e858b3b491ec42ea3bd3ffb0b8fc15e7047dcfab90ae6b148ee23/frds-1.1.0.tar.gz
+[2023-05-25 12:19:07] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-05-25 12:19:07] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202305242209-py3-none-any.whl.zip tmp/kcli-99.0.202305250656-py3-none-any.whl.zip --markdown 20230525/k/kcli/99.0.202305242209-99.0.202305250656/diff.md --exclude *.pyd
+[2023-05-25 12:19:07] INFO root fetch - processPackages [frds]: executing diffoscope
+[2023-05-25 12:19:07] INFO root fetch - processPackages [frds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frds-1.0.1.tar.gz tmp/frds-1.1.0.tar.gz --markdown 20230525/f/frds/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-05-25 12:19:07] INFO root fetch - processPackages [sequana-laa]: Downloading https://files.pythonhosted.org/packages/36/c9/2e4aa9500870e287f315e2fd9ed61291690628dc722e828b8b76e156a366/sequana_laa-0.9.0.tar.gz
+[2023-05-25 12:19:07] INFO root fetch - processPackages [sequana-laa]: executing diffoscope
+[2023-05-25 12:19:07] INFO root fetch - processPackages [sequana-laa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sequana_laa-0.8.0.tar.gz tmp/sequana_laa-0.9.0.tar.gz --markdown 20230525/s/sequana-laa/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-25 12:19:08] INFO root fetch - main [MainThread]: End processing [licensekeygentest]: success
+[2023-05-25 12:19:08] INFO root fetch - main [MainThread]: End processing [lazynovel]: success
+[2023-05-25 12:19:08] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-05-25 12:19:08] INFO root fetch - main [MainThread]: End processing [pyPreservica]: success
+[2023-05-25 12:19:08] INFO root fetch - main [MainThread]: End processing [sequana-laa]: success
+[2023-05-25 12:19:10] INFO root fetch - main [MainThread]: End processing [UEVaultManager]: success
+[2023-05-25 12:19:10] INFO root fetch - main [MainThread]: End processing [frds]: success
+[2023-05-25 12:19:16] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-05-25 12:19:16] INFO root fetch - main [MainThread]: Store serial: [18244979]
