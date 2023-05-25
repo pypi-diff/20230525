@@ -6716,3 +6716,102 @@
 [2023-05-25 04:53:58] INFO root fetch - main [MainThread]: End processing [odoo11-addon-sale-commission-formula]: success
 [2023-05-25 04:53:58] INFO root fetch - main [MainThread]: End processing [odoo12-addon-sale-commission]: success
 [2023-05-25 04:53:58] INFO root fetch - main [MainThread]: Store serial: [18240275]
+[2023-05-25 04:59:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18240275]
+[2023-05-25 04:59:07] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-25 04:59:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo13-addon-sale-commission
+[2023-05-25 04:59:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo12-addon-sale-commission-formula
+[2023-05-25 04:59:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo13-addon-sale-commission-formula
+[2023-05-25 04:59:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo12-addon-sale-commission-pricelist
+[2023-05-25 04:59:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo13-addon-sale-commission-pricelist
+[2023-05-25 04:59:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-sale-commission-product-criteria
+[2023-05-25 04:59:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-commission-formula
+[2023-05-25 04:59:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cacheyou
+[2023-05-25 04:59:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addons-oca-commission
+[2023-05-25 04:59:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tap-readthedocs
+[2023-05-25 04:59:07] WARNING root fetch - processPackages [odoo14-addon-sale-commission-product-criteria]: Skipping, unable to determine old version
+[2023-05-25 04:59:07] INFO root fetch - processPackages [odoo14-addon-sale-commission-product-criteria]: Start processing: odoo8-addon-connector
+[2023-05-25 04:59:07] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-commission-product-criteria] error
+[2023-05-25 04:59:07] INFO root fetch - processPackages [odoo12-addon-sale-commission-formula]: New version: [12.0.1.1.0.99.dev5] Old Version: [12.0.1.1.0.99.dev4]
+[2023-05-25 04:59:07] INFO root fetch - processPackages [odoo13-addon-sale-commission-formula]: New version: [13.0.1.1.2.dev4] Old Version: [13.0.1.1.2.dev3]
+[2023-05-25 04:59:07] INFO root fetch - processPackages [odoo13-addon-sale-commission]: New version: [13.0.1.8.1.dev8] Old Version: [13.0.1.8.1.dev6]
+[2023-05-25 04:59:07] INFO root fetch - processPackages [cacheyou]: New version: [23.3] Old Version: [23.2]
+[2023-05-25 04:59:07] WARNING root fetch - processPackages [tap-readthedocs]: Skipping, unable to determine old version
+[2023-05-25 04:59:07] INFO root fetch - processPackages [tap-readthedocs]: Start processing: we-factor-quad
+[2023-05-25 04:59:07] INFO root fetch - main [MainThread]: End processing [tap-readthedocs] error
+[2023-05-25 04:59:07] INFO root fetch - processPackages [odoo-addon-commission-formula]: New version: [15.0.1.0.0.5] Old Version: [15.0.1.0.0.4]
+[2023-05-25 04:59:07] INFO root fetch - processPackages [odoo13-addon-sale-commission-pricelist]: New version: [13.0.1.1.1.dev5] Old Version: [13.0.1.1.1.dev4]
+[2023-05-25 04:59:07] INFO root fetch - processPackages [odoo14-addons-oca-commission]: New version: [14.0.20230524.0] Old Version: [14.0.20221201.0]
+[2023-05-25 04:59:07] INFO root fetch - processPackages [odoo12-addon-sale-commission-pricelist]: New version: [12.0.1.0.0.99.dev8] Old Version: [12.0.1.0.0.99.dev6]
+[2023-05-25 04:59:07] INFO root fetch - processPackages [odoo8-addon-connector]: New version: [8.0.3.4.0.99.dev7] Old Version: [8.0.3.4.0.99.dev6]
+[2023-05-25 04:59:08] INFO root fetch - processPackages [we-factor-quad]: New version: [0.5.0] Old Version: [0.0.4.1]
+[2023-05-25 04:59:08] INFO root fetch - processPackages [odoo13-addon-sale-commission-formula]: Downloading https://files.pythonhosted.org/packages/64/c8/294068b447516989f1705d703d161fc2afe9350ba78ab228012e0994aed0/odoo13_addon_sale_commission_formula-13.0.1.1.2.dev3-py3-none-any.whl
+[2023-05-25 04:59:08] INFO root fetch - processPackages [odoo12-addon-sale-commission-formula]: Downloading https://files.pythonhosted.org/packages/fc/a8/2a1d03cc5f22be60bfef6f7735185bf705aa0c5e9f06697cfd6cca1ad149/odoo12_addon_sale_commission_formula-12.0.1.1.0.99.dev4-py3-none-any.whl
+[2023-05-25 04:59:08] INFO root fetch - processPackages [odoo-addon-commission-formula]: Downloading https://files.pythonhosted.org/packages/83/0f/30339552a98d50df1bbac94a772476e0af3971ed40fc9aa5709b7380bd56/odoo_addon_commission_formula-15.0.1.0.0.4-py3-none-any.whl
+[2023-05-25 04:59:08] INFO root fetch - processPackages [odoo13-addon-sale-commission]: Downloading https://files.pythonhosted.org/packages/82/dc/cce8260d9a8a5b117d1317142ccaae72a1d6e05b81f44132df7a9b6f5016/odoo13_addon_sale_commission-13.0.1.8.1.dev6-py3-none-any.whl
+[2023-05-25 04:59:08] INFO root fetch - processPackages [odoo12-addon-sale-commission-pricelist]: Downloading https://files.pythonhosted.org/packages/dd/3e/e725280bfb714de2153a16f4ea2ee633529704413ec85e44b0be04f1d5d6/odoo12_addon_sale_commission_pricelist-12.0.1.0.0.99.dev6-py3-none-any.whl
+[2023-05-25 04:59:08] INFO root fetch - processPackages [odoo13-addon-sale-commission-pricelist]: Downloading https://files.pythonhosted.org/packages/a5/54/e7ad8ee08d480877c42e2f8874ba6e1522866675bd9fce9964364dfe2ae6/odoo13_addon_sale_commission_pricelist-13.0.1.1.1.dev4-py3-none-any.whl
+[2023-05-25 04:59:08] INFO root fetch - processPackages [odoo14-addons-oca-commission]: Downloading https://files.pythonhosted.org/packages/05/8b/190c29365ba9e3168a6e76b1c03335a44ac57e6b8ac26fee53ca3ae5f072/odoo14_addons_oca_commission-14.0.20221201.0-py3-none-any.whl
+[2023-05-25 04:59:08] INFO root fetch - processPackages [we-factor-quad]: Downloading https://files.pythonhosted.org/packages/66/38/f8055d9d6a4f07323a7e4a15f5e23eeab9d94207c94a0390d43c923c4599/we_factor_quad-0.0.4.1-py3-none-any.whl
+[2023-05-25 04:59:08] INFO root fetch - processPackages [cacheyou]: Downloading https://files.pythonhosted.org/packages/8e/6e/8a9d13f938789b29e89b78cfeb9d0a9e002c67272ead73060c8306b74fc8/cacheyou-23.3.tar.gz
+[2023-05-25 04:59:08] INFO root fetch - processPackages [odoo8-addon-connector]: Downloading https://files.pythonhosted.org/packages/93/53/7d3cf6b3e3bccb0d7876cd0353c1933aebfcce604d458f817e208d54834e/odoo8_addon_connector-8.0.3.4.0.99.dev7-py2-none-any.whl
+[2023-05-25 04:59:08] INFO root fetch - processPackages [odoo-addon-commission-formula]: Downloading https://files.pythonhosted.org/packages/fe/f9/c8c52915dab9220123a962528243eac13ec46e28fafd88aa0d8223120295/odoo_addon_commission_formula-15.0.1.0.0.5-py3-none-any.whl
+[2023-05-25 04:59:08] INFO root fetch - processPackages [odoo14-addons-oca-commission]: Downloading https://files.pythonhosted.org/packages/9a/8f/199a27f2adebb9891dbd65901c5e046ab909d9a19707d3925d2438b27817/odoo14_addons_oca_commission-14.0.20230524.0-py3-none-any.whl
+[2023-05-25 04:59:08] INFO root fetch - processPackages [odoo12-addon-sale-commission-formula]: Downloading https://files.pythonhosted.org/packages/a0/4e/31d2ba881e97580e97ad2111d2fed00b48c7ea8bbb5101d00e2b43ce63ae/odoo12_addon_sale_commission_formula-12.0.1.1.0.99.dev5-py3-none-any.whl
+[2023-05-25 04:59:08] INFO root fetch - processPackages [odoo13-addon-sale-commission-formula]: Downloading https://files.pythonhosted.org/packages/4a/9d/c56866a2f21097c91ce05204c6b60b6c17b3ab00ecbea384d595a4967be1/odoo13_addon_sale_commission_formula-13.0.1.1.2.dev4-py3-none-any.whl
+[2023-05-25 04:59:08] INFO root fetch - processPackages [odoo13-addon-sale-commission-pricelist]: Downloading https://files.pythonhosted.org/packages/8b/34/3b7a3213fc676c1748d437b59b66fe573c7860495dc87f5c47f6d98bd747/odoo13_addon_sale_commission_pricelist-13.0.1.1.1.dev5-py3-none-any.whl
+[2023-05-25 04:59:08] INFO root fetch - processPackages [we-factor-quad]: Downloading https://files.pythonhosted.org/packages/0b/5c/de6a5ab7914c328e34da59cc26b72e6ef5adb644b6fc337bccdee213dc13/we_factor_quad-0.5.0-py3-none-any.whl
+[2023-05-25 04:59:08] INFO root fetch - processPackages [odoo13-addon-sale-commission]: Downloading https://files.pythonhosted.org/packages/42/63/af124af572288fc9b52cc50bf309008b0ae4cb4312f0f3b6d94cc20df777/odoo13_addon_sale_commission-13.0.1.8.1.dev8-py3-none-any.whl
+[2023-05-25 04:59:08] INFO root fetch - processPackages [cacheyou]: executing diffoscope
+[2023-05-25 04:59:08] INFO root fetch - processPackages [cacheyou]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cacheyou-23.2.tar.gz tmp/cacheyou-23.3.tar.gz --markdown 20230525/c/cacheyou/23.2-23.3/diff.md --exclude *.pyd
+[2023-05-25 04:59:08] INFO root fetch - processPackages [odoo12-addon-sale-commission-pricelist]: Downloading https://files.pythonhosted.org/packages/df/24/e13ed4601d0ea4ba3f5b82e03a19078f5f910845b29cba4a661687ddc2d5/odoo12_addon_sale_commission_pricelist-12.0.1.0.0.99.dev8-py3-none-any.whl
+[2023-05-25 04:59:08] INFO root fetch - processPackages [odoo-addon-commission-formula]: executing diffoscope
+[2023-05-25 04:59:08] INFO root fetch - processPackages [odoo-addon-commission-formula]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_commission_formula-15.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_commission_formula-15.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230525/o/odoo-addon-commission-formula/15.0.1.0.0.4-15.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-05-25 04:59:08] INFO root fetch - processPackages [odoo14-addons-oca-commission]: executing diffoscope
+[2023-05-25 04:59:08] INFO root fetch - processPackages [odoo14-addons-oca-commission]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_commission-14.0.20221201.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_commission-14.0.20230524.0-py3-none-any.whl.zip --markdown 20230525/o/odoo14-addons-oca-commission/14.0.20221201.0-14.0.20230524.0/diff.md --exclude *.pyd
+[2023-05-25 04:59:08] INFO root fetch - processPackages [odoo8-addon-connector]: executing diffoscope
+[2023-05-25 04:59:08] INFO root fetch - processPackages [odoo8-addon-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_connector-8.0.3.4.0.99.dev6-py2-none-any.whl.zip tmp/odoo8_addon_connector-8.0.3.4.0.99.dev7-py2-none-any.whl.zip --markdown 20230525/o/odoo8-addon-connector/8.0.3.4.0.99.dev6-8.0.3.4.0.99.dev7/diff.md --exclude *.pyd
+[2023-05-25 04:59:08] INFO root fetch - processPackages [odoo12-addon-sale-commission-formula]: executing diffoscope
+[2023-05-25 04:59:08] INFO root fetch - processPackages [odoo12-addon-sale-commission-formula]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_sale_commission_formula-12.0.1.1.0.99.dev4-py3-none-any.whl.zip tmp/odoo12_addon_sale_commission_formula-12.0.1.1.0.99.dev5-py3-none-any.whl.zip --markdown 20230525/o/odoo12-addon-sale-commission-formula/12.0.1.1.0.99.dev4-12.0.1.1.0.99.dev5/diff.md --exclude *.pyd
+[2023-05-25 04:59:08] INFO root fetch - processPackages [odoo13-addon-sale-commission-pricelist]: executing diffoscope
+[2023-05-25 04:59:08] INFO root fetch - processPackages [odoo13-addon-sale-commission-pricelist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_sale_commission_pricelist-13.0.1.1.1.dev4-py3-none-any.whl.zip tmp/odoo13_addon_sale_commission_pricelist-13.0.1.1.1.dev5-py3-none-any.whl.zip --markdown 20230525/o/odoo13-addon-sale-commission-pricelist/13.0.1.1.1.dev4-13.0.1.1.1.dev5/diff.md --exclude *.pyd
+[2023-05-25 04:59:08] INFO root fetch - processPackages [odoo13-addon-sale-commission-formula]: executing diffoscope
+[2023-05-25 04:59:08] INFO root fetch - processPackages [odoo13-addon-sale-commission-formula]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_sale_commission_formula-13.0.1.1.2.dev3-py3-none-any.whl.zip tmp/odoo13_addon_sale_commission_formula-13.0.1.1.2.dev4-py3-none-any.whl.zip --markdown 20230525/o/odoo13-addon-sale-commission-formula/13.0.1.1.2.dev3-13.0.1.1.2.dev4/diff.md --exclude *.pyd
+[2023-05-25 04:59:08] INFO root fetch - processPackages [we-factor-quad]: executing diffoscope
+[2023-05-25 04:59:08] INFO root fetch - processPackages [we-factor-quad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/we_factor_quad-0.0.4.1-py3-none-any.whl.zip tmp/we_factor_quad-0.5.0-py3-none-any.whl.zip --markdown 20230525/w/we-factor-quad/0.0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-05-25 04:59:08] INFO root fetch - processPackages [odoo13-addon-sale-commission]: executing diffoscope
+[2023-05-25 04:59:08] INFO root fetch - processPackages [odoo13-addon-sale-commission]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_sale_commission-13.0.1.8.1.dev6-py3-none-any.whl.zip tmp/odoo13_addon_sale_commission-13.0.1.8.1.dev8-py3-none-any.whl.zip --markdown 20230525/o/odoo13-addon-sale-commission/13.0.1.8.1.dev6-13.0.1.8.1.dev8/diff.md --exclude *.pyd
+[2023-05-25 04:59:08] INFO root fetch - processPackages [odoo12-addon-sale-commission-pricelist]: executing diffoscope
+[2023-05-25 04:59:08] INFO root fetch - processPackages [odoo12-addon-sale-commission-pricelist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_sale_commission_pricelist-12.0.1.0.0.99.dev6-py3-none-any.whl.zip tmp/odoo12_addon_sale_commission_pricelist-12.0.1.0.0.99.dev8-py3-none-any.whl.zip --markdown 20230525/o/odoo12-addon-sale-commission-pricelist/12.0.1.0.0.99.dev6-12.0.1.0.0.99.dev8/diff.md --exclude *.pyd
+[2023-05-25 04:59:10] INFO root fetch - processPackages [odoo14-addons-oca-commission]: Start processing: odoo9-addon-connector
+[2023-05-25 04:59:10] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-commission]: success
+[2023-05-25 04:59:10] INFO root fetch - processPackages [odoo9-addon-connector]: New version: [9.0.1.2.0.99.dev9] Old Version: [9.0.1.2.0.99.dev8]
+[2023-05-25 04:59:10] INFO root fetch - processPackages [odoo12-addon-sale-commission-formula]: Start processing: lesscode-tag
+[2023-05-25 04:59:10] INFO root fetch - main [MainThread]: End processing [odoo12-addon-sale-commission-formula]: success
+[2023-05-25 04:59:10] WARNING root fetch - processPackages [lesscode-tag]: Skipping, unable to determine old version
+[2023-05-25 04:59:10] INFO root fetch - processPackages [lesscode-tag]: Start processing: caqui
+[2023-05-25 04:59:10] INFO root fetch - main [MainThread]: End processing [lesscode-tag] error
+[2023-05-25 04:59:10] INFO root fetch - processPackages [caqui]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-25 04:59:10] INFO root fetch - processPackages [odoo9-addon-connector]: executing diffoscope
+[2023-05-25 04:59:10] INFO root fetch - processPackages [odoo9-addon-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_connector-9.0.1.2.0.99.dev8-py2-none-any.whl.zip tmp/odoo9_addon_connector-9.0.1.2.0.99.dev9-py2-none-any.whl.zip --markdown 20230525/o/odoo9-addon-connector/9.0.1.2.0.99.dev8-9.0.1.2.0.99.dev9/diff.md --exclude *.pyd
+[2023-05-25 04:59:10] INFO root fetch - processPackages [odoo13-addon-sale-commission-pricelist]: Start processing: qsi-tk
+[2023-05-25 04:59:10] INFO root fetch - main [MainThread]: End processing [odoo13-addon-sale-commission-pricelist]: success
+[2023-05-25 04:59:10] INFO root fetch - processPackages [cacheyou]: Start processing: numerical-luizmugnaini
+[2023-05-25 04:59:10] INFO root fetch - main [MainThread]: End processing [cacheyou]: success
+[2023-05-25 04:59:11] INFO root fetch - processPackages [caqui]: Downloading https://files.pythonhosted.org/packages/a7/39/e2d119229607b747fa8f432b66326442cb161b96f39c3c1f192d8c5ea822/caqui-1.0.2.tar.gz
+[2023-05-25 04:59:11] INFO root fetch - processPackages [qsi-tk]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-05-25 04:59:11] WARNING root fetch - processPackages [numerical-luizmugnaini]: Skipping, unable to determine old version
+[2023-05-25 04:59:11] INFO root fetch - main [MainThread]: End processing [numerical-luizmugnaini] error
+[2023-05-25 04:59:11] INFO root fetch - main [MainThread]: End processing [odoo-addon-commission-formula]: success
+[2023-05-25 04:59:11] INFO root fetch - main [MainThread]: End processing [odoo12-addon-sale-commission-pricelist]: success
+[2023-05-25 04:59:11] INFO root fetch - processPackages [caqui]: executing diffoscope
+[2023-05-25 04:59:11] INFO root fetch - processPackages [caqui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caqui-1.0.1.tar.gz tmp/caqui-1.0.2.tar.gz --markdown 20230525/c/caqui/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-25 04:59:11] INFO root fetch - processPackages [qsi-tk]: Downloading https://files.pythonhosted.org/packages/fb/b4/133474b00c0b3afda859170edcd5816dba57ddad06ee84f18a41b5261ec9/qsi-tk-0.4.7.tar.gz
+[2023-05-25 04:59:11] INFO root fetch - main [MainThread]: End processing [we-factor-quad]: success
+[2023-05-25 04:59:11] INFO root fetch - main [MainThread]: End processing [odoo13-addon-sale-commission-formula]: success
+[2023-05-25 04:59:11] INFO root fetch - main [MainThread]: End processing [odoo13-addon-sale-commission]: success
+[2023-05-25 04:59:11] WARNING root fetch - processPackages [qsi-tk]: Skipping package: exceeds size limit 58243998>=10485760
+[2023-05-25 04:59:11] INFO root fetch - main [MainThread]: End processing [qsi-tk] error
+[2023-05-25 04:59:11] INFO root fetch - main [MainThread]: End processing [odoo8-addon-connector]: success
+[2023-05-25 04:59:12] INFO root fetch - main [MainThread]: End processing [caqui]: success
+[2023-05-25 04:59:14] INFO root fetch - main [MainThread]: End processing [odoo9-addon-connector]: success
+[2023-05-25 04:59:14] INFO root fetch - main [MainThread]: Store serial: [18240340]
