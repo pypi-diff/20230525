@@ -7961,3 +7961,77 @@
 [2023-05-25 06:15:00] INFO root fetch - main [MainThread]: End processing [practicus]: success
 [2023-05-25 06:15:01] INFO root fetch - main [MainThread]: End processing [seeFretboard]: success
 [2023-05-25 06:15:01] INFO root fetch - main [MainThread]: Store serial: [18240941]
+[2023-05-25 06:20:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18240941]
+[2023-05-25 06:20:10] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-25 06:20:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kumo-ai
+[2023-05-25 06:20:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-mis-builder
+[2023-05-25 06:20:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-mis-builder
+[2023-05-25 06:20:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-mis-builder
+[2023-05-25 06:20:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TorchPIV
+[2023-05-25 06:20:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo13-addon-purchase-sale-inter-company
+[2023-05-25 06:20:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: quick-batch
+[2023-05-25 06:20:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: heaserver-folders-aws-s3
+[2023-05-25 06:20:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xw-utils
+[2023-05-25 06:20:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nonebot-plugin-spark-gpt
+[2023-05-25 06:20:10] INFO root fetch - processPackages [odoo-addon-mis-builder]: New version: [16.0.5.1.1] Old Version: [16.0.5.1.0.4]
+[2023-05-25 06:20:10] INFO root fetch - processPackages [heaserver-folders-aws-s3]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-05-25 06:20:10] INFO root fetch - processPackages [quick-batch]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-25 06:20:10] INFO root fetch - processPackages [odoo-addon-mis-builder]: New version: [16.0.5.1.1] Old Version: [16.0.5.1.0.4]
+[2023-05-25 06:20:10] INFO root fetch - processPackages [kumo-ai]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-25 06:20:10] INFO root fetch - processPackages [odoo14-addon-mis-builder]: New version: [14.0.4.1.3.dev2] Old Version: [14.0.4.1.3.dev1]
+[2023-05-25 06:20:10] INFO root fetch - processPackages [TorchPIV]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-25 06:20:10] INFO root fetch - processPackages [heaserver-folders-aws-s3]: executing diffoscope
+[2023-05-25 06:20:10] INFO root fetch - processPackages [heaserver-folders-aws-s3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-folders-aws-s3-1.0.0a8.tar.gz tmp/heaserver-folders-aws-s3-1.0.0a9.tar.gz --markdown 20230525/h/heaserver-folders-aws-s3/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-05-25 06:20:10] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-05-25 06:20:10] INFO root fetch - processPackages [odoo13-addon-purchase-sale-inter-company]: New version: [13.0.1.0.6.dev2] Old Version: [13.0.1.0.6.dev1]
+[2023-05-25 06:20:10] INFO root fetch - processPackages [xw-utils]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-25 06:20:10] INFO root fetch - processPackages [odoo-addon-mis-builder]: Downloading https://files.pythonhosted.org/packages/f2/56/c8a1c9931c48820ffe383145d5cb4d2abf9ff0408474ec669b889693624d/odoo_addon_mis_builder-16.0.5.1.0.4-py3-none-any.whl
+[2023-05-25 06:20:10] INFO root fetch - processPackages [odoo-addon-mis-builder]: Downloading https://files.pythonhosted.org/packages/f2/56/c8a1c9931c48820ffe383145d5cb4d2abf9ff0408474ec669b889693624d/odoo_addon_mis_builder-16.0.5.1.0.4-py3-none-any.whl
+[2023-05-25 06:20:10] INFO root fetch - processPackages [quick-batch]: Downloading https://files.pythonhosted.org/packages/8b/21/89625c7813d27c96c86b698131c5df87e88d57cbc1157ab682cb79b50782/quick_batch-0.1.3.tar.gz
+[2023-05-25 06:20:10] INFO root fetch - processPackages [odoo14-addon-mis-builder]: Downloading https://files.pythonhosted.org/packages/a7/b8/a453a2a3ac675ec2af2afca20ab8223f1dcdefb1c0a20f2dc255fbf775fd/odoo14_addon_mis_builder-14.0.4.1.3.dev1-py3-none-any.whl
+[2023-05-25 06:20:11] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: Downloading https://files.pythonhosted.org/packages/9b/d9/afeb3b72e1b886bcd089ca36bc098d29e61746941f8889d8c97dc779740c/nonebot_plugin_spark_gpt-0.2.7.tar.gz
+[2023-05-25 06:20:11] INFO root fetch - processPackages [odoo13-addon-purchase-sale-inter-company]: Downloading https://files.pythonhosted.org/packages/70/3d/098f5dafde54257535b445dbad3314153a3b838e05f359f899dcbe2226f6/odoo13_addon_purchase_sale_inter_company-13.0.1.0.6.dev1-py3-none-any.whl
+[2023-05-25 06:20:11] INFO root fetch - processPackages [quick-batch]: executing diffoscope
+[2023-05-25 06:20:11] INFO root fetch - processPackages [quick-batch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quick_batch-0.1.2.tar.gz tmp/quick_batch-0.1.3.tar.gz --markdown 20230525/q/quick-batch/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-25 06:20:11] INFO root fetch - processPackages [xw-utils]: Downloading https://files.pythonhosted.org/packages/b0/76/6c9b9d08d689601b6de666e550d83a0261e54648e6d472f20256b02e7dec/xw_utils-1.0.1-cp39-cp39-win_amd64.whl
+[2023-05-25 06:20:11] WARNING root fetch - processPackages [nonebot-plugin-spark-gpt]: Skipping package: exceeds size limit 11274849>=10485760
+[2023-05-25 06:20:11] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: Start processing: pydantic-core
+[2023-05-25 06:20:11] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-spark-gpt] error
+[2023-05-25 06:20:11] INFO root fetch - processPackages [TorchPIV]: Downloading https://files.pythonhosted.org/packages/4a/aa/7a481c2f435e167ecdeda184071c54fec71e0109ddfdc896d694a012f73c/TorchPIV-0.1.2.tar.gz
+[2023-05-25 06:20:11] INFO root fetch - processPackages [kumo-ai]: Downloading https://files.pythonhosted.org/packages/bf/4e/fcbb984cf88818c7989e1273f57469498aa1badd8e1a6e9cc70b4b6c0d3e/kumo-ai-0.1.4.tar.gz
+[2023-05-25 06:20:11] INFO root fetch - processPackages [odoo-addon-mis-builder]: Downloading https://files.pythonhosted.org/packages/b8/0f/a989bd07df24a61024d1a096bd2728d2bb78d3fa1f9c8b35fd50e0c2dbb9/odoo_addon_mis_builder-16.0.5.1.1-py3-none-any.whl
+[2023-05-25 06:20:11] INFO root fetch - processPackages [odoo-addon-mis-builder]: Downloading https://files.pythonhosted.org/packages/b8/0f/a989bd07df24a61024d1a096bd2728d2bb78d3fa1f9c8b35fd50e0c2dbb9/odoo_addon_mis_builder-16.0.5.1.1-py3-none-any.whl
+[2023-05-25 06:20:11] INFO root fetch - processPackages [TorchPIV]: executing diffoscope
+[2023-05-25 06:20:11] INFO root fetch - processPackages [TorchPIV]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TorchPIV-0.1.1.tar.gz tmp/TorchPIV-0.1.2.tar.gz --markdown 20230525/T/TorchPIV/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-25 06:20:11] INFO root fetch - processPackages [kumo-ai]: executing diffoscope
+[2023-05-25 06:20:11] INFO root fetch - processPackages [kumo-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kumo-ai-0.1.3.tar.gz tmp/kumo-ai-0.1.4.tar.gz --markdown 20230525/k/kumo-ai/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-25 06:20:11] INFO root fetch - processPackages [odoo-addon-mis-builder]: executing diffoscope
+[2023-05-25 06:20:11] INFO root fetch - processPackages [odoo-addon-mis-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mis_builder-16.0.5.1.0.4-py3-none-any.whl.zip tmp/odoo_addon_mis_builder-16.0.5.1.1-py3-none-any.whl.zip --markdown 20230525/o/odoo-addon-mis-builder/16.0.5.1.0.4-16.0.5.1.1/diff.md --exclude *.pyd
+[2023-05-25 06:20:11] INFO root fetch - processPackages [odoo-addon-mis-builder]: executing diffoscope
+[2023-05-25 06:20:11] INFO root fetch - processPackages [odoo-addon-mis-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mis_builder-16.0.5.1.0.4-py3-none-any.whl.zip tmp/odoo_addon_mis_builder-16.0.5.1.1-py3-none-any.whl.zip --markdown 20230525/o/odoo-addon-mis-builder/16.0.5.1.0.4-16.0.5.1.1/diff.md --exclude *.pyd
+[2023-05-25 06:20:11] INFO root fetch - processPackages [odoo13-addon-purchase-sale-inter-company]: Downloading https://files.pythonhosted.org/packages/d0/7d/2d0f5022ef335be8e073658de9ffdb187891a8ed0fef6a799fe56fe56938/odoo13_addon_purchase_sale_inter_company-13.0.1.0.6.dev2-py3-none-any.whl
+[2023-05-25 06:20:11] INFO root fetch - processPackages [xw-utils]: Downloading https://files.pythonhosted.org/packages/37/a4/c7d374380586cef49c7f82118d1811387ed06ee8518507c644987ea3ac99/xw_utils-1.0.2-cp39-cp39-musllinux_1_1_aarch64.whl
+[2023-05-25 06:20:11] INFO root fetch - processPackages [odoo13-addon-purchase-sale-inter-company]: executing diffoscope
+[2023-05-25 06:20:11] INFO root fetch - processPackages [odoo13-addon-purchase-sale-inter-company]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_purchase_sale_inter_company-13.0.1.0.6.dev1-py3-none-any.whl.zip tmp/odoo13_addon_purchase_sale_inter_company-13.0.1.0.6.dev2-py3-none-any.whl.zip --markdown 20230525/o/odoo13-addon-purchase-sale-inter-company/13.0.1.0.6.dev1-13.0.1.0.6.dev2/diff.md --exclude *.pyd
+[2023-05-25 06:20:11] INFO root fetch - processPackages [xw-utils]: executing diffoscope
+[2023-05-25 06:20:11] INFO root fetch - processPackages [xw-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xw_utils-1.0.1-cp39-cp39-win_amd64.whl.zip tmp/xw_utils-1.0.2-cp39-cp39-musllinux_1_1_aarch64.whl.zip --markdown 20230525/x/xw-utils/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-25 06:20:11] INFO root fetch - processPackages [odoo14-addon-mis-builder]: Downloading https://files.pythonhosted.org/packages/b6/fa/1d336778958e72cdaa89018bc8a451e1441b19df5871c49743f8432af14c/odoo14_addon_mis_builder-14.0.4.1.3.dev2-py3-none-any.whl
+[2023-05-25 06:20:11] INFO root fetch - processPackages [odoo14-addon-mis-builder]: executing diffoscope
+[2023-05-25 06:20:11] INFO root fetch - processPackages [odoo14-addon-mis-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_mis_builder-14.0.4.1.3.dev1-py3-none-any.whl.zip tmp/odoo14_addon_mis_builder-14.0.4.1.3.dev2-py3-none-any.whl.zip --markdown 20230525/o/odoo14-addon-mis-builder/14.0.4.1.3.dev1-14.0.4.1.3.dev2/diff.md --exclude *.pyd
+[2023-05-25 06:20:12] INFO root fetch - processPackages [quick-batch]: Start processing: test-package-harsha-tries
+[2023-05-25 06:20:12] INFO root fetch - main [MainThread]: End processing [quick-batch]: success
+[2023-05-25 06:20:12] INFO root fetch - processPackages [pydantic-core]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-05-25 06:20:12] WARNING root fetch - processPackages [test-package-harsha-tries]: Skipping, unable to determine old version
+[2023-05-25 06:20:12] INFO root fetch - main [MainThread]: End processing [test-package-harsha-tries] error
+[2023-05-25 06:20:12] INFO root fetch - main [MainThread]: End processing [TorchPIV]: success
+[2023-05-25 06:20:12] INFO root fetch - main [MainThread]: End processing [heaserver-folders-aws-s3]: success
+[2023-05-25 06:20:12] INFO root fetch - main [MainThread]: End processing [odoo13-addon-purchase-sale-inter-company]: success
+[2023-05-25 06:20:12] INFO root fetch - processPackages [pydantic-core]: executing diffoscope
+[2023-05-25 06:20:12] INFO root fetch - processPackages [pydantic-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_core-0.8.2.tar.gz tmp/pydantic_core-0.9.0.tar.gz --markdown 20230525/p/pydantic-core/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-05-25 06:20:13] INFO root fetch - main [MainThread]: End processing [kumo-ai]: success
+[2023-05-25 06:20:13] INFO root fetch - main [MainThread]: End processing [odoo-addon-mis-builder]: success
+[2023-05-25 06:20:13] INFO root fetch - main [MainThread]: End processing [odoo14-addon-mis-builder]: success
+[2023-05-25 06:20:13] INFO root fetch - main [MainThread]: End processing [xw-utils]: success
+[2023-05-25 06:20:13] INFO root fetch - main [MainThread]: End processing [odoo-addon-mis-builder]: success
+[2023-05-25 06:20:15] INFO root fetch - main [MainThread]: End processing [pydantic-core]: success
+[2023-05-25 06:20:15] INFO root fetch - main [MainThread]: Store serial: [18241019]
