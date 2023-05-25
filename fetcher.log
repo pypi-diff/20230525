@@ -7716,3 +7716,41 @@
 [2023-05-25 05:59:12] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
 [2023-05-25 05:59:14] INFO root fetch - main [MainThread]: End processing [pano-airflow-providers-amazon]: success
 [2023-05-25 05:59:14] INFO root fetch - main [MainThread]: Store serial: [18240802]
+[2023-05-25 06:04:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18240802]
+[2023-05-25 06:04:23] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-25 06:04:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aind-segmentation-evaluation
+[2023-05-25 06:04:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastapi-easy-cache
+[2023-05-25 06:04:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ronnytest
+[2023-05-25 06:04:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mdforest
+[2023-05-25 06:04:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neurodecode
+[2023-05-25 06:04:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: empyric
+[2023-05-25 06:04:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: empyric-dmerthe
+[2023-05-25 06:04:23] INFO root fetch - processPackages [ronnytest]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-25 06:04:23] WARNING root fetch - processPackages [empyric]: Skipping, unable to determine old version
+[2023-05-25 06:04:23] INFO root fetch - main [MainThread]: End processing [empyric] error
+[2023-05-25 06:04:23] INFO root fetch - processPackages [fastapi-easy-cache]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-25 06:04:23] INFO root fetch - processPackages [neurodecode]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-05-25 06:04:23] WARNING root fetch - processPackages [empyric-dmerthe]: Skipping, unable to determine old version
+[2023-05-25 06:04:23] INFO root fetch - main [MainThread]: End processing [empyric-dmerthe] error
+[2023-05-25 06:04:23] INFO root fetch - processPackages [mdforest]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-05-25 06:04:23] INFO root fetch - processPackages [aind-segmentation-evaluation]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-25 06:04:23] INFO root fetch - processPackages [ronnytest]: executing diffoscope
+[2023-05-25 06:04:23] INFO root fetch - processPackages [ronnytest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ronnytest-0.1.1.tar.gz tmp/ronnytest-0.1.2.tar.gz --markdown 20230525/r/ronnytest/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-25 06:04:24] INFO root fetch - processPackages [neurodecode]: Downloading https://files.pythonhosted.org/packages/8c/f1/0de96393ac7b7d31fead594385f5004f353e372ceaf750698724175dba62/neurodecode-2.0.2.tar.gz
+[2023-05-25 06:04:24] INFO root fetch - processPackages [mdforest]: Downloading https://files.pythonhosted.org/packages/e1/04/326f003aa9e1a9aaab8000982d1ff6e426dc90be76c63ae90987a91175b5/mdforest-1.5.0.tar.gz
+[2023-05-25 06:04:24] INFO root fetch - processPackages [fastapi-easy-cache]: Downloading https://files.pythonhosted.org/packages/70/31/de09a8137bc679dc27e142e586042f824f35dde49a9af19cc67d6287652d/fastapi_easy_cache-0.1.2.tar.gz
+[2023-05-25 06:04:24] INFO root fetch - processPackages [aind-segmentation-evaluation]: executing diffoscope
+[2023-05-25 06:04:24] INFO root fetch - processPackages [aind-segmentation-evaluation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind_segmentation_evaluation-0.1.8.tar.gz tmp/aind_segmentation_evaluation-0.1.9.tar.gz --markdown 20230525/a/aind-segmentation-evaluation/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-25 06:04:24] INFO root fetch - processPackages [mdforest]: executing diffoscope
+[2023-05-25 06:04:24] INFO root fetch - processPackages [mdforest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdforest-1.4.0.tar.gz tmp/mdforest-1.5.0.tar.gz --markdown 20230525/m/mdforest/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-05-25 06:04:24] INFO root fetch - processPackages [fastapi-easy-cache]: executing diffoscope
+[2023-05-25 06:04:24] INFO root fetch - processPackages [fastapi-easy-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_easy_cache-0.1.1.tar.gz tmp/fastapi_easy_cache-0.1.2.tar.gz --markdown 20230525/f/fastapi-easy-cache/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-25 06:04:24] INFO root fetch - processPackages [neurodecode]: Downloading https://files.pythonhosted.org/packages/55/ec/6cd381c4636a0cb04c2f74a98fa5ac926dcf3a7e8f239d1029387df1a79d/neurodecode-2.0.3.tar.gz
+[2023-05-25 06:04:24] INFO root fetch - processPackages [neurodecode]: executing diffoscope
+[2023-05-25 06:04:24] INFO root fetch - processPackages [neurodecode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurodecode-2.0.2.tar.gz tmp/neurodecode-2.0.3.tar.gz --markdown 20230525/n/neurodecode/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-05-25 06:04:24] INFO root fetch - main [MainThread]: End processing [ronnytest]: success
+[2023-05-25 06:04:25] INFO root fetch - main [MainThread]: End processing [fastapi-easy-cache]: success
+[2023-05-25 06:04:25] INFO root fetch - main [MainThread]: End processing [mdforest]: success
+[2023-05-25 06:04:25] INFO root fetch - main [MainThread]: End processing [neurodecode]: success
+[2023-05-25 06:04:28] INFO root fetch - main [MainThread]: End processing [aind-segmentation-evaluation]: success
+[2023-05-25 06:04:28] INFO root fetch - main [MainThread]: Store serial: [18240828]
