@@ -6107,3 +6107,40 @@
 [2023-05-25 04:06:21] INFO root fetch - main [MainThread]: End processing [extract-msg]: success
 [2023-05-25 04:06:25] INFO root fetch - main [MainThread]: End processing [seeFretboard]: success
 [2023-05-25 04:06:25] INFO root fetch - main [MainThread]: Store serial: [18239934]
+[2023-05-25 04:11:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18239934]
+[2023-05-25 04:11:35] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-25 04:11:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: keycloak-django
+[2023-05-25 04:11:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: BigKindsParser
+[2023-05-25 04:11:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jiggybase
+[2023-05-25 04:11:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: phenocam-snow
+[2023-05-25 04:11:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: songwhip
+[2023-05-25 04:11:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bandplot
+[2023-05-25 04:11:35] INFO root fetch - processPackages [keycloak-django]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-25 04:11:35] INFO root fetch - processPackages [BigKindsParser]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-25 04:11:35] WARNING root fetch - processPackages [songwhip]: Skipping, unable to determine old version
+[2023-05-25 04:11:35] INFO root fetch - main [MainThread]: End processing [songwhip] error
+[2023-05-25 04:11:35] INFO root fetch - processPackages [phenocam-snow]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-05-25 04:11:35] INFO root fetch - processPackages [bandplot]: New version: [0.1.6] Old Version: [0.1.5.3]
+[2023-05-25 04:11:35] INFO root fetch - processPackages [jiggybase]: New version: [0.0.35] Old Version: [0.0.34]
+[2023-05-25 04:11:35] INFO root fetch - processPackages [phenocam-snow]: Downloading https://files.pythonhosted.org/packages/d6/e1/5cdcf4fff2d6ba7c2e2de34f1aa1f4e251332e141d61095ff032600ab83a/phenocam-snow-0.0.1.tar.gz
+[2023-05-25 04:11:35] INFO root fetch - processPackages [BigKindsParser]: Downloading https://files.pythonhosted.org/packages/30/e1/b73a463812a9971ef108b56385431024851be60db13daeccc557781d56f3/BigKindsParser-0.1.2-py3-none-any.whl
+[2023-05-25 04:11:36] INFO root fetch - processPackages [keycloak-django]: Downloading https://files.pythonhosted.org/packages/87/b2/7ea5481c33d19f42efe333bcb78d89021065f29c934cd06cfea33c68c9ff/keycloak_django-1.0.8.tar.gz
+[2023-05-25 04:11:36] INFO root fetch - processPackages [bandplot]: Downloading https://files.pythonhosted.org/packages/f1/36/6c6f365db56dbf5016279d801132b900d22581eddccb6b7e2c61728a08d2/bandplot-0.1.6-py3-none-any.whl
+[2023-05-25 04:11:36] INFO root fetch - processPackages [jiggybase]: Downloading https://files.pythonhosted.org/packages/f5/bb/1a4e66f898ac451d19a686c9b6c604814f3b6f5b3c24d96e53747705f1ce/jiggybase-0.0.35.tar.gz
+[2023-05-25 04:11:36] INFO root fetch - processPackages [BigKindsParser]: executing diffoscope
+[2023-05-25 04:11:36] INFO root fetch - processPackages [BigKindsParser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BigKindsParser-0.1.1-py3-none-any.whl.zip tmp/BigKindsParser-0.1.2-py3-none-any.whl.zip --markdown 20230525/B/BigKindsParser/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-25 04:11:36] INFO root fetch - processPackages [keycloak-django]: executing diffoscope
+[2023-05-25 04:11:36] INFO root fetch - processPackages [keycloak-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keycloak_django-1.0.7.tar.gz tmp/keycloak_django-1.0.8.tar.gz --markdown 20230525/k/keycloak-django/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-25 04:11:36] INFO root fetch - processPackages [phenocam-snow]: Downloading https://files.pythonhosted.org/packages/5a/20/9c8585e26ca017024a4168b622c4e8e9a3ea64c77c7c5353932b3e73c066/phenocam-snow-0.1.0.tar.gz
+[2023-05-25 04:11:36] INFO root fetch - processPackages [bandplot]: executing diffoscope
+[2023-05-25 04:11:36] INFO root fetch - processPackages [bandplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bandplot-0.1.5.3-py3-none-any.whl.zip tmp/bandplot-0.1.6-py3-none-any.whl.zip --markdown 20230525/b/bandplot/0.1.5.3-0.1.6/diff.md --exclude *.pyd
+[2023-05-25 04:11:36] INFO root fetch - processPackages [jiggybase]: executing diffoscope
+[2023-05-25 04:11:36] INFO root fetch - processPackages [jiggybase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jiggybase-0.0.34.tar.gz tmp/jiggybase-0.0.35.tar.gz --markdown 20230525/j/jiggybase/0.0.34-0.0.35/diff.md --exclude *.pyd
+[2023-05-25 04:11:36] INFO root fetch - processPackages [phenocam-snow]: executing diffoscope
+[2023-05-25 04:11:36] INFO root fetch - processPackages [phenocam-snow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phenocam-snow-0.0.1.tar.gz tmp/phenocam-snow-0.1.0.tar.gz --markdown 20230525/p/phenocam-snow/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-05-25 04:11:37] INFO root fetch - main [MainThread]: End processing [BigKindsParser]: success
+[2023-05-25 04:11:37] INFO root fetch - main [MainThread]: End processing [keycloak-django]: success
+[2023-05-25 04:11:37] INFO root fetch - main [MainThread]: End processing [jiggybase]: success
+[2023-05-25 04:11:37] INFO root fetch - main [MainThread]: End processing [bandplot]: success
+[2023-05-25 04:11:37] INFO root fetch - main [MainThread]: End processing [phenocam-snow]: success
+[2023-05-25 04:11:37] INFO root fetch - main [MainThread]: Store serial: [18239960]
