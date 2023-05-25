@@ -20278,3 +20278,154 @@ EOFError: EOF read where object expected
 [2023-05-25 15:58:29] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-05-25 15:58:50] INFO root fetch - main [MainThread]: End processing [Geode-Background]: success
 [2023-05-25 15:58:50] INFO root fetch - main [MainThread]: Store serial: [18247838]
+[2023-05-25 16:03:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18247838]
+[2023-05-25 16:04:00] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-05-25 16:04:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: astro-sdk-python
+[2023-05-25 16:04:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: textbsr
+[2023-05-25 16:04:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scanRBP
+[2023-05-25 16:04:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: WhooshSms
+[2023-05-25 16:04:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lyrebird
+[2023-05-25 16:04:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-import-export-celery
+[2023-05-25 16:04:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dcicutils
+[2023-05-25 16:04:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: exodia
+[2023-05-25 16:04:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pybio
+[2023-05-25 16:04:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: python-travelmanager
+[2023-05-25 16:04:00] INFO root fetch - processPackages [python-travelmanager]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-25 16:04:00] INFO root fetch - processPackages [dcicutils]: New version: [7.4.4.1b2] Old Version: [7.4.3.5b20]
+[2023-05-25 16:04:00] INFO root fetch - processPackages [textbsr]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 16:04:00] INFO root fetch - processPackages [scanRBP]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-25 16:04:00] INFO root fetch - processPackages [python-travelmanager]: executing diffoscope
+[2023-05-25 16:04:00] INFO root fetch - processPackages [python-travelmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_travelmanager-0.2.3.tar.gz tmp/python_travelmanager-0.2.4.tar.gz --markdown 20230525/p/python-travelmanager/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-25 16:04:00] INFO root fetch - processPackages [WhooshSms]: New version: [0.1.4] Old Version: [0.1.2]
+[2023-05-25 16:04:00] INFO root fetch - processPackages [django-import-export-celery]: New version: [1.5] Old Version: [1.4]
+[2023-05-25 16:04:00] INFO root fetch - processPackages [exodia]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-25 16:04:00] INFO root fetch - processPackages [pybio]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-05-25 16:04:00] INFO root fetch - processPackages [lyrebird]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-05-25 16:04:00] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2023-05-25 16:04:00] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-7.4.3.5b20.tar.gz tmp/dcicutils-7.4.4.1b2.tar.gz --markdown 20230525/d/dcicutils/7.4.3.5b20-7.4.4.1b2/diff.md --exclude *.pyd
+[2023-05-25 16:04:00] INFO root fetch - processPackages [astro-sdk-python]: New version: [1.7.0a2] Old Version: [1.7.0a1]
+[2023-05-25 16:04:00] INFO root fetch - processPackages [scanRBP]: Downloading https://files.pythonhosted.org/packages/99/cb/51df5451fc3d65db3707660cf1974aa611bd8a6764f93491bd96be0581f5/scanRBP-0.1.2.tar.gz
+[2023-05-25 16:04:00] INFO root fetch - processPackages [WhooshSms]: Downloading https://files.pythonhosted.org/packages/8d/c4/87975df5662dd64e9948b490095329eb35dbcbbdd613b2530e2b3c4418b4/WhooshSms-0.1.2.tar.gz
+[2023-05-25 16:04:00] INFO root fetch - processPackages [django-import-export-celery]: Downloading https://files.pythonhosted.org/packages/6d/eb/4349d8f660126dadbc1530c1395a8b117d73b53aa50fc7255d5e9004b6cd/django_import_export_celery-1.4-py3-none-any.whl
+[2023-05-25 16:04:00] INFO root fetch - processPackages [pybio]: Downloading https://files.pythonhosted.org/packages/86/16/3415a8d3fb44a5eb9bc6d91b5465c64f114c6fba947b87ca52a1b311bdbe/pybio-0.3.6.tar.gz
+[2023-05-25 16:04:00] INFO root fetch - processPackages [lyrebird]: Downloading https://files.pythonhosted.org/packages/06/13/4ab9bba5638766ee4616a2f79ef2b14a6cc420f30ee45746325841de3068/lyrebird-2.9.1.tar.gz
+[2023-05-25 16:04:00] INFO root fetch - processPackages [textbsr]: Downloading https://files.pythonhosted.org/packages/c3/68/3f14c2a92735674e4fb884a6f9e704c00ee1357d9599c1e5b679b0dd7e8a/textbsr-0.0.9.tar.gz
+[2023-05-25 16:04:00] INFO root fetch - processPackages [exodia]: Downloading https://files.pythonhosted.org/packages/1e/db/9104287572255aa12f4583396a5dc7df30265ab35310bad66a49ce419fce/exodia-1.0.4.tar.gz
+[2023-05-25 16:04:00] INFO root fetch - processPackages [astro-sdk-python]: executing diffoscope
+[2023-05-25 16:04:00] INFO root fetch - processPackages [astro-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro-sdk-python-1.7.0a1.tar.gz tmp/astro-sdk-python-1.7.0a2.tar.gz --markdown 20230525/a/astro-sdk-python/1.7.0a1-1.7.0a2/diff.md --exclude *.pyd
+[2023-05-25 16:04:00] INFO root fetch - processPackages [scanRBP]: Downloading https://files.pythonhosted.org/packages/3d/32/1f63dc2990c67063cc60ea63ad8beff56132f1a7c7e86babd3760425bcf7/scanRBP-0.1.3.tar.gz
+[2023-05-25 16:04:00] INFO root fetch - processPackages [exodia]: executing diffoscope
+[2023-05-25 16:04:00] INFO root fetch - processPackages [exodia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exodia-1.0.3.tar.gz tmp/exodia-1.0.4.tar.gz --markdown 20230525/e/exodia/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-25 16:04:00] INFO root fetch - processPackages [textbsr]: executing diffoscope
+[2023-05-25 16:04:00] INFO root fetch - processPackages [textbsr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textbsr-0.0.8.tar.gz tmp/textbsr-0.0.9.tar.gz --markdown 20230525/t/textbsr/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 16:04:00] INFO root fetch - processPackages [WhooshSms]: Downloading https://files.pythonhosted.org/packages/ed/01/a104c959560e099a01bb4857537cad21ba4717463a02af651a72541cc350/WhooshSms-0.1.4.tar.gz
+[2023-05-25 16:04:00] INFO root fetch - processPackages [django-import-export-celery]: Downloading https://files.pythonhosted.org/packages/f3/be/439baff063ae45ab02f9072897d339e4e46f21cac6719b1e8ec7e36177d7/django-import-export-celery-1.5.tar.gz
+[2023-05-25 16:04:00] INFO root fetch - processPackages [scanRBP]: executing diffoscope
+[2023-05-25 16:04:00] INFO root fetch - processPackages [scanRBP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scanRBP-0.1.2.tar.gz tmp/scanRBP-0.1.3.tar.gz --markdown 20230525/s/scanRBP/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-25 16:04:00] INFO root fetch - processPackages [pybio]: Downloading https://files.pythonhosted.org/packages/01/ea/6b16a5ddeb08b57f83fe0e76a91d5145d5d0cbe2dd52605f92a4e74bce22/pybio-0.3.7.tar.gz
+[2023-05-25 16:04:00] INFO root fetch - processPackages [django-import-export-celery]: executing diffoscope
+[2023-05-25 16:04:00] INFO root fetch - processPackages [django-import-export-celery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_import_export_celery-1.4-py3-none-any.whl.zip tmp/django-import-export-celery-1.5.tar.gz --markdown 20230525/d/django-import-export-celery/1.4-1.5/diff.md --exclude *.pyd
+[2023-05-25 16:04:00] INFO root fetch - processPackages [WhooshSms]: executing diffoscope
+[2023-05-25 16:04:00] INFO root fetch - processPackages [WhooshSms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WhooshSms-0.1.2.tar.gz tmp/WhooshSms-0.1.4.tar.gz --markdown 20230525/W/WhooshSms/0.1.2-0.1.4/diff.md --exclude *.pyd
+[2023-05-25 16:04:00] INFO root fetch - processPackages [pybio]: executing diffoscope
+[2023-05-25 16:04:00] INFO root fetch - processPackages [pybio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybio-0.3.6.tar.gz tmp/pybio-0.3.7.tar.gz --markdown 20230525/p/pybio/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-05-25 16:04:01] INFO root fetch - processPackages [lyrebird]: Downloading https://files.pythonhosted.org/packages/77/cb/ae987ef021622334d287593ae7760a4c9bac044e030a96acf5a262910328/lyrebird-2.9.2.tar.gz
+[2023-05-25 16:04:01] INFO root fetch - processPackages [python-travelmanager]: Start processing: blackjax-nightly
+[2023-05-25 16:04:01] INFO root fetch - main [MainThread]: End processing [python-travelmanager]: success
+[2023-05-25 16:04:01] INFO root fetch - processPackages [blackjax-nightly]: New version: [0.9.6.post99] Old Version: [0.9.6.post98]
+[2023-05-25 16:04:01] INFO root fetch - processPackages [blackjax-nightly]: Downloading https://files.pythonhosted.org/packages/92/6d/422e9e95a27c826c4b864ee3e0b55710e81e9082ed87a8b3cffb4c50bc6a/blackjax-nightly-0.9.6.post98.tar.gz
+[2023-05-25 16:04:01] INFO root fetch - processPackages [dcicutils]: Start processing: lupin-grognard
+[2023-05-25 16:04:01] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2023-05-25 16:04:02] INFO root fetch - processPackages [lupin-grognard]: New version: [1.9.0] Old Version: [1.7.0]
+[2023-05-25 16:04:02] INFO root fetch - processPackages [lupin-grognard]: executing diffoscope
+[2023-05-25 16:04:02] INFO root fetch - processPackages [lupin-grognard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lupin-grognard-1.7.0.tar.gz tmp/lupin-grognard-1.9.0.tar.gz --markdown 20230525/l/lupin-grognard/1.7.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-25 16:04:02] INFO root fetch - processPackages [textbsr]: Start processing: xyz-py
+[2023-05-25 16:04:02] INFO root fetch - main [MainThread]: End processing [textbsr]: success
+[2023-05-25 16:04:02] INFO root fetch - processPackages [exodia]: Start processing: omni-data
+[2023-05-25 16:04:02] INFO root fetch - main [MainThread]: End processing [exodia]: success
+[2023-05-25 16:04:02] INFO root fetch - processPackages [xyz-py]: New version: [5.6.0] Old Version: [5.5.0]
+[2023-05-25 16:04:02] INFO root fetch - processPackages [blackjax-nightly]: Downloading https://files.pythonhosted.org/packages/0a/e7/14592c365bf8ffb51707e15763cef8c10eeae142ca25ce02085d7e87d6cc/blackjax-nightly-0.9.6.post99.tar.gz
+[2023-05-25 16:04:02] INFO root fetch - processPackages [xyz-py]: executing diffoscope
+[2023-05-25 16:04:02] INFO root fetch - processPackages [xyz-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xyz_py-5.5.0.tar.gz tmp/xyz_py-5.6.0.tar.gz --markdown 20230525/x/xyz-py/5.5.0-5.6.0/diff.md --exclude *.pyd
+[2023-05-25 16:04:02] WARNING root fetch - processPackages [omni-data]: Skipping, unable to determine old version
+[2023-05-25 16:04:02] INFO root fetch - processPackages [omni-data]: Start processing: siat
+[2023-05-25 16:04:02] INFO root fetch - main [MainThread]: End processing [omni-data] error
+[2023-05-25 16:04:02] INFO root fetch - processPackages [lyrebird]: executing diffoscope
+[2023-05-25 16:04:02] INFO root fetch - processPackages [lyrebird]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyrebird-2.9.1.tar.gz tmp/lyrebird-2.9.2.tar.gz --markdown 20230525/l/lyrebird/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-05-25 16:04:02] INFO root fetch - processPackages [blackjax-nightly]: executing diffoscope
+[2023-05-25 16:04:02] INFO root fetch - processPackages [blackjax-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blackjax-nightly-0.9.6.post98.tar.gz tmp/blackjax-nightly-0.9.6.post99.tar.gz --markdown 20230525/b/blackjax-nightly/0.9.6.post98-0.9.6.post99/diff.md --exclude *.pyd
+[2023-05-25 16:04:02] INFO root fetch - processPackages [siat]: New version: [2.0.7] Old Version: [2.0.5]
+[2023-05-25 16:04:02] INFO root fetch - processPackages [django-import-export-celery]: Start processing: volcengine
+[2023-05-25 16:04:02] INFO root fetch - main [MainThread]: End processing [django-import-export-celery]: success
+[2023-05-25 16:04:02] INFO root fetch - processPackages [scanRBP]: Start processing: qtstrap
+[2023-05-25 16:04:02] INFO root fetch - main [MainThread]: End processing [scanRBP]: success
+[2023-05-25 16:04:02] INFO root fetch - processPackages [volcengine]: New version: [1.0.92] Old Version: [1.0.91]
+[2023-05-25 16:04:02] INFO root fetch - processPackages [siat]: Downloading https://files.pythonhosted.org/packages/df/e2/7112c44ff666a68d6619adf94768705d675617fae364957bfe459b7ac011/siat-2.0.5-py3-none-any.whl
+[2023-05-25 16:04:02] INFO root fetch - processPackages [qtstrap]: New version: [0.5.0] Old Version: [0.4.2]
+[2023-05-25 16:04:02] INFO root fetch - processPackages [qtstrap]: Downloading https://files.pythonhosted.org/packages/9c/08/a75425fc6d3ed0e213f71ff90631fc72e173bcd0d13804d0122df17230ea/qtstrap-0.4.2.tar.gz
+[2023-05-25 16:04:02] INFO root fetch - processPackages [siat]: Downloading https://files.pythonhosted.org/packages/ba/e5/3506e519e1840e05541f9fa177cd99051a42937c68c03c6bb04f3db37e79/siat-2.0.7-py3-none-any.whl
+[2023-05-25 16:04:03] INFO root fetch - processPackages [volcengine]: Downloading https://files.pythonhosted.org/packages/87/81/7193f5070ebbb1ff796febc4ee114644c82fbcc8b156e11b35871a83404f/volcengine-1.0.92.tar.gz
+[2023-05-25 16:04:03] INFO root fetch - processPackages [siat]: executing diffoscope
+[2023-05-25 16:04:03] INFO root fetch - processPackages [siat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siat-2.0.5-py3-none-any.whl.zip tmp/siat-2.0.7-py3-none-any.whl.zip --markdown 20230525/s/siat/2.0.5-2.0.7/diff.md --exclude *.pyd
+[2023-05-25 16:04:03] INFO root fetch - processPackages [volcengine]: executing diffoscope
+[2023-05-25 16:04:03] INFO root fetch - processPackages [volcengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volcengine-1.0.91.tar.gz tmp/volcengine-1.0.92.tar.gz --markdown 20230525/v/volcengine/1.0.91-1.0.92/diff.md --exclude *.pyd
+[2023-05-25 16:04:03] INFO root fetch - processPackages [qtstrap]: Downloading https://files.pythonhosted.org/packages/8c/41/743c6ffb55cad9f3684a9e79cb922e678bdb442fc084474ad4e51a0012d0/qtstrap-0.5.0.tar.gz
+[2023-05-25 16:04:03] INFO root fetch - processPackages [qtstrap]: executing diffoscope
+[2023-05-25 16:04:03] INFO root fetch - processPackages [qtstrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtstrap-0.4.2.tar.gz tmp/qtstrap-0.5.0.tar.gz --markdown 20230525/q/qtstrap/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2023-05-25 16:04:03] INFO root fetch - processPackages [lupin-grognard]: Start processing: ALMASim
+[2023-05-25 16:04:03] INFO root fetch - main [MainThread]: End processing [lupin-grognard]: success
+[2023-05-25 16:04:03] INFO root fetch - processPackages [ALMASim]: New version: [2.1] Old Version: [2.0]
+[2023-05-25 16:04:04] INFO root fetch - processPackages [pybio]: Start processing: ipyfilite
+[2023-05-25 16:04:04] INFO root fetch - main [MainThread]: End processing [pybio]: success
+[2023-05-25 16:04:04] INFO root fetch - processPackages [ALMASim]: Downloading https://files.pythonhosted.org/packages/4d/aa/5115bc129515dc6bf331a092599e5d63fbb570ac6852d9281d5181aa4b58/ALMASim-2.1.tar.gz
+[2023-05-25 16:04:04] INFO root fetch - processPackages [astro-sdk-python]: Start processing: UEVaultManager
+[2023-05-25 16:04:04] INFO root fetch - main [MainThread]: End processing [astro-sdk-python]: success
+[2023-05-25 16:04:04] INFO root fetch - processPackages [UEVaultManager]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-05-25 16:04:04] INFO root fetch - processPackages [xyz-py]: Start processing: dxsp
+[2023-05-25 16:04:04] INFO root fetch - main [MainThread]: End processing [xyz-py]: success
+[2023-05-25 16:04:04] WARNING root fetch - processPackages [ipyfilite]: Skipping, unable to determine old version
+[2023-05-25 16:04:04] INFO root fetch - processPackages [ipyfilite]: Start processing: notion-graph
+[2023-05-25 16:04:04] INFO root fetch - main [MainThread]: End processing [ipyfilite] error
+[2023-05-25 16:04:04] INFO root fetch - processPackages [dxsp]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-05-25 16:04:04] INFO root fetch - processPackages [ALMASim]: executing diffoscope
+[2023-05-25 16:04:04] INFO root fetch - processPackages [ALMASim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ALMASim-2.0.tar.gz tmp/ALMASim-2.1.tar.gz --markdown 20230525/A/ALMASim/2.0-2.1/diff.md --exclude *.pyd
+[2023-05-25 16:04:04] INFO root fetch - processPackages [notion-graph]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-25 16:04:04] INFO root fetch - processPackages [notion-graph]: Downloading https://files.pythonhosted.org/packages/91/60/b5a556df8dc9846e36d7428c2d4236b70d767911473ad29de809bb5ba662/notion-graph-0.1.2.tar.gz
+[2023-05-25 16:04:04] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/ae/ea/f60b1ec64776d9c89952dbc735c34e9d53ea2f045c9c1396e2a638f8e461/dxsp-2.3.2.tar.gz
+[2023-05-25 16:04:04] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-05-25 16:04:04] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-2.3.1.tar.gz tmp/dxsp-2.3.2.tar.gz --markdown 20230525/d/dxsp/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-05-25 16:04:04] INFO root fetch - processPackages [UEVaultManager]: Downloading https://files.pythonhosted.org/packages/fb/b0/f0be4887d7b191fae1a53dc9c302f30e796d9a91c92d8a6344c85484e7d6/UEVaultManager-1.5.2.tar.gz
+[2023-05-25 16:04:04] INFO root fetch - processPackages [UEVaultManager]: executing diffoscope
+[2023-05-25 16:04:04] INFO root fetch - processPackages [UEVaultManager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UEVaultManager-1.5.1.tar.gz tmp/UEVaultManager-1.5.2.tar.gz --markdown 20230525/U/UEVaultManager/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-05-25 16:04:04] INFO root fetch - processPackages [notion-graph]: Downloading https://files.pythonhosted.org/packages/87/9e/a087f46876c9d7da5fe9bc1b5fae94078e0cf9aca8a8fca938c2f8363130/notion-graph-0.1.3.tar.gz
+[2023-05-25 16:04:05] INFO root fetch - processPackages [notion-graph]: executing diffoscope
+[2023-05-25 16:04:05] INFO root fetch - processPackages [notion-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notion-graph-0.1.2.tar.gz tmp/notion-graph-0.1.3.tar.gz --markdown 20230525/n/notion-graph/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-25 16:04:05] INFO root fetch - processPackages [ALMASim]: Start processing: atcom
+[2023-05-25 16:04:05] INFO root fetch - main [MainThread]: End processing [ALMASim]: success
+[2023-05-25 16:04:05] INFO root fetch - processPackages [atcom]: New version: [0.4.3] Old Version: [0.4.1]
+[2023-05-25 16:04:05] INFO root fetch - processPackages [siat]: Start processing: zh-langchain
+[2023-05-25 16:04:05] INFO root fetch - main [MainThread]: End processing [siat]: success
+[2023-05-25 16:04:05] INFO root fetch - processPackages [zh-langchain]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-25 16:04:06] INFO root fetch - processPackages [atcom]: Downloading https://files.pythonhosted.org/packages/c9/99/bb5a22ed8ab844687ebacfbae066d2c4b6c4647123bfbe4de000dd665594/atcom-0.4.1.tar.gz
+[2023-05-25 16:04:06] INFO root fetch - processPackages [dxsp]: Start processing: sunpeek
+[2023-05-25 16:04:06] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-05-25 16:04:06] INFO root fetch - main [MainThread]: End processing [qtstrap]: success
+[2023-05-25 16:04:06] INFO root fetch - processPackages [sunpeek]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-25 16:04:06] INFO root fetch - processPackages [zh-langchain]: Downloading https://files.pythonhosted.org/packages/78/96/f1f6b507e6f8daf6d71eb229a9dea8d3dbf7e44ec49ff9d9e26dffae22fe/zh-langchain-0.1.2.tar.gz
+[2023-05-25 16:04:06] INFO root fetch - processPackages [atcom]: Downloading https://files.pythonhosted.org/packages/73/86/18beae538d190150b3ddbeb2a53e97282c2ff2d09fa814171a4e1a63a518/atcom-0.4.3.tar.gz
+[2023-05-25 16:04:06] INFO root fetch - main [MainThread]: End processing [lyrebird]: success
+[2023-05-25 16:04:06] INFO root fetch - processPackages [zh-langchain]: executing diffoscope
+[2023-05-25 16:04:06] INFO root fetch - processPackages [zh-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zh-langchain-0.1.1.tar.gz tmp/zh-langchain-0.1.2.tar.gz --markdown 20230525/z/zh-langchain/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-25 16:04:06] INFO root fetch - processPackages [atcom]: executing diffoscope
+[2023-05-25 16:04:06] INFO root fetch - processPackages [atcom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atcom-0.4.1.tar.gz tmp/atcom-0.4.3.tar.gz --markdown 20230525/a/atcom/0.4.1-0.4.3/diff.md --exclude *.pyd
+[2023-05-25 16:04:06] INFO root fetch - main [MainThread]: End processing [notion-graph]: success
+[2023-05-25 16:04:06] INFO root fetch - processPackages [sunpeek]: executing diffoscope
+[2023-05-25 16:04:06] INFO root fetch - processPackages [sunpeek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunpeek-0.2.8-py3-none-any.whl.zip tmp/sunpeek-0.2.9-py3-none-any.whl.zip --markdown 20230525/s/sunpeek/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-25 16:04:07] INFO root fetch - main [MainThread]: End processing [atcom]: success
+[2023-05-25 16:04:07] INFO root fetch - main [MainThread]: End processing [blackjax-nightly]: success
+[2023-05-25 16:04:08] INFO root fetch - main [MainThread]: End processing [zh-langchain]: success
+[2023-05-25 16:04:08] INFO root fetch - main [MainThread]: End processing [sunpeek]: success
+[2023-05-25 16:04:08] INFO root fetch - main [MainThread]: End processing [UEVaultManager]: success
+[2023-05-25 16:04:09] INFO root fetch - main [MainThread]: End processing [WhooshSms]: success
+[2023-05-25 16:04:10] INFO root fetch - main [MainThread]: End processing [volcengine]: success
+[2023-05-25 16:04:10] INFO root fetch - main [MainThread]: Store serial: [18247919]
