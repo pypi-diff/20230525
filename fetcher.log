@@ -12013,3 +12013,109 @@
 [2023-05-25 09:46:16] INFO root fetch - main [MainThread]: End processing [hcai-datasets-nightly]: success
 [2023-05-25 09:46:21] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2023-05-25 09:46:21] INFO root fetch - main [MainThread]: Store serial: [18242988]
+[2023-05-25 09:51:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18242988]
+[2023-05-25 09:51:30] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-25 09:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: solo-epd-loader
+[2023-05-25 09:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lesscode-tag
+[2023-05-25 09:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: RealEstate-package
+[2023-05-25 09:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hcai-datasets-nightly
+[2023-05-25 09:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: griffon
+[2023-05-25 09:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-scrap-reason-code
+[2023-05-25 09:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ethos-u-vela
+[2023-05-25 09:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flask-matomo2
+[2023-05-25 09:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cloudflare-r2
+[2023-05-25 09:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: chellow
+[2023-05-25 09:51:30] INFO root fetch - processPackages [lesscode-tag]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-05-25 09:51:30] INFO root fetch - processPackages [solo-epd-loader]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-25 09:51:30] INFO root fetch - processPackages [ethos-u-vela]: New version: [3.8.0] Old Version: [3.7.0]
+[2023-05-25 09:51:30] INFO root fetch - processPackages [cloudflare-r2]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-25 09:51:30] INFO root fetch - processPackages [RealEstate-package]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-05-25 09:51:30] INFO root fetch - processPackages [hcai-datasets-nightly]: New version: [0.1.8.dev202305250743] Old Version: [0.1.8.dev202305171220]
+[2023-05-25 09:51:30] INFO root fetch - processPackages [griffon]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-25 09:51:30] INFO root fetch - processPackages [odoo-addon-scrap-reason-code]: New version: [16.0.1.0.2] Old Version: [15.0.1.1.0]
+[2023-05-25 09:51:30] INFO root fetch - processPackages [flask-matomo2]: New version: [0.3.0] Old Version: [0.2.6]
+[2023-05-25 09:51:30] INFO root fetch - processPackages [chellow]: New version: [2827] Old Version: [2826]
+[2023-05-25 09:51:30] INFO root fetch - processPackages [hcai-datasets-nightly]: executing diffoscope
+[2023-05-25 09:51:30] INFO root fetch - processPackages [hcai-datasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-datasets-nightly-0.1.8.dev202305171220.tar.gz tmp/hcai-datasets-nightly-0.1.8.dev202305250743.tar.gz --markdown 20230525/h/hcai-datasets-nightly/0.1.8.dev202305171220-0.1.8.dev202305250743/diff.md --exclude *.pyd
+[2023-05-25 09:51:30] INFO root fetch - processPackages [chellow]: executing diffoscope
+[2023-05-25 09:51:30] INFO root fetch - processPackages [chellow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chellow-2826.tar.gz tmp/chellow-2827.tar.gz --markdown 20230525/c/chellow/2826-2827/diff.md --exclude *.pyd
+[2023-05-25 09:51:30] INFO root fetch - processPackages [solo-epd-loader]: Downloading https://files.pythonhosted.org/packages/59/d0/a1253218823ca3232666ebe22216e24e458bc40d0cfcee8fdf70ecc50a88/solo_epd_loader-0.2.1.tar.gz
+[2023-05-25 09:51:30] INFO root fetch - processPackages [RealEstate-package]: Downloading https://files.pythonhosted.org/packages/89/18/c4ae13b067b43a172ecf9d876c75c5c3f0641f71a7b900bef7e44da77a10/RealEstate_package-1.3.0.tar.gz
+[2023-05-25 09:51:30] INFO root fetch - processPackages [odoo-addon-scrap-reason-code]: Downloading https://files.pythonhosted.org/packages/8c/71/d22653bfe9293033ce6b73a7125ca7c075fc3b2e6b719530f101de631062/odoo_addon_scrap_reason_code-15.0.1.1.0-py3-none-any.whl
+[2023-05-25 09:51:30] INFO root fetch - processPackages [cloudflare-r2]: Downloading https://files.pythonhosted.org/packages/ea/54/29587d3200774c5c825f59d173b980ba30a32e1883d3a9a60f63bd89366d/cloudflare_r2-0.0.1.tar.gz
+[2023-05-25 09:51:30] INFO root fetch - processPackages [griffon]: Downloading https://files.pythonhosted.org/packages/92/e0/7a184e59666548dc37c54448fc6435daae0b5f61cdccb891a7d404b5a12b/griffon-0.2.3.tar.gz
+[2023-05-25 09:51:30] INFO root fetch - processPackages [lesscode-tag]: Downloading https://files.pythonhosted.org/packages/65/c6/b0f7265554f975dbd7d5e4475d66d693ebccae859f9814790f3b77974734/lesscode_tag-0.0.0.tar.gz
+[2023-05-25 09:51:30] INFO root fetch - processPackages [ethos-u-vela]: Downloading https://files.pythonhosted.org/packages/c4/ed/894aa70f81737f7411de51ac75a72ceca5e91856de650be47ef34ea94428/ethos-u-vela-3.7.0.tar.gz
+[2023-05-25 09:51:31] INFO root fetch - processPackages [flask-matomo2]: Downloading https://files.pythonhosted.org/packages/a7/b6/13d5ea81555f43dc796013ee87df6ff28a45e4c11085c09e11ef8a26243e/flask_matomo2-0.3.0.tar.gz
+[2023-05-25 09:51:31] INFO root fetch - processPackages [cloudflare-r2]: Downloading https://files.pythonhosted.org/packages/41/69/47b4c5f8133af0761f3547ee22ee5a97e042ff04581c51dd472ae9e356a8/cloudflare_r2-0.0.2.tar.gz
+[2023-05-25 09:51:31] INFO root fetch - processPackages [flask-matomo2]: executing diffoscope
+[2023-05-25 09:51:31] INFO root fetch - processPackages [flask-matomo2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_matomo2-0.2.6.tar.gz tmp/flask_matomo2-0.3.0.tar.gz --markdown 20230525/f/flask-matomo2/0.2.6-0.3.0/diff.md --exclude *.pyd
+[2023-05-25 09:51:31] INFO root fetch - processPackages [odoo-addon-scrap-reason-code]: Downloading https://files.pythonhosted.org/packages/20/5f/1a9d68a2427bb0d3fc636502fd6884391934f7c22d853c6249053cd62d9a/odoo_addon_scrap_reason_code-16.0.1.0.2-py3-none-any.whl
+[2023-05-25 09:51:31] INFO root fetch - processPackages [lesscode-tag]: Downloading https://files.pythonhosted.org/packages/ac/08/0400fda85aa99db3279eb3bfd4b496fd76da6be555cc0be663fab79641d2/lesscode_tag-0.0.1.tar.gz
+[2023-05-25 09:51:31] INFO root fetch - processPackages [griffon]: Downloading https://files.pythonhosted.org/packages/66/2b/02bd1592b42951a3540bb858bf35ea829010182825ef875177628f6467b7/griffon-0.2.4.tar.gz
+[2023-05-25 09:51:31] INFO root fetch - processPackages [solo-epd-loader]: Downloading https://files.pythonhosted.org/packages/36/63/aed4a1ab9d2154c65cc561b304dd9ed1d1d5d416a0602f480d1092f2e392/solo_epd_loader-0.2.2.tar.gz
+[2023-05-25 09:51:31] INFO root fetch - processPackages [RealEstate-package]: Downloading https://files.pythonhosted.org/packages/b4/bf/04321cb0a2ddf8bceab125e16decac472016026bbf848e135a730b25f3d5/RealEstate_package-1.4.0.tar.gz
+[2023-05-25 09:51:31] INFO root fetch - processPackages [cloudflare-r2]: executing diffoscope
+[2023-05-25 09:51:31] INFO root fetch - processPackages [cloudflare-r2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudflare_r2-0.0.1.tar.gz tmp/cloudflare_r2-0.0.2.tar.gz --markdown 20230525/c/cloudflare-r2/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-25 09:51:31] INFO root fetch - processPackages [ethos-u-vela]: Downloading https://files.pythonhosted.org/packages/c7/31/ac016a61af7e18571624c11b172d575e00bb72c96caf8802e5ec75b1272d/ethos-u-vela-3.8.0.tar.gz
+[2023-05-25 09:51:31] INFO root fetch - processPackages [odoo-addon-scrap-reason-code]: executing diffoscope
+[2023-05-25 09:51:31] INFO root fetch - processPackages [odoo-addon-scrap-reason-code]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_scrap_reason_code-15.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_scrap_reason_code-16.0.1.0.2-py3-none-any.whl.zip --markdown 20230525/o/odoo-addon-scrap-reason-code/15.0.1.1.0-16.0.1.0.2/diff.md --exclude *.pyd
+[2023-05-25 09:51:31] INFO root fetch - processPackages [solo-epd-loader]: executing diffoscope
+[2023-05-25 09:51:31] INFO root fetch - processPackages [solo-epd-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solo_epd_loader-0.2.1.tar.gz tmp/solo_epd_loader-0.2.2.tar.gz --markdown 20230525/s/solo-epd-loader/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-25 09:51:31] INFO root fetch - processPackages [ethos-u-vela]: executing diffoscope
+[2023-05-25 09:51:31] INFO root fetch - processPackages [ethos-u-vela]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethos-u-vela-3.7.0.tar.gz tmp/ethos-u-vela-3.8.0.tar.gz --markdown 20230525/e/ethos-u-vela/3.7.0-3.8.0/diff.md --exclude *.pyd
+[2023-05-25 09:51:31] INFO root fetch - processPackages [lesscode-tag]: executing diffoscope
+[2023-05-25 09:51:31] INFO root fetch - processPackages [lesscode-tag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode_tag-0.0.0.tar.gz tmp/lesscode_tag-0.0.1.tar.gz --markdown 20230525/l/lesscode-tag/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-05-25 09:51:31] INFO root fetch - processPackages [griffon]: executing diffoscope
+[2023-05-25 09:51:31] INFO root fetch - processPackages [griffon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griffon-0.2.3.tar.gz tmp/griffon-0.2.4.tar.gz --markdown 20230525/g/griffon/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-25 09:51:31] INFO root fetch - processPackages [RealEstate-package]: executing diffoscope
+[2023-05-25 09:51:31] INFO root fetch - processPackages [RealEstate-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RealEstate_package-1.3.0.tar.gz tmp/RealEstate_package-1.4.0.tar.gz --markdown 20230525/R/RealEstate-package/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-05-25 09:51:32] INFO root fetch - processPackages [flask-matomo2]: Start processing: dcarte
+[2023-05-25 09:51:32] INFO root fetch - main [MainThread]: End processing [flask-matomo2]: success
+[2023-05-25 09:51:32] INFO root fetch - processPackages [dcarte]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-25 09:51:32] INFO root fetch - processPackages [cloudflare-r2]: Start processing: upyog
+[2023-05-25 09:51:32] INFO root fetch - main [MainThread]: End processing [cloudflare-r2]: success
+[2023-05-25 09:51:32] INFO root fetch - processPackages [upyog]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-05-25 09:51:32] INFO root fetch - processPackages [dcarte]: executing diffoscope
+[2023-05-25 09:51:32] INFO root fetch - processPackages [dcarte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcarte-0.4.8.tar.gz tmp/dcarte-0.4.9.tar.gz --markdown 20230525/d/dcarte/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-25 09:51:32] INFO root fetch - processPackages [lesscode-tag]: Start processing: GUGGU
+[2023-05-25 09:51:32] INFO root fetch - processPackages [upyog]: Downloading https://files.pythonhosted.org/packages/62/f8/3d900309e4654e76d7678cf58d74c491f5dc858b6bafcc921ec13032c721/upyog-0.7.2.tar.gz
+[2023-05-25 09:51:32] INFO root fetch - main [MainThread]: End processing [lesscode-tag]: success
+[2023-05-25 09:51:33] WARNING root fetch - processPackages [GUGGU]: Skipping, unable to determine old version
+[2023-05-25 09:51:33] INFO root fetch - processPackages [GUGGU]: Start processing: tf-nightly-cpu
+[2023-05-25 09:51:33] INFO root fetch - main [MainThread]: End processing [GUGGU] error
+[2023-05-25 09:51:33] INFO root fetch - processPackages [upyog]: executing diffoscope
+[2023-05-25 09:51:33] INFO root fetch - processPackages [upyog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upyog-0.7.1.tar.gz tmp/upyog-0.7.2.tar.gz --markdown 20230525/u/upyog/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-05-25 09:51:33] INFO root fetch - processPackages [odoo-addon-scrap-reason-code]: Start processing: domolibrary
+[2023-05-25 09:51:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-scrap-reason-code]: success
+[2023-05-25 09:51:33] INFO root fetch - processPackages [domolibrary]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-25 09:51:33] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230525] Old Version: [2.14.0.dev20230524]
+[2023-05-25 09:51:33] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-05-25 09:51:33] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.1.8.tar.gz tmp/domolibrary-0.1.9.tar.gz --markdown 20230525/d/domolibrary/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-25 09:51:33] INFO root fetch - processPackages [solo-epd-loader]: Start processing: langchain-mpt-wrapper
+[2023-05-25 09:51:33] INFO root fetch - main [MainThread]: End processing [solo-epd-loader]: success
+[2023-05-25 09:51:33] INFO root fetch - processPackages [griffon]: Start processing: inspire-utils
+[2023-05-25 09:51:33] INFO root fetch - main [MainThread]: End processing [griffon]: success
+[2023-05-25 09:51:33] WARNING root fetch - processPackages [langchain-mpt-wrapper]: Skipping, unable to determine old version
+[2023-05-25 09:51:33] INFO root fetch - processPackages [langchain-mpt-wrapper]: Start processing: tianrannlp
+[2023-05-25 09:51:33] INFO root fetch - main [MainThread]: End processing [langchain-mpt-wrapper] error
+[2023-05-25 09:51:33] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/bf/b1/83cd0bb07a832987423e715209917d86e4bb8536acaf192f5703588bd820/tf_nightly_cpu-2.14.0.dev20230525-cp39-cp39-win_amd64.whl
+[2023-05-25 09:51:33] INFO root fetch - processPackages [inspire-utils]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-05-25 09:51:33] WARNING root fetch - processPackages [tianrannlp]: Skipping, unable to determine old version
+[2023-05-25 09:51:33] INFO root fetch - main [MainThread]: End processing [tianrannlp] error
+[2023-05-25 09:51:33] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-05-25 09:51:33] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230524-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230525-cp39-cp39-win_amd64.whl.zip --markdown 20230525/t/tf-nightly-cpu/2.14.0.dev20230524-2.14.0.dev20230525/diff.md --exclude *.pyd
+[2023-05-25 09:51:33] INFO root fetch - processPackages [inspire-utils]: Downloading https://files.pythonhosted.org/packages/09/79/361af085ded77823b01d6d48864e0784f187102e4d2baf0eb1cfb9266809/inspire-utils-3.0.8.tar.gz
+[2023-05-25 09:51:34] INFO root fetch - processPackages [inspire-utils]: Downloading https://files.pythonhosted.org/packages/d4/1a/df2be88b02d583433f788ad09f7f80e466f178124c709f8bdb8ba04c5674/inspire-utils-3.0.9.tar.gz
+[2023-05-25 09:51:34] INFO root fetch - main [MainThread]: End processing [dcarte]: success
+[2023-05-25 09:51:34] INFO root fetch - processPackages [inspire-utils]: executing diffoscope
+[2023-05-25 09:51:34] INFO root fetch - processPackages [inspire-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inspire-utils-3.0.8.tar.gz tmp/inspire-utils-3.0.9.tar.gz --markdown 20230525/i/inspire-utils/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-05-25 09:51:34] INFO root fetch - main [MainThread]: End processing [upyog]: success
+[2023-05-25 09:51:34] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-05-25 09:51:34] INFO root fetch - main [MainThread]: End processing [hcai-datasets-nightly]: success
+[2023-05-25 09:51:35] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-05-25 09:51:35] INFO root fetch - main [MainThread]: End processing [ethos-u-vela]: success
+[2023-05-25 09:51:35] INFO root fetch - main [MainThread]: End processing [inspire-utils]: success
+[2023-05-25 09:51:36] INFO root fetch - main [MainThread]: End processing [RealEstate-package]: success
+[2023-05-25 09:51:38] INFO root fetch - main [MainThread]: End processing [chellow]: success
+[2023-05-25 09:51:38] INFO root fetch - main [MainThread]: Store serial: [18243047]
