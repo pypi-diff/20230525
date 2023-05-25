@@ -22747,3 +22747,178 @@ EOFError: EOF read where object expected
 [2023-05-25 17:41:58] INFO root fetch - main [MainThread]: End processing [c7n]: success
 [2023-05-25 17:42:09] INFO root fetch - main [MainThread]: End processing [pygwalker]: success
 [2023-05-25 17:42:09] INFO root fetch - main [MainThread]: Store serial: [18249370]
+[2023-05-25 17:47:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18249370]
+[2023-05-25 17:47:19] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-05-25 17:47:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: c7n-left
+[2023-05-25 17:47:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hera-workflows
+[2023-05-25 17:47:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: c7n-gcp
+[2023-05-25 17:47:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: c7n-kube
+[2023-05-25 17:47:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: c7n-openstack
+[2023-05-25 17:47:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: c7n-mailer
+[2023-05-25 17:47:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: c7n-logexporter
+[2023-05-25 17:47:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: c7n-policystream
+[2023-05-25 17:47:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: c7n-trailcreator
+[2023-05-25 17:47:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: c7n-org
+[2023-05-25 17:47:19] INFO root fetch - processPackages [hera-workflows]: New version: [5.2.1] Old Version: [5.2.0]
+[2023-05-25 17:47:19] INFO root fetch - processPackages [c7n-kube]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-25 17:47:19] INFO root fetch - processPackages [c7n-left]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-25 17:47:19] INFO root fetch - processPackages [c7n-policystream]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-25 17:47:19] INFO root fetch - processPackages [c7n-gcp]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-25 17:47:19] INFO root fetch - processPackages [c7n-openstack]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-25 17:47:19] INFO root fetch - processPackages [c7n-mailer]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-05-25 17:47:19] INFO root fetch - processPackages [c7n-trailcreator]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-25 17:47:19] INFO root fetch - processPackages [c7n-logexporter]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-25 17:47:19] INFO root fetch - processPackages [c7n-org]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-05-25 17:47:19] INFO root fetch - processPackages [c7n-left]: executing diffoscope
+[2023-05-25 17:47:19] INFO root fetch - processPackages [c7n-left]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c7n_left-0.1.7-py3-none-any.whl.zip tmp/c7n_left-0.1.8-py3-none-any.whl.zip --markdown 20230525/c/c7n-left/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-25 17:47:19] INFO root fetch - processPackages [c7n-kube]: Downloading https://files.pythonhosted.org/packages/0f/65/4c78144e7d8037ab7649763bc1270f7e408cf81346b90ddf14fc3ed33023/c7n_kube-0.2.8-py3-none-any.whl
+[2023-05-25 17:47:19] INFO root fetch - processPackages [hera-workflows]: executing diffoscope
+[2023-05-25 17:47:19] INFO root fetch - processPackages [hera-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hera_workflows-5.2.0.tar.gz tmp/hera_workflows-5.2.1.tar.gz --markdown 20230525/h/hera-workflows/5.2.0-5.2.1/diff.md --exclude *.pyd
+[2023-05-25 17:47:19] INFO root fetch - processPackages [c7n-trailcreator]: Downloading https://files.pythonhosted.org/packages/1d/15/8478bb14a898189ef118feb417c50b985e2d5a65b574420b456fe7669446/c7n_trailcreator-0.2.8-py3-none-any.whl
+[2023-05-25 17:47:19] INFO root fetch - processPackages [c7n-gcp]: Downloading https://files.pythonhosted.org/packages/67/fd/9bec00a143c60b12089d4815c62aedbaab69b37f045df01fc85d1f4d7ec1/c7n_gcp-0.4.8-py3-none-any.whl
+[2023-05-25 17:47:19] INFO root fetch - processPackages [c7n-openstack]: Downloading https://files.pythonhosted.org/packages/2b/90/36bc88d1e3f90ad73b15d26eadd2c392674393d7657258b2c8ef6bdc8730/c7n_openstack-0.1.8-py3-none-any.whl
+[2023-05-25 17:47:19] INFO root fetch - processPackages [c7n-mailer]: Downloading https://files.pythonhosted.org/packages/2f/d6/071042c1224eaecfe3a9a2c90ea6d4c378bd37cd23c06362650b7cb19601/c7n_mailer-0.6.8-py3-none-any.whl
+[2023-05-25 17:47:19] INFO root fetch - processPackages [c7n-logexporter]: Downloading https://files.pythonhosted.org/packages/cb/d8/d1b541faeaba11953d6f109d561a37db05f2bbf969f3f7bde5b0c664dd56/c7n_logexporter-0.4.8-py3-none-any.whl
+[2023-05-25 17:47:19] INFO root fetch - processPackages [c7n-policystream]: Downloading https://files.pythonhosted.org/packages/c3/0c/c2d94c1313395d67ff0d05bc3031ad24432127ddad7b969cf646962d711d/c7n_policystream-0.4.8-py3-none-any.whl
+[2023-05-25 17:47:19] INFO root fetch - processPackages [c7n-org]: Downloading https://files.pythonhosted.org/packages/83/f7/bc531247815c3e00653837d933033e5f529d3868db51ca528f3b3be08e45/c7n_org-0.6.8-py3-none-any.whl
+[2023-05-25 17:47:19] INFO root fetch - processPackages [c7n-kube]: Downloading https://files.pythonhosted.org/packages/fb/33/67dd584e092c52eb477bc6e5565669702a22859b18ffc6d14cb26c816982/c7n_kube-0.2.9-py3-none-any.whl
+[2023-05-25 17:47:19] INFO root fetch - processPackages [c7n-openstack]: Downloading https://files.pythonhosted.org/packages/d9/3a/ba6694d6cb706b97c3ef11072fba444af3ed7bb3e6a4706ddc47707209b9/c7n_openstack-0.1.9-py3-none-any.whl
+[2023-05-25 17:47:19] INFO root fetch - processPackages [c7n-mailer]: Downloading https://files.pythonhosted.org/packages/b9/ee/68db44fb8012ffb67f229a7f982cc77ba8d22b496a5d9d0e3faf565635fb/c7n_mailer-0.6.9-py3-none-any.whl
+[2023-05-25 17:47:19] INFO root fetch - processPackages [c7n-logexporter]: Downloading https://files.pythonhosted.org/packages/29/f8/e352f3a606b357c23ad7fed3fbf71788de94b5bd3292a0b9295c6f36622b/c7n_logexporter-0.4.9-py3-none-any.whl
+[2023-05-25 17:47:19] INFO root fetch - processPackages [c7n-org]: Downloading https://files.pythonhosted.org/packages/0c/74/a3abb36dce87d14c4c3d22e00817b96c9784d0705c9e8fa81e2cf3e8d4f6/c7n_org-0.6.9-py3-none-any.whl
+[2023-05-25 17:47:19] INFO root fetch - processPackages [c7n-policystream]: Downloading https://files.pythonhosted.org/packages/b5/d0/79a090c3d0b7556ae0815deaac15e56a6daa54267e7011f9ec699704acb3/c7n_policystream-0.4.9-py3-none-any.whl
+[2023-05-25 17:47:19] INFO root fetch - processPackages [c7n-kube]: executing diffoscope
+[2023-05-25 17:47:19] INFO root fetch - processPackages [c7n-kube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c7n_kube-0.2.8-py3-none-any.whl.zip tmp/c7n_kube-0.2.9-py3-none-any.whl.zip --markdown 20230525/c/c7n-kube/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-25 17:47:20] INFO root fetch - processPackages [c7n-trailcreator]: Downloading https://files.pythonhosted.org/packages/2a/3e/6fdb2a5e5d0eb79e0c6f3027dbea071264da14dae7c5cd9eb4983e81b6cc/c7n_trailcreator-0.2.9-py3-none-any.whl
+[2023-05-25 17:47:20] INFO root fetch - processPackages [c7n-mailer]: executing diffoscope
+[2023-05-25 17:47:20] INFO root fetch - processPackages [c7n-mailer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c7n_mailer-0.6.8-py3-none-any.whl.zip tmp/c7n_mailer-0.6.9-py3-none-any.whl.zip --markdown 20230525/c/c7n-mailer/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-05-25 17:47:20] INFO root fetch - processPackages [c7n-gcp]: Downloading https://files.pythonhosted.org/packages/48/0b/e3c0db3fe0a605e794c46ff2679559ab82b60f9d2fce968bc386235e7633/c7n_gcp-0.4.9-py3-none-any.whl
+[2023-05-25 17:47:20] INFO root fetch - processPackages [c7n-logexporter]: executing diffoscope
+[2023-05-25 17:47:20] INFO root fetch - processPackages [c7n-logexporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c7n_logexporter-0.4.8-py3-none-any.whl.zip tmp/c7n_logexporter-0.4.9-py3-none-any.whl.zip --markdown 20230525/c/c7n-logexporter/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-25 17:47:20] INFO root fetch - processPackages [c7n-org]: executing diffoscope
+[2023-05-25 17:47:20] INFO root fetch - processPackages [c7n-org]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c7n_org-0.6.8-py3-none-any.whl.zip tmp/c7n_org-0.6.9-py3-none-any.whl.zip --markdown 20230525/c/c7n-org/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-05-25 17:47:20] INFO root fetch - processPackages [c7n-gcp]: executing diffoscope
+[2023-05-25 17:47:20] INFO root fetch - processPackages [c7n-gcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c7n_gcp-0.4.8-py3-none-any.whl.zip tmp/c7n_gcp-0.4.9-py3-none-any.whl.zip --markdown 20230525/c/c7n-gcp/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-25 17:47:20] INFO root fetch - processPackages [c7n-policystream]: executing diffoscope
+[2023-05-25 17:47:20] INFO root fetch - processPackages [c7n-policystream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c7n_policystream-0.4.8-py3-none-any.whl.zip tmp/c7n_policystream-0.4.9-py3-none-any.whl.zip --markdown 20230525/c/c7n-policystream/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-25 17:47:20] INFO root fetch - processPackages [c7n-trailcreator]: executing diffoscope
+[2023-05-25 17:47:20] INFO root fetch - processPackages [c7n-trailcreator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c7n_trailcreator-0.2.8-py3-none-any.whl.zip tmp/c7n_trailcreator-0.2.9-py3-none-any.whl.zip --markdown 20230525/c/c7n-trailcreator/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-25 17:47:20] INFO root fetch - processPackages [c7n-openstack]: executing diffoscope
+[2023-05-25 17:47:20] INFO root fetch - processPackages [c7n-openstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c7n_openstack-0.1.8-py3-none-any.whl.zip tmp/c7n_openstack-0.1.9-py3-none-any.whl.zip --markdown 20230525/c/c7n-openstack/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-25 17:47:21] INFO root fetch - processPackages [c7n-left]: Start processing: c7n-sphinxext
+[2023-05-25 17:47:21] INFO root fetch - main [MainThread]: End processing [c7n-left]: success
+[2023-05-25 17:47:21] INFO root fetch - processPackages [c7n-sphinxext]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-25 17:47:21] INFO root fetch - processPackages [c7n-sphinxext]: Downloading https://files.pythonhosted.org/packages/29/c6/19ff20df7b604eaec6f0371e3ad920dd673cd0cd993e08f3cd8698dec37a/c7n_sphinxext-1.1.8-py3-none-any.whl
+[2023-05-25 17:47:21] INFO root fetch - processPackages [c7n-sphinxext]: Downloading https://files.pythonhosted.org/packages/a9/fb/3f99aedddaf8625aa65f88174b8b034b5532a3931f2c3547fcb0616a4427/c7n_sphinxext-1.1.9-py3-none-any.whl
+[2023-05-25 17:47:21] INFO root fetch - processPackages [c7n-sphinxext]: executing diffoscope
+[2023-05-25 17:47:21] INFO root fetch - processPackages [c7n-sphinxext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c7n_sphinxext-1.1.8-py3-none-any.whl.zip tmp/c7n_sphinxext-1.1.9-py3-none-any.whl.zip --markdown 20230525/c/c7n-sphinxext/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-25 17:47:21] INFO root fetch - processPackages [c7n-kube]: Start processing: c7n-terraform
+[2023-05-25 17:47:21] INFO root fetch - main [MainThread]: End processing [c7n-kube]: success
+[2023-05-25 17:47:21] INFO root fetch - processPackages [c7n-terraform]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-25 17:47:21] INFO root fetch - processPackages [c7n-mailer]: Start processing: c7n-awscc
+[2023-05-25 17:47:21] INFO root fetch - main [MainThread]: End processing [c7n-mailer]: success
+[2023-05-25 17:47:22] INFO root fetch - processPackages [c7n-awscc]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-25 17:47:22] INFO root fetch - processPackages [hera-workflows]: Start processing: c7n-tencentcloud
+[2023-05-25 17:47:22] INFO root fetch - main [MainThread]: End processing [hera-workflows]: success
+[2023-05-25 17:47:22] INFO root fetch - processPackages [c7n-org]: Start processing: c7n-azure
+[2023-05-25 17:47:22] INFO root fetch - main [MainThread]: End processing [c7n-org]: success
+[2023-05-25 17:47:22] INFO root fetch - processPackages [c7n-tencentcloud]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-25 17:47:22] INFO root fetch - processPackages [c7n-azure]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-05-25 17:47:22] INFO root fetch - processPackages [c7n-terraform]: Downloading https://files.pythonhosted.org/packages/70/31/4e88c4f31dae8b43c500cdda1b9d5cf9fb262e848d321247a896e4fa6f8f/c7n_terraform-0.1.8-py3-none-any.whl
+[2023-05-25 17:47:22] INFO root fetch - processPackages [c7n-logexporter]: Start processing: django-plausible-proxy
+[2023-05-25 17:47:22] INFO root fetch - main [MainThread]: End processing [c7n-logexporter]: success
+[2023-05-25 17:47:22] INFO root fetch - processPackages [django-plausible-proxy]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-25 17:47:22] INFO root fetch - processPackages [c7n-awscc]: Downloading https://files.pythonhosted.org/packages/b6/61/2d10f250d405bdce69df47a26bfb4fc93b0921058f590de6bb59246ebaaa/c7n_awscc-0.1.8-py3-none-any.whl
+[2023-05-25 17:47:22] INFO root fetch - processPackages [c7n-tencentcloud]: Downloading https://files.pythonhosted.org/packages/c1/b9/3645495088af7bb52df8a1b835740b59a3991650f71117b48b9b3a00cebc/c7n_tencentcloud-0.1.8-py3-none-any.whl
+[2023-05-25 17:47:22] INFO root fetch - processPackages [c7n-azure]: Downloading https://files.pythonhosted.org/packages/2f/c5/4e193e207591e855645adfb17946006c8e4986137b1f245bf5308f663019/c7n_azure-0.7.8-py3-none-any.whl
+[2023-05-25 17:47:22] INFO root fetch - processPackages [django-plausible-proxy]: Downloading https://files.pythonhosted.org/packages/31/70/71765f207ba3077298b4b3d05b8237146fbe20c5e5b9551bf7f448ffd47b/django_plausible_proxy-0.4.0.tar.gz
+[2023-05-25 17:47:22] INFO root fetch - processPackages [c7n-terraform]: Downloading https://files.pythonhosted.org/packages/ee/1f/fb7c83b5c50eb6dea47ed48f5abe14540c8f85ee9ebcdade5210bb70bc1c/c7n_terraform-0.1.9-py3-none-any.whl
+[2023-05-25 17:47:22] INFO root fetch - processPackages [c7n-terraform]: executing diffoscope
+[2023-05-25 17:47:22] INFO root fetch - processPackages [c7n-terraform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c7n_terraform-0.1.8-py3-none-any.whl.zip tmp/c7n_terraform-0.1.9-py3-none-any.whl.zip --markdown 20230525/c/c7n-terraform/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-25 17:47:22] INFO root fetch - processPackages [c7n-awscc]: Downloading https://files.pythonhosted.org/packages/30/d8/1998a5b82faf253536e6124a52b08c27e018c2df3b873caa7ab287726ba0/c7n_awscc-0.1.9-py3-none-any.whl
+[2023-05-25 17:47:22] INFO root fetch - processPackages [c7n-tencentcloud]: Downloading https://files.pythonhosted.org/packages/2c/84/507fd6ca5475a26454f2cef64d577314ecf0e65a2f81783342f0d7beeee4/c7n_tencentcloud-0.1.9-py3-none-any.whl
+[2023-05-25 17:47:22] INFO root fetch - processPackages [c7n-azure]: Downloading https://files.pythonhosted.org/packages/9c/b5/995bc9ba0e9f7ae2ed0869121f6561f6b388b552882b6778c27863ba47d0/c7n_azure-0.7.9-py3-none-any.whl
+[2023-05-25 17:47:22] INFO root fetch - processPackages [c7n-policystream]: Start processing: tinybird-cli
+[2023-05-25 17:47:22] INFO root fetch - main [MainThread]: End processing [c7n-policystream]: success
+[2023-05-25 17:47:22] INFO root fetch - processPackages [c7n-gcp]: Start processing: DataDoctor
+[2023-05-25 17:47:22] INFO root fetch - main [MainThread]: End processing [c7n-gcp]: success
+[2023-05-25 17:47:22] INFO root fetch - processPackages [tinybird-cli]: New version: [1.0.0b99] Old Version: [1.0.0b98]
+[2023-05-25 17:47:22] INFO root fetch - processPackages [DataDoctor]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-25 17:47:22] INFO root fetch - processPackages [c7n-trailcreator]: Start processing: django-walletpass
+[2023-05-25 17:47:22] INFO root fetch - main [MainThread]: End processing [c7n-trailcreator]: success
+[2023-05-25 17:47:22] INFO root fetch - processPackages [c7n-awscc]: executing diffoscope
+[2023-05-25 17:47:22] INFO root fetch - processPackages [c7n-awscc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c7n_awscc-0.1.8-py3-none-any.whl.zip tmp/c7n_awscc-0.1.9-py3-none-any.whl.zip --markdown 20230525/c/c7n-awscc/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-25 17:47:22] INFO root fetch - processPackages [c7n-tencentcloud]: executing diffoscope
+[2023-05-25 17:47:22] INFO root fetch - processPackages [c7n-tencentcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c7n_tencentcloud-0.1.8-py3-none-any.whl.zip tmp/c7n_tencentcloud-0.1.9-py3-none-any.whl.zip --markdown 20230525/c/c7n-tencentcloud/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-25 17:47:22] INFO root fetch - processPackages [django-plausible-proxy]: Downloading https://files.pythonhosted.org/packages/47/82/3fa85192bbf05c6ac189a465def97edffb44c7a0561e5c434211575e4007/django_plausible_proxy-0.5.0.tar.gz
+[2023-05-25 17:47:22] INFO root fetch - processPackages [django-walletpass]: New version: [3.0] Old Version: [2.0]
+[2023-05-25 17:47:22] INFO root fetch - processPackages [c7n-openstack]: Start processing: elgin
+[2023-05-25 17:47:22] INFO root fetch - main [MainThread]: End processing [c7n-openstack]: success
+[2023-05-25 17:47:22] INFO root fetch - processPackages [c7n-azure]: executing diffoscope
+[2023-05-25 17:47:22] INFO root fetch - processPackages [c7n-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c7n_azure-0.7.8-py3-none-any.whl.zip tmp/c7n_azure-0.7.9-py3-none-any.whl.zip --markdown 20230525/c/c7n-azure/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-05-25 17:47:22] INFO root fetch - processPackages [elgin]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-25 17:47:22] INFO root fetch - processPackages [django-plausible-proxy]: executing diffoscope
+[2023-05-25 17:47:22] INFO root fetch - processPackages [django-plausible-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_plausible_proxy-0.4.0.tar.gz tmp/django_plausible_proxy-0.5.0.tar.gz --markdown 20230525/d/django-plausible-proxy/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-25 17:47:22] INFO root fetch - processPackages [DataDoctor]: Downloading https://files.pythonhosted.org/packages/07/20/92aaf4d81be495baf19660b755b9f18d7a08fd454b1c96a680f34ba06052/DataDoctor-1.0.6.tar.gz
+[2023-05-25 17:47:22] INFO root fetch - processPackages [elgin]: Downloading https://files.pythonhosted.org/packages/d1/34/bf53bf54182e565e94bfd91c6327a8254349101c96d979bbe1cb4a1e39af/elgin-0.1.3-py3-none-any.whl
+[2023-05-25 17:47:22] INFO root fetch - processPackages [django-walletpass]: Downloading https://files.pythonhosted.org/packages/b0/78/a7fda309cf7c3cddb27b1f0223bded54f5dd5f21e917f97fab65e8ebe331/django-walletpass-2.0.tar.gz
+[2023-05-25 17:47:22] INFO root fetch - processPackages [DataDoctor]: Downloading https://files.pythonhosted.org/packages/91/d7/59e0cd94acf6100c6159fe2a8a35eb845553f5a06d83d43fc175838821e0/DataDoctor-1.0.7.tar.gz
+[2023-05-25 17:47:22] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2023-05-25 17:47:22] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-1.0.0b98.tar.gz tmp/tinybird-cli-1.0.0b99.tar.gz --markdown 20230525/t/tinybird-cli/1.0.0b98-1.0.0b99/diff.md --exclude *.pyd
+[2023-05-25 17:47:23] INFO root fetch - processPackages [elgin]: Downloading https://files.pythonhosted.org/packages/27/d3/3e9a4f0eb1feb150fbd19ac2e630a57b2b5bb42ce38d4d57629cfa3f139d/elgin-0.1.4-py3-none-any.whl
+[2023-05-25 17:47:23] INFO root fetch - processPackages [DataDoctor]: executing diffoscope
+[2023-05-25 17:47:23] INFO root fetch - processPackages [DataDoctor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DataDoctor-1.0.6.tar.gz tmp/DataDoctor-1.0.7.tar.gz --markdown 20230525/D/DataDoctor/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-25 17:47:23] INFO root fetch - processPackages [elgin]: executing diffoscope
+[2023-05-25 17:47:23] INFO root fetch - processPackages [elgin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elgin-0.1.3-py3-none-any.whl.zip tmp/elgin-0.1.4-py3-none-any.whl.zip --markdown 20230525/e/elgin/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-25 17:47:23] INFO root fetch - processPackages [django-walletpass]: Downloading https://files.pythonhosted.org/packages/f1/a7/f58cd57566c9017adb08bce10083497404bd25295490f35b4961007fb924/django-walletpass-3.0.tar.gz
+[2023-05-25 17:47:23] INFO root fetch - processPackages [django-walletpass]: executing diffoscope
+[2023-05-25 17:47:23] INFO root fetch - processPackages [django-walletpass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-walletpass-2.0.tar.gz tmp/django-walletpass-3.0.tar.gz --markdown 20230525/d/django-walletpass/2.0-3.0/diff.md --exclude *.pyd
+[2023-05-25 17:47:23] INFO root fetch - processPackages [c7n-sphinxext]: Start processing: pyplattsapi
+[2023-05-25 17:47:23] INFO root fetch - main [MainThread]: End processing [c7n-sphinxext]: success
+[2023-05-25 17:47:23] INFO root fetch - processPackages [pyplattsapi]: New version: [0.0.6] Old Version: [0.0.4]
+[2023-05-25 17:47:23] INFO root fetch - processPackages [pyplattsapi]: Downloading https://files.pythonhosted.org/packages/82/3f/128bd782948dc8eafa52ddc3bad9ed6e611b6375eb8bd59e12a2a758a660/pyplattsapi-0.0.4.tar.gz
+[2023-05-25 17:47:24] INFO root fetch - processPackages [c7n-terraform]: Start processing: akshare
+[2023-05-25 17:47:24] INFO root fetch - main [MainThread]: End processing [c7n-terraform]: success
+[2023-05-25 17:47:24] INFO root fetch - processPackages [pyplattsapi]: Downloading https://files.pythonhosted.org/packages/27/b7/686bea2763dbaff93756fca7226c61502bf5395fefeb72b88ec6659a580c/pyplattsapi-0.0.6.tar.gz
+[2023-05-25 17:47:24] INFO root fetch - processPackages [akshare]: New version: [1.9.95] Old Version: [1.9.94]
+[2023-05-25 17:47:24] INFO root fetch - processPackages [pyplattsapi]: executing diffoscope
+[2023-05-25 17:47:24] INFO root fetch - processPackages [pyplattsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyplattsapi-0.0.4.tar.gz tmp/pyplattsapi-0.0.6.tar.gz --markdown 20230525/p/pyplattsapi/0.0.4-0.0.6/diff.md --exclude *.pyd
+[2023-05-25 17:47:24] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/f9/69/2bb7f1f83a7f1a1d59f0830ba931384f4c2534ba95862b9493fd44977fbe/akshare-1.9.95.tar.gz
+[2023-05-25 17:47:24] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-05-25 17:47:24] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.94.tar.gz tmp/akshare-1.9.95.tar.gz --markdown 20230525/a/akshare/1.9.94-1.9.95/diff.md --exclude *.pyd
+[2023-05-25 17:47:24] INFO root fetch - processPackages [c7n-tencentcloud]: Start processing: debops
+[2023-05-25 17:47:24] INFO root fetch - main [MainThread]: End processing [c7n-tencentcloud]: success
+[2023-05-25 17:47:24] INFO root fetch - processPackages [debops]: New version: [3.0.4] Old Version: [3.0.3]
+[2023-05-25 17:47:24] INFO root fetch - processPackages [debops]: Downloading https://files.pythonhosted.org/packages/d2/00/4faf0f2a995aca0ad05096b4794f8663828a69f16a91058e7f8a45ce31f0/debops-3.0.3.tar.gz
+[2023-05-25 17:47:25] INFO root fetch - processPackages [tinybird-cli]: Start processing: jupyterlab-training
+[2023-05-25 17:47:25] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2023-05-25 17:47:25] INFO root fetch - processPackages [jupyterlab-training]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-25 17:47:25] INFO root fetch - processPackages [elgin]: Start processing: rpycocotools-stubs
+[2023-05-25 17:47:25] INFO root fetch - main [MainThread]: End processing [elgin]: success
+[2023-05-25 17:47:25] INFO root fetch - processPackages [django-plausible-proxy]: Start processing: dbt-core
+[2023-05-25 17:47:25] INFO root fetch - main [MainThread]: End processing [django-plausible-proxy]: success
+[2023-05-25 17:47:25] INFO root fetch - main [MainThread]: End processing [c7n-azure]: success
+[2023-05-25 17:47:25] INFO root fetch - main [MainThread]: End processing [DataDoctor]: success
+[2023-05-25 17:47:25] INFO root fetch - processPackages [jupyterlab-training]: executing diffoscope
+[2023-05-25 17:47:25] INFO root fetch - processPackages [jupyterlab-training]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_training-0.3.1.tar.gz tmp/jupyterlab_training-0.3.2.tar.gz --markdown 20230525/j/jupyterlab-training/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-25 17:47:25] INFO root fetch - processPackages [rpycocotools-stubs]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-25 17:47:25] INFO root fetch - processPackages [dbt-core]: New version: [1.6.0b2] Old Version: [1.6.0b1]
+[2023-05-25 17:47:25] INFO root fetch - processPackages [dbt-core]: Downloading https://files.pythonhosted.org/packages/40/8f/34420da0db8777b46f2789ee300ed150158c386a75613fff31a469c70fff/dbt-core-1.6.0b1.tar.gz
+[2023-05-25 17:47:25] INFO root fetch - processPackages [rpycocotools-stubs]: Downloading https://files.pythonhosted.org/packages/51/e7/50b54c341fca94ed6cb8cc300b6e2dd895a7988d8f2cd174a23cc813abb4/rpycocotools_stubs-0.0.7.tar.gz
+[2023-05-25 17:47:25] INFO root fetch - main [MainThread]: End processing [django-walletpass]: success
+[2023-05-25 17:47:25] INFO root fetch - main [MainThread]: End processing [pyplattsapi]: success
+[2023-05-25 17:47:25] INFO root fetch - processPackages [debops]: Downloading https://files.pythonhosted.org/packages/cf/33/7d99a5c454260954c52768f0b7f2301d7fa963887b1c1aea691acf974759/debops-3.0.4.tar.gz
+[2023-05-25 17:47:26] INFO root fetch - processPackages [dbt-core]: Downloading https://files.pythonhosted.org/packages/71/79/e884721fd7fc227b6de589359e501c247cb61224bcf71ff7c4a49b7be51d/dbt-core-1.6.0b2.tar.gz
+[2023-05-25 17:47:26] INFO root fetch - processPackages [rpycocotools-stubs]: executing diffoscope
+[2023-05-25 17:47:26] INFO root fetch - processPackages [rpycocotools-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpycocotools_stubs-0.0.6.tar.gz tmp/rpycocotools_stubs-0.0.7.tar.gz --markdown 20230525/r/rpycocotools-stubs/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-25 17:47:26] INFO root fetch - processPackages [debops]: executing diffoscope
+[2023-05-25 17:47:26] INFO root fetch - processPackages [debops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/debops-3.0.3.tar.gz tmp/debops-3.0.4.tar.gz --markdown 20230525/d/debops/3.0.3-3.0.4/diff.md --exclude *.pyd
+[2023-05-25 17:47:26] INFO root fetch - processPackages [dbt-core]: executing diffoscope
+[2023-05-25 17:47:26] INFO root fetch - processPackages [dbt-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-core-1.6.0b1.tar.gz tmp/dbt-core-1.6.0b2.tar.gz --markdown 20230525/d/dbt-core/1.6.0b1-1.6.0b2/diff.md --exclude *.pyd
+[2023-05-25 17:47:27] INFO root fetch - main [MainThread]: End processing [c7n-awscc]: success
+[2023-05-25 17:47:27] INFO root fetch - main [MainThread]: End processing [rpycocotools-stubs]: success
+[2023-05-25 17:47:28] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-05-25 17:47:29] INFO root fetch - main [MainThread]: End processing [dbt-core]: success
+[2023-05-25 17:47:32] INFO root fetch - main [MainThread]: End processing [jupyterlab-training]: success
+[2023-05-25 17:48:45] INFO root fetch - main [MainThread]: End processing [debops]: success
+[2023-05-25 17:48:45] INFO root fetch - main [MainThread]: Store serial: [18249427]
