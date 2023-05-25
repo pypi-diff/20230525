@@ -21232,3 +21232,115 @@ EOFError: EOF read where object expected
 [2023-05-25 16:41:16] INFO root fetch - main [MainThread]: End processing [pymodaq]: success
 [2023-05-25 16:41:17] INFO root fetch - main [MainThread]: End processing [ydb]: success
 [2023-05-25 16:41:17] INFO root fetch - main [MainThread]: Store serial: [18248398]
+[2023-05-25 16:46:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18248398]
+[2023-05-25 16:46:26] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-25 16:46:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OpenFisca-France
+[2023-05-25 16:46:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: freeGPT
+[2023-05-25 16:46:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tensoul
+[2023-05-25 16:46:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: forestadmin-datasource-toolkit
+[2023-05-25 16:46:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ramanchada2
+[2023-05-25 16:46:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: forestadmin-datasource-sqlalchemy
+[2023-05-25 16:46:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mctextworld
+[2023-05-25 16:46:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pycliwrapper
+[2023-05-25 16:46:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: forestadmin-agent-toolkit
+[2023-05-25 16:46:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PyConSolv
+[2023-05-25 16:46:26] INFO root fetch - processPackages [ramanchada2]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-25 16:46:26] INFO root fetch - processPackages [tensoul]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-25 16:46:26] INFO root fetch - processPackages [freeGPT]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-25 16:46:26] INFO root fetch - processPackages [forestadmin-agent-toolkit]: New version: [0.1.0b9] Old Version: [0.1.0b8]
+[2023-05-25 16:46:26] INFO root fetch - processPackages [pycliwrapper]: New version: [0.2] Old Version: [0.1]
+[2023-05-25 16:46:26] WARNING root fetch - processPackages [mctextworld]: Skipping, unable to determine old version
+[2023-05-25 16:46:26] INFO root fetch - processPackages [mctextworld]: Start processing: decentriq-platform
+[2023-05-25 16:46:26] INFO root fetch - main [MainThread]: End processing [mctextworld] error
+[2023-05-25 16:46:26] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: New version: [0.1.0b9] Old Version: [0.1.0b8]
+[2023-05-25 16:46:26] INFO root fetch - processPackages [OpenFisca-France]: New version: [99.0.1] Old Version: [99.0.0]
+[2023-05-25 16:46:27] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: New version: [0.1.0b9] Old Version: [0.1.0b8]
+[2023-05-25 16:46:27] WARNING root fetch - processPackages [PyConSolv]: Skipping, unable to determine old version
+[2023-05-25 16:46:27] INFO root fetch - processPackages [PyConSolv]: Start processing: libfmp
+[2023-05-25 16:46:27] INFO root fetch - main [MainThread]: End processing [PyConSolv] error
+[2023-05-25 16:46:27] INFO root fetch - processPackages [forestadmin-agent-toolkit]: executing diffoscope
+[2023-05-25 16:46:27] INFO root fetch - processPackages [forestadmin-agent-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forestadmin_agent_toolkit-0.1.0b8.tar.gz tmp/forestadmin_agent_toolkit-0.1.0b9.tar.gz --markdown 20230525/f/forestadmin-agent-toolkit/0.1.0b8-0.1.0b9/diff.md --exclude *.pyd
+[2023-05-25 16:46:27] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: executing diffoscope
+[2023-05-25 16:46:27] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forestadmin_datasource_sqlalchemy-0.1.0b8.tar.gz tmp/forestadmin_datasource_sqlalchemy-0.1.0b9.tar.gz --markdown 20230525/f/forestadmin-datasource-sqlalchemy/0.1.0b8-0.1.0b9/diff.md --exclude *.pyd
+[2023-05-25 16:46:27] INFO root fetch - processPackages [OpenFisca-France]: executing diffoscope
+[2023-05-25 16:46:27] INFO root fetch - processPackages [OpenFisca-France]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenFisca_France-99.0.0-py3-none-any.whl.zip tmp/OpenFisca_France-99.0.1-py3-none-any.whl.zip --markdown 20230525/O/OpenFisca-France/99.0.0-99.0.1/diff.md --exclude *.pyd
+[2023-05-25 16:46:27] INFO root fetch - processPackages [decentriq-platform]: New version: [0.9.1] Old Version: [0.9.0rc2]
+[2023-05-25 16:46:27] INFO root fetch - processPackages [ramanchada2]: Downloading https://files.pythonhosted.org/packages/a2/5c/79fc057a493d1499d5c0c7bd0e8c35108935ae6d45e832116d2f5fce8cba/ramanchada2-0.0.5.tar.gz
+[2023-05-25 16:46:27] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: executing diffoscope
+[2023-05-25 16:46:27] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forestadmin_datasource_toolkit-0.1.0b8.tar.gz tmp/forestadmin_datasource_toolkit-0.1.0b9.tar.gz --markdown 20230525/f/forestadmin-datasource-toolkit/0.1.0b8-0.1.0b9/diff.md --exclude *.pyd
+[2023-05-25 16:46:27] INFO root fetch - processPackages [tensoul]: Downloading https://files.pythonhosted.org/packages/0b/4e/7325311f8dfed131384ca87749e30e70a409fdc7850489fa286e322d5a86/tensoul-0.1.0.tar.gz
+[2023-05-25 16:46:27] INFO root fetch - processPackages [pycliwrapper]: Downloading https://files.pythonhosted.org/packages/23/5c/8d6591d3e21aac5c5f91f4fb23b264cb2abf6db289e642999d3b95bb68bb/pycliwrapper-0.1.tar.gz
+[2023-05-25 16:46:27] INFO root fetch - processPackages [libfmp]: New version: [1.2.5] Old Version: [1.2.3]
+[2023-05-25 16:46:27] INFO root fetch - processPackages [decentriq-platform]: executing diffoscope
+[2023-05-25 16:46:27] INFO root fetch - processPackages [decentriq-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decentriq-platform-0.9.0rc2.tar.gz tmp/decentriq-platform-0.9.1.tar.gz --markdown 20230525/d/decentriq-platform/0.9.0rc2-0.9.1/diff.md --exclude *.pyd
+[2023-05-25 16:46:27] INFO root fetch - processPackages [freeGPT]: Downloading https://files.pythonhosted.org/packages/f9/ee/d2bf6f93199c330db45ab37b351eb6e0213c741b141b318010c8f8d8a732/freeGPT-1.0.3.tar.gz
+[2023-05-25 16:46:27] INFO root fetch - processPackages [libfmp]: Downloading https://files.pythonhosted.org/packages/88/c1/c6cc0b02625db7d7cf7c3e433569710d7c47e14c8dc00e488911eb2b0a9a/libfmp-1.2.3.tar.gz
+[2023-05-25 16:46:27] INFO root fetch - processPackages [tensoul]: Downloading https://files.pythonhosted.org/packages/1d/c7/b637a6a9e57bcc309cf3996abf4a8f6824b31d7c21d8e6fb7fd96bc57a13/tensoul-0.1.1.tar.gz
+[2023-05-25 16:46:27] INFO root fetch - processPackages [pycliwrapper]: Downloading https://files.pythonhosted.org/packages/46/a5/061d8a7d8def1d899fd0581d31ef9ab1af7ccb8bc522d8424ffd838ad2fb/pycliwrapper-0.2.tar.gz
+[2023-05-25 16:46:27] INFO root fetch - processPackages [freeGPT]: executing diffoscope
+[2023-05-25 16:46:27] INFO root fetch - processPackages [freeGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freeGPT-1.0.0.2.tar.gz tmp/freeGPT-1.0.3.tar.gz --markdown 20230525/f/freeGPT/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-25 16:46:27] INFO root fetch - processPackages [tensoul]: executing diffoscope
+[2023-05-25 16:46:27] INFO root fetch - processPackages [tensoul]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensoul-0.1.0.tar.gz tmp/tensoul-0.1.1.tar.gz --markdown 20230525/t/tensoul/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-25 16:46:27] INFO root fetch - processPackages [pycliwrapper]: executing diffoscope
+[2023-05-25 16:46:27] INFO root fetch - processPackages [pycliwrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycliwrapper-0.1.tar.gz tmp/pycliwrapper-0.2.tar.gz --markdown 20230525/p/pycliwrapper/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-25 16:46:27] INFO root fetch - processPackages [libfmp]: Downloading https://files.pythonhosted.org/packages/ac/a1/bf3e1a31769cdea27abee65d5c9d8f8860bb456175773b4e8c7ec3ebcea3/libfmp-1.2.5.tar.gz
+[2023-05-25 16:46:27] INFO root fetch - processPackages [libfmp]: executing diffoscope
+[2023-05-25 16:46:27] INFO root fetch - processPackages [libfmp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libfmp-1.2.3.tar.gz tmp/libfmp-1.2.5.tar.gz --markdown 20230525/l/libfmp/1.2.3-1.2.5/diff.md --exclude *.pyd
+[2023-05-25 16:46:28] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: Start processing: data-repo-client
+[2023-05-25 16:46:28] INFO root fetch - main [MainThread]: End processing [forestadmin-datasource-sqlalchemy]: success
+[2023-05-25 16:46:28] INFO root fetch - processPackages [ramanchada2]: Downloading https://files.pythonhosted.org/packages/b8/d6/d74c5aee19f69047c3cdd10ce753480f5fd53f3be7925873b88d150ae7b0/ramanchada2-0.0.6.tar.gz
+[2023-05-25 16:46:28] INFO root fetch - processPackages [forestadmin-agent-toolkit]: Start processing: adslproxy-enhance
+[2023-05-25 16:46:28] INFO root fetch - main [MainThread]: End processing [forestadmin-agent-toolkit]: success
+[2023-05-25 16:46:28] INFO root fetch - processPackages [adslproxy-enhance]: New version: [3.7.0] Old Version: [3.5.0]
+[2023-05-25 16:46:28] INFO root fetch - processPackages [data-repo-client]: New version: [1.64.0] Old Version: [1.487.0]
+[2023-05-25 16:46:28] INFO root fetch - processPackages [ramanchada2]: executing diffoscope
+[2023-05-25 16:46:28] INFO root fetch - processPackages [ramanchada2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramanchada2-0.0.5.tar.gz tmp/ramanchada2-0.0.6.tar.gz --markdown 20230525/r/ramanchada2/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-25 16:46:28] INFO root fetch - processPackages [adslproxy-enhance]: executing diffoscope
+[2023-05-25 16:46:28] INFO root fetch - processPackages [adslproxy-enhance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adslproxy-enhance-3.5.0.tar.gz tmp/adslproxy-enhance-3.7.0.tar.gz --markdown 20230525/a/adslproxy-enhance/3.5.0-3.7.0/diff.md --exclude *.pyd
+[2023-05-25 16:46:28] INFO root fetch - processPackages [data-repo-client]: Downloading https://files.pythonhosted.org/packages/b1/32/20d2bb6b0b0478d4476a0a37d7a0b575d491bd2e19893bde4ad2750e56c5/data-repo-client-1.487.0.tar.gz
+[2023-05-25 16:46:29] INFO root fetch - processPackages [tensoul]: Start processing: forestadmin-agent-flask
+[2023-05-25 16:46:29] INFO root fetch - main [MainThread]: End processing [tensoul]: success
+[2023-05-25 16:46:29] INFO root fetch - processPackages [forestadmin-agent-flask]: New version: [0.1.0b9] Old Version: [0.1.0b8]
+[2023-05-25 16:46:29] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: Start processing: upgini
+[2023-05-25 16:46:29] INFO root fetch - main [MainThread]: End processing [forestadmin-datasource-toolkit]: success
+[2023-05-25 16:46:29] INFO root fetch - processPackages [data-repo-client]: executing diffoscope
+[2023-05-25 16:46:29] INFO root fetch - processPackages [data-repo-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-repo-client-1.487.0.tar.gz tmp/data-repo-client-1.64.0.tar.gz --markdown 20230525/d/data-repo-client/1.487.0-1.64.0/diff.md --exclude *.pyd
+[2023-05-25 16:46:29] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-05-25 16:46:29] INFO root fetch - processPackages [forestadmin-agent-flask]: executing diffoscope
+[2023-05-25 16:46:29] INFO root fetch - processPackages [forestadmin-agent-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forestadmin_agent_flask-0.1.0b8.tar.gz tmp/forestadmin_agent_flask-0.1.0b9.tar.gz --markdown 20230525/f/forestadmin-agent-flask/0.1.0b8-0.1.0b9/diff.md --exclude *.pyd
+[2023-05-25 16:46:29] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2023-05-25 16:46:29] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20230525/u/upgini/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-05-25 16:46:29] INFO root fetch - processPackages [pycliwrapper]: Start processing: kfactory
+[2023-05-25 16:46:29] INFO root fetch - main [MainThread]: End processing [pycliwrapper]: success
+[2023-05-25 16:46:29] INFO root fetch - processPackages [freeGPT]: Start processing: adt-cache
+[2023-05-25 16:46:29] INFO root fetch - main [MainThread]: End processing [freeGPT]: success
+[2023-05-25 16:46:29] INFO root fetch - processPackages [kfactory]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-05-25 16:46:29] INFO root fetch - processPackages [adt-cache]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 16:46:29] INFO root fetch - processPackages [kfactory]: executing diffoscope
+[2023-05-25 16:46:29] INFO root fetch - processPackages [kfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfactory-0.7.0.tar.gz tmp/kfactory-0.7.1.tar.gz --markdown 20230525/k/kfactory/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-05-25 16:46:29] INFO root fetch - processPackages [adt-cache]: Downloading https://files.pythonhosted.org/packages/99/65/5a602bb0d00239122defb6a95cdc1bca7dfffa6ee25be4cc745c56596247/adt_cache-0.0.9.tar.gz
+[2023-05-25 16:46:29] INFO root fetch - processPackages [libfmp]: Start processing: sarus-data-spec-public
+[2023-05-25 16:46:29] INFO root fetch - main [MainThread]: End processing [libfmp]: success
+[2023-05-25 16:46:29] INFO root fetch - processPackages [sarus-data-spec-public]: New version: [3.3.0.dev3] Old Version: [3.3.0.dev2]
+[2023-05-25 16:46:29] INFO root fetch - processPackages [adt-cache]: executing diffoscope
+[2023-05-25 16:46:29] INFO root fetch - processPackages [adt-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adt_cache-0.0.8.tar.gz tmp/adt_cache-0.0.9.tar.gz --markdown 20230525/a/adt-cache/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 16:46:29] INFO root fetch - processPackages [sarus-data-spec-public]: executing diffoscope
+[2023-05-25 16:46:29] INFO root fetch - processPackages [sarus-data-spec-public]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarus_data_spec_public-3.3.0.dev2.tar.gz tmp/sarus_data_spec_public-3.3.0.dev3.tar.gz --markdown 20230525/s/sarus-data-spec-public/3.3.0.dev2-3.3.0.dev3/diff.md --exclude *.pyd
+[2023-05-25 16:46:30] INFO root fetch - processPackages [decentriq-platform]: Start processing: canvasapi
+[2023-05-25 16:46:30] INFO root fetch - main [MainThread]: End processing [decentriq-platform]: success
+[2023-05-25 16:46:30] INFO root fetch - processPackages [canvasapi]: New version: [3.2.0] Old Version: [3.1.0]
+[2023-05-25 16:46:30] INFO root fetch - processPackages [canvasapi]: Downloading https://files.pythonhosted.org/packages/7d/63/5ceae8bb638fac587c9c4ffaa3d7d524260c82f6d0d314f6c08863e3d00c/canvasapi-3.1.0.tar.gz
+[2023-05-25 16:46:30] INFO root fetch - processPackages [canvasapi]: Downloading https://files.pythonhosted.org/packages/2a/68/316c1778181b175a1cf139c20f795da0f4164e7da9ef31d8f3652c182358/canvasapi-3.2.0.tar.gz
+[2023-05-25 16:46:30] INFO root fetch - main [MainThread]: End processing [adslproxy-enhance]: success
+[2023-05-25 16:46:30] INFO root fetch - processPackages [canvasapi]: executing diffoscope
+[2023-05-25 16:46:30] INFO root fetch - processPackages [canvasapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/canvasapi-3.1.0.tar.gz tmp/canvasapi-3.2.0.tar.gz --markdown 20230525/c/canvasapi/3.1.0-3.2.0/diff.md --exclude *.pyd
+[2023-05-25 16:46:31] INFO root fetch - main [MainThread]: End processing [forestadmin-agent-flask]: success
+[2023-05-25 16:46:31] INFO root fetch - main [MainThread]: End processing [adt-cache]: success
+[2023-05-25 16:46:31] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2023-05-25 16:46:31] INFO root fetch - main [MainThread]: End processing [kfactory]: success
+[2023-05-25 16:46:32] INFO root fetch - main [MainThread]: End processing [canvasapi]: success
+[2023-05-25 16:46:32] INFO root fetch - main [MainThread]: End processing [data-repo-client]: success
+[2023-05-25 16:46:32] INFO root fetch - main [MainThread]: End processing [sarus-data-spec-public]: success
+[2023-05-25 16:46:34] INFO root fetch - main [MainThread]: End processing [ramanchada2]: success
+[2023-05-25 16:47:43] INFO root fetch - main [MainThread]: End processing [OpenFisca-France]: success
+[2023-05-25 16:47:43] INFO root fetch - main [MainThread]: Store serial: [18248467]
