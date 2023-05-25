@@ -8061,3 +8061,27 @@
 [2023-05-25 06:25:26] INFO root fetch - main [MainThread]: End processing [TorchPIV]: success
 [2023-05-25 06:25:26] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
 [2023-05-25 06:25:26] INFO root fetch - main [MainThread]: Store serial: [18241122]
+[2023-05-25 06:30:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18241122]
+[2023-05-25 06:30:34] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-25 06:30:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: andromeda-transformer
+[2023-05-25 06:30:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sharetop
+[2023-05-25 06:30:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dss-python-backend
+[2023-05-25 06:30:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TorchPIV
+[2023-05-25 06:30:34] INFO root fetch - processPackages [dss-python-backend]: New version: [0.13.2rc1] Old Version: [0.13.1.dev0]
+[2023-05-25 06:30:34] INFO root fetch - processPackages [sharetop]: New version: [1.3.4] Old Version: [1.2.4]
+[2023-05-25 06:30:34] INFO root fetch - processPackages [TorchPIV]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-25 06:30:34] INFO root fetch - processPackages [dss-python-backend]: Downloading https://files.pythonhosted.org/packages/d4/f8/6bfabc8d9d2a5f62d52fdd64f640a34c32713575934d1d4ec367f51dfef0/dss_python_backend-0.13.1.dev0-cp37-abi3-win_amd64.whl
+[2023-05-25 06:30:34] WARNING root fetch - processPackages [andromeda-transformer]: Skipping, unable to determine old version
+[2023-05-25 06:30:34] INFO root fetch - main [MainThread]: End processing [andromeda-transformer] error
+[2023-05-25 06:30:34] WARNING root fetch - processPackages [dss-python-backend]: Skipping package: exceeds size limit 16823869>=10485760
+[2023-05-25 06:30:34] INFO root fetch - main [MainThread]: End processing [dss-python-backend] error
+[2023-05-25 06:30:35] INFO root fetch - processPackages [sharetop]: Downloading https://files.pythonhosted.org/packages/9d/06/5134e24e369925faad31aab80f134123a9016f098161c3b4b3e362da8acc/sharetop-1.2.4.tar.gz
+[2023-05-25 06:30:35] INFO root fetch - processPackages [TorchPIV]: Downloading https://files.pythonhosted.org/packages/bf/27/7dcb5b7715b531fcae2c8ee2553ad7e617ca272bad31c0ac0d7f7b13792d/TorchPIV-0.1.3.tar.gz
+[2023-05-25 06:30:35] INFO root fetch - processPackages [TorchPIV]: executing diffoscope
+[2023-05-25 06:30:35] INFO root fetch - processPackages [TorchPIV]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TorchPIV-0.1.2.tar.gz tmp/TorchPIV-0.1.3.tar.gz --markdown 20230525/T/TorchPIV/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-25 06:30:35] INFO root fetch - processPackages [sharetop]: Downloading https://files.pythonhosted.org/packages/ac/49/44ba39163bd77a92647afaccd045c09be87556169bf62c11794ecb9fb501/sharetop-1.3.4.tar.gz
+[2023-05-25 06:30:35] INFO root fetch - processPackages [sharetop]: executing diffoscope
+[2023-05-25 06:30:35] INFO root fetch - processPackages [sharetop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sharetop-1.2.4.tar.gz tmp/sharetop-1.3.4.tar.gz --markdown 20230525/s/sharetop/1.2.4-1.3.4/diff.md --exclude *.pyd
+[2023-05-25 06:30:36] INFO root fetch - main [MainThread]: End processing [TorchPIV]: success
+[2023-05-25 06:30:36] INFO root fetch - main [MainThread]: End processing [sharetop]: success
+[2023-05-25 06:30:36] INFO root fetch - main [MainThread]: Store serial: [18241142]
