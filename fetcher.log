@@ -7870,3 +7870,94 @@
 [2023-05-25 06:09:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-mgmtsystem-action]: success
 [2023-05-25 06:09:44] INFO root fetch - main [MainThread]: End processing [heaserver-folders-aws-s3]: success
 [2023-05-25 06:09:44] INFO root fetch - main [MainThread]: Store serial: [18240879]
+[2023-05-25 06:14:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18240879]
+[2023-05-25 06:14:52] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-25 06:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-mgmtsystem-action
+[2023-05-25 06:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo8-addon-mrp-production-request
+[2023-05-25 06:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: grid2fp
+[2023-05-25 06:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo12-addon-mrp-bom-component-menu
+[2023-05-25 06:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seeFretboard
+[2023-05-25 06:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: practicus
+[2023-05-25 06:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-mrp-routing
+[2023-05-25 06:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-mrp-multi-level
+[2023-05-25 06:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addons-oca-manufacture
+[2023-05-25 06:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: practicuscore
+[2023-05-25 06:14:52] INFO root fetch - processPackages [odoo8-addon-mrp-production-request]: New version: [8.0.1.0.0.99.dev8] Old Version: [8.0.1.0.0.99.dev7]
+[2023-05-25 06:14:52] INFO root fetch - processPackages [odoo-addon-mgmtsystem-action]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2023-05-25 06:14:52] INFO root fetch - processPackages [odoo14-addon-mrp-routing]: New version: [14.0.1.0.1.dev4] Old Version: [14.0.1.0.1.dev2]
+[2023-05-25 06:14:53] INFO root fetch - processPackages [odoo-addon-mgmtsystem-action]: executing diffoscope
+[2023-05-25 06:14:53] INFO root fetch - processPackages [odoo-addon-mgmtsystem-action]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mgmtsystem_action-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_mgmtsystem_action-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230525/o/odoo-addon-mgmtsystem-action/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-05-25 06:14:53] WARNING root fetch - processPackages [grid2fp]: Skipping, unable to determine old version
+[2023-05-25 06:14:53] INFO root fetch - processPackages [grid2fp]: Start processing: fad-pytorch
+[2023-05-25 06:14:53] INFO root fetch - main [MainThread]: End processing [grid2fp] error
+[2023-05-25 06:14:53] INFO root fetch - processPackages [seeFretboard]: New version: [0.0.9.4] Old Version: [0.0.9.3]
+[2023-05-25 06:14:53] INFO root fetch - processPackages [practicuscore]: New version: [23.5.0] Old Version: [23.3.3]
+[2023-05-25 06:14:53] INFO root fetch - processPackages [odoo12-addon-mrp-bom-component-menu]: New version: [12.0.1.0.0.99.dev9] Old Version: [12.0.1.0.0.99.dev7]
+[2023-05-25 06:14:53] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: New version: [16.0.1.2.0.3] Old Version: [16.0.1.2.0.2]
+[2023-05-25 06:14:53] INFO root fetch - processPackages [odoo14-addons-oca-manufacture]: New version: [14.0.20230524.0] Old Version: [14.0.20230522.0]
+[2023-05-25 06:14:53] INFO root fetch - processPackages [odoo14-addon-mrp-routing]: executing diffoscope
+[2023-05-25 06:14:53] INFO root fetch - processPackages [odoo14-addon-mrp-routing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_mrp_routing-14.0.1.0.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_mrp_routing-14.0.1.0.1.dev4-py3-none-any.whl.zip --markdown 20230525/o/odoo14-addon-mrp-routing/14.0.1.0.1.dev2-14.0.1.0.1.dev4/diff.md --exclude *.pyd
+[2023-05-25 06:14:53] INFO root fetch - processPackages [practicus]: New version: [23.5.0] Old Version: [23.3.3]
+[2023-05-25 06:14:53] INFO root fetch - processPackages [odoo8-addon-mrp-production-request]: Downloading https://files.pythonhosted.org/packages/cf/f6/a78ac00066197ea32ac199fefc9582e4624ed6e9c529b630267012ebfd9b/odoo8_addon_mrp_production_request-8.0.1.0.0.99.dev7-py2-none-any.whl
+[2023-05-25 06:14:53] WARNING root fetch - processPackages [fad-pytorch]: Skipping, unable to determine old version
+[2023-05-25 06:14:53] INFO root fetch - processPackages [fad-pytorch]: Start processing: domain-paas-sdk-python
+[2023-05-25 06:14:53] INFO root fetch - main [MainThread]: End processing [fad-pytorch] error
+[2023-05-25 06:14:53] INFO root fetch - processPackages [domain-paas-sdk-python]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-25 06:14:53] INFO root fetch - processPackages [practicuscore]: Downloading https://files.pythonhosted.org/packages/3d/9a/4b5f3aaa45c96d51b9e75caceecee987eb15df4cd1816b4cb9f2c6d247fe/practicuscore-23.3.3-cp39-none-win_amd64.whl
+[2023-05-25 06:14:53] INFO root fetch - processPackages [practicus]: Downloading https://files.pythonhosted.org/packages/5b/02/3351da1496b9b81bbaa0f86d1a3ec53424ab3fdfd5c0eddd4a5d9abd4ac8/practicus-23.3.3-cp39-none-win_amd64.whl
+[2023-05-25 06:14:53] INFO root fetch - processPackages [odoo12-addon-mrp-bom-component-menu]: Downloading https://files.pythonhosted.org/packages/69/e0/6af31424c9083bc0cc776c0c7f80b9289e50c5df4f79f6a93d8dab71c497/odoo12_addon_mrp_bom_component_menu-12.0.1.0.0.99.dev7-py3-none-any.whl
+[2023-05-25 06:14:53] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: Downloading https://files.pythonhosted.org/packages/39/f4/5309e1764c587e0f65db4757e6391b5abfa0289f9b993266920fa5a5fae4/odoo_addon_mrp_multi_level-16.0.1.2.0.2-py3-none-any.whl
+[2023-05-25 06:14:53] INFO root fetch - processPackages [domain-paas-sdk-python]: executing diffoscope
+[2023-05-25 06:14:53] INFO root fetch - processPackages [domain-paas-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domain-paas-sdk-python-1.0.0.tar.gz tmp/domain-paas-sdk-python-1.0.1.tar.gz --markdown 20230525/d/domain-paas-sdk-python/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-25 06:14:53] INFO root fetch - processPackages [seeFretboard]: Downloading https://files.pythonhosted.org/packages/4d/e5/6171a06b915ef9fa471ea37155f1580e45cb9f0408a74af82e2c97586da5/seeFretboard-0.0.9.4.tar.gz
+[2023-05-25 06:14:53] INFO root fetch - processPackages [odoo14-addons-oca-manufacture]: Downloading https://files.pythonhosted.org/packages/43/7a/0d0ac6c2e870b3914eb4bf76a1293a25b66e5a05c1d248c93a8dd157f11c/odoo14_addons_oca_manufacture-14.0.20230524.0-py3-none-any.whl
+[2023-05-25 06:14:53] INFO root fetch - processPackages [odoo8-addon-mrp-production-request]: Downloading https://files.pythonhosted.org/packages/0d/4d/d0452ed5ca3d111bd2b0fa9592a3058a2dc6a53bcab6bc514587ade83eda/odoo8_addon_mrp_production_request-8.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-05-25 06:14:53] INFO root fetch - processPackages [seeFretboard]: executing diffoscope
+[2023-05-25 06:14:53] INFO root fetch - processPackages [seeFretboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seeFretboard-0.0.9.3.tar.gz tmp/seeFretboard-0.0.9.4.tar.gz --markdown 20230525/s/seeFretboard/0.0.9.3-0.0.9.4/diff.md --exclude *.pyd
+[2023-05-25 06:14:53] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: Downloading https://files.pythonhosted.org/packages/d1/45/8951839d646b1f62cde53910befea1e4b974a127f66dd46f4e06a3f5c4c5/odoo_addon_mrp_multi_level-16.0.1.2.0.3-py3-none-any.whl
+[2023-05-25 06:14:53] INFO root fetch - processPackages [odoo14-addons-oca-manufacture]: executing diffoscope
+[2023-05-25 06:14:53] INFO root fetch - processPackages [odoo14-addons-oca-manufacture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_manufacture-14.0.20230522.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_manufacture-14.0.20230524.0-py3-none-any.whl.zip --markdown 20230525/o/odoo14-addons-oca-manufacture/14.0.20230522.0-14.0.20230524.0/diff.md --exclude *.pyd
+[2023-05-25 06:14:53] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: executing diffoscope
+[2023-05-25 06:14:53] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mrp_multi_level-16.0.1.2.0.2-py3-none-any.whl.zip tmp/odoo_addon_mrp_multi_level-16.0.1.2.0.3-py3-none-any.whl.zip --markdown 20230525/o/odoo-addon-mrp-multi-level/16.0.1.2.0.2-16.0.1.2.0.3/diff.md --exclude *.pyd
+[2023-05-25 06:14:53] INFO root fetch - processPackages [odoo12-addon-mrp-bom-component-menu]: Downloading https://files.pythonhosted.org/packages/92/8a/2b4e2cdc1afe4d5c5a12970fa9a0bf3f66b1a56dd5c46e127437e5712892/odoo12_addon_mrp_bom_component_menu-12.0.1.0.0.99.dev9-py3-none-any.whl
+[2023-05-25 06:14:53] INFO root fetch - processPackages [odoo8-addon-mrp-production-request]: executing diffoscope
+[2023-05-25 06:14:53] INFO root fetch - processPackages [odoo8-addon-mrp-production-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_mrp_production_request-8.0.1.0.0.99.dev7-py2-none-any.whl.zip tmp/odoo8_addon_mrp_production_request-8.0.1.0.0.99.dev8-py2-none-any.whl.zip --markdown 20230525/o/odoo8-addon-mrp-production-request/8.0.1.0.0.99.dev7-8.0.1.0.0.99.dev8/diff.md --exclude *.pyd
+[2023-05-25 06:14:53] INFO root fetch - processPackages [odoo12-addon-mrp-bom-component-menu]: executing diffoscope
+[2023-05-25 06:14:53] INFO root fetch - processPackages [odoo12-addon-mrp-bom-component-menu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_mrp_bom_component_menu-12.0.1.0.0.99.dev7-py3-none-any.whl.zip tmp/odoo12_addon_mrp_bom_component_menu-12.0.1.0.0.99.dev9-py3-none-any.whl.zip --markdown 20230525/o/odoo12-addon-mrp-bom-component-menu/12.0.1.0.0.99.dev7-12.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-05-25 06:14:54] INFO root fetch - processPackages [odoo14-addon-mrp-routing]: Start processing: odoo14-addon-mrp-bom-current-stock
+[2023-05-25 06:14:54] INFO root fetch - main [MainThread]: End processing [odoo14-addon-mrp-routing]: success
+[2023-05-25 06:14:54] INFO root fetch - processPackages [domain-paas-sdk-python]: Start processing: cv2imshow
+[2023-05-25 06:14:54] INFO root fetch - main [MainThread]: End processing [domain-paas-sdk-python]: success
+[2023-05-25 06:14:54] INFO root fetch - processPackages [odoo14-addon-mrp-bom-current-stock]: New version: [14.0.1.0.1.dev5] Old Version: [14.0.1.0.1.dev4]
+[2023-05-25 06:14:54] INFO root fetch - processPackages [practicuscore]: Downloading https://files.pythonhosted.org/packages/a9/02/1247edd505ace38ea883848ed8a363404eb8b6b5fb10c77f9c5168d56c34/practicuscore-23.5.0-cp39-none-win_amd64.whl
+[2023-05-25 06:14:54] WARNING root fetch - processPackages [cv2imshow]: Skipping, unable to determine old version
+[2023-05-25 06:14:54] INFO root fetch - processPackages [cv2imshow]: Start processing: odoo14-addon-mrp-flattened-bom-xlsx-direct-materials-cost
+[2023-05-25 06:14:54] INFO root fetch - main [MainThread]: End processing [cv2imshow] error
+[2023-05-25 06:14:54] INFO root fetch - processPackages [odoo-addon-mgmtsystem-action]: Start processing: dronebuddylib
+[2023-05-25 06:14:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-mgmtsystem-action]: success
+[2023-05-25 06:14:54] INFO root fetch - processPackages [odoo14-addon-mrp-flattened-bom-xlsx-direct-materials-cost]: New version: [14.0.1.0.1.dev5] Old Version: [14.0.1.0.1.dev4]
+[2023-05-25 06:14:54] INFO root fetch - processPackages [dronebuddylib]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-25 06:14:54] INFO root fetch - processPackages [odoo14-addon-mrp-bom-current-stock]: Downloading https://files.pythonhosted.org/packages/93/d2/482e8eef9456700ca0dc4b2df8e07465facb91ce683b1b4fdfba09e72b52/odoo14_addon_mrp_bom_current_stock-14.0.1.0.1.dev5-py3-none-any.whl
+[2023-05-25 06:14:54] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-manufacture]: success
+[2023-05-25 06:14:54] INFO root fetch - processPackages [practicuscore]: executing diffoscope
+[2023-05-25 06:14:54] INFO root fetch - processPackages [practicuscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/practicuscore-23.3.3-cp39-none-win_amd64.whl.zip tmp/practicuscore-23.5.0-cp39-none-win_amd64.whl.zip --markdown 20230525/p/practicuscore/23.3.3-23.5.0/diff.md --exclude *.pyd
+[2023-05-25 06:14:54] INFO root fetch - processPackages [odoo14-addon-mrp-bom-current-stock]: executing diffoscope
+[2023-05-25 06:14:54] INFO root fetch - processPackages [odoo14-addon-mrp-bom-current-stock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_mrp_bom_current_stock-14.0.1.0.1.dev4-py3-none-any.whl.zip tmp/odoo14_addon_mrp_bom_current_stock-14.0.1.0.1.dev5-py3-none-any.whl.zip --markdown 20230525/o/odoo14-addon-mrp-bom-current-stock/14.0.1.0.1.dev4-14.0.1.0.1.dev5/diff.md --exclude *.pyd
+[2023-05-25 06:14:55] INFO root fetch - processPackages [dronebuddylib]: Downloading https://files.pythonhosted.org/packages/cc/f5/da19ef3fe00b8465f71e383ffc6dffedcde87cdc815643cc86c7d5a9b0a4/dronebuddylib-1.0.1.tar.gz
+[2023-05-25 06:14:55] WARNING root fetch - processPackages [dronebuddylib]: Skipping package: exceeds size limit 41146812>=10485760
+[2023-05-25 06:14:55] INFO root fetch - main [MainThread]: End processing [dronebuddylib] error
+[2023-05-25 06:14:55] INFO root fetch - processPackages [odoo14-addon-mrp-flattened-bom-xlsx-direct-materials-cost]: Downloading https://files.pythonhosted.org/packages/e9/e8/2cb589e1601bbedc593c7ddea3a0294d254867b5e49e9adb3a214bc2ee16/odoo14_addon_mrp_flattened_bom_xlsx_direct_materials_cost-14.0.1.0.1.dev5-py3-none-any.whl
+[2023-05-25 06:14:55] INFO root fetch - processPackages [odoo14-addon-mrp-flattened-bom-xlsx-direct-materials-cost]: executing diffoscope
+[2023-05-25 06:14:55] INFO root fetch - processPackages [odoo14-addon-mrp-flattened-bom-xlsx-direct-materials-cost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_mrp_flattened_bom_xlsx_direct_materials_cost-14.0.1.0.1.dev4-py3-none-any.whl.zip tmp/odoo14_addon_mrp_flattened_bom_xlsx_direct_materials_cost-14.0.1.0.1.dev5-py3-none-any.whl.zip --markdown 20230525/o/odoo14-addon-mrp-flattened-bom-xlsx-direct-materials-cost/14.0.1.0.1.dev4-14.0.1.0.1.dev5/diff.md --exclude *.pyd
+[2023-05-25 06:14:55] INFO root fetch - main [MainThread]: End processing [odoo12-addon-mrp-bom-component-menu]: success
+[2023-05-25 06:14:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-mrp-multi-level]: success
+[2023-05-25 06:14:55] INFO root fetch - main [MainThread]: End processing [odoo8-addon-mrp-production-request]: success
+[2023-05-25 06:14:56] INFO root fetch - main [MainThread]: End processing [practicuscore]: success
+[2023-05-25 06:14:56] INFO root fetch - main [MainThread]: End processing [odoo14-addon-mrp-bom-current-stock]: success
+[2023-05-25 06:14:56] INFO root fetch - main [MainThread]: End processing [odoo14-addon-mrp-flattened-bom-xlsx-direct-materials-cost]: success
+[2023-05-25 06:14:56] INFO root fetch - processPackages [practicus]: Downloading https://files.pythonhosted.org/packages/55/82/9592636a6af05d4eb69161ddab526ad6ca1f57b7f3d482a4fc2af2f4acc8/practicus-23.5.0-cp39-none-win_amd64.whl
+[2023-05-25 06:14:57] INFO root fetch - processPackages [practicus]: executing diffoscope
+[2023-05-25 06:14:57] INFO root fetch - processPackages [practicus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/practicus-23.3.3-cp39-none-win_amd64.whl.zip tmp/practicus-23.5.0-cp39-none-win_amd64.whl.zip --markdown 20230525/p/practicus/23.3.3-23.5.0/diff.md --exclude *.pyd
+[2023-05-25 06:15:00] INFO root fetch - main [MainThread]: End processing [practicus]: success
+[2023-05-25 06:15:01] INFO root fetch - main [MainThread]: End processing [seeFretboard]: success
+[2023-05-25 06:15:01] INFO root fetch - main [MainThread]: Store serial: [18240941]
