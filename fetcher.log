@@ -12537,3 +12537,77 @@
 [2023-05-25 10:18:34] INFO root fetch - main [MainThread]: End processing [euporie]: success
 [2023-05-25 10:18:53] INFO root fetch - main [MainThread]: End processing [bayespy]: success
 [2023-05-25 10:18:53] INFO root fetch - main [MainThread]: Store serial: [18243409]
+[2023-05-25 10:24:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18243409]
+[2023-05-25 10:24:04] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-25 10:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bisecter
+[2023-05-25 10:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qtwasmserver
+[2023-05-25 10:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onnx-predict-yolov8
+[2023-05-25 10:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: giant-mixins
+[2023-05-25 10:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hrin-msb
+[2023-05-25 10:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo13-addon-edi-bank-statement-oca
+[2023-05-25 10:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spacy
+[2023-05-25 10:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: appletree
+[2023-05-25 10:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: invenio-indexer
+[2023-05-25 10:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: colossalai
+[2023-05-25 10:24:04] INFO root fetch - processPackages [appletree]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-25 10:24:04] INFO root fetch - processPackages [hrin-msb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-25 10:24:04] INFO root fetch - processPackages [qtwasmserver]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-25 10:24:04] INFO root fetch - processPackages [bisecter]: New version: [0.9] Old Version: [0.1]
+[2023-05-25 10:24:05] INFO root fetch - processPackages [giant-mixins]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-05-25 10:24:05] WARNING root fetch - processPackages [odoo13-addon-edi-bank-statement-oca]: Skipping, unable to determine old version
+[2023-05-25 10:24:05] INFO root fetch - processPackages [odoo13-addon-edi-bank-statement-oca]: Start processing: pyeCam
+[2023-05-25 10:24:05] INFO root fetch - main [MainThread]: End processing [odoo13-addon-edi-bank-statement-oca] error
+[2023-05-25 10:24:05] INFO root fetch - processPackages [onnx-predict-yolov8]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-25 10:24:05] INFO root fetch - processPackages [hrin-msb]: executing diffoscope
+[2023-05-25 10:24:05] INFO root fetch - processPackages [hrin-msb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hrin_msb-0.2.8.tar.gz tmp/hrin_msb-0.2.9.tar.gz --markdown 20230525/h/hrin-msb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-25 10:24:05] INFO root fetch - processPackages [pyeCam]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 10:24:05] INFO root fetch - processPackages [invenio-indexer]: New version: [2.2.0] Old Version: [2.1.2]
+[2023-05-25 10:24:05] INFO root fetch - processPackages [colossalai]: New version: [0.3.0] Old Version: [0.2.8]
+[2023-05-25 10:24:05] INFO root fetch - processPackages [pyeCam]: executing diffoscope
+[2023-05-25 10:24:05] INFO root fetch - processPackages [pyeCam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyeCam-0.0.8.tar.gz tmp/pyeCam-0.0.9.tar.gz --markdown 20230525/p/pyeCam/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 10:24:05] INFO root fetch - processPackages [spacy]: New version: [4.0.0.dev0] Old Version: [3.6.0.dev0]
+[2023-05-25 10:24:05] INFO root fetch - processPackages [bisecter]: Downloading https://files.pythonhosted.org/packages/f6/18/f3ac05bbaed5b85fb01a89d3260d0f5693444d323a1daf564c9d28e0d7ac/bisecter-0.1.tar.gz
+[2023-05-25 10:24:05] INFO root fetch - processPackages [giant-mixins]: Downloading https://files.pythonhosted.org/packages/6b/7b/7e6cf6130277a42acb132501dde54cf26c8fa90fb5e20fa2d370d9591793/giant_mixins-0.3.4.tar.gz
+[2023-05-25 10:24:05] INFO root fetch - processPackages [invenio-indexer]: Downloading https://files.pythonhosted.org/packages/6c/27/ba78cd19d3ee5cb222c65e8f757b5bcb7949205f4e246368d8c5ec61d783/invenio-indexer-2.1.2.tar.gz
+[2023-05-25 10:24:05] INFO root fetch - processPackages [qtwasmserver]: Downloading https://files.pythonhosted.org/packages/2f/8e/16edf0403bf65f4033d014891e65f681a57e0d29263b881b2877d4dca4fe/qtwasmserver-0.1.3.tar.gz
+[2023-05-25 10:24:05] INFO root fetch - processPackages [colossalai]: Downloading https://files.pythonhosted.org/packages/8a/35/c33a150a97c33973318108778a559a9d550f4dc89757d40f23f3260e5af8/colossalai-0.2.8.tar.gz
+[2023-05-25 10:24:05] INFO root fetch - processPackages [appletree]: executing diffoscope
+[2023-05-25 10:24:05] INFO root fetch - processPackages [appletree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appletree-0.2.0.tar.gz tmp/appletree-0.2.1.tar.gz --markdown 20230525/a/appletree/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-25 10:24:05] INFO root fetch - processPackages [onnx-predict-yolov8]: Downloading https://files.pythonhosted.org/packages/61/d8/0fdb5fc820981b2b9f93655bfe1333ebde72384b78b36c614d30414a9c90/onnx-predict-yolov8-1.0.5.tar.gz
+[2023-05-25 10:24:05] INFO root fetch - processPackages [qtwasmserver]: executing diffoscope
+[2023-05-25 10:24:05] INFO root fetch - processPackages [qtwasmserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtwasmserver-0.1.2.tar.gz tmp/qtwasmserver-0.1.3.tar.gz --markdown 20230525/q/qtwasmserver/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-25 10:24:05] INFO root fetch - processPackages [spacy]: Downloading https://files.pythonhosted.org/packages/d9/0a/e068ad8d2465a6b194cc73ba44b63b83f8349c6aa9ce624e05d8975f0e83/spacy-3.6.0.dev0.tar.gz
+[2023-05-25 10:24:05] INFO root fetch - processPackages [invenio-indexer]: Downloading https://files.pythonhosted.org/packages/2e/47/09884092c7fa72ade0977c3405c394b93b7f8273e00d38f507d0f7f0bc3d/invenio-indexer-2.2.0.tar.gz
+[2023-05-25 10:24:05] INFO root fetch - processPackages [onnx-predict-yolov8]: executing diffoscope
+[2023-05-25 10:24:05] INFO root fetch - processPackages [onnx-predict-yolov8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx-predict-yolov8-1.0.4.tar.gz tmp/onnx-predict-yolov8-1.0.5.tar.gz --markdown 20230525/o/onnx-predict-yolov8/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-25 10:24:05] INFO root fetch - processPackages [giant-mixins]: Downloading https://files.pythonhosted.org/packages/0e/c3/f2bab74341e9fa7db7db13f022ca91608b27c6edf69b29ddddaf2ff93bd8/giant_mixins-0.3.5.tar.gz
+[2023-05-25 10:24:05] INFO root fetch - processPackages [bisecter]: Downloading https://files.pythonhosted.org/packages/6a/98/4536675bdadbce2bc7c59b74edda1c8c5cd3751c895ead449e3d3b212185/bisecter-0.9.tar.gz
+[2023-05-25 10:24:05] INFO root fetch - processPackages [invenio-indexer]: executing diffoscope
+[2023-05-25 10:24:05] INFO root fetch - processPackages [invenio-indexer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-indexer-2.1.2.tar.gz tmp/invenio-indexer-2.2.0.tar.gz --markdown 20230525/i/invenio-indexer/2.1.2-2.2.0/diff.md --exclude *.pyd
+[2023-05-25 10:24:05] INFO root fetch - processPackages [colossalai]: Downloading https://files.pythonhosted.org/packages/ef/89/290c2fc3752a3ec9008f83cf6e8cae9c856026559c8a64683b00b1501a4f/colossalai-0.3.0.tar.gz
+[2023-05-25 10:24:05] INFO root fetch - processPackages [bisecter]: executing diffoscope
+[2023-05-25 10:24:05] INFO root fetch - processPackages [bisecter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bisecter-0.1.tar.gz tmp/bisecter-0.9.tar.gz --markdown 20230525/b/bisecter/0.1-0.9/diff.md --exclude *.pyd
+[2023-05-25 10:24:05] INFO root fetch - processPackages [giant-mixins]: executing diffoscope
+[2023-05-25 10:24:05] INFO root fetch - processPackages [giant-mixins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/giant_mixins-0.3.4.tar.gz tmp/giant_mixins-0.3.5.tar.gz --markdown 20230525/g/giant-mixins/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-05-25 10:24:05] INFO root fetch - processPackages [colossalai]: executing diffoscope
+[2023-05-25 10:24:05] INFO root fetch - processPackages [colossalai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colossalai-0.2.8.tar.gz tmp/colossalai-0.3.0.tar.gz --markdown 20230525/c/colossalai/0.2.8-0.3.0/diff.md --exclude *.pyd
+[2023-05-25 10:24:06] INFO root fetch - processPackages [spacy]: Downloading https://files.pythonhosted.org/packages/2e/c5/212a64c021970e13c86b980311f16e60b688c16ab02f7a93b2c9c4e56bab/spacy-4.0.0.dev0.tar.gz
+[2023-05-25 10:24:06] INFO root fetch - processPackages [pyeCam]: Start processing: pywfa
+[2023-05-25 10:24:06] INFO root fetch - main [MainThread]: End processing [pyeCam]: success
+[2023-05-25 10:24:06] INFO root fetch - processPackages [pywfa]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-25 10:24:06] INFO root fetch - processPackages [spacy]: executing diffoscope
+[2023-05-25 10:24:06] INFO root fetch - processPackages [spacy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacy-3.6.0.dev0.tar.gz tmp/spacy-4.0.0.dev0.tar.gz --markdown 20230525/s/spacy/3.6.0.dev0-4.0.0.dev0/diff.md --exclude *.pyd
+[2023-05-25 10:24:06] INFO root fetch - processPackages [pywfa]: Downloading https://files.pythonhosted.org/packages/5d/92/366a9f0a0a4b34e2650199861a377eddf7e9f24ecc5298efb81352dc7cee/pywfa-0.4.2.tar.gz
+[2023-05-25 10:24:06] INFO root fetch - processPackages [pywfa]: executing diffoscope
+[2023-05-25 10:24:06] INFO root fetch - processPackages [pywfa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywfa-0.4.1.tar.gz tmp/pywfa-0.4.2.tar.gz --markdown 20230525/p/pywfa/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-25 10:24:06] INFO root fetch - main [MainThread]: End processing [hrin-msb]: success
+[2023-05-25 10:24:06] INFO root fetch - main [MainThread]: End processing [qtwasmserver]: success
+[2023-05-25 10:24:07] INFO root fetch - main [MainThread]: End processing [onnx-predict-yolov8]: success
+[2023-05-25 10:24:07] INFO root fetch - main [MainThread]: End processing [appletree]: success
+[2023-05-25 10:24:07] INFO root fetch - main [MainThread]: End processing [invenio-indexer]: success
+[2023-05-25 10:24:07] INFO root fetch - main [MainThread]: End processing [giant-mixins]: success
+[2023-05-25 10:24:07] INFO root fetch - main [MainThread]: End processing [bisecter]: success
+[2023-05-25 10:24:10] INFO root fetch - main [MainThread]: End processing [pywfa]: success
+[2023-05-25 10:24:18] INFO root fetch - main [MainThread]: End processing [colossalai]: success
+[2023-05-25 10:24:20] INFO root fetch - main [MainThread]: End processing [spacy]: success
+[2023-05-25 10:24:20] INFO root fetch - main [MainThread]: Store serial: [18243466]
