@@ -14055,3 +14055,118 @@
 [2023-05-25 11:09:26] INFO root fetch - main [MainThread]: End processing [amsterdam-schema-tools]: success
 [2023-05-25 11:09:28] INFO root fetch - main [MainThread]: End processing [feffery-leaflet-components]: success
 [2023-05-25 11:09:28] INFO root fetch - main [MainThread]: Store serial: [18244151]
+[2023-05-25 11:14:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18244151]
+[2023-05-25 11:14:37] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-25 11:14:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytubemusic
+[2023-05-25 11:14:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seaborn-extensions
+[2023-05-25 11:14:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dicomselect
+[2023-05-25 11:14:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: metabypasscaptcha
+[2023-05-25 11:14:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tianrannlp
+[2023-05-25 11:14:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: camminapy
+[2023-05-25 11:14:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: microcosm-postgres
+[2023-05-25 11:14:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: appsurifyci
+[2023-05-25 11:14:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aiofauna
+[2023-05-25 11:14:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qoa4ml
+[2023-05-25 11:14:37] INFO root fetch - processPackages [tianrannlp]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-25 11:14:37] INFO root fetch - processPackages [qoa4ml]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 11:14:37] INFO root fetch - processPackages [qoa4ml]: executing diffoscope
+[2023-05-25 11:14:37] INFO root fetch - processPackages [qoa4ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoa4ml-0.0.8.tar.gz tmp/qoa4ml-0.0.9.tar.gz --markdown 20230525/q/qoa4ml/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 11:14:37] WARNING root fetch - processPackages [metabypasscaptcha]: Skipping, unable to determine old version
+[2023-05-25 11:14:37] INFO root fetch - processPackages [camminapy]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-25 11:14:37] INFO root fetch - processPackages [metabypasscaptcha]: Start processing: pyxk
+[2023-05-25 11:14:37] INFO root fetch - processPackages [pytubemusic]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-25 11:14:37] INFO root fetch - main [MainThread]: End processing [metabypasscaptcha] error
+[2023-05-25 11:14:37] INFO root fetch - processPackages [seaborn-extensions]: New version: [0.1.0] Old Version: [0.0.20]
+[2023-05-25 11:14:37] INFO root fetch - processPackages [dicomselect]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-25 11:14:37] INFO root fetch - processPackages [microcosm-postgres]: New version: [3.0.0rc1] Old Version: [3.0.0]
+[2023-05-25 11:14:37] INFO root fetch - processPackages [aiofauna]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-25 11:14:37] INFO root fetch - processPackages [appsurifyci]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-25 11:14:37] INFO root fetch - processPackages [tianrannlp]: Downloading https://files.pythonhosted.org/packages/09/0b/10ba7b710f76151ad355b96bd737a25291dadccd16270d060ef58a0f8979/tianrannlp-0.0.1-py2.py3-none-any.whl
+[2023-05-25 11:14:37] INFO root fetch - processPackages [pyxk]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-25 11:14:38] INFO root fetch - processPackages [camminapy]: Downloading https://files.pythonhosted.org/packages/29/a9/b9127a847c428eaaae75633afb258cc2a3e06a85c890c1736c1a4997a57e/camminapy-0.2.0.tar.gz
+[2023-05-25 11:14:38] INFO root fetch - processPackages [pytubemusic]: Downloading https://files.pythonhosted.org/packages/c7/44/ac41605e36e0c85b3f4191b2ef790fd9fe0e420d80ff4995e3ecb991192a/pytubemusic-0.1.1.tar.gz
+[2023-05-25 11:14:38] INFO root fetch - processPackages [seaborn-extensions]: Downloading https://files.pythonhosted.org/packages/09/bf/c37203649a26e155d87d106914650a7040424f78fcf49dbc168624d33ce2/seaborn_extensions-0.0.20.tar.gz
+[2023-05-25 11:14:38] INFO root fetch - processPackages [microcosm-postgres]: Downloading https://files.pythonhosted.org/packages/32/ca/71d8f5e54e135097733f3381d3945ddf1380072e0ea900a44c05b94dee94/microcosm-postgres-3.0.0.tar.gz
+[2023-05-25 11:14:38] INFO root fetch - processPackages [tianrannlp]: Downloading https://files.pythonhosted.org/packages/89/a1/2f18f7bcd271103d17da3ae547bc670e1f1f3f574f13d86851bd87f2c100/tianrannlp-0.0.2-py2.py3-none-any.whl
+[2023-05-25 11:14:38] INFO root fetch - processPackages [dicomselect]: Downloading https://files.pythonhosted.org/packages/ea/23/a48b59de373e030dece797f26204bac24f71176dea19129cd0eb81dff3c4/dicomselect-0.3.1.tar.gz
+[2023-05-25 11:14:38] INFO root fetch - processPackages [pytubemusic]: Downloading https://files.pythonhosted.org/packages/ad/a9/57b4d4157666a751550074a5496c2c384f18b74ab5d6d81edc3746467d42/pytubemusic-0.1.2.tar.gz
+[2023-05-25 11:14:38] INFO root fetch - processPackages [pyxk]: Downloading https://files.pythonhosted.org/packages/8a/c5/7012296a0f0f86f026a1265c654cba3d0281f0b932f725835c4960552d72/pyxk-0.5.9.tar.gz
+[2023-05-25 11:14:38] INFO root fetch - processPackages [aiofauna]: executing diffoscope
+[2023-05-25 11:14:38] INFO root fetch - processPackages [aiofauna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiofauna-0.1.8.tar.gz tmp/aiofauna-0.1.9.tar.gz --markdown 20230525/a/aiofauna/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-25 11:14:38] INFO root fetch - processPackages [microcosm-postgres]: executing diffoscope
+[2023-05-25 11:14:38] INFO root fetch - processPackages [microcosm-postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microcosm-postgres-3.0.0.tar.gz tmp/microcosm-postgres-3.0.0rc1.tar.gz --markdown 20230525/m/microcosm-postgres/3.0.0-3.0.0rc1/diff.md --exclude *.pyd
+[2023-05-25 11:14:38] INFO root fetch - processPackages [appsurifyci]: executing diffoscope
+[2023-05-25 11:14:38] INFO root fetch - processPackages [appsurifyci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appsurifyci-0.1.8.tar.gz tmp/appsurifyci-0.1.9.tar.gz --markdown 20230525/a/appsurifyci/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-25 11:14:38] INFO root fetch - processPackages [dicomselect]: executing diffoscope
+[2023-05-25 11:14:38] INFO root fetch - processPackages [dicomselect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicomselect-0.3.0.tar.gz tmp/dicomselect-0.3.1.tar.gz --markdown 20230525/d/dicomselect/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-25 11:14:38] INFO root fetch - processPackages [tianrannlp]: executing diffoscope
+[2023-05-25 11:14:38] INFO root fetch - processPackages [tianrannlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tianrannlp-0.0.1-py2.py3-none-any.whl.zip tmp/tianrannlp-0.0.2-py2.py3-none-any.whl.zip --markdown 20230525/t/tianrannlp/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-25 11:14:38] INFO root fetch - processPackages [pytubemusic]: executing diffoscope
+[2023-05-25 11:14:38] INFO root fetch - processPackages [pytubemusic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytubemusic-0.1.1.tar.gz tmp/pytubemusic-0.1.2.tar.gz --markdown 20230525/p/pytubemusic/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-25 11:14:38] INFO root fetch - processPackages [camminapy]: Downloading https://files.pythonhosted.org/packages/c1/a7/935f6bd81abc687aa319eb76521a9588652ab8552acade6b59be7e788274/camminapy-0.3.0.tar.gz
+[2023-05-25 11:14:38] INFO root fetch - processPackages [seaborn-extensions]: Downloading https://files.pythonhosted.org/packages/8e/78/095b5b7ac60bdec548ec2c31956a2a485f7ed9649bfb7a719f917c99271e/seaborn_extensions-0.1.0.tar.gz
+[2023-05-25 11:14:38] INFO root fetch - processPackages [pyxk]: executing diffoscope
+[2023-05-25 11:14:38] INFO root fetch - processPackages [pyxk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxk-0.5.8.tar.gz tmp/pyxk-0.5.9.tar.gz --markdown 20230525/p/pyxk/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-25 11:14:38] INFO root fetch - processPackages [seaborn-extensions]: executing diffoscope
+[2023-05-25 11:14:38] INFO root fetch - processPackages [seaborn-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seaborn_extensions-0.0.20.tar.gz tmp/seaborn_extensions-0.1.0.tar.gz --markdown 20230525/s/seaborn-extensions/0.0.20-0.1.0/diff.md --exclude *.pyd
+[2023-05-25 11:14:38] INFO root fetch - processPackages [camminapy]: executing diffoscope
+[2023-05-25 11:14:38] INFO root fetch - processPackages [camminapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camminapy-0.2.0.tar.gz tmp/camminapy-0.3.0.tar.gz --markdown 20230525/c/camminapy/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-25 11:14:39] INFO root fetch - processPackages [qoa4ml]: Start processing: licensekeygentest
+[2023-05-25 11:14:39] INFO root fetch - main [MainThread]: End processing [qoa4ml]: success
+[2023-05-25 11:14:39] INFO root fetch - processPackages [licensekeygentest]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-25 11:14:39] INFO root fetch - processPackages [licensekeygentest]: Downloading https://files.pythonhosted.org/packages/31/af/f882d129722a0c415325d57e80745a14bd7a3d7c941d520e8bace028041f/licensekeygentest-1.0.2.tar.gz
+[2023-05-25 11:14:39] INFO root fetch - processPackages [licensekeygentest]: executing diffoscope
+[2023-05-25 11:14:39] INFO root fetch - processPackages [licensekeygentest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/licensekeygentest-1.0.1.tar.gz tmp/licensekeygentest-1.0.2.tar.gz --markdown 20230525/l/licensekeygentest/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-25 11:14:39] INFO root fetch - processPackages [aiofauna]: Start processing: BaseNN
+[2023-05-25 11:14:39] INFO root fetch - main [MainThread]: End processing [aiofauna]: success
+[2023-05-25 11:14:39] INFO root fetch - processPackages [BaseNN]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-25 11:14:40] INFO root fetch - processPackages [BaseNN]: Downloading https://files.pythonhosted.org/packages/83/bc/7647c19788343daf2d7b2dca0ab3f1629369a486f2892ab34a08ba1b7ec2/BaseNN-0.1.3.tar.gz
+[2023-05-25 11:14:40] INFO root fetch - processPackages [BaseNN]: executing diffoscope
+[2023-05-25 11:14:40] INFO root fetch - processPackages [BaseNN]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BaseNN-0.1.2.tar.gz tmp/BaseNN-0.1.3.tar.gz --markdown 20230525/B/BaseNN/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-25 11:14:40] INFO root fetch - processPackages [microcosm-postgres]: Start processing: camminapy
+[2023-05-25 11:14:40] INFO root fetch - main [MainThread]: End processing [microcosm-postgres]: success
+[2023-05-25 11:14:40] INFO root fetch - processPackages [camminapy]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-25 11:14:40] INFO root fetch - processPackages [camminapy]: executing diffoscope
+[2023-05-25 11:14:40] INFO root fetch - processPackages [camminapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camminapy-0.2.0.tar.gz tmp/camminapy-0.3.0.tar.gz --markdown 20230525/c/camminapy/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-25 11:14:40] INFO root fetch - processPackages [pytubemusic]: Start processing: nonebot-plugin-majsoul
+[2023-05-25 11:14:40] INFO root fetch - main [MainThread]: End processing [pytubemusic]: success
+[2023-05-25 11:14:40] INFO root fetch - processPackages [camminapy]: Start processing: camminapy
+[2023-05-25 11:14:40] INFO root fetch - main [MainThread]: End processing [camminapy]: success
+[2023-05-25 11:14:40] INFO root fetch - processPackages [camminapy]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-25 11:14:40] INFO root fetch - processPackages [seaborn-extensions]: Start processing: qoa4ml
+[2023-05-25 11:14:40] INFO root fetch - main [MainThread]: End processing [seaborn-extensions]: success
+[2023-05-25 11:14:40] INFO root fetch - processPackages [nonebot-plugin-majsoul]: New version: [0.2.0] Old Version: [0.1.6]
+[2023-05-25 11:14:40] INFO root fetch - processPackages [qoa4ml]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 11:14:40] INFO root fetch - processPackages [tianrannlp]: Start processing: pymodaq-plugins-piezoconcept
+[2023-05-25 11:14:40] INFO root fetch - main [MainThread]: End processing [tianrannlp]: success
+[2023-05-25 11:14:40] INFO root fetch - processPackages [qoa4ml]: executing diffoscope
+[2023-05-25 11:14:40] INFO root fetch - processPackages [camminapy]: executing diffoscope
+[2023-05-25 11:14:40] INFO root fetch - processPackages [qoa4ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoa4ml-0.0.8.tar.gz tmp/qoa4ml-0.0.9.tar.gz --markdown 20230525/q/qoa4ml/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 11:14:40] INFO root fetch - processPackages [camminapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camminapy-0.2.0.tar.gz tmp/camminapy-0.3.0.tar.gz --markdown 20230525/c/camminapy/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-25 11:14:40] INFO root fetch - processPackages [pymodaq-plugins-piezoconcept]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-05-25 11:14:40] INFO root fetch - processPackages [nonebot-plugin-majsoul]: Downloading https://files.pythonhosted.org/packages/17/7e/a185d130f9e1de04751ecce80d90297b523ce43edc86bf7d165155cc84b5/nonebot_plugin_majsoul-0.1.6.tar.gz
+[2023-05-25 11:14:41] INFO root fetch - processPackages [pyxk]: Start processing: types-PyAutoGUI
+[2023-05-25 11:14:41] INFO root fetch - main [MainThread]: End processing [pyxk]: success
+[2023-05-25 11:14:41] INFO root fetch - processPackages [pymodaq-plugins-piezoconcept]: Downloading https://files.pythonhosted.org/packages/e6/7c/3857d17736da4983e01fa6ba9637b4d323ab4605d9c9bdecbaf8e3185ce6/pymodaq_plugins_piezoconcept-0.1.0.tar.gz
+[2023-05-25 11:14:41] INFO root fetch - main [MainThread]: End processing [appsurifyci]: success
+[2023-05-25 11:14:41] INFO root fetch - processPackages [types-PyAutoGUI]: New version: [0.9.3.6] Old Version: [0.9.3.5]
+[2023-05-25 11:14:41] INFO root fetch - main [MainThread]: End processing [licensekeygentest]: success
+[2023-05-25 11:14:41] INFO root fetch - processPackages [types-PyAutoGUI]: Downloading https://files.pythonhosted.org/packages/e9/ca/767aa7fc9928e9ebd2eeb00273bc9072983306ddc628c00b7c7e61e6df4e/types-PyAutoGUI-0.9.3.5.tar.gz
+[2023-05-25 11:14:41] INFO root fetch - main [MainThread]: End processing [dicomselect]: success
+[2023-05-25 11:14:41] INFO root fetch - processPackages [nonebot-plugin-majsoul]: Downloading https://files.pythonhosted.org/packages/e8/a3/aad658b0e04a2b96be05bcc4db8bc1698b44f461a6d86f324519192ec704/nonebot_plugin_majsoul-0.2.0.tar.gz
+[2023-05-25 11:14:41] INFO root fetch - processPackages [pymodaq-plugins-piezoconcept]: Downloading https://files.pythonhosted.org/packages/21/af/db4cd6a615343625089624117763d6ec2e755027ef831f07ae66f55fb2f9/pymodaq_plugins_piezoconcept-1.0.0.tar.gz
+[2023-05-25 11:14:41] INFO root fetch - processPackages [types-PyAutoGUI]: Downloading https://files.pythonhosted.org/packages/0c/07/092ed24a0c36a6cd49c0d44f7feab31278fa6d17eb01c112cd57e97dd578/types-PyAutoGUI-0.9.3.6.tar.gz
+[2023-05-25 11:14:41] INFO root fetch - processPackages [nonebot-plugin-majsoul]: executing diffoscope
+[2023-05-25 11:14:41] INFO root fetch - processPackages [nonebot-plugin-majsoul]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_majsoul-0.1.6.tar.gz tmp/nonebot_plugin_majsoul-0.2.0.tar.gz --markdown 20230525/n/nonebot-plugin-majsoul/0.1.6-0.2.0/diff.md --exclude *.pyd
+[2023-05-25 11:14:41] INFO root fetch - processPackages [pymodaq-plugins-piezoconcept]: executing diffoscope
+[2023-05-25 11:14:41] INFO root fetch - processPackages [pymodaq-plugins-piezoconcept]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymodaq_plugins_piezoconcept-0.1.0.tar.gz tmp/pymodaq_plugins_piezoconcept-1.0.0.tar.gz --markdown 20230525/p/pymodaq-plugins-piezoconcept/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2023-05-25 11:14:41] INFO root fetch - processPackages [types-PyAutoGUI]: executing diffoscope
+[2023-05-25 11:14:41] INFO root fetch - processPackages [types-PyAutoGUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-PyAutoGUI-0.9.3.5.tar.gz tmp/types-PyAutoGUI-0.9.3.6.tar.gz --markdown 20230525/t/types-PyAutoGUI/0.9.3.5-0.9.3.6/diff.md --exclude *.pyd
+[2023-05-25 11:14:42] INFO root fetch - main [MainThread]: End processing [camminapy]: success
+[2023-05-25 11:14:42] INFO root fetch - main [MainThread]: End processing [BaseNN]: success
+[2023-05-25 11:14:42] INFO root fetch - main [MainThread]: End processing [camminapy]: success
+[2023-05-25 11:14:42] INFO root fetch - main [MainThread]: End processing [qoa4ml]: success
+[2023-05-25 11:14:43] INFO root fetch - main [MainThread]: End processing [pymodaq-plugins-piezoconcept]: success
+[2023-05-25 11:14:43] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-majsoul]: success
+[2023-05-25 11:14:43] INFO root fetch - main [MainThread]: End processing [types-PyAutoGUI]: success
+[2023-05-25 11:14:43] INFO root fetch - main [MainThread]: Store serial: [18244207]
