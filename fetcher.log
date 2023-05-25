@@ -16916,3 +16916,113 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-25 13:30:09] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
 [2023-05-25 13:30:09] INFO root fetch - main [MainThread]: End processing [vid2info]: success
 [2023-05-25 13:30:09] INFO root fetch - main [MainThread]: Store serial: [18245755]
+[2023-05-25 13:35:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18245755]
+[2023-05-25 13:35:26] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-25 13:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: libcnmc
+[2023-05-25 13:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: geodistance
+[2023-05-25 13:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: camminapy
+[2023-05-25 13:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ttrace
+[2023-05-25 13:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchserve-nightly
+[2023-05-25 13:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torch-model-archiver-nightly
+[2023-05-25 13:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torch-workflow-archiver-nightly
+[2023-05-25 13:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyrosexmod
+[2023-05-25 13:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gocart
+[2023-05-25 13:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wizad
+[2023-05-25 13:35:26] INFO root fetch - processPackages [camminapy]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-05-25 13:35:26] INFO root fetch - processPackages [geodistance]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-25 13:35:26] INFO root fetch - processPackages [gocart]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-25 13:35:26] INFO root fetch - processPackages [libcnmc]: New version: [23.9.1] Old Version: [23.9.0]
+[2023-05-25 13:35:26] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-25 13:35:26] INFO root fetch - processPackages [pyrosexmod]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-25 13:35:26] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-25 13:35:26] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-25 13:35:26] INFO root fetch - processPackages [ttrace]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-25 13:35:26] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/84/1f/9485a72320b2c7f49d6a9304acfbc2bd5fe71c25e0e7a3844ce81a1ed180/torchserve_nightly-2023.5.8-py3-none-any.whl
+[2023-05-25 13:35:26] INFO root fetch - processPackages [gocart]: executing diffoscope
+[2023-05-25 13:35:26] INFO root fetch - processPackages [gocart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gocart-0.3.0.tar.gz tmp/gocart-0.4.0.tar.gz --markdown 20230525/g/gocart/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-25 13:35:26] WARNING root fetch - processPackages [wizad]: Skipping, unable to determine old version
+[2023-05-25 13:35:26] INFO root fetch - processPackages [wizad]: Start processing: oarepo-model-builder
+[2023-05-25 13:35:26] INFO root fetch - main [MainThread]: End processing [wizad] error
+[2023-05-25 13:35:26] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-05-25 13:35:26] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.5.8-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.5.9-py3-none-any.whl.zip --markdown 20230525/t/torch-model-archiver-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-25 13:35:26] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23716791>=10485760
+[2023-05-25 13:35:26] INFO root fetch - processPackages [torchserve-nightly]: Start processing: crosspredict
+[2023-05-25 13:35:26] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-05-25 13:35:26] INFO root fetch - processPackages [geodistance]: executing diffoscope
+[2023-05-25 13:35:26] INFO root fetch - processPackages [geodistance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geodistance-0.1.2.tar.gz tmp/geodistance-0.1.3.tar.gz --markdown 20230525/g/geodistance/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-25 13:35:26] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2023-05-25 13:35:26] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-23.9.0.tar.gz tmp/libcnmc-23.9.1.tar.gz --markdown 20230525/l/libcnmc/23.9.0-23.9.1/diff.md --exclude *.pyd
+[2023-05-25 13:35:26] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-05-25 13:35:26] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.5.8-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.5.9-py3-none-any.whl.zip --markdown 20230525/t/torch-workflow-archiver-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-25 13:35:26] INFO root fetch - processPackages [oarepo-model-builder]: New version: [4.0.4] Old Version: [4.0.3]
+[2023-05-25 13:35:26] INFO root fetch - processPackages [pyrosexmod]: Downloading https://files.pythonhosted.org/packages/7f/a6/ea1170836df78522b6024e8ecbb3b606e147b3ad1b2b295ca26e1cf63e26/pyrosexmod-0.1.6.tar.gz
+[2023-05-25 13:35:26] INFO root fetch - processPackages [ttrace]: Downloading https://files.pythonhosted.org/packages/7a/e6/cd17b48df6350e84569c33b2d813cd4124b5af7d7abdc7c160e4fb9993d2/ttrace-0.1.8.tar.gz
+[2023-05-25 13:35:26] INFO root fetch - processPackages [camminapy]: executing diffoscope
+[2023-05-25 13:35:26] INFO root fetch - processPackages [camminapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camminapy-0.8.8.tar.gz tmp/camminapy-0.8.9.tar.gz --markdown 20230525/c/camminapy/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-05-25 13:35:26] INFO root fetch - processPackages [crosspredict]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-05-25 13:35:26] INFO root fetch - processPackages [pyrosexmod]: executing diffoscope
+[2023-05-25 13:35:26] INFO root fetch - processPackages [pyrosexmod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrosexmod-0.1.5.tar.gz tmp/pyrosexmod-0.1.6.tar.gz --markdown 20230525/p/pyrosexmod/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-25 13:35:26] INFO root fetch - processPackages [oarepo-model-builder]: Downloading https://files.pythonhosted.org/packages/79/6f/ccb02bd8a0f78ec9c5403ac49912848805f0d5984af9db60ca7d6d8feb56/oarepo-model-builder-4.0.4.tar.gz
+[2023-05-25 13:35:26] INFO root fetch - processPackages [crosspredict]: Downloading https://files.pythonhosted.org/packages/16/b4/1e85c6d6cd6dde817c0fd15e9066650097c5fed478bce32399bb94c6d752/crosspredict-1.1.7.tar.gz
+[2023-05-25 13:35:26] INFO root fetch - processPackages [ttrace]: Downloading https://files.pythonhosted.org/packages/a0/56/8b48a470236fe3b0755055fd0c22d69a4ad22a2881b7eb6e32ed79e2bca9/ttrace-0.1.9.tar.gz
+[2023-05-25 13:35:26] INFO root fetch - processPackages [oarepo-model-builder]: executing diffoscope
+[2023-05-25 13:35:26] INFO root fetch - processPackages [oarepo-model-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-model-builder-4.0.3.tar.gz tmp/oarepo-model-builder-4.0.4.tar.gz --markdown 20230525/o/oarepo-model-builder/4.0.3-4.0.4/diff.md --exclude *.pyd
+[2023-05-25 13:35:26] INFO root fetch - processPackages [ttrace]: executing diffoscope
+[2023-05-25 13:35:26] INFO root fetch - processPackages [ttrace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ttrace-0.1.8.tar.gz tmp/ttrace-0.1.9.tar.gz --markdown 20230525/t/ttrace/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-25 13:35:27] INFO root fetch - processPackages [crosspredict]: Downloading https://files.pythonhosted.org/packages/80/c7/a38741af79a4be72570d92143cfeb73f83f1d2905475d28fd02c30f9f668/crosspredict-1.1.8.tar.gz
+[2023-05-25 13:35:27] INFO root fetch - processPackages [crosspredict]: executing diffoscope
+[2023-05-25 13:35:27] INFO root fetch - processPackages [crosspredict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crosspredict-1.1.7.tar.gz tmp/crosspredict-1.1.8.tar.gz --markdown 20230525/c/crosspredict/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-05-25 13:35:27] INFO root fetch - processPackages [torch-model-archiver-nightly]: Start processing: dbtgenlib
+[2023-05-25 13:35:27] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-05-25 13:35:28] INFO root fetch - processPackages [dbtgenlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 13:35:28] INFO root fetch - processPackages [dbtgenlib]: executing diffoscope
+[2023-05-25 13:35:28] INFO root fetch - processPackages [dbtgenlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbtgenlib-0.0.8.tar.gz tmp/dbtgenlib-0.0.9.tar.gz --markdown 20230525/d/dbtgenlib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 13:35:28] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Start processing: geodistance
+[2023-05-25 13:35:28] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-05-25 13:35:28] INFO root fetch - processPackages [geodistance]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-25 13:35:28] INFO root fetch - processPackages [geodistance]: Downloading https://files.pythonhosted.org/packages/a3/cc/1653f0b3781286296a98fa58b3860d36cf18fd28d65a721e33a605cbc1a9/geodistance-0.1.4.tar.gz
+[2023-05-25 13:35:28] INFO root fetch - processPackages [pyrosexmod]: Start processing: netbox-cisco-maintenance
+[2023-05-25 13:35:28] INFO root fetch - main [MainThread]: End processing [pyrosexmod]: success
+[2023-05-25 13:35:28] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 13:35:28] INFO root fetch - processPackages [geodistance]: Start processing: pylyzer
+[2023-05-25 13:35:28] INFO root fetch - main [MainThread]: End processing [geodistance]: success
+[2023-05-25 13:35:28] INFO root fetch - processPackages [gocart]: Start processing: idem-azure
+[2023-05-25 13:35:28] INFO root fetch - main [MainThread]: End processing [gocart]: success
+[2023-05-25 13:35:28] INFO root fetch - processPackages [pylyzer]: New version: [0.1.0b0] Old Version: [0.0.9]
+[2023-05-25 13:35:28] INFO root fetch - processPackages [idem-azure]: New version: [0.3.3] Old Version: [0.3.2.1]
+[2023-05-25 13:35:28] INFO root fetch - processPackages [geodistance]: Downloading https://files.pythonhosted.org/packages/c2/24/477039eda623fe93551a77ea30144bbdd6cbc96aab3c4cb65a03f9346f8e/geodistance-0.1.5.tar.gz
+[2023-05-25 13:35:28] INFO root fetch - processPackages [camminapy]: Start processing: camminapy
+[2023-05-25 13:35:28] INFO root fetch - main [MainThread]: End processing [camminapy]: success
+[2023-05-25 13:35:28] INFO root fetch - processPackages [camminapy]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-05-25 13:35:28] INFO root fetch - processPackages [camminapy]: executing diffoscope
+[2023-05-25 13:35:28] INFO root fetch - processPackages [camminapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camminapy-0.8.8.tar.gz tmp/camminapy-0.8.9.tar.gz --markdown 20230525/c/camminapy/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-05-25 13:35:28] INFO root fetch - processPackages [pylyzer]: Downloading https://files.pythonhosted.org/packages/cc/0a/4a378f3aa880a5556006b21d0369dc5df4f54e0c90ea175006814eac5d27/pylyzer-0.0.9-py3-none-win_amd64.whl
+[2023-05-25 13:35:28] INFO root fetch - processPackages [ttrace]: Start processing: testgear-importer-allure
+[2023-05-25 13:35:28] INFO root fetch - main [MainThread]: End processing [ttrace]: success
+[2023-05-25 13:35:28] INFO root fetch - processPackages [idem-azure]: Downloading https://files.pythonhosted.org/packages/d2/c9/390a8e559ecc42910800ce0b6e4b81817ce67c7ff73dccc75821c1a1deba/idem-azure-0.3.2.1.tar.gz
+[2023-05-25 13:35:28] INFO root fetch - processPackages [geodistance]: executing diffoscope
+[2023-05-25 13:35:28] INFO root fetch - processPackages [geodistance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geodistance-0.1.4.tar.gz tmp/geodistance-0.1.5.tar.gz --markdown 20230525/g/geodistance/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-25 13:35:28] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-05-25 13:35:28] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.8.tar.gz tmp/netbox-cisco-maintenance-0.0.9.tar.gz --markdown 20230525/n/netbox-cisco-maintenance/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 13:35:28] INFO root fetch - processPackages [testgear-importer-allure]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-05-25 13:35:29] INFO root fetch - processPackages [idem-azure]: Downloading https://files.pythonhosted.org/packages/56/40/64508079750eec4d1b84d1bf52c5a75e9e8dbae76de689818ca6683e737e/idem-azure-0.3.3.tar.gz
+[2023-05-25 13:35:29] INFO root fetch - processPackages [testgear-importer-allure]: Downloading https://files.pythonhosted.org/packages/fc/e5/38bb2399bb5082976b6a310dd8ffc8fa09b23d8fc808be17fac3044d8652/testgear-importer-allure-1.3.1.tar.gz
+[2023-05-25 13:35:29] INFO root fetch - processPackages [idem-azure]: executing diffoscope
+[2023-05-25 13:35:29] INFO root fetch - processPackages [idem-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idem-azure-0.3.2.1.tar.gz tmp/idem-azure-0.3.3.tar.gz --markdown 20230525/i/idem-azure/0.3.2.1-0.3.3/diff.md --exclude *.pyd
+[2023-05-25 13:35:29] INFO root fetch - processPackages [testgear-importer-allure]: Downloading https://files.pythonhosted.org/packages/d9/02/f689836398d76bdda4e1fa45c313d5ce9b88633ed02a44cc3224cbdb7ded/testgear-importer-allure-1.3.2.tar.gz
+[2023-05-25 13:35:29] INFO root fetch - processPackages [testgear-importer-allure]: executing diffoscope
+[2023-05-25 13:35:29] INFO root fetch - processPackages [testgear-importer-allure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testgear-importer-allure-1.3.1.tar.gz tmp/testgear-importer-allure-1.3.2.tar.gz --markdown 20230525/t/testgear-importer-allure/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-05-25 13:35:29] INFO root fetch - main [MainThread]: End processing [dbtgenlib]: success
+[2023-05-25 13:35:29] INFO root fetch - main [MainThread]: End processing [crosspredict]: success
+[2023-05-25 13:35:30] INFO root fetch - main [MainThread]: End processing [camminapy]: success
+[2023-05-25 13:35:30] INFO root fetch - main [MainThread]: End processing [geodistance]: success
+[2023-05-25 13:35:30] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-05-25 13:35:30] INFO root fetch - main [MainThread]: End processing [testgear-importer-allure]: success
+[2023-05-25 13:35:30] INFO root fetch - processPackages [pylyzer]: Downloading https://files.pythonhosted.org/packages/4f/d0/21c0aba8f19b6a9dbd76297b9868884a362a07955eb9f714e654d0a2c7a3/pylyzer-0.1.0b0.tar.gz
+[2023-05-25 13:35:30] INFO root fetch - main [MainThread]: End processing [idem-azure]: success
+[2023-05-25 13:35:30] INFO root fetch - processPackages [pylyzer]: executing diffoscope
+[2023-05-25 13:35:30] INFO root fetch - processPackages [pylyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylyzer-0.0.9-py3-none-win_amd64.whl.zip tmp/pylyzer-0.1.0b0.tar.gz --markdown 20230525/p/pylyzer/0.0.9-0.1.0b0/diff.md --exclude *.pyd
+[2023-05-25 13:35:31] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2023-05-25 13:35:32] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder]: success
+[2023-05-25 13:35:36] INFO root fetch - main [MainThread]: End processing [pylyzer]: success
+[2023-05-25 13:35:36] INFO root fetch - main [MainThread]: Store serial: [18245820]
