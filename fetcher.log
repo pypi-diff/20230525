@@ -20541,3 +20541,70 @@ EOFError: EOF read where object expected
 [2023-05-25 16:09:24] INFO root fetch - main [MainThread]: End processing [pref-voting]: success
 [2023-05-25 16:09:24] INFO root fetch - main [MainThread]: End processing [pyhdbpp]: success
 [2023-05-25 16:09:24] INFO root fetch - main [MainThread]: Store serial: [18247987]
+[2023-05-25 16:14:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18247987]
+[2023-05-25 16:14:35] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-25 16:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nucliadb-contributor-assets
+[2023-05-25 16:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langchain
+[2023-05-25 16:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: numpy-io
+[2023-05-25 16:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: irene-pro
+[2023-05-25 16:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: my-django-form
+[2023-05-25 16:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: t2iapi
+[2023-05-25 16:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cg
+[2023-05-25 16:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pylacrosse-ha
+[2023-05-25 16:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: argus-alm
+[2023-05-25 16:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: iparapheur-provisioning
+[2023-05-25 16:14:35] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post797] Old Version: [1.0.0.post796]
+[2023-05-25 16:14:35] INFO root fetch - processPackages [irene-pro]: New version: [0.0.45] Old Version: [0.0.44]
+[2023-05-25 16:14:35] INFO root fetch - processPackages [langchain]: New version: [0.0.99rc0] Old Version: [0.0.99]
+[2023-05-25 16:14:35] INFO root fetch - processPackages [cg]: New version: [32.1.0] Old Version: [32.0.0]
+[2023-05-25 16:14:35] INFO root fetch - processPackages [iparapheur-provisioning]: New version: [1.6.2] Old Version: [1.6.1]
+[2023-05-25 16:14:35] INFO root fetch - processPackages [numpy-io]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-25 16:14:35] WARNING root fetch - processPackages [pylacrosse-ha]: Skipping, unable to determine old version
+[2023-05-25 16:14:35] INFO root fetch - processPackages [pylacrosse-ha]: Start processing: aligned
+[2023-05-25 16:14:35] INFO root fetch - processPackages [t2iapi]: New version: [3.0.0.dev145] Old Version: [3.0.0.dev142]
+[2023-05-25 16:14:35] WARNING root fetch - processPackages [my-django-form]: Skipping, unable to determine old version
+[2023-05-25 16:14:35] INFO root fetch - main [MainThread]: End processing [pylacrosse-ha] error
+[2023-05-25 16:14:35] INFO root fetch - processPackages [my-django-form]: Start processing: towhee
+[2023-05-25 16:14:35] INFO root fetch - processPackages [argus-alm]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-05-25 16:14:35] INFO root fetch - main [MainThread]: End processing [my-django-form] error
+[2023-05-25 16:14:35] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-05-25 16:14:35] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post796-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post797-py3-none-any.whl.zip --markdown 20230525/n/nucliadb-contributor-assets/1.0.0.post796-1.0.0.post797/diff.md --exclude *.pyd
+[2023-05-25 16:14:35] INFO root fetch - processPackages [aligned]: New version: [0.0.9a0] Old Version: [0.0.9]
+[2023-05-25 16:14:35] INFO root fetch - processPackages [langchain]: executing diffoscope
+[2023-05-25 16:14:35] INFO root fetch - processPackages [langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-0.0.99.tar.gz tmp/langchain-0.0.99rc0.tar.gz --markdown 20230525/l/langchain/0.0.99-0.0.99rc0/diff.md --exclude *.pyd
+[2023-05-25 16:14:35] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/92/18/18cea998796dcb055b4669fa6c5d427c2db77f47f709479a75219dc0df7d/irene_pro-0.0.45.tar.gz
+[2023-05-25 16:14:35] INFO root fetch - processPackages [aligned]: executing diffoscope
+[2023-05-25 16:14:35] INFO root fetch - processPackages [aligned]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aligned-0.0.9.tar.gz tmp/aligned-0.0.9a0.tar.gz --markdown 20230525/a/aligned/0.0.9-0.0.9a0/diff.md --exclude *.pyd
+[2023-05-25 16:14:35] INFO root fetch - processPackages [numpy-io]: Downloading https://files.pythonhosted.org/packages/4a/d8/9527e58066eba702cb5a7a0fd56b03711c2516f9fafb0881a0c696389c41/numpy_io-0.0.2-py3-none-any.whl
+[2023-05-25 16:14:35] INFO root fetch - processPackages [towhee]: New version: [1.0.0rc1] Old Version: [1.0.0]
+[2023-05-25 16:14:35] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/44/8f/479453dfaeee37d9504f3ffde64f4389b295cfde7bffb3795ab447d0ae29/cg-32.1.0.tar.gz
+[2023-05-25 16:14:35] INFO root fetch - processPackages [iparapheur-provisioning]: Downloading https://files.pythonhosted.org/packages/8a/04/f7c02f6ef8f58c2e7fe06e1140dc6777718924aa16f2952b3edd6aa3742e/iparapheur-provisioning-1.6.2.tar.gz
+[2023-05-25 16:14:35] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-05-25 16:14:35] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.0.44.tar.gz tmp/irene_pro-0.0.45.tar.gz --markdown 20230525/i/irene-pro/0.0.44-0.0.45/diff.md --exclude *.pyd
+[2023-05-25 16:14:35] INFO root fetch - processPackages [towhee]: Downloading https://files.pythonhosted.org/packages/39/75/932ac0714569f9878a64a28e3ea4d6622c9246f5382652b1c0f74d72c732/towhee-1.0.0-py3-none-any.whl
+[2023-05-25 16:14:35] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-05-25 16:14:35] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-32.0.0.tar.gz tmp/cg-32.1.0.tar.gz --markdown 20230525/c/cg/32.0.0-32.1.0/diff.md --exclude *.pyd
+[2023-05-25 16:14:35] INFO root fetch - processPackages [t2iapi]: Downloading https://files.pythonhosted.org/packages/e8/3d/6b80fa2d4c8c568cbf51843bd1097de7126beaad68ebc7d91c280004cc34/t2iapi-3.0.0.dev145.tar.gz
+[2023-05-25 16:14:35] INFO root fetch - processPackages [numpy-io]: Downloading https://files.pythonhosted.org/packages/21/7d/7e853cba2953346d63df5239430468f0a636e66f85986de4ed65d2708893/numpy_io-0.0.3-py3-none-any.whl
+[2023-05-25 16:14:35] INFO root fetch - processPackages [argus-alm]: executing diffoscope
+[2023-05-25 16:14:35] INFO root fetch - processPackages [argus-alm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argus-alm-0.8.0.tar.gz tmp/argus-alm-0.8.1.tar.gz --markdown 20230525/a/argus-alm/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-05-25 16:14:35] INFO root fetch - processPackages [iparapheur-provisioning]: executing diffoscope
+[2023-05-25 16:14:35] INFO root fetch - processPackages [iparapheur-provisioning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iparapheur-provisioning-1.6.1.tar.gz tmp/iparapheur-provisioning-1.6.2.tar.gz --markdown 20230525/i/iparapheur-provisioning/1.6.1-1.6.2/diff.md --exclude *.pyd
+[2023-05-25 16:14:35] INFO root fetch - processPackages [t2iapi]: executing diffoscope
+[2023-05-25 16:14:35] INFO root fetch - processPackages [t2iapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t2iapi-3.0.0.dev142.tar.gz tmp/t2iapi-3.0.0.dev145.tar.gz --markdown 20230525/t/t2iapi/3.0.0.dev142-3.0.0.dev145/diff.md --exclude *.pyd
+[2023-05-25 16:14:35] INFO root fetch - processPackages [numpy-io]: executing diffoscope
+[2023-05-25 16:14:35] INFO root fetch - processPackages [numpy-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numpy_io-0.0.2-py3-none-any.whl.zip tmp/numpy_io-0.0.3-py3-none-any.whl.zip --markdown 20230525/n/numpy-io/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-25 16:14:36] INFO root fetch - processPackages [towhee]: Downloading https://files.pythonhosted.org/packages/b1/f8/b234f91bc5160a8cce7bf43efa1d515aa8525df485866615c06f4b927199/towhee-1.0.0rc1-py3-none-any.whl
+[2023-05-25 16:14:36] INFO root fetch - processPackages [towhee]: executing diffoscope
+[2023-05-25 16:14:36] INFO root fetch - processPackages [towhee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/towhee-1.0.0-py3-none-any.whl.zip tmp/towhee-1.0.0rc1-py3-none-any.whl.zip --markdown 20230525/t/towhee/1.0.0-1.0.0rc1/diff.md --exclude *.pyd
+[2023-05-25 16:14:37] INFO root fetch - main [MainThread]: End processing [aligned]: success
+[2023-05-25 16:14:37] INFO root fetch - main [MainThread]: End processing [numpy-io]: success
+[2023-05-25 16:14:37] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-05-25 16:14:38] INFO root fetch - main [MainThread]: End processing [t2iapi]: success
+[2023-05-25 16:14:38] INFO root fetch - main [MainThread]: End processing [argus-alm]: success
+[2023-05-25 16:14:38] INFO root fetch - main [MainThread]: End processing [towhee]: success
+[2023-05-25 16:14:39] INFO root fetch - main [MainThread]: End processing [iparapheur-provisioning]: success
+[2023-05-25 16:14:41] INFO root fetch - main [MainThread]: End processing [langchain]: success
+[2023-05-25 16:14:48] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-05-25 16:14:49] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-05-25 16:14:49] INFO root fetch - main [MainThread]: Store serial: [18248024]
