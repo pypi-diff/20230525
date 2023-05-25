@@ -20608,3 +20608,99 @@ EOFError: EOF read where object expected
 [2023-05-25 16:14:48] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
 [2023-05-25 16:14:49] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-05-25 16:14:49] INFO root fetch - main [MainThread]: Store serial: [18248024]
+[2023-05-25 16:19:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18248024]
+[2023-05-25 16:19:59] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-25 16:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: solvency2sf
+[2023-05-25 16:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: towhee.models
+[2023-05-25 16:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: textbsr
+[2023-05-25 16:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: upgini
+[2023-05-25 16:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: apache-airflow-providers-fastetl
+[2023-05-25 16:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pgwrapper
+[2023-05-25 16:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: digital-unit
+[2023-05-25 16:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: makejinja
+[2023-05-25 16:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: h2o-featurestore
+[2023-05-25 16:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kfactory
+[2023-05-25 16:19:59] INFO root fetch - processPackages [apache-airflow-providers-fastetl]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 16:19:59] INFO root fetch - processPackages [textbsr]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 16:19:59] INFO root fetch - processPackages [pgwrapper]: New version: [0.3.3] Old Version: [0.3.1]
+[2023-05-25 16:19:59] INFO root fetch - processPackages [makejinja]: New version: [2.0.0b2] Old Version: [2.0.0b1]
+[2023-05-25 16:19:59] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-05-25 16:19:59] INFO root fetch - processPackages [towhee.models]: New version: [1.0.0rc1] Old Version: [1.0.0]
+[2023-05-25 16:19:59] INFO root fetch - processPackages [solvency2sf]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 16:19:59] INFO root fetch - processPackages [digital-unit]: New version: [1.5b0] Old Version: [1.4b2]
+[2023-05-25 16:19:59] INFO root fetch - processPackages [textbsr]: executing diffoscope
+[2023-05-25 16:19:59] INFO root fetch - processPackages [textbsr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textbsr-0.0.8.tar.gz tmp/textbsr-0.0.9.tar.gz --markdown 20230525/t/textbsr/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 16:19:59] INFO root fetch - processPackages [kfactory]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-05-25 16:19:59] INFO root fetch - processPackages [h2o-featurestore]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-25 16:19:59] INFO root fetch - processPackages [makejinja]: executing diffoscope
+[2023-05-25 16:19:59] INFO root fetch - processPackages [makejinja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/makejinja-2.0.0b1.tar.gz tmp/makejinja-2.0.0b2.tar.gz --markdown 20230525/m/makejinja/2.0.0b1-2.0.0b2/diff.md --exclude *.pyd
+[2023-05-25 16:19:59] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2023-05-25 16:19:59] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20230525/u/upgini/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-05-25 16:19:59] INFO root fetch - processPackages [apache-airflow-providers-fastetl]: Downloading https://files.pythonhosted.org/packages/f2/c2/9e7ac137ff43470836125dc5e1c2227595775ef8f30a2c6d2085dd8eb7fe/apache-airflow-providers-fastetl-0.0.8.tar.gz
+[2023-05-25 16:19:59] ERROR root fetch - processPackages [pgwrapper]: Unable to fetch info: No such project/version 'pgwrapper' 0.3.3
+[2023-05-25 16:19:59] INFO root fetch - processPackages [pgwrapper]: Start processing: dev-gpt
+[2023-05-25 16:19:59] INFO root fetch - main [MainThread]: End processing [pgwrapper] error
+[2023-05-25 16:19:59] INFO root fetch - processPackages [dev-gpt]: New version: [0.18.42.dev8] Old Version: [0.18.42.dev5]
+[2023-05-25 16:19:59] INFO root fetch - processPackages [towhee.models]: Downloading https://files.pythonhosted.org/packages/6d/57/7564fa9d44f4ff64c11fcadb3035c8165de1241abd84e99ce065115da6b7/towhee.models-1.0.0-py3-none-any.whl
+[2023-05-25 16:19:59] INFO root fetch - processPackages [digital-unit]: Downloading https://files.pythonhosted.org/packages/a3/5a/f4295a9f1b7627435bde653b58bd67a52c426557a319892dd7c81fde0650/digital_unit-1.4b2.tar.gz
+[2023-05-25 16:19:59] INFO root fetch - processPackages [solvency2sf]: Downloading https://files.pythonhosted.org/packages/28/52/e24a837d82473dbcca1e03c83dc56fc45ddbc9906c915a6ed4c6effcdee8/solvency2sf-0.0.8.tar.gz
+[2023-05-25 16:19:59] INFO root fetch - processPackages [dev-gpt]: executing diffoscope
+[2023-05-25 16:19:59] INFO root fetch - processPackages [dev-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev-gpt-0.18.42.dev5.tar.gz tmp/dev-gpt-0.18.42.dev8.tar.gz --markdown 20230525/d/dev-gpt/0.18.42.dev5-0.18.42.dev8/diff.md --exclude *.pyd
+[2023-05-25 16:19:59] INFO root fetch - processPackages [h2o-featurestore]: Downloading https://files.pythonhosted.org/packages/be/e5/f2cff9627d5effe4a2e059dbdf17e8a11d0e93818cc3a53cde5eaaaca679/h2o-featurestore-0.9.1.tar.gz
+[2023-05-25 16:19:59] INFO root fetch - processPackages [apache-airflow-providers-fastetl]: Downloading https://files.pythonhosted.org/packages/d4/f8/baf9fc62b93aeb50681580f8298179926c73ad768fa3910640c56d6c583e/apache-airflow-providers-fastetl-0.0.9.tar.gz
+[2023-05-25 16:19:59] INFO root fetch - processPackages [kfactory]: Downloading https://files.pythonhosted.org/packages/4c/c6/eab2fe56ce649878f812620abe386054d5e0dfe59a1107fbdf413ab3ba6a/kfactory-0.7.1.tar.gz
+[2023-05-25 16:19:59] INFO root fetch - processPackages [digital-unit]: Downloading https://files.pythonhosted.org/packages/4c/ce/3cdd841386bd4552869620e7ddaffdd7cfd617fb76e79b07857932d94b57/digital_unit-1.5b0.tar.gz
+[2023-05-25 16:19:59] INFO root fetch - processPackages [towhee.models]: Downloading https://files.pythonhosted.org/packages/13/70/ff427e9f8db13ec93a077c47f4e7e7efe5d8f372cde3ae0b1f193668b008/towhee.models-1.0.0rc1-py3-none-any.whl
+[2023-05-25 16:19:59] INFO root fetch - processPackages [digital-unit]: executing diffoscope
+[2023-05-25 16:19:59] INFO root fetch - processPackages [digital-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digital_unit-1.4b2.tar.gz tmp/digital_unit-1.5b0.tar.gz --markdown 20230525/d/digital-unit/1.4b2-1.5b0/diff.md --exclude *.pyd
+[2023-05-25 16:19:59] INFO root fetch - processPackages [kfactory]: executing diffoscope
+[2023-05-25 16:19:59] INFO root fetch - processPackages [kfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfactory-0.7.0.tar.gz tmp/kfactory-0.7.1.tar.gz --markdown 20230525/k/kfactory/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-05-25 16:20:00] INFO root fetch - processPackages [apache-airflow-providers-fastetl]: executing diffoscope
+[2023-05-25 16:20:00] INFO root fetch - processPackages [apache-airflow-providers-fastetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-fastetl-0.0.8.tar.gz tmp/apache-airflow-providers-fastetl-0.0.9.tar.gz --markdown 20230525/a/apache-airflow-providers-fastetl/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 16:20:00] INFO root fetch - processPackages [solvency2sf]: Downloading https://files.pythonhosted.org/packages/37/a9/d63e8adc9b0b752ccfe601e26485a8bd50840ba569abc27b4b29b17125e1/solvency2sf-0.0.9.tar.gz
+[2023-05-25 16:20:00] INFO root fetch - processPackages [h2o-featurestore]: Downloading https://files.pythonhosted.org/packages/7f/42/e52e9631ecdccc5eae7054c95242989f2ebb268c815ad21d124f6ab56ce0/h2o-featurestore-0.9.2.tar.gz
+[2023-05-25 16:20:00] INFO root fetch - processPackages [towhee.models]: executing diffoscope
+[2023-05-25 16:20:00] INFO root fetch - processPackages [towhee.models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/towhee.models-1.0.0-py3-none-any.whl.zip tmp/towhee.models-1.0.0rc1-py3-none-any.whl.zip --markdown 20230525/t/towhee.models/1.0.0-1.0.0rc1/diff.md --exclude *.pyd
+[2023-05-25 16:20:00] INFO root fetch - processPackages [solvency2sf]: executing diffoscope
+[2023-05-25 16:20:00] INFO root fetch - processPackages [solvency2sf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solvency2sf-0.0.8.tar.gz tmp/solvency2sf-0.0.9.tar.gz --markdown 20230525/s/solvency2sf/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 16:20:00] INFO root fetch - processPackages [h2o-featurestore]: executing diffoscope
+[2023-05-25 16:20:00] INFO root fetch - processPackages [h2o-featurestore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h2o-featurestore-0.9.1.tar.gz tmp/h2o-featurestore-0.9.2.tar.gz --markdown 20230525/h/h2o-featurestore/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-25 16:20:01] INFO root fetch - processPackages [textbsr]: Start processing: dev-gpt
+[2023-05-25 16:20:01] INFO root fetch - main [MainThread]: End processing [textbsr]: success
+[2023-05-25 16:20:01] INFO root fetch - processPackages [dev-gpt]: New version: [0.18.42.dev8] Old Version: [0.18.42.dev5]
+[2023-05-25 16:20:01] INFO root fetch - processPackages [makejinja]: Start processing: robotframework-AppiumSikuliLibrary
+[2023-05-25 16:20:01] INFO root fetch - main [MainThread]: End processing [makejinja]: success
+[2023-05-25 16:20:01] INFO root fetch - processPackages [dev-gpt]: executing diffoscope
+[2023-05-25 16:20:01] INFO root fetch - processPackages [dev-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev-gpt-0.18.42.dev5.tar.gz tmp/dev-gpt-0.18.42.dev8.tar.gz --markdown 20230525/d/dev-gpt/0.18.42.dev5-0.18.42.dev8/diff.md --exclude *.pyd
+[2023-05-25 16:20:01] WARNING root fetch - processPackages [robotframework-AppiumSikuliLibrary]: Skipping, unable to determine old version
+[2023-05-25 16:20:01] INFO root fetch - processPackages [robotframework-AppiumSikuliLibrary]: Start processing: echoloader
+[2023-05-25 16:20:01] INFO root fetch - main [MainThread]: End processing [robotframework-AppiumSikuliLibrary] error
+[2023-05-25 16:20:01] INFO root fetch - processPackages [echoloader]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-25 16:20:01] INFO root fetch - processPackages [digital-unit]: Start processing: sarus-data-spec-public
+[2023-05-25 16:20:01] INFO root fetch - main [MainThread]: End processing [digital-unit]: success
+[2023-05-25 16:20:01] INFO root fetch - processPackages [sarus-data-spec-public]: New version: [3.3.0.dev3] Old Version: [3.3.0.dev2]
+[2023-05-25 16:20:01] INFO root fetch - processPackages [echoloader]: executing diffoscope
+[2023-05-25 16:20:01] INFO root fetch - processPackages [echoloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echoloader-0.1.8.tar.gz tmp/echoloader-0.1.9.tar.gz --markdown 20230525/e/echoloader/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-25 16:20:01] INFO root fetch - processPackages [sarus-data-spec-public]: executing diffoscope
+[2023-05-25 16:20:01] INFO root fetch - processPackages [sarus-data-spec-public]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarus_data_spec_public-3.3.0.dev2.tar.gz tmp/sarus_data_spec_public-3.3.0.dev3.tar.gz --markdown 20230525/s/sarus-data-spec-public/3.3.0.dev2-3.3.0.dev3/diff.md --exclude *.pyd
+[2023-05-25 16:20:01] INFO root fetch - processPackages [dev-gpt]: Start processing: qoa4ml
+[2023-05-25 16:20:01] INFO root fetch - main [MainThread]: End processing [dev-gpt]: success
+[2023-05-25 16:20:01] INFO root fetch - processPackages [qoa4ml]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 16:20:01] INFO root fetch - processPackages [qoa4ml]: executing diffoscope
+[2023-05-25 16:20:01] INFO root fetch - processPackages [qoa4ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoa4ml-0.0.8.tar.gz tmp/qoa4ml-0.0.9.tar.gz --markdown 20230525/q/qoa4ml/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 16:20:02] INFO root fetch - processPackages [apache-airflow-providers-fastetl]: Start processing: fief-server
+[2023-05-25 16:20:02] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-fastetl]: success
+[2023-05-25 16:20:02] INFO root fetch - processPackages [fief-server]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-05-25 16:20:02] INFO root fetch - main [MainThread]: End processing [kfactory]: success
+[2023-05-25 16:20:02] INFO root fetch - main [MainThread]: End processing [solvency2sf]: success
+[2023-05-25 16:20:02] INFO root fetch - processPackages [fief-server]: executing diffoscope
+[2023-05-25 16:20:02] INFO root fetch - processPackages [fief-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fief-server-0.8.2.tar.gz tmp/fief-server-0.9.0.tar.gz --markdown 20230525/f/fief-server/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-05-25 16:20:02] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2023-05-25 16:20:03] INFO root fetch - main [MainThread]: End processing [echoloader]: success
+[2023-05-25 16:20:03] INFO root fetch - main [MainThread]: End processing [qoa4ml]: success
+[2023-05-25 16:20:04] INFO root fetch - main [MainThread]: End processing [towhee.models]: success
+[2023-05-25 16:20:04] INFO root fetch - main [MainThread]: End processing [sarus-data-spec-public]: success
+[2023-05-25 16:20:04] INFO root fetch - main [MainThread]: End processing [h2o-featurestore]: success
+[2023-05-25 16:20:04] INFO root fetch - main [MainThread]: End processing [dev-gpt]: success
+[2023-05-25 16:20:05] INFO root fetch - main [MainThread]: End processing [fief-server]: success
+[2023-05-25 16:20:05] INFO root fetch - main [MainThread]: Store serial: [18248074]
