@@ -12181,3 +12181,122 @@
 [2023-05-25 09:56:50] INFO root fetch - main [MainThread]: End processing [python-otbr-api]: success
 [2023-05-25 09:56:50] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps-htcondor]: success
 [2023-05-25 09:56:50] INFO root fetch - main [MainThread]: Store serial: [18243086]
+[2023-05-25 10:01:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18243086]
+[2023-05-25 10:01:59] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-25 10:01:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Cython
+[2023-05-25 10:01:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lsst-ctrl-bps-parsl
+[2023-05-25 10:01:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datumaro
+[2023-05-25 10:01:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: miris-manager-client
+[2023-05-25 10:01:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: e2eqavn
+[2023-05-25 10:01:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Python-EasyGraph
+[2023-05-25 10:01:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lsst-utils
+[2023-05-25 10:01:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hcai-nova-server-nightly
+[2023-05-25 10:01:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tumourkit
+[2023-05-25 10:01:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lsst-ctrl-bps-panda
+[2023-05-25 10:01:59] INFO root fetch - processPackages [hcai-nova-server-nightly]: New version: [0.1.6.dev202305250732] Old Version: [0.1.6.dev202305241346]
+[2023-05-25 10:01:59] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-05-25 10:01:59] INFO root fetch - processPackages [datumaro]: New version: [1.3.0rc1] Old Version: [1.3.0]
+[2023-05-25 10:01:59] INFO root fetch - processPackages [miris-manager-client]: New version: [6.0] Old Version: [5.5]
+[2023-05-25 10:01:59] WARNING root fetch - processPackages [e2eqavn]: Skipping, unable to determine old version
+[2023-05-25 10:01:59] INFO root fetch - processPackages [e2eqavn]: Start processing: pyrosexmod
+[2023-05-25 10:01:59] INFO root fetch - main [MainThread]: End processing [e2eqavn] error
+[2023-05-25 10:01:59] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-05-25 10:01:59] INFO root fetch - processPackages [lsst-utils]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-05-25 10:01:59] INFO root fetch - processPackages [tumourkit]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-05-25 10:01:59] INFO root fetch - processPackages [pyrosexmod]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-25 10:02:00] INFO root fetch - processPackages [Python-EasyGraph]: New version: [0.2a9] Old Version: [0.2a8]
+[2023-05-25 10:02:00] INFO root fetch - processPackages [Cython]: New version: [3.0a7] Old Version: [3.0a6]
+[2023-05-25 10:02:00] INFO root fetch - processPackages [hcai-nova-server-nightly]: Downloading https://files.pythonhosted.org/packages/6c/ca/a59a47e8d9485d4a15095cda0015b3cc0f49034e45ab4f255db3c199b227/hcai-nova-server-nightly-0.1.6.dev202305250732.tar.gz
+[2023-05-25 10:02:00] INFO root fetch - processPackages [datumaro]: Downloading https://files.pythonhosted.org/packages/43/7c/7ccd941be0abd047d53bcec4bac1224ca08f99e964b3dc82867d4180a343/datumaro-1.3.0.tar.gz
+[2023-05-25 10:02:00] INFO root fetch - processPackages [pyrosexmod]: executing diffoscope
+[2023-05-25 10:02:00] INFO root fetch - processPackages [pyrosexmod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrosexmod-0.0.3.tar.gz tmp/pyrosexmod-0.0.4.tar.gz --markdown 20230525/p/pyrosexmod/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-25 10:02:00] INFO root fetch - processPackages [tumourkit]: Downloading https://files.pythonhosted.org/packages/7c/c7/0a8197393876c9d9dad20938c7ae5f6378b0b9fb41b0f804af8b27fccb6f/tumourkit-0.6.0.tar.gz
+[2023-05-25 10:02:00] INFO root fetch - processPackages [miris-manager-client]: Downloading https://files.pythonhosted.org/packages/2d/e9/3f1f8cf05d9085cba60a4d67f6da5ece32c5d02048a4763a3251d550d9f5/miris-manager-client-5.5.tar.gz
+[2023-05-25 10:02:00] INFO root fetch - processPackages [hcai-nova-server-nightly]: executing diffoscope
+[2023-05-25 10:02:00] INFO root fetch - processPackages [hcai-nova-server-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-nova-server-nightly-0.1.6.dev202305241346.tar.gz tmp/hcai-nova-server-nightly-0.1.6.dev202305250732.tar.gz --markdown 20230525/h/hcai-nova-server-nightly/0.1.6.dev202305241346-0.1.6.dev202305250732/diff.md --exclude *.pyd
+[2023-05-25 10:02:00] INFO root fetch - processPackages [Python-EasyGraph]: Downloading https://files.pythonhosted.org/packages/e8/99/2ab3d981b34a651e873f8d16cb4d9151bf7fbd5d099e01eb142029c2cd86/Python-EasyGraph-0.2a8.tar.gz
+[2023-05-25 10:02:00] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: executing diffoscope
+[2023-05-25 10:02:00] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-bps-panda-26.0.0a20230400.tar.gz tmp/lsst-ctrl-bps-panda-26.0.0a20230500.tar.gz --markdown 20230525/l/lsst-ctrl-bps-panda/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-05-25 10:02:00] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: executing diffoscope
+[2023-05-25 10:02:00] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-bps-parsl-26.0.0a20230400.tar.gz tmp/lsst-ctrl-bps-parsl-26.0.0a20230500.tar.gz --markdown 20230525/l/lsst-ctrl-bps-parsl/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-05-25 10:02:00] INFO root fetch - processPackages [lsst-utils]: executing diffoscope
+[2023-05-25 10:02:00] INFO root fetch - processPackages [lsst-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-utils-26.0.0a20230400.tar.gz tmp/lsst-utils-26.0.0a20230500.tar.gz --markdown 20230525/l/lsst-utils/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-05-25 10:02:00] INFO root fetch - processPackages [datumaro]: executing diffoscope
+[2023-05-25 10:02:00] INFO root fetch - processPackages [datumaro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datumaro-1.3.0.tar.gz tmp/datumaro-1.3.0rc1.tar.gz --markdown 20230525/d/datumaro/1.3.0-1.3.0rc1/diff.md --exclude *.pyd
+[2023-05-25 10:02:00] INFO root fetch - processPackages [Cython]: executing diffoscope
+[2023-05-25 10:02:00] INFO root fetch - processPackages [Cython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Cython-3.0a6.tar.gz tmp/Cython-3.0a7.tar.gz --markdown 20230525/C/Cython/3.0a6-3.0a7/diff.md --exclude *.pyd
+[2023-05-25 10:02:00] INFO root fetch - processPackages [tumourkit]: Downloading https://files.pythonhosted.org/packages/40/1f/7d67a4f63ae3f2f75d1e32f4aaa2ee7c384d888020c300e67f3316b7fbba/tumourkit-0.7.0.tar.gz
+[2023-05-25 10:02:00] INFO root fetch - processPackages [miris-manager-client]: Downloading https://files.pythonhosted.org/packages/33/73/0cf39520019ad68eef5df137aad20c3558d4e3d690ebba567a08ede7593c/miris-manager-client-6.0.tar.gz
+[2023-05-25 10:02:00] INFO root fetch - processPackages [tumourkit]: executing diffoscope
+[2023-05-25 10:02:00] INFO root fetch - processPackages [tumourkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tumourkit-0.6.0.tar.gz tmp/tumourkit-0.7.0.tar.gz --markdown 20230525/t/tumourkit/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-05-25 10:02:00] INFO root fetch - processPackages [Python-EasyGraph]: Downloading https://files.pythonhosted.org/packages/9e/08/3b47e9b93564a67026e893e2d58d9c246334a6138773a9672c52fb601748/Python-EasyGraph-0.2a9.tar.gz
+[2023-05-25 10:02:00] INFO root fetch - processPackages [miris-manager-client]: executing diffoscope
+[2023-05-25 10:02:00] INFO root fetch - processPackages [miris-manager-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miris-manager-client-5.5.tar.gz tmp/miris-manager-client-6.0.tar.gz --markdown 20230525/m/miris-manager-client/5.5-6.0/diff.md --exclude *.pyd
+[2023-05-25 10:02:00] INFO root fetch - processPackages [Python-EasyGraph]: executing diffoscope
+[2023-05-25 10:02:00] INFO root fetch - processPackages [Python-EasyGraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Python-EasyGraph-0.2a8.tar.gz tmp/Python-EasyGraph-0.2a9.tar.gz --markdown 20230525/P/Python-EasyGraph/0.2a8-0.2a9/diff.md --exclude *.pyd
+[2023-05-25 10:02:01] INFO root fetch - processPackages [pyrosexmod]: Start processing: domolibrary
+[2023-05-25 10:02:01] INFO root fetch - main [MainThread]: End processing [pyrosexmod]: success
+[2023-05-25 10:02:01] INFO root fetch - processPackages [domolibrary]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-25 10:02:01] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-05-25 10:02:01] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.1.8.tar.gz tmp/domolibrary-0.1.9.tar.gz --markdown 20230525/d/domolibrary/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:02:01] INFO root fetch - processPackages [hcai-nova-server-nightly]: Start processing: savant-rs
+[2023-05-25 10:02:01] INFO root fetch - main [MainThread]: End processing [hcai-nova-server-nightly]: success
+[2023-05-25 10:02:01] INFO root fetch - processPackages [savant-rs]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-05-25 10:02:02] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: Start processing: hcai-nova-server-nightly
+[2023-05-25 10:02:02] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps-parsl]: success
+[2023-05-25 10:02:02] INFO root fetch - processPackages [hcai-nova-server-nightly]: New version: [0.1.6.dev202305250759] Old Version: [0.1.6.dev202305250757]
+[2023-05-25 10:02:02] INFO root fetch - processPackages [savant-rs]: executing diffoscope
+[2023-05-25 10:02:02] INFO root fetch - processPackages [savant-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/savant_rs-0.1.7.tar.gz tmp/savant_rs-0.1.9.tar.gz --markdown 20230525/s/savant-rs/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:02:02] INFO root fetch - processPackages [hcai-nova-server-nightly]: Downloading https://files.pythonhosted.org/packages/72/30/e7b5b406e5c521c0f4bb69ba547423bbac5f9714c6ca7a43af183a04fe94/hcai-nova-server-nightly-0.1.6.dev202305250757.tar.gz
+[2023-05-25 10:02:02] INFO root fetch - processPackages [lsst-utils]: Start processing: lsst-daf-relation
+[2023-05-25 10:02:02] INFO root fetch - main [MainThread]: End processing [lsst-utils]: success
+[2023-05-25 10:02:02] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: Start processing: lsst-ctrl-bps
+[2023-05-25 10:02:02] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps-panda]: success
+[2023-05-25 10:02:02] INFO root fetch - processPackages [lsst-ctrl-bps]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-05-25 10:02:02] INFO root fetch - processPackages [lsst-daf-relation]: New version: [1.0.0a20230500] Old Version: [1.0.0a20230400]
+[2023-05-25 10:02:02] INFO root fetch - processPackages [hcai-nova-server-nightly]: Downloading https://files.pythonhosted.org/packages/f3/c9/0dc2a1d34639730d3a80353b06e1b39601b20b29afcbf8f9e2abdecc5305/hcai-nova-server-nightly-0.1.6.dev202305250759.tar.gz
+[2023-05-25 10:02:02] INFO root fetch - processPackages [miris-manager-client]: Start processing: shopcloud-serverless
+[2023-05-25 10:02:02] INFO root fetch - main [MainThread]: End processing [miris-manager-client]: success
+[2023-05-25 10:02:02] INFO root fetch - processPackages [shopcloud-serverless]: New version: [4.9.0] Old Version: [4.8.0]
+[2023-05-25 10:02:02] INFO root fetch - processPackages [hcai-nova-server-nightly]: executing diffoscope
+[2023-05-25 10:02:02] INFO root fetch - processPackages [hcai-nova-server-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-nova-server-nightly-0.1.6.dev202305250757.tar.gz tmp/hcai-nova-server-nightly-0.1.6.dev202305250759.tar.gz --markdown 20230525/h/hcai-nova-server-nightly/0.1.6.dev202305250757-0.1.6.dev202305250759/diff.md --exclude *.pyd
+[2023-05-25 10:02:02] INFO root fetch - processPackages [shopcloud-serverless]: executing diffoscope
+[2023-05-25 10:02:02] INFO root fetch - processPackages [shopcloud-serverless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shopcloud-serverless-4.8.0.tar.gz tmp/shopcloud-serverless-4.9.0.tar.gz --markdown 20230525/s/shopcloud-serverless/4.8.0-4.9.0/diff.md --exclude *.pyd
+[2023-05-25 10:02:02] INFO root fetch - processPackages [Python-EasyGraph]: Start processing: sj-tool
+[2023-05-25 10:02:02] INFO root fetch - main [MainThread]: End processing [Python-EasyGraph]: success
+[2023-05-25 10:02:02] INFO root fetch - processPackages [lsst-ctrl-bps]: executing diffoscope
+[2023-05-25 10:02:02] INFO root fetch - processPackages [lsst-ctrl-bps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-bps-26.0.0a20230400.tar.gz tmp/lsst-ctrl-bps-26.0.0a20230500.tar.gz --markdown 20230525/l/lsst-ctrl-bps/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-05-25 10:02:02] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-25 10:02:02] INFO root fetch - processPackages [lsst-daf-relation]: executing diffoscope
+[2023-05-25 10:02:02] INFO root fetch - processPackages [lsst-daf-relation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-daf-relation-1.0.0a20230400.tar.gz tmp/lsst-daf-relation-1.0.0a20230500.tar.gz --markdown 20230525/l/lsst-daf-relation/1.0.0a20230400-1.0.0a20230500/diff.md --exclude *.pyd
+[2023-05-25 10:02:03] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-05-25 10:02:03] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.8-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230525/s/sj-tool/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-25 10:02:04] INFO root fetch - processPackages [domolibrary]: Start processing: syngen
+[2023-05-25 10:02:04] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-05-25 10:02:04] INFO root fetch - processPackages [syngen]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-25 10:02:04] INFO root fetch - processPackages [savant-rs]: Start processing: lsst-ctrl-mpexec
+[2023-05-25 10:02:04] INFO root fetch - main [MainThread]: End processing [savant-rs]: success
+[2023-05-25 10:02:04] INFO root fetch - processPackages [syngen]: Downloading https://files.pythonhosted.org/packages/6b/02/dc82047ec1ef2ccda0b09abb02f863e97ee344ff471584e85ad166581b33/syngen-0.1.7.tar.gz
+[2023-05-25 10:02:04] INFO root fetch - processPackages [lsst-ctrl-mpexec]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-05-25 10:02:04] INFO root fetch - processPackages [shopcloud-serverless]: Start processing: ktechpayapi
+[2023-05-25 10:02:04] INFO root fetch - main [MainThread]: End processing [shopcloud-serverless]: success
+[2023-05-25 10:02:04] INFO root fetch - processPackages [ktechpayapi]: New version: [1.3.0] Old Version: [1.1.0]
+[2023-05-25 10:02:04] INFO root fetch - main [MainThread]: End processing [hcai-nova-server-nightly]: success
+[2023-05-25 10:02:04] INFO root fetch - processPackages [syngen]: executing diffoscope
+[2023-05-25 10:02:04] INFO root fetch - processPackages [syngen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syngen-0.1.6.tar.gz tmp/syngen-0.1.7.tar.gz --markdown 20230525/s/syngen/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-25 10:02:04] INFO root fetch - processPackages [ktechpayapi]: Downloading https://files.pythonhosted.org/packages/57/2c/d32b0d5ef8beb11673b25a16b3af2d5d9993a4282dff7ab548bf3333932d/ktechpayapi-1.1.0-py3.9.egg
+[2023-05-25 10:02:04] INFO root fetch - processPackages [lsst-ctrl-mpexec]: executing diffoscope
+[2023-05-25 10:02:04] INFO root fetch - processPackages [lsst-ctrl-mpexec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-mpexec-26.0.0a20230400.tar.gz tmp/lsst-ctrl-mpexec-26.0.0a20230500.tar.gz --markdown 20230525/l/lsst-ctrl-mpexec/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-05-25 10:02:04] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps]: success
+[2023-05-25 10:02:05] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-05-25 10:02:05] INFO root fetch - main [MainThread]: End processing [tumourkit]: success
+[2023-05-25 10:02:05] INFO root fetch - processPackages [ktechpayapi]: Downloading https://files.pythonhosted.org/packages/fa/d4/101e09acef0db29832312e8308a89062a8da0f54f4c2e90314ebbf15e6db/ktechpayapi-1.3.0.tar.gz
+[2023-05-25 10:02:05] INFO root fetch - processPackages [ktechpayapi]: executing diffoscope
+[2023-05-25 10:02:05] INFO root fetch - processPackages [ktechpayapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ktechpayapi-1.1.0-py3.9.egg tmp/ktechpayapi-1.3.0.tar.gz --markdown 20230525/k/ktechpayapi/1.1.0-1.3.0/diff.md --exclude *.pyd
+[2023-05-25 10:02:05] INFO root fetch - main [MainThread]: End processing [lsst-daf-relation]: success
+[2023-05-25 10:02:06] INFO root fetch - main [MainThread]: End processing [ktechpayapi]: success
+[2023-05-25 10:02:06] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-mpexec]: success
+[2023-05-25 10:02:10] INFO root fetch - main [MainThread]: End processing [syngen]: success
+[2023-05-25 10:02:46] INFO root fetch - main [MainThread]: End processing [datumaro]: success
+[2023-05-25 10:02:51] INFO root fetch - main [MainThread]: End processing [Cython]: success
+[2023-05-25 10:02:51] INFO root fetch - main [MainThread]: Store serial: [18243246]
