@@ -11577,3 +11577,247 @@
 [2023-05-25 09:28:32] INFO root fetch - main [MainThread]: End processing [dissect.cim]: success
 [2023-05-25 09:28:57] INFO root fetch - main [MainThread]: End processing [flybirds]: success
 [2023-05-25 09:28:57] INFO root fetch - main [MainThread]: Store serial: [18242756]
+[2023-05-25 09:34:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18242756]
+[2023-05-25 09:34:06] INFO root fetch - main [MainThread]: Found 38 changed packages
+[2023-05-25 09:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dissect.clfs
+[2023-05-25 09:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dissect.cstruct
+[2023-05-25 09:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dissect.executable
+[2023-05-25 09:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dissect.util
+[2023-05-25 09:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mediaserver-api-client
+[2023-05-25 09:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dissect.evidence
+[2023-05-25 09:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dissect.eventlog
+[2023-05-25 09:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dissect.ole
+[2023-05-25 09:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dissect.extfs
+[2023-05-25 09:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dissect.fat
+[2023-05-25 09:34:07] INFO root fetch - processPackages [dissect.eventlog]: New version: [3.5.dev2] Old Version: [3.5.dev1]
+[2023-05-25 09:34:07] INFO root fetch - processPackages [dissect.ole]: New version: [3.5.dev1] Old Version: [3.4.dev1]
+[2023-05-25 09:34:07] INFO root fetch - processPackages [dissect.evidence]: New version: [3.5.dev2] Old Version: [3.5.dev1]
+[2023-05-25 09:34:07] INFO root fetch - processPackages [dissect.fat]: New version: [3.5.dev2] Old Version: [3.5.dev1]
+[2023-05-25 09:34:07] INFO root fetch - processPackages [dissect.cstruct]: New version: [3.7.dev2] Old Version: [3.7.dev1]
+[2023-05-25 09:34:07] INFO root fetch - processPackages [dissect.clfs]: New version: [1.5.dev2] Old Version: [1.5.dev1]
+[2023-05-25 09:34:07] INFO root fetch - processPackages [dissect.executable]: New version: [1.3.dev2] Old Version: [1.3.dev1]
+[2023-05-25 09:34:07] INFO root fetch - processPackages [dissect.util]: New version: [3.8.dev3] Old Version: [3.8.dev2]
+[2023-05-25 09:34:07] INFO root fetch - processPackages [mediaserver-api-client]: New version: [4.2] Old Version: [4.0]
+[2023-05-25 09:34:07] INFO root fetch - processPackages [dissect.extfs]: New version: [3.5.dev4] Old Version: [3.5.dev3]
+[2023-05-25 09:34:07] INFO root fetch - processPackages [dissect.eventlog]: Downloading https://files.pythonhosted.org/packages/ae/09/6aff185349aa3707e3b156b7947af479c91a21d566d9cb9cea5d7c71df22/dissect.eventlog-3.5.dev1.tar.gz
+[2023-05-25 09:34:07] INFO root fetch - processPackages [dissect.ole]: Downloading https://files.pythonhosted.org/packages/e7/d1/1b52150e983a86ce32aafe85f1df5b791c7f30bb0c20075b5722ecb60c3c/dissect.ole-3.4.dev1.tar.gz
+[2023-05-25 09:34:07] INFO root fetch - processPackages [dissect.fat]: Downloading https://files.pythonhosted.org/packages/18/f1/ae5187a0507b2ff18ad9ca34f0e45c3ada2f69c86727361fa06aa43704c9/dissect.fat-3.5.dev1.tar.gz
+[2023-05-25 09:34:07] INFO root fetch - processPackages [dissect.evidence]: Downloading https://files.pythonhosted.org/packages/ba/3e/9aa14ce7917ff645ec2eb9e01657b1d9064a6b75d28f1246722b0c191d5a/dissect.evidence-3.5.dev1.tar.gz
+[2023-05-25 09:34:07] INFO root fetch - processPackages [dissect.clfs]: Downloading https://files.pythonhosted.org/packages/bb/d9/ef491ace2edf25c4ee291083502b88893230d7d517551162761c82bc9ad5/dissect.clfs-1.5.dev1.tar.gz
+[2023-05-25 09:34:07] INFO root fetch - processPackages [dissect.executable]: Downloading https://files.pythonhosted.org/packages/88/85/b4e34cc8a83db0fd0df459b1fb72d4ff286c457f482bdf6d4164844a20c4/dissect.executable-1.3.dev1.tar.gz
+[2023-05-25 09:34:07] INFO root fetch - processPackages [dissect.cstruct]: Downloading https://files.pythonhosted.org/packages/9f/0e/4a999e21154ed4b82fce6fb6e2c0d645010797b45f435491aeedcb41e439/dissect.cstruct-3.7.dev1.tar.gz
+[2023-05-25 09:34:07] INFO root fetch - processPackages [dissect.util]: Downloading https://files.pythonhosted.org/packages/82/d3/0875968137ea4ea1133565aae83415e7ad44bdf87bbe0e75576939c87f00/dissect.util-3.8.dev2.tar.gz
+[2023-05-25 09:34:07] INFO root fetch - processPackages [dissect.extfs]: Downloading https://files.pythonhosted.org/packages/61/dd/098d38c78e67ab6b8d26556c0154dc4809c3e4d359afc4a2dca7be608b44/dissect.extfs-3.5.dev3.tar.gz
+[2023-05-25 09:34:07] INFO root fetch - processPackages [mediaserver-api-client]: Downloading https://files.pythonhosted.org/packages/26/74/cd60656f0e007395d52ac16af22cc5b04e8b64368ed9527125b62084a123/mediaserver-api-client-4.0.tar.gz
+[2023-05-25 09:34:07] INFO root fetch - processPackages [dissect.eventlog]: Downloading https://files.pythonhosted.org/packages/ba/51/04434a96ad973fb7ace8058d08323f599cfdee0ff5394cca90c18ee13ae9/dissect.eventlog-3.5.dev2.tar.gz
+[2023-05-25 09:34:07] INFO root fetch - processPackages [dissect.fat]: Downloading https://files.pythonhosted.org/packages/18/54/801784257962f357c6374d77c1664aa376686c3e91571fdf0174eee28469/dissect.fat-3.5.dev2.tar.gz
+[2023-05-25 09:34:07] INFO root fetch - processPackages [dissect.ole]: Downloading https://files.pythonhosted.org/packages/67/79/bc398be90353a34d96f7b741043a0cbf7252d4c7108d7153d30af168df55/dissect.ole-3.5.dev1.tar.gz
+[2023-05-25 09:34:07] INFO root fetch - processPackages [dissect.evidence]: Downloading https://files.pythonhosted.org/packages/20/58/22d549c5d281388611c6da368421f978cbe78d2ea26ec523c828ca0d84af/dissect.evidence-3.5.dev2.tar.gz
+[2023-05-25 09:34:07] INFO root fetch - processPackages [dissect.clfs]: Downloading https://files.pythonhosted.org/packages/85/b3/ba494771d954ff2e01ddcfdf23dcb3a5a2c8f40787a4dd0f8218f6da79fb/dissect.clfs-1.5.dev2.tar.gz
+[2023-05-25 09:34:07] INFO root fetch - processPackages [dissect.cstruct]: Downloading https://files.pythonhosted.org/packages/42/45/5ce0e905ab8d6f3bfe46c7ae6b782a6dae780911fbe90baac8ebbe226768/dissect.cstruct-3.7.dev2.tar.gz
+[2023-05-25 09:34:07] INFO root fetch - processPackages [dissect.extfs]: Downloading https://files.pythonhosted.org/packages/61/52/0cee55c9bd1d4f30ab8707004b1bde2f40348f93441cce2a6fba1e6ae5b9/dissect.extfs-3.5.dev4.tar.gz
+[2023-05-25 09:34:07] INFO root fetch - processPackages [mediaserver-api-client]: Downloading https://files.pythonhosted.org/packages/f4/fb/3481f2c6b90923e50079758a4faab993cded9eb48882988c375838c5c84f/mediaserver-api-client-4.2.tar.gz
+[2023-05-25 09:34:07] INFO root fetch - processPackages [dissect.executable]: Downloading https://files.pythonhosted.org/packages/e5/7c/bae754ee9303a003a60a2037d1545e8a58cc3ca85d04cf7fb65c75a95556/dissect.executable-1.3.dev2.tar.gz
+[2023-05-25 09:34:07] INFO root fetch - processPackages [dissect.ole]: executing diffoscope
+[2023-05-25 09:34:07] INFO root fetch - processPackages [dissect.ole]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.ole-3.4.dev1.tar.gz tmp/dissect.ole-3.5.dev1.tar.gz --markdown 20230525/d/dissect.ole/3.4.dev1-3.5.dev1/diff.md --exclude *.pyd
+[2023-05-25 09:34:07] INFO root fetch - processPackages [dissect.eventlog]: executing diffoscope
+[2023-05-25 09:34:07] INFO root fetch - processPackages [dissect.eventlog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.eventlog-3.5.dev1.tar.gz tmp/dissect.eventlog-3.5.dev2.tar.gz --markdown 20230525/d/dissect.eventlog/3.5.dev1-3.5.dev2/diff.md --exclude *.pyd
+[2023-05-25 09:34:07] INFO root fetch - processPackages [dissect.evidence]: executing diffoscope
+[2023-05-25 09:34:07] INFO root fetch - processPackages [dissect.fat]: executing diffoscope
+[2023-05-25 09:34:07] INFO root fetch - processPackages [dissect.evidence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.evidence-3.5.dev1.tar.gz tmp/dissect.evidence-3.5.dev2.tar.gz --markdown 20230525/d/dissect.evidence/3.5.dev1-3.5.dev2/diff.md --exclude *.pyd
+[2023-05-25 09:34:07] INFO root fetch - processPackages [dissect.fat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.fat-3.5.dev1.tar.gz tmp/dissect.fat-3.5.dev2.tar.gz --markdown 20230525/d/dissect.fat/3.5.dev1-3.5.dev2/diff.md --exclude *.pyd
+[2023-05-25 09:34:07] INFO root fetch - processPackages [dissect.util]: Downloading https://files.pythonhosted.org/packages/15/f5/c7da557f4f66cfcbb860a0fcaced3e550fc569b521ee87a242a646ee942f/dissect.util-3.8.dev3.tar.gz
+[2023-05-25 09:34:07] INFO root fetch - processPackages [dissect.clfs]: executing diffoscope
+[2023-05-25 09:34:07] INFO root fetch - processPackages [dissect.clfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.clfs-1.5.dev1.tar.gz tmp/dissect.clfs-1.5.dev2.tar.gz --markdown 20230525/d/dissect.clfs/1.5.dev1-1.5.dev2/diff.md --exclude *.pyd
+[2023-05-25 09:34:07] INFO root fetch - processPackages [dissect.cstruct]: executing diffoscope
+[2023-05-25 09:34:07] INFO root fetch - processPackages [dissect.cstruct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.cstruct-3.7.dev1.tar.gz tmp/dissect.cstruct-3.7.dev2.tar.gz --markdown 20230525/d/dissect.cstruct/3.7.dev1-3.7.dev2/diff.md --exclude *.pyd
+[2023-05-25 09:34:07] INFO root fetch - processPackages [dissect.executable]: executing diffoscope
+[2023-05-25 09:34:07] INFO root fetch - processPackages [dissect.executable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.executable-1.3.dev1.tar.gz tmp/dissect.executable-1.3.dev2.tar.gz --markdown 20230525/d/dissect.executable/1.3.dev1-1.3.dev2/diff.md --exclude *.pyd
+[2023-05-25 09:34:07] INFO root fetch - processPackages [dissect.extfs]: executing diffoscope
+[2023-05-25 09:34:07] INFO root fetch - processPackages [dissect.extfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.extfs-3.5.dev3.tar.gz tmp/dissect.extfs-3.5.dev4.tar.gz --markdown 20230525/d/dissect.extfs/3.5.dev3-3.5.dev4/diff.md --exclude *.pyd
+[2023-05-25 09:34:08] INFO root fetch - processPackages [mediaserver-api-client]: executing diffoscope
+[2023-05-25 09:34:08] INFO root fetch - processPackages [mediaserver-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mediaserver-api-client-4.0.tar.gz tmp/mediaserver-api-client-4.2.tar.gz --markdown 20230525/m/mediaserver-api-client/4.0-4.2/diff.md --exclude *.pyd
+[2023-05-25 09:34:08] INFO root fetch - processPackages [dissect.util]: executing diffoscope
+[2023-05-25 09:34:08] INFO root fetch - processPackages [dissect.util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.util-3.8.dev2.tar.gz tmp/dissect.util-3.8.dev3.tar.gz --markdown 20230525/d/dissect.util/3.8.dev2-3.8.dev3/diff.md --exclude *.pyd
+[2023-05-25 09:34:09] INFO root fetch - processPackages [dissect.ole]: Start processing: dissect.ffs
+[2023-05-25 09:34:09] INFO root fetch - main [MainThread]: End processing [dissect.ole]: success
+[2023-05-25 09:34:09] INFO root fetch - processPackages [dissect.ffs]: New version: [3.5.dev3] Old Version: [3.5.dev2]
+[2023-05-25 09:34:09] INFO root fetch - processPackages [dissect.eventlog]: Start processing: dissect.etl
+[2023-05-25 09:34:09] INFO root fetch - main [MainThread]: End processing [dissect.eventlog]: success
+[2023-05-25 09:34:09] INFO root fetch - processPackages [dissect.etl]: New version: [3.5.dev2] Old Version: [3.5.dev1]
+[2023-05-25 09:34:09] INFO root fetch - processPackages [dissect.ffs]: Downloading https://files.pythonhosted.org/packages/8e/ef/f483f3cbe60ed255096c8d260f452800a3f07034ee04bec0c34654f55046/dissect.ffs-3.5.dev2.tar.gz
+[2023-05-25 09:34:09] INFO root fetch - processPackages [dissect.etl]: Downloading https://files.pythonhosted.org/packages/7d/8e/2c654484bc90557b312b645bc006cef55b83a43a889a72a4072c7e12bfc0/dissect.etl-3.5.dev1.tar.gz
+[2023-05-25 09:34:09] INFO root fetch - processPackages [dissect.clfs]: Start processing: dissect.thumbcache
+[2023-05-25 09:34:09] INFO root fetch - main [MainThread]: End processing [dissect.clfs]: success
+[2023-05-25 09:34:10] INFO root fetch - processPackages [dissect.thumbcache]: New version: [1.4.dev2] Old Version: [1.4.dev1]
+[2023-05-25 09:34:10] INFO root fetch - processPackages [dissect.cstruct]: Start processing: dissect.shellitem
+[2023-05-25 09:34:10] INFO root fetch - main [MainThread]: End processing [dissect.cstruct]: success
+[2023-05-25 09:34:10] INFO root fetch - processPackages [dissect.shellitem]: New version: [3.5.dev4] Old Version: [3.5.dev3]
+[2023-05-25 09:34:10] INFO root fetch - processPackages [dissect.ffs]: Downloading https://files.pythonhosted.org/packages/75/83/b3de5741244157724a370c392150e21e7bce315af2586e352bf8dd8c0c5b/dissect.ffs-3.5.dev3.tar.gz
+[2023-05-25 09:34:10] INFO root fetch - processPackages [dissect.util]: Start processing: dissect.regf
+[2023-05-25 09:34:10] INFO root fetch - main [MainThread]: End processing [dissect.util]: success
+[2023-05-25 09:34:10] INFO root fetch - processPackages [dissect.regf]: New version: [3.5.dev2] Old Version: [3.5.dev1]
+[2023-05-25 09:34:10] INFO root fetch - processPackages [dissect.thumbcache]: Downloading https://files.pythonhosted.org/packages/c8/9b/1319f213758a94fe68de5aaf178fac684197c978bbc1571461e0f90cb28b/dissect.thumbcache-1.4.dev1.tar.gz
+[2023-05-25 09:34:10] INFO root fetch - processPackages [dissect.shellitem]: Downloading https://files.pythonhosted.org/packages/a6/64/358ac47026e36f429f8470e7b00d7eff950b793d7bbae53a34e4d68178bf/dissect.shellitem-3.5.dev3.tar.gz
+[2023-05-25 09:34:10] INFO root fetch - processPackages [dissect.ffs]: executing diffoscope
+[2023-05-25 09:34:10] INFO root fetch - processPackages [dissect.ffs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.ffs-3.5.dev2.tar.gz tmp/dissect.ffs-3.5.dev3.tar.gz --markdown 20230525/d/dissect.ffs/3.5.dev2-3.5.dev3/diff.md --exclude *.pyd
+[2023-05-25 09:34:10] INFO root fetch - processPackages [dissect.regf]: Downloading https://files.pythonhosted.org/packages/44/c2/8e9f7a339457d3c5c302a754833740ade3b56c4f6fd380d377144d6eccb2/dissect.regf-3.5.dev1.tar.gz
+[2023-05-25 09:34:10] INFO root fetch - processPackages [mediaserver-api-client]: Start processing: dissect.hypervisor
+[2023-05-25 09:34:10] INFO root fetch - main [MainThread]: End processing [mediaserver-api-client]: success
+[2023-05-25 09:34:10] INFO root fetch - processPackages [dissect.etl]: Downloading https://files.pythonhosted.org/packages/bc/98/b8c8166b09f3d346511cf94989ce3c8aa2374401887c3d9f507c50c0ffc6/dissect.etl-3.5.dev2.tar.gz
+[2023-05-25 09:34:10] INFO root fetch - processPackages [dissect.hypervisor]: New version: [3.7.dev4] Old Version: [3.7.dev3]
+[2023-05-25 09:34:10] INFO root fetch - processPackages [dissect.shellitem]: Downloading https://files.pythonhosted.org/packages/bd/86/330ddc0c305d9f3d138c3bea928771bcd247bbb2b5450a9b415633878186/dissect.shellitem-3.5.dev4.tar.gz
+[2023-05-25 09:34:10] INFO root fetch - processPackages [dissect.hypervisor]: Downloading https://files.pythonhosted.org/packages/ee/d1/93f7cf258057a765986f4a43d87b7ea0e3e612967781ee3b6474fda10ef7/dissect.hypervisor-3.7.dev3.tar.gz
+[2023-05-25 09:34:10] INFO root fetch - processPackages [dissect.shellitem]: executing diffoscope
+[2023-05-25 09:34:10] INFO root fetch - processPackages [dissect.shellitem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.shellitem-3.5.dev3.tar.gz tmp/dissect.shellitem-3.5.dev4.tar.gz --markdown 20230525/d/dissect.shellitem/3.5.dev3-3.5.dev4/diff.md --exclude *.pyd
+[2023-05-25 09:34:10] INFO root fetch - processPackages [dissect.evidence]: Start processing: dissect.sql
+[2023-05-25 09:34:10] INFO root fetch - main [MainThread]: End processing [dissect.evidence]: success
+[2023-05-25 09:34:10] INFO root fetch - processPackages [dissect.sql]: New version: [3.5.dev2] Old Version: [3.5.dev1]
+[2023-05-25 09:34:10] INFO root fetch - processPackages [dissect.executable]: Start processing: dissect.xfs
+[2023-05-25 09:34:10] INFO root fetch - main [MainThread]: End processing [dissect.executable]: success
+[2023-05-25 09:34:10] INFO root fetch - processPackages [dissect.xfs]: New version: [3.5.dev6] Old Version: [3.5.dev5]
+[2023-05-25 09:34:10] INFO root fetch - processPackages [dissect.etl]: executing diffoscope
+[2023-05-25 09:34:10] INFO root fetch - processPackages [dissect.etl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.etl-3.5.dev1.tar.gz tmp/dissect.etl-3.5.dev2.tar.gz --markdown 20230525/d/dissect.etl/3.5.dev1-3.5.dev2/diff.md --exclude *.pyd
+[2023-05-25 09:34:10] INFO root fetch - processPackages [dissect.thumbcache]: Downloading https://files.pythonhosted.org/packages/9e/e1/deb088b788340e3b80b5675bdf9d35bce3cf4b4efe610f6dd72ab0208ee7/dissect.thumbcache-1.4.dev2.tar.gz
+[2023-05-25 09:34:10] INFO root fetch - processPackages [dissect.sql]: Downloading https://files.pythonhosted.org/packages/c0/a2/38489ecd5a05824256ff8aefd7c92c5d7a5f7209666cc2ece49b62bd8d44/dissect.sql-3.5.dev1.tar.gz
+[2023-05-25 09:34:10] INFO root fetch - processPackages [dissect.extfs]: Start processing: dissect.volume
+[2023-05-25 09:34:10] INFO root fetch - main [MainThread]: End processing [dissect.extfs]: success
+[2023-05-25 09:34:10] INFO root fetch - processPackages [dissect.regf]: Downloading https://files.pythonhosted.org/packages/08/2c/c22555661b8364f069e66c8ef4e40c19731973b496d480584f56a2fc4b10/dissect.regf-3.5.dev2.tar.gz
+[2023-05-25 09:34:11] INFO root fetch - processPackages [dissect.volume]: New version: [3.5.dev2] Old Version: [3.5.dev1]
+[2023-05-25 09:34:11] INFO root fetch - processPackages [dissect.hypervisor]: Downloading https://files.pythonhosted.org/packages/44/46/96c164db7454fb706eb3486f5048b43b68cd3c1d3b4da5bff540ec3ac689/dissect.hypervisor-3.7.dev4.tar.gz
+[2023-05-25 09:34:11] INFO root fetch - processPackages [dissect.xfs]: Downloading https://files.pythonhosted.org/packages/90/44/ad25dba43af015a7356d757243d261ec79b83257c037d430efce1517dc99/dissect.xfs-3.5.dev5.tar.gz
+[2023-05-25 09:34:11] INFO root fetch - processPackages [dissect.volume]: Downloading https://files.pythonhosted.org/packages/2b/b2/f78ec7d242f78c8d520f36b629300a021d0d24f8e1bebd6181e2889f341e/dissect.volume-3.5.dev1.tar.gz
+[2023-05-25 09:34:11] INFO root fetch - processPackages [dissect.hypervisor]: executing diffoscope
+[2023-05-25 09:34:11] INFO root fetch - processPackages [dissect.hypervisor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.hypervisor-3.7.dev3.tar.gz tmp/dissect.hypervisor-3.7.dev4.tar.gz --markdown 20230525/d/dissect.hypervisor/3.7.dev3-3.7.dev4/diff.md --exclude *.pyd
+[2023-05-25 09:34:11] INFO root fetch - processPackages [dissect.sql]: Downloading https://files.pythonhosted.org/packages/84/43/714a82899944672d6ce1a3cd8abd9695917e8c76493732436ae983e0df18/dissect.sql-3.5.dev2.tar.gz
+[2023-05-25 09:34:11] INFO root fetch - processPackages [dissect.regf]: executing diffoscope
+[2023-05-25 09:34:11] INFO root fetch - processPackages [dissect.regf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.regf-3.5.dev1.tar.gz tmp/dissect.regf-3.5.dev2.tar.gz --markdown 20230525/d/dissect.regf/3.5.dev1-3.5.dev2/diff.md --exclude *.pyd
+[2023-05-25 09:34:11] INFO root fetch - processPackages [dissect.xfs]: Downloading https://files.pythonhosted.org/packages/8d/1c/d74e2567752d9d6a1be46d4139f5fe66859cc25af63ce7e75d40bc47a4e3/dissect.xfs-3.5.dev6.tar.gz
+[2023-05-25 09:34:11] INFO root fetch - processPackages [dissect.thumbcache]: executing diffoscope
+[2023-05-25 09:34:11] INFO root fetch - processPackages [dissect.thumbcache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.thumbcache-1.4.dev1.tar.gz tmp/dissect.thumbcache-1.4.dev2.tar.gz --markdown 20230525/d/dissect.thumbcache/1.4.dev1-1.4.dev2/diff.md --exclude *.pyd
+[2023-05-25 09:34:11] INFO root fetch - processPackages [dissect.volume]: Downloading https://files.pythonhosted.org/packages/ec/68/8143d4173437843e0c4d9c9919e256d50c23f2be732f44c469bc6ddf8df4/dissect.volume-3.5.dev2.tar.gz
+[2023-05-25 09:34:11] INFO root fetch - processPackages [dissect.xfs]: executing diffoscope
+[2023-05-25 09:34:11] INFO root fetch - processPackages [dissect.xfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.xfs-3.5.dev5.tar.gz tmp/dissect.xfs-3.5.dev6.tar.gz --markdown 20230525/d/dissect.xfs/3.5.dev5-3.5.dev6/diff.md --exclude *.pyd
+[2023-05-25 09:34:11] INFO root fetch - processPackages [dissect.sql]: executing diffoscope
+[2023-05-25 09:34:11] INFO root fetch - processPackages [dissect.sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.sql-3.5.dev1.tar.gz tmp/dissect.sql-3.5.dev2.tar.gz --markdown 20230525/d/dissect.sql/3.5.dev1-3.5.dev2/diff.md --exclude *.pyd
+[2023-05-25 09:34:11] INFO root fetch - processPackages [dissect.volume]: executing diffoscope
+[2023-05-25 09:34:11] INFO root fetch - processPackages [dissect.volume]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.volume-3.5.dev1.tar.gz tmp/dissect.volume-3.5.dev2.tar.gz --markdown 20230525/d/dissect.volume/3.5.dev1-3.5.dev2/diff.md --exclude *.pyd
+[2023-05-25 09:34:11] INFO root fetch - processPackages [dissect.ffs]: Start processing: dissect.vmfs
+[2023-05-25 09:34:11] INFO root fetch - main [MainThread]: End processing [dissect.ffs]: success
+[2023-05-25 09:34:11] INFO root fetch - processPackages [dissect.vmfs]: New version: [3.5.dev2] Old Version: [3.5.dev1]
+[2023-05-25 09:34:12] INFO root fetch - processPackages [dissect.vmfs]: Downloading https://files.pythonhosted.org/packages/78/d9/294f77308f29824ec3c28b8a1e413cc4d1b8e95f4b39b65f22412f44d35d/dissect.vmfs-3.5.dev1.tar.gz
+[2023-05-25 09:34:12] INFO root fetch - processPackages [dissect.shellitem]: Start processing: dissect.ntfs
+[2023-05-25 09:34:12] INFO root fetch - main [MainThread]: End processing [dissect.shellitem]: success
+[2023-05-25 09:34:12] INFO root fetch - processPackages [dissect.ntfs]: New version: [3.5.dev3] Old Version: [3.5.dev2]
+[2023-05-25 09:34:12] INFO root fetch - processPackages [dissect.fat]: Start processing: dissect.squashfs
+[2023-05-25 09:34:12] INFO root fetch - main [MainThread]: End processing [dissect.fat]: success
+[2023-05-25 09:34:12] INFO root fetch - processPackages [dissect.squashfs]: New version: [1.2.dev2] Old Version: [1.2.dev1]
+[2023-05-25 09:34:12] INFO root fetch - processPackages [dissect.ntfs]: Downloading https://files.pythonhosted.org/packages/12/d7/59f3d8a8685dc0d781a67cb62e519ee64f9df8e52318a89288899b56346c/dissect.ntfs-3.5.dev2.tar.gz
+[2023-05-25 09:34:12] INFO root fetch - processPackages [dissect.vmfs]: Downloading https://files.pythonhosted.org/packages/ef/bf/c277ea75c066733eada1d6f808c45fbb0cdf3c0c5d0d5c0a8b3100217f72/dissect.vmfs-3.5.dev2.tar.gz
+[2023-05-25 09:34:12] INFO root fetch - processPackages [dissect.squashfs]: Downloading https://files.pythonhosted.org/packages/4a/85/d19caca5d056e338664420b8219072836ee600078172ce8f3655c2b7124f/dissect.squashfs-1.2.dev1.tar.gz
+[2023-05-25 09:34:12] INFO root fetch - processPackages [dissect.vmfs]: executing diffoscope
+[2023-05-25 09:34:12] INFO root fetch - processPackages [dissect.vmfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.vmfs-3.5.dev1.tar.gz tmp/dissect.vmfs-3.5.dev2.tar.gz --markdown 20230525/d/dissect.vmfs/3.5.dev1-3.5.dev2/diff.md --exclude *.pyd
+[2023-05-25 09:34:12] INFO root fetch - processPackages [dissect.ntfs]: Downloading https://files.pythonhosted.org/packages/c3/a9/11f75d595f255da558acbbf82f131c0c5cf5faf95500e01f2c62449e49f7/dissect.ntfs-3.5.dev3.tar.gz
+[2023-05-25 09:34:12] INFO root fetch - processPackages [dissect.squashfs]: Downloading https://files.pythonhosted.org/packages/0f/9f/352e8ef75f0be84e2d4cd011e20aa46807701938b0585d488c670340e725/dissect.squashfs-1.2.dev2.tar.gz
+[2023-05-25 09:34:12] INFO root fetch - processPackages [dissect.ntfs]: executing diffoscope
+[2023-05-25 09:34:12] INFO root fetch - processPackages [dissect.ntfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.ntfs-3.5.dev2.tar.gz tmp/dissect.ntfs-3.5.dev3.tar.gz --markdown 20230525/d/dissect.ntfs/3.5.dev2-3.5.dev3/diff.md --exclude *.pyd
+[2023-05-25 09:34:13] INFO root fetch - processPackages [dissect.regf]: Start processing: Hapy
+[2023-05-25 09:34:13] INFO root fetch - main [MainThread]: End processing [dissect.regf]: success
+[2023-05-25 09:34:13] INFO root fetch - processPackages [dissect.squashfs]: executing diffoscope
+[2023-05-25 09:34:13] INFO root fetch - processPackages [dissect.squashfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.squashfs-1.2.dev1.tar.gz tmp/dissect.squashfs-1.2.dev2.tar.gz --markdown 20230525/d/dissect.squashfs/1.2.dev1-1.2.dev2/diff.md --exclude *.pyd
+[2023-05-25 09:34:13] INFO root fetch - processPackages [Hapy]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-05-25 09:34:13] INFO root fetch - processPackages [Hapy]: Downloading https://files.pythonhosted.org/packages/ff/13/aeb86b2b7bbd5e0efc0c4407c7d12377c001e4cb9f12c4354a85e4d74e7a/Hapy-0.5.1.tar.gz
+[2023-05-25 09:34:13] INFO root fetch - processPackages [dissect.hypervisor]: Start processing: Hapy
+[2023-05-25 09:34:13] INFO root fetch - main [MainThread]: End processing [dissect.hypervisor]: success
+[2023-05-25 09:34:13] INFO root fetch - processPackages [Hapy]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-05-25 09:34:13] INFO root fetch - processPackages [Hapy]: Downloading https://files.pythonhosted.org/packages/ff/13/aeb86b2b7bbd5e0efc0c4407c7d12377c001e4cb9f12c4354a85e4d74e7a/Hapy-0.5.1.tar.gz
+[2023-05-25 09:34:13] INFO root fetch - processPackages [Hapy]: Downloading https://files.pythonhosted.org/packages/24/b6/503603d859545636c03cc911c51ad2848f44d614f6b64e6f24fda9500ce5/Hapy-0.5.2.tar.gz
+[2023-05-25 09:34:13] INFO root fetch - processPackages [Hapy]: Downloading https://files.pythonhosted.org/packages/24/b6/503603d859545636c03cc911c51ad2848f44d614f6b64e6f24fda9500ce5/Hapy-0.5.2.tar.gz
+[2023-05-25 09:34:13] INFO root fetch - processPackages [Hapy]: executing diffoscope
+[2023-05-25 09:34:13] INFO root fetch - processPackages [Hapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Hapy-0.5.1.tar.gz tmp/Hapy-0.5.2.tar.gz --markdown 20230525/H/Hapy/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-05-25 09:34:13] INFO root fetch - processPackages [Hapy]: executing diffoscope
+[2023-05-25 09:34:13] INFO root fetch - processPackages [Hapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Hapy-0.5.1.tar.gz tmp/Hapy-0.5.2.tar.gz --markdown 20230525/H/Hapy/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-05-25 09:34:14] INFO root fetch - processPackages [dissect.vmfs]: Start processing: Hapy
+[2023-05-25 09:34:14] INFO root fetch - main [MainThread]: End processing [dissect.vmfs]: success
+[2023-05-25 09:34:14] INFO root fetch - processPackages [Hapy]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-05-25 09:34:14] INFO root fetch - processPackages [dissect.sql]: Start processing: eoshep
+[2023-05-25 09:34:14] INFO root fetch - main [MainThread]: End processing [dissect.sql]: success
+[2023-05-25 09:34:14] INFO root fetch - processPackages [Hapy]: executing diffoscope
+[2023-05-25 09:34:14] INFO root fetch - processPackages [Hapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Hapy-0.5.1.tar.gz tmp/Hapy-0.5.2.tar.gz --markdown 20230525/H/Hapy/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-05-25 09:34:14] INFO root fetch - processPackages [eoshep]: New version: [1.0.8.dev1249] Old Version: [1.0.8.dev1245]
+[2023-05-25 09:34:14] INFO root fetch - processPackages [dissect.xfs]: Start processing: gces-trab1
+[2023-05-25 09:34:14] INFO root fetch - main [MainThread]: End processing [dissect.xfs]: success
+[2023-05-25 09:34:14] WARNING root fetch - processPackages [gces-trab1]: Skipping, unable to determine old version
+[2023-05-25 09:34:14] INFO root fetch - processPackages [gces-trab1]: Start processing: crewmate
+[2023-05-25 09:34:14] INFO root fetch - main [MainThread]: End processing [gces-trab1] error
+[2023-05-25 09:34:14] INFO root fetch - processPackages [eoshep]: Downloading https://files.pythonhosted.org/packages/c2/1f/3c642853ae196224d3e67266be2e50398a79d60fcf50b47ddd31d72600de/eoshep-1.0.8.dev1245-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-25 09:34:14] WARNING root fetch - processPackages [crewmate]: Skipping, unable to determine old version
+[2023-05-25 09:34:14] INFO root fetch - processPackages [crewmate]: Start processing: ronnytest
+[2023-05-25 09:34:14] INFO root fetch - main [MainThread]: End processing [crewmate] error
+[2023-05-25 09:34:14] INFO root fetch - processPackages [dissect.volume]: Start processing: liteindex
+[2023-05-25 09:34:14] INFO root fetch - main [MainThread]: End processing [dissect.volume]: success
+[2023-05-25 09:34:14] INFO root fetch - processPackages [ronnytest]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-25 09:34:14] INFO root fetch - processPackages [liteindex]: New version: [0.0.1.dev9] Old Version: [0.0.1.dev8]
+[2023-05-25 09:34:14] INFO root fetch - processPackages [liteindex]: executing diffoscope
+[2023-05-25 09:34:14] INFO root fetch - processPackages [liteindex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liteindex-0.0.1.dev8.tar.gz tmp/liteindex-0.0.1.dev9.tar.gz --markdown 20230525/l/liteindex/0.0.1.dev8-0.0.1.dev9/diff.md --exclude *.pyd
+[2023-05-25 09:34:14] INFO root fetch - processPackages [ronnytest]: Downloading https://files.pythonhosted.org/packages/dc/f7/02754ffca33202211ed8d402dc7faa190957b7509003ebcf063a74fd16a9/ronnytest-0.1.7.tar.gz
+[2023-05-25 09:34:14] INFO root fetch - processPackages [dissect.squashfs]: Start processing: acquire
+[2023-05-25 09:34:14] INFO root fetch - main [MainThread]: End processing [dissect.squashfs]: success
+[2023-05-25 09:34:14] INFO root fetch - processPackages [ronnytest]: executing diffoscope
+[2023-05-25 09:34:14] INFO root fetch - processPackages [ronnytest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ronnytest-0.1.6.tar.gz tmp/ronnytest-0.1.7.tar.gz --markdown 20230525/r/ronnytest/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-25 09:34:14] INFO root fetch - processPackages [dissect.ntfs]: Start processing: Hapy
+[2023-05-25 09:34:14] INFO root fetch - main [MainThread]: End processing [dissect.ntfs]: success
+[2023-05-25 09:34:14] INFO root fetch - processPackages [acquire]: New version: [3.6.dev9] Old Version: [3.6.dev8]
+[2023-05-25 09:34:14] INFO root fetch - processPackages [Hapy]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-05-25 09:34:14] WARNING root fetch - processPackages [eoshep]: Skipping package: exceeds size limit 78746732>=10485760
+[2023-05-25 09:34:14] INFO root fetch - processPackages [eoshep]: Start processing: Hapy
+[2023-05-25 09:34:14] INFO root fetch - main [MainThread]: End processing [eoshep] error
+[2023-05-25 09:34:14] INFO root fetch - processPackages [Hapy]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-05-25 09:34:15] INFO root fetch - processPackages [Hapy]: executing diffoscope
+[2023-05-25 09:34:15] INFO root fetch - processPackages [Hapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Hapy-0.5.1.tar.gz tmp/Hapy-0.5.2.tar.gz --markdown 20230525/H/Hapy/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-05-25 09:34:15] INFO root fetch - processPackages [Hapy]: executing diffoscope
+[2023-05-25 09:34:15] INFO root fetch - processPackages [Hapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Hapy-0.5.1.tar.gz tmp/Hapy-0.5.2.tar.gz --markdown 20230525/H/Hapy/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-05-25 09:34:15] INFO root fetch - processPackages [acquire]: Downloading https://files.pythonhosted.org/packages/28/d5/0a755682040045290e2fe1da624863f282fd3a57aefdd00831910d7945d6/acquire-3.6.dev8.tar.gz
+[2023-05-25 09:34:15] INFO root fetch - processPackages [acquire]: Downloading https://files.pythonhosted.org/packages/e8/89/de17053825e132a84cb2770cc1f587652c5e8f18f2a0a01c2a0a13a63be0/acquire-3.6.dev9.tar.gz
+[2023-05-25 09:34:15] INFO root fetch - processPackages [acquire]: executing diffoscope
+[2023-05-25 09:34:15] INFO root fetch - processPackages [acquire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acquire-3.6.dev8.tar.gz tmp/acquire-3.6.dev9.tar.gz --markdown 20230525/a/acquire/3.6.dev8-3.6.dev9/diff.md --exclude *.pyd
+[2023-05-25 09:34:15] INFO root fetch - processPackages [dissect.thumbcache]: Start processing: hcai-nova-server-nightly
+[2023-05-25 09:34:15] INFO root fetch - main [MainThread]: End processing [dissect.thumbcache]: success
+[2023-05-25 09:34:15] INFO root fetch - processPackages [hcai-nova-server-nightly]: New version: [0.1.6.dev202305241346] Old Version: [0.1.6.dev202305241345]
+[2023-05-25 09:34:15] INFO root fetch - processPackages [hcai-nova-server-nightly]: Downloading https://files.pythonhosted.org/packages/a1/ab/414bdddfa036774ad0c7dc724f3dca0c1fe21e6b63557c0c72438100dbc1/hcai-nova-server-nightly-0.1.6.dev202305241345.tar.gz
+[2023-05-25 09:34:16] INFO root fetch - processPackages [Hapy]: Start processing: Hapy
+[2023-05-25 09:34:16] INFO root fetch - main [MainThread]: End processing [Hapy]: success
+[2023-05-25 09:34:16] INFO root fetch - processPackages [Hapy]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-05-25 09:34:16] INFO root fetch - processPackages [Hapy]: executing diffoscope
+[2023-05-25 09:34:16] INFO root fetch - processPackages [Hapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Hapy-0.5.1.tar.gz tmp/Hapy-0.5.2.tar.gz --markdown 20230525/H/Hapy/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-05-25 09:34:16] INFO root fetch - processPackages [hcai-nova-server-nightly]: Downloading https://files.pythonhosted.org/packages/4c/46/089d83529ee53160f48bbdbaafc262d345410c86a23cca0147459e4d4609/hcai-nova-server-nightly-0.1.6.dev202305241346.tar.gz
+[2023-05-25 09:34:16] INFO root fetch - processPackages [liteindex]: Start processing: safe-eth-py-suraneti
+[2023-05-25 09:34:16] INFO root fetch - main [MainThread]: End processing [liteindex]: success
+[2023-05-25 09:34:16] INFO root fetch - processPackages [hcai-nova-server-nightly]: executing diffoscope
+[2023-05-25 09:34:16] INFO root fetch - processPackages [hcai-nova-server-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-nova-server-nightly-0.1.6.dev202305241345.tar.gz tmp/hcai-nova-server-nightly-0.1.6.dev202305241346.tar.gz --markdown 20230525/h/hcai-nova-server-nightly/0.1.6.dev202305241345-0.1.6.dev202305241346/diff.md --exclude *.pyd
+[2023-05-25 09:34:16] INFO root fetch - processPackages [safe-eth-py-suraneti]: New version: [5.4.3] Old Version: [5.3.8]
+[2023-05-25 09:34:16] INFO root fetch - processPackages [ronnytest]: Start processing: yxtestlib666
+[2023-05-25 09:34:16] INFO root fetch - main [MainThread]: End processing [ronnytest]: success
+[2023-05-25 09:34:16] WARNING root fetch - processPackages [yxtestlib666]: Skipping, unable to determine old version
+[2023-05-25 09:34:16] INFO root fetch - processPackages [yxtestlib666]: Start processing: ANNarchy
+[2023-05-25 09:34:16] INFO root fetch - main [MainThread]: End processing [yxtestlib666] error
+[2023-05-25 09:34:16] INFO root fetch - processPackages [safe-eth-py-suraneti]: Downloading https://files.pythonhosted.org/packages/32/f8/f7d9b614f5b5824edf1751f083a90b79c9ecc153e52ed4c28b2dfc0bbdd1/safe-eth-py-suraneti-5.3.8.tar.gz
+[2023-05-25 09:34:16] INFO root fetch - main [MainThread]: End processing [Hapy]: success
+[2023-05-25 09:34:16] INFO root fetch - processPackages [ANNarchy]: New version: [4.7.2.3] Old Version: [4.7.2.2]
+[2023-05-25 09:34:16] INFO root fetch - processPackages [ANNarchy]: Downloading https://files.pythonhosted.org/packages/d3/69/fb94a69ad6898768e2ade183a65a24baa9e24b589f3aa7dab1accf3cea44/ANNarchy-4.7.2.2.tar.gz
+[2023-05-25 09:34:16] INFO root fetch - main [MainThread]: End processing [Hapy]: success
+[2023-05-25 09:34:17] INFO root fetch - main [MainThread]: End processing [Hapy]: success
+[2023-05-25 09:34:17] INFO root fetch - main [MainThread]: End processing [Hapy]: success
+[2023-05-25 09:34:17] INFO root fetch - processPackages [safe-eth-py-suraneti]: Downloading https://files.pythonhosted.org/packages/4b/71/5b54b90b85b65f36f1b9f7cd137749ee462cadd0bc9cfdabc35b054efa5c/safe-eth-py-suraneti-5.4.3.tar.gz
+[2023-05-25 09:34:17] INFO root fetch - processPackages [safe-eth-py-suraneti]: executing diffoscope
+[2023-05-25 09:34:17] INFO root fetch - processPackages [safe-eth-py-suraneti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safe-eth-py-suraneti-5.3.8.tar.gz tmp/safe-eth-py-suraneti-5.4.3.tar.gz --markdown 20230525/s/safe-eth-py-suraneti/5.3.8-5.4.3/diff.md --exclude *.pyd
+[2023-05-25 09:34:17] INFO root fetch - processPackages [ANNarchy]: Downloading https://files.pythonhosted.org/packages/63/4a/4d6395fc611bbcdb0f5361cc91b711c724e6ca1fae9f2c03ec6647e83a8c/ANNarchy-4.7.2.3.tar.gz
+[2023-05-25 09:34:17] INFO root fetch - processPackages [ANNarchy]: executing diffoscope
+[2023-05-25 09:34:17] INFO root fetch - processPackages [ANNarchy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ANNarchy-4.7.2.2.tar.gz tmp/ANNarchy-4.7.2.3.tar.gz --markdown 20230525/A/ANNarchy/4.7.2.2-4.7.2.3/diff.md --exclude *.pyd
+[2023-05-25 09:34:17] INFO root fetch - main [MainThread]: End processing [hcai-nova-server-nightly]: success
+[2023-05-25 09:34:18] INFO root fetch - main [MainThread]: End processing [Hapy]: success
+[2023-05-25 09:34:18] INFO root fetch - main [MainThread]: End processing [acquire]: success
+[2023-05-25 09:34:20] INFO root fetch - main [MainThread]: End processing [safe-eth-py-suraneti]: success
+[2023-05-25 09:34:20] INFO root fetch - main [MainThread]: End processing [ANNarchy]: success
+[2023-05-25 09:34:36] INFO root fetch - main [MainThread]: End processing [dissect.etl]: success
+[2023-05-25 09:34:36] INFO root fetch - main [MainThread]: Store serial: [18242883]
