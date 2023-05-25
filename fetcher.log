@@ -6356,3 +6356,59 @@
 [2023-05-25 04:32:49] INFO root fetch - main [MainThread]: End processing [seleniumbase]: success
 [2023-05-25 04:32:55] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2023-05-25 04:32:55] INFO root fetch - main [MainThread]: Store serial: [18240099]
+[2023-05-25 04:37:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18240099]
+[2023-05-25 04:38:03] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-25 04:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: authpy
+[2023-05-25 04:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chalkpy
+[2023-05-25 04:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FreeplanIr
+[2023-05-25 04:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sas7bdat-converter
+[2023-05-25 04:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: longalpha-utils
+[2023-05-25 04:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: perseus-restful-api-framework
+[2023-05-25 04:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: meowerbot
+[2023-05-25 04:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: keycloak-django
+[2023-05-25 04:38:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-account-loan
+[2023-05-25 04:38:04] INFO root fetch - processPackages [perseus-restful-api-framework]: New version: [1.26.9] Old Version: [1.26.8]
+[2023-05-25 04:38:04] WARNING root fetch - processPackages [authpy]: Skipping, unable to determine old version
+[2023-05-25 04:38:04] INFO root fetch - processPackages [odoo14-addon-account-loan]: New version: [14.0.1.0.7.dev8] Old Version: [14.0.1.0.7.dev7]
+[2023-05-25 04:38:04] INFO root fetch - main [MainThread]: End processing [authpy] error
+[2023-05-25 04:38:04] INFO root fetch - processPackages [sas7bdat-converter]: New version: [2.0.0] Old Version: [1.3.0]
+[2023-05-25 04:38:04] INFO root fetch - processPackages [longalpha-utils]: New version: [0.54] Old Version: [0.53]
+[2023-05-25 04:38:04] INFO root fetch - processPackages [FreeplanIr]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-25 04:38:04] INFO root fetch - processPackages [chalkpy]: New version: [2.4.0] Old Version: [2.3.9]
+[2023-05-25 04:38:04] INFO root fetch - processPackages [meowerbot]: New version: [2.5.5] Old Version: [2.5.4]
+[2023-05-25 04:38:04] INFO root fetch - processPackages [keycloak-django]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-25 04:38:04] INFO root fetch - processPackages [FreeplanIr]: Downloading https://files.pythonhosted.org/packages/b0/29/155ec5b23bf9c64d72895f2c5c4c702b2215ddeab163df357fad7a2ab391/FreeplanIr-1.0.1.tar.gz
+[2023-05-25 04:38:04] INFO root fetch - processPackages [sas7bdat-converter]: Downloading https://files.pythonhosted.org/packages/f4/79/67e13d4458bbd43abb14a1fa7d7d1427a0227294c35a4da37b0d584f006a/sas7bdat_converter-1.3.0.tar.gz
+[2023-05-25 04:38:04] INFO root fetch - processPackages [longalpha-utils]: Downloading https://files.pythonhosted.org/packages/7a/ed/c001364a068230865d65d87ebca0dc3c749a4df9acb24db4e33c677152b8/longalpha_utils-0.54.tar.gz
+[2023-05-25 04:38:04] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/8c/b9/a7e19dc200ce44cb20195b372c40d3dfdb3d0013b4e819eb5c4ee62c2d81/chalkpy-2.4.0.tar.gz
+[2023-05-25 04:38:04] INFO root fetch - processPackages [odoo14-addon-account-loan]: Downloading https://files.pythonhosted.org/packages/bd/88/2b89af85c857c849ea91585350803e195934ad96a227b874f4ae2ec6e2dc/odoo14_addon_account_loan-14.0.1.0.7.dev7-py3-none-any.whl
+[2023-05-25 04:38:04] INFO root fetch - processPackages [meowerbot]: Downloading https://files.pythonhosted.org/packages/3b/21/07d7e5af7c43c5923076ce5406db5d6fd5ae47d43b575bb9a197c2967231/meowerbot-2.5.5.tar.gz
+[2023-05-25 04:38:04] INFO root fetch - processPackages [keycloak-django]: Downloading https://files.pythonhosted.org/packages/39/f0/178b09797bf746cd89dd044d9739416e536008f1505d71ea1e053e482dbe/keycloak_django-1.0.9.tar.gz
+[2023-05-25 04:38:04] INFO root fetch - processPackages [perseus-restful-api-framework]: executing diffoscope
+[2023-05-25 04:38:04] INFO root fetch - processPackages [perseus-restful-api-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perseus_restful_api_framework-1.26.8.tar.gz tmp/perseus_restful_api_framework-1.26.9.tar.gz --markdown 20230525/p/perseus-restful-api-framework/1.26.8-1.26.9/diff.md --exclude *.pyd
+[2023-05-25 04:38:04] INFO root fetch - processPackages [longalpha-utils]: executing diffoscope
+[2023-05-25 04:38:04] INFO root fetch - processPackages [longalpha-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/longalpha_utils-0.53.tar.gz tmp/longalpha_utils-0.54.tar.gz --markdown 20230525/l/longalpha-utils/0.53-0.54/diff.md --exclude *.pyd
+[2023-05-25 04:38:04] INFO root fetch - processPackages [FreeplanIr]: Downloading https://files.pythonhosted.org/packages/3c/95/4de96de5ebb6df86f2aea8f71561c2e53c4f9510f162e8433afb2aae6b53/FreeplanIr-1.0.2.tar.gz
+[2023-05-25 04:38:04] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-05-25 04:38:04] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.3.9.tar.gz tmp/chalkpy-2.4.0.tar.gz --markdown 20230525/c/chalkpy/2.3.9-2.4.0/diff.md --exclude *.pyd
+[2023-05-25 04:38:04] INFO root fetch - processPackages [sas7bdat-converter]: Downloading https://files.pythonhosted.org/packages/58/af/24c421e7de7ac6526c6bc5100788a0a0296aa9b98418f5c300578b95b993/sas7bdat_converter-2.0.0.tar.gz
+[2023-05-25 04:38:04] INFO root fetch - processPackages [meowerbot]: executing diffoscope
+[2023-05-25 04:38:04] INFO root fetch - processPackages [meowerbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meowerbot-2.5.4.tar.gz tmp/meowerbot-2.5.5.tar.gz --markdown 20230525/m/meowerbot/2.5.4-2.5.5/diff.md --exclude *.pyd
+[2023-05-25 04:38:04] INFO root fetch - processPackages [keycloak-django]: executing diffoscope
+[2023-05-25 04:38:04] INFO root fetch - processPackages [keycloak-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keycloak_django-1.0.8.tar.gz tmp/keycloak_django-1.0.9.tar.gz --markdown 20230525/k/keycloak-django/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-25 04:38:04] INFO root fetch - processPackages [FreeplanIr]: executing diffoscope
+[2023-05-25 04:38:04] INFO root fetch - processPackages [FreeplanIr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FreeplanIr-1.0.1.tar.gz tmp/FreeplanIr-1.0.2.tar.gz --markdown 20230525/F/FreeplanIr/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-25 04:38:04] INFO root fetch - processPackages [sas7bdat-converter]: executing diffoscope
+[2023-05-25 04:38:04] INFO root fetch - processPackages [sas7bdat-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sas7bdat_converter-1.3.0.tar.gz tmp/sas7bdat_converter-2.0.0.tar.gz --markdown 20230525/s/sas7bdat-converter/1.3.0-2.0.0/diff.md --exclude *.pyd
+[2023-05-25 04:38:04] INFO root fetch - processPackages [odoo14-addon-account-loan]: Downloading https://files.pythonhosted.org/packages/ae/c7/7b23b5f30240ec5187b88c14b8627551452ddc3b776bbd92adfdcadd4771/odoo14_addon_account_loan-14.0.1.0.7.dev8-py3-none-any.whl
+[2023-05-25 04:38:04] INFO root fetch - processPackages [odoo14-addon-account-loan]: executing diffoscope
+[2023-05-25 04:38:04] INFO root fetch - processPackages [odoo14-addon-account-loan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_loan-14.0.1.0.7.dev7-py3-none-any.whl.zip tmp/odoo14_addon_account_loan-14.0.1.0.7.dev8-py3-none-any.whl.zip --markdown 20230525/o/odoo14-addon-account-loan/14.0.1.0.7.dev7-14.0.1.0.7.dev8/diff.md --exclude *.pyd
+[2023-05-25 04:38:06] INFO root fetch - main [MainThread]: End processing [longalpha-utils]: success
+[2023-05-25 04:38:06] INFO root fetch - main [MainThread]: End processing [FreeplanIr]: success
+[2023-05-25 04:38:06] INFO root fetch - main [MainThread]: End processing [meowerbot]: success
+[2023-05-25 04:38:06] INFO root fetch - main [MainThread]: End processing [sas7bdat-converter]: success
+[2023-05-25 04:38:06] INFO root fetch - main [MainThread]: End processing [keycloak-django]: success
+[2023-05-25 04:38:06] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-loan]: success
+[2023-05-25 04:38:06] INFO root fetch - main [MainThread]: End processing [perseus-restful-api-framework]: success
+[2023-05-25 04:38:10] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-05-25 04:38:10] INFO root fetch - main [MainThread]: Store serial: [18240133]
