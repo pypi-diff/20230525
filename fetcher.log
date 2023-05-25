@@ -11036,3 +11036,61 @@
 [2023-05-25 08:49:13] INFO root fetch - main [MainThread]: End processing [arkindex-base-worker]: success
 [2023-05-25 08:49:14] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2023-05-25 08:49:14] INFO root fetch - main [MainThread]: Store serial: [18242384]
+[2023-05-25 08:54:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18242384]
+[2023-05-25 08:54:23] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-25 08:54:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: napari-boxmanager
+[2023-05-25 08:54:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GoogleBard
+[2023-05-25 08:54:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: acryl-datahub
+[2023-05-25 08:54:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: acryl-datahub-airflow-plugin
+[2023-05-25 08:54:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hyperparameter
+[2023-05-25 08:54:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tmqc
+[2023-05-25 08:54:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ttsmms
+[2023-05-25 08:54:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Jlab
+[2023-05-25 08:54:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spic
+[2023-05-25 08:54:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rpi-reactive-gpio
+[2023-05-25 08:54:23] INFO root fetch - processPackages [ttsmms]: New version: [0.4] Old Version: [0.3]
+[2023-05-25 08:54:23] INFO root fetch - processPackages [hyperparameter]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-05-25 08:54:23] INFO root fetch - processPackages [spic]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-25 08:54:23] INFO root fetch - processPackages [ttsmms]: executing diffoscope
+[2023-05-25 08:54:23] INFO root fetch - processPackages [ttsmms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ttsmms-0.3.tar.gz tmp/ttsmms-0.4.tar.gz --markdown 20230525/t/ttsmms/0.3-0.4/diff.md --exclude *.pyd
+[2023-05-25 08:54:24] INFO root fetch - processPackages [Jlab]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-25 08:54:24] INFO root fetch - processPackages [hyperparameter]: executing diffoscope
+[2023-05-25 08:54:24] INFO root fetch - processPackages [hyperparameter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperparameter-0.5.2.tar.gz tmp/hyperparameter-0.5.3.tar.gz --markdown 20230525/h/hyperparameter/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-05-25 08:54:24] INFO root fetch - processPackages [tmqc]: New version: [0.2.4] Old Version: [0.2.2]
+[2023-05-25 08:54:24] INFO root fetch - processPackages [GoogleBard]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-05-25 08:54:24] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-05-25 08:54:24] INFO root fetch - processPackages [acryl-datahub]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-05-25 08:54:24] INFO root fetch - processPackages [napari-boxmanager]: New version: [0.4.0b1] Old Version: [0.3.9]
+[2023-05-25 08:54:24] INFO root fetch - processPackages [GoogleBard]: Downloading https://files.pythonhosted.org/packages/a9/91/240b5830244e1254318298015311f0c375c258ffe9596e3032b9f2ff45e6/GoogleBard-1.0.3.tar.gz
+[2023-05-25 08:54:24] INFO root fetch - processPackages [spic]: Downloading https://files.pythonhosted.org/packages/ee/01/f46a4acb5da6e68679e3820bae7020d0caf84a39b4d2727b489a041ea574/spic-0.0.6.tar.gz
+[2023-05-25 08:54:24] WARNING root fetch - processPackages [rpi-reactive-gpio]: Skipping, unable to determine old version
+[2023-05-25 08:54:24] INFO root fetch - main [MainThread]: End processing [rpi-reactive-gpio] error
+[2023-05-25 08:54:24] INFO root fetch - processPackages [Jlab]: Downloading https://files.pythonhosted.org/packages/fa/3e/32d71787edae05b219b476dd39839ffb17efb97aaeb221f98cbcba3cce0f/Jlab-1.1.8.tar.gz
+[2023-05-25 08:54:24] INFO root fetch - processPackages [spic]: executing diffoscope
+[2023-05-25 08:54:24] INFO root fetch - processPackages [spic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spic-0.0.5.tar.gz tmp/spic-0.0.6.tar.gz --markdown 20230525/s/spic/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-25 08:54:24] INFO root fetch - processPackages [napari-boxmanager]: Downloading https://files.pythonhosted.org/packages/1a/62/59ef1fa186588d17c3d5a6f40281cbf2f1ed973c3d11f4e0607637957b55/napari_boxmanager-0.3.9.tar.gz
+[2023-05-25 08:54:24] INFO root fetch - processPackages [tmqc]: Downloading https://files.pythonhosted.org/packages/df/65/ec1751e2049411dab8a198746448a7c7b73e4cf4339ea7eed3c9fad6457b/tmqc-0.2.2.tar.gz
+[2023-05-25 08:54:24] WARNING root fetch - processPackages [tmqc]: Skipping package: exceeds size limit 13410466>=10485760
+[2023-05-25 08:54:24] INFO root fetch - main [MainThread]: End processing [tmqc] error
+[2023-05-25 08:54:24] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: executing diffoscope
+[2023-05-25 08:54:24] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz --markdown 20230525/a/acryl-datahub-airflow-plugin/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-05-25 08:54:24] INFO root fetch - processPackages [GoogleBard]: Downloading https://files.pythonhosted.org/packages/bd/d1/ab9ab863882923e2fd47d78250607e17b520f914a5e070a28bbba73bc82f/GoogleBard-1.1.0.tar.gz
+[2023-05-25 08:54:24] INFO root fetch - processPackages [GoogleBard]: executing diffoscope
+[2023-05-25 08:54:24] INFO root fetch - processPackages [GoogleBard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GoogleBard-1.0.3.tar.gz tmp/GoogleBard-1.1.0.tar.gz --markdown 20230525/G/GoogleBard/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-05-25 08:54:24] INFO root fetch - processPackages [Jlab]: Downloading https://files.pythonhosted.org/packages/ac/66/0597393cb75d6bf1c5b7558e5044e2658b628fee443c2e839df2ac8944b4/Jlab-1.1.9.tar.gz
+[2023-05-25 08:54:25] INFO root fetch - main [MainThread]: End processing [ttsmms]: success
+[2023-05-25 08:54:25] INFO root fetch - processPackages [napari-boxmanager]: Downloading https://files.pythonhosted.org/packages/ba/eb/4a9d215d9c9dba923b8d05a6dce1005652bacb73999f23d1b4b0558d0ab6/napari_boxmanager-0.4.0b1.tar.gz
+[2023-05-25 08:54:25] INFO root fetch - main [MainThread]: End processing [hyperparameter]: success
+[2023-05-25 08:54:25] INFO root fetch - processPackages [Jlab]: executing diffoscope
+[2023-05-25 08:54:25] INFO root fetch - processPackages [Jlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Jlab-1.1.8.tar.gz tmp/Jlab-1.1.9.tar.gz --markdown 20230525/J/Jlab/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-25 08:54:25] INFO root fetch - main [MainThread]: End processing [spic]: success
+[2023-05-25 08:54:25] INFO root fetch - processPackages [acryl-datahub]: executing diffoscope
+[2023-05-25 08:54:25] INFO root fetch - processPackages [acryl-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-0.9.6rc0.tar.gz tmp/acryl-datahub-0.9.6rc1.tar.gz --markdown 20230525/a/acryl-datahub/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-05-25 08:54:25] INFO root fetch - main [MainThread]: End processing [acryl-datahub-airflow-plugin]: success
+[2023-05-25 08:54:25] INFO root fetch - main [MainThread]: End processing [GoogleBard]: success
+[2023-05-25 08:54:25] INFO root fetch - processPackages [napari-boxmanager]: executing diffoscope
+[2023-05-25 08:54:25] INFO root fetch - processPackages [napari-boxmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari_boxmanager-0.3.9.tar.gz tmp/napari_boxmanager-0.4.0b1.tar.gz --markdown 20230525/n/napari-boxmanager/0.3.9-0.4.0b1/diff.md --exclude *.pyd
+[2023-05-25 08:54:26] INFO root fetch - main [MainThread]: End processing [Jlab]: success
+[2023-05-25 08:54:28] INFO root fetch - main [MainThread]: End processing [napari-boxmanager]: success
+[2023-05-25 08:54:32] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
+[2023-05-25 08:54:32] INFO root fetch - main [MainThread]: Store serial: [18242417]
