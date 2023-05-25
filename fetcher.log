@@ -10462,3 +10462,17 @@
 [2023-05-25 07:55:49] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
 [2023-05-25 07:55:59] INFO root fetch - main [MainThread]: End processing [slurmrestapi]: success
 [2023-05-25 07:55:59] INFO root fetch - main [MainThread]: Store serial: [18242051]
+[2023-05-25 08:01:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18242051]
+[2023-05-25 08:01:08] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-05-25 08:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vector-vault
+[2023-05-25 08:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamlit-reveal-slides
+[2023-05-25 08:01:08] INFO root fetch - processPackages [vector-vault]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-25 08:01:08] INFO root fetch - processPackages [streamlit-reveal-slides]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-25 08:01:08] INFO root fetch - processPackages [vector-vault]: executing diffoscope
+[2023-05-25 08:01:08] INFO root fetch - processPackages [vector-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_vault-1.1.0.tar.gz tmp/vector_vault-1.1.1.tar.gz --markdown 20230525/v/vector-vault/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-25 08:01:08] INFO root fetch - processPackages [streamlit-reveal-slides]: Downloading https://files.pythonhosted.org/packages/1e/4c/13241dc2e20993645107c1adbaef76cafefee3ab8db21842749ddf02e5b3/streamlit-reveal-slides-0.1.3.tar.gz
+[2023-05-25 08:01:09] INFO root fetch - processPackages [streamlit-reveal-slides]: executing diffoscope
+[2023-05-25 08:01:09] INFO root fetch - processPackages [streamlit-reveal-slides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-reveal-slides-0.1.2.tar.gz tmp/streamlit-reveal-slides-0.1.3.tar.gz --markdown 20230525/s/streamlit-reveal-slides/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-25 08:01:09] INFO root fetch - main [MainThread]: End processing [vector-vault]: success
+[2023-05-25 08:01:11] INFO root fetch - main [MainThread]: End processing [streamlit-reveal-slides]: success
+[2023-05-25 08:01:11] INFO root fetch - main [MainThread]: Store serial: [18242060]
