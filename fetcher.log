@@ -18593,3 +18593,97 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-25 14:47:13] INFO root fetch - main [MainThread]: End processing [py-partiql-parser]: success
 [2023-05-25 14:47:13] INFO root fetch - main [MainThread]: End processing [cltl.combot]: success
 [2023-05-25 14:47:13] INFO root fetch - main [MainThread]: Store serial: [18246720]
+[2023-05-25 14:52:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18246720]
+[2023-05-25 14:52:23] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-25 14:52:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-orca-spark2
+[2023-05-25 14:52:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nexgraphx
+[2023-05-25 14:52:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-friesian-spark2
+[2023-05-25 14:52:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: thztools
+[2023-05-25 14:52:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigdl-chronos-spark2
+[2023-05-25 14:52:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: svix-ksuid
+[2023-05-25 14:52:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigdl-spark2
+[2023-05-25 14:52:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dfmodule
+[2023-05-25 14:52:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: manticore
+[2023-05-25 14:52:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: FunID
+[2023-05-25 14:52:23] INFO root fetch - processPackages [bigdl-chronos-spark2]: New version: [2.4.0b20230524] Old Version: [2.4.0b20230523]
+[2023-05-25 14:52:23] INFO root fetch - processPackages [dfmodule]: New version: [0.0.2.1] Old Version: [0.0.1]
+[2023-05-25 14:52:23] WARNING root fetch - processPackages [thztools]: Skipping, unable to determine old version
+[2023-05-25 14:52:23] INFO root fetch - processPackages [thztools]: Start processing: ellipsis
+[2023-05-25 14:52:23] INFO root fetch - main [MainThread]: End processing [thztools] error
+[2023-05-25 14:52:23] INFO root fetch - processPackages [bigdl-orca-spark2]: New version: [2.4.0b20230524] Old Version: [2.4.0b20230523]
+[2023-05-25 14:52:23] INFO root fetch - processPackages [bigdl-spark2]: New version: [2.4.0b20230524] Old Version: [2.4.0b20230523]
+[2023-05-25 14:52:23] INFO root fetch - processPackages [bigdl-friesian-spark2]: New version: [2.4.0b20230524] Old Version: [2.4.0b20230523]
+[2023-05-25 14:52:23] INFO root fetch - processPackages [manticore]: New version: [0.3.8.dev230524] Old Version: [0.3.8.dev230523]
+[2023-05-25 14:52:23] INFO root fetch - processPackages [svix-ksuid]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-05-25 14:52:23] WARNING root fetch - processPackages [nexgraphx]: Skipping, unable to determine old version
+[2023-05-25 14:52:23] INFO root fetch - processPackages [nexgraphx]: Start processing: sapx
+[2023-05-25 14:52:23] INFO root fetch - processPackages [FunID]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-05-25 14:52:23] INFO root fetch - main [MainThread]: End processing [nexgraphx] error
+[2023-05-25 14:52:23] INFO root fetch - processPackages [ellipsis]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 14:52:23] INFO root fetch - processPackages [sapx]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-25 14:52:23] INFO root fetch - processPackages [dfmodule]: executing diffoscope
+[2023-05-25 14:52:23] INFO root fetch - processPackages [dfmodule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfmodule-0.0.1.tar.gz tmp/dfmodule-0.0.2.1.tar.gz --markdown 20230525/d/dfmodule/0.0.1-0.0.2.1/diff.md --exclude *.pyd
+[2023-05-25 14:52:23] INFO root fetch - processPackages [bigdl-orca-spark2]: Downloading https://files.pythonhosted.org/packages/21/cb/223e51ecf4e804de7c33638f6ba5ea732c7297374db0362a17269f5fa3d2/bigdl_orca_spark2-2.4.0b20230523-py3-none-manylinux1_x86_64.whl
+[2023-05-25 14:52:23] INFO root fetch - processPackages [sapx]: executing diffoscope
+[2023-05-25 14:52:23] INFO root fetch - processPackages [sapx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sapx-0.1.8.tar.gz tmp/sapx-0.1.9.tar.gz --markdown 20230525/s/sapx/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-25 14:52:23] INFO root fetch - processPackages [svix-ksuid]: Downloading https://files.pythonhosted.org/packages/4d/a5/ca81bb9e8420a08036e4cbe71cad2c4328b18db5284a8c52559b8619f61d/svix-ksuid-0.6.0.tar.gz
+[2023-05-25 14:52:23] INFO root fetch - processPackages [FunID]: Downloading https://files.pythonhosted.org/packages/a2/14/7ae571dd6e4b918e2a85ca1625481c5764c15f2f4ecebb64e738e4863c57/FunID-0.3.7.tar.gz
+[2023-05-25 14:52:23] WARNING root fetch - processPackages [FunID]: Skipping package: exceeds size limit 51448775>=10485760
+[2023-05-25 14:52:23] INFO root fetch - processPackages [FunID]: Start processing: BigKindsParser
+[2023-05-25 14:52:23] INFO root fetch - main [MainThread]: End processing [FunID] error
+[2023-05-25 14:52:23] WARNING root fetch - processPackages [bigdl-orca-spark2]: Skipping package: exceeds size limit 20369515>=10485760
+[2023-05-25 14:52:23] INFO root fetch - processPackages [bigdl-orca-spark2]: Start processing: pyscada-meterbus
+[2023-05-25 14:52:23] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark2] error
+[2023-05-25 14:52:23] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/8e/75/ddd3b8c63797de81da284261751a3e978b640acd0e8ad24b0f3dbff1c2b9/bigdl_chronos_spark2-2.4.0b20230524-py3-none-manylinux1_x86_64.whl
+[2023-05-25 14:52:23] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/8e/91/f0af7e1ccd32a316fcb87f77c8b9f8ecb03e3236cb28659a5d53231988c6/manticore-0.3.8.dev230524.tar.gz
+[2023-05-25 14:52:23] INFO root fetch - processPackages [BigKindsParser]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-25 14:52:23] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/58/51/7641fed3b8db1062fb6a8d1bec7fce7a439fe1cc896a66475e5873d780b9/bigdl_spark2-2.4.0b20230524-py3-none-manylinux1_x86_64.whl
+[2023-05-25 14:52:23] INFO root fetch - processPackages [bigdl-friesian-spark2]: Downloading https://files.pythonhosted.org/packages/61/d9/5302f470f4090192b78e0928c829970c3178d90a1b5976c9d6dd9dbf5665/bigdl_friesian_spark2-2.4.0b20230524-py3-none-manylinux1_x86_64.whl
+[2023-05-25 14:52:23] WARNING root fetch - processPackages [pyscada-meterbus]: Skipping, unable to determine old version
+[2023-05-25 14:52:23] INFO root fetch - processPackages [pyscada-meterbus]: Start processing: edu-segmentation
+[2023-05-25 14:52:23] INFO root fetch - main [MainThread]: End processing [pyscada-meterbus] error
+[2023-05-25 14:52:23] INFO root fetch - processPackages [BigKindsParser]: executing diffoscope
+[2023-05-25 14:52:23] INFO root fetch - processPackages [BigKindsParser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BigKindsParser-0.1.3-py3-none-any.whl.zip tmp/BigKindsParser-0.1.4-py3-none-any.whl.zip --markdown 20230525/B/BigKindsParser/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-25 14:52:23] INFO root fetch - processPackages [bigdl-chronos-spark2]: executing diffoscope
+[2023-05-25 14:52:23] INFO root fetch - processPackages [bigdl-chronos-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark2-2.4.0b20230523-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark2-2.4.0b20230524-py3-none-manylinux1_x86_64.whl.zip --markdown 20230525/b/bigdl-chronos-spark2/2.4.0b20230523-2.4.0b20230524/diff.md --exclude *.pyd
+[2023-05-25 14:52:23] INFO root fetch - processPackages [manticore]: executing diffoscope
+[2023-05-25 14:52:23] INFO root fetch - processPackages [manticore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manticore-0.3.8.dev230523.tar.gz tmp/manticore-0.3.8.dev230524.tar.gz --markdown 20230525/m/manticore/0.3.8.dev230523-0.3.8.dev230524/diff.md --exclude *.pyd
+[2023-05-25 14:52:23] INFO root fetch - processPackages [edu-segmentation]: New version: [0.0.64] Old Version: [0.0.63]
+[2023-05-25 14:52:23] INFO root fetch - processPackages [bigdl-spark2]: executing diffoscope
+[2023-05-25 14:52:23] INFO root fetch - processPackages [bigdl-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark2-2.4.0b20230523-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark2-2.4.0b20230524-py3-none-manylinux1_x86_64.whl.zip --markdown 20230525/b/bigdl-spark2/2.4.0b20230523-2.4.0b20230524/diff.md --exclude *.pyd
+[2023-05-25 14:52:23] INFO root fetch - processPackages [svix-ksuid]: Downloading https://files.pythonhosted.org/packages/e7/7b/9f3db39a461ed0444df568d5aa4d45751d578f59eb5f2ea33d84809da53d/svix-ksuid-0.6.1.tar.gz
+[2023-05-25 14:52:23] INFO root fetch - processPackages [bigdl-friesian-spark2]: executing diffoscope
+[2023-05-25 14:52:23] INFO root fetch - processPackages [bigdl-friesian-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark2-2.4.0b20230523-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark2-2.4.0b20230524-py3-none-manylinux1_x86_64.whl.zip --markdown 20230525/b/bigdl-friesian-spark2/2.4.0b20230523-2.4.0b20230524/diff.md --exclude *.pyd
+[2023-05-25 14:52:23] INFO root fetch - processPackages [ellipsis]: executing diffoscope
+[2023-05-25 14:52:23] INFO root fetch - processPackages [ellipsis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ellipsis-3.1.8.tar.gz tmp/ellipsis-3.1.9.tar.gz --markdown 20230525/e/ellipsis/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 14:52:23] INFO root fetch - processPackages [svix-ksuid]: executing diffoscope
+[2023-05-25 14:52:23] INFO root fetch - processPackages [svix-ksuid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svix-ksuid-0.6.0.tar.gz tmp/svix-ksuid-0.6.1.tar.gz --markdown 20230525/s/svix-ksuid/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-05-25 14:52:23] INFO root fetch - processPackages [edu-segmentation]: Downloading https://files.pythonhosted.org/packages/93/60/349f2a5997f51e660ea94ff559e4373299a7c75c1498665894dd1fd6273b/edu_segmentation-0.0.64.tar.gz
+[2023-05-25 14:52:24] INFO root fetch - processPackages [edu-segmentation]: executing diffoscope
+[2023-05-25 14:52:24] INFO root fetch - processPackages [edu-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edu_segmentation-0.0.63.tar.gz tmp/edu_segmentation-0.0.64.tar.gz --markdown 20230525/e/edu-segmentation/0.0.63-0.0.64/diff.md --exclude *.pyd
+[2023-05-25 14:52:24] INFO root fetch - processPackages [dfmodule]: Start processing: pixeldb
+[2023-05-25 14:52:24] INFO root fetch - main [MainThread]: End processing [dfmodule]: success
+[2023-05-25 14:52:24] WARNING root fetch - processPackages [pixeldb]: Skipping, unable to determine old version
+[2023-05-25 14:52:24] INFO root fetch - processPackages [pixeldb]: Start processing: pygbif
+[2023-05-25 14:52:24] INFO root fetch - main [MainThread]: End processing [pixeldb] error
+[2023-05-25 14:52:24] INFO root fetch - processPackages [pygbif]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-05-25 14:52:24] INFO root fetch - processPackages [pygbif]: Downloading https://files.pythonhosted.org/packages/45/33/539e229abd692820636472cdd864b20717d37aebbca8d3f068cf36faf455/pygbif-0.6.2.tar.gz
+[2023-05-25 14:52:25] INFO root fetch - processPackages [pygbif]: Downloading https://files.pythonhosted.org/packages/f1/31/ae619e91e5c735bda4e7c7f9b33aac9622a03ff000cfaddc359440ef93be/pygbif-0.6.3.tar.gz
+[2023-05-25 14:52:25] INFO root fetch - processPackages [pygbif]: executing diffoscope
+[2023-05-25 14:52:25] INFO root fetch - processPackages [pygbif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygbif-0.6.2.tar.gz tmp/pygbif-0.6.3.tar.gz --markdown 20230525/p/pygbif/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-05-25 14:52:25] INFO root fetch - processPackages [BigKindsParser]: Start processing: bowtie-json-schema
+[2023-05-25 14:52:25] INFO root fetch - main [MainThread]: End processing [BigKindsParser]: success
+[2023-05-25 14:52:25] INFO root fetch - processPackages [bowtie-json-schema]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-25 14:52:25] INFO root fetch - main [MainThread]: End processing [sapx]: success
+[2023-05-25 14:52:25] INFO root fetch - main [MainThread]: End processing [bigdl-spark2]: success
+[2023-05-25 14:52:25] INFO root fetch - processPackages [bowtie-json-schema]: executing diffoscope
+[2023-05-25 14:52:25] INFO root fetch - processPackages [bowtie-json-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bowtie_json_schema-2023.5.8.tar.gz tmp/bowtie_json_schema-2023.5.9.tar.gz --markdown 20230525/b/bowtie-json-schema/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-25 14:52:25] INFO root fetch - main [MainThread]: End processing [svix-ksuid]: success
+[2023-05-25 14:52:26] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark2]: success
+[2023-05-25 14:52:26] INFO root fetch - main [MainThread]: End processing [ellipsis]: success
+[2023-05-25 14:52:26] INFO root fetch - main [MainThread]: End processing [manticore]: success
+[2023-05-25 14:52:26] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark2]: success
+[2023-05-25 14:52:26] INFO root fetch - main [MainThread]: End processing [pygbif]: success
+[2023-05-25 14:52:27] INFO root fetch - main [MainThread]: End processing [bowtie-json-schema]: success
+[2023-05-25 14:52:27] INFO root fetch - main [MainThread]: End processing [edu-segmentation]: success
+[2023-05-25 14:52:27] INFO root fetch - main [MainThread]: Store serial: [18246780]
