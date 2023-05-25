@@ -17026,3 +17026,111 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-25 13:35:32] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder]: success
 [2023-05-25 13:35:36] INFO root fetch - main [MainThread]: End processing [pylyzer]: success
 [2023-05-25 13:35:36] INFO root fetch - main [MainThread]: Store serial: [18245820]
+[2023-05-25 13:40:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18245820]
+[2023-05-25 13:40:56] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-25 13:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: finbourne-access-sdk
+[2023-05-25 13:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: botoolkit
+[2023-05-25 13:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-nano
+[2023-05-25 13:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ttrace
+[2023-05-25 13:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pybabylonjs
+[2023-05-25 13:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-chronos
+[2023-05-25 13:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: valmi-connector-lib
+[2023-05-25 13:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-telemetry
+[2023-05-25 13:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: geodistance
+[2023-05-25 13:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bigdl-serving
+[2023-05-25 13:40:56] INFO root fetch - processPackages [ttrace]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-25 13:40:56] INFO root fetch - processPackages [geodistance]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-25 13:40:56] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-25 13:40:56] INFO root fetch - processPackages [pybabylonjs]: New version: [1.3.1b0] Old Version: [1.3.0]
+[2023-05-25 13:40:56] INFO root fetch - processPackages [bigdl-serving]: New version: [2.4.0b20230524] Old Version: [2.4.0b20230523]
+[2023-05-25 13:40:56] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.4.0b20230524] Old Version: [2.4.0b20230523]
+[2023-05-25 13:40:56] INFO root fetch - processPackages [bigdl-nano]: New version: [2.4.0b20230524] Old Version: [2.4.0b20230523]
+[2023-05-25 13:40:56] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2023-05-25 13:40:56] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.8.tar.gz tmp/valmi_connector_lib-0.1.9.tar.gz --markdown 20230525/v/valmi-connector-lib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-25 13:40:56] INFO root fetch - processPackages [ttrace]: executing diffoscope
+[2023-05-25 13:40:56] INFO root fetch - processPackages [ttrace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ttrace-0.1.8.tar.gz tmp/ttrace-0.1.9.tar.gz --markdown 20230525/t/ttrace/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-25 13:40:56] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-05-25 13:40:56] INFO root fetch - processPackages [nucliadb-telemetry]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-05-25 13:40:56] INFO root fetch - processPackages [botoolkit]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-25 13:40:56] INFO root fetch - processPackages [geodistance]: executing diffoscope
+[2023-05-25 13:40:56] INFO root fetch - processPackages [geodistance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geodistance-0.1.4.tar.gz tmp/geodistance-0.1.5.tar.gz --markdown 20230525/g/geodistance/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-25 13:40:56] INFO root fetch - processPackages [pybabylonjs]: executing diffoscope
+[2023-05-25 13:40:56] INFO root fetch - processPackages [pybabylonjs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybabylonjs-1.3.0-py2.py3-none-any.whl.zip tmp/pybabylonjs-1.3.1b0-py2.py3-none-any.whl.zip --markdown 20230525/p/pybabylonjs/1.3.0-1.3.1b0/diff.md --exclude *.pyd
+[2023-05-25 13:40:56] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/e2/8a/f747fbc47ef2c8ba649e17807273223eaab6f06b9d84a01f8e7e5f5aee8e/bigdl_serving-2.4.0b20230524-py2.py3-none-any.whl
+[2023-05-25 13:40:56] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/bb/a2/c343a30437826e4c8301bf6953d00d3ca950668dee29f623e2002c0c7421/nucliadb_telemetry-1.9.1-py3-none-any.whl
+[2023-05-25 13:40:56] INFO root fetch - processPackages [botoolkit]: Downloading https://files.pythonhosted.org/packages/19/ff/d8289351388ee37892ed395bb7b5d9e7608a48f8c49bb3c4fd400f3788cf/botoolkit-1.1.8.tar.gz
+[2023-05-25 13:40:56] INFO root fetch - processPackages [bigdl-serving]: executing diffoscope
+[2023-05-25 13:40:56] INFO root fetch - processPackages [bigdl-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_serving-2.4.0b20230523-py2.py3-none-any.whl.zip tmp/bigdl_serving-2.4.0b20230524-py2.py3-none-any.whl.zip --markdown 20230525/b/bigdl-serving/2.4.0b20230523-2.4.0b20230524/diff.md --exclude *.pyd
+[2023-05-25 13:40:56] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/d2/ef/e451b5fd779282dff45e4458b29206f2118b97188240ea0e1a354fe3ee81/bigdl_chronos-2.4.0b20230524-py3-none-win_amd64.whl
+[2023-05-25 13:40:56] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-05-25 13:40:56] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.4.0b20230523-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.4.0b20230524-py3-none-win_amd64.whl.zip --markdown 20230525/b/bigdl-nano/2.4.0b20230523-2.4.0b20230524/diff.md --exclude *.pyd
+[2023-05-25 13:40:56] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-05-25 13:40:56] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230525/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-05-25 13:40:56] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-05-25 13:40:56] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.4.0b20230523-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.4.0b20230524-py3-none-win_amd64.whl.zip --markdown 20230525/b/bigdl-chronos/2.4.0b20230523-2.4.0b20230524/diff.md --exclude *.pyd
+[2023-05-25 13:40:56] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/3a/54/9200f09d9a6b81276206b432708a96f265f7df33ce31f30ab0b20cf14f9c/nucliadb_telemetry-1.9.2-py3-none-any.whl
+[2023-05-25 13:40:56] INFO root fetch - processPackages [botoolkit]: Downloading https://files.pythonhosted.org/packages/1f/9a/a069946b17b7b0c9aacf88a9600b172f5b4c8a29c391f3e4bbe3cb93eec2/botoolkit-1.1.9.tar.gz
+[2023-05-25 13:40:56] INFO root fetch - processPackages [nucliadb-telemetry]: executing diffoscope
+[2023-05-25 13:40:56] INFO root fetch - processPackages [nucliadb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_telemetry-1.9.1-py3-none-any.whl.zip tmp/nucliadb_telemetry-1.9.2-py3-none-any.whl.zip --markdown 20230525/n/nucliadb-telemetry/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-05-25 13:40:57] INFO root fetch - processPackages [botoolkit]: executing diffoscope
+[2023-05-25 13:40:57] INFO root fetch - processPackages [botoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botoolkit-1.1.8.tar.gz tmp/botoolkit-1.1.9.tar.gz --markdown 20230525/b/botoolkit/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-25 13:40:57] INFO root fetch - processPackages [valmi-connector-lib]: Start processing: bosch-alarm-mode2
+[2023-05-25 13:40:57] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2023-05-25 13:40:57] INFO root fetch - processPackages [bosch-alarm-mode2]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-25 13:40:58] INFO root fetch - processPackages [geodistance]: Start processing: autosrt
+[2023-05-25 13:40:58] INFO root fetch - main [MainThread]: End processing [geodistance]: success
+[2023-05-25 13:40:58] INFO root fetch - processPackages [autosrt]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-25 13:40:58] INFO root fetch - processPackages [ttrace]: Start processing: nwebclient
+[2023-05-25 13:40:58] INFO root fetch - main [MainThread]: End processing [ttrace]: success
+[2023-05-25 13:40:58] INFO root fetch - processPackages [autosrt]: executing diffoscope
+[2023-05-25 13:40:58] INFO root fetch - processPackages [autosrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autosrt-1.2.8.tar.gz tmp/autosrt-1.2.9.tar.gz --markdown 20230525/a/autosrt/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-25 13:40:58] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-05-25 13:40:58] INFO root fetch - processPackages [bosch-alarm-mode2]: executing diffoscope
+[2023-05-25 13:40:58] INFO root fetch - processPackages [bosch-alarm-mode2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bosch_alarm_mode2-0.3.8.tar.gz tmp/bosch_alarm_mode2-0.3.9.tar.gz --markdown 20230525/b/bosch-alarm-mode2/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-25 13:40:58] INFO root fetch - processPackages [bigdl-serving]: Start processing: netbox-cisco-maintenance
+[2023-05-25 13:40:58] INFO root fetch - main [MainThread]: End processing [bigdl-serving]: success
+[2023-05-25 13:40:58] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 13:40:58] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-05-25 13:40:58] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.8.tar.gz tmp/netbox-cisco-maintenance-0.0.9.tar.gz --markdown 20230525/n/netbox-cisco-maintenance/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 13:40:58] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-05-25 13:40:58] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230525/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-05-25 13:40:58] INFO root fetch - processPackages [nucliadb-telemetry]: Start processing: simple-wait
+[2023-05-25 13:40:58] INFO root fetch - main [MainThread]: End processing [nucliadb-telemetry]: success
+[2023-05-25 13:40:59] INFO root fetch - processPackages [simple-wait]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-25 13:40:59] INFO root fetch - processPackages [simple-wait]: Downloading https://files.pythonhosted.org/packages/d3/55/f0365c184030482eaa38e034449e305ffb1be794fa2817b7323386692487/simple-wait-1.0.8.tar.gz
+[2023-05-25 13:40:59] INFO root fetch - processPackages [simple-wait]: executing diffoscope
+[2023-05-25 13:40:59] INFO root fetch - processPackages [simple-wait]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple-wait-1.0.7.tar.gz tmp/simple-wait-1.0.8.tar.gz --markdown 20230525/s/simple-wait/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-25 13:41:00] INFO root fetch - processPackages [bosch-alarm-mode2]: Start processing: UComp
+[2023-05-25 13:41:00] INFO root fetch - main [MainThread]: End processing [bosch-alarm-mode2]: success
+[2023-05-25 13:41:00] INFO root fetch - processPackages [botoolkit]: Start processing: mesh-sandbox
+[2023-05-25 13:41:00] INFO root fetch - main [MainThread]: End processing [botoolkit]: success
+[2023-05-25 13:41:00] INFO root fetch - processPackages [mesh-sandbox]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-25 13:41:00] INFO root fetch - processPackages [bigdl-chronos]: Start processing: inmanta-dev-dependencies
+[2023-05-25 13:41:00] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-05-25 13:41:00] WARNING root fetch - processPackages [UComp]: Skipping, unable to determine old version
+[2023-05-25 13:41:00] INFO root fetch - processPackages [UComp]: Start processing: valmi-connector-lib
+[2023-05-25 13:41:00] INFO root fetch - main [MainThread]: End processing [UComp] error
+[2023-05-25 13:41:00] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-25 13:41:00] INFO root fetch - processPackages [mesh-sandbox]: executing diffoscope
+[2023-05-25 13:41:00] INFO root fetch - processPackages [mesh-sandbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mesh_sandbox-0.1.8-py3-none-any.whl.zip tmp/mesh_sandbox-0.1.9-py3-none-any.whl.zip --markdown 20230525/m/mesh-sandbox/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-25 13:41:00] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2023-05-25 13:41:00] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.8.tar.gz tmp/valmi_connector_lib-0.1.9.tar.gz --markdown 20230525/v/valmi-connector-lib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-25 13:41:00] INFO root fetch - processPackages [inmanta-dev-dependencies]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-05-25 13:41:00] INFO root fetch - processPackages [autosrt]: Start processing: camminapy
+[2023-05-25 13:41:00] INFO root fetch - main [MainThread]: End processing [autosrt]: success
+[2023-05-25 13:41:00] INFO root fetch - processPackages [camminapy]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-05-25 13:41:00] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-05-25 13:41:00] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-05-25 13:41:00] INFO root fetch - processPackages [camminapy]: executing diffoscope
+[2023-05-25 13:41:00] INFO root fetch - processPackages [camminapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camminapy-0.8.8.tar.gz tmp/camminapy-0.8.9.tar.gz --markdown 20230525/c/camminapy/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-05-25 13:41:00] INFO root fetch - processPackages [inmanta-dev-dependencies]: executing diffoscope
+[2023-05-25 13:41:00] INFO root fetch - processPackages [inmanta-dev-dependencies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inmanta-dev-dependencies-2.8.0.tar.gz tmp/inmanta-dev-dependencies-2.9.0.tar.gz --markdown 20230525/i/inmanta-dev-dependencies/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-05-25 13:41:00] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-05-25 13:41:01] INFO root fetch - main [MainThread]: End processing [simple-wait]: success
+[2023-05-25 13:41:01] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-05-25 13:41:01] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2023-05-25 13:41:02] INFO root fetch - main [MainThread]: End processing [camminapy]: success
+[2023-05-25 13:41:02] INFO root fetch - main [MainThread]: End processing [inmanta-dev-dependencies]: success
+[2023-05-25 13:41:02] INFO root fetch - main [MainThread]: End processing [mesh-sandbox]: success
+[2023-05-25 13:42:29] INFO root fetch - main [MainThread]: End processing [pybabylonjs]: success
+[2023-05-25 13:42:29] INFO root fetch - main [MainThread]: Store serial: [18245882]
