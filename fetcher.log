@@ -5891,3 +5891,54 @@
 [2023-05-25 03:40:22] INFO root fetch - main [MainThread]: End processing [py-Ayiin]: success
 [2023-05-25 03:40:23] INFO root fetch - main [MainThread]: End processing [zipstream-ng]: success
 [2023-05-25 03:40:23] INFO root fetch - main [MainThread]: Store serial: [18239813]
+[2023-05-25 03:45:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18239813]
+[2023-05-25 03:45:32] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-25 03:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-sphinx
+[2023-05-25 03:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-lambda-layer-wget
+[2023-05-25 03:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-django
+[2023-05-25 03:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: proactive
+[2023-05-25 03:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-apl
+[2023-05-25 03:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bub
+[2023-05-25 03:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: proactive-jupyter-kernel
+[2023-05-25 03:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pybash
+[2023-05-25 03:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: quick-pypi
+[2023-05-25 03:45:32] INFO root fetch - processPackages [pybash]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-25 03:45:32] WARNING root fetch - processPackages [bub]: Skipping, unable to determine old version
+[2023-05-25 03:45:32] INFO root fetch - main [MainThread]: End processing [bub] error
+[2023-05-25 03:45:32] INFO root fetch - processPackages [quick-pypi]: New version: [0.0.3a3] Old Version: [0.0.3a1]
+[2023-05-25 03:45:32] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-05-25 03:45:32] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-25 03:45:32] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-05-25 03:45:32] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.793] Old Version: [0.0.792]
+[2023-05-25 03:45:32] INFO root fetch - processPackages [cdk-lambda-layer-wget]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-25 03:45:32] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-05-25 03:45:32] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-25 03:45:32] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-05-25 03:45:32] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230525/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-05-25 03:45:32] INFO root fetch - processPackages [quick-pypi]: Downloading https://files.pythonhosted.org/packages/46/99/ce73a1ef1729bdabd5f5b343608ac5c669b37d2a78d59453f04f805d5f12/quick-pypi-0.0.3a1.tar.gz
+[2023-05-25 03:45:32] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-05-25 03:45:32] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230525/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-25 03:45:32] INFO root fetch - processPackages [cdk-lambda-layer-wget]: executing diffoscope
+[2023-05-25 03:45:32] INFO root fetch - processPackages [cdk-lambda-layer-wget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-wget-2.0.98.tar.gz tmp/cdk-lambda-layer-wget-2.0.99.tar.gz --markdown 20230525/c/cdk-lambda-layer-wget/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-25 03:45:32] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/56/00/d2fb18ee9a29ef375aefdd143b224d664b610c543679dcdc9ef4816032a9/nbdev-apl-0.0.792.tar.gz
+[2023-05-25 03:45:32] INFO root fetch - processPackages [pybash]: Downloading https://files.pythonhosted.org/packages/00/a7/910157ff5b46a646450ce1f043e194a71db2b210e67b8c3b4566c9b7c278/pybash-0.3.2.tar.gz
+[2023-05-25 03:45:32] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-05-25 03:45:32] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230525/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-25 03:45:32] INFO root fetch - processPackages [quick-pypi]: Downloading https://files.pythonhosted.org/packages/1e/5c/ef723f5c7de135548dfd5ec36d8f981a3021edb027920e70bfe19330c3c0/quick-pypi-0.0.3a3.tar.gz
+[2023-05-25 03:45:32] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-05-25 03:45:32] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-05-25 03:45:32] INFO root fetch - processPackages [pybash]: executing diffoscope
+[2023-05-25 03:45:32] INFO root fetch - processPackages [pybash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybash-0.3.1.tar.gz tmp/pybash-0.3.2.tar.gz --markdown 20230525/p/pybash/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-25 03:45:32] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/7d/2f/aa8682a7bd905887a33931da7eddf474aac281046ca627c8607d5eb793f3/nbdev-apl-0.0.793.tar.gz
+[2023-05-25 03:45:32] INFO root fetch - processPackages [quick-pypi]: executing diffoscope
+[2023-05-25 03:45:32] INFO root fetch - processPackages [quick-pypi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quick-pypi-0.0.3a1.tar.gz tmp/quick-pypi-0.0.3a3.tar.gz --markdown 20230525/q/quick-pypi/0.0.3a1-0.0.3a3/diff.md --exclude *.pyd
+[2023-05-25 03:45:32] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-05-25 03:45:32] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.792.tar.gz tmp/nbdev-apl-0.0.793.tar.gz --markdown 20230525/n/nbdev-apl/0.0.792-0.0.793/diff.md --exclude *.pyd
+[2023-05-25 03:45:33] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-05-25 03:45:33] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-05-25 03:45:33] INFO root fetch - main [MainThread]: End processing [pybash]: success
+[2023-05-25 03:45:34] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-05-25 03:45:34] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
+[2023-05-25 03:45:34] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-05-25 03:45:34] INFO root fetch - main [MainThread]: End processing [quick-pypi]: success
+[2023-05-25 03:45:34] INFO root fetch - main [MainThread]: Store serial: [18239842]
