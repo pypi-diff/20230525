@@ -10662,3 +10662,71 @@
 [2023-05-25 08:17:11] INFO root fetch - main [MainThread]: End processing [tekore]: success
 [2023-05-25 08:17:15] INFO root fetch - main [MainThread]: End processing [seeFretboard]: success
 [2023-05-25 08:17:15] INFO root fetch - main [MainThread]: Store serial: [18242167]
+[2023-05-25 08:22:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18242167]
+[2023-05-25 08:22:24] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-25 08:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: labelbox
+[2023-05-25 08:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coconut-develop
+[2023-05-25 08:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: optuna-integration
+[2023-05-25 08:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: feffery-leaflet-components
+[2023-05-25 08:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pybind11-stubgen
+[2023-05-25 08:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pretext
+[2023-05-25 08:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pycelium
+[2023-05-25 08:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: seeFretboard
+[2023-05-25 08:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pasta-eln
+[2023-05-25 08:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: indecro
+[2023-05-25 08:22:24] INFO root fetch - processPackages [seeFretboard]: New version: [0.0.9.9] Old Version: [0.0.9.8]
+[2023-05-25 08:22:24] INFO root fetch - processPackages [feffery-leaflet-components]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2023-05-25 08:22:24] WARNING root fetch - processPackages [indecro]: Skipping, unable to determine old version
+[2023-05-25 08:22:24] INFO root fetch - processPackages [indecro]: Start processing: p-template-crawler
+[2023-05-25 08:22:24] INFO root fetch - main [MainThread]: End processing [indecro] error
+[2023-05-25 08:22:24] INFO root fetch - processPackages [pasta-eln]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-25 08:22:24] INFO root fetch - processPackages [coconut-develop]: New version: [3.0.1.post0.dev1] Old Version: [3.0.0a0.dev9]
+[2023-05-25 08:22:24] INFO root fetch - processPackages [pretext]: New version: [1.5.4.dev20230524] Old Version: [1.5.4.dev20230523]
+[2023-05-25 08:22:24] INFO root fetch - processPackages [pybind11-stubgen]: New version: [0.9.1] Old Version: [0.9]
+[2023-05-25 08:22:24] INFO root fetch - processPackages [pycelium]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-25 08:22:24] WARNING root fetch - processPackages [optuna-integration]: Skipping, unable to determine old version
+[2023-05-25 08:22:24] INFO root fetch - processPackages [optuna-integration]: Start processing: exergenics-etl
+[2023-05-25 08:22:24] INFO root fetch - main [MainThread]: End processing [optuna-integration] error
+[2023-05-25 08:22:24] INFO root fetch - processPackages [labelbox]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-05-25 08:22:24] INFO root fetch - processPackages [exergenics-etl]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-25 08:22:24] INFO root fetch - processPackages [seeFretboard]: executing diffoscope
+[2023-05-25 08:22:24] INFO root fetch - processPackages [seeFretboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seeFretboard-0.0.9.8.tar.gz tmp/seeFretboard-0.0.9.9.tar.gz --markdown 20230525/s/seeFretboard/0.0.9.8-0.0.9.9/diff.md --exclude *.pyd
+[2023-05-25 08:22:24] INFO root fetch - processPackages [pasta-eln]: executing diffoscope
+[2023-05-25 08:22:24] INFO root fetch - processPackages [pasta-eln]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pasta_eln-2.3.8-py3-none-any.whl.zip tmp/pasta_eln-2.3.9-py3-none-any.whl.zip --markdown 20230525/p/pasta-eln/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-25 08:22:24] INFO root fetch - processPackages [p-template-crawler]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 08:22:24] INFO root fetch - processPackages [feffery-leaflet-components]: Downloading https://files.pythonhosted.org/packages/85/8d/beb569c772cec6651749b9372835d2fe49268ac3f8665b5546ae920a0ddf/feffery_leaflet_components-0.0.1a8.tar.gz
+[2023-05-25 08:22:24] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/13/d8/cccbd35ac71c46e95167bce09634f6cf986d1d544ef98853fe340a4418ec/coconut-develop-3.0.1.post0.dev1.tar.gz
+[2023-05-25 08:22:24] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/2d/d0/1fd57abe4a291182bff8ca0b66f0d9711ccd990ac1872dc8adbe11b97245/pretext-1.5.4.dev20230524.tar.gz
+[2023-05-25 08:22:24] INFO root fetch - processPackages [pybind11-stubgen]: Downloading https://files.pythonhosted.org/packages/e2/bc/2cc2cac0872743f263ea6bf0c8bda1ea1cbfb5bc21466bc053004302cdae/pybind11-stubgen-0.9.tar.gz
+[2023-05-25 08:22:24] INFO root fetch - processPackages [p-template-crawler]: Downloading https://files.pythonhosted.org/packages/45/9c/aea529d7eca35d1c8acc75e8290e8b4e633d98de9de4220e913e82fa1bf0/p-template-crawler-0.0.8.tar.gz
+[2023-05-25 08:22:24] INFO root fetch - processPackages [coconut-develop]: executing diffoscope
+[2023-05-25 08:22:24] INFO root fetch - processPackages [coconut-develop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coconut-develop-3.0.0a0.dev9.tar.gz tmp/coconut-develop-3.0.1.post0.dev1.tar.gz --markdown 20230525/c/coconut-develop/3.0.0a0.dev9-3.0.1.post0.dev1/diff.md --exclude *.pyd
+[2023-05-25 08:22:24] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-05-25 08:22:24] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.5.4.dev20230523.tar.gz tmp/pretext-1.5.4.dev20230524.tar.gz --markdown 20230525/p/pretext/1.5.4.dev20230523-1.5.4.dev20230524/diff.md --exclude *.pyd
+[2023-05-25 08:22:24] INFO root fetch - processPackages [pycelium]: executing diffoscope
+[2023-05-25 08:22:24] INFO root fetch - processPackages [pycelium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycelium-0.1.8.tar.gz tmp/pycelium-0.1.9.tar.gz --markdown 20230525/p/pycelium/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-25 08:22:24] INFO root fetch - processPackages [exergenics-etl]: Downloading https://files.pythonhosted.org/packages/8d/bc/ddcfa7513d8c6ebc095ea64b45dc8d70398e41935824c8f3775c92819ac6/exergenics-etl-1.0.1.tar.gz
+[2023-05-25 08:22:24] INFO root fetch - processPackages [feffery-leaflet-components]: Downloading https://files.pythonhosted.org/packages/54/b8/274531017bcea1a6859a25bcffb71d845ea619498d608b404aca175514a4/feffery_leaflet_components-0.0.1a9.tar.gz
+[2023-05-25 08:22:24] INFO root fetch - processPackages [labelbox]: executing diffoscope
+[2023-05-25 08:22:24] INFO root fetch - processPackages [labelbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labelbox-3.8.0.tar.gz tmp/labelbox-3.9.0.tar.gz --markdown 20230525/l/labelbox/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-05-25 08:22:24] INFO root fetch - processPackages [exergenics-etl]: executing diffoscope
+[2023-05-25 08:22:24] INFO root fetch - processPackages [exergenics-etl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exergenics-etl-1.0.0.tar.gz tmp/exergenics-etl-1.0.1.tar.gz --markdown 20230525/e/exergenics-etl/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-25 08:22:24] INFO root fetch - processPackages [pybind11-stubgen]: Downloading https://files.pythonhosted.org/packages/f4/9b/d0f675d4def448b35c0758489f9b956d04b1e249ba508b69af697a36326f/pybind11-stubgen-0.9.1.tar.gz
+[2023-05-25 08:22:24] INFO root fetch - processPackages [pybind11-stubgen]: executing diffoscope
+[2023-05-25 08:22:24] INFO root fetch - processPackages [pybind11-stubgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybind11-stubgen-0.9.tar.gz tmp/pybind11-stubgen-0.9.1.tar.gz --markdown 20230525/p/pybind11-stubgen/0.9-0.9.1/diff.md --exclude *.pyd
+[2023-05-25 08:22:25] INFO root fetch - processPackages [p-template-crawler]: Downloading https://files.pythonhosted.org/packages/2e/93/1eb2e14124aacd5278934cdff24ad9d4860e50f82e5881d3d69c66eb4bee/p-template-crawler-0.0.9.tar.gz
+[2023-05-25 08:22:25] INFO root fetch - processPackages [p-template-crawler]: executing diffoscope
+[2023-05-25 08:22:25] INFO root fetch - processPackages [p-template-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-template-crawler-0.0.8.tar.gz tmp/p-template-crawler-0.0.9.tar.gz --markdown 20230525/p/p-template-crawler/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 08:22:25] INFO root fetch - processPackages [feffery-leaflet-components]: executing diffoscope
+[2023-05-25 08:22:25] INFO root fetch - processPackages [feffery-leaflet-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feffery_leaflet_components-0.0.1a8.tar.gz tmp/feffery_leaflet_components-0.0.1a9.tar.gz --markdown 20230525/f/feffery-leaflet-components/0.0.1a8-0.0.1a9/diff.md --exclude *.pyd
+[2023-05-25 08:22:25] INFO root fetch - main [MainThread]: End processing [pasta-eln]: success
+[2023-05-25 08:22:26] INFO root fetch - main [MainThread]: End processing [exergenics-etl]: success
+[2023-05-25 08:22:26] INFO root fetch - main [MainThread]: End processing [pycelium]: success
+[2023-05-25 08:22:26] INFO root fetch - main [MainThread]: End processing [pybind11-stubgen]: success
+[2023-05-25 08:22:26] INFO root fetch - main [MainThread]: End processing [p-template-crawler]: success
+[2023-05-25 08:22:27] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
+[2023-05-25 08:22:28] INFO root fetch - main [MainThread]: End processing [labelbox]: success
+[2023-05-25 08:22:29] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-05-25 08:22:32] INFO root fetch - main [MainThread]: End processing [seeFretboard]: success
+[2023-05-25 08:22:35] INFO root fetch - main [MainThread]: End processing [feffery-leaflet-components]: success
+[2023-05-25 08:22:35] INFO root fetch - main [MainThread]: Store serial: [18242207]
