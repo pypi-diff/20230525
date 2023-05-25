@@ -6144,3 +6144,42 @@
 [2023-05-25 04:11:37] INFO root fetch - main [MainThread]: End processing [bandplot]: success
 [2023-05-25 04:11:37] INFO root fetch - main [MainThread]: End processing [phenocam-snow]: success
 [2023-05-25 04:11:37] INFO root fetch - main [MainThread]: Store serial: [18239960]
+[2023-05-25 04:16:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18239960]
+[2023-05-25 04:16:46] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-25 04:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lowvision
+[2023-05-25 04:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: json-expand-o-matic
+[2023-05-25 04:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: makeDirs
+[2023-05-25 04:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: satori-playbook-validator
+[2023-05-25 04:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PythonTwitchBotFramework
+[2023-05-25 04:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: seeFretboard
+[2023-05-25 04:16:46] INFO root fetch - processPackages [seeFretboard]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 04:16:46] INFO root fetch - processPackages [satori-playbook-validator]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-25 04:16:46] INFO root fetch - processPackages [makeDirs]: New version: [2.3.0] Old Version: [1.3.0]
+[2023-05-25 04:16:46] INFO root fetch - processPackages [PythonTwitchBotFramework]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-05-25 04:16:46] INFO root fetch - processPackages [json-expand-o-matic]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-25 04:16:46] INFO root fetch - processPackages [lowvision]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-25 04:16:46] INFO root fetch - processPackages [makeDirs]: executing diffoscope
+[2023-05-25 04:16:46] INFO root fetch - processPackages [makeDirs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/makedirs-1.3.0.tar.gz tmp/makedirs-2.3.0.tar.gz --markdown 20230525/m/makeDirs/1.3.0-2.3.0/diff.md --exclude *.pyd
+[2023-05-25 04:16:46] INFO root fetch - processPackages [lowvision]: Downloading https://files.pythonhosted.org/packages/23/9b/73e36d3bd805567a053327562176df0d5d495cff985cb48fa9ae9687fcbe/lowvision-0.2.4.tar.gz
+[2023-05-25 04:16:46] INFO root fetch - processPackages [json-expand-o-matic]: Downloading https://files.pythonhosted.org/packages/98/86/d4f3e2e9dacfbdd14da62a4d2b54e6fdbe5feb616cde0d68a38ba9d61cd4/json_expand_o_matic-0.2.0.tar.gz
+[2023-05-25 04:16:46] INFO root fetch - processPackages [seeFretboard]: Downloading https://files.pythonhosted.org/packages/dc/48/bc02d4549b08c1b953dd428d765670908b290659b3d182d5816da1fa1043/seeFretboard-0.0.9.tar.gz
+[2023-05-25 04:16:46] INFO root fetch - processPackages [satori-playbook-validator]: Downloading https://files.pythonhosted.org/packages/ae/b9/0d9222cd77dfa6c22ce2a94b4bede28bd69ee78ec8e0abadb375748e9dbc/satori_playbook_validator-1.0.6.tar.gz
+[2023-05-25 04:16:46] INFO root fetch - processPackages [PythonTwitchBotFramework]: executing diffoscope
+[2023-05-25 04:16:46] INFO root fetch - processPackages [PythonTwitchBotFramework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PythonTwitchBotFramework-2.8.1.tar.gz tmp/PythonTwitchBotFramework-2.9.0.tar.gz --markdown 20230525/P/PythonTwitchBotFramework/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-05-25 04:16:46] INFO root fetch - processPackages [lowvision]: Downloading https://files.pythonhosted.org/packages/9a/a2/517dfce066504b7103b6722b1dea85be11a31a6618a76d7e7a53f018319f/lowvision-0.2.5.tar.gz
+[2023-05-25 04:16:46] INFO root fetch - processPackages [satori-playbook-validator]: executing diffoscope
+[2023-05-25 04:16:46] INFO root fetch - processPackages [satori-playbook-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satori_playbook_validator-1.0.5.tar.gz tmp/satori_playbook_validator-1.0.6.tar.gz --markdown 20230525/s/satori-playbook-validator/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-25 04:16:46] INFO root fetch - processPackages [json-expand-o-matic]: Downloading https://files.pythonhosted.org/packages/3e/08/ae86d4e0dfad7063d917c7db1d2db9752ce5d99de639f73689cafe337525/json_expand_o_matic-0.2.1.tar.gz
+[2023-05-25 04:16:47] INFO root fetch - processPackages [lowvision]: executing diffoscope
+[2023-05-25 04:16:47] INFO root fetch - processPackages [lowvision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lowvision-0.2.4.tar.gz tmp/lowvision-0.2.5.tar.gz --markdown 20230525/l/lowvision/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-25 04:16:47] INFO root fetch - processPackages [json-expand-o-matic]: executing diffoscope
+[2023-05-25 04:16:47] INFO root fetch - processPackages [json-expand-o-matic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_expand_o_matic-0.2.0.tar.gz tmp/json_expand_o_matic-0.2.1.tar.gz --markdown 20230525/j/json-expand-o-matic/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-25 04:16:47] INFO root fetch - processPackages [seeFretboard]: executing diffoscope
+[2023-05-25 04:16:47] INFO root fetch - processPackages [seeFretboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seeFretboard-0.0.8.tar.gz tmp/seeFretboard-0.0.9.tar.gz --markdown 20230525/s/seeFretboard/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 04:16:47] INFO root fetch - main [MainThread]: End processing [makeDirs]: success
+[2023-05-25 04:16:48] INFO root fetch - main [MainThread]: End processing [satori-playbook-validator]: success
+[2023-05-25 04:16:48] INFO root fetch - main [MainThread]: End processing [json-expand-o-matic]: success
+[2023-05-25 04:16:48] INFO root fetch - main [MainThread]: End processing [lowvision]: success
+[2023-05-25 04:16:48] INFO root fetch - main [MainThread]: End processing [PythonTwitchBotFramework]: success
+[2023-05-25 04:16:59] INFO root fetch - main [MainThread]: End processing [seeFretboard]: success
+[2023-05-25 04:16:59] INFO root fetch - main [MainThread]: Store serial: [18239977]
