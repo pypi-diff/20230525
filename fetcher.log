@@ -5975,3 +5975,48 @@
 [2023-05-25 03:50:46] INFO root fetch - main [MainThread]: End processing [ols-py]: success
 [2023-05-25 03:50:46] INFO root fetch - main [MainThread]: End processing [audiolm-pytorch]: success
 [2023-05-25 03:50:46] INFO root fetch - main [MainThread]: Store serial: [18239869]
+[2023-05-25 03:55:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18239869]
+[2023-05-25 03:55:54] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-25 03:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bambi
+[2023-05-25 03:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mixture-of-attention
+[2023-05-25 03:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: foundationdb
+[2023-05-25 03:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: freeplot
+[2023-05-25 03:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quick-pypi
+[2023-05-25 03:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: libsbmlnetworkeditor
+[2023-05-25 03:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: freerec
+[2023-05-25 03:55:54] INFO root fetch - processPackages [foundationdb]: New version: [7.3.1] Old Version: [7.3.0]
+[2023-05-25 03:55:54] INFO root fetch - processPackages [freeplot]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-25 03:55:54] INFO root fetch - processPackages [quick-pypi]: New version: [0.0.4] Old Version: [0.0.3a3]
+[2023-05-25 03:55:54] INFO root fetch - processPackages [bambi]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-25 03:55:54] WARNING root fetch - processPackages [libsbmlnetworkeditor]: Skipping, unable to determine old version
+[2023-05-25 03:55:54] INFO root fetch - processPackages [freerec]: New version: [0.3.5] Old Version: [0.3.1]
+[2023-05-25 03:55:54] INFO root fetch - main [MainThread]: End processing [libsbmlnetworkeditor] error
+[2023-05-25 03:55:54] INFO root fetch - processPackages [mixture-of-attention]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 03:55:55] INFO root fetch - processPackages [mixture-of-attention]: executing diffoscope
+[2023-05-25 03:55:55] INFO root fetch - processPackages [mixture-of-attention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mixture-of-attention-0.0.8.tar.gz tmp/mixture-of-attention-0.0.9.tar.gz --markdown 20230525/m/mixture-of-attention/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 03:55:55] INFO root fetch - processPackages [freeplot]: Downloading https://files.pythonhosted.org/packages/76/59/0f929c9d706ae64623abab96868504c7dd54a9416ce01325ab46036806b8/freeplot-0.3.1.tar.gz
+[2023-05-25 03:55:55] INFO root fetch - processPackages [foundationdb]: Downloading https://files.pythonhosted.org/packages/9d/57/af2caef07661176e8d72a19362aebe021580012392a9cf499c9e173d7630/foundationdb-7.3.0.tar.gz
+[2023-05-25 03:55:55] INFO root fetch - processPackages [quick-pypi]: Downloading https://files.pythonhosted.org/packages/8d/e4/dd563026d0534c47494c1242aeeebc1ea53692bb52c545a87d2935fefbfb/quick-pypi-0.0.4.tar.gz
+[2023-05-25 03:55:55] INFO root fetch - processPackages [freerec]: Downloading https://files.pythonhosted.org/packages/92/bf/0f5f2b13aa47227f919e23a225b26357410c74a2c09fe9bcc71cd8c9f8ab/freerec-0.3.1.tar.gz
+[2023-05-25 03:55:55] INFO root fetch - processPackages [bambi]: Downloading https://files.pythonhosted.org/packages/0c/d2/235d619f8b3535affa8355356b700996afb18ca5f0a26e5bc9b6866d93d5/bambi-0.9.2.tar.gz
+[2023-05-25 03:55:55] INFO root fetch - processPackages [quick-pypi]: executing diffoscope
+[2023-05-25 03:55:55] INFO root fetch - processPackages [quick-pypi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quick-pypi-0.0.3a3.tar.gz tmp/quick-pypi-0.0.4.tar.gz --markdown 20230525/q/quick-pypi/0.0.3a3-0.0.4/diff.md --exclude *.pyd
+[2023-05-25 03:55:55] INFO root fetch - processPackages [freeplot]: Downloading https://files.pythonhosted.org/packages/24/62/ae456329dfa34e201edce22e70c09c75759b7d0af0bf7c5f3766e4e14ec1/freeplot-0.3.2.tar.gz
+[2023-05-25 03:55:55] INFO root fetch - processPackages [foundationdb]: Downloading https://files.pythonhosted.org/packages/0f/95/02ed9023ba30585502214824a9846e22dda50d18506d042e713964d89a05/foundationdb-7.3.1.tar.gz
+[2023-05-25 03:55:55] INFO root fetch - processPackages [freeplot]: executing diffoscope
+[2023-05-25 03:55:55] INFO root fetch - processPackages [freeplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freeplot-0.3.1.tar.gz tmp/freeplot-0.3.2.tar.gz --markdown 20230525/f/freeplot/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-25 03:55:55] INFO root fetch - processPackages [foundationdb]: executing diffoscope
+[2023-05-25 03:55:55] INFO root fetch - processPackages [foundationdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foundationdb-7.3.0.tar.gz tmp/foundationdb-7.3.1.tar.gz --markdown 20230525/f/foundationdb/7.3.0-7.3.1/diff.md --exclude *.pyd
+[2023-05-25 03:55:55] INFO root fetch - processPackages [bambi]: Downloading https://files.pythonhosted.org/packages/80/74/3ccbfd991d13fffdaa00f961c31553270fbd2e2eb4ef76601c94efab01a2/bambi-0.9.3.tar.gz
+[2023-05-25 03:55:56] INFO root fetch - processPackages [freerec]: Downloading https://files.pythonhosted.org/packages/cb/fd/140d569c745d9a39a2cbafff319d29028376ad5f31e85a6cd8b5a4e495b4/freerec-0.3.5.tar.gz
+[2023-05-25 03:55:56] INFO root fetch - processPackages [bambi]: executing diffoscope
+[2023-05-25 03:55:56] INFO root fetch - processPackages [bambi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bambi-0.9.2.tar.gz tmp/bambi-0.9.3.tar.gz --markdown 20230525/b/bambi/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-25 03:55:56] INFO root fetch - processPackages [freerec]: executing diffoscope
+[2023-05-25 03:55:56] INFO root fetch - processPackages [freerec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freerec-0.3.1.tar.gz tmp/freerec-0.3.5.tar.gz --markdown 20230525/f/freerec/0.3.1-0.3.5/diff.md --exclude *.pyd
+[2023-05-25 03:55:56] INFO root fetch - main [MainThread]: End processing [mixture-of-attention]: success
+[2023-05-25 03:55:56] INFO root fetch - main [MainThread]: End processing [quick-pypi]: success
+[2023-05-25 03:55:56] INFO root fetch - main [MainThread]: End processing [freeplot]: success
+[2023-05-25 03:55:56] INFO root fetch - main [MainThread]: End processing [foundationdb]: success
+[2023-05-25 03:55:57] INFO root fetch - main [MainThread]: End processing [bambi]: success
+[2023-05-25 03:55:57] INFO root fetch - main [MainThread]: End processing [freerec]: success
+[2023-05-25 03:55:57] INFO root fetch - main [MainThread]: Store serial: [18239888]
