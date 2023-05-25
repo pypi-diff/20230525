@@ -17748,3 +17748,144 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-25 14:04:19] INFO root fetch - main [MainThread]: End processing [pyransame]: success
 [2023-05-25 14:04:20] INFO root fetch - main [MainThread]: End processing [corsika-panama]: success
 [2023-05-25 14:04:20] INFO root fetch - main [MainThread]: Store serial: [18246170]
+[2023-05-25 14:09:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18246170]
+[2023-05-25 14:09:30] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-05-25 14:09:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nista-library
+[2023-05-25 14:09:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigdl-dllib-spark3
+[2023-05-25 14:09:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pixeldb
+[2023-05-25 14:09:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yandex-taxi-testsuite
+[2023-05-25 14:09:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: corby
+[2023-05-25 14:09:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sylk
+[2023-05-25 14:09:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigdl-orca-spark3
+[2023-05-25 14:09:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cloud2
+[2023-05-25 14:09:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bigdl-friesian-spark3
+[2023-05-25 14:09:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: algodojo
+[2023-05-25 14:09:30] INFO root fetch - processPackages [corby]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 14:09:30] INFO root fetch - processPackages [sylk]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-25 14:09:30] INFO root fetch - processPackages [algodojo]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-25 14:09:30] INFO root fetch - processPackages [bigdl-orca-spark3]: New version: [2.4.0b20230524] Old Version: [2.4.0b20230523]
+[2023-05-25 14:09:30] INFO root fetch - processPackages [bigdl-friesian-spark3]: New version: [2.4.0b20230524] Old Version: [2.4.0b20230523]
+[2023-05-25 14:09:30] INFO root fetch - processPackages [corby]: executing diffoscope
+[2023-05-25 14:09:30] INFO root fetch - processPackages [corby]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corby-0.0.8.tar.gz tmp/corby-0.0.9.tar.gz --markdown 20230525/c/corby/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 14:09:30] INFO root fetch - processPackages [yandex-taxi-testsuite]: New version: [0.1.9.1] Old Version: [0.1.9]
+[2023-05-25 14:09:30] INFO root fetch - processPackages [nista-library]: New version: [4.0.5] Old Version: [4.0.4]
+[2023-05-25 14:09:30] INFO root fetch - processPackages [bigdl-dllib-spark3]: New version: [2.4.0b20230525] Old Version: [2.4.0b20230524]
+[2023-05-25 14:09:30] WARNING root fetch - processPackages [pixeldb]: Skipping, unable to determine old version
+[2023-05-25 14:09:30] INFO root fetch - processPackages [pixeldb]: Start processing: bigdl-chronos-spark3
+[2023-05-25 14:09:30] INFO root fetch - main [MainThread]: End processing [pixeldb] error
+[2023-05-25 14:09:30] INFO root fetch - processPackages [bigdl-chronos-spark3]: New version: [2.4.0b20230524] Old Version: [2.4.0b20230523]
+[2023-05-25 14:09:30] INFO root fetch - processPackages [algodojo]: Downloading https://files.pythonhosted.org/packages/b4/49/6e359b563005552c4745b5a8818d91514992da213fb4eeb32eb71f5237c3/algodojo-0.1.7.tar.gz
+[2023-05-25 14:09:30] INFO root fetch - processPackages [bigdl-orca-spark3]: Downloading https://files.pythonhosted.org/packages/81/ba/c881269cac44d692c81aaa6ff2632856d5ff0c2b26c6b42a73100b2ff8fb/bigdl_orca_spark3-2.4.0b20230523-py3-none-manylinux1_x86_64.whl
+[2023-05-25 14:09:30] INFO root fetch - processPackages [sylk]: Downloading https://files.pythonhosted.org/packages/e2/cf/790ef91a4ec355e74eb0aecc64bccf68091b1c8479b564b7474138bdef92/sylk-0.0.5-py3-none-any.whl
+[2023-05-25 14:09:30] WARNING root fetch - processPackages [cloud2]: Skipping, unable to determine old version
+[2023-05-25 14:09:30] INFO root fetch - processPackages [cloud2]: Start processing: pycelium
+[2023-05-25 14:09:30] INFO root fetch - main [MainThread]: End processing [cloud2] error
+[2023-05-25 14:09:30] INFO root fetch - processPackages [yandex-taxi-testsuite]: Downloading https://files.pythonhosted.org/packages/97/b1/2cc4d85d991cb59c3462a53d9571631005fc4dcb77203483f3f2daff731c/yandex-taxi-testsuite-0.1.9.tar.gz
+[2023-05-25 14:09:30] INFO root fetch - processPackages [bigdl-dllib-spark3]: Downloading https://files.pythonhosted.org/packages/22/8d/758397092f713db0811aac956a398184f764ce4ed54cb1685a8fa28d136a/bigdl-dllib-spark3-2.4.0b20230524.tar.gz
+[2023-05-25 14:09:30] WARNING root fetch - processPackages [bigdl-orca-spark3]: Skipping package: exceeds size limit 20207584>=10485760
+[2023-05-25 14:09:30] INFO root fetch - processPackages [bigdl-orca-spark3]: Start processing: bigdl-spark3
+[2023-05-25 14:09:30] INFO root fetch - processPackages [pycelium]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-25 14:09:30] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark3] error
+[2023-05-25 14:09:30] INFO root fetch - processPackages [nista-library]: Downloading https://files.pythonhosted.org/packages/aa/5c/5eba572d2a87dd876be37648eb331405647e495b646dbc95332bf3a6efdd/nista_library-4.0.5.tar.gz
+[2023-05-25 14:09:30] INFO root fetch - processPackages [sylk]: executing diffoscope
+[2023-05-25 14:09:30] INFO root fetch - processPackages [sylk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sylk-0.0.4-py3-none-any.whl.zip tmp/sylk-0.0.5-py3-none-any.whl.zip --markdown 20230525/s/sylk/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-25 14:09:30] INFO root fetch - processPackages [bigdl-spark3]: New version: [2.4.0b20230524] Old Version: [2.4.0b20230523]
+[2023-05-25 14:09:30] INFO root fetch - processPackages [pycelium]: executing diffoscope
+[2023-05-25 14:09:30] INFO root fetch - processPackages [pycelium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycelium-0.1.8.tar.gz tmp/pycelium-0.1.9.tar.gz --markdown 20230525/p/pycelium/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-25 14:09:30] WARNING root fetch - processPackages [bigdl-dllib-spark3]: Skipping package: exceeds size limit 61251887>=10485760
+[2023-05-25 14:09:30] INFO root fetch - processPackages [bigdl-dllib-spark3]: Start processing: dbpyman
+[2023-05-25 14:09:30] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark3] error
+[2023-05-25 14:09:30] INFO root fetch - processPackages [dbpyman]: New version: [0.1.21] Old Version: [0.1.2]
+[2023-05-25 14:09:30] INFO root fetch - processPackages [nista-library]: executing diffoscope
+[2023-05-25 14:09:30] INFO root fetch - processPackages [nista-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nista_library-4.0.4.tar.gz tmp/nista_library-4.0.5.tar.gz --markdown 20230525/n/nista-library/4.0.4-4.0.5/diff.md --exclude *.pyd
+[2023-05-25 14:09:30] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/72/0e/929e8bc87f162c018c05429e25b70052a7f6dee43bd1f7f549d4c8bc2865/bigdl_friesian_spark3-2.4.0b20230524-py3-none-manylinux1_x86_64.whl
+[2023-05-25 14:09:30] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/2c/12/00e00f33c77c781868a97ff3f754fa92a8c6ac6d6349dbae17eaeab69771/bigdl_chronos_spark3-2.4.0b20230524-py3-none-manylinux1_x86_64.whl
+[2023-05-25 14:09:30] INFO root fetch - processPackages [yandex-taxi-testsuite]: Downloading https://files.pythonhosted.org/packages/e3/fb/864f2338fa3903a375f577215f0c76a12eae61af2fae665d82fdc88018b0/yandex-taxi-testsuite-0.1.9.1.tar.gz
+[2023-05-25 14:09:30] INFO root fetch - processPackages [yandex-taxi-testsuite]: executing diffoscope
+[2023-05-25 14:09:30] INFO root fetch - processPackages [yandex-taxi-testsuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yandex-taxi-testsuite-0.1.9.tar.gz tmp/yandex-taxi-testsuite-0.1.9.1.tar.gz --markdown 20230525/y/yandex-taxi-testsuite/0.1.9-0.1.9.1/diff.md --exclude *.pyd
+[2023-05-25 14:09:30] INFO root fetch - processPackages [bigdl-friesian-spark3]: executing diffoscope
+[2023-05-25 14:09:30] INFO root fetch - processPackages [bigdl-friesian-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark3-2.4.0b20230523-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark3-2.4.0b20230524-py3-none-manylinux1_x86_64.whl.zip --markdown 20230525/b/bigdl-friesian-spark3/2.4.0b20230523-2.4.0b20230524/diff.md --exclude *.pyd
+[2023-05-25 14:09:30] INFO root fetch - processPackages [bigdl-chronos-spark3]: executing diffoscope
+[2023-05-25 14:09:30] INFO root fetch - processPackages [bigdl-chronos-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark3-2.4.0b20230523-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark3-2.4.0b20230524-py3-none-manylinux1_x86_64.whl.zip --markdown 20230525/b/bigdl-chronos-spark3/2.4.0b20230523-2.4.0b20230524/diff.md --exclude *.pyd
+[2023-05-25 14:09:30] INFO root fetch - processPackages [dbpyman]: Downloading https://files.pythonhosted.org/packages/38/75/b68c95f4249cd5c06ac75b9573bb7ce0e6a5ce04298af1c714af10e245b0/dbpyman-0.1.21.tar.gz
+[2023-05-25 14:09:30] INFO root fetch - processPackages [dbpyman]: executing diffoscope
+[2023-05-25 14:09:30] INFO root fetch - processPackages [dbpyman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbpyman-0.1.2.tar.gz tmp/dbpyman-0.1.21.tar.gz --markdown 20230525/d/dbpyman/0.1.2-0.1.21/diff.md --exclude *.pyd
+[2023-05-25 14:09:30] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/9c/d2/a86ed816521d52f239f4013a764633f62b36e501038177ebde6b64d35767/bigdl_spark3-2.4.0b20230524-py3-none-manylinux1_x86_64.whl
+[2023-05-25 14:09:31] INFO root fetch - processPackages [bigdl-spark3]: executing diffoscope
+[2023-05-25 14:09:31] INFO root fetch - processPackages [bigdl-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark3-2.4.0b20230523-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark3-2.4.0b20230524-py3-none-manylinux1_x86_64.whl.zip --markdown 20230525/b/bigdl-spark3/2.4.0b20230523-2.4.0b20230524/diff.md --exclude *.pyd
+[2023-05-25 14:09:31] INFO root fetch - processPackages [algodojo]: Downloading https://files.pythonhosted.org/packages/d6/3a/9f1a5fc94e07f1f2852cdb6a4048c3f0a42f929ae2983cb55821901d3f48/algodojo-0.1.8.tar.gz
+[2023-05-25 14:09:31] INFO root fetch - processPackages [corby]: Start processing: algodojo
+[2023-05-25 14:09:31] INFO root fetch - main [MainThread]: End processing [corby]: success
+[2023-05-25 14:09:31] INFO root fetch - processPackages [algodojo]: executing diffoscope
+[2023-05-25 14:09:31] INFO root fetch - processPackages [algodojo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algodojo-0.1.7.tar.gz tmp/algodojo-0.1.8.tar.gz --markdown 20230525/a/algodojo/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-25 14:09:31] INFO root fetch - processPackages [algodojo]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-05-25 14:09:32] INFO root fetch - processPackages [algodojo]: Downloading https://files.pythonhosted.org/packages/33/31/f3887ebb928f77bb35e94e05226a5c1b08a97ffbf3d2fb631638c5ca9ae6/algodojo-0.1.9.tar.gz
+[2023-05-25 14:09:32] INFO root fetch - processPackages [pycelium]: Start processing: vid2info
+[2023-05-25 14:09:32] INFO root fetch - main [MainThread]: End processing [pycelium]: success
+[2023-05-25 14:09:32] INFO root fetch - processPackages [vid2info]: New version: [1.99] Old Version: [1.98]
+[2023-05-25 14:09:32] INFO root fetch - processPackages [vid2info]: executing diffoscope
+[2023-05-25 14:09:32] INFO root fetch - processPackages [vid2info]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vid2info-1.98.tar.gz tmp/vid2info-1.99.tar.gz --markdown 20230525/v/vid2info/1.98-1.99/diff.md --exclude *.pyd
+[2023-05-25 14:09:32] INFO root fetch - processPackages [algodojo]: Downloading https://files.pythonhosted.org/packages/70/af/b15d6ee88876a98ed276c7fabfc2fd60809cfa3a084ea9e2fe9a8fddaa62/algodojo-0.2.0.tar.gz
+[2023-05-25 14:09:33] INFO root fetch - processPackages [nista-library]: Start processing: swibots
+[2023-05-25 14:09:33] INFO root fetch - main [MainThread]: End processing [nista-library]: success
+[2023-05-25 14:09:33] INFO root fetch - processPackages [swibots]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-05-25 14:09:33] INFO root fetch - processPackages [dbpyman]: Start processing: alertlogic-sdk-definitions
+[2023-05-25 14:09:33] INFO root fetch - main [MainThread]: End processing [dbpyman]: success
+[2023-05-25 14:09:33] INFO root fetch - processPackages [bigdl-spark3]: Start processing: tf-agents-nightly
+[2023-05-25 14:09:33] INFO root fetch - main [MainThread]: End processing [bigdl-spark3]: success
+[2023-05-25 14:09:33] INFO root fetch - processPackages [algodojo]: executing diffoscope
+[2023-05-25 14:09:33] INFO root fetch - processPackages [algodojo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algodojo-0.1.9.tar.gz tmp/algodojo-0.2.0.tar.gz --markdown 20230525/a/algodojo/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-05-25 14:09:33] INFO root fetch - processPackages [alertlogic-sdk-definitions]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-25 14:09:33] INFO root fetch - processPackages [bigdl-friesian-spark3]: Start processing: browser-cookie3
+[2023-05-25 14:09:33] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark3]: success
+[2023-05-25 14:09:33] INFO root fetch - processPackages [swibots]: executing diffoscope
+[2023-05-25 14:09:33] INFO root fetch - processPackages [swibots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swibots-1.2.4.tar.gz tmp/swibots-1.2.5.tar.gz --markdown 20230525/s/swibots/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-05-25 14:09:33] INFO root fetch - processPackages [alertlogic-sdk-definitions]: executing diffoscope
+[2023-05-25 14:09:33] INFO root fetch - processPackages [alertlogic-sdk-definitions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alertlogic-sdk-definitions-0.1.98.tar.gz tmp/alertlogic-sdk-definitions-0.1.99.tar.gz --markdown 20230525/a/alertlogic-sdk-definitions/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-25 14:09:33] INFO root fetch - processPackages [tf-agents-nightly]: New version: [0.9.0.dev20210812] Old Version: [0.9.0.dev20210811]
+[2023-05-25 14:09:33] INFO root fetch - processPackages [browser-cookie3]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-25 14:09:33] INFO root fetch - processPackages [sylk]: Start processing: ronnytest
+[2023-05-25 14:09:33] INFO root fetch - main [MainThread]: End processing [sylk]: success
+[2023-05-25 14:09:33] INFO root fetch - processPackages [ronnytest]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-25 14:09:33] INFO root fetch - processPackages [ronnytest]: executing diffoscope
+[2023-05-25 14:09:33] INFO root fetch - processPackages [ronnytest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ronnytest-0.2.3.tar.gz tmp/ronnytest-0.2.4.tar.gz --markdown 20230525/r/ronnytest/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-25 14:09:33] INFO root fetch - processPackages [browser-cookie3]: executing diffoscope
+[2023-05-25 14:09:33] INFO root fetch - processPackages [browser-cookie3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/browser-cookie3-0.9.0.tar.gz tmp/browser-cookie3-0.9.1.tar.gz --markdown 20230525/b/browser-cookie3/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-25 14:09:33] INFO root fetch - processPackages [tf-agents-nightly]: executing diffoscope
+[2023-05-25 14:09:33] INFO root fetch - processPackages [tf-agents-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip --markdown 20230525/t/tf-agents-nightly/0.9.0.dev20210811-0.9.0.dev20210812/diff.md --exclude *.pyd
+[2023-05-25 14:09:33] INFO root fetch - processPackages [bigdl-chronos-spark3]: Start processing: makenote
+[2023-05-25 14:09:33] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark3]: success
+[2023-05-25 14:09:34] INFO root fetch - processPackages [makenote]: New version: [1.2] Old Version: [1.1]
+[2023-05-25 14:09:34] INFO root fetch - processPackages [makenote]: Downloading https://files.pythonhosted.org/packages/03/29/61166cd44d68a585c1b4d3c9ae3ee323caadd85189d7b9651d13ebca2b12/makenote-1.1-py3-none-any.whl
+[2023-05-25 14:09:34] INFO root fetch - processPackages [yandex-taxi-testsuite]: Start processing: elsie
+[2023-05-25 14:09:34] INFO root fetch - main [MainThread]: End processing [yandex-taxi-testsuite]: success
+[2023-05-25 14:09:34] INFO root fetch - processPackages [elsie]: New version: [3.4] Old Version: [3.3]
+[2023-05-25 14:09:34] INFO root fetch - processPackages [makenote]: Downloading https://files.pythonhosted.org/packages/33/20/94dd87f278d815dbda9083bd83bab4115a76ddb1dea30dcb5bab093af8e4/makenote-1.2-py3-none-any.whl
+[2023-05-25 14:09:34] INFO root fetch - processPackages [elsie]: Downloading https://files.pythonhosted.org/packages/01/a3/2646c64946731b97e856dde0138b6b0ce37d915d59cfa13e61dcc29f8357/elsie-3.3.tar.gz
+[2023-05-25 14:09:34] INFO root fetch - processPackages [makenote]: executing diffoscope
+[2023-05-25 14:09:34] INFO root fetch - processPackages [makenote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/makenote-1.1-py3-none-any.whl.zip tmp/makenote-1.2-py3-none-any.whl.zip --markdown 20230525/m/makenote/1.1-1.2/diff.md --exclude *.pyd
+[2023-05-25 14:09:35] INFO root fetch - processPackages [elsie]: Downloading https://files.pythonhosted.org/packages/cd/95/1104e31fc545ae6893c7ac7703227cada352e0c2f4073e383b71c776134f/elsie-3.4.tar.gz
+[2023-05-25 14:09:35] INFO root fetch - processPackages [elsie]: executing diffoscope
+[2023-05-25 14:09:35] INFO root fetch - processPackages [elsie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elsie-3.3.tar.gz tmp/elsie-3.4.tar.gz --markdown 20230525/e/elsie/3.3-3.4/diff.md --exclude *.pyd
+[2023-05-25 14:09:35] INFO root fetch - processPackages [browser-cookie3]: Start processing: linkedinpdfextractor
+[2023-05-25 14:09:35] INFO root fetch - main [MainThread]: End processing [browser-cookie3]: success
+[2023-05-25 14:09:35] INFO root fetch - processPackages [linkedinpdfextractor]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-05-25 14:09:35] INFO root fetch - processPackages [ronnytest]: Start processing: picimagesearch
+[2023-05-25 14:09:35] INFO root fetch - main [MainThread]: End processing [ronnytest]: success
+[2023-05-25 14:09:35] INFO root fetch - processPackages [picimagesearch]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-05-25 14:09:35] INFO root fetch - processPackages [picimagesearch]: executing diffoscope
+[2023-05-25 14:09:35] INFO root fetch - processPackages [picimagesearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picimagesearch-3.9.0.tar.gz tmp/picimagesearch-3.9.1.tar.gz --markdown 20230525/p/picimagesearch/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-05-25 14:09:35] INFO root fetch - processPackages [linkedinpdfextractor]: Downloading https://files.pythonhosted.org/packages/20/5c/1998bf1d29eb93e892a3eb7e54b16d1c9c2cad0b63c204043798f289bb28/linkedinpdfextractor-1.2.4.tar.gz
+[2023-05-25 14:09:35] INFO root fetch - processPackages [linkedinpdfextractor]: executing diffoscope
+[2023-05-25 14:09:35] INFO root fetch - processPackages [linkedinpdfextractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linkedinpdfextractor-1.2.3.tar.gz tmp/linkedinpdfextractor-1.2.4.tar.gz --markdown 20230525/l/linkedinpdfextractor/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-05-25 14:09:35] INFO root fetch - main [MainThread]: End processing [swibots]: success
+[2023-05-25 14:09:36] INFO root fetch - main [MainThread]: End processing [makenote]: success
+[2023-05-25 14:09:36] INFO root fetch - main [MainThread]: End processing [alertlogic-sdk-definitions]: success
+[2023-05-25 14:09:37] INFO root fetch - main [MainThread]: End processing [picimagesearch]: success
+[2023-05-25 14:09:37] INFO root fetch - main [MainThread]: End processing [vid2info]: success
+[2023-05-25 14:09:37] INFO root fetch - main [MainThread]: End processing [elsie]: success
+[2023-05-25 14:09:37] INFO root fetch - main [MainThread]: End processing [linkedinpdfextractor]: success
+[2023-05-25 14:09:41] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
+[2023-05-25 14:09:51] INFO root fetch - main [MainThread]: End processing [algodojo]: success
+[2023-05-25 14:10:04] INFO root fetch - main [MainThread]: End processing [algodojo]: success
+[2023-05-25 14:10:04] INFO root fetch - main [MainThread]: Store serial: [18246246]
