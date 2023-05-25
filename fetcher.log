@@ -17659,3 +17659,92 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-25 13:59:03] INFO root fetch - main [MainThread]: End processing [searoute]: success
 [2023-05-25 13:59:06] INFO root fetch - main [MainThread]: End processing [Rabbit-in-a-Blender]: success
 [2023-05-25 13:59:06] INFO root fetch - main [MainThread]: Store serial: [18246121]
+[2023-05-25 14:04:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18246121]
+[2023-05-25 14:04:15] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-25 14:04:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rbx
+[2023-05-25 14:04:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pysdot
+[2023-05-25 14:04:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xlttools
+[2023-05-25 14:04:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: netbox-cisco-maintenance
+[2023-05-25 14:04:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: learnkeyhole
+[2023-05-25 14:04:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: OSF-EIMTC
+[2023-05-25 14:04:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nexgraphx
+[2023-05-25 14:04:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: corsika-panama
+[2023-05-25 14:04:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: simpleregex
+[2023-05-25 14:04:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zod
+[2023-05-25 14:04:15] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 14:04:15] WARNING root fetch - processPackages [learnkeyhole]: Skipping, unable to determine old version
+[2023-05-25 14:04:15] INFO root fetch - processPackages [learnkeyhole]: Start processing: UComp
+[2023-05-25 14:04:15] INFO root fetch - main [MainThread]: End processing [learnkeyhole] error
+[2023-05-25 14:04:15] INFO root fetch - processPackages [OSF-EIMTC]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-25 14:04:15] WARNING root fetch - processPackages [UComp]: Skipping, unable to determine old version
+[2023-05-25 14:04:15] INFO root fetch - processPackages [UComp]: Start processing: sisaptools
+[2023-05-25 14:04:15] INFO root fetch - main [MainThread]: End processing [UComp] error
+[2023-05-25 14:04:15] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-05-25 14:04:15] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.8.tar.gz tmp/netbox-cisco-maintenance-0.0.9.tar.gz --markdown 20230525/n/netbox-cisco-maintenance/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 14:04:15] INFO root fetch - processPackages [OSF-EIMTC]: Downloading https://files.pythonhosted.org/packages/07/47/16d078e1107ddbfc1c5606fa448180e3bd7923ef32d5aad2a9a3e97e0214/OSF_EIMTC-0.1.8.tar.gz
+[2023-05-25 14:04:15] INFO root fetch - processPackages [pysdot]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-25 14:04:15] WARNING root fetch - processPackages [xlttools]: Skipping, unable to determine old version
+[2023-05-25 14:04:15] INFO root fetch - processPackages [xlttools]: Start processing: geodistance
+[2023-05-25 14:04:15] INFO root fetch - main [MainThread]: End processing [xlttools] error
+[2023-05-25 14:04:15] WARNING root fetch - processPackages [simpleregex]: Skipping, unable to determine old version
+[2023-05-25 14:04:15] WARNING root fetch - processPackages [nexgraphx]: Skipping, unable to determine old version
+[2023-05-25 14:04:15] INFO root fetch - processPackages [simpleregex]: Start processing: sylk
+[2023-05-25 14:04:15] INFO root fetch - processPackages [nexgraphx]: Start processing: widefield-analysis
+[2023-05-25 14:04:15] INFO root fetch - processPackages [zod]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-05-25 14:04:15] INFO root fetch - main [MainThread]: End processing [simpleregex] error
+[2023-05-25 14:04:15] INFO root fetch - processPackages [corsika-panama]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-05-25 14:04:15] INFO root fetch - main [MainThread]: End processing [nexgraphx] error
+[2023-05-25 14:04:15] INFO root fetch - processPackages [geodistance]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-25 14:04:15] INFO root fetch - processPackages [sisaptools]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-25 14:04:15] INFO root fetch - processPackages [rbx]: New version: [3.1.0.dev26] Old Version: [3.0.5.dev23]
+[2023-05-25 14:04:15] INFO root fetch - processPackages [sylk]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-25 14:04:15] WARNING root fetch - processPackages [OSF-EIMTC]: Skipping package: exceeds size limit 13771117>=10485760
+[2023-05-25 14:04:15] INFO root fetch - processPackages [OSF-EIMTC]: Start processing: pyransame
+[2023-05-25 14:04:15] INFO root fetch - main [MainThread]: End processing [OSF-EIMTC] error
+[2023-05-25 14:04:15] INFO root fetch - processPackages [widefield-analysis]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-25 14:04:15] INFO root fetch - processPackages [sisaptools]: executing diffoscope
+[2023-05-25 14:04:15] INFO root fetch - processPackages [sisaptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sisaptools-1.9.8.tar.gz tmp/sisaptools-1.9.9.tar.gz --markdown 20230525/s/sisaptools/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-25 14:04:15] INFO root fetch - processPackages [pysdot]: Downloading https://files.pythonhosted.org/packages/13/97/8fcde2da6b06276a9ef7c3fea9e816e5e0cd9025cfe13a8053a4435c66ae/pysdot-0.2.8.tar.gz
+[2023-05-25 14:04:15] INFO root fetch - processPackages [pyransame]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-05-25 14:04:15] INFO root fetch - processPackages [corsika-panama]: Downloading https://files.pythonhosted.org/packages/9e/c2/8bc325d542000c432fe5fad2a813d6dcd7ce7c45dcf284659cf5636a840c/corsika_panama-0.5.3.tar.gz
+[2023-05-25 14:04:15] INFO root fetch - processPackages [geodistance]: Downloading https://files.pythonhosted.org/packages/08/58/42be6ffc9aa59132c8a3aef8525b6996910f51d5bdc48b17a458c30eb19d/geodistance-0.1.7-py3-none-any.whl
+[2023-05-25 14:04:15] INFO root fetch - processPackages [sylk]: Downloading https://files.pythonhosted.org/packages/cf/36/83c8b0100be2d59febfdaf16495cd6aa4ec553ee3892b2b6dae270dcf90b/sylk-0.0.4-py3-none-any.whl
+[2023-05-25 14:04:16] INFO root fetch - processPackages [zod]: Downloading https://files.pythonhosted.org/packages/f2/ad/665a39e1cc0ee72b6d0d9bac7e1578d08e7f4c422d60af41f6d2c0b3fe1e/zod-0.2.7.tar.gz
+[2023-05-25 14:04:16] INFO root fetch - processPackages [geodistance]: executing diffoscope
+[2023-05-25 14:04:16] INFO root fetch - processPackages [geodistance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geodistance-0.1.6.tar.gz tmp/geodistance-0.1.7-py3-none-any.whl.zip --markdown 20230525/g/geodistance/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-25 14:04:16] INFO root fetch - processPackages [pyransame]: Downloading https://files.pythonhosted.org/packages/cf/1e/2c6388dec2131228471fcaa822142bd4b97409555b8410d0a770d2298342/pyransame-0.0.4.tar.gz
+[2023-05-25 14:04:16] INFO root fetch - processPackages [sylk]: executing diffoscope
+[2023-05-25 14:04:16] INFO root fetch - processPackages [sylk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sylk-0.0.3-py3-none-any.whl.zip tmp/sylk-0.0.4-py3-none-any.whl.zip --markdown 20230525/s/sylk/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-25 14:04:16] INFO root fetch - processPackages [rbx]: Downloading https://files.pythonhosted.org/packages/b4/33/77885816c4477b5e8a090ac491083038889d12a37416774700230e3eff2a/rbx-3.1.0.dev26.tar.gz
+[2023-05-25 14:04:16] INFO root fetch - processPackages [pysdot]: Downloading https://files.pythonhosted.org/packages/5e/8e/1b79bb12e6d67847b643736d4e588912b1dcd0b76764032098347ee176b2/pysdot-0.2.9.tar.gz
+[2023-05-25 14:04:16] INFO root fetch - processPackages [zod]: executing diffoscope
+[2023-05-25 14:04:16] INFO root fetch - processPackages [zod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zod-0.2.6.tar.gz tmp/zod-0.2.7.tar.gz --markdown 20230525/z/zod/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-05-25 14:04:16] INFO root fetch - processPackages [widefield-analysis]: Downloading https://files.pythonhosted.org/packages/1b/5e/0cbf14816d6f3230affe3c609241e0c63795edf63a519f037f2e77c71966/widefield_analysis-0.1.3.tar.gz
+[2023-05-25 14:04:16] INFO root fetch - processPackages [corsika-panama]: Downloading https://files.pythonhosted.org/packages/f1/81/b6143fa1f42ef2d75fb3c218a6efbe55a25b2ae3b7516f73d51901f4e7b5/corsika_panama-0.5.4.tar.gz
+[2023-05-25 14:04:16] INFO root fetch - processPackages [pysdot]: executing diffoscope
+[2023-05-25 14:04:16] INFO root fetch - processPackages [pysdot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysdot-0.2.8.tar.gz tmp/pysdot-0.2.9.tar.gz --markdown 20230525/p/pysdot/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-25 14:04:16] INFO root fetch - processPackages [rbx]: executing diffoscope
+[2023-05-25 14:04:16] INFO root fetch - processPackages [rbx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rbx-3.0.5.dev23.tar.gz tmp/rbx-3.1.0.dev26.tar.gz --markdown 20230525/r/rbx/3.0.5.dev23-3.1.0.dev26/diff.md --exclude *.pyd
+[2023-05-25 14:04:16] INFO root fetch - processPackages [widefield-analysis]: executing diffoscope
+[2023-05-25 14:04:16] INFO root fetch - processPackages [widefield-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/widefield_analysis-0.1.2.tar.gz tmp/widefield_analysis-0.1.3.tar.gz --markdown 20230525/w/widefield-analysis/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-25 14:04:16] INFO root fetch - processPackages [corsika-panama]: executing diffoscope
+[2023-05-25 14:04:16] INFO root fetch - processPackages [corsika-panama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corsika_panama-0.5.3.tar.gz tmp/corsika_panama-0.5.4.tar.gz --markdown 20230525/c/corsika-panama/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-05-25 14:04:16] INFO root fetch - processPackages [pyransame]: Downloading https://files.pythonhosted.org/packages/04/1c/194a82d71ef3a0a5f6385a37330759f24f84570d5092d49615de5d7a9a47/pyransame-0.1.0.tar.gz
+[2023-05-25 14:04:16] INFO root fetch - processPackages [pyransame]: executing diffoscope
+[2023-05-25 14:04:16] INFO root fetch - processPackages [pyransame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyransame-0.0.4.tar.gz tmp/pyransame-0.1.0.tar.gz --markdown 20230525/p/pyransame/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2023-05-25 14:04:17] INFO root fetch - processPackages [netbox-cisco-maintenance]: Start processing: nista-library
+[2023-05-25 14:04:17] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-05-25 14:04:17] INFO root fetch - processPackages [nista-library]: New version: [4.0.4] Old Version: [4.0.3]
+[2023-05-25 14:04:17] INFO root fetch - processPackages [nista-library]: executing diffoscope
+[2023-05-25 14:04:17] INFO root fetch - processPackages [nista-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nista_library-4.0.3.tar.gz tmp/nista_library-4.0.4.tar.gz --markdown 20230525/n/nista-library/4.0.3-4.0.4/diff.md --exclude *.pyd
+[2023-05-25 14:04:17] INFO root fetch - main [MainThread]: End processing [sisaptools]: success
+[2023-05-25 14:04:17] INFO root fetch - main [MainThread]: End processing [geodistance]: success
+[2023-05-25 14:04:18] INFO root fetch - main [MainThread]: End processing [pysdot]: success
+[2023-05-25 14:04:18] INFO root fetch - main [MainThread]: End processing [zod]: success
+[2023-05-25 14:04:18] INFO root fetch - main [MainThread]: End processing [widefield-analysis]: success
+[2023-05-25 14:04:18] INFO root fetch - main [MainThread]: End processing [rbx]: success
+[2023-05-25 14:04:18] INFO root fetch - main [MainThread]: End processing [sylk]: success
+[2023-05-25 14:04:19] INFO root fetch - main [MainThread]: End processing [nista-library]: success
+[2023-05-25 14:04:19] INFO root fetch - main [MainThread]: End processing [pyransame]: success
+[2023-05-25 14:04:20] INFO root fetch - main [MainThread]: End processing [corsika-panama]: success
+[2023-05-25 14:04:20] INFO root fetch - main [MainThread]: Store serial: [18246170]
