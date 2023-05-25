@@ -12300,3 +12300,120 @@
 [2023-05-25 10:02:46] INFO root fetch - main [MainThread]: End processing [datumaro]: success
 [2023-05-25 10:02:51] INFO root fetch - main [MainThread]: End processing [Cython]: success
 [2023-05-25 10:02:51] INFO root fetch - main [MainThread]: Store serial: [18243246]
+[2023-05-25 10:07:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18243246]
+[2023-05-25 10:08:00] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-25 10:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lsst-pipe-base
+[2023-05-25 10:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PrSpiders
+[2023-05-25 10:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ramodels
+[2023-05-25 10:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: birentechci
+[2023-05-25 10:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tamizh
+[2023-05-25 10:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ronnytest
+[2023-05-25 10:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: longbridge
+[2023-05-25 10:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: physrisk-lib
+[2023-05-25 10:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dissect
+[2023-05-25 10:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ccdt
+[2023-05-25 10:08:00] INFO root fetch - processPackages [PrSpiders]: New version: [0.5.2.1] Old Version: [0.5.2]
+[2023-05-25 10:08:00] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-05-25 10:08:00] INFO root fetch - processPackages [dissect]: New version: [3.6.dev1] Old Version: [3.5.dev4]
+[2023-05-25 10:08:00] INFO root fetch - processPackages [ronnytest]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-25 10:08:00] INFO root fetch - processPackages [lsst-pipe-base]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-05-25 10:08:00] INFO root fetch - processPackages [birentechci]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 10:08:00] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-05-25 10:08:00] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230525/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-05-25 10:08:00] WARNING root fetch - processPackages [tamizh]: Skipping, unable to determine old version
+[2023-05-25 10:08:00] INFO root fetch - processPackages [tamizh]: Start processing: dissect
+[2023-05-25 10:08:00] INFO root fetch - main [MainThread]: End processing [tamizh] error
+[2023-05-25 10:08:00] INFO root fetch - processPackages [physrisk-lib]: New version: [0.9.0] Old Version: [0.7.0]
+[2023-05-25 10:08:00] INFO root fetch - processPackages [ccdt]: New version: [2.1.0] Old Version: [2.0.9]
+[2023-05-25 10:08:00] INFO root fetch - processPackages [longbridge]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-25 10:08:00] INFO root fetch - processPackages [dissect]: New version: [3.6.dev2] Old Version: [3.6.dev1]
+[2023-05-25 10:08:00] INFO root fetch - processPackages [dissect]: Downloading https://files.pythonhosted.org/packages/81/d4/ba8392629f07d67fb2af4e71ee5ed7d8702e287265bd19495b2fe29a7a74/dissect-3.5.dev4.tar.gz
+[2023-05-25 10:08:00] INFO root fetch - processPackages [PrSpiders]: Downloading https://files.pythonhosted.org/packages/82/83/24eb95c827cc40487d7a8347e8d06a87e18d5bef84d3381380214674c423/PrSpiders-0.5.2.1.tar.gz
+[2023-05-25 10:08:01] INFO root fetch - processPackages [ronnytest]: Downloading https://files.pythonhosted.org/packages/31/41/acfae7ce62b4fa6d14c2c0dda912a3022962e1ac68e3da614e206ef474d6/ronnytest-0.1.9.tar.gz
+[2023-05-25 10:08:01] INFO root fetch - processPackages [birentechci]: Downloading https://files.pythonhosted.org/packages/7b/de/0960257c410e07160e8d15f098b69170b953a038c255d8ec6d359ee7be81/birentechci-0.0.8.tar.gz
+[2023-05-25 10:08:01] INFO root fetch - processPackages [physrisk-lib]: Downloading https://files.pythonhosted.org/packages/e7/18/a48b32c8fe74f120fb33081e822eb73dc9cdd3dafba5a834d7b40203858e/physrisk-lib-0.7.0.tar.gz
+[2023-05-25 10:08:01] INFO root fetch - processPackages [longbridge]: Downloading https://files.pythonhosted.org/packages/d1/a4/ddaf2c4051c174e664afcac3c6960fe3c243ee5221bbb2b7cf034444d64f/longbridge-0.2.8.tar.gz
+[2023-05-25 10:08:01] INFO root fetch - processPackages [PrSpiders]: executing diffoscope
+[2023-05-25 10:08:01] INFO root fetch - processPackages [PrSpiders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PrSpiders-0.5.2.tar.gz tmp/PrSpiders-0.5.2.1.tar.gz --markdown 20230525/P/PrSpiders/0.5.2-0.5.2.1/diff.md --exclude *.pyd
+[2023-05-25 10:08:01] INFO root fetch - processPackages [dissect]: Downloading https://files.pythonhosted.org/packages/83/01/0d82bbc7fe91efb7632667217263dd3f0eb203ef89ef4fa32688c228a83c/dissect-3.6.dev1.tar.gz
+[2023-05-25 10:08:01] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/ca/50/782762d60cc87c8905a7332fcddcbb65ed137e219876fab43704d6916f94/ccdt-2.0.9.tar.gz
+[2023-05-25 10:08:01] INFO root fetch - processPackages [dissect]: Downloading https://files.pythonhosted.org/packages/83/01/0d82bbc7fe91efb7632667217263dd3f0eb203ef89ef4fa32688c228a83c/dissect-3.6.dev1.tar.gz
+[2023-05-25 10:08:01] INFO root fetch - processPackages [ronnytest]: executing diffoscope
+[2023-05-25 10:08:01] INFO root fetch - processPackages [ronnytest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ronnytest-0.1.8.tar.gz tmp/ronnytest-0.1.9.tar.gz --markdown 20230525/r/ronnytest/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:08:01] INFO root fetch - processPackages [dissect]: executing diffoscope
+[2023-05-25 10:08:01] INFO root fetch - processPackages [dissect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect-3.5.dev4.tar.gz tmp/dissect-3.6.dev1.tar.gz --markdown 20230525/d/dissect/3.5.dev4-3.6.dev1/diff.md --exclude *.pyd
+[2023-05-25 10:08:01] INFO root fetch - processPackages [lsst-pipe-base]: executing diffoscope
+[2023-05-25 10:08:01] INFO root fetch - processPackages [lsst-pipe-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-pipe-base-26.0.0a20230400.tar.gz tmp/lsst-pipe-base-26.0.0a20230500.tar.gz --markdown 20230525/l/lsst-pipe-base/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-05-25 10:08:01] INFO root fetch - processPackages [dissect]: Downloading https://files.pythonhosted.org/packages/27/06/328b59732eed97c216cbc78c5d646de5d49416c4d0cc033b5eaa2799c2c1/dissect-3.6.dev2.tar.gz
+[2023-05-25 10:08:01] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/57/72/fa5825ecf589362c419192e23ff1cef12c1078dbfba0f1bf6e39dc4c11fd/ccdt-2.1.0.tar.gz
+[2023-05-25 10:08:01] INFO root fetch - processPackages [birentechci]: Downloading https://files.pythonhosted.org/packages/4f/f9/f3d66a557192c24b59cc958b87d1c2910008be4a71f24410b923f42157a9/birentechci-0.0.9.tar.gz
+[2023-05-25 10:08:01] INFO root fetch - processPackages [dissect]: executing diffoscope
+[2023-05-25 10:08:01] INFO root fetch - processPackages [dissect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect-3.6.dev1.tar.gz tmp/dissect-3.6.dev2.tar.gz --markdown 20230525/d/dissect/3.6.dev1-3.6.dev2/diff.md --exclude *.pyd
+[2023-05-25 10:08:01] INFO root fetch - processPackages [longbridge]: Downloading https://files.pythonhosted.org/packages/24/92/5ff3d6963889e844b0de3a7c2b3b92073bb9ecaf124bec5d587b033424e0/longbridge-0.2.9.tar.gz
+[2023-05-25 10:08:01] INFO root fetch - processPackages [ccdt]: executing diffoscope
+[2023-05-25 10:08:01] INFO root fetch - processPackages [ccdt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccdt-2.0.9.tar.gz tmp/ccdt-2.1.0.tar.gz --markdown 20230525/c/ccdt/2.0.9-2.1.0/diff.md --exclude *.pyd
+[2023-05-25 10:08:01] INFO root fetch - processPackages [physrisk-lib]: Downloading https://files.pythonhosted.org/packages/14/41/f8b7a9df045bdb3592e2b1b0d95e7a1257326968002863a7d89dd69193dc/physrisk-lib-0.9.0.tar.gz
+[2023-05-25 10:08:01] INFO root fetch - processPackages [longbridge]: executing diffoscope
+[2023-05-25 10:08:01] INFO root fetch - processPackages [longbridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/longbridge-0.2.8.tar.gz tmp/longbridge-0.2.9.tar.gz --markdown 20230525/l/longbridge/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-25 10:08:01] INFO root fetch - processPackages [physrisk-lib]: executing diffoscope
+[2023-05-25 10:08:01] INFO root fetch - processPackages [physrisk-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/physrisk-lib-0.7.0.tar.gz tmp/physrisk-lib-0.9.0.tar.gz --markdown 20230525/p/physrisk-lib/0.7.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-25 10:08:01] INFO root fetch - processPackages [birentechci]: executing diffoscope
+[2023-05-25 10:08:01] INFO root fetch - processPackages [birentechci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/birentechci-0.0.8.tar.gz tmp/birentechci-0.0.9.tar.gz --markdown 20230525/b/birentechci/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 10:08:02] INFO root fetch - processPackages [ramodels]: Start processing: neuralpit
+[2023-05-25 10:08:02] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-05-25 10:08:02] INFO root fetch - processPackages [neuralpit]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-25 10:08:02] INFO root fetch - processPackages [neuralpit]: executing diffoscope
+[2023-05-25 10:08:02] INFO root fetch - processPackages [neuralpit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuralpit-1.0.4.tar.gz tmp/neuralpit-1.0.5.tar.gz --markdown 20230525/n/neuralpit/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-25 10:08:02] INFO root fetch - processPackages [ronnytest]: Start processing: inspire-schemas
+[2023-05-25 10:08:02] INFO root fetch - main [MainThread]: End processing [ronnytest]: success
+[2023-05-25 10:08:02] INFO root fetch - processPackages [inspire-schemas]: New version: [9.0.0] Old Version: [8.0.0]
+[2023-05-25 10:08:02] INFO root fetch - processPackages [inspire-schemas]: Downloading https://files.pythonhosted.org/packages/8b/d2/aad5d3d0cb1ebdf711e48df8c4478f7a2b1fdd77d08ea21ae30e0f345b01/inspire-schemas-8.0.0.tar.gz
+[2023-05-25 10:08:03] INFO root fetch - processPackages [dissect]: Start processing: pyrosexmod
+[2023-05-25 10:08:03] INFO root fetch - main [MainThread]: End processing [dissect]: success
+[2023-05-25 10:08:03] INFO root fetch - processPackages [inspire-schemas]: Downloading https://files.pythonhosted.org/packages/c4/81/b75803a91c2dacb0b3ec7566e003880b974b51b1b31f6e1b60c99e3d1572/inspire-schemas-9.0.0.tar.gz
+[2023-05-25 10:08:03] INFO root fetch - processPackages [pyrosexmod]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-25 10:08:03] INFO root fetch - processPackages [PrSpiders]: Start processing: pyglove
+[2023-05-25 10:08:03] INFO root fetch - main [MainThread]: End processing [PrSpiders]: success
+[2023-05-25 10:08:03] INFO root fetch - processPackages [pyglove]: New version: [0.3.1.dev20230524] Old Version: [0.3.1.dev20230523]
+[2023-05-25 10:08:03] INFO root fetch - processPackages [dissect]: Start processing: revproxy-auth
+[2023-05-25 10:08:03] INFO root fetch - main [MainThread]: End processing [dissect]: success
+[2023-05-25 10:08:03] INFO root fetch - processPackages [inspire-schemas]: executing diffoscope
+[2023-05-25 10:08:03] INFO root fetch - processPackages [inspire-schemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inspire-schemas-8.0.0.tar.gz tmp/inspire-schemas-9.0.0.tar.gz --markdown 20230525/i/inspire-schemas/8.0.0-9.0.0/diff.md --exclude *.pyd
+[2023-05-25 10:08:03] INFO root fetch - processPackages [revproxy-auth]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-25 10:08:03] INFO root fetch - processPackages [revproxy-auth]: executing diffoscope
+[2023-05-25 10:08:03] INFO root fetch - processPackages [revproxy-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revproxy_auth-0.1.3.tar.gz tmp/revproxy_auth-0.1.4.tar.gz --markdown 20230525/r/revproxy-auth/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-25 10:08:03] INFO root fetch - processPackages [pyrosexmod]: Downloading https://files.pythonhosted.org/packages/fc/c6/64840ed757a1293ca1cd13e6fc9174fd883a76615764b59ae285b2b0c406/pyrosexmod-0.0.5.tar.gz
+[2023-05-25 10:08:03] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/bc/5e/9de4394c1f375e0409c4566d7a17f3703481611d262f2a85b5d46e832488/pyglove-0.3.1.dev20230524.tar.gz
+[2023-05-25 10:08:03] INFO root fetch - processPackages [pyrosexmod]: executing diffoscope
+[2023-05-25 10:08:03] INFO root fetch - processPackages [pyrosexmod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrosexmod-0.0.4.tar.gz tmp/pyrosexmod-0.0.5.tar.gz --markdown 20230525/p/pyrosexmod/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-25 10:08:03] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-05-25 10:08:03] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.3.1.dev20230523.tar.gz tmp/pyglove-0.3.1.dev20230524.tar.gz --markdown 20230525/p/pyglove/0.3.1.dev20230523-0.3.1.dev20230524/diff.md --exclude *.pyd
+[2023-05-25 10:08:03] INFO root fetch - processPackages [lsst-pipe-base]: Start processing: django-db-connection-pool
+[2023-05-25 10:08:03] INFO root fetch - main [MainThread]: End processing [lsst-pipe-base]: success
+[2023-05-25 10:08:03] INFO root fetch - processPackages [birentechci]: Start processing: schemathesis
+[2023-05-25 10:08:03] INFO root fetch - main [MainThread]: End processing [birentechci]: success
+[2023-05-25 10:08:03] INFO root fetch - processPackages [django-db-connection-pool]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-05-25 10:08:03] INFO root fetch - processPackages [schemathesis]: New version: [3.9.7] Old Version: [3.9.6]
+[2023-05-25 10:08:03] INFO root fetch - processPackages [ccdt]: Start processing: sslcompare
+[2023-05-25 10:08:03] INFO root fetch - main [MainThread]: End processing [ccdt]: success
+[2023-05-25 10:08:03] INFO root fetch - main [MainThread]: End processing [physrisk-lib]: success
+[2023-05-25 10:08:03] INFO root fetch - processPackages [sslcompare]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-05-25 10:08:03] INFO root fetch - processPackages [django-db-connection-pool]: Downloading https://files.pythonhosted.org/packages/6f/b6/130ecee9613ee79b2e471c29ad894927b3f5339659ac31de7e2d6f5037a4/django-db-connection-pool-1.2.2.tar.gz
+[2023-05-25 10:08:03] INFO root fetch - main [MainThread]: End processing [neuralpit]: success
+[2023-05-25 10:08:04] INFO root fetch - processPackages [sslcompare]: Downloading https://files.pythonhosted.org/packages/a8/f2/0dc907fbb5b2c48f2730876f1f64f152752058cc975f023bfa596a9f1311/sslcompare-1.3.0.tar.gz
+[2023-05-25 10:08:04] INFO root fetch - processPackages [django-db-connection-pool]: Downloading https://files.pythonhosted.org/packages/14/14/d721c085518b8f59b73f4cb86ce124d0e7959c2fdb5ab382927805bc2089/django-db-connection-pool-1.2.3.tar.gz
+[2023-05-25 10:08:04] INFO root fetch - processPackages [schemathesis]: executing diffoscope
+[2023-05-25 10:08:04] INFO root fetch - processPackages [schemathesis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schemathesis-3.9.6.tar.gz tmp/schemathesis-3.9.7.tar.gz --markdown 20230525/s/schemathesis/3.9.6-3.9.7/diff.md --exclude *.pyd
+[2023-05-25 10:08:04] INFO root fetch - processPackages [django-db-connection-pool]: executing diffoscope
+[2023-05-25 10:08:04] INFO root fetch - processPackages [django-db-connection-pool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-db-connection-pool-1.2.2.tar.gz tmp/django-db-connection-pool-1.2.3.tar.gz --markdown 20230525/d/django-db-connection-pool/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-05-25 10:08:04] INFO root fetch - main [MainThread]: End processing [longbridge]: success
+[2023-05-25 10:08:04] INFO root fetch - processPackages [sslcompare]: Downloading https://files.pythonhosted.org/packages/96/ae/a225f32b6b0c2a60303987cef009622176a0076a330cb41697e0c300ab02/sslcompare-1.3.1-py3-none-any.whl
+[2023-05-25 10:08:04] WARNING root fetch - processPackages [sslcompare]: Skipping package: exceeds size limit 96591491>=10485760
+[2023-05-25 10:08:04] INFO root fetch - main [MainThread]: End processing [sslcompare] error
+[2023-05-25 10:08:04] INFO root fetch - main [MainThread]: End processing [inspire-schemas]: success
+[2023-05-25 10:08:05] INFO root fetch - main [MainThread]: End processing [revproxy-auth]: success
+[2023-05-25 10:08:05] INFO root fetch - main [MainThread]: End processing [pyrosexmod]: success
+[2023-05-25 10:08:05] INFO root fetch - main [MainThread]: End processing [schemathesis]: success
+[2023-05-25 10:08:06] INFO root fetch - main [MainThread]: End processing [django-db-connection-pool]: success
+[2023-05-25 10:08:06] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-05-25 10:08:06] INFO root fetch - main [MainThread]: Store serial: [18243332]
