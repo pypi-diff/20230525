@@ -8220,3 +8220,88 @@
 [2023-05-25 06:41:01] INFO root fetch - main [MainThread]: End processing [odoo8-addon-purchase-rfq-bid-workflow]: success
 [2023-05-25 06:41:06] INFO root fetch - main [MainThread]: End processing [seeFretboard]: success
 [2023-05-25 06:41:06] INFO root fetch - main [MainThread]: Store serial: [18241228]
+[2023-05-25 06:46:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18241228]
+[2023-05-25 06:46:14] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-25 06:46:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flowclient
+[2023-05-25 06:46:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo8-addon-purchase-rfq-bid-workflow
+[2023-05-25 06:46:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo8-addon-procurement-batch-generator
+[2023-05-25 06:46:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo8-addon-purchase-request-to-requisition
+[2023-05-25 06:46:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sqldictalchem
+[2023-05-25 06:46:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo11-addon-purchase-request
+[2023-05-25 06:46:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: TorchPIV
+[2023-05-25 06:46:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo11-addon-purchase-order-type
+[2023-05-25 06:46:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo11-addon-purchase-allowed-product
+[2023-05-25 06:46:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cq23
+[2023-05-25 06:46:14] INFO root fetch - processPackages [odoo11-addon-purchase-request]: New version: [11.0.1.2.6.99.dev5] Old Version: [11.0.1.2.6.99.dev4]
+[2023-05-25 06:46:14] WARNING root fetch - processPackages [sqldictalchem]: Skipping, unable to determine old version
+[2023-05-25 06:46:14] INFO root fetch - processPackages [sqldictalchem]: Start processing: dss-python
+[2023-05-25 06:46:14] INFO root fetch - main [MainThread]: End processing [sqldictalchem] error
+[2023-05-25 06:46:14] INFO root fetch - processPackages [odoo11-addon-purchase-order-type]: New version: [11.0.1.0.0.99.dev6] Old Version: [11.0.1.0.0.99.dev5]
+[2023-05-25 06:46:14] INFO root fetch - processPackages [TorchPIV]: New version: [0.1.6] Old Version: [0.1.4]
+[2023-05-25 06:46:14] INFO root fetch - processPackages [dss-python]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-05-25 06:46:15] INFO root fetch - processPackages [odoo8-addon-purchase-request-to-requisition]: New version: [8.0.1.0.0.99.dev40] Old Version: [8.0.1.0.0.99.dev38]
+[2023-05-25 06:46:15] INFO root fetch - processPackages [odoo11-addon-purchase-allowed-product]: New version: [11.0.1.1.0.99.dev2] Old Version: [11.0.1.1.0.99.dev1]
+[2023-05-25 06:46:15] INFO root fetch - processPackages [odoo8-addon-procurement-batch-generator]: New version: [8.0.0.1.0.99.dev9] Old Version: [8.0.0.1.0.99.dev8]
+[2023-05-25 06:46:15] INFO root fetch - processPackages [cq23]: New version: [1.0.0] Old Version: [0.1.4]
+[2023-05-25 06:46:15] INFO root fetch - processPackages [odoo8-addon-purchase-rfq-bid-workflow]: New version: [8.0.0.3.0.99.dev9] Old Version: [8.0.0.3.0.99.dev8]
+[2023-05-25 06:46:15] INFO root fetch - processPackages [flowclient]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-05-25 06:46:15] INFO root fetch - processPackages [dss-python]: executing diffoscope
+[2023-05-25 06:46:15] INFO root fetch - processPackages [dss-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dss_python-0.9.7-cp36-cp36m-win_amd64.whl.zip tmp/dss_python-0.9.8-cp37-cp37m-win_amd64.whl.zip --markdown 20230525/d/dss-python/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-05-25 06:46:15] INFO root fetch - processPackages [odoo11-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/27/fc/1b6782393f6fbcaad79860abc80ada6317bb2b81ef7b9958ea5dac66388e/odoo11_addon_purchase_request-11.0.1.2.6.99.dev4-py2.py3-none-any.whl
+[2023-05-25 06:46:15] INFO root fetch - processPackages [TorchPIV]: Downloading https://files.pythonhosted.org/packages/3d/af/ae40ce4d6d019ea0976b54911767cd861942299dd5c3132d49c1a9e4890d/TorchPIV-0.1.6.tar.gz
+[2023-05-25 06:46:15] INFO root fetch - processPackages [odoo11-addon-purchase-order-type]: Downloading https://files.pythonhosted.org/packages/2b/3a/b0cfb9e5e2c096e9d11716317590c367e83d104dae973349b46740d076f6/odoo11_addon_purchase_order_type-11.0.1.0.0.99.dev5-py2.py3-none-any.whl
+[2023-05-25 06:46:15] INFO root fetch - processPackages [odoo8-addon-purchase-request-to-requisition]: Downloading https://files.pythonhosted.org/packages/f7/27/f94dcc0a9cd44698b91a6138dda032bf40e56d36b10aef1c4f104b8666d9/odoo8_addon_purchase_request_to_requisition-8.0.1.0.0.99.dev38-py2-none-any.whl
+[2023-05-25 06:46:15] INFO root fetch - processPackages [odoo11-addon-purchase-allowed-product]: Downloading https://files.pythonhosted.org/packages/1d/9b/338329b4b04a2c1d5f97e6e52207e51e57102dd098d58b69ada9add8259c/odoo11_addon_purchase_allowed_product-11.0.1.1.0.99.dev1-py2.py3-none-any.whl
+[2023-05-25 06:46:15] INFO root fetch - processPackages [cq23]: Downloading https://files.pythonhosted.org/packages/06/5c/917f3e34c96ca6a968419e460e6e34459f0d889d8536d2c367731322c9f6/cq23-0.1.4.tar.gz
+[2023-05-25 06:46:15] INFO root fetch - processPackages [TorchPIV]: executing diffoscope
+[2023-05-25 06:46:15] INFO root fetch - processPackages [TorchPIV]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TorchPIV-0.1.4.tar.gz tmp/TorchPIV-0.1.6.tar.gz --markdown 20230525/T/TorchPIV/0.1.4-0.1.6/diff.md --exclude *.pyd
+[2023-05-25 06:46:15] INFO root fetch - processPackages [odoo8-addon-purchase-rfq-bid-workflow]: executing diffoscope
+[2023-05-25 06:46:15] INFO root fetch - processPackages [odoo8-addon-purchase-rfq-bid-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_purchase_rfq_bid_workflow-8.0.0.3.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_purchase_rfq_bid_workflow-8.0.0.3.0.99.dev9-py2-none-any.whl.zip --markdown 20230525/o/odoo8-addon-purchase-rfq-bid-workflow/8.0.0.3.0.99.dev8-8.0.0.3.0.99.dev9/diff.md --exclude *.pyd
+[2023-05-25 06:46:15] INFO root fetch - processPackages [odoo8-addon-procurement-batch-generator]: executing diffoscope
+[2023-05-25 06:46:15] INFO root fetch - processPackages [odoo8-addon-procurement-batch-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_procurement_batch_generator-8.0.0.1.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_procurement_batch_generator-8.0.0.1.0.99.dev9-py2-none-any.whl.zip --markdown 20230525/o/odoo8-addon-procurement-batch-generator/8.0.0.1.0.99.dev8-8.0.0.1.0.99.dev9/diff.md --exclude *.pyd
+[2023-05-25 06:46:15] INFO root fetch - processPackages [odoo8-addon-purchase-request-to-requisition]: Downloading https://files.pythonhosted.org/packages/64/c0/657a5a444df4f71a5df993343c8ce32250031e478410ef31c0b1e5683308/odoo8_addon_purchase_request_to_requisition-8.0.1.0.0.99.dev40-py2-none-any.whl
+[2023-05-25 06:46:15] INFO root fetch - processPackages [flowclient]: executing diffoscope
+[2023-05-25 06:46:15] INFO root fetch - processPackages [flowclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowclient-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowclient-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230525/f/flowclient/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-05-25 06:46:15] INFO root fetch - processPackages [odoo11-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/62/25/f48a84a33822206102d18956334c310726d80c7116fc693f65e72b4675f4/odoo11_addon_purchase_request-11.0.1.2.6.99.dev5-py2.py3-none-any.whl
+[2023-05-25 06:46:15] INFO root fetch - processPackages [odoo11-addon-purchase-order-type]: Downloading https://files.pythonhosted.org/packages/bb/84/0ba20e860c27a733fa365ac61c379f7d6e870cf2adcfd2fd146fc14038d3/odoo11_addon_purchase_order_type-11.0.1.0.0.99.dev6-py2.py3-none-any.whl
+[2023-05-25 06:46:15] INFO root fetch - processPackages [cq23]: Downloading https://files.pythonhosted.org/packages/e2/f4/546e11643a5c826f274c5bb741b470965e50423a8314cf2bd404cb3650e9/cq23-1.0.0.tar.gz
+[2023-05-25 06:46:15] INFO root fetch - processPackages [odoo8-addon-purchase-request-to-requisition]: executing diffoscope
+[2023-05-25 06:46:15] INFO root fetch - processPackages [odoo8-addon-purchase-request-to-requisition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_purchase_request_to_requisition-8.0.1.0.0.99.dev38-py2-none-any.whl.zip tmp/odoo8_addon_purchase_request_to_requisition-8.0.1.0.0.99.dev40-py2-none-any.whl.zip --markdown 20230525/o/odoo8-addon-purchase-request-to-requisition/8.0.1.0.0.99.dev38-8.0.1.0.0.99.dev40/diff.md --exclude *.pyd
+[2023-05-25 06:46:15] INFO root fetch - processPackages [odoo11-addon-purchase-allowed-product]: Downloading https://files.pythonhosted.org/packages/33/de/9dbaaaf40083faae2f98b7646e44b539cd66eddb20124ca117ebe47eb7cb/odoo11_addon_purchase_allowed_product-11.0.1.1.0.99.dev2-py2.py3-none-any.whl
+[2023-05-25 06:46:15] INFO root fetch - processPackages [odoo11-addon-purchase-request]: executing diffoscope
+[2023-05-25 06:46:15] INFO root fetch - processPackages [odoo11-addon-purchase-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_purchase_request-11.0.1.2.6.99.dev4-py2.py3-none-any.whl.zip tmp/odoo11_addon_purchase_request-11.0.1.2.6.99.dev5-py2.py3-none-any.whl.zip --markdown 20230525/o/odoo11-addon-purchase-request/11.0.1.2.6.99.dev4-11.0.1.2.6.99.dev5/diff.md --exclude *.pyd
+[2023-05-25 06:46:15] INFO root fetch - processPackages [odoo11-addon-purchase-order-type]: executing diffoscope
+[2023-05-25 06:46:15] INFO root fetch - processPackages [odoo11-addon-purchase-order-type]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_purchase_order_type-11.0.1.0.0.99.dev5-py2.py3-none-any.whl.zip tmp/odoo11_addon_purchase_order_type-11.0.1.0.0.99.dev6-py2.py3-none-any.whl.zip --markdown 20230525/o/odoo11-addon-purchase-order-type/11.0.1.0.0.99.dev5-11.0.1.0.0.99.dev6/diff.md --exclude *.pyd
+[2023-05-25 06:46:15] INFO root fetch - processPackages [cq23]: executing diffoscope
+[2023-05-25 06:46:15] INFO root fetch - processPackages [cq23]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cq23-0.1.4.tar.gz tmp/cq23-1.0.0.tar.gz --markdown 20230525/c/cq23/0.1.4-1.0.0/diff.md --exclude *.pyd
+[2023-05-25 06:46:15] INFO root fetch - processPackages [odoo11-addon-purchase-allowed-product]: executing diffoscope
+[2023-05-25 06:46:15] INFO root fetch - processPackages [odoo11-addon-purchase-allowed-product]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_purchase_allowed_product-11.0.1.1.0.99.dev1-py2.py3-none-any.whl.zip tmp/odoo11_addon_purchase_allowed_product-11.0.1.1.0.99.dev2-py2.py3-none-any.whl.zip --markdown 20230525/o/odoo11-addon-purchase-allowed-product/11.0.1.1.0.99.dev1-11.0.1.1.0.99.dev2/diff.md --exclude *.pyd
+[2023-05-25 06:46:16] INFO root fetch - processPackages [TorchPIV]: Start processing: seeFretboard
+[2023-05-25 06:46:16] INFO root fetch - main [MainThread]: End processing [TorchPIV]: success
+[2023-05-25 06:46:16] INFO root fetch - processPackages [seeFretboard]: New version: [0.0.9.5] Old Version: [0.0.9.4]
+[2023-05-25 06:46:16] INFO root fetch - processPackages [seeFretboard]: executing diffoscope
+[2023-05-25 06:46:16] INFO root fetch - processPackages [seeFretboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seeFretboard-0.0.9.4.tar.gz tmp/seeFretboard-0.0.9.5.tar.gz --markdown 20230525/s/seeFretboard/0.0.9.4-0.0.9.5/diff.md --exclude *.pyd
+[2023-05-25 06:46:17] INFO root fetch - processPackages [flowclient]: Start processing: neurodecode
+[2023-05-25 06:46:17] INFO root fetch - main [MainThread]: End processing [flowclient]: success
+[2023-05-25 06:46:17] INFO root fetch - processPackages [neurodecode]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-05-25 06:46:17] INFO root fetch - processPackages [neurodecode]: executing diffoscope
+[2023-05-25 06:46:17] INFO root fetch - processPackages [neurodecode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurodecode-2.0.2.tar.gz tmp/neurodecode-2.0.3.tar.gz --markdown 20230525/n/neurodecode/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-05-25 06:46:17] INFO root fetch - processPackages [odoo8-addon-procurement-batch-generator]: Start processing: gces-trab1
+[2023-05-25 06:46:17] INFO root fetch - main [MainThread]: End processing [odoo8-addon-procurement-batch-generator]: success
+[2023-05-25 06:46:17] INFO root fetch - processPackages [cq23]: Start processing: databutton
+[2023-05-25 06:46:17] INFO root fetch - main [MainThread]: End processing [cq23]: success
+[2023-05-25 06:46:17] WARNING root fetch - processPackages [gces-trab1]: Skipping, unable to determine old version
+[2023-05-25 06:46:17] INFO root fetch - main [MainThread]: End processing [gces-trab1] error
+[2023-05-25 06:46:17] INFO root fetch - processPackages [databutton]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-25 06:46:17] INFO root fetch - main [MainThread]: End processing [odoo8-addon-purchase-rfq-bid-workflow]: success
+[2023-05-25 06:46:18] INFO root fetch - main [MainThread]: End processing [odoo8-addon-purchase-request-to-requisition]: success
+[2023-05-25 06:46:18] INFO root fetch - main [MainThread]: End processing [odoo11-addon-purchase-order-type]: success
+[2023-05-25 06:46:18] INFO root fetch - processPackages [databutton]: executing diffoscope
+[2023-05-25 06:46:18] INFO root fetch - processPackages [databutton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databutton-0.9.1.tar.gz tmp/databutton-0.9.2.tar.gz --markdown 20230525/d/databutton/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-25 06:46:18] INFO root fetch - main [MainThread]: End processing [odoo11-addon-purchase-allowed-product]: success
+[2023-05-25 06:46:18] INFO root fetch - main [MainThread]: End processing [odoo11-addon-purchase-request]: success
+[2023-05-25 06:46:18] INFO root fetch - main [MainThread]: End processing [neurodecode]: success
+[2023-05-25 06:46:19] INFO root fetch - main [MainThread]: End processing [databutton]: success
+[2023-05-25 06:46:27] INFO root fetch - main [MainThread]: End processing [seeFretboard]: success
+[2023-05-25 06:46:37] INFO root fetch - main [MainThread]: End processing [dss-python]: success
+[2023-05-25 06:46:37] INFO root fetch - main [MainThread]: Store serial: [18241272]
