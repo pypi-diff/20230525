@@ -21838,3 +21838,142 @@ EOFError: EOF read where object expected
 [2023-05-25 17:14:08] INFO root fetch - main [MainThread]: End processing [pulpcore]: success
 [2023-05-25 17:14:19] INFO root fetch - main [MainThread]: End processing [FlexGet]: success
 [2023-05-25 17:14:19] INFO root fetch - main [MainThread]: Store serial: [18248811]
+[2023-05-25 17:19:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18248811]
+[2023-05-25 17:19:29] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-25 17:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ALMASim
+[2023-05-25 17:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rer.customersatisfaction
+[2023-05-25 17:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: udsoncan
+[2023-05-25 17:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cybrid-api-organization-python
+[2023-05-25 17:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: valmi-connector-lib
+[2023-05-25 17:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: UComp
+[2023-05-25 17:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cybrid-api-bank-python
+[2023-05-25 17:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: deamons
+[2023-05-25 17:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cybrid-api-id-python
+[2023-05-25 17:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: turbine-py
+[2023-05-25 17:19:29] INFO root fetch - processPackages [rer.customersatisfaction]: New version: [2.2.3] Old Version: [2.2.2]
+[2023-05-25 17:19:29] INFO root fetch - processPackages [udsoncan]: New version: [1.9] Old Version: [1.8.1]
+[2023-05-25 17:19:29] INFO root fetch - processPackages [deamons]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-25 17:19:29] WARNING root fetch - processPackages [UComp]: Skipping, unable to determine old version
+[2023-05-25 17:19:29] INFO root fetch - processPackages [UComp]: Start processing: tree-of-thoughts
+[2023-05-25 17:19:29] INFO root fetch - main [MainThread]: End processing [UComp] error
+[2023-05-25 17:19:29] INFO root fetch - processPackages [turbine-py]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-05-25 17:19:29] INFO root fetch - processPackages [ALMASim]: New version: [2.5] Old Version: [2.3]
+[2023-05-25 17:19:29] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-25 17:19:29] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-25 17:19:29] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-25 17:19:29] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-25 17:19:29] INFO root fetch - processPackages [tree-of-thoughts]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-25 17:19:29] INFO root fetch - processPackages [deamons]: Downloading https://files.pythonhosted.org/packages/67/8f/7d442d7f7a80459c0f8c27c3b8803a447a756e2979f2627dd7a69c52f444/deamons-0.0.5.tar.gz
+[2023-05-25 17:19:29] INFO root fetch - processPackages [ALMASim]: Downloading https://files.pythonhosted.org/packages/f7/8d/bdac79db5559d113af9c9faf8d224dbe47f37e49a39b52318c857086ecc3/ALMASim-2.3.tar.gz
+[2023-05-25 17:19:29] INFO root fetch - processPackages [rer.customersatisfaction]: Downloading https://files.pythonhosted.org/packages/a1/59/424dd77b2a38685320af58a665d485de289ec4fdd3f4182c953d6c44b356/rer.customersatisfaction-2.2.2.tar.gz
+[2023-05-25 17:19:29] INFO root fetch - processPackages [udsoncan]: Downloading https://files.pythonhosted.org/packages/ef/d2/7a13c04fc038c23e06174391be1e8313282dbdb77cc0964ef6943764c97f/udsoncan-1.8.1.tar.gz
+[2023-05-25 17:19:29] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-05-25 17:19:29] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230525/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-25 17:19:29] INFO root fetch - processPackages [tree-of-thoughts]: Downloading https://files.pythonhosted.org/packages/dc/1b/79788313876cfe106a758daeb3590779ccb5b44b998b0ed062638e504cc3/tree-of-thoughts-0.1.8.tar.gz
+[2023-05-25 17:19:29] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-05-25 17:19:29] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230525/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-25 17:19:30] INFO root fetch - processPackages [turbine-py]: Downloading https://files.pythonhosted.org/packages/74/9d/83900a786d0b9f22e18d6567b6217a721ef20bdc8e0e7c0a84b09659ee2b/turbine-py-2.1.0.tar.gz
+[2023-05-25 17:19:30] INFO root fetch - processPackages [deamons]: Downloading https://files.pythonhosted.org/packages/dc/79/9743580990ad3c11b1c7187a975b53f4ccd8f9171e60778aa70067aa0757/deamons-0.0.6.tar.gz
+[2023-05-25 17:19:30] INFO root fetch - processPackages [ALMASim]: Downloading https://files.pythonhosted.org/packages/57/fd/5e3dca60136127fdfccefd80743f71fb731d105dbd8f9b8647844fe8bc91/ALMASim-2.5.tar.gz
+[2023-05-25 17:19:30] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2023-05-25 17:19:30] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.8.tar.gz tmp/valmi_connector_lib-0.1.9.tar.gz --markdown 20230525/v/valmi-connector-lib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-25 17:19:30] INFO root fetch - processPackages [turbine-py]: executing diffoscope
+[2023-05-25 17:19:30] INFO root fetch - processPackages [turbine-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turbine-py-2.0.0.tar.gz tmp/turbine-py-2.1.0.tar.gz --markdown 20230525/t/turbine-py/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-05-25 17:19:30] INFO root fetch - processPackages [tree-of-thoughts]: Downloading https://files.pythonhosted.org/packages/bf/3c/50457d837baa1f772df0f801aad0fb15ae2ca85be3780371da8d6001946a/tree-of-thoughts-0.1.9.tar.gz
+[2023-05-25 17:19:30] INFO root fetch - processPackages [deamons]: executing diffoscope
+[2023-05-25 17:19:30] INFO root fetch - processPackages [deamons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deamons-0.0.5.tar.gz tmp/deamons-0.0.6.tar.gz --markdown 20230525/d/deamons/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-25 17:19:30] INFO root fetch - processPackages [ALMASim]: executing diffoscope
+[2023-05-25 17:19:30] INFO root fetch - processPackages [ALMASim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ALMASim-2.3.tar.gz tmp/ALMASim-2.5.tar.gz --markdown 20230525/A/ALMASim/2.3-2.5/diff.md --exclude *.pyd
+[2023-05-25 17:19:30] INFO root fetch - processPackages [rer.customersatisfaction]: Downloading https://files.pythonhosted.org/packages/fa/58/167a4ad08854787ecdf9504967e89900a5f77e076acb600fa7be82fed480/rer.customersatisfaction-2.2.3.tar.gz
+[2023-05-25 17:19:30] INFO root fetch - processPackages [tree-of-thoughts]: executing diffoscope
+[2023-05-25 17:19:30] INFO root fetch - processPackages [tree-of-thoughts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tree-of-thoughts-0.1.8.tar.gz tmp/tree-of-thoughts-0.1.9.tar.gz --markdown 20230525/t/tree-of-thoughts/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-25 17:19:30] INFO root fetch - processPackages [udsoncan]: Downloading https://files.pythonhosted.org/packages/74/20/6b0f21d203552d1c7deec845af56969cdc89b53df3ad557f7df49673fa59/udsoncan-1.9.tar.gz
+[2023-05-25 17:19:30] INFO root fetch - processPackages [rer.customersatisfaction]: executing diffoscope
+[2023-05-25 17:19:30] INFO root fetch - processPackages [rer.customersatisfaction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rer.customersatisfaction-2.2.2.tar.gz tmp/rer.customersatisfaction-2.2.3.tar.gz --markdown 20230525/r/rer.customersatisfaction/2.2.2-2.2.3/diff.md --exclude *.pyd
+[2023-05-25 17:19:30] INFO root fetch - processPackages [udsoncan]: executing diffoscope
+[2023-05-25 17:19:30] INFO root fetch - processPackages [udsoncan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udsoncan-1.8.1.tar.gz tmp/udsoncan-1.9.tar.gz --markdown 20230525/u/udsoncan/1.8.1-1.9/diff.md --exclude *.pyd
+[2023-05-25 17:19:30] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-05-25 17:19:30] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230525/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-25 17:19:31] INFO root fetch - processPackages [valmi-connector-lib]: Start processing: keyauth-tech
+[2023-05-25 17:19:31] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2023-05-25 17:19:31] INFO root fetch - processPackages [keyauth-tech]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-25 17:19:31] INFO root fetch - processPackages [cybrid-api-organization-python]: Start processing: pyvmomi
+[2023-05-25 17:19:31] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-05-25 17:19:31] INFO root fetch - processPackages [pyvmomi]: New version: [8.0.1.0.1] Old Version: [8.0.1.0]
+[2023-05-25 17:19:31] INFO root fetch - processPackages [pyvmomi]: Downloading https://files.pythonhosted.org/packages/8d/d1/f5860ebd8d68106eb312714c6eaf188ee6f51b47b6ba8bb4a660d6972730/pyvmomi-8.0.1.0.tar.gz
+[2023-05-25 17:19:31] INFO root fetch - processPackages [deamons]: Start processing: module-qc-database-tools
+[2023-05-25 17:19:31] INFO root fetch - main [MainThread]: End processing [deamons]: success
+[2023-05-25 17:19:31] INFO root fetch - processPackages [module-qc-database-tools]: New version: [2.0.2rc1] Old Version: [2.0.1]
+[2023-05-25 17:19:31] INFO root fetch - processPackages [turbine-py]: Start processing: bmsdna-lakeapi
+[2023-05-25 17:19:31] INFO root fetch - main [MainThread]: End processing [turbine-py]: success
+[2023-05-25 17:19:32] INFO root fetch - processPackages [bmsdna-lakeapi]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-05-25 17:19:32] INFO root fetch - processPackages [keyauth-tech]: Downloading https://files.pythonhosted.org/packages/3f/4d/a344bd10b84127f534dd7f8673ffcc501804523830288ee1bfc46b21314f/keyauth-tech-0.0.3.tar.gz
+[2023-05-25 17:19:32] INFO root fetch - processPackages [keyauth-tech]: executing diffoscope
+[2023-05-25 17:19:32] INFO root fetch - processPackages [keyauth-tech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keyauth-tech-0.0.2.tar.gz tmp/keyauth-tech-0.0.3.tar.gz --markdown 20230525/k/keyauth-tech/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-25 17:19:32] INFO root fetch - processPackages [pyvmomi]: Downloading https://files.pythonhosted.org/packages/38/25/2c89faf8ab0847041df14cc6de12335a175dd0c3bcc2065d1025ba30c953/pyvmomi-8.0.1.0.1.tar.gz
+[2023-05-25 17:19:32] INFO root fetch - processPackages [module-qc-database-tools]: Downloading https://files.pythonhosted.org/packages/25/0d/ad5b2c3914aab95607b88d51cc190c8303b780e227978f80d6d8f698824b/module_qc_database_tools-2.0.2rc1.tar.gz
+[2023-05-25 17:19:32] INFO root fetch - processPackages [bmsdna-lakeapi]: Downloading https://files.pythonhosted.org/packages/31/6f/07abc2c2650f9dc9cf81f19bf0f6067b47f06aff04d29103d360a38e278e/bmsdna_lakeapi-0.4.6.tar.gz
+[2023-05-25 17:19:32] INFO root fetch - processPackages [module-qc-database-tools]: executing diffoscope
+[2023-05-25 17:19:32] INFO root fetch - processPackages [pyvmomi]: executing diffoscope
+[2023-05-25 17:19:32] INFO root fetch - processPackages [module-qc-database-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/module_qc_database_tools-2.0.1.tar.gz tmp/module_qc_database_tools-2.0.2rc1.tar.gz --markdown 20230525/m/module-qc-database-tools/2.0.1-2.0.2rc1/diff.md --exclude *.pyd
+[2023-05-25 17:19:32] INFO root fetch - processPackages [pyvmomi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvmomi-8.0.1.0.tar.gz tmp/pyvmomi-8.0.1.0.1.tar.gz --markdown 20230525/p/pyvmomi/8.0.1.0-8.0.1.0.1/diff.md --exclude *.pyd
+[2023-05-25 17:19:32] INFO root fetch - processPackages [tree-of-thoughts]: Start processing: asociita
+[2023-05-25 17:19:32] INFO root fetch - main [MainThread]: End processing [tree-of-thoughts]: success
+[2023-05-25 17:19:32] INFO root fetch - processPackages [asociita]: New version: [0.1.6.1] Old Version: [0.1.6]
+[2023-05-25 17:19:32] INFO root fetch - processPackages [bmsdna-lakeapi]: Downloading https://files.pythonhosted.org/packages/ea/5f/ca1cd8eded1176fc54389d90b37db13c551fbdb30b5020164432ac786aee/bmsdna_lakeapi-0.4.7.tar.gz
+[2023-05-25 17:19:32] INFO root fetch - processPackages [bmsdna-lakeapi]: executing diffoscope
+[2023-05-25 17:19:32] INFO root fetch - processPackages [bmsdna-lakeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmsdna_lakeapi-0.4.6.tar.gz tmp/bmsdna_lakeapi-0.4.7.tar.gz --markdown 20230525/b/bmsdna-lakeapi/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-05-25 17:19:32] INFO root fetch - processPackages [asociita]: Downloading https://files.pythonhosted.org/packages/9a/55/dc47035b754032c40821f1e69de4a45339276ee964734b5aa8579dac4199/asociita-0.1.6.1.tar.gz
+[2023-05-25 17:19:32] INFO root fetch - processPackages [udsoncan]: Start processing: ruamel.yaml
+[2023-05-25 17:19:32] INFO root fetch - main [MainThread]: End processing [udsoncan]: success
+[2023-05-25 17:19:32] INFO root fetch - processPackages [ruamel.yaml]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-05-25 17:19:32] INFO root fetch - processPackages [cybrid-api-id-python]: Start processing: glue-jupyter
+[2023-05-25 17:19:32] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-05-25 17:19:32] INFO root fetch - processPackages [asociita]: executing diffoscope
+[2023-05-25 17:19:32] INFO root fetch - processPackages [asociita]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asociita-0.1.6.tar.gz tmp/asociita-0.1.6.1.tar.gz --markdown 20230525/a/asociita/0.1.6-0.1.6.1/diff.md --exclude *.pyd
+[2023-05-25 17:19:32] INFO root fetch - processPackages [glue-jupyter]: New version: [0.9] Old Version: [0.8.1]
+[2023-05-25 17:19:33] INFO root fetch - processPackages [ruamel.yaml]: Downloading https://files.pythonhosted.org/packages/08/2e/36ad3bba826620494292ad7c14beb21695e6da91705f50cf228fb0fa4409/ruamel.yaml-0.9.7.tar.gz
+[2023-05-25 17:19:33] INFO root fetch - processPackages [glue-jupyter]: Downloading https://files.pythonhosted.org/packages/0e/98/96e876cdb94555cb68ab97c57d455516379a21d382e35ba4085fd4868bf0/glue-jupyter-0.8.1.tar.gz
+[2023-05-25 17:19:33] INFO root fetch - processPackages [ALMASim]: Start processing: firepup650
+[2023-05-25 17:19:33] INFO root fetch - main [MainThread]: End processing [ALMASim]: success
+[2023-05-25 17:19:33] INFO root fetch - processPackages [firepup650]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-25 17:19:33] INFO root fetch - processPackages [firepup650]: Downloading https://files.pythonhosted.org/packages/a9/b2/3b3c6333bdcf3bad14d424fff8569cdfac6d8982648d26be72214d1e2302/firepup650-1.0.8.tar.gz
+[2023-05-25 17:19:33] INFO root fetch - processPackages [ruamel.yaml]: Downloading https://files.pythonhosted.org/packages/29/71/ac3ab7be172ca88b6d16134578c9124e0b5ed157a3681e5181d9ca9bb3ec/ruamel.yaml-0.9.8.tar.gz
+[2023-05-25 17:19:33] INFO root fetch - processPackages [glue-jupyter]: Downloading https://files.pythonhosted.org/packages/8e/3f/49f4bd6e055f894bf9d05c703d4bae73d2a122cdac367ee2235ca1dab678/glue-jupyter-0.9.tar.gz
+[2023-05-25 17:19:33] INFO root fetch - processPackages [ruamel.yaml]: executing diffoscope
+[2023-05-25 17:19:33] INFO root fetch - processPackages [ruamel.yaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ruamel.yaml-0.9.7.tar.gz tmp/ruamel.yaml-0.9.8.tar.gz --markdown 20230525/r/ruamel.yaml/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-05-25 17:19:33] INFO root fetch - processPackages [keyauth-tech]: Start processing: odoo-addon-web-responsive
+[2023-05-25 17:19:33] INFO root fetch - main [MainThread]: End processing [keyauth-tech]: success
+[2023-05-25 17:19:33] INFO root fetch - processPackages [odoo-addon-web-responsive]: New version: [16.0.1.1.0.2] Old Version: [16.0.1.1.0]
+[2023-05-25 17:19:33] INFO root fetch - processPackages [glue-jupyter]: executing diffoscope
+[2023-05-25 17:19:33] INFO root fetch - processPackages [glue-jupyter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glue-jupyter-0.8.1.tar.gz tmp/glue-jupyter-0.9.tar.gz --markdown 20230525/g/glue-jupyter/0.8.1-0.9/diff.md --exclude *.pyd
+[2023-05-25 17:19:33] INFO root fetch - processPackages [firepup650]: Downloading https://files.pythonhosted.org/packages/7f/6f/a57c81ede135dfa8faec693bfce6d3d6d6c6dd9a744d7d23bce45a502185/firepup650-1.0.9.tar.gz
+[2023-05-25 17:19:33] INFO root fetch - processPackages [odoo-addon-web-responsive]: Downloading https://files.pythonhosted.org/packages/13/f6/4df5efa76a5ad1ae5b44a218ae9c73d048d0a2f7ed930169ee0f2cd215ad/odoo_addon_web_responsive-16.0.1.1.0-py3-none-any.whl
+[2023-05-25 17:19:33] INFO root fetch - processPackages [firepup650]: executing diffoscope
+[2023-05-25 17:19:33] INFO root fetch - processPackages [firepup650]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firepup650-1.0.8.tar.gz tmp/firepup650-1.0.9.tar.gz --markdown 20230525/f/firepup650/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-25 17:19:34] INFO root fetch - processPackages [module-qc-database-tools]: Start processing: pyvalueobjects
+[2023-05-25 17:19:34] INFO root fetch - main [MainThread]: End processing [module-qc-database-tools]: success
+[2023-05-25 17:19:34] INFO root fetch - processPackages [pyvalueobjects]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-25 17:19:34] INFO root fetch - processPackages [pyvalueobjects]: Downloading https://files.pythonhosted.org/packages/5e/a2/50c5c94fd5e4a2d8b2f03f89ef28f1aa77e9561cc8801c0e4c7b4d3086b5/pyvalueobjects-0.8.1.tar.gz
+[2023-05-25 17:19:34] INFO root fetch - processPackages [bmsdna-lakeapi]: Start processing: epitools
+[2023-05-25 17:19:34] INFO root fetch - main [MainThread]: End processing [bmsdna-lakeapi]: success
+[2023-05-25 17:19:34] INFO root fetch - processPackages [odoo-addon-web-responsive]: Downloading https://files.pythonhosted.org/packages/da/c8/1cad6fc79853e92639ed5ce8dbf32d5037efce4e5c54e3fb4a53d6cf7d7b/odoo_addon_web_responsive-16.0.1.1.0.2-py3-none-any.whl
+[2023-05-25 17:19:34] INFO root fetch - processPackages [epitools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 17:19:34] INFO root fetch - processPackages [pyvalueobjects]: Downloading https://files.pythonhosted.org/packages/be/9f/b1b788501f6b3a2e7a44153dfac8828c7d91cf87ef5297c63081902ffee1/pyvalueobjects-0.9.0.tar.gz
+[2023-05-25 17:19:34] INFO root fetch - main [MainThread]: End processing [asociita]: success
+[2023-05-25 17:19:34] INFO root fetch - processPackages [pyvalueobjects]: executing diffoscope
+[2023-05-25 17:19:34] INFO root fetch - processPackages [pyvalueobjects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvalueobjects-0.8.1.tar.gz tmp/pyvalueobjects-0.9.0.tar.gz --markdown 20230525/p/pyvalueobjects/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-25 17:19:34] INFO root fetch - processPackages [epitools]: Downloading https://files.pythonhosted.org/packages/8f/e8/9d55054b21ec77168c2f46d6662a9cf8d17d773666424dac3950c8ddc499/epitools-0.0.8.tar.gz
+[2023-05-25 17:19:34] WARNING root fetch - processPackages [epitools]: Skipping package: exceeds size limit 16029557>=10485760
+[2023-05-25 17:19:34] INFO root fetch - main [MainThread]: End processing [epitools] error
+[2023-05-25 17:19:35] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-05-25 17:19:35] INFO root fetch - main [MainThread]: End processing [pyvmomi]: success
+[2023-05-25 17:19:35] INFO root fetch - main [MainThread]: End processing [firepup650]: success
+[2023-05-25 17:19:35] INFO root fetch - main [MainThread]: End processing [glue-jupyter]: success
+[2023-05-25 17:19:36] INFO root fetch - main [MainThread]: End processing [pyvalueobjects]: success
+[2023-05-25 17:19:36] INFO root fetch - processPackages [odoo-addon-web-responsive]: executing diffoscope
+[2023-05-25 17:19:36] INFO root fetch - processPackages [odoo-addon-web-responsive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_web_responsive-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_web_responsive-16.0.1.1.0.2-py3-none-any.whl.zip --markdown 20230525/o/odoo-addon-web-responsive/16.0.1.1.0-16.0.1.1.0.2/diff.md --exclude *.pyd
+[2023-05-25 17:19:37] INFO root fetch - main [MainThread]: End processing [ruamel.yaml]: success
+[2023-05-25 17:19:37] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-responsive]: success
+[2023-05-25 17:19:42] INFO root fetch - main [MainThread]: End processing [rer.customersatisfaction]: success
+[2023-05-25 17:19:42] INFO root fetch - main [MainThread]: Store serial: [18248874]
