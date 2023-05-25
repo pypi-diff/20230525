@@ -17562,3 +17562,100 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-25 13:53:32] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
 [2023-05-25 13:53:48] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-xiuxian-2]: success
 [2023-05-25 13:53:48] INFO root fetch - main [MainThread]: Store serial: [18246063]
+[2023-05-25 13:58:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18246063]
+[2023-05-25 13:58:58] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-25 13:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: percy-appium-app
+[2023-05-25 13:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: anthe-official
+[2023-05-25 13:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: searoute
+[2023-05-25 13:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: venv-pack2
+[2023-05-25 13:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spai
+[2023-05-25 13:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: edu-segmentation
+[2023-05-25 13:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Rabbit-in-a-Blender
+[2023-05-25 13:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ramodels
+[2023-05-25 13:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nlpaf
+[2023-05-25 13:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: corby
+[2023-05-25 13:58:58] INFO root fetch - processPackages [venv-pack2]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-05-25 13:58:58] INFO root fetch - processPackages [spai]: New version: [2023.5.25.post3] Old Version: [2023.5.25.post2]
+[2023-05-25 13:58:58] INFO root fetch - processPackages [edu-segmentation]: New version: [0.0.63] Old Version: [0.0.62]
+[2023-05-25 13:58:58] INFO root fetch - processPackages [Rabbit-in-a-Blender]: New version: [0.0.23] Old Version: [0.0.22]
+[2023-05-25 13:58:58] INFO root fetch - processPackages [corby]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 13:58:58] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-05-25 13:58:58] INFO root fetch - processPackages [percy-appium-app]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-05-25 13:58:58] INFO root fetch - processPackages [venv-pack2]: executing diffoscope
+[2023-05-25 13:58:58] INFO root fetch - processPackages [venv-pack2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/venv_pack2-0.5.0-py3-none-any.whl.zip tmp/venv_pack2-0.6.0-py3-none-any.whl.zip --markdown 20230525/v/venv-pack2/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-05-25 13:58:58] WARNING root fetch - processPackages [anthe-official]: Skipping, unable to determine old version
+[2023-05-25 13:58:58] INFO root fetch - processPackages [anthe-official]: Start processing: basking-sdk
+[2023-05-25 13:58:58] INFO root fetch - main [MainThread]: End processing [anthe-official] error
+[2023-05-25 13:58:58] INFO root fetch - processPackages [searoute]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-05-25 13:58:58] INFO root fetch - processPackages [nlpaf]: New version: [2.8.8] Old Version: [2.8.7]
+[2023-05-25 13:58:58] INFO root fetch - processPackages [Rabbit-in-a-Blender]: executing diffoscope
+[2023-05-25 13:58:58] INFO root fetch - processPackages [Rabbit-in-a-Blender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Rabbit-in-a-Blender-0.0.22.tar.gz tmp/Rabbit-in-a-Blender-0.0.23.tar.gz --markdown 20230525/R/Rabbit-in-a-Blender/0.0.22-0.0.23/diff.md --exclude *.pyd
+[2023-05-25 13:58:58] INFO root fetch - processPackages [edu-segmentation]: executing diffoscope
+[2023-05-25 13:58:58] INFO root fetch - processPackages [edu-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edu_segmentation-0.0.62.tar.gz tmp/edu_segmentation-0.0.63.tar.gz --markdown 20230525/e/edu-segmentation/0.0.62-0.0.63/diff.md --exclude *.pyd
+[2023-05-25 13:58:58] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-05-25 13:58:58] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230525/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-05-25 13:58:58] INFO root fetch - processPackages [spai]: Downloading https://files.pythonhosted.org/packages/a9/36/2a55f4776f30ef3ea97b2b2fbdf426eeed534bde72e47193315db5429b26/spai-2023.5.25.post3.tar.gz
+[2023-05-25 13:58:58] INFO root fetch - processPackages [basking-sdk]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-25 13:58:58] INFO root fetch - processPackages [percy-appium-app]: Downloading https://files.pythonhosted.org/packages/0b/81/7db4c6217d13bd76fb3eb654f6db35abf98c5a3bcc9133af9d68330afe21/percy-appium-app-1.2.0.tar.gz
+[2023-05-25 13:58:58] INFO root fetch - processPackages [corby]: Downloading https://files.pythonhosted.org/packages/31/72/fa45007ac1f92c4cb3aefaff6df62d62843fc1da015adaac0cee92cf9202/corby-0.0.9.tar.gz
+[2023-05-25 13:58:58] INFO root fetch - processPackages [searoute]: Downloading https://files.pythonhosted.org/packages/f6/99/8f459d437431e8a8fb59382a76bd5c2d3d2cee2e9850160142e67d994c06/searoute-1.0.9.tar.gz
+[2023-05-25 13:58:58] INFO root fetch - processPackages [nlpaf]: Downloading https://files.pythonhosted.org/packages/5d/da/1b92550f6bc1e7b62d9eca934cf2d4d57ebcc3fb29072424036f138d98af/nlpaf-2.8.7.tar.gz
+[2023-05-25 13:58:59] INFO root fetch - processPackages [corby]: executing diffoscope
+[2023-05-25 13:58:59] INFO root fetch - processPackages [corby]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corby-0.0.8.tar.gz tmp/corby-0.0.9.tar.gz --markdown 20230525/c/corby/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 13:58:59] WARNING root fetch - processPackages [nlpaf]: Skipping package: exceeds size limit 24324747>=10485760
+[2023-05-25 13:58:59] INFO root fetch - processPackages [nlpaf]: Start processing: Netbase
+[2023-05-25 13:58:59] INFO root fetch - main [MainThread]: End processing [nlpaf] error
+[2023-05-25 13:58:59] INFO root fetch - processPackages [Netbase]: New version: [0.1.237] Old Version: [0.1.234]
+[2023-05-25 13:58:59] INFO root fetch - processPackages [spai]: executing diffoscope
+[2023-05-25 13:58:59] INFO root fetch - processPackages [spai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spai-2023.5.25.post2.tar.gz tmp/spai-2023.5.25.post3.tar.gz --markdown 20230525/s/spai/2023.5.25.post2-2023.5.25.post3/diff.md --exclude *.pyd
+[2023-05-25 13:58:59] INFO root fetch - processPackages [percy-appium-app]: Downloading https://files.pythonhosted.org/packages/26/7c/00191f672066a4335636ec903a9f101ccf2faab9baf74aa2096adcfd81b8/percy-appium-app-1.2.1.tar.gz
+[2023-05-25 13:58:59] INFO root fetch - processPackages [searoute]: Downloading https://files.pythonhosted.org/packages/25/45/55d416b4c2661f31bbef90ab88d1402a98af17e258324147e478ddb547c8/searoute-1.1.0.tar.gz
+[2023-05-25 13:58:59] INFO root fetch - processPackages [percy-appium-app]: executing diffoscope
+[2023-05-25 13:58:59] INFO root fetch - processPackages [percy-appium-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/percy-appium-app-1.2.0.tar.gz tmp/percy-appium-app-1.2.1.tar.gz --markdown 20230525/p/percy-appium-app/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-05-25 13:58:59] INFO root fetch - processPackages [basking-sdk]: executing diffoscope
+[2023-05-25 13:58:59] INFO root fetch - processPackages [basking-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basking-sdk-0.9.8.tar.gz tmp/basking-sdk-0.9.9.tar.gz --markdown 20230525/b/basking-sdk/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-25 13:58:59] INFO root fetch - processPackages [searoute]: executing diffoscope
+[2023-05-25 13:58:59] INFO root fetch - processPackages [searoute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/searoute-1.0.9.tar.gz tmp/searoute-1.1.0.tar.gz --markdown 20230525/s/searoute/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-05-25 13:58:59] INFO root fetch - processPackages [Netbase]: Downloading https://files.pythonhosted.org/packages/30/66/023e604795b48692c15d914a54ed03d928706945facdece7f5ea1c6fd710/Netbase-0.1.237-py2.py3-none-any.whl
+[2023-05-25 13:58:59] INFO root fetch - processPackages [Netbase]: executing diffoscope
+[2023-05-25 13:58:59] INFO root fetch - processPackages [Netbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Netbase-0.1.234-py2.py3-none-any.whl.zip tmp/Netbase-0.1.237-py2.py3-none-any.whl.zip --markdown 20230525/N/Netbase/0.1.234-0.1.237/diff.md --exclude *.pyd
+[2023-05-25 13:59:00] INFO root fetch - processPackages [venv-pack2]: Start processing: ldimbenchmark
+[2023-05-25 13:59:00] INFO root fetch - main [MainThread]: End processing [venv-pack2]: success
+[2023-05-25 13:59:00] INFO root fetch - processPackages [ldimbenchmark]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-25 13:59:00] INFO root fetch - processPackages [ldimbenchmark]: executing diffoscope
+[2023-05-25 13:59:00] INFO root fetch - processPackages [ldimbenchmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ldimbenchmark-0.2.8.tar.gz tmp/ldimbenchmark-0.2.9.tar.gz --markdown 20230525/l/ldimbenchmark/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-25 13:59:00] INFO root fetch - processPackages [ramodels]: Start processing: pulumi-azure-native
+[2023-05-25 13:59:00] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-05-25 13:59:00] INFO root fetch - processPackages [pulumi-azure-native]: New version: [2.0.0a1] Old Version: [1.99.3a1681807800]
+[2023-05-25 13:59:00] INFO root fetch - processPackages [spai]: Start processing: VisionFive.gpio
+[2023-05-25 13:59:00] INFO root fetch - main [MainThread]: End processing [spai]: success
+[2023-05-25 13:59:00] INFO root fetch - processPackages [VisionFive.gpio]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-25 13:59:00] INFO root fetch - processPackages [corby]: Start processing: pydiverse-pipedag
+[2023-05-25 13:59:00] INFO root fetch - main [MainThread]: End processing [corby]: success
+[2023-05-25 13:59:00] INFO root fetch - processPackages [VisionFive.gpio]: executing diffoscope
+[2023-05-25 13:59:00] INFO root fetch - processPackages [VisionFive.gpio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VisionFive.gpio-1.2.8.tar.gz tmp/VisionFive.gpio-1.2.9.tar.gz --markdown 20230525/V/VisionFive.gpio/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-25 13:59:00] INFO root fetch - processPackages [pulumi-azure-native]: Downloading https://files.pythonhosted.org/packages/db/a5/558162773c4e3db2d450251c7c681883156e4fdf5b9ec7e82686931a90ce/pulumi_azure_native-1.99.3a1681807800.tar.gz
+[2023-05-25 13:59:00] INFO root fetch - processPackages [pydiverse-pipedag]: New version: [0.3.0] Old Version: [0.2.4]
+[2023-05-25 13:59:01] INFO root fetch - processPackages [percy-appium-app]: Start processing: SecretManagerCredentials
+[2023-05-25 13:59:01] INFO root fetch - main [MainThread]: End processing [percy-appium-app]: success
+[2023-05-25 13:59:01] INFO root fetch - processPackages [pydiverse-pipedag]: Downloading https://files.pythonhosted.org/packages/95/e6/2a17d56d2be89f96bddc6bd48ed0a33701e5f4a4b67853fd029463662d8d/pydiverse-pipedag-0.2.4.tar.gz
+[2023-05-25 13:59:01] INFO root fetch - main [MainThread]: End processing [Netbase]: success
+[2023-05-25 13:59:01] INFO root fetch - processPackages [SecretManagerCredentials]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-25 13:59:01] INFO root fetch - main [MainThread]: End processing [basking-sdk]: success
+[2023-05-25 13:59:01] WARNING root fetch - processPackages [pulumi-azure-native]: Skipping package: exceeds size limit 63506203>=10485760
+[2023-05-25 13:59:01] INFO root fetch - main [MainThread]: End processing [pulumi-azure-native] error
+[2023-05-25 13:59:01] INFO root fetch - processPackages [SecretManagerCredentials]: Downloading https://files.pythonhosted.org/packages/0e/e5/77905ef996b1266f1a0f2be46ebedd2f74ed22a34f908f5a817f4165a76c/SecretManagerCredentials-0.0.5.tar.gz
+[2023-05-25 13:59:01] INFO root fetch - processPackages [pydiverse-pipedag]: Downloading https://files.pythonhosted.org/packages/61/4b/efdbc7a0ba19ab63c232b4f87a7305441441131825d83edc10f7e9ee6c95/pydiverse-pipedag-0.3.0.tar.gz
+[2023-05-25 13:59:01] INFO root fetch - processPackages [SecretManagerCredentials]: Downloading https://files.pythonhosted.org/packages/0a/7f/b99d5b7d3c1f5a8acd820c57c30fc093621000ab56521ec840ece1ae00bb/SecretManagerCredentials-0.0.6.tar.gz
+[2023-05-25 13:59:01] INFO root fetch - processPackages [pydiverse-pipedag]: executing diffoscope
+[2023-05-25 13:59:01] INFO root fetch - processPackages [pydiverse-pipedag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydiverse-pipedag-0.2.4.tar.gz tmp/pydiverse-pipedag-0.3.0.tar.gz --markdown 20230525/p/pydiverse-pipedag/0.2.4-0.3.0/diff.md --exclude *.pyd
+[2023-05-25 13:59:01] INFO root fetch - main [MainThread]: End processing [ldimbenchmark]: success
+[2023-05-25 13:59:01] INFO root fetch - processPackages [SecretManagerCredentials]: executing diffoscope
+[2023-05-25 13:59:01] INFO root fetch - processPackages [SecretManagerCredentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SecretManagerCredentials-0.0.5.tar.gz tmp/SecretManagerCredentials-0.0.6.tar.gz --markdown 20230525/S/SecretManagerCredentials/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-25 13:59:01] INFO root fetch - main [MainThread]: End processing [edu-segmentation]: success
+[2023-05-25 13:59:02] INFO root fetch - main [MainThread]: End processing [VisionFive.gpio]: success
+[2023-05-25 13:59:02] INFO root fetch - main [MainThread]: End processing [SecretManagerCredentials]: success
+[2023-05-25 13:59:03] INFO root fetch - main [MainThread]: End processing [pydiverse-pipedag]: success
+[2023-05-25 13:59:03] INFO root fetch - main [MainThread]: End processing [searoute]: success
+[2023-05-25 13:59:06] INFO root fetch - main [MainThread]: End processing [Rabbit-in-a-Blender]: success
+[2023-05-25 13:59:06] INFO root fetch - main [MainThread]: Store serial: [18246121]
