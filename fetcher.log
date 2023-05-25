@@ -19408,3 +19408,159 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-25 15:25:24] INFO root fetch - main [MainThread]: End processing [warpzone-sdk]: success
 [2023-05-25 15:25:25] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-05-25 15:25:25] INFO root fetch - main [MainThread]: Store serial: [18247277]
+[2023-05-25 15:30:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18247277]
+[2023-05-25 15:30:35] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-25 15:30:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: camminapy
+[2023-05-25 15:30:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: imio.smartweb.core
+[2023-05-25 15:30:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: camminapy
+[2023-05-25 15:30:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lacuscore
+[2023-05-25 15:30:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eFatura
+[2023-05-25 15:30:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dask-cuda
+[2023-05-25 15:30:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: numba-kdtree
+[2023-05-25 15:30:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: agilicus
+[2023-05-25 15:30:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: runpod
+[2023-05-25 15:30:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: laboneq
+[2023-05-25 15:30:35] INFO root fetch - processPackages [camminapy]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-25 15:30:35] INFO root fetch - processPackages [eFatura]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-25 15:30:35] INFO root fetch - processPackages [camminapy]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-25 15:30:35] INFO root fetch - processPackages [dask-cuda]: New version: [23.6.0a230525] Old Version: [23.6.0a230524]
+[2023-05-25 15:30:35] INFO root fetch - processPackages [camminapy]: executing diffoscope
+[2023-05-25 15:30:35] INFO root fetch - processPackages [camminapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camminapy-0.9.4.tar.gz tmp/camminapy-0.9.5.tar.gz --markdown 20230525/c/camminapy/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-25 15:30:35] INFO root fetch - processPackages [imio.smartweb.core]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-25 15:30:35] INFO root fetch - processPackages [laboneq]: New version: [2.7.0] Old Version: [2.6.0]
+[2023-05-25 15:30:35] INFO root fetch - processPackages [numba-kdtree]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-25 15:30:35] INFO root fetch - processPackages [runpod]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-25 15:30:35] INFO root fetch - processPackages [lacuscore]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-05-25 15:30:35] INFO root fetch - processPackages [eFatura]: executing diffoscope
+[2023-05-25 15:30:35] INFO root fetch - processPackages [eFatura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eFatura-1.0.5.tar.gz tmp/eFatura-1.0.6.tar.gz --markdown 20230525/e/eFatura/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-25 15:30:35] INFO root fetch - processPackages [agilicus]: New version: [1.99.0] Old Version: [1.98.9]
+[2023-05-25 15:30:35] INFO root fetch - processPackages [camminapy]: executing diffoscope
+[2023-05-25 15:30:35] INFO root fetch - processPackages [camminapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camminapy-0.9.4.tar.gz tmp/camminapy-0.9.5.tar.gz --markdown 20230525/c/camminapy/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-25 15:30:35] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/f0/64/17366cdc70d449c2c42f35b3496679894d1a1fdc50d65f5d4f1c6a4a2f54/dask-cuda-23.6.0a230525.tar.gz
+[2023-05-25 15:30:35] INFO root fetch - processPackages [numba-kdtree]: Downloading https://files.pythonhosted.org/packages/d6/47/660d9f3fc314269777e25dc69650b422df4b356d4b2a3bb26cb42bf7b8fb/numba-kdtree-0.1.7.tar.gz
+[2023-05-25 15:30:35] INFO root fetch - processPackages [laboneq]: Downloading https://files.pythonhosted.org/packages/7f/59/cfe9fc89421ab7fe5883e221673949e95504ae133b9365721059b9d82b8a/laboneq-2.6.0-py3-none-any.whl
+[2023-05-25 15:30:35] INFO root fetch - processPackages [runpod]: Downloading https://files.pythonhosted.org/packages/65/94/c63ba4e61ac4b062265e923eb0749224ce28e234ea9d1c91dc14ed782b37/runpod-0.9.8.tar.gz
+[2023-05-25 15:30:35] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-05-25 15:30:35] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.6.0a230524.tar.gz tmp/dask-cuda-23.6.0a230525.tar.gz --markdown 20230525/d/dask-cuda/23.6.0a230524-23.6.0a230525/diff.md --exclude *.pyd
+[2023-05-25 15:30:35] INFO root fetch - processPackages [agilicus]: Downloading https://files.pythonhosted.org/packages/41/da/b6c1919e19d168ad8df708f8342d24fcacee5ed407dbe84106c4e40a5030/agilicus-1.98.9.tar.gz
+[2023-05-25 15:30:35] INFO root fetch - processPackages [imio.smartweb.core]: executing diffoscope
+[2023-05-25 15:30:35] INFO root fetch - processPackages [imio.smartweb.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.smartweb.core-1.1.8.tar.gz tmp/imio.smartweb.core-1.1.9.tar.gz --markdown 20230525/i/imio.smartweb.core/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-25 15:30:35] INFO root fetch - processPackages [lacuscore]: executing diffoscope
+[2023-05-25 15:30:35] INFO root fetch - processPackages [lacuscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lacuscore-1.4.8.tar.gz tmp/lacuscore-1.4.9.tar.gz --markdown 20230525/l/lacuscore/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-05-25 15:30:35] INFO root fetch - processPackages [runpod]: Downloading https://files.pythonhosted.org/packages/e9/f2/4a673681aa4a4b97f410e58578db97b7ed000f6f75c54ea823143f095587/runpod-0.9.9.tar.gz
+[2023-05-25 15:30:35] INFO root fetch - processPackages [laboneq]: Downloading https://files.pythonhosted.org/packages/9a/ff/9fbf2cb2251e7009cd6a0ee1d9923653220e785146f4766355d6b78572e1/laboneq-2.7.0-py3-none-any.whl
+[2023-05-25 15:30:35] INFO root fetch - processPackages [numba-kdtree]: Downloading https://files.pythonhosted.org/packages/ab/5a/48c041f1b121ef87b99646c032b7a56efc6eeb530e9fe7480a24abbd472f/numba_kdtree-0.1.8-cp39-cp39-win_amd64.whl
+[2023-05-25 15:30:35] INFO root fetch - processPackages [runpod]: executing diffoscope
+[2023-05-25 15:30:35] INFO root fetch - processPackages [runpod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runpod-0.9.8.tar.gz tmp/runpod-0.9.9.tar.gz --markdown 20230525/r/runpod/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-25 15:30:36] INFO root fetch - processPackages [laboneq]: executing diffoscope
+[2023-05-25 15:30:36] INFO root fetch - processPackages [laboneq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laboneq-2.6.0-py3-none-any.whl.zip tmp/laboneq-2.7.0-py3-none-any.whl.zip --markdown 20230525/l/laboneq/2.6.0-2.7.0/diff.md --exclude *.pyd
+[2023-05-25 15:30:36] INFO root fetch - processPackages [agilicus]: Downloading https://files.pythonhosted.org/packages/1d/c0/a470c20345840f34b91ac339854052d1b8397fa5b281f8a824d9f303cf77/agilicus-1.99.0.tar.gz
+[2023-05-25 15:30:36] INFO root fetch - processPackages [numba-kdtree]: executing diffoscope
+[2023-05-25 15:30:36] INFO root fetch - processPackages [numba-kdtree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numba-kdtree-0.1.7.tar.gz tmp/numba_kdtree-0.1.8-cp39-cp39-win_amd64.whl.zip --markdown 20230525/n/numba-kdtree/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-25 15:30:36] INFO root fetch - processPackages [camminapy]: Start processing: openepd
+[2023-05-25 15:30:36] INFO root fetch - main [MainThread]: End processing [camminapy]: success
+[2023-05-25 15:30:36] INFO root fetch - processPackages [openepd]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-25 15:30:36] INFO root fetch - processPackages [agilicus]: executing diffoscope
+[2023-05-25 15:30:36] INFO root fetch - processPackages [agilicus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agilicus-1.98.9.tar.gz tmp/agilicus-1.99.0.tar.gz --markdown 20230525/a/agilicus/1.98.9-1.99.0/diff.md --exclude *.pyd
+[2023-05-25 15:30:37] INFO root fetch - processPackages [eFatura]: Start processing: elefantolib-fastapi
+[2023-05-25 15:30:37] INFO root fetch - main [MainThread]: End processing [eFatura]: success
+[2023-05-25 15:30:37] INFO root fetch - processPackages [openepd]: Downloading https://files.pythonhosted.org/packages/34/0a/9324895cd4889ca7985823e15366bd4918d6ce7d4566d9f64cd1fe09ac28/openepd-0.1.2.tar.gz
+[2023-05-25 15:30:37] INFO root fetch - processPackages [elefantolib-fastapi]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-25 15:30:37] INFO root fetch - processPackages [camminapy]: Start processing: wagtail
+[2023-05-25 15:30:37] INFO root fetch - main [MainThread]: End processing [camminapy]: success
+[2023-05-25 15:30:37] INFO root fetch - processPackages [openepd]: executing diffoscope
+[2023-05-25 15:30:37] INFO root fetch - processPackages [openepd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openepd-0.1.1.tar.gz tmp/openepd-0.1.2.tar.gz --markdown 20230525/o/openepd/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-25 15:30:37] INFO root fetch - processPackages [wagtail]: New version: [5.0rc1] Old Version: [5.0]
+[2023-05-25 15:30:37] INFO root fetch - processPackages [wagtail]: executing diffoscope
+[2023-05-25 15:30:37] INFO root fetch - processPackages [wagtail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail-5.0.tar.gz tmp/wagtail-5.0rc1.tar.gz --markdown 20230525/w/wagtail/5.0-5.0rc1/diff.md --exclude *.pyd
+[2023-05-25 15:30:37] INFO root fetch - processPackages [lacuscore]: Start processing: yamal
+[2023-05-25 15:30:37] INFO root fetch - main [MainThread]: End processing [lacuscore]: success
+[2023-05-25 15:30:37] INFO root fetch - processPackages [elefantolib-fastapi]: Downloading https://files.pythonhosted.org/packages/00/cb/f9baa868055a40043bbe4098699fb630c2620f09e89423ff51025c8184c1/elefantolib_fastapi-0.3.2.tar.gz
+[2023-05-25 15:30:37] INFO root fetch - processPackages [elefantolib-fastapi]: executing diffoscope
+[2023-05-25 15:30:37] INFO root fetch - processPackages [elefantolib-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elefantolib_fastapi-0.3.1.tar.gz tmp/elefantolib_fastapi-0.3.2.tar.gz --markdown 20230525/e/elefantolib-fastapi/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-25 15:30:37] INFO root fetch - processPackages [yamal]: New version: [7.2.9] Old Version: [7.2.35]
+[2023-05-25 15:30:37] INFO root fetch - processPackages [dask-cuda]: Start processing: sensi
+[2023-05-25 15:30:37] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-05-25 15:30:37] INFO root fetch - processPackages [sensi]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-25 15:30:37] INFO root fetch - processPackages [yamal]: Downloading https://files.pythonhosted.org/packages/32/86/79d180a9b5da842e2657cfdb545086864a27d41a7759fdd0f323c9acf6c8/yamal-7.2.35-py3-none-manylinux_2_17_x86_64.whl
+[2023-05-25 15:30:37] WARNING root fetch - processPackages [yamal]: Skipping package: exceeds size limit 11401798>=10485760
+[2023-05-25 15:30:37] INFO root fetch - processPackages [yamal]: Start processing: camminapy
+[2023-05-25 15:30:37] INFO root fetch - main [MainThread]: End processing [yamal] error
+[2023-05-25 15:30:37] INFO root fetch - processPackages [camminapy]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-05-25 15:30:37] INFO root fetch - processPackages [sensi]: Downloading https://files.pythonhosted.org/packages/a1/49/eea0c3f0be9d5cc3d7615cf443a6ce1b7136472c229a2bb141f03d6de964/sensi-1.0.7.tar.gz
+[2023-05-25 15:30:38] WARNING root fetch - processPackages [sensi]: Skipping package: exceeds size limit 29438983>=10485760
+[2023-05-25 15:30:38] INFO root fetch - processPackages [sensi]: Start processing: jsonpath-rust-py
+[2023-05-25 15:30:38] INFO root fetch - main [MainThread]: End processing [sensi] error
+[2023-05-25 15:30:38] INFO root fetch - main [MainThread]: End processing [runpod]: success
+[2023-05-25 15:30:38] INFO root fetch - processPackages [camminapy]: Downloading https://files.pythonhosted.org/packages/dc/cb/9f9486ca09f861d2d8ef8e9ef29e496c0c35a483d5c37795aa05e1ded5f6/camminapy-0.9.7.tar.gz
+[2023-05-25 15:30:38] INFO root fetch - processPackages [jsonpath-rust-py]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-25 15:30:38] INFO root fetch - main [MainThread]: End processing [numba-kdtree]: success
+[2023-05-25 15:30:38] INFO root fetch - processPackages [jsonpath-rust-py]: Downloading https://files.pythonhosted.org/packages/2b/6f/9761d3a7cc79eb204a16dc43a3543186a8d014e20d61856b9eabcaab45f9/jsonpath_rust_py-0.3.2.tar.gz
+[2023-05-25 15:30:38] INFO root fetch - processPackages [camminapy]: Downloading https://files.pythonhosted.org/packages/67/37/ad7e2d1643fb2b068d8c60db20056ca847179e98b791b7c880da17d94c5e/camminapy-0.9.8.tar.gz
+[2023-05-25 15:30:38] INFO root fetch - processPackages [camminapy]: executing diffoscope
+[2023-05-25 15:30:38] INFO root fetch - processPackages [camminapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camminapy-0.9.7.tar.gz tmp/camminapy-0.9.8.tar.gz --markdown 20230525/c/camminapy/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-05-25 15:30:38] INFO root fetch - processPackages [jsonpath-rust-py]: Downloading https://files.pythonhosted.org/packages/d4/01/5983a7a6aa3c46cdc2cfe8f156019c73fdc309c73fc2a6bcc1f99fd15fef/jsonpath_rust_py-0.3.3-cp310-cp310-macosx_11_0_arm64.whl
+[2023-05-25 15:30:38] INFO root fetch - main [MainThread]: End processing [openepd]: success
+[2023-05-25 15:30:39] INFO root fetch - processPackages [jsonpath-rust-py]: executing diffoscope
+[2023-05-25 15:30:39] INFO root fetch - processPackages [jsonpath-rust-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonpath_rust_py-0.3.2.tar.gz tmp/jsonpath_rust_py-0.3.3-cp310-cp310-macosx_11_0_arm64.whl.zip --markdown 20230525/j/jsonpath-rust-py/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-25 15:30:39] INFO root fetch - main [MainThread]: End processing [elefantolib-fastapi]: success
+[2023-05-25 15:30:39] INFO root fetch - main [MainThread]: End processing [camminapy]: success
+[2023-05-25 15:30:39] INFO root fetch - main [MainThread]: End processing [laboneq]: success
+[2023-05-25 15:30:40] INFO root fetch - main [MainThread]: End processing [jsonpath-rust-py]: success
+[2023-05-25 15:30:45] INFO root fetch - main [MainThread]: End processing [imio.smartweb.core]: success
+[2023-05-25 15:31:03] ERROR root fetch - processPackages [agilicus]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+EOFError: EOF read where object expected
+
+[2023-05-25 15:31:03] INFO root fetch - main [MainThread]: End processing [agilicus] error
+[2023-05-25 15:33:37] ERROR root fetch - processPackages [wagtail]: Timeout during execution of pkgdiff
+[2023-05-25 15:33:37] INFO root fetch - main [MainThread]: End processing [wagtail] error
+[2023-05-25 15:33:37] INFO root fetch - main [MainThread]: Store serial: [18247335]
