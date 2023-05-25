@@ -10476,3 +10476,51 @@
 [2023-05-25 08:01:09] INFO root fetch - main [MainThread]: End processing [vector-vault]: success
 [2023-05-25 08:01:11] INFO root fetch - main [MainThread]: End processing [streamlit-reveal-slides]: success
 [2023-05-25 08:01:11] INFO root fetch - main [MainThread]: Store serial: [18242060]
+[2023-05-25 08:06:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18242060]
+[2023-05-25 08:06:21] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-25 08:06:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fmsne
+[2023-05-25 08:06:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apache-flink-libraries
+[2023-05-25 08:06:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seeFretboard
+[2023-05-25 08:06:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mona-openai
+[2023-05-25 08:06:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sberpm
+[2023-05-25 08:06:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dartrig
+[2023-05-25 08:06:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torch-ort
+[2023-05-25 08:06:21] INFO root fetch - processPackages [fmsne]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-05-25 08:06:22] INFO root fetch - processPackages [seeFretboard]: New version: [0.0.9.9] Old Version: [0.0.9.8]
+[2023-05-25 08:06:22] INFO root fetch - processPackages [apache-flink-libraries]: New version: [1.17.0] Old Version: [1.16.2]
+[2023-05-25 08:06:22] INFO root fetch - processPackages [mona-openai]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-25 08:06:22] INFO root fetch - processPackages [dartrig]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 08:06:22] INFO root fetch - processPackages [torch-ort]: New version: [1.9.0.dev20210923] Old Version: [1.9.0]
+[2023-05-25 08:06:22] INFO root fetch - processPackages [sberpm]: New version: [2.4.1] Old Version: [2.4.0]
+[2023-05-25 08:06:22] INFO root fetch - processPackages [apache-flink-libraries]: Downloading https://files.pythonhosted.org/packages/45/02/7e37ea947130d044c866653f442fdcf7c3532d7acbae25f4aa1d06e28b15/apache-flink-libraries-1.16.2.tar.gz
+[2023-05-25 08:06:22] INFO root fetch - processPackages [dartrig]: Downloading https://files.pythonhosted.org/packages/43/da/9dfeedde2a75f742837adf56a5003ede9895f5d4ca196d2ebcf10947fc56/dartrig-0.0.8.tar.gz
+[2023-05-25 08:06:22] INFO root fetch - processPackages [mona-openai]: Downloading https://files.pythonhosted.org/packages/42/1b/cad646fc4f77efd20c87f81b567bdf3dc733ac762494785d73171dbc8171/mona-openai-0.0.3.tar.gz
+[2023-05-25 08:06:22] WARNING root fetch - processPackages [apache-flink-libraries]: Skipping package: exceeds size limit 236911968>=10485760
+[2023-05-25 08:06:22] INFO root fetch - main [MainThread]: End processing [apache-flink-libraries] error
+[2023-05-25 08:06:22] INFO root fetch - processPackages [sberpm]: Downloading https://files.pythonhosted.org/packages/a6/cf/c0fc1de7dd84db16ac77c44b173b808db898c27265daa6650c9e10be82d1/sberpm-2.4.0.tar.gz
+[2023-05-25 08:06:22] INFO root fetch - processPackages [torch-ort]: Downloading https://files.pythonhosted.org/packages/bf/77/985736e337c2e628ca1637751c9adc28f988cbdc5904982ba509e0fbf3c6/torch_ort-1.9.0-py3-none-any.whl
+[2023-05-25 08:06:22] INFO root fetch - processPackages [fmsne]: Downloading https://files.pythonhosted.org/packages/c0/cc/5142b31be1d82b0643e8c7afbe7a6d4dc6eecbb1da815be49d780399d0f1/fmsne-0.6.4.tar.gz
+[2023-05-25 08:06:22] INFO root fetch - processPackages [seeFretboard]: Downloading https://files.pythonhosted.org/packages/e8/63/24a2cdcc879f1b88886dd233dfa6a24a75ac1294b1f0b5f6fe356a4ee44a/seeFretboard-0.0.9.9.tar.gz
+[2023-05-25 08:06:22] INFO root fetch - processPackages [fmsne]: executing diffoscope
+[2023-05-25 08:06:22] INFO root fetch - processPackages [fmsne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fmsne-0.6.3.tar.gz tmp/fmsne-0.6.4.tar.gz --markdown 20230525/f/fmsne/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-05-25 08:06:22] INFO root fetch - processPackages [mona-openai]: Downloading https://files.pythonhosted.org/packages/ea/0b/e22b22a4e2cfa85392c2a68bf9ad33505341ac07d666c64ba3c4de3b5bad/mona-openai-0.0.4.tar.gz
+[2023-05-25 08:06:22] INFO root fetch - processPackages [seeFretboard]: executing diffoscope
+[2023-05-25 08:06:22] INFO root fetch - processPackages [seeFretboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seeFretboard-0.0.9.8.tar.gz tmp/seeFretboard-0.0.9.9.tar.gz --markdown 20230525/s/seeFretboard/0.0.9.8-0.0.9.9/diff.md --exclude *.pyd
+[2023-05-25 08:06:22] INFO root fetch - processPackages [torch-ort]: Downloading https://files.pythonhosted.org/packages/2b/8a/cbe2edd89fac36fb39ef80fae6d69520afde25ee18cb7438461ad05c5351/torch_ort-1.9.0.dev20210923-py3-none-any.whl
+[2023-05-25 08:06:22] INFO root fetch - processPackages [mona-openai]: executing diffoscope
+[2023-05-25 08:06:22] INFO root fetch - processPackages [mona-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mona-openai-0.0.3.tar.gz tmp/mona-openai-0.0.4.tar.gz --markdown 20230525/m/mona-openai/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-25 08:06:22] INFO root fetch - processPackages [sberpm]: Downloading https://files.pythonhosted.org/packages/b0/8c/df35b0c790ef84a2f3c73ed4c2073fceb8801d0906edc47d7e73bda2285b/sberpm-2.4.1.tar.gz
+[2023-05-25 08:06:22] INFO root fetch - processPackages [torch-ort]: executing diffoscope
+[2023-05-25 08:06:22] INFO root fetch - processPackages [torch-ort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_ort-1.9.0-py3-none-any.whl.zip tmp/torch_ort-1.9.0.dev20210923-py3-none-any.whl.zip --markdown 20230525/t/torch-ort/1.9.0-1.9.0.dev20210923/diff.md --exclude *.pyd
+[2023-05-25 08:06:22] INFO root fetch - processPackages [sberpm]: executing diffoscope
+[2023-05-25 08:06:22] INFO root fetch - processPackages [sberpm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sberpm-2.4.0.tar.gz tmp/sberpm-2.4.1.tar.gz --markdown 20230525/s/sberpm/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2023-05-25 08:06:23] INFO root fetch - processPackages [dartrig]: Downloading https://files.pythonhosted.org/packages/27/73/33d17b9050b319eebb3172a5fb99ba8496ab062bff38d78828024c75d246/dartrig-0.0.9.tar.gz
+[2023-05-25 08:06:23] INFO root fetch - processPackages [dartrig]: executing diffoscope
+[2023-05-25 08:06:23] INFO root fetch - processPackages [dartrig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dartrig-0.0.8.tar.gz tmp/dartrig-0.0.9.tar.gz --markdown 20230525/d/dartrig/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 08:06:23] INFO root fetch - main [MainThread]: End processing [mona-openai]: success
+[2023-05-25 08:06:24] INFO root fetch - main [MainThread]: End processing [torch-ort]: success
+[2023-05-25 08:06:24] INFO root fetch - main [MainThread]: End processing [dartrig]: success
+[2023-05-25 08:06:25] INFO root fetch - main [MainThread]: End processing [fmsne]: success
+[2023-05-25 08:06:26] INFO root fetch - main [MainThread]: End processing [sberpm]: success
+[2023-05-25 08:06:30] INFO root fetch - main [MainThread]: End processing [seeFretboard]: success
+[2023-05-25 08:06:30] INFO root fetch - main [MainThread]: Store serial: [18242079]
