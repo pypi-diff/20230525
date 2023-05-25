@@ -21488,3 +21488,99 @@ EOFError: EOF read where object expected
 [2023-05-25 16:53:01] INFO root fetch - main [MainThread]: End processing [pyviewer]: success
 [2023-05-25 16:53:02] INFO root fetch - main [MainThread]: End processing [design.plone.contenttypes]: success
 [2023-05-25 16:53:02] INFO root fetch - main [MainThread]: Store serial: [18248585]
+[2023-05-25 16:58:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18248585]
+[2023-05-25 16:58:12] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-25 16:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: outlines
+[2023-05-25 16:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: isoCycle
+[2023-05-25 16:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jadecobra
+[2023-05-25 16:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dve-lumipy-preview
+[2023-05-25 16:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: macrometa-source-bigquery
+[2023-05-25 16:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: picosvg
+[2023-05-25 16:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: asyncdb
+[2023-05-25 16:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: UComp
+[2023-05-25 16:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vigilant-kit
+[2023-05-25 16:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: idf-component-manager
+[2023-05-25 16:58:12] INFO root fetch - processPackages [isoCycle]: New version: [0.0.44] Old Version: [0.0.43]
+[2023-05-25 16:58:12] WARNING root fetch - processPackages [UComp]: Skipping, unable to determine old version
+[2023-05-25 16:58:12] INFO root fetch - processPackages [UComp]: Start processing: elefantolib-fastapi
+[2023-05-25 16:58:12] INFO root fetch - main [MainThread]: End processing [UComp] error
+[2023-05-25 16:58:12] INFO root fetch - processPackages [dve-lumipy-preview]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-25 16:58:12] INFO root fetch - processPackages [jadecobra]: New version: [0.3.72] Old Version: [0.3.71]
+[2023-05-25 16:58:12] INFO root fetch - processPackages [dve-lumipy-preview]: executing diffoscope
+[2023-05-25 16:58:12] INFO root fetch - processPackages [dve-lumipy-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_preview-0.1.98-py3-none-any.whl.zip tmp/dve_lumipy_preview-0.1.99-py3-none-any.whl.zip --markdown 20230525/d/dve-lumipy-preview/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-25 16:58:12] INFO root fetch - processPackages [outlines]: New version: [0.1.dev0] Old Version: [0.0.2]
+[2023-05-25 16:58:12] INFO root fetch - processPackages [picosvg]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-25 16:58:12] INFO root fetch - processPackages [idf-component-manager]: New version: [1.3.0.dev0] Old Version: [1.2.3]
+[2023-05-25 16:58:12] INFO root fetch - processPackages [vigilant-kit]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-05-25 16:58:12] INFO root fetch - processPackages [macrometa-source-bigquery]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 16:58:13] INFO root fetch - processPackages [elefantolib-fastapi]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-25 16:58:13] INFO root fetch - processPackages [asyncdb]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-05-25 16:58:13] INFO root fetch - processPackages [jadecobra]: executing diffoscope
+[2023-05-25 16:58:13] INFO root fetch - processPackages [jadecobra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jadecobra-0.3.71.tar.gz tmp/jadecobra-0.3.72.tar.gz --markdown 20230525/j/jadecobra/0.3.71-0.3.72/diff.md --exclude *.pyd
+[2023-05-25 16:58:13] INFO root fetch - processPackages [isoCycle]: Downloading https://files.pythonhosted.org/packages/3e/8e/3e70b25f467ac65855f55b1569c40099d6e7b8802b0cc8cd2a6df224405f/isoCycle-0.0.43.tar.gz
+[2023-05-25 16:58:13] WARNING root fetch - processPackages [isoCycle]: Skipping package: exceeds size limit 18272877>=10485760
+[2023-05-25 16:58:13] INFO root fetch - processPackages [isoCycle]: Start processing: looseversion
+[2023-05-25 16:58:13] INFO root fetch - main [MainThread]: End processing [isoCycle] error
+[2023-05-25 16:58:13] INFO root fetch - processPackages [outlines]: Downloading https://files.pythonhosted.org/packages/5e/ba/3640164db9b5f5e3811c054c1bbf350735c6856f10141032bf756cab22c7/outlines-0.0.2.tar.gz
+[2023-05-25 16:58:13] INFO root fetch - processPackages [idf-component-manager]: Downloading https://files.pythonhosted.org/packages/49/8b/bb27622cf6aea319b6a975d0d491184033cdfdd3f39ad8b294003d345c35/idf_component_manager-1.2.3.tar.gz
+[2023-05-25 16:58:13] INFO root fetch - processPackages [vigilant-kit]: Downloading https://files.pythonhosted.org/packages/4f/0f/fcd9153184382c573b1aae29edf734d7c2cfd49e08e6da7e5693d475d266/vigilant_kit-1.2.5.tar.gz
+[2023-05-25 16:58:13] INFO root fetch - processPackages [picosvg]: Downloading https://files.pythonhosted.org/packages/92/b2/6cf5399c5b817a9307abf3ace2c3e937fce4f97c5e968de534fed69f151a/picosvg-0.9.0.tar.gz
+[2023-05-25 16:58:13] INFO root fetch - processPackages [macrometa-source-bigquery]: Downloading https://files.pythonhosted.org/packages/7e/66/c235a1cd533908f2edac0e4d0511bed2089d03ae9c5041f2099f6a896885/macrometa-source-bigquery-0.0.8.tar.gz
+[2023-05-25 16:58:13] INFO root fetch - processPackages [elefantolib-fastapi]: Downloading https://files.pythonhosted.org/packages/5f/32/69fdd0b075da8bc6e7fbff705af8444e940858c2b646a81cd35697fb6dbf/elefantolib_fastapi-0.3.3.tar.gz
+[2023-05-25 16:58:13] INFO root fetch - processPackages [asyncdb]: Downloading https://files.pythonhosted.org/packages/4d/d2/db307a57827ae3ea9368c010563ce07f14311752fdfbc1a67047d34eb6c3/asyncdb-2.2.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-25 16:58:13] INFO root fetch - processPackages [looseversion]: New version: [1.2.0] Old Version: [1.1.2]
+[2023-05-25 16:58:13] INFO root fetch - processPackages [elefantolib-fastapi]: executing diffoscope
+[2023-05-25 16:58:13] INFO root fetch - processPackages [elefantolib-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elefantolib_fastapi-0.3.2.tar.gz tmp/elefantolib_fastapi-0.3.3.tar.gz --markdown 20230525/e/elefantolib-fastapi/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-25 16:58:13] INFO root fetch - processPackages [idf-component-manager]: Downloading https://files.pythonhosted.org/packages/bd/74/9146df11cfb59cc3034487500a65e7a2bfe3abf1b2ca92d5ec98d20cde96/idf_component_manager-1.3.0.dev0.tar.gz
+[2023-05-25 16:58:13] INFO root fetch - processPackages [looseversion]: Downloading https://files.pythonhosted.org/packages/70/3b/a9a0f6067609a2db173ac3b0c5ec18a91512a49dcd71f0ec01f5298a37f8/looseversion-1.1.2.tar.gz
+[2023-05-25 16:58:13] INFO root fetch - processPackages [outlines]: Downloading https://files.pythonhosted.org/packages/3d/3e/193c40a8341100112fa91f6252f05e70b1cb0946ccad9863e64b17831234/outlines-0.1.dev0.tar.gz
+[2023-05-25 16:58:13] INFO root fetch - processPackages [vigilant-kit]: Downloading https://files.pythonhosted.org/packages/b3/ce/9ff7b80164226ee7ccf07ef788bca2591162aa53541ee381e9c7dbb0aee8/vigilant_kit-1.2.6.tar.gz
+[2023-05-25 16:58:13] INFO root fetch - processPackages [macrometa-source-bigquery]: Downloading https://files.pythonhosted.org/packages/af/fa/3ef99a2aa85c6350305cb6913216f9f253824112a62dc842e960f33863bd/macrometa-source-bigquery-0.0.9.tar.gz
+[2023-05-25 16:58:13] INFO root fetch - processPackages [picosvg]: Downloading https://files.pythonhosted.org/packages/63/de/f6167c631c082c0e214f9ba05f1541d22a557e11ca08518290d79df62052/picosvg-0.9.1.tar.gz
+[2023-05-25 16:58:13] INFO root fetch - processPackages [vigilant-kit]: executing diffoscope
+[2023-05-25 16:58:13] INFO root fetch - processPackages [vigilant-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vigilant_kit-1.2.5.tar.gz tmp/vigilant_kit-1.2.6.tar.gz --markdown 20230525/v/vigilant-kit/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-05-25 16:58:13] INFO root fetch - processPackages [asyncdb]: Downloading https://files.pythonhosted.org/packages/39/b8/deb66295da3a49d7305810f8a13f5b917540be4441b4635a54af270a963b/asyncdb-2.2.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-25 16:58:13] INFO root fetch - processPackages [picosvg]: executing diffoscope
+[2023-05-25 16:58:13] INFO root fetch - processPackages [picosvg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picosvg-0.9.0.tar.gz tmp/picosvg-0.9.1.tar.gz --markdown 20230525/p/picosvg/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-25 16:58:13] INFO root fetch - processPackages [outlines]: executing diffoscope
+[2023-05-25 16:58:13] INFO root fetch - processPackages [outlines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/outlines-0.0.2.tar.gz tmp/outlines-0.1.dev0.tar.gz --markdown 20230525/o/outlines/0.0.2-0.1.dev0/diff.md --exclude *.pyd
+[2023-05-25 16:58:13] INFO root fetch - processPackages [idf-component-manager]: executing diffoscope
+[2023-05-25 16:58:13] INFO root fetch - processPackages [idf-component-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idf_component_manager-1.2.3.tar.gz tmp/idf_component_manager-1.3.0.dev0.tar.gz --markdown 20230525/i/idf-component-manager/1.2.3-1.3.0.dev0/diff.md --exclude *.pyd
+[2023-05-25 16:58:13] INFO root fetch - processPackages [macrometa-source-bigquery]: executing diffoscope
+[2023-05-25 16:58:13] INFO root fetch - processPackages [macrometa-source-bigquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-bigquery-0.0.8.tar.gz tmp/macrometa-source-bigquery-0.0.9.tar.gz --markdown 20230525/m/macrometa-source-bigquery/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 16:58:13] INFO root fetch - processPackages [asyncdb]: executing diffoscope
+[2023-05-25 16:58:13] INFO root fetch - processPackages [asyncdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncdb-2.2.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/asyncdb-2.2.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230525/a/asyncdb/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-05-25 16:58:13] INFO root fetch - processPackages [looseversion]: Downloading https://files.pythonhosted.org/packages/93/53/af554b7725653bfe62fdbbb240b83753f0d14f80d7ee14fc6f9197ee9e52/looseversion-1.2.0.tar.gz
+[2023-05-25 16:58:13] INFO root fetch - processPackages [looseversion]: executing diffoscope
+[2023-05-25 16:58:13] INFO root fetch - processPackages [looseversion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/looseversion-1.1.2.tar.gz tmp/looseversion-1.2.0.tar.gz --markdown 20230525/l/looseversion/1.1.2-1.2.0/diff.md --exclude *.pyd
+[2023-05-25 16:58:14] INFO root fetch - processPackages [jadecobra]: Start processing: netbox-cisco-maintenance
+[2023-05-25 16:58:14] INFO root fetch - main [MainThread]: End processing [jadecobra]: success
+[2023-05-25 16:58:14] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 16:58:14] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-05-25 16:58:14] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.8.tar.gz tmp/netbox-cisco-maintenance-0.0.9.tar.gz --markdown 20230525/n/netbox-cisco-maintenance/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 16:58:14] INFO root fetch - processPackages [elefantolib-fastapi]: Start processing: elgin
+[2023-05-25 16:58:14] INFO root fetch - main [MainThread]: End processing [elefantolib-fastapi]: success
+[2023-05-25 16:58:15] INFO root fetch - processPackages [dve-lumipy-preview]: Start processing: valmi-connector-lib
+[2023-05-25 16:58:15] INFO root fetch - main [MainThread]: End processing [dve-lumipy-preview]: success
+[2023-05-25 16:58:15] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-25 16:58:15] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2023-05-25 16:58:15] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.8.tar.gz tmp/valmi_connector_lib-0.1.9.tar.gz --markdown 20230525/v/valmi-connector-lib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-25 16:58:15] INFO root fetch - processPackages [outlines]: Start processing: influxql-client
+[2023-05-25 16:58:15] INFO root fetch - main [MainThread]: End processing [outlines]: success
+[2023-05-25 16:58:15] INFO root fetch - processPackages [influxql-client]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-25 16:58:15] INFO root fetch - main [MainThread]: End processing [vigilant-kit]: success
+[2023-05-25 16:58:15] INFO root fetch - main [MainThread]: End processing [picosvg]: success
+[2023-05-25 16:58:15] INFO root fetch - processPackages [influxql-client]: Downloading https://files.pythonhosted.org/packages/a5/d1/37619f2df026cbbf3d02c9ba871f6bf2b6669ffb385161bc837bd4222700/influxql_client-0.0.1.tar.gz
+[2023-05-25 16:58:15] INFO root fetch - main [MainThread]: End processing [looseversion]: success
+[2023-05-25 16:58:16] INFO root fetch - processPackages [influxql-client]: Downloading https://files.pythonhosted.org/packages/70/d2/db205363f3c9984404b7cf4505ec17290b42c7950782d0c8fed02607eaec/influxql_client-0.0.2.tar.gz
+[2023-05-25 16:58:16] INFO root fetch - main [MainThread]: End processing [asyncdb]: success
+[2023-05-25 16:58:16] INFO root fetch - main [MainThread]: End processing [macrometa-source-bigquery]: success
+[2023-05-25 16:58:16] INFO root fetch - processPackages [influxql-client]: executing diffoscope
+[2023-05-25 16:58:16] INFO root fetch - processPackages [influxql-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/influxql_client-0.0.1.tar.gz tmp/influxql_client-0.0.2.tar.gz --markdown 20230525/i/influxql-client/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-25 16:58:16] ERROR root fetch - processPackages [elgin]: Unable to get metadata: No such project 'elgin'
+[2023-05-25 16:58:16] INFO root fetch - main [MainThread]: End processing [elgin] error
+[2023-05-25 16:58:16] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-05-25 16:58:16] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2023-05-25 16:58:16] INFO root fetch - main [MainThread]: End processing [idf-component-manager]: success
+[2023-05-25 16:58:17] INFO root fetch - main [MainThread]: End processing [influxql-client]: success
+[2023-05-25 16:58:17] INFO root fetch - main [MainThread]: Store serial: [18248637]
