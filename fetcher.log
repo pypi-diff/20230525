@@ -11501,3 +11501,79 @@
 [2023-05-25 09:23:09] INFO root fetch - main [MainThread]: End processing [opentf-toolkit]: success
 [2023-05-25 09:23:17] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2023-05-25 09:23:17] INFO root fetch - main [MainThread]: Store serial: [18242684]
+[2023-05-25 09:28:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18242684]
+[2023-05-25 09:28:26] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-25 09:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: paradigm
+[2023-05-25 09:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shioaji
+[2023-05-25 09:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydoftools
+[2023-05-25 09:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: i3a
+[2023-05-25 09:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aioairzone-cloud
+[2023-05-25 09:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pypendency
+[2023-05-25 09:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: netbox-cisco-maintenance
+[2023-05-25 09:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: salesea
+[2023-05-25 09:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flybirds
+[2023-05-25 09:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: phylo-treetime
+[2023-05-25 09:28:26] INFO root fetch - processPackages [paradigm]: New version: [4.1.0] Old Version: [4.0.1]
+[2023-05-25 09:28:26] INFO root fetch - processPackages [aioairzone-cloud]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-25 09:28:26] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 09:28:26] INFO root fetch - processPackages [salesea]: New version: [1.0.19] Old Version: [1.0.18]
+[2023-05-25 09:28:26] INFO root fetch - processPackages [pypendency]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-25 09:28:26] WARNING root fetch - processPackages [pydoftools]: Skipping, unable to determine old version
+[2023-05-25 09:28:26] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-05-25 09:28:26] INFO root fetch - processPackages [pydoftools]: Start processing: PVNet
+[2023-05-25 09:28:26] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.8.tar.gz tmp/netbox-cisco-maintenance-0.0.9.tar.gz --markdown 20230525/n/netbox-cisco-maintenance/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 09:28:26] INFO root fetch - main [MainThread]: End processing [pydoftools] error
+[2023-05-25 09:28:26] INFO root fetch - processPackages [i3a]: New version: [2.1.0] Old Version: [2.0.2]
+[2023-05-25 09:28:26] INFO root fetch - processPackages [flybirds]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-05-25 09:28:26] INFO root fetch - processPackages [phylo-treetime]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-25 09:28:26] INFO root fetch - processPackages [PVNet]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 09:28:26] INFO root fetch - processPackages [shioaji]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-05-25 09:28:26] INFO root fetch - processPackages [paradigm]: Downloading https://files.pythonhosted.org/packages/d2/be/d20c5e12d9d857c3ff7ba4c5566fe677da9c92b3b3ecaf88bc5fd33543d4/paradigm-4.1.0.tar.gz
+[2023-05-25 09:28:26] INFO root fetch - processPackages [aioairzone-cloud]: Downloading https://files.pythonhosted.org/packages/71/f4/7ae9abaa947db7dd3891cf7a87edf781c99e964c32a42a9d5a90ce86b790/aioairzone-cloud-0.1.4.tar.gz
+[2023-05-25 09:28:26] INFO root fetch - processPackages [salesea]: Downloading https://files.pythonhosted.org/packages/27/c6/cbcb824b52e1756fea3c97249b76960b7cfde36b39adea82e1cc03f61c41/salesea-1.0.18.tar.gz
+[2023-05-25 09:28:26] INFO root fetch - processPackages [PVNet]: executing diffoscope
+[2023-05-25 09:28:26] INFO root fetch - processPackages [PVNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PVNet-0.0.8.tar.gz tmp/PVNet-0.0.9.tar.gz --markdown 20230525/P/PVNet/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 09:28:26] INFO root fetch - processPackages [pypendency]: Downloading https://files.pythonhosted.org/packages/97/54/c1cc32083e86b5b8ac3384dd8277bf5c8ab7509078e8914664845a39d265/pypendency-0.3.0.tar.gz
+[2023-05-25 09:28:26] INFO root fetch - processPackages [aioairzone-cloud]: executing diffoscope
+[2023-05-25 09:28:26] INFO root fetch - processPackages [aioairzone-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioairzone-cloud-0.1.3.tar.gz tmp/aioairzone-cloud-0.1.4.tar.gz --markdown 20230525/a/aioairzone-cloud/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-25 09:28:26] INFO root fetch - processPackages [i3a]: Downloading https://files.pythonhosted.org/packages/8f/4d/2093adfb50e045c355785282d3c7a676c46acf8926a82f7914b29bbec62d/i3a-2.0.2-py3-none-any.whl
+[2023-05-25 09:28:26] INFO root fetch - processPackages [phylo-treetime]: Downloading https://files.pythonhosted.org/packages/ea/bd/acefc9304c312e1b3ad9d6015d104ce7d683c6090ba01111ce67dd739ddf/phylo-treetime-0.9.5.tar.gz
+[2023-05-25 09:28:26] INFO root fetch - processPackages [shioaji]: Downloading https://files.pythonhosted.org/packages/e2/e6/cc1f1b0932f74e5946392807a5a0ab91dfda4a81178bc2ca246b33678a47/shioaji-1.1.3-cp39-cp39-win_amd64.whl
+[2023-05-25 09:28:26] INFO root fetch - processPackages [paradigm]: executing diffoscope
+[2023-05-25 09:28:26] INFO root fetch - processPackages [paradigm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paradigm-4.0.1.tar.gz tmp/paradigm-4.1.0.tar.gz --markdown 20230525/p/paradigm/4.0.1-4.1.0/diff.md --exclude *.pyd
+[2023-05-25 09:28:27] INFO root fetch - processPackages [flybirds]: Downloading https://files.pythonhosted.org/packages/72/3b/b39c30edcf01ed02ec7693fee44dca4ab577c44d5521dcf472e22328cbae/flybirds-0.5.8.tar.gz
+[2023-05-25 09:28:27] INFO root fetch - processPackages [pypendency]: Downloading https://files.pythonhosted.org/packages/56/ca/2bfb6c86d0586b6c9f4d9a3d0085aa32c34ab6efa597105f1287e1ea89db/pypendency-0.4.0.tar.gz
+[2023-05-25 09:28:27] INFO root fetch - processPackages [i3a]: Downloading https://files.pythonhosted.org/packages/04/19/e5d20252517d217118d618b7704d7115d1e4515b9b5d0d72a0e1599d343c/i3a-2.1.0.tar.gz
+[2023-05-25 09:28:27] INFO root fetch - processPackages [salesea]: Downloading https://files.pythonhosted.org/packages/76/f7/9616ab8cdd628cb9e1c0af7b04759213982667244c6c010254c43e6ae7da/salesea-1.0.19.tar.gz
+[2023-05-25 09:28:27] INFO root fetch - processPackages [pypendency]: executing diffoscope
+[2023-05-25 09:28:27] INFO root fetch - processPackages [pypendency]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypendency-0.3.0.tar.gz tmp/pypendency-0.4.0.tar.gz --markdown 20230525/p/pypendency/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-25 09:28:27] INFO root fetch - processPackages [salesea]: executing diffoscope
+[2023-05-25 09:28:27] INFO root fetch - processPackages [salesea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salesea-1.0.18.tar.gz tmp/salesea-1.0.19.tar.gz --markdown 20230525/s/salesea/1.0.18-1.0.19/diff.md --exclude *.pyd
+[2023-05-25 09:28:27] INFO root fetch - processPackages [i3a]: executing diffoscope
+[2023-05-25 09:28:27] INFO root fetch - processPackages [i3a]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i3a-2.0.2-py3-none-any.whl.zip tmp/i3a-2.1.0.tar.gz --markdown 20230525/i/i3a/2.0.2-2.1.0/diff.md --exclude *.pyd
+[2023-05-25 09:28:27] INFO root fetch - processPackages [flybirds]: executing diffoscope
+[2023-05-25 09:28:27] INFO root fetch - processPackages [flybirds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flybirds-0.5.7.tar.gz tmp/flybirds-0.5.8.tar.gz --markdown 20230525/f/flybirds/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-05-25 09:28:27] INFO root fetch - processPackages [phylo-treetime]: Downloading https://files.pythonhosted.org/packages/d1/8b/db9a33464169598797ef1027f1c13be489da62bd4d9040902af47644e300/phylo-treetime-0.9.6.tar.gz
+[2023-05-25 09:28:27] INFO root fetch - processPackages [phylo-treetime]: executing diffoscope
+[2023-05-25 09:28:27] INFO root fetch - processPackages [phylo-treetime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phylo-treetime-0.9.5.tar.gz tmp/phylo-treetime-0.9.6.tar.gz --markdown 20230525/p/phylo-treetime/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-25 09:28:28] INFO root fetch - processPackages [shioaji]: Downloading https://files.pythonhosted.org/packages/ae/4b/dbb32e7dcd707f6dbb40efe17c243b3a7a93a0709f45a04ff4bd948bcd9f/shioaji-1.1.4-cp39-cp39-win_amd64.whl
+[2023-05-25 09:28:28] INFO root fetch - processPackages [netbox-cisco-maintenance]: Start processing: dissect.cim
+[2023-05-25 09:28:28] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-05-25 09:28:28] INFO root fetch - processPackages [dissect.cim]: New version: [3.6.dev2] Old Version: [3.6.dev1]
+[2023-05-25 09:28:28] INFO root fetch - main [MainThread]: End processing [aioairzone-cloud]: success
+[2023-05-25 09:28:28] INFO root fetch - processPackages [dissect.cim]: Downloading https://files.pythonhosted.org/packages/df/e5/a8da2f31469de84f3a0aefe8e6901b468f82e6386dc38dc8ce4b82333585/dissect.cim-3.6.dev1.tar.gz
+[2023-05-25 09:28:28] INFO root fetch - processPackages [shioaji]: executing diffoscope
+[2023-05-25 09:28:28] INFO root fetch - processPackages [shioaji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shioaji-1.1.3-cp39-cp39-win_amd64.whl.zip tmp/shioaji-1.1.4-cp39-cp39-win_amd64.whl.zip --markdown 20230525/s/shioaji/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-05-25 09:28:28] INFO root fetch - main [MainThread]: End processing [paradigm]: success
+[2023-05-25 09:28:28] INFO root fetch - main [MainThread]: End processing [PVNet]: success
+[2023-05-25 09:28:28] INFO root fetch - main [MainThread]: End processing [i3a]: success
+[2023-05-25 09:28:28] INFO root fetch - main [MainThread]: End processing [pypendency]: success
+[2023-05-25 09:28:28] INFO root fetch - main [MainThread]: End processing [salesea]: success
+[2023-05-25 09:28:30] INFO root fetch - processPackages [dissect.cim]: Downloading https://files.pythonhosted.org/packages/2f/42/a13a305c4b36ea660813a788a4972d399edbd00a0d3abf03e7c7d36a5a23/dissect.cim-3.6.dev2.tar.gz
+[2023-05-25 09:28:30] INFO root fetch - main [MainThread]: End processing [shioaji]: success
+[2023-05-25 09:28:30] INFO root fetch - main [MainThread]: End processing [phylo-treetime]: success
+[2023-05-25 09:28:30] INFO root fetch - processPackages [dissect.cim]: executing diffoscope
+[2023-05-25 09:28:30] INFO root fetch - processPackages [dissect.cim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.cim-3.6.dev1.tar.gz tmp/dissect.cim-3.6.dev2.tar.gz --markdown 20230525/d/dissect.cim/3.6.dev1-3.6.dev2/diff.md --exclude *.pyd
+[2023-05-25 09:28:32] INFO root fetch - main [MainThread]: End processing [dissect.cim]: success
+[2023-05-25 09:28:57] INFO root fetch - main [MainThread]: End processing [flybirds]: success
+[2023-05-25 09:28:57] INFO root fetch - main [MainThread]: Store serial: [18242756]
