@@ -21133,3 +21133,102 @@ EOFError: EOF read where object expected
 [2023-05-25 16:36:00] INFO root fetch - main [MainThread]: End processing [dfmodule]: success
 [2023-05-25 16:36:01] INFO root fetch - main [MainThread]: End processing [reasoner-pydantic]: success
 [2023-05-25 16:36:01] INFO root fetch - main [MainThread]: Store serial: [18248340]
+[2023-05-25 16:41:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18248340]
+[2023-05-25 16:41:10] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-25 16:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: molgraph
+[2023-05-25 16:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: textbsr
+[2023-05-25 16:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: karrio.server
+[2023-05-25 16:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nci-cidc-cli
+[2023-05-25 16:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sgx-pck-extension
+[2023-05-25 16:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ydb
+[2023-05-25 16:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: graham-client
+[2023-05-25 16:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mkite-db
+[2023-05-25 16:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: appyratus
+[2023-05-25 16:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sarus
+[2023-05-25 16:41:10] WARNING root fetch - processPackages [sgx-pck-extension]: Skipping, unable to determine old version
+[2023-05-25 16:41:10] INFO root fetch - processPackages [sgx-pck-extension]: Start processing: libsql-client
+[2023-05-25 16:41:10] INFO root fetch - main [MainThread]: End processing [sgx-pck-extension] error
+[2023-05-25 16:41:10] WARNING root fetch - processPackages [appyratus]: Skipping, unable to determine old version
+[2023-05-25 16:41:10] INFO root fetch - processPackages [appyratus]: Start processing: pymodaq
+[2023-05-25 16:41:10] INFO root fetch - main [MainThread]: End processing [appyratus] error
+[2023-05-25 16:41:10] INFO root fetch - processPackages [libsql-client]: New version: [0.3.0rc0] Old Version: [0.2.2]
+[2023-05-25 16:41:10] INFO root fetch - processPackages [textbsr]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 16:41:10] WARNING root fetch - processPackages [graham-client]: Skipping, unable to determine old version
+[2023-05-25 16:41:10] INFO root fetch - processPackages [graham-client]: Start processing: pycliwrapper
+[2023-05-25 16:41:10] INFO root fetch - processPackages [ydb]: New version: [3.3.4] Old Version: [3.3.3]
+[2023-05-25 16:41:10] INFO root fetch - main [MainThread]: End processing [graham-client] error
+[2023-05-25 16:41:10] INFO root fetch - processPackages [mkite-db]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-25 16:41:10] INFO root fetch - processPackages [nci-cidc-cli]: New version: [0.10.3] Old Version: [0.10.2rc0]
+[2023-05-25 16:41:10] INFO root fetch - processPackages [libsql-client]: executing diffoscope
+[2023-05-25 16:41:10] INFO root fetch - processPackages [libsql-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libsql-client-0.2.2.tar.gz tmp/libsql_client-0.3.0rc0.tar.gz --markdown 20230525/l/libsql-client/0.2.2-0.3.0rc0/diff.md --exclude *.pyd
+[2023-05-25 16:41:10] INFO root fetch - processPackages [karrio.server]: New version: [2023.4.6] Old Version: [2023.4.4]
+[2023-05-25 16:41:10] INFO root fetch - processPackages [molgraph]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-25 16:41:10] INFO root fetch - processPackages [sarus]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-05-25 16:41:10] WARNING root fetch - processPackages [pycliwrapper]: Skipping, unable to determine old version
+[2023-05-25 16:41:10] INFO root fetch - processPackages [pycliwrapper]: Start processing: arena-py
+[2023-05-25 16:41:10] INFO root fetch - processPackages [pymodaq]: New version: [4.0.2] Old Version: [4.0.1]
+[2023-05-25 16:41:10] INFO root fetch - main [MainThread]: End processing [pycliwrapper] error
+[2023-05-25 16:41:10] INFO root fetch - processPackages [arena-py]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-05-25 16:41:11] INFO root fetch - processPackages [mkite-db]: Downloading https://files.pythonhosted.org/packages/51/06/e274178c28252056ca11ab75f20020da47b677f05518b1a5dbfcf5069822/mkite_db-0.1.0.tar.gz
+[2023-05-25 16:41:11] INFO root fetch - processPackages [molgraph]: Downloading https://files.pythonhosted.org/packages/9d/db/a49ac096e343e58ee8a518c6f845e8f37cc2c23c3eb897f7ffeb7dacc396/molgraph-0.3.1.tar.gz
+[2023-05-25 16:41:11] INFO root fetch - processPackages [nci-cidc-cli]: Downloading https://files.pythonhosted.org/packages/15/5e/b7fb50837066559c63f737212e5f961feb74c27a2663fb5d969825e3a325/nci_cidc_cli-0.10.2rc0.tar.gz
+[2023-05-25 16:41:11] INFO root fetch - processPackages [arena-py]: Downloading https://files.pythonhosted.org/packages/84/e6/986a286b04d237b3a72eebc9cc0b1cb37b3f432f1591c66d2b265f5e7b6e/arena-py-0.2.1.tar.gz
+[2023-05-25 16:41:11] INFO root fetch - processPackages [ydb]: Downloading https://files.pythonhosted.org/packages/b3/1d/8ee28470484f9f84af2a15aea9688bbbb49e7438df6a64413421249def66/ydb-3.3.4.tar.gz
+[2023-05-25 16:41:11] INFO root fetch - processPackages [textbsr]: executing diffoscope
+[2023-05-25 16:41:11] INFO root fetch - processPackages [textbsr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textbsr-0.0.8.tar.gz tmp/textbsr-0.0.9.tar.gz --markdown 20230525/t/textbsr/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 16:41:11] INFO root fetch - processPackages [pymodaq]: Downloading https://files.pythonhosted.org/packages/a7/85/056c18cdfd54855f99b69d4b09e91390c69efb30616c8277caf95bde4fd1/pymodaq-4.0.2.tar.gz
+[2023-05-25 16:41:11] INFO root fetch - processPackages [karrio.server]: Downloading https://files.pythonhosted.org/packages/66/23/e58e89e6c7144be1e49bda8abaa003a0c89416becb24f626542a649ae654/karrio.server-2023.4.6-py3-none-any.whl
+[2023-05-25 16:41:11] INFO root fetch - processPackages [sarus]: Downloading https://files.pythonhosted.org/packages/92/77/641358f1a6604ca7afdc97fed24ef51ec1e6f6a474826fdeedabfbe3802f/sarus-0.6.6.tar.gz
+[2023-05-25 16:41:11] INFO root fetch - processPackages [ydb]: executing diffoscope
+[2023-05-25 16:41:11] INFO root fetch - processPackages [ydb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ydb-3.3.3.tar.gz tmp/ydb-3.3.4.tar.gz --markdown 20230525/y/ydb/3.3.3-3.3.4/diff.md --exclude *.pyd
+[2023-05-25 16:41:11] INFO root fetch - processPackages [molgraph]: Downloading https://files.pythonhosted.org/packages/40/7c/e5b40517e79abe146d8f578fa3b1e9702960d3b0fae1cc4cf138eeeb9f50/molgraph-0.3.2.tar.gz
+[2023-05-25 16:41:11] INFO root fetch - processPackages [karrio.server]: executing diffoscope
+[2023-05-25 16:41:11] INFO root fetch - processPackages [karrio.server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karrio.server-2023.4.4-py3-none-any.whl.zip tmp/karrio.server-2023.4.6-py3-none-any.whl.zip --markdown 20230525/k/karrio.server/2023.4.4-2023.4.6/diff.md --exclude *.pyd
+[2023-05-25 16:41:11] INFO root fetch - processPackages [sarus]: executing diffoscope
+[2023-05-25 16:41:11] INFO root fetch - processPackages [sarus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarus-0.6.5.tar.gz tmp/sarus-0.6.6.tar.gz --markdown 20230525/s/sarus/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-05-25 16:41:11] INFO root fetch - processPackages [pymodaq]: executing diffoscope
+[2023-05-25 16:41:11] INFO root fetch - processPackages [pymodaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymodaq-4.0.1.tar.gz tmp/pymodaq-4.0.2.tar.gz --markdown 20230525/p/pymodaq/4.0.1-4.0.2/diff.md --exclude *.pyd
+[2023-05-25 16:41:11] INFO root fetch - processPackages [arena-py]: Downloading https://files.pythonhosted.org/packages/4e/8b/cbc5bd1cdb5c6675e2fabc024baa0c5e68fd166f5db76e3b37f8091729ad/arena-py-0.3.0.tar.gz
+[2023-05-25 16:41:11] INFO root fetch - processPackages [mkite-db]: Downloading https://files.pythonhosted.org/packages/ae/e1/1c3556d71e793ca110f83120935a2a40d60ef91879d50dbd4aa3b94182e7/mkite_db-0.1.1.tar.gz
+[2023-05-25 16:41:11] INFO root fetch - processPackages [molgraph]: executing diffoscope
+[2023-05-25 16:41:11] INFO root fetch - processPackages [molgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molgraph-0.3.1.tar.gz tmp/molgraph-0.3.2.tar.gz --markdown 20230525/m/molgraph/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-25 16:41:11] INFO root fetch - processPackages [arena-py]: executing diffoscope
+[2023-05-25 16:41:11] INFO root fetch - processPackages [arena-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arena-py-0.2.1.tar.gz tmp/arena-py-0.3.0.tar.gz --markdown 20230525/a/arena-py/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-05-25 16:41:11] INFO root fetch - processPackages [mkite-db]: executing diffoscope
+[2023-05-25 16:41:11] INFO root fetch - processPackages [mkite-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkite_db-0.1.0.tar.gz tmp/mkite_db-0.1.1.tar.gz --markdown 20230525/m/mkite-db/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-25 16:41:11] INFO root fetch - processPackages [nci-cidc-cli]: Downloading https://files.pythonhosted.org/packages/96/e5/b6951e4f3bb6a5bf5d726490880ce26256739ebd2508f231b3df437b1db7/nci_cidc_cli-0.10.3.tar.gz
+[2023-05-25 16:41:11] INFO root fetch - processPackages [nci-cidc-cli]: executing diffoscope
+[2023-05-25 16:41:11] INFO root fetch - processPackages [nci-cidc-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nci_cidc_cli-0.10.2rc0.tar.gz tmp/nci_cidc_cli-0.10.3.tar.gz --markdown 20230525/n/nci-cidc-cli/0.10.2rc0-0.10.3/diff.md --exclude *.pyd
+[2023-05-25 16:41:12] INFO root fetch - processPackages [libsql-client]: Start processing: UComp
+[2023-05-25 16:41:12] INFO root fetch - main [MainThread]: End processing [libsql-client]: success
+[2023-05-25 16:41:12] WARNING root fetch - processPackages [UComp]: Skipping, unable to determine old version
+[2023-05-25 16:41:12] INFO root fetch - processPackages [UComp]: Start processing: dfmodule
+[2023-05-25 16:41:12] INFO root fetch - main [MainThread]: End processing [UComp] error
+[2023-05-25 16:41:12] INFO root fetch - processPackages [dfmodule]: New version: [0.0.6.1] Old Version: [0.0.5.1]
+[2023-05-25 16:41:12] INFO root fetch - processPackages [dfmodule]: Downloading https://files.pythonhosted.org/packages/b7/10/0f10044a7cf8a3117b49db99b7c669ed296989a8a0d55f8567c19671c284/dfmodule-0.0.6.1.tar.gz
+[2023-05-25 16:41:12] INFO root fetch - processPackages [textbsr]: Start processing: ipyfilite
+[2023-05-25 16:41:12] INFO root fetch - main [MainThread]: End processing [textbsr]: success
+[2023-05-25 16:41:12] WARNING root fetch - processPackages [ipyfilite]: Skipping, unable to determine old version
+[2023-05-25 16:41:12] INFO root fetch - processPackages [ipyfilite]: Start processing: viggofiscal
+[2023-05-25 16:41:12] INFO root fetch - main [MainThread]: End processing [ipyfilite] error
+[2023-05-25 16:41:12] INFO root fetch - processPackages [viggofiscal]: New version: [1.4.0] Old Version: [1.3.9]
+[2023-05-25 16:41:12] INFO root fetch - processPackages [dfmodule]: executing diffoscope
+[2023-05-25 16:41:12] INFO root fetch - processPackages [dfmodule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfmodule-0.0.5.1.tar.gz tmp/dfmodule-0.0.6.1.tar.gz --markdown 20230525/d/dfmodule/0.0.5.1-0.0.6.1/diff.md --exclude *.pyd
+[2023-05-25 16:41:12] INFO root fetch - processPackages [viggofiscal]: executing diffoscope
+[2023-05-25 16:41:12] INFO root fetch - processPackages [viggofiscal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viggofiscal-1.3.9.tar.gz tmp/viggofiscal-1.4.0.tar.gz --markdown 20230525/v/viggofiscal/1.3.9-1.4.0/diff.md --exclude *.pyd
+[2023-05-25 16:41:13] INFO root fetch - processPackages [sarus]: Start processing: datamarket
+[2023-05-25 16:41:13] INFO root fetch - main [MainThread]: End processing [sarus]: success
+[2023-05-25 16:41:13] INFO root fetch - processPackages [datamarket]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-25 16:41:13] INFO root fetch - processPackages [datamarket]: executing diffoscope
+[2023-05-25 16:41:13] INFO root fetch - processPackages [datamarket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamarket-0.3.0.tar.gz tmp/datamarket-0.3.1.tar.gz --markdown 20230525/d/datamarket/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-25 16:41:13] INFO root fetch - main [MainThread]: End processing [karrio.server]: success
+[2023-05-25 16:41:13] INFO root fetch - main [MainThread]: End processing [molgraph]: success
+[2023-05-25 16:41:14] INFO root fetch - main [MainThread]: End processing [nci-cidc-cli]: success
+[2023-05-25 16:41:14] INFO root fetch - main [MainThread]: End processing [dfmodule]: success
+[2023-05-25 16:41:14] INFO root fetch - main [MainThread]: End processing [arena-py]: success
+[2023-05-25 16:41:14] INFO root fetch - main [MainThread]: End processing [mkite-db]: success
+[2023-05-25 16:41:14] INFO root fetch - main [MainThread]: End processing [datamarket]: success
+[2023-05-25 16:41:14] INFO root fetch - main [MainThread]: End processing [viggofiscal]: success
+[2023-05-25 16:41:16] INFO root fetch - main [MainThread]: End processing [pymodaq]: success
+[2023-05-25 16:41:17] INFO root fetch - main [MainThread]: End processing [ydb]: success
+[2023-05-25 16:41:17] INFO root fetch - main [MainThread]: Store serial: [18248398]
