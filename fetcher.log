@@ -17889,3 +17889,115 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-25 14:09:51] INFO root fetch - main [MainThread]: End processing [algodojo]: success
 [2023-05-25 14:10:04] INFO root fetch - main [MainThread]: End processing [algodojo]: success
 [2023-05-25 14:10:04] INFO root fetch - main [MainThread]: Store serial: [18246246]
+[2023-05-25 14:15:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18246246]
+[2023-05-25 14:15:15] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-25 14:15:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloud2
+[2023-05-25 14:15:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdktf
+[2023-05-25 14:15:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: burrowts
+[2023-05-25 14:15:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyNfeIntegration
+[2023-05-25 14:15:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tcod
+[2023-05-25 14:15:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wagtail-zoom-integration
+[2023-05-25 14:15:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: netbox-cisco-maintenance
+[2023-05-25 14:15:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: biaslyze
+[2023-05-25 14:15:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Rabbit-in-a-Blender
+[2023-05-25 14:15:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xlttools
+[2023-05-25 14:15:15] WARNING root fetch - processPackages [xlttools]: Skipping, unable to determine old version
+[2023-05-25 14:15:15] INFO root fetch - processPackages [xlttools]: Start processing: twinlab
+[2023-05-25 14:15:15] INFO root fetch - main [MainThread]: End processing [xlttools] error
+[2023-05-25 14:15:15] INFO root fetch - processPackages [Rabbit-in-a-Blender]: New version: [0.0.24] Old Version: [0.0.23]
+[2023-05-25 14:15:15] INFO root fetch - processPackages [tcod]: New version: [9.3.0] Old Version: [9.2.5]
+[2023-05-25 14:15:15] INFO root fetch - processPackages [cloud2]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-25 14:15:15] WARNING root fetch - processPackages [burrowts]: Skipping, unable to determine old version
+[2023-05-25 14:15:15] INFO root fetch - processPackages [burrowts]: Start processing: bmsdna-lakeapi
+[2023-05-25 14:15:15] INFO root fetch - processPackages [PyNfeIntegration]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-05-25 14:15:15] INFO root fetch - main [MainThread]: End processing [burrowts] error
+[2023-05-25 14:15:15] INFO root fetch - processPackages [tcod]: executing diffoscope
+[2023-05-25 14:15:15] INFO root fetch - processPackages [tcod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcod-9.2.5.tar.gz tmp/tcod-9.3.0.tar.gz --markdown 20230525/t/tcod/9.2.5-9.3.0/diff.md --exclude *.pyd
+[2023-05-25 14:15:15] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 14:15:15] WARNING root fetch - processPackages [biaslyze]: Skipping, unable to determine old version
+[2023-05-25 14:15:15] INFO root fetch - processPackages [biaslyze]: Start processing: pktperf
+[2023-05-25 14:15:15] INFO root fetch - main [MainThread]: End processing [biaslyze] error
+[2023-05-25 14:15:15] INFO root fetch - processPackages [twinlab]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-25 14:15:15] WARNING root fetch - processPackages [wagtail-zoom-integration]: Skipping, unable to determine old version
+[2023-05-25 14:15:15] INFO root fetch - processPackages [wagtail-zoom-integration]: Start processing: corby
+[2023-05-25 14:15:15] INFO root fetch - main [MainThread]: End processing [wagtail-zoom-integration] error
+[2023-05-25 14:15:15] INFO root fetch - processPackages [bmsdna-lakeapi]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-05-25 14:15:15] INFO root fetch - processPackages [cdktf]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-25 14:15:15] INFO root fetch - processPackages [corby]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 14:15:15] INFO root fetch - processPackages [Rabbit-in-a-Blender]: Downloading https://files.pythonhosted.org/packages/e1/3d/b1d6b04e6dcecb03e0ecc27fb308634e5cb1e5684bbafc40873d1dba9645/Rabbit-in-a-Blender-0.0.24.tar.gz
+[2023-05-25 14:15:15] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-05-25 14:15:15] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.8.tar.gz tmp/netbox-cisco-maintenance-0.0.9.tar.gz --markdown 20230525/n/netbox-cisco-maintenance/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 14:15:15] INFO root fetch - processPackages [bmsdna-lakeapi]: executing diffoscope
+[2023-05-25 14:15:15] INFO root fetch - processPackages [bmsdna-lakeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmsdna_lakeapi-0.4.4.tar.gz tmp/bmsdna_lakeapi-0.4.5.tar.gz --markdown 20230525/b/bmsdna-lakeapi/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-05-25 14:15:15] INFO root fetch - processPackages [pktperf]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-25 14:15:15] INFO root fetch - processPackages [corby]: executing diffoscope
+[2023-05-25 14:15:15] INFO root fetch - processPackages [corby]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corby-0.0.8.tar.gz tmp/corby-0.0.9.tar.gz --markdown 20230525/c/corby/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 14:15:15] INFO root fetch - processPackages [cloud2]: Downloading https://files.pythonhosted.org/packages/d9/d9/a42dfc2f00aa8c585b4a5fff4b2bdef895ad22437bd9bc55b35970afa0fd/cloud2-0.0.1.tar.gz
+[2023-05-25 14:15:15] INFO root fetch - processPackages [cdktf]: Downloading https://files.pythonhosted.org/packages/87/b3/c146d54086d890741cc9d05c63504e1386b268ef8cbc52d9aa78c1080aa3/cdktf-0.9.3.tar.gz
+[2023-05-25 14:15:15] INFO root fetch - processPackages [Rabbit-in-a-Blender]: executing diffoscope
+[2023-05-25 14:15:15] INFO root fetch - processPackages [Rabbit-in-a-Blender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Rabbit-in-a-Blender-0.0.23.tar.gz tmp/Rabbit-in-a-Blender-0.0.24.tar.gz --markdown 20230525/R/Rabbit-in-a-Blender/0.0.23-0.0.24/diff.md --exclude *.pyd
+[2023-05-25 14:15:16] INFO root fetch - processPackages [PyNfeIntegration]: Downloading https://files.pythonhosted.org/packages/e8/87/801d7c6c9484eb61bafc248240cb2c1c077057ae02ae243bb8d86def8f0b/PyNfeIntegration-1.1.0.tar.gz
+[2023-05-25 14:15:16] INFO root fetch - processPackages [pktperf]: Downloading https://files.pythonhosted.org/packages/e0/4c/aa4c1f68926a65b7a8d118dfa7cd232c6c0d92a8d7cb9de92e3e9d62adea/pktperf-0.4.0.tar.gz
+[2023-05-25 14:15:16] INFO root fetch - processPackages [twinlab]: Downloading https://files.pythonhosted.org/packages/ee/b5/8aa8b8e88953d24ce069af02e70d3c1a8e2e71fb65bf50e86fe247d9b1ff/twinlab-1.1.2.tar.gz
+[2023-05-25 14:15:16] INFO root fetch - processPackages [PyNfeIntegration]: executing diffoscope
+[2023-05-25 14:15:16] INFO root fetch - processPackages [PyNfeIntegration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyNfeIntegration-1.0.3.tar.gz tmp/PyNfeIntegration-1.1.0.tar.gz --markdown 20230525/P/PyNfeIntegration/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-05-25 14:15:16] INFO root fetch - processPackages [cloud2]: Downloading https://files.pythonhosted.org/packages/11/51/ad3b6d9ae877f5d682bdf27b77ed363669938cd450261c17dd384bb28b17/cloud2-0.0.2.tar.gz
+[2023-05-25 14:15:16] INFO root fetch - processPackages [twinlab]: executing diffoscope
+[2023-05-25 14:15:16] INFO root fetch - processPackages [twinlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twinlab-1.1.1.tar.gz tmp/twinlab-1.1.2.tar.gz --markdown 20230525/t/twinlab/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-25 14:15:16] INFO root fetch - processPackages [cdktf]: Downloading https://files.pythonhosted.org/packages/80/8d/cbc9ef418f046a8c17f614889aba72b6e668540a2966498bef6f1dbb3a10/cdktf-0.9.4.tar.gz
+[2023-05-25 14:15:16] INFO root fetch - processPackages [cloud2]: executing diffoscope
+[2023-05-25 14:15:16] INFO root fetch - processPackages [cloud2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud2-0.0.1.tar.gz tmp/cloud2-0.0.2.tar.gz --markdown 20230525/c/cloud2/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-25 14:15:16] INFO root fetch - processPackages [pktperf]: Downloading https://files.pythonhosted.org/packages/c6/ba/9f1f1db4895e602571cbd44bf9ce551397add4604613cfe98f16e892e3dc/pktperf-0.4.1.tar.gz
+[2023-05-25 14:15:16] INFO root fetch - processPackages [cdktf]: executing diffoscope
+[2023-05-25 14:15:16] INFO root fetch - processPackages [cdktf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-0.9.3.tar.gz tmp/cdktf-0.9.4.tar.gz --markdown 20230525/c/cdktf/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-25 14:15:16] INFO root fetch - processPackages [pktperf]: executing diffoscope
+[2023-05-25 14:15:16] INFO root fetch - processPackages [pktperf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pktperf-0.4.0.tar.gz tmp/pktperf-0.4.1.tar.gz --markdown 20230525/p/pktperf/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-25 14:15:17] INFO root fetch - processPackages [netbox-cisco-maintenance]: Start processing: mkdocs-macros-plugin
+[2023-05-25 14:15:17] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-05-25 14:15:17] INFO root fetch - processPackages [mkdocs-macros-plugin]: New version: [1.0.1] Old Version: [0.7.0]
+[2023-05-25 14:15:17] INFO root fetch - processPackages [mkdocs-macros-plugin]: Downloading https://files.pythonhosted.org/packages/1b/43/c199e0bdb4c56bb392c3559e9023122b0be2d457763c48b9774f5fca500d/mkdocs-macros-plugin-0.7.0.tar.gz
+[2023-05-25 14:15:17] INFO root fetch - processPackages [corby]: Start processing: pyscada-bacnet
+[2023-05-25 14:15:17] INFO root fetch - main [MainThread]: End processing [corby]: success
+[2023-05-25 14:15:17] INFO root fetch - processPackages [mkdocs-macros-plugin]: Downloading https://files.pythonhosted.org/packages/64/6e/c2066950a761af36386080c7baec1c16b9cfb8230ecc37147788cd5f4783/mkdocs-macros-plugin-1.0.1.tar.gz
+[2023-05-25 14:15:17] WARNING root fetch - processPackages [pyscada-bacnet]: Skipping, unable to determine old version
+[2023-05-25 14:15:17] INFO root fetch - processPackages [pyscada-bacnet]: Start processing: anisha-vehicles
+[2023-05-25 14:15:17] INFO root fetch - main [MainThread]: End processing [pyscada-bacnet] error
+[2023-05-25 14:15:18] INFO root fetch - processPackages [mkdocs-macros-plugin]: executing diffoscope
+[2023-05-25 14:15:18] INFO root fetch - processPackages [mkdocs-macros-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-macros-plugin-0.7.0.tar.gz tmp/mkdocs-macros-plugin-1.0.1.tar.gz --markdown 20230525/m/mkdocs-macros-plugin/0.7.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-25 14:15:18] WARNING root fetch - processPackages [anisha-vehicles]: Skipping, unable to determine old version
+[2023-05-25 14:15:18] INFO root fetch - processPackages [anisha-vehicles]: Start processing: draggan
+[2023-05-25 14:15:18] INFO root fetch - main [MainThread]: End processing [anisha-vehicles] error
+[2023-05-25 14:15:18] INFO root fetch - processPackages [bmsdna-lakeapi]: Start processing: to-cei
+[2023-05-25 14:15:18] INFO root fetch - main [MainThread]: End processing [bmsdna-lakeapi]: success
+[2023-05-25 14:15:18] WARNING root fetch - processPackages [draggan]: Skipping, unable to determine old version
+[2023-05-25 14:15:18] INFO root fetch - processPackages [draggan]: Start processing: rbx
+[2023-05-25 14:15:18] INFO root fetch - main [MainThread]: End processing [draggan] error
+[2023-05-25 14:15:18] INFO root fetch - processPackages [to-cei]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-25 14:15:18] INFO root fetch - processPackages [rbx]: New version: [3.1.0.dev26] Old Version: [3.0.5.dev23]
+[2023-05-25 14:15:18] INFO root fetch - processPackages [twinlab]: Start processing: oarepo-model-builder
+[2023-05-25 14:15:18] INFO root fetch - main [MainThread]: End processing [twinlab]: success
+[2023-05-25 14:15:18] INFO root fetch - processPackages [oarepo-model-builder]: New version: [4.0.5] Old Version: [4.0.4]
+[2023-05-25 14:15:18] INFO root fetch - processPackages [to-cei]: executing diffoscope
+[2023-05-25 14:15:18] INFO root fetch - processPackages [to-cei]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/to_cei-0.1.6.tar.gz tmp/to_cei-0.1.7.tar.gz --markdown 20230525/t/to-cei/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-25 14:15:18] INFO root fetch - processPackages [rbx]: executing diffoscope
+[2023-05-25 14:15:18] INFO root fetch - processPackages [rbx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rbx-3.0.5.dev23.tar.gz tmp/rbx-3.1.0.dev26.tar.gz --markdown 20230525/r/rbx/3.0.5.dev23-3.1.0.dev26/diff.md --exclude *.pyd
+[2023-05-25 14:15:18] INFO root fetch - processPackages [oarepo-model-builder]: Downloading https://files.pythonhosted.org/packages/a9/c5/32110f267423d4096ab6e7cfb13ffc4ea57faaf5497c05ab2cc06ae46088/oarepo-model-builder-4.0.5.tar.gz
+[2023-05-25 14:15:18] INFO root fetch - processPackages [cdktf]: Start processing: ronnytest
+[2023-05-25 14:15:18] INFO root fetch - main [MainThread]: End processing [cdktf]: success
+[2023-05-25 14:15:18] INFO root fetch - processPackages [ronnytest]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-25 14:15:18] INFO root fetch - processPackages [oarepo-model-builder]: executing diffoscope
+[2023-05-25 14:15:18] INFO root fetch - processPackages [oarepo-model-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-model-builder-4.0.4.tar.gz tmp/oarepo-model-builder-4.0.5.tar.gz --markdown 20230525/o/oarepo-model-builder/4.0.4-4.0.5/diff.md --exclude *.pyd
+[2023-05-25 14:15:18] INFO root fetch - main [MainThread]: End processing [pktperf]: success
+[2023-05-25 14:15:18] INFO root fetch - main [MainThread]: End processing [cloud2]: success
+[2023-05-25 14:15:18] INFO root fetch - main [MainThread]: End processing [PyNfeIntegration]: success
+[2023-05-25 14:15:18] INFO root fetch - processPackages [ronnytest]: Downloading https://files.pythonhosted.org/packages/d8/fe/8a200857503adf6d40ac9bf724eb69e1c81a52c63b0a734f034b199564ac/ronnytest-0.2.5.tar.gz
+[2023-05-25 14:15:18] INFO root fetch - processPackages [ronnytest]: executing diffoscope
+[2023-05-25 14:15:18] INFO root fetch - processPackages [ronnytest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ronnytest-0.2.4.tar.gz tmp/ronnytest-0.2.5.tar.gz --markdown 20230525/r/ronnytest/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-25 14:15:19] INFO root fetch - main [MainThread]: End processing [mkdocs-macros-plugin]: success
+[2023-05-25 14:15:20] INFO root fetch - main [MainThread]: End processing [ronnytest]: success
+[2023-05-25 14:15:20] INFO root fetch - main [MainThread]: End processing [rbx]: success
+[2023-05-25 14:15:20] INFO root fetch - main [MainThread]: End processing [to-cei]: success
+[2023-05-25 14:15:21] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder]: success
+[2023-05-25 14:15:22] INFO root fetch - main [MainThread]: End processing [tcod]: success
+[2023-05-25 14:15:22] INFO root fetch - main [MainThread]: End processing [Rabbit-in-a-Blender]: success
+[2023-05-25 14:15:22] INFO root fetch - main [MainThread]: Store serial: [18246339]
