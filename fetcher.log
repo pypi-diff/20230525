@@ -19249,3 +19249,162 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-25 15:17:47] INFO root fetch - main [MainThread]: End processing [chainlit]: success
 [2023-05-25 15:20:05] INFO root fetch - main [MainThread]: End processing [drools-jpy]: success
 [2023-05-25 15:20:05] INFO root fetch - main [MainThread]: Store serial: [18247149]
+[2023-05-25 15:25:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18247149]
+[2023-05-25 15:25:15] INFO root fetch - main [MainThread]: Found 28 changed packages
+[2023-05-25 15:25:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: camminapy
+[2023-05-25 15:25:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fhict-cb-01
+[2023-05-25 15:25:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nowcasting-dataset
+[2023-05-25 15:25:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cf-deploy
+[2023-05-25 15:25:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: thoth-doc
+[2023-05-25 15:25:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: DSSE
+[2023-05-25 15:25:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: camminapy
+[2023-05-25 15:25:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: localstack-core
+[2023-05-25 15:25:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: syne-tune
+[2023-05-25 15:25:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: recon-lw
+[2023-05-25 15:25:15] INFO root fetch - processPackages [fhict-cb-01]: New version: [0.2] Old Version: [0.1]
+[2023-05-25 15:25:15] INFO root fetch - processPackages [camminapy]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-25 15:25:15] INFO root fetch - processPackages [thoth-doc]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-25 15:25:15] INFO root fetch - processPackages [camminapy]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-25 15:25:15] INFO root fetch - processPackages [syne-tune]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-05-25 15:25:15] INFO root fetch - processPackages [DSSE]: New version: [0.1.13] Old Version: [0.1.12]
+[2023-05-25 15:25:15] INFO root fetch - processPackages [cf-deploy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-25 15:25:15] INFO root fetch - processPackages [recon-lw]: New version: [2.0.0.dev5080448744] Old Version: [2.0.0.dev5068858351]
+[2023-05-25 15:25:15] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230525131921] Old Version: [2.1.1.dev20230525124114]
+[2023-05-25 15:25:15] INFO root fetch - processPackages [nowcasting-dataset]: New version: [3.7.9] Old Version: [3.7.8]
+[2023-05-25 15:25:15] INFO root fetch - processPackages [camminapy]: Downloading https://files.pythonhosted.org/packages/60/d6/2480283cd4f2c54f4b2d9225018dc66c868c041a9532b9cb6539c99d37c2/camminapy-0.9.4.tar.gz
+[2023-05-25 15:25:15] INFO root fetch - processPackages [camminapy]: Downloading https://files.pythonhosted.org/packages/60/d6/2480283cd4f2c54f4b2d9225018dc66c868c041a9532b9cb6539c99d37c2/camminapy-0.9.4.tar.gz
+[2023-05-25 15:25:16] INFO root fetch - processPackages [fhict-cb-01]: Downloading https://files.pythonhosted.org/packages/a7/c0/9221ba4e7bc6dd87a66e9a1aae8baff051b78f6d9e0ac84f222f11953a31/fhict_cb_01-0.1.tar.gz
+[2023-05-25 15:25:16] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/be/31/8afe4b62c8581029b5e9550a8d21098fec0c706ded5e1f5c9c5ba4f35e6c/recon_lw-2.0.0.dev5068858351.tar.gz
+[2023-05-25 15:25:16] INFO root fetch - processPackages [syne-tune]: Downloading https://files.pythonhosted.org/packages/3e/1a/867b39cdea9cb134725656a1a692cb9bf9c4fc3defabeb3a304fd06e1631/syne_tune-0.6.0.tar.gz
+[2023-05-25 15:25:16] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/93/3e/caa052f58edc78fb7e357a524a16555aceb4df19ddcfeb2f568e59ac2925/localstack-core-2.1.1.dev20230525124114.tar.gz
+[2023-05-25 15:25:16] INFO root fetch - processPackages [DSSE]: Downloading https://files.pythonhosted.org/packages/54/5d/51fcf2a36ae5a7e775582ce65439b6a577917e65565807b31d3039016174/DSSE-0.1.13.tar.gz
+[2023-05-25 15:25:16] INFO root fetch - processPackages [thoth-doc]: Downloading https://files.pythonhosted.org/packages/11/3b/28f932747205c0bf9ef2beabb36f00330f905f7786ed67d09bc3f46a0b7f/thoth_doc-0.0.4.tar.gz
+[2023-05-25 15:25:16] INFO root fetch - processPackages [camminapy]: Downloading https://files.pythonhosted.org/packages/0e/39/5790ca225996722034c9dd3c17998ed1b07df4eb65b52fe2abfb9d114198/camminapy-0.9.5.tar.gz
+[2023-05-25 15:25:16] INFO root fetch - processPackages [DSSE]: executing diffoscope
+[2023-05-25 15:25:16] INFO root fetch - processPackages [DSSE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DSSE-0.1.12.tar.gz tmp/DSSE-0.1.13.tar.gz --markdown 20230525/D/DSSE/0.1.12-0.1.13/diff.md --exclude *.pyd
+[2023-05-25 15:25:16] INFO root fetch - processPackages [camminapy]: Downloading https://files.pythonhosted.org/packages/0e/39/5790ca225996722034c9dd3c17998ed1b07df4eb65b52fe2abfb9d114198/camminapy-0.9.5.tar.gz
+[2023-05-25 15:25:16] INFO root fetch - processPackages [thoth-doc]: executing diffoscope
+[2023-05-25 15:25:16] INFO root fetch - processPackages [thoth-doc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thoth_doc-0.0.3.tar.gz tmp/thoth_doc-0.0.4.tar.gz --markdown 20230525/t/thoth-doc/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-25 15:25:16] INFO root fetch - processPackages [cf-deploy]: executing diffoscope
+[2023-05-25 15:25:16] INFO root fetch - processPackages [cf-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cf_deploy-0.1.8.tar.gz tmp/cf_deploy-0.1.9.tar.gz --markdown 20230525/c/cf-deploy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-25 15:25:16] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/4d/cc/6b49750b0711d6ceb093187128271daadf92352d315aaa482fc8f6af0a05/recon_lw-2.0.0.dev5080448744.tar.gz
+[2023-05-25 15:25:16] INFO root fetch - processPackages [nowcasting-dataset]: executing diffoscope
+[2023-05-25 15:25:16] INFO root fetch - processPackages [nowcasting-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nowcasting_dataset-3.7.8.tar.gz tmp/nowcasting_dataset-3.7.9.tar.gz --markdown 20230525/n/nowcasting-dataset/3.7.8-3.7.9/diff.md --exclude *.pyd
+[2023-05-25 15:25:16] INFO root fetch - processPackages [syne-tune]: Downloading https://files.pythonhosted.org/packages/89/8c/5e3133aec57fee50cd7530cc6f962dee1d11e71cb91f90316204aa64359d/syne_tune-0.7.0.tar.gz
+[2023-05-25 15:25:16] INFO root fetch - processPackages [fhict-cb-01]: Downloading https://files.pythonhosted.org/packages/5d/e7/67a09a58425a291c39edb7245aa1e2aa6903ae9a994a755fb9bd09681521/fhict_cb_01-0.2.tar.gz
+[2023-05-25 15:25:16] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2023-05-25 15:25:16] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-2.0.0.dev5068858351.tar.gz tmp/recon_lw-2.0.0.dev5080448744.tar.gz --markdown 20230525/r/recon-lw/2.0.0.dev5068858351-2.0.0.dev5080448744/diff.md --exclude *.pyd
+[2023-05-25 15:25:16] INFO root fetch - processPackages [fhict-cb-01]: executing diffoscope
+[2023-05-25 15:25:16] INFO root fetch - processPackages [fhict-cb-01]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fhict_cb_01-0.1.tar.gz tmp/fhict_cb_01-0.2.tar.gz --markdown 20230525/f/fhict-cb-01/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-25 15:25:16] INFO root fetch - processPackages [camminapy]: executing diffoscope
+[2023-05-25 15:25:16] INFO root fetch - processPackages [camminapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camminapy-0.9.4.tar.gz tmp/camminapy-0.9.5.tar.gz --markdown 20230525/c/camminapy/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-25 15:25:16] INFO root fetch - processPackages [camminapy]: executing diffoscope
+[2023-05-25 15:25:16] INFO root fetch - processPackages [camminapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camminapy-0.9.4.tar.gz tmp/camminapy-0.9.5.tar.gz --markdown 20230525/c/camminapy/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-25 15:25:16] INFO root fetch - processPackages [syne-tune]: executing diffoscope
+[2023-05-25 15:25:16] INFO root fetch - processPackages [syne-tune]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syne_tune-0.6.0.tar.gz tmp/syne_tune-0.7.0.tar.gz --markdown 20230525/s/syne-tune/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-05-25 15:25:16] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/a3/3c/7b730ef65ba64a4815697dbe2f8fec94cdde3253b5b64407bd1a37a4c89a/localstack-core-2.1.1.dev20230525131921.tar.gz
+[2023-05-25 15:25:16] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-05-25 15:25:16] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230525124114.tar.gz tmp/localstack-core-2.1.1.dev20230525131921.tar.gz --markdown 20230525/l/localstack-core/2.1.1.dev20230525124114-2.1.1.dev20230525131921/diff.md --exclude *.pyd
+[2023-05-25 15:25:17] INFO root fetch - processPackages [cf-deploy]: Start processing: yjs_widgets
+[2023-05-25 15:25:17] INFO root fetch - main [MainThread]: End processing [cf-deploy]: success
+[2023-05-25 15:25:17] INFO root fetch - processPackages [yjs_widgets]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-25 15:25:18] INFO root fetch - processPackages [DSSE]: Start processing: typing-extensions
+[2023-05-25 15:25:18] INFO root fetch - main [MainThread]: End processing [DSSE]: success
+[2023-05-25 15:25:18] INFO root fetch - processPackages [typing-extensions]: New version: [4.6.2] Old Version: [4.6.1]
+[2023-05-25 15:25:18] INFO root fetch - processPackages [yjs_widgets]: Downloading https://files.pythonhosted.org/packages/b1/cd/9230b042e635e82cb213083d75a09c80d6bdb79b152222cc1985ba5da338/yjs_widgets-0.2.0.tar.gz
+[2023-05-25 15:25:18] INFO root fetch - processPackages [thoth-doc]: Start processing: camminapy
+[2023-05-25 15:25:18] INFO root fetch - main [MainThread]: End processing [thoth-doc]: success
+[2023-05-25 15:25:18] INFO root fetch - processPackages [typing-extensions]: Downloading https://files.pythonhosted.org/packages/be/fc/3d12393d634fcb31d5f4231c28feaf4ead225124ba08021046317d5f450d/typing_extensions-4.6.2.tar.gz
+[2023-05-25 15:25:18] INFO root fetch - processPackages [camminapy]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-25 15:25:18] INFO root fetch - processPackages [typing-extensions]: executing diffoscope
+[2023-05-25 15:25:18] INFO root fetch - processPackages [typing-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typing_extensions-4.6.1.tar.gz tmp/typing_extensions-4.6.2.tar.gz --markdown 20230525/t/typing-extensions/4.6.1-4.6.2/diff.md --exclude *.pyd
+[2023-05-25 15:25:18] INFO root fetch - processPackages [camminapy]: executing diffoscope
+[2023-05-25 15:25:18] INFO root fetch - processPackages [camminapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camminapy-0.9.4.tar.gz tmp/camminapy-0.9.5.tar.gz --markdown 20230525/c/camminapy/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-25 15:25:18] INFO root fetch - processPackages [yjs_widgets]: Downloading https://files.pythonhosted.org/packages/3d/60/a64c34001b542de1ee5772acdaa097c4a358fca6afad484713fe66528c0d/yjs_widgets-0.3.0.tar.gz
+[2023-05-25 15:25:18] INFO root fetch - processPackages [recon-lw]: Start processing: nowcasting-forecast
+[2023-05-25 15:25:18] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2023-05-25 15:25:18] INFO root fetch - processPackages [nowcasting-forecast]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-25 15:25:18] INFO root fetch - processPackages [fhict-cb-01]: Start processing: learnkeyhole
+[2023-05-25 15:25:18] INFO root fetch - main [MainThread]: End processing [fhict-cb-01]: success
+[2023-05-25 15:25:18] INFO root fetch - processPackages [yjs_widgets]: executing diffoscope
+[2023-05-25 15:25:18] INFO root fetch - processPackages [yjs_widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yjs_widgets-0.2.0.tar.gz tmp/yjs_widgets-0.3.0.tar.gz --markdown 20230525/y/yjs_widgets/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-25 15:25:18] INFO root fetch - processPackages [learnkeyhole]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-25 15:25:18] INFO root fetch - processPackages [nowcasting-forecast]: executing diffoscope
+[2023-05-25 15:25:18] INFO root fetch - processPackages [nowcasting-forecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nowcasting_forecast-1.3.8.tar.gz tmp/nowcasting_forecast-1.3.9.tar.gz --markdown 20230525/n/nowcasting-forecast/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-25 15:25:18] INFO root fetch - processPackages [learnkeyhole]: executing diffoscope
+[2023-05-25 15:25:18] INFO root fetch - processPackages [learnkeyhole]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/learnkeyhole-0.1.1.tar.gz tmp/learnkeyhole-0.1.2.tar.gz --markdown 20230525/l/learnkeyhole/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-25 15:25:18] INFO root fetch - processPackages [camminapy]: Start processing: netbox-cisco-maintenance
+[2023-05-25 15:25:18] INFO root fetch - main [MainThread]: End processing [camminapy]: success
+[2023-05-25 15:25:18] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 15:25:18] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-05-25 15:25:18] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.8.tar.gz tmp/netbox-cisco-maintenance-0.0.9.tar.gz --markdown 20230525/n/netbox-cisco-maintenance/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 15:25:19] INFO root fetch - processPackages [camminapy]: Start processing: maisaedu-utilities-prefect
+[2023-05-25 15:25:19] INFO root fetch - main [MainThread]: End processing [camminapy]: success
+[2023-05-25 15:25:19] INFO root fetch - processPackages [maisaedu-utilities-prefect]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-25 15:25:19] INFO root fetch - processPackages [maisaedu-utilities-prefect]: executing diffoscope
+[2023-05-25 15:25:19] INFO root fetch - processPackages [maisaedu-utilities-prefect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maisaedu-utilities-prefect-1.0.8.tar.gz tmp/maisaedu-utilities-prefect-1.0.9.tar.gz --markdown 20230525/m/maisaedu-utilities-prefect/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-25 15:25:19] INFO root fetch - processPackages [nowcasting-dataset]: Start processing: maisaedu-poormans-dms
+[2023-05-25 15:25:19] INFO root fetch - main [MainThread]: End processing [nowcasting-dataset]: success
+[2023-05-25 15:25:20] INFO root fetch - processPackages [maisaedu-poormans-dms]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-25 15:25:20] INFO root fetch - processPackages [maisaedu-poormans-dms]: executing diffoscope
+[2023-05-25 15:25:20] INFO root fetch - processPackages [maisaedu-poormans-dms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maisaedu-poormans-dms-1.0.8.tar.gz tmp/maisaedu-poormans-dms-1.0.9.tar.gz --markdown 20230525/m/maisaedu-poormans-dms/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-25 15:25:20] INFO root fetch - processPackages [typing-extensions]: Start processing: playwrightcapture
+[2023-05-25 15:25:20] INFO root fetch - main [MainThread]: End processing [typing-extensions]: success
+[2023-05-25 15:25:20] INFO root fetch - processPackages [playwrightcapture]: New version: [1.19.9] Old Version: [1.19.8]
+[2023-05-25 15:25:20] INFO root fetch - processPackages [nowcasting-forecast]: Start processing: camminapy
+[2023-05-25 15:25:20] INFO root fetch - main [MainThread]: End processing [nowcasting-forecast]: success
+[2023-05-25 15:25:20] INFO root fetch - processPackages [camminapy]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-25 15:25:20] INFO root fetch - processPackages [camminapy]: Start processing: pyeCam
+[2023-05-25 15:25:20] INFO root fetch - main [MainThread]: End processing [camminapy]: success
+[2023-05-25 15:25:20] INFO root fetch - processPackages [pyeCam]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 15:25:20] INFO root fetch - processPackages [camminapy]: executing diffoscope
+[2023-05-25 15:25:20] INFO root fetch - processPackages [camminapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camminapy-0.9.4.tar.gz tmp/camminapy-0.9.5.tar.gz --markdown 20230525/c/camminapy/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-25 15:25:20] INFO root fetch - processPackages [pyeCam]: executing diffoscope
+[2023-05-25 15:25:20] INFO root fetch - processPackages [pyeCam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyeCam-0.0.8.tar.gz tmp/pyeCam-0.0.9.tar.gz --markdown 20230525/p/pyeCam/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 15:25:20] INFO root fetch - processPackages [playwrightcapture]: executing diffoscope
+[2023-05-25 15:25:20] INFO root fetch - processPackages [playwrightcapture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playwrightcapture-1.19.8.tar.gz tmp/playwrightcapture-1.19.9.tar.gz --markdown 20230525/p/playwrightcapture/1.19.8-1.19.9/diff.md --exclude *.pyd
+[2023-05-25 15:25:21] INFO root fetch - processPackages [yjs_widgets]: Start processing: djangocms-blog-agenda
+[2023-05-25 15:25:21] INFO root fetch - main [MainThread]: End processing [yjs_widgets]: success
+[2023-05-25 15:25:21] INFO root fetch - processPackages [djangocms-blog-agenda]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-25 15:25:21] INFO root fetch - processPackages [learnkeyhole]: Start processing: keycloak-api-manager
+[2023-05-25 15:25:21] INFO root fetch - main [MainThread]: End processing [learnkeyhole]: success
+[2023-05-25 15:25:21] INFO root fetch - processPackages [djangocms-blog-agenda]: executing diffoscope
+[2023-05-25 15:25:21] INFO root fetch - processPackages [djangocms-blog-agenda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangocms-blog-agenda-0.3.2.tar.gz tmp/djangocms-blog-agenda-0.3.3.tar.gz --markdown 20230525/d/djangocms-blog-agenda/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-25 15:25:21] WARNING root fetch - processPackages [keycloak-api-manager]: Skipping, unable to determine old version
+[2023-05-25 15:25:21] INFO root fetch - processPackages [keycloak-api-manager]: Start processing: udc
+[2023-05-25 15:25:21] INFO root fetch - main [MainThread]: End processing [keycloak-api-manager] error
+[2023-05-25 15:25:21] INFO root fetch - processPackages [udc]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-25 15:25:21] INFO root fetch - processPackages [netbox-cisco-maintenance]: Start processing: panml
+[2023-05-25 15:25:21] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-05-25 15:25:21] INFO root fetch - processPackages [panml]: New version: [0.0.17] Old Version: [0.0.16]
+[2023-05-25 15:25:21] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Start processing: light-size-constrained-clustering
+[2023-05-25 15:25:21] INFO root fetch - main [MainThread]: End processing [maisaedu-utilities-prefect]: success
+[2023-05-25 15:25:21] WARNING root fetch - processPackages [light-size-constrained-clustering]: Skipping, unable to determine old version
+[2023-05-25 15:25:21] INFO root fetch - processPackages [light-size-constrained-clustering]: Start processing: lupin-grognard
+[2023-05-25 15:25:21] INFO root fetch - main [MainThread]: End processing [light-size-constrained-clustering] error
+[2023-05-25 15:25:21] INFO root fetch - processPackages [lupin-grognard]: New version: [1.9.0] Old Version: [1.7.0]
+[2023-05-25 15:25:21] INFO root fetch - processPackages [lupin-grognard]: executing diffoscope
+[2023-05-25 15:25:21] INFO root fetch - processPackages [lupin-grognard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lupin-grognard-1.7.0.tar.gz tmp/lupin-grognard-1.9.0.tar.gz --markdown 20230525/l/lupin-grognard/1.7.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-25 15:25:21] INFO root fetch - processPackages [panml]: Downloading https://files.pythonhosted.org/packages/db/03/922da20eb3072d3de1778ff08457da8938cac2df3063c834004b01098233/panml-0.0.17.tar.gz
+[2023-05-25 15:25:21] INFO root fetch - processPackages [syne-tune]: Start processing: warpzone-sdk
+[2023-05-25 15:25:21] INFO root fetch - main [MainThread]: End processing [syne-tune]: success
+[2023-05-25 15:25:21] INFO root fetch - processPackages [udc]: Downloading https://files.pythonhosted.org/packages/b6/d0/3b99f8f8bb1a4c645c9dfb50caa89e45ae37ab695c4126dba251cfa6d472/udc-0.2.2.tar.gz
+[2023-05-25 15:25:21] INFO root fetch - processPackages [panml]: executing diffoscope
+[2023-05-25 15:25:21] INFO root fetch - processPackages [panml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panml-0.0.16.tar.gz tmp/panml-0.0.17.tar.gz --markdown 20230525/p/panml/0.0.16-0.0.17/diff.md --exclude *.pyd
+[2023-05-25 15:25:21] INFO root fetch - processPackages [warpzone-sdk]: New version: [7.0.0] Old Version: [6.0.6]
+[2023-05-25 15:25:21] INFO root fetch - processPackages [udc]: executing diffoscope
+[2023-05-25 15:25:21] INFO root fetch - processPackages [udc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udc-0.2.1.tar.gz tmp/udc-0.2.2.tar.gz --markdown 20230525/u/udc/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-25 15:25:22] INFO root fetch - processPackages [warpzone-sdk]: Downloading https://files.pythonhosted.org/packages/79/b4/085e0831b36ecedc0d785de6f16132a0ea1a44810d8266c47c80eb82f76d/warpzone_sdk-7.0.0.tar.gz
+[2023-05-25 15:25:22] INFO root fetch - main [MainThread]: End processing [maisaedu-poormans-dms]: success
+[2023-05-25 15:25:22] INFO root fetch - processPackages [warpzone-sdk]: executing diffoscope
+[2023-05-25 15:25:22] INFO root fetch - processPackages [warpzone-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/warpzone_sdk-6.0.6.tar.gz tmp/warpzone_sdk-7.0.0.tar.gz --markdown 20230525/w/warpzone-sdk/6.0.6-7.0.0/diff.md --exclude *.pyd
+[2023-05-25 15:25:22] INFO root fetch - main [MainThread]: End processing [camminapy]: success
+[2023-05-25 15:25:23] INFO root fetch - main [MainThread]: End processing [pyeCam]: success
+[2023-05-25 15:25:23] INFO root fetch - main [MainThread]: End processing [playwrightcapture]: success
+[2023-05-25 15:25:23] INFO root fetch - main [MainThread]: End processing [lupin-grognard]: success
+[2023-05-25 15:25:23] INFO root fetch - main [MainThread]: End processing [panml]: success
+[2023-05-25 15:25:23] INFO root fetch - main [MainThread]: End processing [udc]: success
+[2023-05-25 15:25:23] INFO root fetch - main [MainThread]: End processing [djangocms-blog-agenda]: success
+[2023-05-25 15:25:24] INFO root fetch - main [MainThread]: End processing [warpzone-sdk]: success
+[2023-05-25 15:25:25] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-05-25 15:25:25] INFO root fetch - main [MainThread]: Store serial: [18247277]
