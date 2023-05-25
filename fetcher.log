@@ -5942,3 +5942,36 @@
 [2023-05-25 03:45:34] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
 [2023-05-25 03:45:34] INFO root fetch - main [MainThread]: End processing [quick-pypi]: success
 [2023-05-25 03:45:34] INFO root fetch - main [MainThread]: Store serial: [18239842]
+[2023-05-25 03:50:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18239842]
+[2023-05-25 03:50:43] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-25 03:50:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quick-pypi-test
+[2023-05-25 03:50:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: audiolm-pytorch
+[2023-05-25 03:50:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: audiolm-pytorch
+[2023-05-25 03:50:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ols-py
+[2023-05-25 03:50:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: antchain-defininstchannel
+[2023-05-25 03:50:44] INFO root fetch - processPackages [quick-pypi-test]: New version: [0.0.3a7] Old Version: [0.0.3a6]
+[2023-05-25 03:50:44] INFO root fetch - processPackages [ols-py]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-05-25 03:50:44] INFO root fetch - processPackages [audiolm-pytorch]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-25 03:50:44] WARNING root fetch - processPackages [antchain-defininstchannel]: Skipping, unable to determine old version
+[2023-05-25 03:50:44] INFO root fetch - main [MainThread]: End processing [antchain-defininstchannel] error
+[2023-05-25 03:50:44] INFO root fetch - processPackages [audiolm-pytorch]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-25 03:50:44] INFO root fetch - processPackages [audiolm-pytorch]: Downloading https://files.pythonhosted.org/packages/37/03/b39182a4d275a797ec2337f58aa4af776aa9ff0c7c621c2e9582131fa9f2/audiolm-pytorch-1.0.5.tar.gz
+[2023-05-25 03:50:44] INFO root fetch - processPackages [audiolm-pytorch]: Downloading https://files.pythonhosted.org/packages/37/03/b39182a4d275a797ec2337f58aa4af776aa9ff0c7c621c2e9582131fa9f2/audiolm-pytorch-1.0.5.tar.gz
+[2023-05-25 03:50:44] INFO root fetch - processPackages [ols-py]: Downloading https://files.pythonhosted.org/packages/52/c0/f9c4e5debde7038449fb7eca60a7eeb78ad3c654ba3a95d5d391263698ca/ols_py-0.2.6.tar.gz
+[2023-05-25 03:50:44] INFO root fetch - processPackages [quick-pypi-test]: Downloading https://files.pythonhosted.org/packages/1b/4b/0fa4cb5e289307b6542c1971db5921e38ead6bb1bf8899109d8056f5eee8/quick-pypi-test-0.0.3a7.tar.gz
+[2023-05-25 03:50:44] INFO root fetch - processPackages [quick-pypi-test]: executing diffoscope
+[2023-05-25 03:50:44] INFO root fetch - processPackages [quick-pypi-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quick-pypi-test-0.0.3a6.tar.gz tmp/quick-pypi-test-0.0.3a7.tar.gz --markdown 20230525/q/quick-pypi-test/0.0.3a6-0.0.3a7/diff.md --exclude *.pyd
+[2023-05-25 03:50:44] INFO root fetch - processPackages [audiolm-pytorch]: Downloading https://files.pythonhosted.org/packages/63/10/65dc3bbf97170ef372dd6f2f5797aee518f68a0597d6244bd642beb74d44/audiolm-pytorch-1.0.6.tar.gz
+[2023-05-25 03:50:44] INFO root fetch - processPackages [audiolm-pytorch]: Downloading https://files.pythonhosted.org/packages/63/10/65dc3bbf97170ef372dd6f2f5797aee518f68a0597d6244bd642beb74d44/audiolm-pytorch-1.0.6.tar.gz
+[2023-05-25 03:50:44] INFO root fetch - processPackages [ols-py]: Downloading https://files.pythonhosted.org/packages/a0/ca/72b951506bf8bb623ca0fa84c5ea368b605b42052d73e3e7ca4166c069aa/ols_py-0.2.7.tar.gz
+[2023-05-25 03:50:44] INFO root fetch - processPackages [audiolm-pytorch]: executing diffoscope
+[2023-05-25 03:50:44] INFO root fetch - processPackages [audiolm-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiolm-pytorch-1.0.5.tar.gz tmp/audiolm-pytorch-1.0.6.tar.gz --markdown 20230525/a/audiolm-pytorch/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-25 03:50:44] INFO root fetch - processPackages [audiolm-pytorch]: executing diffoscope
+[2023-05-25 03:50:44] INFO root fetch - processPackages [audiolm-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiolm-pytorch-1.0.5.tar.gz tmp/audiolm-pytorch-1.0.6.tar.gz --markdown 20230525/a/audiolm-pytorch/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-25 03:50:44] INFO root fetch - processPackages [ols-py]: executing diffoscope
+[2023-05-25 03:50:44] INFO root fetch - processPackages [ols-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ols_py-0.2.6.tar.gz tmp/ols_py-0.2.7.tar.gz --markdown 20230525/o/ols-py/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-05-25 03:50:45] INFO root fetch - main [MainThread]: End processing [quick-pypi-test]: success
+[2023-05-25 03:50:45] INFO root fetch - main [MainThread]: End processing [audiolm-pytorch]: success
+[2023-05-25 03:50:46] INFO root fetch - main [MainThread]: End processing [ols-py]: success
+[2023-05-25 03:50:46] INFO root fetch - main [MainThread]: End processing [audiolm-pytorch]: success
+[2023-05-25 03:50:46] INFO root fetch - main [MainThread]: Store serial: [18239869]
