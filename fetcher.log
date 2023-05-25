@@ -1327,3 +1327,35 @@
 [2023-05-25 01:58:34] INFO root fetch - main [MainThread]: End processing [coiled]: success
 [2023-05-25 01:58:34] INFO root fetch - main [MainThread]: End processing [arc-cli]: success
 [2023-05-25 01:58:34] INFO root fetch - main [MainThread]: Store serial: [18237328]
+[2023-05-25 02:03:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18237328]
+[2023-05-25 02:03:43] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-25 02:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zaber-motion-bindings-windows
+[2023-05-25 02:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zaber-motion-bindings-linux
+[2023-05-25 02:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zaber-motion-bindings-darwin
+[2023-05-25 02:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zaber-motion
+[2023-05-25 02:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bittrade-huobi-websocket
+[2023-05-25 02:03:43] INFO root fetch - processPackages [zaber-motion-bindings-linux]: New version: [3.4.1] Old Version: [3.4.0]
+[2023-05-25 02:03:43] INFO root fetch - processPackages [zaber-motion-bindings-darwin]: New version: [3.4.1] Old Version: [3.4.0]
+[2023-05-25 02:03:43] INFO root fetch - processPackages [zaber-motion]: New version: [3.4.1] Old Version: [3.4.0]
+[2023-05-25 02:03:43] INFO root fetch - processPackages [zaber-motion-bindings-windows]: New version: [3.4.1] Old Version: [3.4.0]
+[2023-05-25 02:03:43] INFO root fetch - processPackages [bittrade-huobi-websocket]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-05-25 02:03:43] INFO root fetch - processPackages [zaber-motion-bindings-darwin]: Downloading https://files.pythonhosted.org/packages/9d/b7/60b255842465584d593f4e54eec926895d0d81aeec3e773295078d26bba8/zaber_motion_bindings_darwin-3.4.0.tar.gz
+[2023-05-25 02:03:43] INFO root fetch - processPackages [zaber-motion-bindings-linux]: Downloading https://files.pythonhosted.org/packages/87/5e/02877fbb2084737e9d2c1206c09225115d2a11e9ea5c25be7e14e6303678/zaber_motion_bindings_linux-3.4.0.tar.gz
+[2023-05-25 02:03:43] INFO root fetch - processPackages [zaber-motion-bindings-windows]: Downloading https://files.pythonhosted.org/packages/b4/95/00e09e10e9f6bf731f6a176a4948e33bc424123b677a18a5587c714d048e/zaber_motion_bindings_windows-3.4.0.tar.gz
+[2023-05-25 02:03:43] INFO root fetch - processPackages [bittrade-huobi-websocket]: Downloading https://files.pythonhosted.org/packages/7d/f3/c94cfd575d52b476fc5856a8c4a55a4420608827108ae3960b43991190a4/bittrade_huobi_websocket-0.3.4.tar.gz
+[2023-05-25 02:03:43] WARNING root fetch - processPackages [zaber-motion-bindings-darwin]: Skipping package: exceeds size limit 20858369>=10485760
+[2023-05-25 02:03:43] WARNING root fetch - processPackages [zaber-motion-bindings-linux]: Skipping package: exceeds size limit 36997267>=10485760
+[2023-05-25 02:03:43] INFO root fetch - main [MainThread]: End processing [zaber-motion-bindings-darwin] error
+[2023-05-25 02:03:43] INFO root fetch - main [MainThread]: End processing [zaber-motion-bindings-linux] error
+[2023-05-25 02:03:43] INFO root fetch - processPackages [zaber-motion]: Downloading https://files.pythonhosted.org/packages/19/45/44430cd0d8c4f0f0dd05d57fd9542a0b09ae51e0d0d35d601f10084d86f0/zaber_motion-3.4.0.tar.gz
+[2023-05-25 02:03:43] INFO root fetch - processPackages [bittrade-huobi-websocket]: Downloading https://files.pythonhosted.org/packages/00/0c/3de894e6dc995ba2cac2a96d4a8111523a9f1bfaeceb7d402496a876e80a/bittrade_huobi_websocket-0.3.5.tar.gz
+[2023-05-25 02:03:43] INFO root fetch - processPackages [zaber-motion]: Downloading https://files.pythonhosted.org/packages/05/8e/a5bb6c50209b39c8dec065eac9b4a0ede983941904aa7aefde588af1e8bf/zaber_motion-3.4.1.tar.gz
+[2023-05-25 02:03:43] WARNING root fetch - processPackages [zaber-motion-bindings-windows]: Skipping package: exceeds size limit 18743498>=10485760
+[2023-05-25 02:03:43] INFO root fetch - main [MainThread]: End processing [zaber-motion-bindings-windows] error
+[2023-05-25 02:03:44] INFO root fetch - processPackages [bittrade-huobi-websocket]: executing diffoscope
+[2023-05-25 02:03:44] INFO root fetch - processPackages [bittrade-huobi-websocket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bittrade_huobi_websocket-0.3.4.tar.gz tmp/bittrade_huobi_websocket-0.3.5.tar.gz --markdown 20230525/b/bittrade-huobi-websocket/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-05-25 02:03:44] INFO root fetch - processPackages [zaber-motion]: executing diffoscope
+[2023-05-25 02:03:44] INFO root fetch - processPackages [zaber-motion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zaber_motion-3.4.0.tar.gz tmp/zaber_motion-3.4.1.tar.gz --markdown 20230525/z/zaber-motion/3.4.0-3.4.1/diff.md --exclude *.pyd
+[2023-05-25 02:03:45] INFO root fetch - main [MainThread]: End processing [bittrade-huobi-websocket]: success
+[2023-05-25 02:03:46] INFO root fetch - main [MainThread]: End processing [zaber-motion]: success
+[2023-05-25 02:03:46] INFO root fetch - main [MainThread]: Store serial: [18237347]
