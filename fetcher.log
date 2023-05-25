@@ -18687,3 +18687,122 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-25 14:52:27] INFO root fetch - main [MainThread]: End processing [bowtie-json-schema]: success
 [2023-05-25 14:52:27] INFO root fetch - main [MainThread]: End processing [edu-segmentation]: success
 [2023-05-25 14:52:27] INFO root fetch - main [MainThread]: Store serial: [18246780]
+[2023-05-25 14:57:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18246780]
+[2023-05-25 14:57:37] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-25 14:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: streamlit-authenticator-ru
+[2023-05-25 14:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phc-ingestion
+[2023-05-25 14:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastapi-click
+[2023-05-25 14:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyscada-modbus
+[2023-05-25 14:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: edu-segmentation
+[2023-05-25 14:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pywhichlang
+[2023-05-25 14:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: biaslyze
+[2023-05-25 14:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: camminapy
+[2023-05-25 14:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pycelium
+[2023-05-25 14:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: widefield-analysis
+[2023-05-25 14:57:37] INFO root fetch - processPackages [edu-segmentation]: New version: [0.0.65] Old Version: [0.0.64]
+[2023-05-25 14:57:37] INFO root fetch - processPackages [biaslyze]: New version: [0.0.3a0] Old Version: [0.0.2a0]
+[2023-05-25 14:57:37] INFO root fetch - processPackages [pycelium]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-25 14:57:37] WARNING root fetch - processPackages [pywhichlang]: Skipping, unable to determine old version
+[2023-05-25 14:57:37] INFO root fetch - processPackages [pywhichlang]: Start processing: aa-charlink
+[2023-05-25 14:57:37] INFO root fetch - main [MainThread]: End processing [pywhichlang] error
+[2023-05-25 14:57:37] INFO root fetch - processPackages [widefield-analysis]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-25 14:57:37] INFO root fetch - processPackages [camminapy]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-05-25 14:57:37] WARNING root fetch - processPackages [pyscada-modbus]: Skipping, unable to determine old version
+[2023-05-25 14:57:37] WARNING root fetch - processPackages [streamlit-authenticator-ru]: Skipping, unable to determine old version
+[2023-05-25 14:57:37] INFO root fetch - processPackages [pyscada-modbus]: Start processing: pytestifyx
+[2023-05-25 14:57:37] INFO root fetch - processPackages [streamlit-authenticator-ru]: Start processing: thztools
+[2023-05-25 14:57:37] INFO root fetch - main [MainThread]: End processing [pyscada-modbus] error
+[2023-05-25 14:57:37] INFO root fetch - main [MainThread]: End processing [streamlit-authenticator-ru] error
+[2023-05-25 14:57:37] WARNING root fetch - processPackages [fastapi-click]: Skipping, unable to determine old version
+[2023-05-25 14:57:37] INFO root fetch - processPackages [fastapi-click]: Start processing: nowcasting-dataset
+[2023-05-25 14:57:37] INFO root fetch - main [MainThread]: End processing [fastapi-click] error
+[2023-05-25 14:57:37] INFO root fetch - processPackages [phc-ingestion]: New version: [0.3.27] Old Version: [0.3.26]
+[2023-05-25 14:57:37] INFO root fetch - processPackages [camminapy]: executing diffoscope
+[2023-05-25 14:57:37] INFO root fetch - processPackages [camminapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camminapy-0.8.8.tar.gz tmp/camminapy-0.8.9.tar.gz --markdown 20230525/c/camminapy/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-05-25 14:57:37] INFO root fetch - processPackages [aa-charlink]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-05-25 14:57:37] INFO root fetch - processPackages [thztools]: New version: [1.0] Old Version: [0.1]
+[2023-05-25 14:57:37] INFO root fetch - processPackages [pycelium]: executing diffoscope
+[2023-05-25 14:57:37] INFO root fetch - processPackages [pycelium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycelium-0.1.8.tar.gz tmp/pycelium-0.1.9.tar.gz --markdown 20230525/p/pycelium/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-25 14:57:37] INFO root fetch - processPackages [edu-segmentation]: Downloading https://files.pythonhosted.org/packages/db/f1/808847862b3ecb52517c0a1da06e362d68e606ee8ea824a3293bf8f3d974/edu_segmentation-0.0.65.tar.gz
+[2023-05-25 14:57:37] ERROR root fetch - processPackages [biaslyze]: Unable to fetch info: No such project/version 'biaslyze' 0.0.3a0
+[2023-05-25 14:57:37] INFO root fetch - processPackages [biaslyze]: Start processing: EdgeGPT
+[2023-05-25 14:57:37] INFO root fetch - main [MainThread]: End processing [biaslyze] error
+[2023-05-25 14:57:37] INFO root fetch - processPackages [pytestifyx]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-05-25 14:57:37] INFO root fetch - processPackages [EdgeGPT]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-05-25 14:57:37] INFO root fetch - processPackages [nowcasting-dataset]: New version: [3.7.9] Old Version: [3.7.8]
+[2023-05-25 14:57:37] INFO root fetch - processPackages [widefield-analysis]: Downloading https://files.pythonhosted.org/packages/51/d9/64a3bc5547045b07b2f8d41b2b7740473664e7424d1af6a8d681d6e92575/widefield_analysis-0.1.5.tar.gz
+[2023-05-25 14:57:37] INFO root fetch - processPackages [phc-ingestion]: Downloading https://files.pythonhosted.org/packages/aa/bf/1eee5e94d4bbd3f4957d0c56b93447528055a5ae020b2f4c2a83c60f09e1/phc-ingestion-0.3.26.tar.gz
+[2023-05-25 14:57:37] INFO root fetch - processPackages [EdgeGPT]: executing diffoscope
+[2023-05-25 14:57:37] INFO root fetch - processPackages [EdgeGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EdgeGPT-0.6.2.tar.gz tmp/EdgeGPT-0.6.3.tar.gz --markdown 20230525/E/EdgeGPT/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-05-25 14:57:37] INFO root fetch - processPackages [thztools]: Downloading https://files.pythonhosted.org/packages/f6/2d/4b4553d00fe3a830170d6d5a258d48d48265d58193dffa4e4d93b1271544/thztools-0.1.tar.gz
+[2023-05-25 14:57:37] INFO root fetch - processPackages [nowcasting-dataset]: Downloading https://files.pythonhosted.org/packages/0e/d7/d7bcf4685f8e9a44460a4d8874647ec9be0e409b7464edafb7d9e8c7f958/nowcasting_dataset-3.7.8.tar.gz
+[2023-05-25 14:57:37] INFO root fetch - processPackages [aa-charlink]: Downloading https://files.pythonhosted.org/packages/1a/19/109c8d58b38c5c77bb8376a124f4e7af1ab0a81303442ad5eb2569785fe4/aa-charlink-0.4.1.tar.gz
+[2023-05-25 14:57:37] INFO root fetch - processPackages [pytestifyx]: Downloading https://files.pythonhosted.org/packages/4c/08/21da4b59dcdbde0ca2e262d735cb89e7ac5bab059e0c356b1fcf6995b949/pytestifyx-0.4.8-py2.py3-none-any.whl
+[2023-05-25 14:57:38] INFO root fetch - processPackages [camminapy]: Start processing: camminapy
+[2023-05-25 14:57:38] INFO root fetch - main [MainThread]: End processing [camminapy]: success
+[2023-05-25 14:57:38] INFO root fetch - processPackages [camminapy]: New version: [0.9.0] Old Version: [0.8.9]
+[2023-05-25 14:57:38] INFO root fetch - processPackages [EdgeGPT]: Start processing: aws-cdk.asset-node-proxy-agent-v5
+[2023-05-25 14:57:38] INFO root fetch - main [MainThread]: End processing [EdgeGPT]: success
+[2023-05-25 14:57:38] INFO root fetch - processPackages [widefield-analysis]: executing diffoscope
+[2023-05-25 14:57:38] INFO root fetch - processPackages [widefield-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/widefield_analysis-0.1.4.tar.gz tmp/widefield_analysis-0.1.5.tar.gz --markdown 20230525/w/widefield-analysis/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-25 14:57:38] INFO root fetch - processPackages [pytestifyx]: executing diffoscope
+[2023-05-25 14:57:38] INFO root fetch - processPackages [pytestifyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytestifyx-0.4.7-py2.py3-none-any.whl.zip tmp/pytestifyx-0.4.8-py2.py3-none-any.whl.zip --markdown 20230525/p/pytestifyx/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-05-25 14:57:38] INFO root fetch - processPackages [edu-segmentation]: executing diffoscope
+[2023-05-25 14:57:38] INFO root fetch - processPackages [edu-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edu_segmentation-0.0.64.tar.gz tmp/edu_segmentation-0.0.65.tar.gz --markdown 20230525/e/edu-segmentation/0.0.64-0.0.65/diff.md --exclude *.pyd
+[2023-05-25 14:57:38] INFO root fetch - processPackages [aws-cdk.asset-node-proxy-agent-v5]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-25 14:57:38] INFO root fetch - processPackages [aa-charlink]: Downloading https://files.pythonhosted.org/packages/62/e5/9e0a86433294375ba7cda547abede114f1fe27169fa6348b9563e515c8a1/aa-charlink-0.5.0.tar.gz
+[2023-05-25 14:57:38] INFO root fetch - processPackages [pycelium]: Start processing: nwebclient
+[2023-05-25 14:57:38] INFO root fetch - main [MainThread]: End processing [pycelium]: success
+[2023-05-25 14:57:38] INFO root fetch - processPackages [camminapy]: Downloading https://files.pythonhosted.org/packages/7d/3c/698ecde94f3844fac31428a0485d99b4147689f09fd21c8b9528c8744106/camminapy-0.9.0.tar.gz
+[2023-05-25 14:57:38] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-05-25 14:57:39] INFO root fetch - processPackages [aws-cdk.asset-node-proxy-agent-v5]: executing diffoscope
+[2023-05-25 14:57:39] INFO root fetch - processPackages [aws-cdk.asset-node-proxy-agent-v5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.asset-node-proxy-agent-v5-2.0.98.tar.gz tmp/aws-cdk.asset-node-proxy-agent-v5-2.0.99.tar.gz --markdown 20230525/a/aws-cdk.asset-node-proxy-agent-v5/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-25 14:57:39] INFO root fetch - processPackages [thztools]: Downloading https://files.pythonhosted.org/packages/4e/1d/26252abe5b17ae1bc88748cb2e2423dd07beb8ef00bdebbf08f1eb531075/thztools-1.0.tar.gz
+[2023-05-25 14:57:39] INFO root fetch - processPackages [aa-charlink]: executing diffoscope
+[2023-05-25 14:57:39] INFO root fetch - processPackages [aa-charlink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa-charlink-0.4.1.tar.gz tmp/aa-charlink-0.5.0.tar.gz --markdown 20230525/a/aa-charlink/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-05-25 14:57:39] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-05-25 14:57:39] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230525/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-05-25 14:57:39] INFO root fetch - processPackages [camminapy]: executing diffoscope
+[2023-05-25 14:57:39] INFO root fetch - processPackages [nowcasting-dataset]: Downloading https://files.pythonhosted.org/packages/f5/8e/c07f6df2b41691ed6950606c7266158f629ce87845bd62b0003cc8262ecd/nowcasting_dataset-3.7.9.tar.gz
+[2023-05-25 14:57:39] INFO root fetch - processPackages [camminapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camminapy-0.8.9.tar.gz tmp/camminapy-0.9.0.tar.gz --markdown 20230525/c/camminapy/0.8.9-0.9.0/diff.md --exclude *.pyd
+[2023-05-25 14:57:39] INFO root fetch - processPackages [thztools]: executing diffoscope
+[2023-05-25 14:57:39] INFO root fetch - processPackages [thztools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thztools-0.1.tar.gz tmp/thztools-1.0.tar.gz --markdown 20230525/t/thztools/0.1-1.0/diff.md --exclude *.pyd
+[2023-05-25 14:57:39] INFO root fetch - processPackages [nowcasting-dataset]: executing diffoscope
+[2023-05-25 14:57:39] INFO root fetch - processPackages [nowcasting-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nowcasting_dataset-3.7.8.tar.gz tmp/nowcasting_dataset-3.7.9.tar.gz --markdown 20230525/n/nowcasting-dataset/3.7.8-3.7.9/diff.md --exclude *.pyd
+[2023-05-25 14:57:39] INFO root fetch - processPackages [phc-ingestion]: Downloading https://files.pythonhosted.org/packages/6e/48/d267273f3a356481178fcc5fa73d96c0ea8357bf23868c2f1eb738b0d40a/phc-ingestion-0.3.27.tar.gz
+[2023-05-25 14:57:39] INFO root fetch - processPackages [phc-ingestion]: executing diffoscope
+[2023-05-25 14:57:39] INFO root fetch - processPackages [phc-ingestion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phc-ingestion-0.3.26.tar.gz tmp/phc-ingestion-0.3.27.tar.gz --markdown 20230525/p/phc-ingestion/0.3.26-0.3.27/diff.md --exclude *.pyd
+[2023-05-25 14:57:40] INFO root fetch - processPackages [widefield-analysis]: Start processing: sag-py-auth-brand
+[2023-05-25 14:57:40] INFO root fetch - main [MainThread]: End processing [widefield-analysis]: success
+[2023-05-25 14:57:40] INFO root fetch - processPackages [sag-py-auth-brand]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-25 14:57:40] INFO root fetch - processPackages [aws-cdk.asset-node-proxy-agent-v5]: Start processing: immuneML
+[2023-05-25 14:57:40] INFO root fetch - main [MainThread]: End processing [aws-cdk.asset-node-proxy-agent-v5]: success
+[2023-05-25 14:57:40] INFO root fetch - processPackages [pytestifyx]: Start processing: transaction-service-quality-checker
+[2023-05-25 14:57:40] INFO root fetch - main [MainThread]: End processing [pytestifyx]: success
+[2023-05-25 14:57:40] INFO root fetch - processPackages [sag-py-auth-brand]: Downloading https://files.pythonhosted.org/packages/63/a6/b17c7e26f74725c6a8ac468728cff6774e97864b29282e9494cc662f2412/sag-py-auth-brand-0.2.1.tar.gz
+[2023-05-25 14:57:40] INFO root fetch - processPackages [immuneML]: New version: [2.2.5] Old Version: [2.2.4]
+[2023-05-25 14:57:40] WARNING root fetch - processPackages [transaction-service-quality-checker]: Skipping, unable to determine old version
+[2023-05-25 14:57:40] INFO root fetch - processPackages [transaction-service-quality-checker]: Start processing: varwizard
+[2023-05-25 14:57:40] INFO root fetch - main [MainThread]: End processing [transaction-service-quality-checker] error
+[2023-05-25 14:57:41] INFO root fetch - processPackages [varwizard]: New version: [0.2.1] Old Version: [0.2]
+[2023-05-25 14:57:41] INFO root fetch - processPackages [immuneML]: Downloading https://files.pythonhosted.org/packages/c7/f4/fcc3449ddd53d414d74764d56963c01b1d80c8d379b7a354a6781f039ca4/immuneML-2.2.4.tar.gz
+[2023-05-25 14:57:41] INFO root fetch - processPackages [sag-py-auth-brand]: Downloading https://files.pythonhosted.org/packages/88/90/231a7225bbecc2a927dbdbd92871e7d8f76d99fee312154b4e53815ce891/sag-py-auth-brand-0.2.2.tar.gz
+[2023-05-25 14:57:41] INFO root fetch - main [MainThread]: End processing [edu-segmentation]: success
+[2023-05-25 14:57:41] INFO root fetch - main [MainThread]: End processing [thztools]: success
+[2023-05-25 14:57:41] INFO root fetch - processPackages [sag-py-auth-brand]: executing diffoscope
+[2023-05-25 14:57:41] INFO root fetch - processPackages [sag-py-auth-brand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sag-py-auth-brand-0.2.1.tar.gz tmp/sag-py-auth-brand-0.2.2.tar.gz --markdown 20230525/s/sag-py-auth-brand/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-25 14:57:41] INFO root fetch - processPackages [immuneML]: Downloading https://files.pythonhosted.org/packages/78/0a/0f6dd04d3ac651f2b7d1669b486940f0ce5066612f8177642a35839bdb0a/immuneML-2.2.5.tar.gz
+[2023-05-25 14:57:41] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-05-25 14:57:41] INFO root fetch - main [MainThread]: End processing [camminapy]: success
+[2023-05-25 14:57:41] INFO root fetch - processPackages [varwizard]: Downloading https://files.pythonhosted.org/packages/73/18/2301e2edfdfd4dbaf2b9ec5ae3b0c97f23017932d4fd618e1ec923b805ef/varwizard-0.2.1.tar.gz
+[2023-05-25 14:57:41] INFO root fetch - main [MainThread]: End processing [aa-charlink]: success
+[2023-05-25 14:57:41] INFO root fetch - processPackages [varwizard]: executing diffoscope
+[2023-05-25 14:57:41] INFO root fetch - processPackages [varwizard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/varwizard-0.2.tar.gz tmp/varwizard-0.2.1.tar.gz --markdown 20230525/v/varwizard/0.2-0.2.1/diff.md --exclude *.pyd
+[2023-05-25 14:57:41] INFO root fetch - processPackages [immuneML]: executing diffoscope
+[2023-05-25 14:57:41] INFO root fetch - processPackages [immuneML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/immuneML-2.2.4.tar.gz tmp/immuneML-2.2.5.tar.gz --markdown 20230525/i/immuneML/2.2.4-2.2.5/diff.md --exclude *.pyd
+[2023-05-25 14:57:41] INFO root fetch - main [MainThread]: End processing [nowcasting-dataset]: success
+[2023-05-25 14:57:41] INFO root fetch - main [MainThread]: End processing [phc-ingestion]: success
+[2023-05-25 14:57:42] INFO root fetch - main [MainThread]: End processing [sag-py-auth-brand]: success
+[2023-05-25 14:57:43] INFO root fetch - main [MainThread]: End processing [varwizard]: success
+[2023-05-25 14:57:46] INFO root fetch - main [MainThread]: End processing [immuneML]: success
+[2023-05-25 14:57:46] INFO root fetch - main [MainThread]: Store serial: [18246859]
