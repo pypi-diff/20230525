@@ -20842,3 +20842,136 @@ EOFError: EOF read where object expected
 [2023-05-25 16:25:21] INFO root fetch - main [MainThread]: End processing [upgini]: success
 [2023-05-25 16:25:21] INFO root fetch - main [MainThread]: End processing [vid2info]: success
 [2023-05-25 16:25:21] INFO root fetch - main [MainThread]: Store serial: [18248162]
+[2023-05-25 16:30:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18248162]
+[2023-05-25 16:30:30] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-05-25 16:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aspose-barcode-for-python-via-net
+[2023-05-25 16:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: djangocms-blog
+[2023-05-25 16:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cht-meteo
+[2023-05-25 16:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyansys
+[2023-05-25 16:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mmigrator
+[2023-05-25 16:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gnosis-neon-safe-eth-py
+[2023-05-25 16:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: duty-board
+[2023-05-25 16:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: datamarket
+[2023-05-25 16:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: blaster-server
+[2023-05-25 16:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: netbox-cisco-maintenance
+[2023-05-25 16:30:31] INFO root fetch - processPackages [aspose-barcode-for-python-via-net]: New version: [23.5] Old Version: [23.4]
+[2023-05-25 16:30:31] WARNING root fetch - processPackages [cht-meteo]: Skipping, unable to determine old version
+[2023-05-25 16:30:31] INFO root fetch - processPackages [cht-meteo]: Start processing: upgini
+[2023-05-25 16:30:31] INFO root fetch - main [MainThread]: End processing [cht-meteo] error
+[2023-05-25 16:30:31] INFO root fetch - processPackages [duty-board]: New version: [0.2.1] Old Version: [0.1.0]
+[2023-05-25 16:30:31] INFO root fetch - processPackages [gnosis-neon-safe-eth-py]: New version: [5.4.3] Old Version: [5.3.1]
+[2023-05-25 16:30:31] INFO root fetch - processPackages [mmigrator]: New version: [0.2.2] Old Version: [0.2.0]
+[2023-05-25 16:30:31] INFO root fetch - processPackages [datamarket]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-25 16:30:31] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 16:30:31] INFO root fetch - processPackages [blaster-server]: New version: [0.0.432b0] Old Version: [0.0.432]
+[2023-05-25 16:30:31] INFO root fetch - processPackages [djangocms-blog]: New version: [2.0.0b2] Old Version: [2.0.0b1]
+[2023-05-25 16:30:31] INFO root fetch - processPackages [pyansys]: New version: [2023.2rc2] Old Version: [2023.2rc1]
+[2023-05-25 16:30:31] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-05-25 16:30:31] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2023-05-25 16:30:31] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20230525/u/upgini/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-05-25 16:30:31] INFO root fetch - processPackages [datamarket]: Downloading https://files.pythonhosted.org/packages/dd/ce/9997ef5cb0ae8ad3a56ef4898ec01a4e8959ca1d515b257a51ef556b7c87/datamarket-0.3.0.tar.gz
+[2023-05-25 16:30:31] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-05-25 16:30:31] INFO root fetch - processPackages [aspose-barcode-for-python-via-net]: Downloading https://files.pythonhosted.org/packages/1b/16/194fbd83cbab3a9303b61713611927725955c421d5680acac2b69e5372dd/aspose_barcode_for_python_via_net-23.4-py3-none-win_amd64.whl
+[2023-05-25 16:30:31] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.8.tar.gz tmp/netbox-cisco-maintenance-0.0.9.tar.gz --markdown 20230525/n/netbox-cisco-maintenance/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 16:30:31] INFO root fetch - processPackages [duty-board]: Downloading https://files.pythonhosted.org/packages/99/9a/d5eaaf463cb875d40a2bf901b28f5e919441baa3c1eb7a0a2a1e6abcea2b/duty-board-0.1.0.tar.gz
+[2023-05-25 16:30:31] INFO root fetch - processPackages [gnosis-neon-safe-eth-py]: Downloading https://files.pythonhosted.org/packages/dd/86/6ce6a063e1c0f7105df37058e2f8316d72f5ae4059026ba12597c7efd78d/gnosis-neon-safe-eth-py-5.3.1.tar.gz
+[2023-05-25 16:30:31] INFO root fetch - processPackages [djangocms-blog]: Downloading https://files.pythonhosted.org/packages/c3/e6/be9d46469ae8dace556a8b92d6c6ce623d53fc1152e54d2708c9c4ec75f3/djangocms-blog-2.0.0b1.tar.gz
+[2023-05-25 16:30:31] WARNING root fetch - processPackages [aspose-barcode-for-python-via-net]: Skipping package: exceeds size limit 39094250>=10485760
+[2023-05-25 16:30:31] INFO root fetch - processPackages [aspose-barcode-for-python-via-net]: Start processing: obpgenerator
+[2023-05-25 16:30:31] INFO root fetch - main [MainThread]: End processing [aspose-barcode-for-python-via-net] error
+[2023-05-25 16:30:31] INFO root fetch - processPackages [obpgenerator]: New version: [0.0.21] Old Version: [0.0.20]
+[2023-05-25 16:30:31] INFO root fetch - processPackages [mmigrator]: Downloading https://files.pythonhosted.org/packages/f1/f4/27c68a53b8371b63dd1d22472bffbbc08b4398269e98d0c7fbacfd5b4dbc/mmigrator-0.2.2.tar.gz
+[2023-05-25 16:30:31] INFO root fetch - processPackages [blaster-server]: Downloading https://files.pythonhosted.org/packages/0d/ea/141a6ba4794bc93c77c602a8c0a2ad1dc996bd7e290c949ddd0c6f65ddfc/blaster-server-0.0.432b0.tar.gz
+[2023-05-25 16:30:31] INFO root fetch - processPackages [mmigrator]: executing diffoscope
+[2023-05-25 16:30:31] INFO root fetch - processPackages [pyansys]: executing diffoscope
+[2023-05-25 16:30:31] INFO root fetch - processPackages [mmigrator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmigrator-0.2.0.tar.gz tmp/mmigrator-0.2.2.tar.gz --markdown 20230525/m/mmigrator/0.2.0-0.2.2/diff.md --exclude *.pyd
+[2023-05-25 16:30:31] INFO root fetch - processPackages [pyansys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyansys-2023.2rc1.tar.gz tmp/pyansys-2023.2rc2.tar.gz --markdown 20230525/p/pyansys/2023.2rc1-2023.2rc2/diff.md --exclude *.pyd
+[2023-05-25 16:30:31] INFO root fetch - processPackages [obpgenerator]: Downloading https://files.pythonhosted.org/packages/80/cb/665ef29983515785634f7379b3c5f44c3ebd517304e0782a7aa0a873626f/obpgenerator-0.0.21.tar.gz
+[2023-05-25 16:30:31] INFO root fetch - processPackages [blaster-server]: executing diffoscope
+[2023-05-25 16:30:31] INFO root fetch - processPackages [blaster-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blaster-server-0.0.432.tar.gz tmp/blaster-server-0.0.432b0.tar.gz --markdown 20230525/b/blaster-server/0.0.432-0.0.432b0/diff.md --exclude *.pyd
+[2023-05-25 16:30:31] INFO root fetch - processPackages [gnosis-neon-safe-eth-py]: Downloading https://files.pythonhosted.org/packages/ed/df/1730a3fac99d1b7f6764ce22547721c18a24ca7e0974ba39cf8de68546b8/gnosis-neon-safe-eth-py-5.4.3.tar.gz
+[2023-05-25 16:30:31] INFO root fetch - processPackages [datamarket]: Downloading https://files.pythonhosted.org/packages/f5/95/7da29bc27fe34bc4007879c431706d4bbedae83007db77bd12b3632e5769/datamarket-0.3.1.tar.gz
+[2023-05-25 16:30:31] INFO root fetch - processPackages [obpgenerator]: executing diffoscope
+[2023-05-25 16:30:31] INFO root fetch - processPackages [obpgenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/obpgenerator-0.0.20.tar.gz tmp/obpgenerator-0.0.21.tar.gz --markdown 20230525/o/obpgenerator/0.0.20-0.0.21/diff.md --exclude *.pyd
+[2023-05-25 16:30:31] INFO root fetch - processPackages [djangocms-blog]: Downloading https://files.pythonhosted.org/packages/e5/bf/acfffed1d55dca5f707491a0af2d6b54ecf4ba5b1e2f67b065b5553c4722/djangocms-blog-2.0.0b2.zip
+[2023-05-25 16:30:31] INFO root fetch - processPackages [gnosis-neon-safe-eth-py]: executing diffoscope
+[2023-05-25 16:30:31] INFO root fetch - processPackages [gnosis-neon-safe-eth-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gnosis-neon-safe-eth-py-5.3.1.tar.gz tmp/gnosis-neon-safe-eth-py-5.4.3.tar.gz --markdown 20230525/g/gnosis-neon-safe-eth-py/5.3.1-5.4.3/diff.md --exclude *.pyd
+[2023-05-25 16:30:31] INFO root fetch - processPackages [djangocms-blog]: executing diffoscope
+[2023-05-25 16:30:31] INFO root fetch - processPackages [djangocms-blog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangocms-blog-2.0.0b1.tar.gz tmp/djangocms-blog-2.0.0b2.zip --markdown 20230525/d/djangocms-blog/2.0.0b1-2.0.0b2/diff.md --exclude *.pyd
+[2023-05-25 16:30:31] INFO root fetch - processPackages [datamarket]: executing diffoscope
+[2023-05-25 16:30:31] INFO root fetch - processPackages [datamarket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamarket-0.3.0.tar.gz tmp/datamarket-0.3.1.tar.gz --markdown 20230525/d/datamarket/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-25 16:30:31] INFO root fetch - processPackages [duty-board]: Downloading https://files.pythonhosted.org/packages/ef/74/04bc69a8ed8f062e2a0217768225ee5c63b3fedd71e14688af9c00776b9e/duty-board-0.2.1.tar.gz
+[2023-05-25 16:30:32] INFO root fetch - processPackages [duty-board]: executing diffoscope
+[2023-05-25 16:30:32] INFO root fetch - processPackages [duty-board]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duty-board-0.1.0.tar.gz tmp/duty-board-0.2.1.tar.gz --markdown 20230525/d/duty-board/0.1.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-25 16:30:32] INFO root fetch - processPackages [netbox-cisco-maintenance]: Start processing: pycliwrapper
+[2023-05-25 16:30:32] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-05-25 16:30:32] WARNING root fetch - processPackages [pycliwrapper]: Skipping, unable to determine old version
+[2023-05-25 16:30:32] INFO root fetch - processPackages [pycliwrapper]: Start processing: types-circuitpython
+[2023-05-25 16:30:32] INFO root fetch - main [MainThread]: End processing [pycliwrapper] error
+[2023-05-25 16:30:33] INFO root fetch - processPackages [types-circuitpython]: New version: [8.2.0b0] Old Version: [8.1.0rc0]
+[2023-05-25 16:30:33] INFO root fetch - processPackages [pyansys]: Start processing: makejinja
+[2023-05-25 16:30:33] INFO root fetch - main [MainThread]: End processing [pyansys]: success
+[2023-05-25 16:30:33] INFO root fetch - processPackages [makejinja]: New version: [2.0.0b4] Old Version: [2.0.0b3]
+[2023-05-25 16:30:33] INFO root fetch - processPackages [makejinja]: Downloading https://files.pythonhosted.org/packages/25/da/829326772d00306a65dcc8a334f2a298e2759a38aed629df9022ce21b805/makejinja-2.0.0b3.tar.gz
+[2023-05-25 16:30:33] INFO root fetch - processPackages [mmigrator]: Start processing: imessagedb
+[2023-05-25 16:30:33] INFO root fetch - main [MainThread]: End processing [mmigrator]: success
+[2023-05-25 16:30:33] INFO root fetch - processPackages [imessagedb]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-05-25 16:30:33] INFO root fetch - processPackages [types-circuitpython]: Downloading https://files.pythonhosted.org/packages/6c/6b/30211b01c09783422399eb45ab35efec7b1c2b3a3e417cd78ca22f6e0e73/types-circuitpython-8.2.0b0.tar.gz
+[2023-05-25 16:30:33] INFO root fetch - processPackages [imessagedb]: Downloading https://files.pythonhosted.org/packages/8d/ec/ea53d43f33c0f101c53ea525ea502e8c090df3781697a509d93053303fb4/imessagedb-1.3.3.tar.gz
+[2023-05-25 16:30:33] INFO root fetch - processPackages [makejinja]: Downloading https://files.pythonhosted.org/packages/6e/d2/b73bcd4777cc4009f49001d447b007adfb8662fb50741e1d3d0922bf1768/makejinja-2.0.0b4.tar.gz
+[2023-05-25 16:30:33] INFO root fetch - processPackages [types-circuitpython]: executing diffoscope
+[2023-05-25 16:30:33] INFO root fetch - processPackages [types-circuitpython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-circuitpython-8.1.0rc0.tar.gz tmp/types-circuitpython-8.2.0b0.tar.gz --markdown 20230525/t/types-circuitpython/8.1.0rc0-8.2.0b0/diff.md --exclude *.pyd
+[2023-05-25 16:30:33] INFO root fetch - processPackages [datamarket]: Start processing: draggan
+[2023-05-25 16:30:33] INFO root fetch - main [MainThread]: End processing [datamarket]: success
+[2023-05-25 16:30:33] INFO root fetch - processPackages [draggan]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-25 16:30:33] INFO root fetch - processPackages [makejinja]: executing diffoscope
+[2023-05-25 16:30:33] INFO root fetch - processPackages [makejinja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/makejinja-2.0.0b3.tar.gz tmp/makejinja-2.0.0b4.tar.gz --markdown 20230525/m/makejinja/2.0.0b3-2.0.0b4/diff.md --exclude *.pyd
+[2023-05-25 16:30:33] INFO root fetch - processPackages [imessagedb]: Downloading https://files.pythonhosted.org/packages/5f/6c/4c399dafe523707c97bd98397c93ebd7ff087fb15509df543c8b3aa36d51/imessagedb-1.3.4.tar.gz
+[2023-05-25 16:30:33] INFO root fetch - processPackages [draggan]: Downloading https://files.pythonhosted.org/packages/8c/3f/21c16c5ce6aba8d5ff5a17b7a24b16a766464321f23ea8dfcc31ba21c4d4/draggan-1.0.2.tar.gz
+[2023-05-25 16:30:33] INFO root fetch - processPackages [obpgenerator]: Start processing: upgini
+[2023-05-25 16:30:33] INFO root fetch - main [MainThread]: End processing [obpgenerator]: success
+[2023-05-25 16:30:33] INFO root fetch - processPackages [imessagedb]: executing diffoscope
+[2023-05-25 16:30:33] INFO root fetch - processPackages [imessagedb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imessagedb-1.3.3.tar.gz tmp/imessagedb-1.3.4.tar.gz --markdown 20230525/i/imessagedb/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-05-25 16:30:33] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-05-25 16:30:34] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2023-05-25 16:30:34] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20230525/u/upgini/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-05-25 16:30:34] INFO root fetch - processPackages [draggan]: Downloading https://files.pythonhosted.org/packages/e0/fd/5e328994be69497985ee99140e88520c3883b4bc83e4bd2f4758ca23696f/draggan-1.0.3.tar.gz
+[2023-05-25 16:30:34] INFO root fetch - processPackages [blaster-server]: Start processing: ponder
+[2023-05-25 16:30:34] INFO root fetch - main [MainThread]: End processing [blaster-server]: success
+[2023-05-25 16:30:34] INFO root fetch - processPackages [ponder]: New version: [0.1.6] Old Version: [0.1.2]
+[2023-05-25 16:30:34] INFO root fetch - processPackages [upgini]: Start processing: yuptools
+[2023-05-25 16:30:34] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2023-05-25 16:30:34] WARNING root fetch - processPackages [yuptools]: Skipping, unable to determine old version
+[2023-05-25 16:30:34] INFO root fetch - processPackages [yuptools]: Start processing: ALMASim
+[2023-05-25 16:30:34] INFO root fetch - main [MainThread]: End processing [yuptools] error
+[2023-05-25 16:30:34] INFO root fetch - processPackages [draggan]: executing diffoscope
+[2023-05-25 16:30:34] INFO root fetch - processPackages [draggan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/draggan-1.0.2.tar.gz tmp/draggan-1.0.3.tar.gz --markdown 20230525/d/draggan/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-25 16:30:34] INFO root fetch - processPackages [ALMASim]: New version: [2.2] Old Version: [2.1]
+[2023-05-25 16:30:34] INFO root fetch - processPackages [ALMASim]: Downloading https://files.pythonhosted.org/packages/5c/37/5eae2b939cb32999b12ab4ccf6cf36f1a1c1684c6ce12b7d70e37608b879/ALMASim-2.2.tar.gz
+[2023-05-25 16:30:34] INFO root fetch - processPackages [ponder]: executing diffoscope
+[2023-05-25 16:30:34] INFO root fetch - processPackages [ponder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ponder-0.1.2-cp39-cp39-win_amd64.whl.zip tmp/ponder-0.1.6-cp39-cp39-win_amd64.whl.zip --markdown 20230525/p/ponder/0.1.2-0.1.6/diff.md --exclude *.pyd
+[2023-05-25 16:30:34] INFO root fetch - processPackages [ALMASim]: executing diffoscope
+[2023-05-25 16:30:34] INFO root fetch - processPackages [ALMASim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ALMASim-2.1.tar.gz tmp/ALMASim-2.2.tar.gz --markdown 20230525/A/ALMASim/2.1-2.2/diff.md --exclude *.pyd
+[2023-05-25 16:30:35] INFO root fetch - processPackages [djangocms-blog]: Start processing: anesthetic
+[2023-05-25 16:30:35] INFO root fetch - main [MainThread]: End processing [djangocms-blog]: success
+[2023-05-25 16:30:35] INFO root fetch - processPackages [anesthetic]: New version: [2.0.0b9] Old Version: [2.0.0b7]
+[2023-05-25 16:30:35] INFO root fetch - processPackages [types-circuitpython]: Start processing: dfmodule
+[2023-05-25 16:30:35] INFO root fetch - main [MainThread]: End processing [types-circuitpython]: success
+[2023-05-25 16:30:35] INFO root fetch - processPackages [dfmodule]: New version: [0.0.4.2] Old Version: [0.0.4.1]
+[2023-05-25 16:30:35] INFO root fetch - main [MainThread]: End processing [makejinja]: success
+[2023-05-25 16:30:35] INFO root fetch - processPackages [dfmodule]: executing diffoscope
+[2023-05-25 16:30:35] INFO root fetch - processPackages [dfmodule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfmodule-0.0.4.1.tar.gz tmp/dfmodule-0.0.4.2.tar.gz --markdown 20230525/d/dfmodule/0.0.4.1-0.0.4.2/diff.md --exclude *.pyd
+[2023-05-25 16:30:35] INFO root fetch - processPackages [anesthetic]: Downloading https://files.pythonhosted.org/packages/bb/ee/510009a21351f1f3cc40d53f647047eef65a83196f66a74bdcab71213051/anesthetic-2.0.0b7.tar.gz
+[2023-05-25 16:30:36] INFO root fetch - main [MainThread]: End processing [imessagedb]: success
+[2023-05-25 16:30:36] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2023-05-25 16:30:36] INFO root fetch - main [MainThread]: End processing [ponder]: success
+[2023-05-25 16:30:36] INFO root fetch - main [MainThread]: End processing [draggan]: success
+[2023-05-25 16:30:36] INFO root fetch - main [MainThread]: End processing [dfmodule]: success
+[2023-05-25 16:30:37] INFO root fetch - main [MainThread]: End processing [ALMASim]: success
+[2023-05-25 16:30:37] INFO root fetch - processPackages [anesthetic]: Downloading https://files.pythonhosted.org/packages/69/67/acd5153fe2efa969ee04ccb4079ccc1c108090ffab6b45ac362cbe2bf3b2/anesthetic-2.0.0b9.tar.gz
+[2023-05-25 16:30:37] INFO root fetch - main [MainThread]: End processing [gnosis-neon-safe-eth-py]: success
+[2023-05-25 16:30:38] INFO root fetch - processPackages [anesthetic]: executing diffoscope
+[2023-05-25 16:30:38] INFO root fetch - processPackages [anesthetic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anesthetic-2.0.0b7.tar.gz tmp/anesthetic-2.0.0b9.tar.gz --markdown 20230525/a/anesthetic/2.0.0b7-2.0.0b9/diff.md --exclude *.pyd
+[2023-05-25 16:30:40] INFO root fetch - main [MainThread]: End processing [anesthetic]: success
+[2023-05-25 16:30:43] INFO root fetch - main [MainThread]: End processing [duty-board]: success
+[2023-05-25 16:30:43] INFO root fetch - main [MainThread]: Store serial: [18248251]
