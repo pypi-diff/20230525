@@ -10857,3 +10857,53 @@
 [2023-05-25 08:33:09] INFO root fetch - main [MainThread]: End processing [pydoxtools]: success
 [2023-05-25 08:33:20] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-05-25 08:33:20] INFO root fetch - main [MainThread]: Store serial: [18242279]
+[2023-05-25 08:38:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18242279]
+[2023-05-25 08:38:29] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-25 08:38:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stigg-api-client
+[2023-05-25 08:38:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: finddd
+[2023-05-25 08:38:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TorchPIV
+[2023-05-25 08:38:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: antchain-ak-160dcb91a1ea4a078490f86960f85f38
+[2023-05-25 08:38:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seeFretboard
+[2023-05-25 08:38:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PyParseEarley
+[2023-05-25 08:38:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: linkedinpdfextractor
+[2023-05-25 08:38:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyrosexmod
+[2023-05-25 08:38:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bankvpn
+[2023-05-25 08:38:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: repository-service-tuf
+[2023-05-25 08:38:29] WARNING root fetch - processPackages [antchain-ak-160dcb91a1ea4a078490f86960f85f38]: Skipping, unable to determine old version
+[2023-05-25 08:38:29] INFO root fetch - main [MainThread]: End processing [antchain-ak-160dcb91a1ea4a078490f86960f85f38] error
+[2023-05-25 08:38:29] INFO root fetch - processPackages [seeFretboard]: New version: [0.0.9.9] Old Version: [0.0.9.8]
+[2023-05-25 08:38:29] INFO root fetch - processPackages [linkedinpdfextractor]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-05-25 08:38:29] INFO root fetch - processPackages [TorchPIV]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-25 08:38:29] WARNING root fetch - processPackages [PyParseEarley]: Skipping, unable to determine old version
+[2023-05-25 08:38:29] INFO root fetch - main [MainThread]: End processing [PyParseEarley] error
+[2023-05-25 08:38:29] INFO root fetch - processPackages [seeFretboard]: executing diffoscope
+[2023-05-25 08:38:29] INFO root fetch - processPackages [seeFretboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seeFretboard-0.0.9.8.tar.gz tmp/seeFretboard-0.0.9.9.tar.gz --markdown 20230525/s/seeFretboard/0.0.9.8-0.0.9.9/diff.md --exclude *.pyd
+[2023-05-25 08:38:29] INFO root fetch - processPackages [stigg-api-client]: New version: [0.5.0] Old Version: [0.444.0]
+[2023-05-25 08:38:29] WARNING root fetch - processPackages [finddd]: Skipping, unable to determine old version
+[2023-05-25 08:38:29] INFO root fetch - main [MainThread]: End processing [finddd] error
+[2023-05-25 08:38:29] INFO root fetch - processPackages [pyrosexmod]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-25 08:38:29] INFO root fetch - processPackages [linkedinpdfextractor]: executing diffoscope
+[2023-05-25 08:38:29] INFO root fetch - processPackages [linkedinpdfextractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linkedinpdfextractor-1.2.2.tar.gz tmp/linkedinpdfextractor-1.2.3.tar.gz --markdown 20230525/l/linkedinpdfextractor/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-05-25 08:38:29] WARNING root fetch - processPackages [bankvpn]: Skipping, unable to determine old version
+[2023-05-25 08:38:29] INFO root fetch - main [MainThread]: End processing [bankvpn] error
+[2023-05-25 08:38:29] INFO root fetch - processPackages [TorchPIV]: executing diffoscope
+[2023-05-25 08:38:29] INFO root fetch - processPackages [TorchPIV]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TorchPIV-0.1.8.tar.gz tmp/TorchPIV-0.1.9.tar.gz --markdown 20230525/T/TorchPIV/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-25 08:38:29] INFO root fetch - processPackages [repository-service-tuf]: New version: [0.3.0a1] Old Version: [0.1.2a1]
+[2023-05-25 08:38:30] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/b3/ca/75603f9ff56c83c0337c4b1dd45a8d26dd0a865cdc9a82c7655eb770f7a6/stigg_api_client-0.444.0.tar.gz
+[2023-05-25 08:38:30] INFO root fetch - processPackages [pyrosexmod]: Downloading https://files.pythonhosted.org/packages/21/a0/9fbf3a5483ce2b57e266b6bd86eded08cef437588d879a88e9db311db5ad/pyrosexmod-0.0.3.tar.gz
+[2023-05-25 08:38:30] INFO root fetch - processPackages [repository-service-tuf]: Downloading https://files.pythonhosted.org/packages/eb/d9/d8aac28807573e6b1e12e2ebb49d13a3ff444e6e87188a266a4dbd62789b/repository_service_tuf-0.1.2a1.tar.gz
+[2023-05-25 08:38:30] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2023-05-25 08:38:30] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-0.444.0.tar.gz tmp/stigg_api_client-0.5.0.tar.gz --markdown 20230525/s/stigg-api-client/0.444.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-25 08:38:30] INFO root fetch - processPackages [repository-service-tuf]: Downloading https://files.pythonhosted.org/packages/bf/74/599cd527ee4cfa3ad22fb6e608a6ff9a2608935186f21c2a2f6779ea9f57/repository_service_tuf-0.3.0a1.tar.gz
+[2023-05-25 08:38:30] INFO root fetch - processPackages [pyrosexmod]: Downloading https://files.pythonhosted.org/packages/19/ca/e792cb2bc7ce69d98807a089d77faf7136fbe8b0db20e42105dd6e4c5304/pyrosexmod-0.0.4.tar.gz
+[2023-05-25 08:38:30] INFO root fetch - processPackages [pyrosexmod]: executing diffoscope
+[2023-05-25 08:38:30] INFO root fetch - processPackages [pyrosexmod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrosexmod-0.0.3.tar.gz tmp/pyrosexmod-0.0.4.tar.gz --markdown 20230525/p/pyrosexmod/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-25 08:38:30] INFO root fetch - processPackages [repository-service-tuf]: executing diffoscope
+[2023-05-25 08:38:30] INFO root fetch - processPackages [repository-service-tuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repository_service_tuf-0.1.2a1.tar.gz tmp/repository_service_tuf-0.3.0a1.tar.gz --markdown 20230525/r/repository-service-tuf/0.1.2a1-0.3.0a1/diff.md --exclude *.pyd
+[2023-05-25 08:38:31] INFO root fetch - main [MainThread]: End processing [TorchPIV]: success
+[2023-05-25 08:38:31] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2023-05-25 08:38:31] INFO root fetch - main [MainThread]: End processing [pyrosexmod]: success
+[2023-05-25 08:38:32] INFO root fetch - main [MainThread]: End processing [repository-service-tuf]: success
+[2023-05-25 08:38:33] INFO root fetch - main [MainThread]: End processing [linkedinpdfextractor]: success
+[2023-05-25 08:38:39] INFO root fetch - main [MainThread]: End processing [seeFretboard]: success
+[2023-05-25 08:38:39] INFO root fetch - main [MainThread]: Store serial: [18242314]
