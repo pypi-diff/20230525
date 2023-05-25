@@ -15888,3 +15888,79 @@ EOFError: EOF read where object expected
 [2023-05-25 12:40:17] INFO root fetch - main [MainThread]: End processing [mmfutils]: success
 [2023-05-25 12:40:22] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-05-25 12:40:22] INFO root fetch - main [MainThread]: Store serial: [18245212]
+[2023-05-25 12:45:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18245212]
+[2023-05-25 12:45:32] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-25 12:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mmfutils
+[2023-05-25 12:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tcod
+[2023-05-25 12:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: google-chad
+[2023-05-25 12:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyeCam
+[2023-05-25 12:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ccxt
+[2023-05-25 12:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vid2info
+[2023-05-25 12:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rhods-model-registry-poc
+[2023-05-25 12:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mltlk
+[2023-05-25 12:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ALMASim
+[2023-05-25 12:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: microhorario-dl
+[2023-05-25 12:45:32] INFO root fetch - processPackages [pyeCam]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 12:45:32] INFO root fetch - processPackages [mmfutils]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-05-25 12:45:32] INFO root fetch - processPackages [vid2info]: New version: [1.99] Old Version: [1.98]
+[2023-05-25 12:45:32] INFO root fetch - processPackages [ccxt]: New version: [3.1.7] Old Version: [3.1.6]
+[2023-05-25 12:45:32] INFO root fetch - processPackages [microhorario-dl]: New version: [1.4] Old Version: [1.3.0a1]
+[2023-05-25 12:45:32] INFO root fetch - processPackages [ALMASim]: New version: [1.5] Old Version: [1.1.1]
+[2023-05-25 12:45:32] WARNING root fetch - processPackages [mltlk]: Skipping, unable to determine old version
+[2023-05-25 12:45:32] INFO root fetch - processPackages [mltlk]: Start processing: pyrosexmod
+[2023-05-25 12:45:32] INFO root fetch - main [MainThread]: End processing [mltlk] error
+[2023-05-25 12:45:32] INFO root fetch - processPackages [google-chad]: New version: [3.6] Old Version: [3.5]
+[2023-05-25 12:45:32] INFO root fetch - processPackages [rhods-model-registry-poc]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-25 12:45:32] INFO root fetch - processPackages [pyrosexmod]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-25 12:45:32] INFO root fetch - processPackages [mmfutils]: executing diffoscope
+[2023-05-25 12:45:32] INFO root fetch - processPackages [mmfutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmfutils-0.6.3.tar.gz tmp/mmfutils-0.6.4.tar.gz --markdown 20230525/m/mmfutils/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-05-25 12:45:32] INFO root fetch - processPackages [pyeCam]: executing diffoscope
+[2023-05-25 12:45:32] INFO root fetch - processPackages [pyeCam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyeCam-0.0.8.tar.gz tmp/pyeCam-0.0.9.tar.gz --markdown 20230525/p/pyeCam/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 12:45:32] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-05-25 12:45:32] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-3.1.6.tar.gz tmp/ccxt-3.1.7.tar.gz --markdown 20230525/c/ccxt/3.1.6-3.1.7/diff.md --exclude *.pyd
+[2023-05-25 12:45:32] INFO root fetch - processPackages [tcod]: New version: [9.3.0] Old Version: [9.2.5]
+[2023-05-25 12:45:32] INFO root fetch - processPackages [vid2info]: executing diffoscope
+[2023-05-25 12:45:32] INFO root fetch - processPackages [vid2info]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vid2info-1.98.tar.gz tmp/vid2info-1.99.tar.gz --markdown 20230525/v/vid2info/1.98-1.99/diff.md --exclude *.pyd
+[2023-05-25 12:45:32] INFO root fetch - processPackages [microhorario-dl]: Downloading https://files.pythonhosted.org/packages/44/ad/413df16be545d1ac1e80619f786e3d89fc252313e90c4be253d898afab80/microhorario-dl-1.3.0a1.tar.gz
+[2023-05-25 12:45:32] INFO root fetch - processPackages [google-chad]: Downloading https://files.pythonhosted.org/packages/8b/2a/4f5fc19a8d8074b85352cc0db7b99244cec3e4aa2641df8ed76444768617/google-chad-3.5.tar.gz
+[2023-05-25 12:45:32] INFO root fetch - processPackages [pyrosexmod]: Downloading https://files.pythonhosted.org/packages/d2/01/4e1004a524879d516cbf1bc065886c93dbce1ba0b138a5104567a3b5cf3b/pyrosexmod-0.1.1.tar.gz
+[2023-05-25 12:45:32] INFO root fetch - processPackages [tcod]: Downloading https://files.pythonhosted.org/packages/5f/39/3216d0ebbb1e8aa877f5431c9ddeac7ff06ccc1599bb732d7dc0be457f92/tcod-9.2.5.tar.gz
+[2023-05-25 12:45:32] INFO root fetch - processPackages [ALMASim]: Downloading https://files.pythonhosted.org/packages/98/92/c366d1a0a21df3e69d6403b6311dcb0b265944a54ed774de5c9635282a7b/ALMASim-1.5.tar.gz
+[2023-05-25 12:45:32] INFO root fetch - processPackages [rhods-model-registry-poc]: executing diffoscope
+[2023-05-25 12:45:32] INFO root fetch - processPackages [rhods-model-registry-poc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rhods_model_registry_poc-0.1.7.tar.gz tmp/rhods_model_registry_poc-0.1.8.tar.gz --markdown 20230525/r/rhods-model-registry-poc/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-25 12:45:32] INFO root fetch - processPackages [ALMASim]: executing diffoscope
+[2023-05-25 12:45:32] INFO root fetch - processPackages [ALMASim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ALMASim-1.1.1.tar.gz tmp/ALMASim-1.5.tar.gz --markdown 20230525/A/ALMASim/1.1.1-1.5/diff.md --exclude *.pyd
+[2023-05-25 12:45:32] INFO root fetch - processPackages [google-chad]: Downloading https://files.pythonhosted.org/packages/99/54/4430f5d805f5cc370828bceab5db7a9aa58c7faf623f1004cecb4d535679/google-chad-3.6.tar.gz
+[2023-05-25 12:45:32] INFO root fetch - processPackages [microhorario-dl]: Downloading https://files.pythonhosted.org/packages/d5/cc/99bcf480e5d0424eb7e216f5739898f87428f0537d8acb0b6f193ea9bdc4/microhorario-dl-1.4.tar.gz
+[2023-05-25 12:45:32] INFO root fetch - processPackages [pyrosexmod]: executing diffoscope
+[2023-05-25 12:45:32] INFO root fetch - processPackages [pyrosexmod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrosexmod-0.1.0.tar.gz tmp/pyrosexmod-0.1.1.tar.gz --markdown 20230525/p/pyrosexmod/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-25 12:45:32] INFO root fetch - processPackages [google-chad]: executing diffoscope
+[2023-05-25 12:45:32] INFO root fetch - processPackages [google-chad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-chad-3.5.tar.gz tmp/google-chad-3.6.tar.gz --markdown 20230525/g/google-chad/3.5-3.6/diff.md --exclude *.pyd
+[2023-05-25 12:45:32] INFO root fetch - processPackages [microhorario-dl]: executing diffoscope
+[2023-05-25 12:45:32] INFO root fetch - processPackages [microhorario-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microhorario-dl-1.3.0a1.tar.gz tmp/microhorario-dl-1.4.tar.gz --markdown 20230525/m/microhorario-dl/1.3.0a1-1.4/diff.md --exclude *.pyd
+[2023-05-25 12:45:33] INFO root fetch - processPackages [tcod]: Downloading https://files.pythonhosted.org/packages/74/35/d1552bd3aed75544a87a58c47b29660281ecfc7c3e54438a4b9e9989079e/tcod-9.3.0.tar.gz
+[2023-05-25 12:45:33] INFO root fetch - processPackages [tcod]: executing diffoscope
+[2023-05-25 12:45:33] INFO root fetch - processPackages [tcod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcod-9.2.5.tar.gz tmp/tcod-9.3.0.tar.gz --markdown 20230525/t/tcod/9.2.5-9.3.0/diff.md --exclude *.pyd
+[2023-05-25 12:45:33] INFO root fetch - processPackages [pyeCam]: Start processing: lamindb
+[2023-05-25 12:45:33] INFO root fetch - main [MainThread]: End processing [pyeCam]: success
+[2023-05-25 12:45:33] INFO root fetch - processPackages [lamindb]: New version: [0.9.6] Old Version: [0.9.4]
+[2023-05-25 12:45:34] INFO root fetch - processPackages [lamindb]: executing diffoscope
+[2023-05-25 12:45:34] INFO root fetch - processPackages [lamindb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb-0.9.4.tar.gz tmp/lamindb-0.9.6.tar.gz --markdown 20230525/l/lamindb/0.9.4-0.9.6/diff.md --exclude *.pyd
+[2023-05-25 12:45:34] INFO root fetch - processPackages [rhods-model-registry-poc]: Start processing: robocorp-tasks
+[2023-05-25 12:45:34] INFO root fetch - main [MainThread]: End processing [rhods-model-registry-poc]: success
+[2023-05-25 12:45:34] INFO root fetch - processPackages [robocorp-tasks]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-05-25 12:45:34] INFO root fetch - main [MainThread]: End processing [pyrosexmod]: success
+[2023-05-25 12:45:34] INFO root fetch - processPackages [robocorp-tasks]: Downloading https://files.pythonhosted.org/packages/f3/86/137e23022c5663556f19907e56686460fe9fead668854c955cf70a9f1833/robocorp_tasks-0.2.1.tar.gz
+[2023-05-25 12:45:34] INFO root fetch - main [MainThread]: End processing [ALMASim]: success
+[2023-05-25 12:45:34] INFO root fetch - main [MainThread]: End processing [google-chad]: success
+[2023-05-25 12:45:34] INFO root fetch - processPackages [robocorp-tasks]: Downloading https://files.pythonhosted.org/packages/db/af/05e50178a244fe066d4dfd1492732e71421bd0ec0b67e518b018395e6c59/robocorp_tasks-0.3.0.tar.gz
+[2023-05-25 12:45:34] INFO root fetch - main [MainThread]: End processing [microhorario-dl]: success
+[2023-05-25 12:45:34] INFO root fetch - processPackages [robocorp-tasks]: executing diffoscope
+[2023-05-25 12:45:34] INFO root fetch - processPackages [robocorp-tasks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robocorp_tasks-0.2.1.tar.gz tmp/robocorp_tasks-0.3.0.tar.gz --markdown 20230525/r/robocorp-tasks/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-05-25 12:45:35] INFO root fetch - main [MainThread]: End processing [lamindb]: success
+[2023-05-25 12:45:36] INFO root fetch - main [MainThread]: End processing [vid2info]: success
+[2023-05-25 12:45:38] INFO root fetch - main [MainThread]: End processing [mmfutils]: success
+[2023-05-25 12:45:40] INFO root fetch - main [MainThread]: End processing [tcod]: success
+[2023-05-25 12:45:44] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-05-25 12:46:20] INFO root fetch - main [MainThread]: End processing [robocorp-tasks]: success
+[2023-05-25 12:46:20] INFO root fetch - main [MainThread]: Store serial: [18245255]
