@@ -6815,3 +6815,116 @@
 [2023-05-25 04:59:12] INFO root fetch - main [MainThread]: End processing [caqui]: success
 [2023-05-25 04:59:14] INFO root fetch - main [MainThread]: End processing [odoo9-addon-connector]: success
 [2023-05-25 04:59:14] INFO root fetch - main [MainThread]: Store serial: [18240340]
+[2023-05-25 05:04:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18240340]
+[2023-05-25 05:04:23] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-25 05:04:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cupy
+[2023-05-25 05:04:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: redco
+[2023-05-25 05:04:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo10-addon-contract-variable-quantity
+[2023-05-25 05:04:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo11-addon-agreement
+[2023-05-25 05:04:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo10-addon-website-portal-contract
+[2023-05-25 05:04:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo10-addon-agreement-account
+[2023-05-25 05:04:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aliyun-python-sdk-ecs
+[2023-05-25 05:04:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cupy
+[2023-05-25 05:04:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: BigKindsParser
+[2023-05-25 05:04:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-contract
+[2023-05-25 05:04:24] INFO root fetch - processPackages [cupy]: New version: [9.6.0] Old Version: [9.5.0]
+[2023-05-25 05:04:24] INFO root fetch - processPackages [odoo10-addon-contract-variable-quantity]: New version: [10.0.1.2.0.99.dev6] Old Version: [10.0.1.2.0.99.dev5]
+[2023-05-25 05:04:24] INFO root fetch - processPackages [cupy]: New version: [9.6.0] Old Version: [9.5.0]
+[2023-05-25 05:04:24] INFO root fetch - processPackages [odoo10-addon-agreement-account]: New version: [10.0.1.0.0.99.dev7] Old Version: [10.0.1.0.0.99.dev6]
+[2023-05-25 05:04:24] INFO root fetch - processPackages [odoo14-addon-contract]: New version: [14.0.2.9.6.dev2] Old Version: [14.0.2.9.5.dev2]
+[2023-05-25 05:04:24] INFO root fetch - processPackages [odoo11-addon-agreement]: New version: [11.0.0.1.0.99.dev79] Old Version: [11.0.0.1.0.99.dev78]
+[2023-05-25 05:04:24] INFO root fetch - processPackages [BigKindsParser]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-25 05:04:24] INFO root fetch - processPackages [odoo10-addon-website-portal-contract]: New version: [10.0.1.0.0.99.dev8] Old Version: [10.0.1.0.0.99.dev7]
+[2023-05-25 05:04:24] INFO root fetch - processPackages [redco]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-25 05:04:24] INFO root fetch - processPackages [aliyun-python-sdk-ecs]: New version: [4.9.7] Old Version: [4.9.6]
+[2023-05-25 05:04:24] INFO root fetch - processPackages [cupy]: Downloading https://files.pythonhosted.org/packages/e1/d5/b7f3fec3b88abefca4eaec5d3e303d5cc7ff8192718273852d07c117f027/cupy-9.5.0.tar.gz
+[2023-05-25 05:04:24] INFO root fetch - processPackages [cupy]: Downloading https://files.pythonhosted.org/packages/e1/d5/b7f3fec3b88abefca4eaec5d3e303d5cc7ff8192718273852d07c117f027/cupy-9.5.0.tar.gz
+[2023-05-25 05:04:24] INFO root fetch - processPackages [odoo10-addon-contract-variable-quantity]: Downloading https://files.pythonhosted.org/packages/a1/d5/c2243038dff0d9c7ef1180e8d2c5e74b1a402b6bd612d9f5a303f7d8ad2c/odoo10_addon_contract_variable_quantity-10.0.1.2.0.99.dev5-py2-none-any.whl
+[2023-05-25 05:04:24] INFO root fetch - processPackages [odoo10-addon-agreement-account]: Downloading https://files.pythonhosted.org/packages/dd/96/c80869572b3fb8a29104a03d17c4b392710d1ede7220f04561da28479d59/odoo10_addon_agreement_account-10.0.1.0.0.99.dev6-py2-none-any.whl
+[2023-05-25 05:04:24] INFO root fetch - processPackages [odoo10-addon-website-portal-contract]: Downloading https://files.pythonhosted.org/packages/4f/fe/9c2585b36de71a7f75e5f74c2a43d002eefde5571ab0e152d6ff7e6af4c2/odoo10_addon_website_portal_contract-10.0.1.0.0.99.dev7-py2-none-any.whl
+[2023-05-25 05:04:24] INFO root fetch - processPackages [BigKindsParser]: Downloading https://files.pythonhosted.org/packages/32/ab/8279c7c0aee8db597ab1ff6c9af316b5424305fa2322120edf7df3641682/BigKindsParser-0.1.4-py3-none-any.whl
+[2023-05-25 05:04:24] INFO root fetch - processPackages [aliyun-python-sdk-ecs]: Downloading https://files.pythonhosted.org/packages/e2/17/6cda3088a846a89285e32f2eb01b2fb5bf3358f9db780ae6b18d6d5cb564/aliyun-python-sdk-ecs-4.9.6.tar.gz
+[2023-05-25 05:04:24] INFO root fetch - processPackages [redco]: Downloading https://files.pythonhosted.org/packages/00/f4/4895dd2d160e4f2f0c85abf80cd3dfddd15a572c0dafbfd504d69c082e95/redco-0.4.1.tar.gz
+[2023-05-25 05:04:24] INFO root fetch - processPackages [odoo10-addon-contract-variable-quantity]: Downloading https://files.pythonhosted.org/packages/15/de/a4ce7fac3bfead5610db223aec830074e6cb40c05dd2bd04b483a9eceb16/odoo10_addon_contract_variable_quantity-10.0.1.2.0.99.dev6-py2-none-any.whl
+[2023-05-25 05:04:24] INFO root fetch - processPackages [BigKindsParser]: executing diffoscope
+[2023-05-25 05:04:24] INFO root fetch - processPackages [BigKindsParser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BigKindsParser-0.1.3-py3-none-any.whl.zip tmp/BigKindsParser-0.1.4-py3-none-any.whl.zip --markdown 20230525/B/BigKindsParser/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-25 05:04:24] INFO root fetch - processPackages [odoo10-addon-contract-variable-quantity]: executing diffoscope
+[2023-05-25 05:04:24] INFO root fetch - processPackages [odoo10-addon-contract-variable-quantity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_contract_variable_quantity-10.0.1.2.0.99.dev5-py2-none-any.whl.zip tmp/odoo10_addon_contract_variable_quantity-10.0.1.2.0.99.dev6-py2-none-any.whl.zip --markdown 20230525/o/odoo10-addon-contract-variable-quantity/10.0.1.2.0.99.dev5-10.0.1.2.0.99.dev6/diff.md --exclude *.pyd
+[2023-05-25 05:04:24] INFO root fetch - processPackages [aliyun-python-sdk-ecs]: Downloading https://files.pythonhosted.org/packages/3a/9a/0e44e1700677bbfbfc135e3c7ff51f70cb9e70994a7570c6bc873b0eaefb/aliyun-python-sdk-ecs-4.9.7.tar.gz
+[2023-05-25 05:04:24] INFO root fetch - processPackages [redco]: Downloading https://files.pythonhosted.org/packages/ca/c1/a00302dd942d24822f85f1e2e914a39388f3b7159be17345d8172000f80c/redco-0.4.2.tar.gz
+[2023-05-25 05:04:24] INFO root fetch - processPackages [cupy]: Downloading https://files.pythonhosted.org/packages/15/4e/8c24237375e6f4989d61f0a1ec97993f88720dc066295a5017fdba96fa34/cupy-9.6.0.tar.gz
+[2023-05-25 05:04:24] INFO root fetch - processPackages [cupy]: Downloading https://files.pythonhosted.org/packages/15/4e/8c24237375e6f4989d61f0a1ec97993f88720dc066295a5017fdba96fa34/cupy-9.6.0.tar.gz
+[2023-05-25 05:04:24] INFO root fetch - processPackages [odoo10-addon-agreement-account]: Downloading https://files.pythonhosted.org/packages/ad/63/e244137ba603e597861fa10a166f276b210f05d02f1ab299928d84f5ec1b/odoo10_addon_agreement_account-10.0.1.0.0.99.dev7-py2-none-any.whl
+[2023-05-25 05:04:24] INFO root fetch - processPackages [odoo14-addon-contract]: executing diffoscope
+[2023-05-25 05:04:24] INFO root fetch - processPackages [odoo14-addon-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_contract-14.0.2.9.5.dev2-py3-none-any.whl.zip tmp/odoo14_addon_contract-14.0.2.9.6.dev2-py3-none-any.whl.zip --markdown 20230525/o/odoo14-addon-contract/14.0.2.9.5.dev2-14.0.2.9.6.dev2/diff.md --exclude *.pyd
+[2023-05-25 05:04:25] INFO root fetch - processPackages [redco]: executing diffoscope
+[2023-05-25 05:04:25] INFO root fetch - processPackages [redco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redco-0.4.1.tar.gz tmp/redco-0.4.2.tar.gz --markdown 20230525/r/redco/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-25 05:04:25] INFO root fetch - processPackages [odoo10-addon-website-portal-contract]: Downloading https://files.pythonhosted.org/packages/8a/3a/4ef05b1bbe637e30235009b561c5c9cc4f22a208b4b6a2972c138a2d6888/odoo10_addon_website_portal_contract-10.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-05-25 05:04:25] INFO root fetch - processPackages [cupy]: executing diffoscope
+[2023-05-25 05:04:25] INFO root fetch - processPackages [cupy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cupy-9.5.0.tar.gz tmp/cupy-9.6.0.tar.gz --markdown 20230525/c/cupy/9.5.0-9.6.0/diff.md --exclude *.pyd
+[2023-05-25 05:04:25] INFO root fetch - processPackages [cupy]: executing diffoscope
+[2023-05-25 05:04:25] INFO root fetch - processPackages [cupy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cupy-9.5.0.tar.gz tmp/cupy-9.6.0.tar.gz --markdown 20230525/c/cupy/9.5.0-9.6.0/diff.md --exclude *.pyd
+[2023-05-25 05:04:25] INFO root fetch - processPackages [odoo10-addon-website-portal-contract]: executing diffoscope
+[2023-05-25 05:04:25] INFO root fetch - processPackages [odoo10-addon-website-portal-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_website_portal_contract-10.0.1.0.0.99.dev7-py2-none-any.whl.zip tmp/odoo10_addon_website_portal_contract-10.0.1.0.0.99.dev8-py2-none-any.whl.zip --markdown 20230525/o/odoo10-addon-website-portal-contract/10.0.1.0.0.99.dev7-10.0.1.0.0.99.dev8/diff.md --exclude *.pyd
+[2023-05-25 05:04:25] INFO root fetch - processPackages [aliyun-python-sdk-ecs]: executing diffoscope
+[2023-05-25 05:04:25] INFO root fetch - processPackages [aliyun-python-sdk-ecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-ecs-4.9.6.tar.gz tmp/aliyun-python-sdk-ecs-4.9.7.tar.gz --markdown 20230525/a/aliyun-python-sdk-ecs/4.9.6-4.9.7/diff.md --exclude *.pyd
+[2023-05-25 05:04:25] INFO root fetch - processPackages [BigKindsParser]: Start processing: odoo-addon-contract
+[2023-05-25 05:04:25] INFO root fetch - main [MainThread]: End processing [BigKindsParser]: success
+[2023-05-25 05:04:26] INFO root fetch - processPackages [odoo-addon-contract]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.3]
+[2023-05-25 05:04:26] INFO root fetch - processPackages [odoo-addon-contract]: Downloading https://files.pythonhosted.org/packages/32/7b/93565093c2570f58b208994a6dd8200813797df08efb10c52e78aa1f5431/odoo_addon_contract-16.0.1.0.0.3-py3-none-any.whl
+[2023-05-25 05:04:26] INFO root fetch - processPackages [odoo10-addon-agreement-account]: executing diffoscope
+[2023-05-25 05:04:26] INFO root fetch - processPackages [odoo10-addon-agreement-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_agreement_account-10.0.1.0.0.99.dev6-py2-none-any.whl.zip tmp/odoo10_addon_agreement_account-10.0.1.0.0.99.dev7-py2-none-any.whl.zip --markdown 20230525/o/odoo10-addon-agreement-account/10.0.1.0.0.99.dev6-10.0.1.0.0.99.dev7/diff.md --exclude *.pyd
+[2023-05-25 05:04:26] INFO root fetch - processPackages [odoo10-addon-contract-variable-quantity]: Start processing: python-sat
+[2023-05-25 05:04:26] INFO root fetch - main [MainThread]: End processing [odoo10-addon-contract-variable-quantity]: success
+[2023-05-25 05:04:26] INFO root fetch - processPackages [odoo-addon-contract]: Downloading https://files.pythonhosted.org/packages/5b/7f/939af877f65b147a5d0095d0ae681367871d1cd8bf0e8a611e6445b2f344/odoo_addon_contract-16.0.1.0.0.5-py3-none-any.whl
+[2023-05-25 05:04:26] INFO root fetch - processPackages [python-sat]: New version: [0.1.8.dev4] Old Version: [0.1.8.dev3]
+[2023-05-25 05:04:26] INFO root fetch - processPackages [odoo-addon-contract]: executing diffoscope
+[2023-05-25 05:04:26] INFO root fetch - processPackages [odoo-addon-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_contract-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_contract-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230525/o/odoo-addon-contract/16.0.1.0.0.3-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-05-25 05:04:26] INFO root fetch - processPackages [python-sat]: Downloading https://files.pythonhosted.org/packages/06/11/82b7e0a74fde712b23edcea6613dfe2c1dffa71966e076b983631a675f9c/python-sat-0.1.8.dev3.tar.gz
+[2023-05-25 05:04:27] INFO root fetch - processPackages [redco]: Start processing: odoo-addon-contract-invoice-start-end-dates
+[2023-05-25 05:04:27] INFO root fetch - main [MainThread]: End processing [redco]: success
+[2023-05-25 05:04:27] WARNING root fetch - processPackages [odoo-addon-contract-invoice-start-end-dates]: Skipping, unable to determine old version
+[2023-05-25 05:04:27] INFO root fetch - processPackages [odoo-addon-contract-invoice-start-end-dates]: Start processing: InstallDemo
+[2023-05-25 05:04:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-contract-invoice-start-end-dates] error
+[2023-05-25 05:04:27] WARNING root fetch - processPackages [InstallDemo]: Skipping, unable to determine old version
+[2023-05-25 05:04:27] INFO root fetch - processPackages [InstallDemo]: Start processing: odoo-addons-oca-contract
+[2023-05-25 05:04:27] INFO root fetch - main [MainThread]: End processing [InstallDemo] error
+[2023-05-25 05:04:27] INFO root fetch - processPackages [odoo-addons-oca-contract]: New version: [16.0.20230315.0] Old Version: [15.0.20230221.0]
+[2023-05-25 05:04:27] INFO root fetch - processPackages [odoo-addons-oca-contract]: Downloading https://files.pythonhosted.org/packages/06/0d/126b1ce7164e202d617a2e289d8c4cf01dfb9367e7481d5f846079ff4099/odoo_addons_oca_contract-15.0.20230221.0-py3-none-any.whl
+[2023-05-25 05:04:27] INFO root fetch - processPackages [odoo10-addon-website-portal-contract]: Start processing: xj-common
+[2023-05-25 05:04:27] INFO root fetch - main [MainThread]: End processing [odoo10-addon-website-portal-contract]: success
+[2023-05-25 05:04:27] INFO root fetch - processPackages [odoo14-addon-contract]: Start processing: tap-readthedocs
+[2023-05-25 05:04:27] INFO root fetch - main [MainThread]: End processing [odoo14-addon-contract]: success
+[2023-05-25 05:04:27] WARNING root fetch - processPackages [tap-readthedocs]: Skipping, unable to determine old version
+[2023-05-25 05:04:27] INFO root fetch - processPackages [tap-readthedocs]: Start processing: odoo14-addon-account-invoice-overdue-reminder
+[2023-05-25 05:04:27] INFO root fetch - main [MainThread]: End processing [tap-readthedocs] error
+[2023-05-25 05:04:27] INFO root fetch - processPackages [xj-common]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-25 05:04:27] INFO root fetch - processPackages [odoo-addons-oca-contract]: Downloading https://files.pythonhosted.org/packages/ce/03/c235a30c5bb2641f6823a051103081063808af9282f36048905f986b7fd0/odoo_addons_oca_contract-16.0.20230315.0-py3-none-any.whl
+[2023-05-25 05:04:27] INFO root fetch - processPackages [odoo14-addon-account-invoice-overdue-reminder]: New version: [14.0.1.4.1.dev6] Old Version: [14.0.1.4.1.dev4]
+[2023-05-25 05:04:27] INFO root fetch - processPackages [odoo11-addon-agreement]: Downloading https://files.pythonhosted.org/packages/2f/94/28c85abea194f2d828108a68ec1b0f0047afef3e9b92b9e7aaf77b4b1364/odoo11_addon_agreement-11.0.0.1.0.99.dev79-py2.py3-none-any.whl
+[2023-05-25 05:04:27] INFO root fetch - processPackages [xj-common]: Downloading https://files.pythonhosted.org/packages/b3/52/f57e547bfff3498ef241412dab5c76a22d267cd4d6fd77052d8fd2905d8a/xj_common-1.0.8.tar.gz
+[2023-05-25 05:04:27] INFO root fetch - processPackages [odoo11-addon-agreement]: executing diffoscope
+[2023-05-25 05:04:27] INFO root fetch - processPackages [odoo11-addon-agreement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_agreement-11.0.0.1.0.99.dev78-py2.py3-none-any.whl.zip tmp/odoo11_addon_agreement-11.0.0.1.0.99.dev79-py2.py3-none-any.whl.zip --markdown 20230525/o/odoo11-addon-agreement/11.0.0.1.0.99.dev78-11.0.0.1.0.99.dev79/diff.md --exclude *.pyd
+[2023-05-25 05:04:27] INFO root fetch - processPackages [odoo14-addon-account-invoice-overdue-reminder]: Downloading https://files.pythonhosted.org/packages/74/56/9a4ad023eefb58cf9ef9cc45af2b1c7699b071f7999d7bdeab6f245b771e/odoo14_addon_account_invoice_overdue_reminder-14.0.1.4.1.dev4-py3-none-any.whl
+[2023-05-25 05:04:27] INFO root fetch - processPackages [xj-common]: Downloading https://files.pythonhosted.org/packages/e7/02/3b3bbfc48d247cf8d477729491ec2d1f4c2947a9f2c01c948da7088586f5/xj_common-1.0.9.tar.gz
+[2023-05-25 05:04:27] INFO root fetch - main [MainThread]: End processing [odoo10-addon-agreement-account]: success
+[2023-05-25 05:04:28] INFO root fetch - processPackages [odoo-addons-oca-contract]: executing diffoscope
+[2023-05-25 05:04:28] INFO root fetch - processPackages [odoo-addons-oca-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_contract-15.0.20230221.0-py3-none-any.whl.zip tmp/odoo_addons_oca_contract-16.0.20230315.0-py3-none-any.whl.zip --markdown 20230525/o/odoo-addons-oca-contract/15.0.20230221.0-16.0.20230315.0/diff.md --exclude *.pyd
+[2023-05-25 05:04:28] INFO root fetch - processPackages [xj-common]: executing diffoscope
+[2023-05-25 05:04:28] INFO root fetch - processPackages [xj-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_common-1.0.8.tar.gz tmp/xj_common-1.0.9.tar.gz --markdown 20230525/x/xj-common/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-25 05:04:28] INFO root fetch - processPackages [odoo14-addon-account-invoice-overdue-reminder]: Downloading https://files.pythonhosted.org/packages/ff/e9/d7b030bc8764f555f60d388900131f63c8b32e351faca12a47c0b7ad70ce/odoo14_addon_account_invoice_overdue_reminder-14.0.1.4.1.dev6-py3-none-any.whl
+[2023-05-25 05:04:28] INFO root fetch - processPackages [odoo14-addon-account-invoice-overdue-reminder]: executing diffoscope
+[2023-05-25 05:04:28] INFO root fetch - processPackages [odoo14-addon-account-invoice-overdue-reminder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_invoice_overdue_reminder-14.0.1.4.1.dev4-py3-none-any.whl.zip tmp/odoo14_addon_account_invoice_overdue_reminder-14.0.1.4.1.dev6-py3-none-any.whl.zip --markdown 20230525/o/odoo14-addon-account-invoice-overdue-reminder/14.0.1.4.1.dev4-14.0.1.4.1.dev6/diff.md --exclude *.pyd
+[2023-05-25 05:04:28] INFO root fetch - processPackages [python-sat]: Downloading https://files.pythonhosted.org/packages/6a/3b/75c0103f1cf049a6b05b18910caae3a02a3749b05609968814c001fbadcd/python-sat-0.1.8.dev4.tar.gz
+[2023-05-25 05:04:28] INFO root fetch - processPackages [python-sat]: executing diffoscope
+[2023-05-25 05:04:28] INFO root fetch - processPackages [python-sat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-sat-0.1.8.dev3.tar.gz tmp/python-sat-0.1.8.dev4.tar.gz --markdown 20230525/p/python-sat/0.1.8.dev3-0.1.8.dev4/diff.md --exclude *.pyd
+[2023-05-25 05:04:29] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-contract]: success
+[2023-05-25 05:04:29] INFO root fetch - main [MainThread]: End processing [odoo11-addon-agreement]: success
+[2023-05-25 05:04:29] INFO root fetch - main [MainThread]: End processing [xj-common]: success
+[2023-05-25 05:04:30] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-invoice-overdue-reminder]: success
+[2023-05-25 05:04:30] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-ecs]: success
+[2023-05-25 05:04:31] INFO root fetch - main [MainThread]: End processing [python-sat]: success
+[2023-05-25 05:04:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-contract]: success
+[2023-05-25 05:04:36] INFO root fetch - main [MainThread]: End processing [cupy]: success
+[2023-05-25 05:04:37] INFO root fetch - main [MainThread]: End processing [cupy]: success
+[2023-05-25 05:04:37] INFO root fetch - main [MainThread]: Store serial: [18240400]
