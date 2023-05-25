@@ -12417,3 +12417,74 @@
 [2023-05-25 10:08:06] INFO root fetch - main [MainThread]: End processing [django-db-connection-pool]: success
 [2023-05-25 10:08:06] INFO root fetch - main [MainThread]: End processing [pyglove]: success
 [2023-05-25 10:08:06] INFO root fetch - main [MainThread]: Store serial: [18243332]
+[2023-05-25 10:13:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18243332]
+[2023-05-25 10:13:16] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-25 10:13:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ansible-risk-insight
+[2023-05-25 10:13:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: savant-rs
+[2023-05-25 10:13:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyeCam
+[2023-05-25 10:13:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tigerblog
+[2023-05-25 10:13:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: climify-api
+[2023-05-25 10:13:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: VisionFive.gpio
+[2023-05-25 10:13:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: playmolecule
+[2023-05-25 10:13:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-endpoint
+[2023-05-25 10:13:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ronnytest
+[2023-05-25 10:13:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mmWave
+[2023-05-25 10:13:16] INFO root fetch - processPackages [pyeCam]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 10:13:16] INFO root fetch - processPackages [savant-rs]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-05-25 10:13:16] INFO root fetch - processPackages [ronnytest]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-05-25 10:13:16] INFO root fetch - processPackages [playmolecule]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-05-25 10:13:16] INFO root fetch - processPackages [tigerblog]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-25 10:13:16] INFO root fetch - processPackages [mmWave]: New version: [0.1.97] Old Version: [0.1.96]
+[2023-05-25 10:13:16] INFO root fetch - processPackages [ansible-risk-insight]: New version: [0.1.7rc2] Old Version: [0.1.7rc1]
+[2023-05-25 10:13:16] INFO root fetch - processPackages [VisionFive.gpio]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-25 10:13:16] INFO root fetch - processPackages [odoo14-addon-endpoint]: New version: [14.0.2.0.2] Old Version: [14.0.2.0.1.dev3]
+[2023-05-25 10:13:16] INFO root fetch - processPackages [playmolecule]: executing diffoscope
+[2023-05-25 10:13:16] INFO root fetch - processPackages [playmolecule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playmolecule-1.8.0.tar.gz tmp/playmolecule-1.8.1.tar.gz --markdown 20230525/p/playmolecule/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-05-25 10:13:16] INFO root fetch - processPackages [climify-api]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-25 10:13:16] INFO root fetch - processPackages [tigerblog]: executing diffoscope
+[2023-05-25 10:13:16] INFO root fetch - processPackages [tigerblog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tigerblog-0.1.8.tar.gz tmp/tigerblog-0.1.9.tar.gz --markdown 20230525/t/tigerblog/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:13:16] INFO root fetch - processPackages [pyeCam]: executing diffoscope
+[2023-05-25 10:13:16] INFO root fetch - processPackages [pyeCam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyeCam-0.0.8.tar.gz tmp/pyeCam-0.0.9.tar.gz --markdown 20230525/p/pyeCam/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 10:13:16] INFO root fetch - processPackages [savant-rs]: executing diffoscope
+[2023-05-25 10:13:16] INFO root fetch - processPackages [savant-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/savant_rs-0.1.7.tar.gz tmp/savant_rs-0.1.9.tar.gz --markdown 20230525/s/savant-rs/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:13:16] INFO root fetch - processPackages [ronnytest]: Downloading https://files.pythonhosted.org/packages/0b/0f/9a5b96ee2350b26da9dc91e41499b2886847b4a900cdc66cf9b3fa3b94e3/ronnytest-0.2.0.tar.gz
+[2023-05-25 10:13:16] INFO root fetch - processPackages [mmWave]: executing diffoscope
+[2023-05-25 10:13:16] INFO root fetch - processPackages [mmWave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmWave-0.1.96.tar.gz tmp/mmWave-0.1.97.tar.gz --markdown 20230525/m/mmWave/0.1.96-0.1.97/diff.md --exclude *.pyd
+[2023-05-25 10:13:16] INFO root fetch - processPackages [VisionFive.gpio]: Downloading https://files.pythonhosted.org/packages/eb/08/d7a111300538371b689eed736ccd9fd7ce129b55c7dc212be0a849658762/VisionFive.gpio-1.2.8.tar.gz
+[2023-05-25 10:13:16] INFO root fetch - processPackages [odoo14-addon-endpoint]: Downloading https://files.pythonhosted.org/packages/5d/46/eaf18553ca95926a9ab9941dc2afde09ffa13037d1ae262f29b5505efab6/odoo14_addon_endpoint-14.0.2.0.1.dev3-py3-none-any.whl
+[2023-05-25 10:13:16] INFO root fetch - processPackages [ronnytest]: executing diffoscope
+[2023-05-25 10:13:16] INFO root fetch - processPackages [ronnytest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ronnytest-0.1.9.tar.gz tmp/ronnytest-0.2.0.tar.gz --markdown 20230525/r/ronnytest/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-05-25 10:13:16] INFO root fetch - processPackages [climify-api]: Downloading https://files.pythonhosted.org/packages/c7/85/2ca933d1ce9859ffbf64c7a1f1bd2fc15c6ff2b6ad5ab32de8cb8a0ac381/climify_api-1.0.8.tar.gz
+[2023-05-25 10:13:16] INFO root fetch - processPackages [ansible-risk-insight]: Downloading https://files.pythonhosted.org/packages/1c/56/b7e2ddb38b6546315aca2127a68ddfa778261e23a09c06522f15c2e307b9/ansible-risk-insight-0.1.7rc2.tar.gz
+[2023-05-25 10:13:16] INFO root fetch - processPackages [odoo14-addon-endpoint]: Downloading https://files.pythonhosted.org/packages/96/2d/748046ec1880b3346cbeeffa441d02561c71b7055f60cdf4864d0b49f582/odoo14_addon_endpoint-14.0.2.0.2-py3-none-any.whl
+[2023-05-25 10:13:16] INFO root fetch - processPackages [ansible-risk-insight]: executing diffoscope
+[2023-05-25 10:13:16] INFO root fetch - processPackages [ansible-risk-insight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansible-risk-insight-0.1.7rc1.tar.gz tmp/ansible-risk-insight-0.1.7rc2.tar.gz --markdown 20230525/a/ansible-risk-insight/0.1.7rc1-0.1.7rc2/diff.md --exclude *.pyd
+[2023-05-25 10:13:16] INFO root fetch - processPackages [odoo14-addon-endpoint]: executing diffoscope
+[2023-05-25 10:13:16] INFO root fetch - processPackages [odoo14-addon-endpoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_endpoint-14.0.2.0.1.dev3-py3-none-any.whl.zip tmp/odoo14_addon_endpoint-14.0.2.0.2-py3-none-any.whl.zip --markdown 20230525/o/odoo14-addon-endpoint/14.0.2.0.1.dev3-14.0.2.0.2/diff.md --exclude *.pyd
+[2023-05-25 10:13:16] INFO root fetch - processPackages [climify-api]: Downloading https://files.pythonhosted.org/packages/33/f9/a6ddc4ec479e3d0a39fc4f48dc23b14962dd59195960aa64469e4ddfe041/climify_api-1.0.9.tar.gz
+[2023-05-25 10:13:16] INFO root fetch - processPackages [climify-api]: executing diffoscope
+[2023-05-25 10:13:16] INFO root fetch - processPackages [climify-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/climify_api-1.0.8.tar.gz tmp/climify_api-1.0.9.tar.gz --markdown 20230525/c/climify-api/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-25 10:13:17] INFO root fetch - processPackages [VisionFive.gpio]: Downloading https://files.pythonhosted.org/packages/9b/f4/55224979b86c25bc928a09fd65c2c7b121d763ec4f3cabf20e9dff6fa35a/VisionFive.gpio-1.2.9.tar.gz
+[2023-05-25 10:13:17] INFO root fetch - processPackages [VisionFive.gpio]: executing diffoscope
+[2023-05-25 10:13:17] INFO root fetch - processPackages [VisionFive.gpio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VisionFive.gpio-1.2.8.tar.gz tmp/VisionFive.gpio-1.2.9.tar.gz --markdown 20230525/V/VisionFive.gpio/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-25 10:13:17] INFO root fetch - processPackages [pyeCam]: Start processing: domolibrary
+[2023-05-25 10:13:17] INFO root fetch - main [MainThread]: End processing [pyeCam]: success
+[2023-05-25 10:13:17] INFO root fetch - processPackages [domolibrary]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-25 10:13:17] INFO root fetch - processPackages [tigerblog]: Start processing: aars
+[2023-05-25 10:13:17] INFO root fetch - main [MainThread]: End processing [tigerblog]: success
+[2023-05-25 10:13:17] INFO root fetch - processPackages [aars]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-05-25 10:13:17] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-05-25 10:13:17] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.1.8.tar.gz tmp/domolibrary-0.1.9.tar.gz --markdown 20230525/d/domolibrary/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:13:18] INFO root fetch - processPackages [aars]: executing diffoscope
+[2023-05-25 10:13:18] INFO root fetch - processPackages [aars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aars-0.7.1.tar.gz tmp/aars-0.7.2.tar.gz --markdown 20230525/a/aars/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-05-25 10:13:18] INFO root fetch - main [MainThread]: End processing [ronnytest]: success
+[2023-05-25 10:13:18] INFO root fetch - main [MainThread]: End processing [playmolecule]: success
+[2023-05-25 10:13:18] INFO root fetch - main [MainThread]: End processing [savant-rs]: success
+[2023-05-25 10:13:18] INFO root fetch - main [MainThread]: End processing [odoo14-addon-endpoint]: success
+[2023-05-25 10:13:18] INFO root fetch - main [MainThread]: End processing [VisionFive.gpio]: success
+[2023-05-25 10:13:19] INFO root fetch - main [MainThread]: End processing [mmWave]: success
+[2023-05-25 10:13:19] INFO root fetch - main [MainThread]: End processing [ansible-risk-insight]: success
+[2023-05-25 10:13:19] INFO root fetch - main [MainThread]: End processing [climify-api]: success
+[2023-05-25 10:13:19] INFO root fetch - main [MainThread]: End processing [aars]: success
+[2023-05-25 10:13:20] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-05-25 10:13:20] INFO root fetch - main [MainThread]: Store serial: [18243380]
