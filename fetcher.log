@@ -16412,3 +16412,267 @@ EOFError: EOF read where object expected
 [2023-05-25 13:14:06] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-05-25 13:14:13] INFO root fetch - main [MainThread]: End processing [spacy]: success
 [2023-05-25 13:14:13] INFO root fetch - main [MainThread]: Store serial: [18245551]
+[2023-05-25 13:19:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18245551]
+[2023-05-25 13:19:23] INFO root fetch - main [MainThread]: Found 30 changed packages
+[2023-05-25 13:19:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wikiseriesbaslib
+[2023-05-25 13:19:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tdsense
+[2023-05-25 13:19:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyjej
+[2023-05-25 13:19:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-travelmanager
+[2023-05-25 13:19:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: directory-cms-client
+[2023-05-25 13:19:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb
+[2023-05-25 13:19:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb-client
+[2023-05-25 13:19:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-dataset
+[2023-05-25 13:19:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nucliadb-models
+[2023-05-25 13:19:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nucliadb-protos
+[2023-05-25 13:19:23] INFO root fetch - processPackages [nucliadb]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-25 13:19:23] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-25 13:19:23] INFO root fetch - processPackages [nucliadb-models]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-25 13:19:23] INFO root fetch - processPackages [nucliadb-client]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-25 13:19:23] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-25 13:19:23] INFO root fetch - processPackages [pyjej]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-25 13:19:23] INFO root fetch - processPackages [tdsense]: New version: [0.1.3.9] Old Version: [0.1.3.8]
+[2023-05-25 13:19:23] WARNING root fetch - processPackages [wikiseriesbaslib]: Skipping, unable to determine old version
+[2023-05-25 13:19:23] INFO root fetch - processPackages [python-travelmanager]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-25 13:19:23] INFO root fetch - processPackages [wikiseriesbaslib]: Start processing: nucliadb-sdk
+[2023-05-25 13:19:23] INFO root fetch - main [MainThread]: End processing [wikiseriesbaslib] error
+[2023-05-25 13:19:23] INFO root fetch - processPackages [directory-cms-client]: New version: [9.0.0] Old Version: [8.3.0]
+[2023-05-25 13:19:23] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-05-25 13:19:23] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip --markdown 20230525/n/nucliadb-models/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-25 13:19:23] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-05-25 13:19:23] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-05-25 13:19:23] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip --markdown 20230525/n/nucliadb/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-25 13:19:23] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip --markdown 20230525/n/nucliadb-protos/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-25 13:19:23] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-05-25 13:19:23] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip --markdown 20230525/n/nucliadb-client/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-25 13:19:23] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-25 13:19:23] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-05-25 13:19:23] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip --markdown 20230525/n/nucliadb-dataset/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-25 13:19:23] INFO root fetch - processPackages [pyjej]: Downloading https://files.pythonhosted.org/packages/ae/37/f33190f438df168951d15ca1996622bff4772f8f3fc5ef43ac435ecc739a/pyjej-0.1.5.tar.gz
+[2023-05-25 13:19:23] INFO root fetch - processPackages [python-travelmanager]: Downloading https://files.pythonhosted.org/packages/7b/f6/63b78ecea46be2c35d61dcf9e8eb37c6f03e90cca0471ca3aa014f7bff20/python_travelmanager-0.2.3.tar.gz
+[2023-05-25 13:19:23] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-05-25 13:19:23] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip --markdown 20230525/n/nucliadb-sdk/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-25 13:19:23] INFO root fetch - processPackages [tdsense]: Downloading https://files.pythonhosted.org/packages/f9/e4/1d3fdeb7d2f4c8f15c2052e46806f06cf60a30f63e942dc5891ac07e584b/tdsense-0.1.3.8-py3-none-any.whl
+[2023-05-25 13:19:23] INFO root fetch - processPackages [pyjej]: Downloading https://files.pythonhosted.org/packages/bd/fe/d3bb0fdb033cd8b308c60a1241db54950a9658cde1b8c584b08f4f33bde6/pyjej-0.1.6.tar.gz
+[2023-05-25 13:19:23] INFO root fetch - processPackages [directory-cms-client]: executing diffoscope
+[2023-05-25 13:19:23] INFO root fetch - processPackages [directory-cms-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/directory_cms_client-8.3.0-py3-none-any.whl.zip tmp/directory_cms_client-9.0.0-py3-none-any.whl.zip --markdown 20230525/d/directory-cms-client/8.3.0-9.0.0/diff.md --exclude *.pyd
+[2023-05-25 13:19:23] INFO root fetch - processPackages [tdsense]: Downloading https://files.pythonhosted.org/packages/dc/35/814aad8f02ef0463d3c827f954aff7283831479cd23b041fa639f856e0fd/tdsense-0.1.3.9-py3-none-any.whl
+[2023-05-25 13:19:23] INFO root fetch - processPackages [python-travelmanager]: Downloading https://files.pythonhosted.org/packages/7a/6d/a66a5fd6fd6538f0da586eab79f419f68614a1c10790a31db874edddf442/python_travelmanager-0.2.4.tar.gz
+[2023-05-25 13:19:23] INFO root fetch - processPackages [pyjej]: executing diffoscope
+[2023-05-25 13:19:23] INFO root fetch - processPackages [pyjej]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjej-0.1.5.tar.gz tmp/pyjej-0.1.6.tar.gz --markdown 20230525/p/pyjej/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-25 13:19:23] INFO root fetch - processPackages [tdsense]: executing diffoscope
+[2023-05-25 13:19:23] INFO root fetch - processPackages [tdsense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdsense-0.1.3.8-py3-none-any.whl.zip tmp/tdsense-0.1.3.9-py3-none-any.whl.zip --markdown 20230525/t/tdsense/0.1.3.8-0.1.3.9/diff.md --exclude *.pyd
+[2023-05-25 13:19:23] INFO root fetch - processPackages [python-travelmanager]: executing diffoscope
+[2023-05-25 13:19:23] INFO root fetch - processPackages [python-travelmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_travelmanager-0.2.3.tar.gz tmp/python_travelmanager-0.2.4.tar.gz --markdown 20230525/p/python-travelmanager/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-25 13:19:24] INFO root fetch - processPackages [nucliadb-models]: Start processing: nucliadb-utils
+[2023-05-25 13:19:24] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-05-25 13:19:24] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-25 13:19:25] INFO root fetch - processPackages [nucliadb-client]: Start processing: pyrosexmod
+[2023-05-25 13:19:25] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-05-25 13:19:25] INFO root fetch - processPackages [pyrosexmod]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-25 13:19:25] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-05-25 13:19:25] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip --markdown 20230525/n/nucliadb-utils/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-25 13:19:25] INFO root fetch - processPackages [nucliadb-protos]: Start processing: camminapy
+[2023-05-25 13:19:25] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-05-25 13:19:25] INFO root fetch - processPackages [camminapy]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-05-25 13:19:25] INFO root fetch - processPackages [pyrosexmod]: Downloading https://files.pythonhosted.org/packages/0b/0a/bccc2e0a99c318eecea4fa008569d94b74e990a4111270490d7c1169d3eb/pyrosexmod-0.1.3.tar.gz
+[2023-05-25 13:19:25] INFO root fetch - processPackages [camminapy]: executing diffoscope
+[2023-05-25 13:19:25] INFO root fetch - processPackages [camminapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camminapy-0.8.8.tar.gz tmp/camminapy-0.8.9.tar.gz --markdown 20230525/c/camminapy/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-05-25 13:19:25] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: cm-two
+[2023-05-25 13:19:25] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-05-25 13:19:25] INFO root fetch - processPackages [nucliadb-sdk]: Start processing: wagtail-mailchimp-integration
+[2023-05-25 13:19:25] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-05-25 13:19:25] INFO root fetch - processPackages [pyrosexmod]: executing diffoscope
+[2023-05-25 13:19:25] INFO root fetch - processPackages [pyrosexmod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrosexmod-0.1.2.tar.gz tmp/pyrosexmod-0.1.3.tar.gz --markdown 20230525/p/pyrosexmod/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-25 13:19:25] INFO root fetch - processPackages [cm-two]: New version: [2.3.22] Old Version: [2.3.21]
+[2023-05-25 13:19:25] INFO root fetch - processPackages [wagtail-mailchimp-integration]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-25 13:19:25] INFO root fetch - processPackages [directory-cms-client]: Start processing: tcsa
+[2023-05-25 13:19:25] INFO root fetch - main [MainThread]: End processing [directory-cms-client]: success
+[2023-05-25 13:19:25] INFO root fetch - processPackages [wagtail-mailchimp-integration]: Downloading https://files.pythonhosted.org/packages/3f/ff/4b8367e1aef8f64b2e7f50ee6cf142d7b8dc5329b802bbe1bbf1128effb5/wagtail-mailchimp-integration-0.0.1.tar.gz
+[2023-05-25 13:19:25] INFO root fetch - processPackages [tdsense]: Start processing: trading-strategy
+[2023-05-25 13:19:25] INFO root fetch - main [MainThread]: End processing [tdsense]: success
+[2023-05-25 13:19:25] INFO root fetch - processPackages [pyjej]: Start processing: Pandora-ChatGPT
+[2023-05-25 13:19:25] INFO root fetch - main [MainThread]: End processing [pyjej]: success
+[2023-05-25 13:19:25] INFO root fetch - processPackages [Pandora-ChatGPT]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-05-25 13:19:25] INFO root fetch - processPackages [tcsa]: New version: [0.1.4] Old Version: [0.1.2]
+[2023-05-25 13:19:25] INFO root fetch - processPackages [trading-strategy]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-25 13:19:25] INFO root fetch - processPackages [python-travelmanager]: Start processing: openfe
+[2023-05-25 13:19:25] INFO root fetch - main [MainThread]: End processing [python-travelmanager]: success
+[2023-05-25 13:19:25] INFO root fetch - processPackages [wagtail-mailchimp-integration]: Downloading https://files.pythonhosted.org/packages/78/bb/0f81615d35ef6c180d16355ff38d9809622f75be9afd27d6507609732cab/wagtail-mailchimp-integration-0.0.2.tar.gz
+[2023-05-25 13:19:26] INFO root fetch - processPackages [cm-two]: Downloading https://files.pythonhosted.org/packages/2f/53/d4a164bb16b3eea29b3e0a1538bf9cc5b9c5c45af08fb5877e09dc39265c/cm_two-2.3.21-py3-none-any.whl
+[2023-05-25 13:19:26] INFO root fetch - processPackages [openfe]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 13:19:26] INFO root fetch - processPackages [wagtail-mailchimp-integration]: executing diffoscope
+[2023-05-25 13:19:26] INFO root fetch - processPackages [wagtail-mailchimp-integration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail-mailchimp-integration-0.0.1.tar.gz tmp/wagtail-mailchimp-integration-0.0.2.tar.gz --markdown 20230525/w/wagtail-mailchimp-integration/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-25 13:19:26] INFO root fetch - processPackages [tcsa]: Downloading https://files.pythonhosted.org/packages/9a/13/00240516390ec4ca686c8002e4256a974b1b56a977077fd77251e93bfb78/tcsa-0.1.4.tar.gz
+[2023-05-25 13:19:26] INFO root fetch - processPackages [Pandora-ChatGPT]: Downloading https://files.pythonhosted.org/packages/c8/86/d546c2867cc39f968b3a1eaac184bafdbcd4e166e9bac698fb17185022e2/Pandora-ChatGPT-1.1.6.tar.gz
+[2023-05-25 13:19:26] INFO root fetch - processPackages [openfe]: Downloading https://files.pythonhosted.org/packages/02/63/1ecf20de9e79889cb182763b556c36bed23b93c153c8de974587089656de/openfe-0.0.8.tar.gz
+[2023-05-25 13:19:26] INFO root fetch - processPackages [cm-two]: Downloading https://files.pythonhosted.org/packages/24/cf/630c922a0fecc4b087f293464f2d4dbc2e4fb1ed541fe3a8195c16a47dac/cm_two-2.3.22-py3-none-any.whl
+[2023-05-25 13:19:26] INFO root fetch - processPackages [trading-strategy]: executing diffoscope
+[2023-05-25 13:19:26] INFO root fetch - processPackages [trading-strategy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trading_strategy-0.9.0.tar.gz tmp/trading_strategy-0.9.1.tar.gz --markdown 20230525/t/trading-strategy/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-25 13:19:26] INFO root fetch - processPackages [Pandora-ChatGPT]: executing diffoscope
+[2023-05-25 13:19:26] INFO root fetch - processPackages [Pandora-ChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pandora-ChatGPT-1.1.5.tar.gz tmp/Pandora-ChatGPT-1.1.6.tar.gz --markdown 20230525/P/Pandora-ChatGPT/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-05-25 13:19:26] INFO root fetch - processPackages [tcsa]: executing diffoscope
+[2023-05-25 13:19:26] INFO root fetch - processPackages [tcsa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcsa-0.1.2.tar.gz tmp/tcsa-0.1.4.tar.gz --markdown 20230525/t/tcsa/0.1.2-0.1.4/diff.md --exclude *.pyd
+[2023-05-25 13:19:26] INFO root fetch - processPackages [cm-two]: executing diffoscope
+[2023-05-25 13:19:26] INFO root fetch - processPackages [cm-two]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cm_two-2.3.21-py3-none-any.whl.zip tmp/cm_two-2.3.22-py3-none-any.whl.zip --markdown 20230525/c/cm-two/2.3.21-2.3.22/diff.md --exclude *.pyd
+[2023-05-25 13:19:26] INFO root fetch - processPackages [openfe]: Downloading https://files.pythonhosted.org/packages/58/28/4526558c4670c2d4fda1ecf5df31bed1eada2878f2836a11e541e0087ab8/openfe-0.0.9.tar.gz
+[2023-05-25 13:19:26] INFO root fetch - processPackages [openfe]: executing diffoscope
+[2023-05-25 13:19:26] INFO root fetch - processPackages [openfe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openfe-0.0.8.tar.gz tmp/openfe-0.0.9.tar.gz --markdown 20230525/o/openfe/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 13:19:27] INFO root fetch - processPackages [camminapy]: Start processing: testit-importer-allure
+[2023-05-25 13:19:27] INFO root fetch - main [MainThread]: End processing [camminapy]: success
+[2023-05-25 13:19:27] INFO root fetch - processPackages [pyrosexmod]: Start processing: elliptic-sdk
+[2023-05-25 13:19:27] INFO root fetch - main [MainThread]: End processing [pyrosexmod]: success
+[2023-05-25 13:19:27] INFO root fetch - processPackages [testit-importer-allure]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-05-25 13:19:27] INFO root fetch - processPackages [elliptic-sdk]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-25 13:19:27] INFO root fetch - processPackages [testit-importer-allure]: Downloading https://files.pythonhosted.org/packages/42/d0/18ed11b99e18262b104e8a71439e00ffbac4df029d4c6b414e46eaf49f06/testit-importer-allure-1.3.1.tar.gz
+[2023-05-25 13:19:27] INFO root fetch - processPackages [nucliadb-utils]: Start processing: desim-tool
+[2023-05-25 13:19:27] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-05-25 13:19:27] INFO root fetch - processPackages [elliptic-sdk]: Downloading https://files.pythonhosted.org/packages/20/c3/eae1395702338ad41105c5fca838e1b885df3ae171d54fb74944c8a8a398/elliptic_sdk-0.0.4.tar.gz
+[2023-05-25 13:19:27] INFO root fetch - processPackages [desim-tool]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-25 13:19:27] INFO root fetch - processPackages [nucliadb]: Start processing: valmi-connector-lib
+[2023-05-25 13:19:27] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-05-25 13:19:27] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-25 13:19:27] INFO root fetch - processPackages [wagtail-mailchimp-integration]: Start processing: pyrosexmod
+[2023-05-25 13:19:27] INFO root fetch - main [MainThread]: End processing [wagtail-mailchimp-integration]: success
+[2023-05-25 13:19:27] INFO root fetch - processPackages [desim-tool]: executing diffoscope
+[2023-05-25 13:19:27] INFO root fetch - processPackages [desim-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/desim-tool-0.3.1.tar.gz tmp/desim-tool-0.3.2.tar.gz --markdown 20230525/d/desim-tool/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-25 13:19:27] INFO root fetch - processPackages [pyrosexmod]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-25 13:19:27] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2023-05-25 13:19:27] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.8.tar.gz tmp/valmi_connector_lib-0.1.9.tar.gz --markdown 20230525/v/valmi-connector-lib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-25 13:19:27] INFO root fetch - processPackages [testit-importer-allure]: Downloading https://files.pythonhosted.org/packages/78/d5/f8a12c66e761030deb4bee565c0423e50552edc20f552242252139c90a8a/testit-importer-allure-1.3.2.tar.gz
+[2023-05-25 13:19:28] INFO root fetch - processPackages [pyrosexmod]: Downloading https://files.pythonhosted.org/packages/41/53/309c2bd0c212f71f83b2c6afff6c77579eb84f5b1219db95515951038f4f/pyrosexmod-0.1.4.tar.gz
+[2023-05-25 13:19:28] INFO root fetch - processPackages [testit-importer-allure]: executing diffoscope
+[2023-05-25 13:19:28] INFO root fetch - processPackages [testit-importer-allure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testit-importer-allure-1.3.1.tar.gz tmp/testit-importer-allure-1.3.2.tar.gz --markdown 20230525/t/testit-importer-allure/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-05-25 13:19:28] INFO root fetch - processPackages [elliptic-sdk]: Downloading https://files.pythonhosted.org/packages/c8/dc/790015506225716a1e7325285ebee4528f80b083ab1afa98875a6d0c21d8/elliptic_sdk-0.0.5.tar.gz
+[2023-05-25 13:19:28] ERROR root fetch - processPackages [cm-two]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+[2023-05-25 13:19:28] INFO root fetch - processPackages [cm-two]: Start processing: kensu-datagalaxy-client
+[2023-05-25 13:19:28] INFO root fetch - main [MainThread]: End processing [cm-two] error
+[2023-05-25 13:19:28] INFO root fetch - processPackages [kensu-datagalaxy-client]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-25 13:19:28] INFO root fetch - processPackages [elliptic-sdk]: executing diffoscope
+[2023-05-25 13:19:28] INFO root fetch - processPackages [elliptic-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elliptic_sdk-0.0.4.tar.gz tmp/elliptic_sdk-0.0.5.tar.gz --markdown 20230525/e/elliptic-sdk/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-25 13:19:28] INFO root fetch - processPackages [tcsa]: Start processing: ogscm
+[2023-05-25 13:19:28] INFO root fetch - main [MainThread]: End processing [tcsa]: success
+[2023-05-25 13:19:28] INFO root fetch - processPackages [pyrosexmod]: Downloading https://files.pythonhosted.org/packages/fd/bb/d4d5ef4e96205b53071586071587695011f23d5ae37f833b9450c5193649/pyrosexmod-0.1.5.tar.gz
+[2023-05-25 13:19:28] INFO root fetch - processPackages [ogscm]: New version: [2.4.7] Old Version: [2.4.6]
+[2023-05-25 13:19:28] INFO root fetch - processPackages [kensu-datagalaxy-client]: Downloading https://files.pythonhosted.org/packages/63/9a/2179bedea1a49773eb06967b8651219c5e71c3d3abe5355f124f7c5934d9/kensu-datagalaxy-client-1.0.0.tar.gz
+[2023-05-25 13:19:28] INFO root fetch - processPackages [openfe]: Start processing: camminapy
+[2023-05-25 13:19:28] INFO root fetch - main [MainThread]: End processing [openfe]: success
+[2023-05-25 13:19:28] INFO root fetch - processPackages [pyrosexmod]: executing diffoscope
+[2023-05-25 13:19:28] INFO root fetch - processPackages [camminapy]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-05-25 13:19:28] INFO root fetch - processPackages [pyrosexmod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrosexmod-0.1.4.tar.gz tmp/pyrosexmod-0.1.5.tar.gz --markdown 20230525/p/pyrosexmod/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-25 13:19:28] INFO root fetch - processPackages [ogscm]: Downloading https://files.pythonhosted.org/packages/cc/e5/cc176d31fe5fb67b4b75fb0fabc7dcd07f669a0b580fd9a4b5b159c61b51/ogscm-2.4.6.tar.gz
+[2023-05-25 13:19:28] INFO root fetch - processPackages [camminapy]: executing diffoscope
+[2023-05-25 13:19:28] INFO root fetch - processPackages [camminapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camminapy-0.8.8.tar.gz tmp/camminapy-0.8.9.tar.gz --markdown 20230525/c/camminapy/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-05-25 13:19:28] INFO root fetch - processPackages [Pandora-ChatGPT]: Start processing: horton-grid
+[2023-05-25 13:19:28] INFO root fetch - main [MainThread]: End processing [Pandora-ChatGPT]: success
+[2023-05-25 13:19:28] INFO root fetch - processPackages [kensu-datagalaxy-client]: Downloading https://files.pythonhosted.org/packages/ce/34/a2162f4e94bcf1a04380cadb8bbc83f23387895980aa10e1ce023dd96356/kensu-datagalaxy-client-1.0.1.tar.gz
+[2023-05-25 13:19:28] INFO root fetch - processPackages [horton-grid]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-25 13:19:28] INFO root fetch - processPackages [kensu-datagalaxy-client]: executing diffoscope
+[2023-05-25 13:19:28] INFO root fetch - processPackages [kensu-datagalaxy-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kensu-datagalaxy-client-1.0.0.tar.gz tmp/kensu-datagalaxy-client-1.0.1.tar.gz --markdown 20230525/k/kensu-datagalaxy-client/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-25 13:19:28] INFO root fetch - processPackages [ogscm]: Downloading https://files.pythonhosted.org/packages/2f/4e/ff11af0ccea0bdcee8d8fa08f46c498846d976885d97716932247cdef738/ogscm-2.4.7.tar.gz
+[2023-05-25 13:19:28] INFO root fetch - processPackages [ogscm]: executing diffoscope
+[2023-05-25 13:19:28] INFO root fetch - processPackages [ogscm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ogscm-2.4.6.tar.gz tmp/ogscm-2.4.7.tar.gz --markdown 20230525/o/ogscm/2.4.6-2.4.7/diff.md --exclude *.pyd
+[2023-05-25 13:19:28] INFO root fetch - processPackages [horton-grid]: Downloading https://files.pythonhosted.org/packages/6d/11/4c13e876dcfc8b10e48fba781f4f2fb7f3cc39f70ed1acefd4395b1527a6/horton-grid-0.0.1.tar.gz
+[2023-05-25 13:19:29] INFO root fetch - processPackages [horton-grid]: Downloading https://files.pythonhosted.org/packages/9b/c5/80c6d94c807dc8835b2fe7b33f2e2a53bf02a0b3a8fba23f46d07bd4bd82/horton-grid-0.0.2.tar.gz
+[2023-05-25 13:19:29] INFO root fetch - processPackages [horton-grid]: executing diffoscope
+[2023-05-25 13:19:29] INFO root fetch - processPackages [horton-grid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/horton-grid-0.0.1.tar.gz tmp/horton-grid-0.0.2.tar.gz --markdown 20230525/h/horton-grid/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-25 13:19:29] INFO root fetch - processPackages [valmi-connector-lib]: Start processing: camminapy
+[2023-05-25 13:19:29] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2023-05-25 13:19:29] INFO root fetch - processPackages [camminapy]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-05-25 13:19:29] INFO root fetch - main [MainThread]: End processing [desim-tool]: success
+[2023-05-25 13:19:29] INFO root fetch - main [MainThread]: End processing [elliptic-sdk]: success
+[2023-05-25 13:19:29] INFO root fetch - processPackages [camminapy]: executing diffoscope
+[2023-05-25 13:19:29] INFO root fetch - processPackages [camminapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camminapy-0.8.8.tar.gz tmp/camminapy-0.8.9.tar.gz --markdown 20230525/c/camminapy/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-05-25 13:19:30] INFO root fetch - main [MainThread]: End processing [testit-importer-allure]: success
+[2023-05-25 13:19:30] INFO root fetch - main [MainThread]: End processing [pyrosexmod]: success
+[2023-05-25 13:19:30] INFO root fetch - main [MainThread]: End processing [camminapy]: success
+[2023-05-25 13:19:31] INFO root fetch - main [MainThread]: End processing [camminapy]: success
+[2023-05-25 13:19:31] INFO root fetch - main [MainThread]: End processing [ogscm]: success
+[2023-05-25 13:19:31] INFO root fetch - main [MainThread]: End processing [trading-strategy]: success
+[2023-05-25 13:19:32] INFO root fetch - main [MainThread]: End processing [kensu-datagalaxy-client]: success
+[2023-05-25 13:19:33] INFO root fetch - main [MainThread]: End processing [horton-grid]: success
+[2023-05-25 13:19:33] INFO root fetch - main [MainThread]: Store serial: [18245635]
