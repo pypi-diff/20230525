@@ -11193,3 +11193,72 @@
 [2023-05-25 08:59:50] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-05-25 08:59:57] INFO root fetch - main [MainThread]: End processing [azure-mgmt-compute]: success
 [2023-05-25 08:59:57] INFO root fetch - main [MainThread]: Store serial: [18242465]
+[2023-05-25 09:05:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18242465]
+[2023-05-25 09:05:09] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-25 09:05:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-Ayiin
+[2023-05-25 09:05:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: NanoPlot
+[2023-05-25 09:05:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: revproxy-auth
+[2023-05-25 09:05:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: agsi
+[2023-05-25 09:05:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: antchain-ak-039036ceaf344eae826f7a5f2e0c0a1a
+[2023-05-25 09:05:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: seqio-nightly
+[2023-05-25 09:05:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: notebook
+[2023-05-25 09:05:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zoviz
+[2023-05-25 09:05:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: netbox-cisco-maintenance
+[2023-05-25 09:05:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: GoogleBard
+[2023-05-25 09:05:09] INFO root fetch - processPackages [py-Ayiin]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-05-25 09:05:09] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 09:05:09] INFO root fetch - processPackages [NanoPlot]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-05-25 09:05:09] INFO root fetch - processPackages [GoogleBard]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-05-25 09:05:09] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-05-25 09:05:09] INFO root fetch - processPackages [agsi]: New version: [1.4] Old Version: [1.3]
+[2023-05-25 09:05:09] INFO root fetch - processPackages [zoviz]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-05-25 09:05:09] WARNING root fetch - processPackages [antchain-ak-039036ceaf344eae826f7a5f2e0c0a1a]: Skipping, unable to determine old version
+[2023-05-25 09:05:09] INFO root fetch - processPackages [antchain-ak-039036ceaf344eae826f7a5f2e0c0a1a]: Start processing: mysql-context-manager
+[2023-05-25 09:05:09] INFO root fetch - main [MainThread]: End processing [antchain-ak-039036ceaf344eae826f7a5f2e0c0a1a] error
+[2023-05-25 09:05:09] INFO root fetch - processPackages [GoogleBard]: executing diffoscope
+[2023-05-25 09:05:09] INFO root fetch - processPackages [GoogleBard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GoogleBard-1.0.3.tar.gz tmp/GoogleBard-1.1.0.tar.gz --markdown 20230525/G/GoogleBard/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-05-25 09:05:09] INFO root fetch - processPackages [revproxy-auth]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-25 09:05:09] INFO root fetch - processPackages [notebook]: New version: [7.0.0b3] Old Version: [7.0.0b2]
+[2023-05-25 09:05:09] INFO root fetch - processPackages [agsi]: executing diffoscope
+[2023-05-25 09:05:09] INFO root fetch - processPackages [agsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agsi-1.3.tar.gz tmp/agsi-1.4.tar.gz --markdown 20230525/a/agsi/1.3-1.4/diff.md --exclude *.pyd
+[2023-05-25 09:05:09] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-05-25 09:05:09] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.8.tar.gz tmp/netbox-cisco-maintenance-0.0.9.tar.gz --markdown 20230525/n/netbox-cisco-maintenance/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 09:05:09] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-05-25 09:05:09] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230525/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-05-25 09:05:09] INFO root fetch - processPackages [mysql-context-manager]: New version: [0.2.0] Old Version: [0.1.6]
+[2023-05-25 09:05:09] INFO root fetch - processPackages [NanoPlot]: Downloading https://files.pythonhosted.org/packages/25/1f/67b9bd889d98b1b43682cb1e84c48b65cfb9f6b18b9c9cb58c71cc95c1aa/NanoPlot-1.9.2.tar.gz
+[2023-05-25 09:05:09] INFO root fetch - processPackages [py-Ayiin]: executing diffoscope
+[2023-05-25 09:05:09] INFO root fetch - processPackages [py-Ayiin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-Ayiin-0.3.7.tar.gz tmp/py-Ayiin-0.3.8.tar.gz --markdown 20230525/p/py-Ayiin/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-05-25 09:05:09] INFO root fetch - processPackages [notebook]: Downloading https://files.pythonhosted.org/packages/d7/63/07ed24960e6a9b1a857fd8a8f3e538c5960bf32eee07c5cbd55b146686ac/notebook-7.0.0b2.tar.gz
+[2023-05-25 09:05:09] INFO root fetch - processPackages [revproxy-auth]: Downloading https://files.pythonhosted.org/packages/5e/f3/40d407d8d3dc69c3e94c6f0b49dde680743f5e7ae5f62a8799ecb0845a91/revproxy_auth-0.1.4.tar.gz
+[2023-05-25 09:05:09] INFO root fetch - processPackages [mysql-context-manager]: Downloading https://files.pythonhosted.org/packages/fb/24/356869729024691c0461b2698ce262ac76d1f9877a9c116a49077dfac621/mysql_context_manager-0.1.6.tar.gz
+[2023-05-25 09:05:09] INFO root fetch - processPackages [zoviz]: executing diffoscope
+[2023-05-25 09:05:09] INFO root fetch - processPackages [zoviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zoviz-0.4.98.tar.gz tmp/zoviz-0.4.99.tar.gz --markdown 20230525/z/zoviz/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-05-25 09:05:09] INFO root fetch - processPackages [revproxy-auth]: executing diffoscope
+[2023-05-25 09:05:09] INFO root fetch - processPackages [revproxy-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revproxy_auth-0.1.3.tar.gz tmp/revproxy_auth-0.1.4.tar.gz --markdown 20230525/r/revproxy-auth/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-25 09:05:09] INFO root fetch - processPackages [NanoPlot]: Downloading https://files.pythonhosted.org/packages/b9/e3/cb6dfa5094d8992700d63ba261110e07840a807028dab2c991ae442b2004/NanoPlot-1.9.3.tar.gz
+[2023-05-25 09:05:09] INFO root fetch - processPackages [notebook]: Downloading https://files.pythonhosted.org/packages/40/1e/eb7fbc67bb5f457be702d87c10554d1800ab59c209bc678285dd70e1664c/notebook-7.0.0b3.tar.gz
+[2023-05-25 09:05:09] INFO root fetch - processPackages [mysql-context-manager]: Downloading https://files.pythonhosted.org/packages/3b/f6/27934cbc5b2169ae5c1487dc6e50a4e6c3aaeac3c9d642bb74be3d1fb1bc/mysql_context_manager-0.2.0.tar.gz
+[2023-05-25 09:05:09] INFO root fetch - processPackages [NanoPlot]: executing diffoscope
+[2023-05-25 09:05:09] INFO root fetch - processPackages [NanoPlot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NanoPlot-1.9.2.tar.gz tmp/NanoPlot-1.9.3.tar.gz --markdown 20230525/N/NanoPlot/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-05-25 09:05:10] INFO root fetch - processPackages [mysql-context-manager]: executing diffoscope
+[2023-05-25 09:05:10] INFO root fetch - processPackages [mysql-context-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysql_context_manager-0.1.6.tar.gz tmp/mysql_context_manager-0.2.0.tar.gz --markdown 20230525/m/mysql-context-manager/0.1.6-0.2.0/diff.md --exclude *.pyd
+[2023-05-25 09:05:10] INFO root fetch - processPackages [notebook]: executing diffoscope
+[2023-05-25 09:05:10] INFO root fetch - processPackages [notebook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notebook-7.0.0b2.tar.gz tmp/notebook-7.0.0b3.tar.gz --markdown 20230525/n/notebook/7.0.0b2-7.0.0b3/diff.md --exclude *.pyd
+[2023-05-25 09:05:10] INFO root fetch - processPackages [GoogleBard]: Start processing: django-ows-lib
+[2023-05-25 09:05:10] INFO root fetch - main [MainThread]: End processing [GoogleBard]: success
+[2023-05-25 09:05:11] INFO root fetch - processPackages [django-ows-lib]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-25 09:05:11] INFO root fetch - main [MainThread]: End processing [zoviz]: success
+[2023-05-25 09:05:11] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-05-25 09:05:11] INFO root fetch - processPackages [django-ows-lib]: Downloading https://files.pythonhosted.org/packages/15/54/c9b6a97de529bb181a50f58b03166eacf00e2279c08e2d2d17be8d3c0070/django-ows-lib-0.3.0.tar.gz
+[2023-05-25 09:05:11] INFO root fetch - main [MainThread]: End processing [revproxy-auth]: success
+[2023-05-25 09:05:11] INFO root fetch - processPackages [django-ows-lib]: executing diffoscope
+[2023-05-25 09:05:11] INFO root fetch - processPackages [django-ows-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ows-lib-0.2.0.tar.gz tmp/django-ows-lib-0.3.0.tar.gz --markdown 20230525/d/django-ows-lib/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-25 09:05:11] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-05-25 09:05:11] INFO root fetch - main [MainThread]: End processing [py-Ayiin]: success
+[2023-05-25 09:05:11] INFO root fetch - main [MainThread]: End processing [mysql-context-manager]: success
+[2023-05-25 09:05:11] INFO root fetch - main [MainThread]: End processing [NanoPlot]: success
+[2023-05-25 09:05:12] INFO root fetch - main [MainThread]: End processing [agsi]: success
+[2023-05-25 09:05:12] INFO root fetch - main [MainThread]: End processing [django-ows-lib]: success
+[2023-05-25 09:06:46] INFO root fetch - main [MainThread]: End processing [notebook]: success
+[2023-05-25 09:06:46] INFO root fetch - main [MainThread]: Store serial: [18242503]
