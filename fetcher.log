@@ -15344,3 +15344,102 @@
 [2023-05-25 12:07:50] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-05-25 12:07:51] INFO root fetch - main [MainThread]: End processing [text-fabric]: success
 [2023-05-25 12:07:51] INFO root fetch - main [MainThread]: Store serial: [18244898]
+[2023-05-25 12:12:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18244898]
+[2023-05-25 12:13:00] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-25 12:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dead-code-finder
+[2023-05-25 12:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: optuna-dashboard
+[2023-05-25 12:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pybotx-smart-logger
+[2023-05-25 12:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dm-reverb-nightly
+[2023-05-25 12:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyraUtils
+[2023-05-25 12:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: irails
+[2023-05-25 12:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: clevertable
+[2023-05-25 12:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: p10k-edit
+[2023-05-25 12:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: netbox-cisco-maintenance
+[2023-05-25 12:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: UEVaultManager
+[2023-05-25 12:13:00] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 12:13:00] INFO root fetch - processPackages [p10k-edit]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-25 12:13:00] INFO root fetch - processPackages [PyraUtils]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-25 12:13:00] INFO root fetch - processPackages [irails]: New version: [1.3.26] Old Version: [1.3.25]
+[2023-05-25 12:13:00] INFO root fetch - processPackages [UEVaultManager]: New version: [1.5.0] Old Version: [1.4.3]
+[2023-05-25 12:13:01] INFO root fetch - processPackages [clevertable]: New version: [2.5.0] Old Version: [2.4.1]
+[2023-05-25 12:13:01] INFO root fetch - processPackages [dm-reverb-nightly]: New version: [0.9.0.dev20221207] Old Version: [0.9.0.dev20221206]
+[2023-05-25 12:13:01] INFO root fetch - processPackages [pybotx-smart-logger]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-25 12:13:01] INFO root fetch - processPackages [optuna-dashboard]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-25 12:13:01] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-05-25 12:13:01] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.8.tar.gz tmp/netbox-cisco-maintenance-0.0.9.tar.gz --markdown 20230525/n/netbox-cisco-maintenance/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 12:13:01] WARNING root fetch - processPackages [dead-code-finder]: Skipping, unable to determine old version
+[2023-05-25 12:13:01] INFO root fetch - processPackages [dead-code-finder]: Start processing: coconut-develop
+[2023-05-25 12:13:01] INFO root fetch - main [MainThread]: End processing [dead-code-finder] error
+[2023-05-25 12:13:01] INFO root fetch - processPackages [dm-reverb-nightly]: executing diffoscope
+[2023-05-25 12:13:01] INFO root fetch - processPackages [dm-reverb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230525/d/dm-reverb-nightly/0.9.0.dev20221206-0.9.0.dev20221207/diff.md --exclude *.pyd
+[2023-05-25 12:13:01] INFO root fetch - processPackages [coconut-develop]: New version: [3.0.1.post0.dev4] Old Version: [3.0.1.post0.dev3]
+[2023-05-25 12:13:01] INFO root fetch - processPackages [p10k-edit]: Downloading https://files.pythonhosted.org/packages/20/79/be60023b6d90dfa6e2891010d0282335c0d97ae9472ee87954fec71a0d6e/p10k-edit-0.0.6.tar.gz
+[2023-05-25 12:13:01] INFO root fetch - processPackages [PyraUtils]: Downloading https://files.pythonhosted.org/packages/2f/85/b33f6c344c3778fa610b82459d74e75ade3e2030b7ec93b793fd905ef491/PyraUtils-0.9.0.tar.gz
+[2023-05-25 12:13:01] INFO root fetch - processPackages [pybotx-smart-logger]: Downloading https://files.pythonhosted.org/packages/a3/56/93999e5fe813a9af7a623fce5d36832a3f609bddbb83f00650596c55153f/pybotx_smart_logger-0.9.8.tar.gz
+[2023-05-25 12:13:01] INFO root fetch - processPackages [coconut-develop]: executing diffoscope
+[2023-05-25 12:13:01] INFO root fetch - processPackages [coconut-develop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coconut-develop-3.0.1.post0.dev3.tar.gz tmp/coconut-develop-3.0.1.post0.dev4.tar.gz --markdown 20230525/c/coconut-develop/3.0.1.post0.dev3-3.0.1.post0.dev4/diff.md --exclude *.pyd
+[2023-05-25 12:13:01] INFO root fetch - processPackages [irails]: Downloading https://files.pythonhosted.org/packages/e5/1b/878c98e8bc8e0880819bfaf5cf35633d52270b6e5d10ff5733640d6b2216/irails-1.3.26.tar.gz
+[2023-05-25 12:13:01] INFO root fetch - processPackages [clevertable]: Downloading https://files.pythonhosted.org/packages/2d/5f/02ee815f2250e7c5aa3354b061f6c7a82812ed2cd2805e0d7c66c7fad789/clevertable-2.5.0.tar.gz
+[2023-05-25 12:13:01] INFO root fetch - processPackages [UEVaultManager]: executing diffoscope
+[2023-05-25 12:13:01] INFO root fetch - processPackages [UEVaultManager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UEVaultManager-1.4.3.tar.gz tmp/UEVaultManager-1.5.0.tar.gz --markdown 20230525/U/UEVaultManager/1.4.3-1.5.0/diff.md --exclude *.pyd
+[2023-05-25 12:13:01] INFO root fetch - processPackages [optuna-dashboard]: Downloading https://files.pythonhosted.org/packages/c8/ff/86ca1400d507b1df6f24206aa33fdf91d5c92c7d6de5f4f7facf5c4098ff/optuna-dashboard-0.9.1.tar.gz
+[2023-05-25 12:13:01] INFO root fetch - processPackages [clevertable]: executing diffoscope
+[2023-05-25 12:13:01] INFO root fetch - processPackages [clevertable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clevertable-2.4.1.tar.gz tmp/clevertable-2.5.0.tar.gz --markdown 20230525/c/clevertable/2.4.1-2.5.0/diff.md --exclude *.pyd
+[2023-05-25 12:13:01] INFO root fetch - processPackages [irails]: executing diffoscope
+[2023-05-25 12:13:01] INFO root fetch - processPackages [p10k-edit]: executing diffoscope
+[2023-05-25 12:13:01] INFO root fetch - processPackages [irails]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irails-1.3.25.tar.gz tmp/irails-1.3.26.tar.gz --markdown 20230525/i/irails/1.3.25-1.3.26/diff.md --exclude *.pyd
+[2023-05-25 12:13:01] INFO root fetch - processPackages [p10k-edit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p10k-edit-0.0.5.tar.gz tmp/p10k-edit-0.0.6.tar.gz --markdown 20230525/p/p10k-edit/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-25 12:13:01] INFO root fetch - processPackages [pybotx-smart-logger]: Downloading https://files.pythonhosted.org/packages/fb/f2/63c623eaf06d837e7302c90a031faa9c5362432a750ff209329c4f0cd5d4/pybotx_smart_logger-0.9.9.tar.gz
+[2023-05-25 12:13:01] INFO root fetch - processPackages [PyraUtils]: Downloading https://files.pythonhosted.org/packages/27/4f/1827438901cc506521d7d41417f47fea7811c6bf3a43530b76386753a8ad/PyraUtils-0.9.1.tar.gz
+[2023-05-25 12:13:01] INFO root fetch - processPackages [pybotx-smart-logger]: executing diffoscope
+[2023-05-25 12:13:01] INFO root fetch - processPackages [pybotx-smart-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybotx_smart_logger-0.9.8.tar.gz tmp/pybotx_smart_logger-0.9.9.tar.gz --markdown 20230525/p/pybotx-smart-logger/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-25 12:13:01] INFO root fetch - processPackages [PyraUtils]: executing diffoscope
+[2023-05-25 12:13:01] INFO root fetch - processPackages [PyraUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyraUtils-0.9.0.tar.gz tmp/PyraUtils-0.9.1.tar.gz --markdown 20230525/P/PyraUtils/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-25 12:13:02] INFO root fetch - processPackages [netbox-cisco-maintenance]: Start processing: localstack
+[2023-05-25 12:13:02] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-05-25 12:13:02] INFO root fetch - processPackages [localstack]: New version: [2.0.3.dev20230523065743] Old Version: [2.0.3.dev20230516084829]
+[2023-05-25 12:13:03] INFO root fetch - processPackages [p10k-edit]: Start processing: localstack-ext
+[2023-05-25 12:13:03] INFO root fetch - main [MainThread]: End processing [p10k-edit]: success
+[2023-05-25 12:13:03] INFO root fetch - processPackages [optuna-dashboard]: Downloading https://files.pythonhosted.org/packages/27/61/eedb08021226c3a12afaae3c1609e4745af8d825d04a37adae30d3af1dd4/optuna-dashboard-0.9.2.tar.gz
+[2023-05-25 12:13:03] INFO root fetch - processPackages [localstack]: executing diffoscope
+[2023-05-25 12:13:03] INFO root fetch - processPackages [localstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-2.0.3.dev20230516084829.tar.gz tmp/localstack-2.0.3.dev20230523065743.tar.gz --markdown 20230525/l/localstack/2.0.3.dev20230516084829-2.0.3.dev20230523065743/diff.md --exclude *.pyd
+[2023-05-25 12:13:03] INFO root fetch - processPackages [localstack-ext]: New version: [2.1.0] Old Version: [2.0.3.dev20230523065743]
+[2023-05-25 12:13:03] INFO root fetch - processPackages [UEVaultManager]: Start processing: aiobtclientrpc
+[2023-05-25 12:13:03] INFO root fetch - main [MainThread]: End processing [UEVaultManager]: success
+[2023-05-25 12:13:03] INFO root fetch - processPackages [pybotx-smart-logger]: Start processing: RandX
+[2023-05-25 12:13:03] INFO root fetch - main [MainThread]: End processing [pybotx-smart-logger]: success
+[2023-05-25 12:13:03] INFO root fetch - processPackages [aiobtclientrpc]: New version: [5.0.0] Old Version: [4.0.0]
+[2023-05-25 12:13:03] WARNING root fetch - processPackages [RandX]: Skipping, unable to determine old version
+[2023-05-25 12:13:03] INFO root fetch - processPackages [RandX]: Start processing: yfinance
+[2023-05-25 12:13:03] INFO root fetch - main [MainThread]: End processing [RandX] error
+[2023-05-25 12:13:03] INFO root fetch - processPackages [localstack-ext]: Downloading https://files.pythonhosted.org/packages/f9/40/6b9d2dd94fc1c33ddeebcd5d4efc9d8b46a826219ac28e2d269a11b1e4f9/localstack-ext-2.1.0.tar.gz
+[2023-05-25 12:13:03] INFO root fetch - processPackages [yfinance]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-05-25 12:13:03] INFO root fetch - processPackages [aiobtclientrpc]: Downloading https://files.pythonhosted.org/packages/69/6a/97870c2be522b68073859526977a8048dc8d5db64784c4096989764d3261/aiobtclientrpc-4.0.0.tar.gz
+[2023-05-25 12:13:03] INFO root fetch - processPackages [localstack-ext]: executing diffoscope
+[2023-05-25 12:13:03] INFO root fetch - processPackages [localstack-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-ext-2.0.3.dev20230523065743.tar.gz tmp/localstack-ext-2.1.0.tar.gz --markdown 20230525/l/localstack-ext/2.0.3.dev20230523065743-2.1.0/diff.md --exclude *.pyd
+[2023-05-25 12:13:03] INFO root fetch - processPackages [optuna-dashboard]: executing diffoscope
+[2023-05-25 12:13:03] INFO root fetch - processPackages [optuna-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optuna-dashboard-0.9.1.tar.gz tmp/optuna-dashboard-0.9.2.tar.gz --markdown 20230525/o/optuna-dashboard/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-25 12:13:03] INFO root fetch - processPackages [yfinance]: Downloading https://files.pythonhosted.org/packages/a8/d8/009751b5ddba3498075f4e073f65a1e4e30dfc83bdb3003ef5044588b4b8/yfinance-0.2.7.tar.gz
+[2023-05-25 12:13:03] INFO root fetch - processPackages [aiobtclientrpc]: Downloading https://files.pythonhosted.org/packages/5a/f5/3aedd7bb52ad4af5ff468da78156dffaa99e87ad37e012bf7b8ccdbef9e7/aiobtclientrpc-5.0.0.tar.gz
+[2023-05-25 12:13:04] INFO root fetch - processPackages [aiobtclientrpc]: executing diffoscope
+[2023-05-25 12:13:04] INFO root fetch - processPackages [aiobtclientrpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiobtclientrpc-4.0.0.tar.gz tmp/aiobtclientrpc-5.0.0.tar.gz --markdown 20230525/a/aiobtclientrpc/4.0.0-5.0.0/diff.md --exclude *.pyd
+[2023-05-25 12:13:04] INFO root fetch - processPackages [PyraUtils]: Start processing: pyPreservica
+[2023-05-25 12:13:04] INFO root fetch - main [MainThread]: End processing [PyraUtils]: success
+[2023-05-25 12:13:04] INFO root fetch - processPackages [yfinance]: Downloading https://files.pythonhosted.org/packages/44/7c/2f17e16867fb4ad198467cc2ee2db5ff845cfdb1159ecb69ef2e6fc0807b/yfinance-0.2.9.tar.gz
+[2023-05-25 12:13:04] INFO root fetch - processPackages [pyPreservica]: New version: [2.0.0] Old Version: [1.7.9]
+[2023-05-25 12:13:04] INFO root fetch - main [MainThread]: End processing [clevertable]: success
+[2023-05-25 12:13:04] INFO root fetch - processPackages [yfinance]: executing diffoscope
+[2023-05-25 12:13:04] INFO root fetch - processPackages [yfinance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yfinance-0.2.7.tar.gz tmp/yfinance-0.2.9.tar.gz --markdown 20230525/y/yfinance/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-05-25 12:13:04] INFO root fetch - main [MainThread]: End processing [localstack]: success
+[2023-05-25 12:13:04] INFO root fetch - main [MainThread]: End processing [irails]: success
+[2023-05-25 12:13:04] INFO root fetch - processPackages [pyPreservica]: Downloading https://files.pythonhosted.org/packages/af/b7/0b63f34df992621c8ccad7c372465ca11a2a8ef4b7b70b0c0617572624a2/pyPreservica-2.0.0.tar.gz
+[2023-05-25 12:13:04] INFO root fetch - processPackages [pyPreservica]: executing diffoscope
+[2023-05-25 12:13:04] INFO root fetch - processPackages [pyPreservica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyPreservica-1.7.9.tar.gz tmp/pyPreservica-2.0.0.tar.gz --markdown 20230525/p/pyPreservica/1.7.9-2.0.0/diff.md --exclude *.pyd
+[2023-05-25 12:13:04] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
+[2023-05-25 12:13:05] INFO root fetch - main [MainThread]: End processing [aiobtclientrpc]: success
+[2023-05-25 12:13:06] INFO root fetch - main [MainThread]: End processing [pyPreservica]: success
+[2023-05-25 12:13:07] INFO root fetch - main [MainThread]: End processing [yfinance]: success
+[2023-05-25 12:13:09] INFO root fetch - main [MainThread]: End processing [localstack-ext]: success
+[2023-05-25 12:13:54] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
+[2023-05-25 12:13:56] INFO root fetch - main [MainThread]: End processing [optuna-dashboard]: success
+[2023-05-25 12:13:56] INFO root fetch - main [MainThread]: Store serial: [18244951]
