@@ -11904,3 +11904,112 @@
 [2023-05-25 09:40:40] INFO root fetch - main [MainThread]: End processing [mage-ai]: success
 [2023-05-25 09:40:59] INFO root fetch - main [MainThread]: End processing [OpenFisca-France]: success
 [2023-05-25 09:40:59] INFO root fetch - main [MainThread]: Store serial: [18242937]
+[2023-05-25 09:46:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18242937]
+[2023-05-25 09:46:09] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-25 09:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: searchlogit
+[2023-05-25 09:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: anduin
+[2023-05-25 09:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shopcloud-serverless
+[2023-05-25 09:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cq23
+[2023-05-25 09:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: specmatic
+[2023-05-25 09:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo12-addon-crm-sale-order-line-contract-rest-api
+[2023-05-25 09:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: betfairlightweight
+[2023-05-25 09:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: buz
+[2023-05-25 09:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: invenio-administration
+[2023-05-25 09:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xj-enroll
+[2023-05-25 09:46:09] INFO root fetch - processPackages [specmatic]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-25 09:46:09] INFO root fetch - processPackages [cq23]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-25 09:46:09] INFO root fetch - processPackages [searchlogit]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-25 09:46:09] INFO root fetch - processPackages [xj-enroll]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-05-25 09:46:09] INFO root fetch - processPackages [specmatic]: Downloading https://files.pythonhosted.org/packages/f2/8e/7d8be543f26a5ddcb966848a9a859d834f1de53fbdb9c189027e52b2465e/specmatic-0.5.0.tar.gz
+[2023-05-25 09:46:09] INFO root fetch - processPackages [odoo12-addon-crm-sale-order-line-contract-rest-api]: New version: [12.0.0.0.3] Old Version: [12.0.0.0.2]
+[2023-05-25 09:46:09] INFO root fetch - processPackages [shopcloud-serverless]: New version: [4.9.0] Old Version: [4.8.0]
+[2023-05-25 09:46:09] INFO root fetch - processPackages [buz]: New version: [2.0.1rc1] Old Version: [2.0.0rc1]
+[2023-05-25 09:46:09] INFO root fetch - processPackages [invenio-administration]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-05-25 09:46:09] WARNING root fetch - processPackages [specmatic]: Skipping package: exceeds size limit 79088985>=10485760
+[2023-05-25 09:46:09] INFO root fetch - processPackages [xj-enroll]: executing diffoscope
+[2023-05-25 09:46:09] INFO root fetch - processPackages [anduin]: New version: [8.4.9] Old Version: [8.4.8]
+[2023-05-25 09:46:09] INFO root fetch - processPackages [specmatic]: Start processing: odoo12-addon-crm-sale-order-line-rest-api
+[2023-05-25 09:46:09] INFO root fetch - main [MainThread]: End processing [specmatic] error
+[2023-05-25 09:46:09] INFO root fetch - processPackages [xj-enroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_enroll-1.0.98.tar.gz tmp/xj_enroll-1.0.99.tar.gz --markdown 20230525/x/xj-enroll/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-05-25 09:46:09] INFO root fetch - processPackages [searchlogit]: executing diffoscope
+[2023-05-25 09:46:09] INFO root fetch - processPackages [searchlogit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/searchlogit-0.3.8.tar.gz tmp/searchlogit-0.3.9.tar.gz --markdown 20230525/s/searchlogit/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-25 09:46:09] INFO root fetch - processPackages [betfairlightweight]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-05-25 09:46:09] INFO root fetch - processPackages [cq23]: Downloading https://files.pythonhosted.org/packages/8a/21/96e789dc10111505816430230f47297b6b6520a36d842bf6c7d54ca97c94/cq23-1.1.0.tar.gz
+[2023-05-25 09:46:09] INFO root fetch - processPackages [odoo12-addon-crm-sale-order-line-rest-api]: New version: [12.0.0.0.4] Old Version: [12.0.0.0.3]
+[2023-05-25 09:46:09] INFO root fetch - processPackages [odoo12-addon-crm-sale-order-line-contract-rest-api]: Downloading https://files.pythonhosted.org/packages/f0/7e/dc53a8ba9935452a42b66aaf3c6e5f353fb8e402bf02901fc863b8a9df2b/odoo12_addon_crm_sale_order_line_contract_rest_api-12.0.0.0.2-py3-none-any.whl
+[2023-05-25 09:46:09] INFO root fetch - processPackages [invenio-administration]: Downloading https://files.pythonhosted.org/packages/09/cc/474801c14155464f0132780586b28da512292d7e4dc429ce8430f6f8352f/invenio-administration-1.4.0.tar.gz
+[2023-05-25 09:46:09] INFO root fetch - processPackages [betfairlightweight]: Downloading https://files.pythonhosted.org/packages/0c/24/a6cf29b3a9855525a0b6c271a53401333ac24dadd888fcd2e0e4e8a07135/betfairlightweight-2.9.1.tar.gz
+[2023-05-25 09:46:09] INFO root fetch - processPackages [cq23]: executing diffoscope
+[2023-05-25 09:46:09] INFO root fetch - processPackages [cq23]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cq23-1.0.0.tar.gz tmp/cq23-1.1.0.tar.gz --markdown 20230525/c/cq23/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-25 09:46:09] INFO root fetch - processPackages [buz]: Downloading https://files.pythonhosted.org/packages/69/ca/3da0c225567edcd8f3bdc360e34406b8d604bf2516e6f5f956ffb612c200/buz-2.0.1rc1.tar.gz
+[2023-05-25 09:46:09] INFO root fetch - processPackages [odoo12-addon-crm-sale-order-line-rest-api]: Downloading https://files.pythonhosted.org/packages/df/a7/53c7ccd7ffee3bca9b9df779817a5bba5b332f6ff4c82d7049cf4d4465ee/odoo12_addon_crm_sale_order_line_rest_api-12.0.0.0.3-py3-none-any.whl
+[2023-05-25 09:46:09] INFO root fetch - processPackages [shopcloud-serverless]: executing diffoscope
+[2023-05-25 09:46:09] INFO root fetch - processPackages [shopcloud-serverless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shopcloud-serverless-4.8.0.tar.gz tmp/shopcloud-serverless-4.9.0.tar.gz --markdown 20230525/s/shopcloud-serverless/4.8.0-4.9.0/diff.md --exclude *.pyd
+[2023-05-25 09:46:09] INFO root fetch - processPackages [odoo12-addon-crm-sale-order-line-contract-rest-api]: Downloading https://files.pythonhosted.org/packages/fc/57/b01edb4bd65ad7765428544b20901395074fe3aa1e90643cfda2ef4abb67/odoo12_addon_crm_sale_order_line_contract_rest_api-12.0.0.0.3-py3-none-any.whl
+[2023-05-25 09:46:09] INFO root fetch - processPackages [buz]: executing diffoscope
+[2023-05-25 09:46:09] INFO root fetch - processPackages [buz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buz-2.0.0rc1.tar.gz tmp/buz-2.0.1rc1.tar.gz --markdown 20230525/b/buz/2.0.0rc1-2.0.1rc1/diff.md --exclude *.pyd
+[2023-05-25 09:46:09] INFO root fetch - processPackages [anduin]: executing diffoscope
+[2023-05-25 09:46:09] INFO root fetch - processPackages [anduin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anduin-8.4.8.tar.gz tmp/anduin-8.4.9.tar.gz --markdown 20230525/a/anduin/8.4.8-8.4.9/diff.md --exclude *.pyd
+[2023-05-25 09:46:10] INFO root fetch - processPackages [odoo12-addon-crm-sale-order-line-contract-rest-api]: executing diffoscope
+[2023-05-25 09:46:10] INFO root fetch - processPackages [odoo12-addon-crm-sale-order-line-contract-rest-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_crm_sale_order_line_contract_rest_api-12.0.0.0.2-py3-none-any.whl.zip tmp/odoo12_addon_crm_sale_order_line_contract_rest_api-12.0.0.0.3-py3-none-any.whl.zip --markdown 20230525/o/odoo12-addon-crm-sale-order-line-contract-rest-api/12.0.0.0.2-12.0.0.0.3/diff.md --exclude *.pyd
+[2023-05-25 09:46:10] INFO root fetch - processPackages [betfairlightweight]: Downloading https://files.pythonhosted.org/packages/18/ab/c477220ae8a8beb46171e2391356f413cecdd425591cbb2646b8c9a04aad/betfairlightweight-2.9.2.tar.gz
+[2023-05-25 09:46:10] INFO root fetch - processPackages [invenio-administration]: Downloading https://files.pythonhosted.org/packages/70/dd/fee48b6920f702709785a0e41f2fd3df051032fba65400f635e695487d14/invenio-administration-1.4.1.tar.gz
+[2023-05-25 09:46:10] INFO root fetch - processPackages [betfairlightweight]: executing diffoscope
+[2023-05-25 09:46:10] INFO root fetch - processPackages [betfairlightweight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betfairlightweight-2.9.1.tar.gz tmp/betfairlightweight-2.9.2.tar.gz --markdown 20230525/b/betfairlightweight/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-05-25 09:46:10] INFO root fetch - processPackages [invenio-administration]: executing diffoscope
+[2023-05-25 09:46:10] INFO root fetch - processPackages [invenio-administration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-administration-1.4.0.tar.gz tmp/invenio-administration-1.4.1.tar.gz --markdown 20230525/i/invenio-administration/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-05-25 09:46:10] INFO root fetch - processPackages [odoo12-addon-crm-sale-order-line-rest-api]: Downloading https://files.pythonhosted.org/packages/7a/99/fc43b4ca96d47d586b6fca2b671b2fa1e80a48a2603aefcd03b9da2f85e7/odoo12_addon_crm_sale_order_line_rest_api-12.0.0.0.4-py3-none-any.whl
+[2023-05-25 09:46:10] INFO root fetch - processPackages [odoo12-addon-crm-sale-order-line-rest-api]: executing diffoscope
+[2023-05-25 09:46:10] INFO root fetch - processPackages [odoo12-addon-crm-sale-order-line-rest-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_crm_sale_order_line_rest_api-12.0.0.0.3-py3-none-any.whl.zip tmp/odoo12_addon_crm_sale_order_line_rest_api-12.0.0.0.4-py3-none-any.whl.zip --markdown 20230525/o/odoo12-addon-crm-sale-order-line-rest-api/12.0.0.0.3-12.0.0.0.4/diff.md --exclude *.pyd
+[2023-05-25 09:46:11] INFO root fetch - processPackages [cq23]: Start processing: hapy
+[2023-05-25 09:46:11] INFO root fetch - main [MainThread]: End processing [cq23]: success
+[2023-05-25 09:46:11] INFO root fetch - processPackages [hapy]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-05-25 09:46:11] INFO root fetch - processPackages [searchlogit]: Start processing: hcai-datasets-nightly
+[2023-05-25 09:46:11] INFO root fetch - main [MainThread]: End processing [searchlogit]: success
+[2023-05-25 09:46:11] INFO root fetch - processPackages [hapy]: executing diffoscope
+[2023-05-25 09:46:11] INFO root fetch - processPackages [hapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Hapy-0.5.1.tar.gz tmp/Hapy-0.5.2.tar.gz --markdown 20230525/h/hapy/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-05-25 09:46:11] INFO root fetch - processPackages [hcai-datasets-nightly]: New version: [0.1.8.dev202305250743] Old Version: [0.1.8.dev202305171220]
+[2023-05-25 09:46:11] INFO root fetch - processPackages [hcai-datasets-nightly]: Downloading https://files.pythonhosted.org/packages/7b/cf/7967d712bd80a2f86adfe9e15201e025fb463a33687c286d311c9862502e/hcai-datasets-nightly-0.1.8.dev202305171220.tar.gz
+[2023-05-25 09:46:11] INFO root fetch - processPackages [shopcloud-serverless]: Start processing: arcane-datastore
+[2023-05-25 09:46:11] INFO root fetch - main [MainThread]: End processing [shopcloud-serverless]: success
+[2023-05-25 09:46:11] INFO root fetch - processPackages [arcane-datastore]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-05-25 09:46:11] INFO root fetch - processPackages [xj-enroll]: Start processing: paketmutfak
+[2023-05-25 09:46:11] INFO root fetch - main [MainThread]: End processing [xj-enroll]: success
+[2023-05-25 09:46:11] INFO root fetch - processPackages [paketmutfak]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-25 09:46:11] INFO root fetch - processPackages [hcai-datasets-nightly]: Downloading https://files.pythonhosted.org/packages/53/a8/b22459158eab0638a19458fc8c6d22bbc66064fcced1f4dea405d679fc12/hcai-datasets-nightly-0.1.8.dev202305250743.tar.gz
+[2023-05-25 09:46:11] INFO root fetch - processPackages [paketmutfak]: executing diffoscope
+[2023-05-25 09:46:11] INFO root fetch - processPackages [paketmutfak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paketmutfak-1.1.8.tar.gz tmp/paketmutfak-1.1.9.tar.gz --markdown 20230525/p/paketmutfak/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-25 09:46:11] INFO root fetch - processPackages [odoo12-addon-crm-sale-order-line-contract-rest-api]: Start processing: tequila-basic
+[2023-05-25 09:46:11] INFO root fetch - main [MainThread]: End processing [odoo12-addon-crm-sale-order-line-contract-rest-api]: success
+[2023-05-25 09:46:11] INFO root fetch - processPackages [hcai-datasets-nightly]: executing diffoscope
+[2023-05-25 09:46:11] INFO root fetch - processPackages [hcai-datasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-datasets-nightly-0.1.8.dev202305171220.tar.gz tmp/hcai-datasets-nightly-0.1.8.dev202305250743.tar.gz --markdown 20230525/h/hcai-datasets-nightly/0.1.8.dev202305171220-0.1.8.dev202305250743/diff.md --exclude *.pyd
+[2023-05-25 09:46:11] INFO root fetch - processPackages [arcane-datastore]: Downloading https://files.pythonhosted.org/packages/7e/6e/178c5dd99c936d12852431866ea38edb01861c0b428621f0c4cddb489a4a/arcane_datastore-1.1.2.tar.gz
+[2023-05-25 09:46:11] INFO root fetch - processPackages [tequila-basic]: New version: [1.8.8] Old Version: [1.8.7]
+[2023-05-25 09:46:12] INFO root fetch - processPackages [odoo12-addon-crm-sale-order-line-rest-api]: Start processing: th2-data-services
+[2023-05-25 09:46:12] INFO root fetch - main [MainThread]: End processing [odoo12-addon-crm-sale-order-line-rest-api]: success
+[2023-05-25 09:46:12] INFO root fetch - processPackages [th2-data-services]: New version: [2.0.0.dev5066341549] Old Version: [2.0.0.dev4991731144]
+[2023-05-25 09:46:12] INFO root fetch - processPackages [anduin]: Start processing: keras-nightly
+[2023-05-25 09:46:12] INFO root fetch - main [MainThread]: End processing [anduin]: success
+[2023-05-25 09:46:12] INFO root fetch - processPackages [arcane-datastore]: Downloading https://files.pythonhosted.org/packages/c5/c3/f5ddc206cbdef6fd4b813aae97baf90429e5d9182f694f5ef16cbf82c535/arcane_datastore-1.1.3.tar.gz
+[2023-05-25 09:46:12] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-05-25 09:46:12] INFO root fetch - processPackages [tequila-basic]: Downloading https://files.pythonhosted.org/packages/3e/9a/b6711f8352aa034ffccf1e93a4977f03aa1993ad740643613fad4f1efe86/tequila-basic-1.8.7.tar.gz
+[2023-05-25 09:46:12] INFO root fetch - processPackages [th2-data-services]: executing diffoscope
+[2023-05-25 09:46:12] INFO root fetch - processPackages [th2-data-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services-2.0.0.dev4991731144.tar.gz tmp/th2_data_services-2.0.0.dev5066341549.tar.gz --markdown 20230525/t/th2-data-services/2.0.0.dev4991731144-2.0.0.dev5066341549/diff.md --exclude *.pyd
+[2023-05-25 09:46:12] INFO root fetch - processPackages [arcane-datastore]: executing diffoscope
+[2023-05-25 09:46:12] INFO root fetch - processPackages [arcane-datastore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcane_datastore-1.1.2.tar.gz tmp/arcane_datastore-1.1.3.tar.gz --markdown 20230525/a/arcane-datastore/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-05-25 09:46:12] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-05-25 09:46:12] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230525/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-05-25 09:46:12] INFO root fetch - processPackages [tequila-basic]: Downloading https://files.pythonhosted.org/packages/61/53/11b9f511472b548faaddf1dd3cc578f81d8108335e8e04f5c11563139c3a/tequila-basic-1.8.8.tar.gz
+[2023-05-25 09:46:12] INFO root fetch - processPackages [tequila-basic]: executing diffoscope
+[2023-05-25 09:46:12] INFO root fetch - processPackages [tequila-basic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tequila-basic-1.8.7.tar.gz tmp/tequila-basic-1.8.8.tar.gz --markdown 20230525/t/tequila-basic/1.8.7-1.8.8/diff.md --exclude *.pyd
+[2023-05-25 09:46:12] INFO root fetch - main [MainThread]: End processing [buz]: success
+[2023-05-25 09:46:13] INFO root fetch - main [MainThread]: End processing [hapy]: success
+[2023-05-25 09:46:13] INFO root fetch - main [MainThread]: End processing [paketmutfak]: success
+[2023-05-25 09:46:13] INFO root fetch - main [MainThread]: End processing [arcane-datastore]: success
+[2023-05-25 09:46:14] INFO root fetch - main [MainThread]: End processing [tequila-basic]: success
+[2023-05-25 09:46:15] INFO root fetch - main [MainThread]: End processing [th2-data-services]: success
+[2023-05-25 09:46:15] INFO root fetch - main [MainThread]: End processing [betfairlightweight]: success
+[2023-05-25 09:46:15] INFO root fetch - main [MainThread]: End processing [invenio-administration]: success
+[2023-05-25 09:46:16] INFO root fetch - main [MainThread]: End processing [hcai-datasets-nightly]: success
+[2023-05-25 09:46:21] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-05-25 09:46:21] INFO root fetch - main [MainThread]: Store serial: [18242988]
