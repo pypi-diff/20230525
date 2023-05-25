@@ -19564,3 +19564,157 @@ EOFError: EOF read where object expected
 [2023-05-25 15:33:37] ERROR root fetch - processPackages [wagtail]: Timeout during execution of pkgdiff
 [2023-05-25 15:33:37] INFO root fetch - main [MainThread]: End processing [wagtail] error
 [2023-05-25 15:33:37] INFO root fetch - main [MainThread]: Store serial: [18247335]
+[2023-05-25 15:38:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18247335]
+[2023-05-25 15:38:47] INFO root fetch - main [MainThread]: Found 27 changed packages
+[2023-05-25 15:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: textbsr
+[2023-05-25 15:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: checkbox-api
+[2023-05-25 15:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fp-NGFW-SMC-python
+[2023-05-25 15:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dfmodule
+[2023-05-25 15:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ALMASim
+[2023-05-25 15:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: luminesce-sdk-preview
+[2023-05-25 15:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lyrebird-api-coverage
+[2023-05-25 15:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: foursight
+[2023-05-25 15:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: camminapy
+[2023-05-25 15:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-vite
+[2023-05-25 15:38:47] INFO root fetch - processPackages [ALMASim]: New version: [2.0] Old Version: [1.6]
+[2023-05-25 15:38:47] INFO root fetch - processPackages [textbsr]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-25 15:38:47] INFO root fetch - processPackages [dfmodule]: New version: [0.0.3.1] Old Version: [0.0.2.4]
+[2023-05-25 15:38:47] INFO root fetch - processPackages [django-vite]: New version: [2.1.0] Old Version: [2.0.2]
+[2023-05-25 15:38:47] INFO root fetch - processPackages [lyrebird-api-coverage]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-05-25 15:38:47] INFO root fetch - processPackages [fp-NGFW-SMC-python]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-25 15:38:47] INFO root fetch - processPackages [checkbox-api]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-25 15:38:47] INFO root fetch - processPackages [camminapy]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-25 15:38:47] INFO root fetch - processPackages [foursight]: New version: [3.4.7.1b9] Old Version: [3.4.7.1b8]
+[2023-05-25 15:38:47] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-05-25 15:38:47] INFO root fetch - processPackages [ALMASim]: Downloading https://files.pythonhosted.org/packages/60/a2/e2006298c81aa13c3167827a7c30391f3fa27cc5aca50991c13bb625a609/ALMASim-1.6.tar.gz
+[2023-05-25 15:38:47] INFO root fetch - processPackages [django-vite]: Downloading https://files.pythonhosted.org/packages/63/d5/61d2601ce9a63b0ec54cf9f3d68d69b35c5a0da6fa383bffafb8476885e6/django-vite-2.0.2.tar.gz
+[2023-05-25 15:38:47] INFO root fetch - processPackages [fp-NGFW-SMC-python]: Downloading https://files.pythonhosted.org/packages/5d/30/f005da4c87e5545c189e9d825cae51e15ad181ee0c652c02d4ca87617a24/fp-NGFW-SMC-python-1.0.8.tar.gz
+[2023-05-25 15:38:47] INFO root fetch - processPackages [lyrebird-api-coverage]: Downloading https://files.pythonhosted.org/packages/38/ec/2ca37c58c40ef54eb1e4b022724aa47290f5ffc20e53ccdeddf089f513ca/lyrebird-api-coverage-0.3.3.tar.gz
+[2023-05-25 15:38:47] INFO root fetch - processPackages [textbsr]: Downloading https://files.pythonhosted.org/packages/66/b5/74aac1dc24bb0e20d6bb53bf2ecedfdfa949aca38185e4ec3ca48091c932/textbsr-0.0.7.tar.gz
+[2023-05-25 15:38:47] INFO root fetch - processPackages [dfmodule]: Downloading https://files.pythonhosted.org/packages/01/4c/9ea058bbb630a0c419281ee8c62e36ccaf2c85d8ba5aed4932d604194809/dfmodule-0.0.3.1.tar.gz
+[2023-05-25 15:38:47] INFO root fetch - processPackages [camminapy]: Downloading https://files.pythonhosted.org/packages/0a/af/e783580e7b99270607f86805bbbee19c3d74d6ebd83766b976f414b6033f/camminapy-0.9.9.tar.gz
+[2023-05-25 15:38:47] INFO root fetch - processPackages [foursight]: Downloading https://files.pythonhosted.org/packages/e1/5e/040f8c7defcb4b7acbc689a08e835ce01eac2577383c5534e81e310ba264/foursight-3.4.7.1b9.tar.gz
+[2023-05-25 15:38:47] INFO root fetch - processPackages [textbsr]: executing diffoscope
+[2023-05-25 15:38:47] INFO root fetch - processPackages [textbsr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textbsr-0.0.6.tar.gz tmp/textbsr-0.0.7.tar.gz --markdown 20230525/t/textbsr/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-25 15:38:47] INFO root fetch - processPackages [ALMASim]: Downloading https://files.pythonhosted.org/packages/05/15/6a9dc4aafc279deeb5acc0e07be7fdc15e78ff8a25cb3db53a9c26eac427/ALMASim-2.0.tar.gz
+[2023-05-25 15:38:47] INFO root fetch - processPackages [dfmodule]: executing diffoscope
+[2023-05-25 15:38:47] INFO root fetch - processPackages [dfmodule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfmodule-0.0.2.4.tar.gz tmp/dfmodule-0.0.3.1.tar.gz --markdown 20230525/d/dfmodule/0.0.2.4-0.0.3.1/diff.md --exclude *.pyd
+[2023-05-25 15:38:47] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-05-25 15:38:47] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230525/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-05-25 15:38:47] INFO root fetch - processPackages [foursight]: executing diffoscope
+[2023-05-25 15:38:47] INFO root fetch - processPackages [foursight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight-3.4.7.1b8.tar.gz tmp/foursight-3.4.7.1b9.tar.gz --markdown 20230525/f/foursight/3.4.7.1b8-3.4.7.1b9/diff.md --exclude *.pyd
+[2023-05-25 15:38:47] INFO root fetch - processPackages [checkbox-api]: executing diffoscope
+[2023-05-25 15:38:47] INFO root fetch - processPackages [checkbox-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkbox-api-0.1.8.tar.gz tmp/checkbox-api-0.1.9.tar.gz --markdown 20230525/c/checkbox-api/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-25 15:38:47] INFO root fetch - processPackages [django-vite]: Downloading https://files.pythonhosted.org/packages/64/57/a763bd15f7da46139e6da6fa89c4d0eb31ee5f61065bf9112fd93e5266f5/django-vite-2.1.0.tar.gz
+[2023-05-25 15:38:47] INFO root fetch - processPackages [camminapy]: executing diffoscope
+[2023-05-25 15:38:47] INFO root fetch - processPackages [camminapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camminapy-0.9.8.tar.gz tmp/camminapy-0.9.9.tar.gz --markdown 20230525/c/camminapy/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-25 15:38:47] INFO root fetch - processPackages [django-vite]: executing diffoscope
+[2023-05-25 15:38:47] INFO root fetch - processPackages [django-vite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-vite-2.0.2.tar.gz tmp/django-vite-2.1.0.tar.gz --markdown 20230525/d/django-vite/2.0.2-2.1.0/diff.md --exclude *.pyd
+[2023-05-25 15:38:47] INFO root fetch - processPackages [fp-NGFW-SMC-python]: Downloading https://files.pythonhosted.org/packages/90/cc/6c47164714551960a282e27f0547a4d8c53eeb3a9ae27cf6329cd3e5d468/fp-NGFW-SMC-python-1.0.9.tar.gz
+[2023-05-25 15:38:48] INFO root fetch - processPackages [ALMASim]: executing diffoscope
+[2023-05-25 15:38:48] INFO root fetch - processPackages [ALMASim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ALMASim-1.6.tar.gz tmp/ALMASim-2.0.tar.gz --markdown 20230525/A/ALMASim/1.6-2.0/diff.md --exclude *.pyd
+[2023-05-25 15:38:48] INFO root fetch - processPackages [lyrebird-api-coverage]: Downloading https://files.pythonhosted.org/packages/b7/da/e9351643ae06f18bdf64d8f57e8db858011079dad222551074ac94777ee0/lyrebird-api-coverage-0.4.0.tar.gz
+[2023-05-25 15:38:48] INFO root fetch - processPackages [fp-NGFW-SMC-python]: executing diffoscope
+[2023-05-25 15:38:48] INFO root fetch - processPackages [fp-NGFW-SMC-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fp-NGFW-SMC-python-1.0.8.tar.gz tmp/fp-NGFW-SMC-python-1.0.9.tar.gz --markdown 20230525/f/fp-NGFW-SMC-python/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-25 15:38:48] INFO root fetch - processPackages [lyrebird-api-coverage]: executing diffoscope
+[2023-05-25 15:38:48] INFO root fetch - processPackages [lyrebird-api-coverage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyrebird-api-coverage-0.3.3.tar.gz tmp/lyrebird-api-coverage-0.4.0.tar.gz --markdown 20230525/l/lyrebird-api-coverage/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-05-25 15:38:49] INFO root fetch - processPackages [textbsr]: Start processing: pysimulator
+[2023-05-25 15:38:49] INFO root fetch - main [MainThread]: End processing [textbsr]: success
+[2023-05-25 15:38:49] WARNING root fetch - processPackages [pysimulator]: Skipping, unable to determine old version
+[2023-05-25 15:38:49] INFO root fetch - processPackages [pysimulator]: Start processing: nwebclient
+[2023-05-25 15:38:49] INFO root fetch - main [MainThread]: End processing [pysimulator] error
+[2023-05-25 15:38:49] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-05-25 15:38:49] INFO root fetch - processPackages [checkbox-api]: Start processing: datasieve
+[2023-05-25 15:38:49] INFO root fetch - main [MainThread]: End processing [checkbox-api]: success
+[2023-05-25 15:38:49] INFO root fetch - processPackages [dfmodule]: Start processing: tsd-config
+[2023-05-25 15:38:49] INFO root fetch - main [MainThread]: End processing [dfmodule]: success
+[2023-05-25 15:38:49] WARNING root fetch - processPackages [datasieve]: Skipping, unable to determine old version
+[2023-05-25 15:38:49] INFO root fetch - processPackages [datasieve]: Start processing: metoffice-weather-datahub
+[2023-05-25 15:38:49] INFO root fetch - main [MainThread]: End processing [datasieve] error
+[2023-05-25 15:38:49] INFO root fetch - processPackages [metoffice-weather-datahub]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-05-25 15:38:49] WARNING root fetch - processPackages [tsd-config]: Skipping, unable to determine old version
+[2023-05-25 15:38:49] INFO root fetch - processPackages [tsd-config]: Start processing: camminapy
+[2023-05-25 15:38:49] INFO root fetch - main [MainThread]: End processing [tsd-config] error
+[2023-05-25 15:38:49] INFO root fetch - processPackages [camminapy]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-25 15:38:49] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-05-25 15:38:49] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230525/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-05-25 15:38:49] INFO root fetch - processPackages [metoffice-weather-datahub]: executing diffoscope
+[2023-05-25 15:38:49] INFO root fetch - processPackages [metoffice-weather-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metoffice-weather-datahub-1.2.0.tar.gz tmp/metoffice-weather-datahub-1.2.1.tar.gz --markdown 20230525/m/metoffice-weather-datahub/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-05-25 15:38:49] INFO root fetch - processPackages [camminapy]: executing diffoscope
+[2023-05-25 15:38:49] INFO root fetch - processPackages [camminapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camminapy-0.9.8.tar.gz tmp/camminapy-0.9.9.tar.gz --markdown 20230525/c/camminapy/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-25 15:38:49] INFO root fetch - processPackages [django-vite]: Start processing: spdxmerge
+[2023-05-25 15:38:49] INFO root fetch - main [MainThread]: End processing [django-vite]: success
+[2023-05-25 15:38:49] INFO root fetch - processPackages [camminapy]: Start processing: rendersrt
+[2023-05-25 15:38:49] INFO root fetch - main [MainThread]: End processing [camminapy]: success
+[2023-05-25 15:38:49] WARNING root fetch - processPackages [rendersrt]: Skipping, unable to determine old version
+[2023-05-25 15:38:49] INFO root fetch - processPackages [rendersrt]: Start processing: splicekit
+[2023-05-25 15:38:49] INFO root fetch - main [MainThread]: End processing [rendersrt] error
+[2023-05-25 15:38:50] INFO root fetch - processPackages [spdxmerge]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-05-25 15:38:50] INFO root fetch - processPackages [splicekit]: New version: [0.4.1] Old Version: [0.1]
+[2023-05-25 15:38:50] INFO root fetch - processPackages [foursight]: Start processing: xia-engine
+[2023-05-25 15:38:50] INFO root fetch - main [MainThread]: End processing [foursight]: success
+[2023-05-25 15:38:50] INFO root fetch - processPackages [xia-engine]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-05-25 15:38:50] INFO root fetch - processPackages [spdxmerge]: Downloading https://files.pythonhosted.org/packages/eb/dd/5d428f6d81ff8e33cf518131e6175141c3e828638ba8d20f7877b889b385/spdxmerge-0.1.3.tar.gz
+[2023-05-25 15:38:50] INFO root fetch - processPackages [splicekit]: Downloading https://files.pythonhosted.org/packages/17/c9/5802f96fa2d827dd3de2fa702b72451d2a5eb2facb09f93625df6edb2110/splicekit-0.1-py3-none-any.whl
+[2023-05-25 15:38:50] INFO root fetch - processPackages [spdxmerge]: Downloading https://files.pythonhosted.org/packages/ec/e0/88c1b42d8f527aab1d8b27ea167943911a16d854f95eef4f11bafaec550d/spdxmerge-0.2.0.tar.gz
+[2023-05-25 15:38:50] INFO root fetch - processPackages [spdxmerge]: executing diffoscope
+[2023-05-25 15:38:50] INFO root fetch - processPackages [spdxmerge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spdxmerge-0.1.3.tar.gz tmp/spdxmerge-0.2.0.tar.gz --markdown 20230525/s/spdxmerge/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-05-25 15:38:50] INFO root fetch - processPackages [xia-engine]: executing diffoscope
+[2023-05-25 15:38:50] INFO root fetch - processPackages [xia-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_engine-0.8.8-cp39-none-win_amd64.whl.zip tmp/xia_engine-0.8.9-cp39-none-win_amd64.whl.zip --markdown 20230525/x/xia-engine/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-05-25 15:38:50] INFO root fetch - processPackages [ALMASim]: Start processing: hexapterygon
+[2023-05-25 15:38:50] INFO root fetch - main [MainThread]: End processing [ALMASim]: success
+[2023-05-25 15:38:50] INFO root fetch - processPackages [splicekit]: Downloading https://files.pythonhosted.org/packages/8e/af/829eb048bf99b36860d878637660c9a90f0484e48c5196c05db449c86270/splicekit-0.4.1.tar.gz
+[2023-05-25 15:38:50] INFO root fetch - processPackages [hexapterygon]: New version: [1.0.5] Old Version: [1.0.2]
+[2023-05-25 15:38:50] INFO root fetch - processPackages [splicekit]: executing diffoscope
+[2023-05-25 15:38:50] INFO root fetch - processPackages [splicekit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splicekit-0.1-py3-none-any.whl.zip tmp/splicekit-0.4.1.tar.gz --markdown 20230525/s/splicekit/0.1-0.4.1/diff.md --exclude *.pyd
+[2023-05-25 15:38:50] INFO root fetch - processPackages [hexapterygon]: Downloading https://files.pythonhosted.org/packages/c1/e2/58c2c67ebae1e3cbbb0a22fad5fcf8037a14d0ca01e0472585009dd2b83f/hexapterygon-1.0.2.tar.gz
+[2023-05-25 15:38:51] INFO root fetch - processPackages [hexapterygon]: Downloading https://files.pythonhosted.org/packages/2e/28/47dbedd1431673f4fc9c452e8b264f58343001f3a865903c1598e5f55304/hexapterygon-1.0.5.tar.gz
+[2023-05-25 15:38:51] INFO root fetch - processPackages [hexapterygon]: executing diffoscope
+[2023-05-25 15:38:51] INFO root fetch - processPackages [hexapterygon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hexapterygon-1.0.2.tar.gz tmp/hexapterygon-1.0.5.tar.gz --markdown 20230525/h/hexapterygon/1.0.2-1.0.5/diff.md --exclude *.pyd
+[2023-05-25 15:38:51] INFO root fetch - processPackages [nwebclient]: Start processing: libcnmc
+[2023-05-25 15:38:51] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-05-25 15:38:51] INFO root fetch - processPackages [libcnmc]: New version: [23.9.1] Old Version: [23.9.0]
+[2023-05-25 15:38:51] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2023-05-25 15:38:51] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-23.9.0.tar.gz tmp/libcnmc-23.9.1.tar.gz --markdown 20230525/l/libcnmc/23.9.0-23.9.1/diff.md --exclude *.pyd
+[2023-05-25 15:38:51] INFO root fetch - processPackages [metoffice-weather-datahub]: Start processing: dewloosh.core
+[2023-05-25 15:38:51] INFO root fetch - main [MainThread]: End processing [metoffice-weather-datahub]: success
+[2023-05-25 15:38:51] INFO root fetch - processPackages [camminapy]: Start processing: odoo14-addon-aresta
+[2023-05-25 15:38:51] INFO root fetch - main [MainThread]: End processing [camminapy]: success
+[2023-05-25 15:38:51] INFO root fetch - processPackages [dewloosh.core]: New version: [1.0.9] Old Version: [1.0.6]
+[2023-05-25 15:38:51] INFO root fetch - processPackages [odoo14-addon-aresta]: New version: [14.0.1.0.2] Old Version: [14.0.1.0.0]
+[2023-05-25 15:38:51] INFO root fetch - processPackages [dewloosh.core]: Downloading https://files.pythonhosted.org/packages/86/79/4f9a2551ce5a65ec53bcf2d5c4fd6bd793d454b8f545f9a1b71b47fa2a88/dewloosh.core-1.0.6.tar.gz
+[2023-05-25 15:38:52] INFO root fetch - processPackages [odoo14-addon-aresta]: Downloading https://files.pythonhosted.org/packages/ab/0e/bdd40b2cb2f546f806b254d90f74e2071085093afbf083092d46a8d37385/odoo14_addon_aresta-14.0.1.0.0-py3-none-any.whl
+[2023-05-25 15:38:52] INFO root fetch - processPackages [lyrebird-api-coverage]: Start processing: moto
+[2023-05-25 15:38:52] INFO root fetch - main [MainThread]: End processing [lyrebird-api-coverage]: success
+[2023-05-25 15:38:52] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-05-25 15:38:52] INFO root fetch - processPackages [spdxmerge]: Start processing: plone.app.contentmenu
+[2023-05-25 15:38:52] INFO root fetch - main [MainThread]: End processing [spdxmerge]: success
+[2023-05-25 15:38:52] INFO root fetch - processPackages [xia-engine]: Start processing: camminapy
+[2023-05-25 15:38:52] INFO root fetch - main [MainThread]: End processing [xia-engine]: success
+[2023-05-25 15:38:52] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-05-25 15:38:52] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-05-25 15:38:52] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230525/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-05-25 15:38:52] INFO root fetch - processPackages [camminapy]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-25 15:38:52] INFO root fetch - processPackages [plone.app.contentmenu]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-05-25 15:38:52] INFO root fetch - processPackages [odoo14-addon-aresta]: Downloading https://files.pythonhosted.org/packages/df/c7/e16b7e5a3c0c54770ba7ff14189651134e87fb40c9a3f0c1d78a2d4f3e8e/odoo14_addon_aresta-14.0.1.0.2-py3-none-any.whl
+[2023-05-25 15:38:52] INFO root fetch - processPackages [camminapy]: executing diffoscope
+[2023-05-25 15:38:52] INFO root fetch - processPackages [camminapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camminapy-0.9.8.tar.gz tmp/camminapy-0.9.9.tar.gz --markdown 20230525/c/camminapy/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-25 15:38:52] INFO root fetch - processPackages [odoo14-addon-aresta]: executing diffoscope
+[2023-05-25 15:38:52] INFO root fetch - processPackages [odoo14-addon-aresta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_aresta-14.0.1.0.0-py3-none-any.whl.zip tmp/odoo14_addon_aresta-14.0.1.0.2-py3-none-any.whl.zip --markdown 20230525/o/odoo14-addon-aresta/14.0.1.0.0-14.0.1.0.2/diff.md --exclude *.pyd
+[2023-05-25 15:38:52] INFO root fetch - processPackages [plone.app.contentmenu]: Downloading https://files.pythonhosted.org/packages/4a/7e/ec5174dc600044988532a50e2e67dd2cf4e829591cfbdac82c9769893664/plone.app.contentmenu-3.0.1.tar.gz
+[2023-05-25 15:38:52] INFO root fetch - main [MainThread]: End processing [splicekit]: success
+[2023-05-25 15:38:52] INFO root fetch - processPackages [dewloosh.core]: Downloading https://files.pythonhosted.org/packages/d1/22/f141cf08a5f85604277a26c9f99391d02c320319622b2093d2247c2ed9ab/dewloosh.core-1.0.9.tar.gz
+[2023-05-25 15:38:52] INFO root fetch - processPackages [plone.app.contentmenu]: Downloading https://files.pythonhosted.org/packages/ad/30/ee954e590ae57f1131a234a7e5f5f183ae5ce7fa609b0e086af361939070/plone.app.contentmenu-3.0.2.tar.gz
+[2023-05-25 15:38:52] INFO root fetch - processPackages [dewloosh.core]: executing diffoscope
+[2023-05-25 15:38:52] INFO root fetch - processPackages [dewloosh.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dewloosh.core-1.0.6.tar.gz tmp/dewloosh.core-1.0.9.tar.gz --markdown 20230525/d/dewloosh.core/1.0.6-1.0.9/diff.md --exclude *.pyd
+[2023-05-25 15:38:52] INFO root fetch - processPackages [plone.app.contentmenu]: executing diffoscope
+[2023-05-25 15:38:52] INFO root fetch - processPackages [plone.app.contentmenu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.app.contentmenu-3.0.1.tar.gz tmp/plone.app.contentmenu-3.0.2.tar.gz --markdown 20230525/p/plone.app.contentmenu/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-05-25 15:38:53] INFO root fetch - main [MainThread]: End processing [hexapterygon]: success
+[2023-05-25 15:38:53] INFO root fetch - main [MainThread]: End processing [fp-NGFW-SMC-python]: success
+[2023-05-25 15:38:53] INFO root fetch - main [MainThread]: End processing [camminapy]: success
+[2023-05-25 15:38:54] INFO root fetch - main [MainThread]: End processing [odoo14-addon-aresta]: success
+[2023-05-25 15:38:54] INFO root fetch - main [MainThread]: End processing [dewloosh.core]: success
+[2023-05-25 15:38:54] INFO root fetch - main [MainThread]: End processing [plone.app.contentmenu]: success
+[2023-05-25 15:38:54] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2023-05-25 15:39:24] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-05-25 15:39:24] INFO root fetch - main [MainThread]: Store serial: [18247504]
