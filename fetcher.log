@@ -15184,3 +15184,94 @@
 [2023-05-25 11:57:18] INFO root fetch - main [MainThread]: End processing [plumed]: success
 [2023-05-25 11:57:19] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
 [2023-05-25 11:57:19] INFO root fetch - main [MainThread]: Store serial: [18244811]
+[2023-05-25 12:02:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18244811]
+[2023-05-25 12:02:28] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-25 12:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: netbox-cisco-maintenance
+[2023-05-25 12:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-elf-structs
+[2023-05-25 12:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dune-harmonizer
+[2023-05-25 12:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pir-client
+[2023-05-25 12:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hcai-nova-server
+[2023-05-25 12:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: premise
+[2023-05-25 12:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: UEVaultManager
+[2023-05-25 12:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hcai-datasets
+[2023-05-25 12:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: langchain-welm
+[2023-05-25 12:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nginx-set-conf-equitania
+[2023-05-25 12:02:28] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 12:02:28] WARNING root fetch - processPackages [langchain-welm]: Skipping, unable to determine old version
+[2023-05-25 12:02:28] INFO root fetch - processPackages [langchain-welm]: Start processing: dyn-libs
+[2023-05-25 12:02:28] INFO root fetch - main [MainThread]: End processing [langchain-welm] error
+[2023-05-25 12:02:28] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-05-25 12:02:28] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.8.tar.gz tmp/netbox-cisco-maintenance-0.0.9.tar.gz --markdown 20230525/n/netbox-cisco-maintenance/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 12:02:28] INFO root fetch - processPackages [hcai-nova-server]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-25 12:02:28] INFO root fetch - processPackages [dune-harmonizer]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-25 12:02:28] INFO root fetch - processPackages [py-elf-structs]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-05-25 12:02:28] INFO root fetch - processPackages [UEVaultManager]: New version: [1.5.0] Old Version: [1.4.3]
+[2023-05-25 12:02:28] INFO root fetch - processPackages [nginx-set-conf-equitania]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-05-25 12:02:28] INFO root fetch - processPackages [pir-client]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-25 12:02:29] INFO root fetch - processPackages [hcai-datasets]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-25 12:02:29] INFO root fetch - processPackages [premise]: New version: [1.5.0b8] Old Version: [1.5.0b7]
+[2023-05-25 12:02:29] INFO root fetch - processPackages [dyn-libs]: New version: [0.2.6] Old Version: [0.2.5.1]
+[2023-05-25 12:02:29] INFO root fetch - processPackages [premise]: Downloading https://files.pythonhosted.org/packages/12/4a/00eb570972e1ecd15f7b700998cfb1ad5e8a78d59e33eb277fb0a6e8c394/premise-1.5.0b7.tar.gz
+[2023-05-25 12:02:29] INFO root fetch - processPackages [dyn-libs]: Downloading https://files.pythonhosted.org/packages/08/34/885b7ca8330d41dfac590e6b88f61997e7cef335a198d43dac7e3258606f/dyn_libs-0.2.5.1.tar.gz
+[2023-05-25 12:02:29] INFO root fetch - processPackages [py-elf-structs]: Downloading https://files.pythonhosted.org/packages/c6/1b/e15c50cef63300848448d693354b97a6b1b3a2d9d421e392471838d2651e/py_elf_structs-1.4.1.tar.gz
+[2023-05-25 12:02:29] WARNING root fetch - processPackages [premise]: Skipping package: exceeds size limit 67942566>=10485760
+[2023-05-25 12:02:29] INFO root fetch - processPackages [premise]: Start processing: hcai-datasets-nightly
+[2023-05-25 12:02:29] INFO root fetch - main [MainThread]: End processing [premise] error
+[2023-05-25 12:02:29] INFO root fetch - processPackages [pir-client]: Downloading https://files.pythonhosted.org/packages/7c/c1/c07e5763d14f335fd5abdb1e0cad4680a07fe1619779d23e7e7b29668c20/pir_client-1.1.0-py3-none-any.whl
+[2023-05-25 12:02:29] INFO root fetch - processPackages [nginx-set-conf-equitania]: Downloading https://files.pythonhosted.org/packages/a8/23/c6b8fc6fcae701d4c55fcbbbf89314b1d4970822e1869e8a8074e59694ab/nginx-set-conf-equitania-0.8.1.tar.gz
+[2023-05-25 12:02:29] INFO root fetch - processPackages [UEVaultManager]: Downloading https://files.pythonhosted.org/packages/88/10/b98aa22e536bcbd664ba4cb325abfa9b2df91d7a3942c776c452aa7a7b99/UEVaultManager-1.5.0.tar.gz
+[2023-05-25 12:02:29] INFO root fetch - processPackages [hcai-datasets-nightly]: New version: [0.1.8.dev202305250941] Old Version: [0.1.8.dev202305250747]
+[2023-05-25 12:02:29] INFO root fetch - processPackages [hcai-nova-server]: Downloading https://files.pythonhosted.org/packages/dd/73/4dde76a6a684986e09f01513bb4129b3b52591bdedcf4e2c0a8c9620c7fc/hcai-nova-server-0.1.6.tar.gz
+[2023-05-25 12:02:29] INFO root fetch - processPackages [UEVaultManager]: executing diffoscope
+[2023-05-25 12:02:29] INFO root fetch - processPackages [UEVaultManager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UEVaultManager-1.4.3.tar.gz tmp/UEVaultManager-1.5.0.tar.gz --markdown 20230525/U/UEVaultManager/1.4.3-1.5.0/diff.md --exclude *.pyd
+[2023-05-25 12:02:29] INFO root fetch - processPackages [dune-harmonizer]: executing diffoscope
+[2023-05-25 12:02:29] INFO root fetch - processPackages [dune-harmonizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dune_harmonizer-0.8.0.tar.gz tmp/dune_harmonizer-0.9.0.tar.gz --markdown 20230525/d/dune-harmonizer/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-25 12:02:29] INFO root fetch - processPackages [hcai-datasets]: Downloading https://files.pythonhosted.org/packages/97/9e/86aff134e80cefe5281896e6dc3bc3bf9e1ba571ee124e0658b77e44fc57/hcai-datasets-0.1.8.tar.gz
+[2023-05-25 12:02:29] INFO root fetch - processPackages [py-elf-structs]: Downloading https://files.pythonhosted.org/packages/83/89/946ca87b1e3cffd2808799286ce5674792d211ca0cc434296adaa45637dd/py_elf_structs-1.4.2.tar.gz
+[2023-05-25 12:02:29] INFO root fetch - processPackages [dyn-libs]: Downloading https://files.pythonhosted.org/packages/5c/7e/4fd52f038735d363b9e095b6187d18a198ee89b73a6f593382522deb2566/dyn_libs-0.2.6.tar.gz
+[2023-05-25 12:02:29] INFO root fetch - processPackages [nginx-set-conf-equitania]: Downloading https://files.pythonhosted.org/packages/28/9c/16e2e1a341c0756c2d6d23ccdcc9bd51b24edfbdb892f05bd75ee772bacc/nginx-set-conf-equitania-0.8.2.tar.gz
+[2023-05-25 12:02:29] INFO root fetch - processPackages [pir-client]: Downloading https://files.pythonhosted.org/packages/b4/e6/b97a1829b467c29956bd1745cb1c6570a1560597e6e6c3ee3eb5b6d2f060/pir_client-1.2.0-py3-none-any.whl
+[2023-05-25 12:02:29] INFO root fetch - processPackages [hcai-datasets-nightly]: Downloading https://files.pythonhosted.org/packages/23/8b/e60175ac9ac6755960f36a000beeacd5101b19995dd257fe9483e2df30f8/hcai-datasets-nightly-0.1.8.dev202305250941.tar.gz
+[2023-05-25 12:02:29] INFO root fetch - processPackages [hcai-nova-server]: executing diffoscope
+[2023-05-25 12:02:29] INFO root fetch - processPackages [hcai-nova-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-nova-server-0.1.5.tar.gz tmp/hcai-nova-server-0.1.6.tar.gz --markdown 20230525/h/hcai-nova-server/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-25 12:02:29] INFO root fetch - processPackages [py-elf-structs]: executing diffoscope
+[2023-05-25 12:02:29] INFO root fetch - processPackages [py-elf-structs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_elf_structs-1.4.1.tar.gz tmp/py_elf_structs-1.4.2.tar.gz --markdown 20230525/p/py-elf-structs/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-05-25 12:02:29] INFO root fetch - processPackages [dyn-libs]: executing diffoscope
+[2023-05-25 12:02:29] INFO root fetch - processPackages [dyn-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dyn_libs-0.2.5.1.tar.gz tmp/dyn_libs-0.2.6.tar.gz --markdown 20230525/d/dyn-libs/0.2.5.1-0.2.6/diff.md --exclude *.pyd
+[2023-05-25 12:02:29] INFO root fetch - processPackages [pir-client]: executing diffoscope
+[2023-05-25 12:02:29] INFO root fetch - processPackages [nginx-set-conf-equitania]: executing diffoscope
+[2023-05-25 12:02:29] INFO root fetch - processPackages [nginx-set-conf-equitania]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nginx-set-conf-equitania-0.8.1.tar.gz tmp/nginx-set-conf-equitania-0.8.2.tar.gz --markdown 20230525/n/nginx-set-conf-equitania/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-05-25 12:02:29] INFO root fetch - processPackages [pir-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pir_client-1.1.0-py3-none-any.whl.zip tmp/pir_client-1.2.0-py3-none-any.whl.zip --markdown 20230525/p/pir-client/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-25 12:02:29] INFO root fetch - processPackages [hcai-datasets]: executing diffoscope
+[2023-05-25 12:02:29] INFO root fetch - processPackages [hcai-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-datasets-0.1.7.tar.gz tmp/hcai-datasets-0.1.8.tar.gz --markdown 20230525/h/hcai-datasets/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-25 12:02:30] INFO root fetch - processPackages [hcai-datasets-nightly]: executing diffoscope
+[2023-05-25 12:02:30] INFO root fetch - processPackages [hcai-datasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-datasets-nightly-0.1.8.dev202305250747.tar.gz tmp/hcai-datasets-nightly-0.1.8.dev202305250941.tar.gz --markdown 20230525/h/hcai-datasets-nightly/0.1.8.dev202305250747-0.1.8.dev202305250941/diff.md --exclude *.pyd
+[2023-05-25 12:02:30] INFO root fetch - processPackages [netbox-cisco-maintenance]: Start processing: pyeCam
+[2023-05-25 12:02:30] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-05-25 12:02:30] INFO root fetch - processPackages [pyeCam]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 12:02:30] INFO root fetch - processPackages [pyeCam]: executing diffoscope
+[2023-05-25 12:02:30] INFO root fetch - processPackages [pyeCam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyeCam-0.0.8.tar.gz tmp/pyeCam-0.0.9.tar.gz --markdown 20230525/p/pyeCam/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 12:02:30] INFO root fetch - processPackages [dune-harmonizer]: Start processing: obpgenerator
+[2023-05-25 12:02:30] INFO root fetch - main [MainThread]: End processing [dune-harmonizer]: success
+[2023-05-25 12:02:31] INFO root fetch - processPackages [obpgenerator]: New version: [0.0.20] Old Version: [0.0.19]
+[2023-05-25 12:02:31] INFO root fetch - processPackages [obpgenerator]: Downloading https://files.pythonhosted.org/packages/64/41/09457508b6f1340a36c69cce4a73022cd2d1e2986e250433d16358c565b2/obpgenerator-0.0.19.tar.gz
+[2023-05-25 12:02:31] INFO root fetch - processPackages [py-elf-structs]: Start processing: hcai-nova-server-nightly
+[2023-05-25 12:02:31] INFO root fetch - main [MainThread]: End processing [py-elf-structs]: success
+[2023-05-25 12:02:31] INFO root fetch - processPackages [hcai-nova-server-nightly]: New version: [0.1.6.dev202305250941] Old Version: [0.1.6.dev202305250922]
+[2023-05-25 12:02:31] INFO root fetch - processPackages [obpgenerator]: Downloading https://files.pythonhosted.org/packages/95/a1/ddd526ed869b5f2d5a6e1301ac8bddc5e9aa181ca03e72ca6d09b1f9f3ed/obpgenerator-0.0.20.tar.gz
+[2023-05-25 12:02:31] INFO root fetch - main [MainThread]: End processing [hcai-nova-server]: success
+[2023-05-25 12:02:31] INFO root fetch - processPackages [hcai-nova-server-nightly]: Downloading https://files.pythonhosted.org/packages/bd/ed/67e160f23588b0239bf8b9c78928a7456e25b90c5bde691104cb572a6be8/hcai-nova-server-nightly-0.1.6.dev202305250941.tar.gz
+[2023-05-25 12:02:31] INFO root fetch - main [MainThread]: End processing [dyn-libs]: success
+[2023-05-25 12:02:31] INFO root fetch - processPackages [obpgenerator]: executing diffoscope
+[2023-05-25 12:02:31] INFO root fetch - processPackages [obpgenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/obpgenerator-0.0.19.tar.gz tmp/obpgenerator-0.0.20.tar.gz --markdown 20230525/o/obpgenerator/0.0.19-0.0.20/diff.md --exclude *.pyd
+[2023-05-25 12:02:31] INFO root fetch - main [MainThread]: End processing [nginx-set-conf-equitania]: success
+[2023-05-25 12:02:31] INFO root fetch - main [MainThread]: End processing [pir-client]: success
+[2023-05-25 12:02:31] INFO root fetch - processPackages [hcai-nova-server-nightly]: executing diffoscope
+[2023-05-25 12:02:31] INFO root fetch - processPackages [hcai-nova-server-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-nova-server-nightly-0.1.6.dev202305250922.tar.gz tmp/hcai-nova-server-nightly-0.1.6.dev202305250941.tar.gz --markdown 20230525/h/hcai-nova-server-nightly/0.1.6.dev202305250922-0.1.6.dev202305250941/diff.md --exclude *.pyd
+[2023-05-25 12:02:32] INFO root fetch - main [MainThread]: End processing [pyeCam]: success
+[2023-05-25 12:02:32] INFO root fetch - main [MainThread]: End processing [hcai-datasets-nightly]: success
+[2023-05-25 12:02:32] INFO root fetch - main [MainThread]: End processing [UEVaultManager]: success
+[2023-05-25 12:02:32] INFO root fetch - main [MainThread]: End processing [obpgenerator]: success
+[2023-05-25 12:02:33] INFO root fetch - main [MainThread]: End processing [hcai-nova-server-nightly]: success
+[2023-05-25 12:02:34] INFO root fetch - main [MainThread]: End processing [hcai-datasets]: success
+[2023-05-25 12:02:34] INFO root fetch - main [MainThread]: Store serial: [18244856]
