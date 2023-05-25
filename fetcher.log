@@ -14960,3 +14960,113 @@
 [2023-05-25 11:45:24] INFO root fetch - main [MainThread]: End processing [hcai-datasets-nightly]: success
 [2023-05-25 11:45:34] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-05-25 11:45:34] INFO root fetch - main [MainThread]: Store serial: [18244677]
+[2023-05-25 11:50:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18244677]
+[2023-05-25 11:50:44] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-25 11:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: camminapy
+[2023-05-25 11:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: c2cciutils
+[2023-05-25 11:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: m-profiling-mf
+[2023-05-25 11:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: OpenFisca-France
+[2023-05-25 11:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mse-cli-core
+[2023-05-25 11:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ansys-meshing-prime
+[2023-05-25 11:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cameralyze
+[2023-05-25 11:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dj-whisperer
+[2023-05-25 11:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dbpyman
+[2023-05-25 11:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyeCam
+[2023-05-25 11:50:44] INFO root fetch - processPackages [mse-cli-core]: New version: [0.1a1] Old Version: [0.1a0]
+[2023-05-25 11:50:44] INFO root fetch - processPackages [ansys-meshing-prime]: New version: [0.4.0.dev8] Old Version: [0.4.0.dev6]
+[2023-05-25 11:50:44] INFO root fetch - processPackages [dbpyman]: New version: [0.1.1] Old Version: [0.1]
+[2023-05-25 11:50:44] INFO root fetch - processPackages [pyeCam]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 11:50:44] INFO root fetch - processPackages [OpenFisca-France]: New version: [99.0.1] Old Version: [99.0.0]
+[2023-05-25 11:50:44] INFO root fetch - processPackages [camminapy]: New version: [0.8.8] Old Version: [0.8.7]
+[2023-05-25 11:50:44] INFO root fetch - processPackages [m-profiling-mf]: New version: [0.1.7] Old Version: [0.1.6.4]
+[2023-05-25 11:50:44] INFO root fetch - processPackages [dj-whisperer]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-25 11:50:44] INFO root fetch - processPackages [cameralyze]: New version: [1.4.7] Old Version: [1.4.6]
+[2023-05-25 11:50:44] INFO root fetch - processPackages [pyeCam]: executing diffoscope
+[2023-05-25 11:50:44] INFO root fetch - processPackages [pyeCam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyeCam-0.0.8.tar.gz tmp/pyeCam-0.0.9.tar.gz --markdown 20230525/p/pyeCam/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 11:50:44] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev98] Old Version: [1.6.0.dev95]
+[2023-05-25 11:50:44] INFO root fetch - processPackages [dbpyman]: Downloading https://files.pythonhosted.org/packages/f2/ef/c98eff721d45c865e11fdb78e9c0a6acfa82859ab2883df37d8b38aa1061/dbpyman-0.1.tar.gz
+[2023-05-25 11:50:44] INFO root fetch - processPackages [OpenFisca-France]: executing diffoscope
+[2023-05-25 11:50:44] INFO root fetch - processPackages [OpenFisca-France]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenFisca_France-99.0.0-py3-none-any.whl.zip tmp/OpenFisca_France-99.0.1-py3-none-any.whl.zip --markdown 20230525/O/OpenFisca-France/99.0.0-99.0.1/diff.md --exclude *.pyd
+[2023-05-25 11:50:44] INFO root fetch - processPackages [mse-cli-core]: Downloading https://files.pythonhosted.org/packages/98/6d/ae5098cb57f7f595147bede9e1c663d26cc711df8ab00600deabd98fb167/mse_cli_core-0.1a0.tar.gz
+[2023-05-25 11:50:44] INFO root fetch - processPackages [cameralyze]: Downloading https://files.pythonhosted.org/packages/d3/d9/49c211eb76fc68d3f5ec10d9a59089a67dc3789c130a3392b341ba222bab/cameralyze-1.4.6.tar.gz
+[2023-05-25 11:50:44] INFO root fetch - processPackages [m-profiling-mf]: Downloading https://files.pythonhosted.org/packages/4a/75/e80a396be25de90d3adc5e22fd33672816332416f64836710fe362377de6/m-profiling-mf-0.1.6.4.tar.gz
+[2023-05-25 11:50:44] INFO root fetch - processPackages [camminapy]: Downloading https://files.pythonhosted.org/packages/a4/e2/885bbefaa8967d73851ca7b21303382c6ba3133bb3b6ee183d55cf53fd50/camminapy-0.8.8.tar.gz
+[2023-05-25 11:50:44] INFO root fetch - processPackages [dbpyman]: Downloading https://files.pythonhosted.org/packages/d6/79/687a39f2726f11c27ef7519579833f0e1c5a0baaca92e2682271b7890d31/dbpyman-0.1.1.tar.gz
+[2023-05-25 11:50:44] INFO root fetch - processPackages [camminapy]: executing diffoscope
+[2023-05-25 11:50:44] INFO root fetch - processPackages [camminapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camminapy-0.8.7.tar.gz tmp/camminapy-0.8.8.tar.gz --markdown 20230525/c/camminapy/0.8.7-0.8.8/diff.md --exclude *.pyd
+[2023-05-25 11:50:44] INFO root fetch - processPackages [dbpyman]: executing diffoscope
+[2023-05-25 11:50:44] INFO root fetch - processPackages [dbpyman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbpyman-0.1.tar.gz tmp/dbpyman-0.1.1.tar.gz --markdown 20230525/d/dbpyman/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-05-25 11:50:44] INFO root fetch - processPackages [cameralyze]: Downloading https://files.pythonhosted.org/packages/06/06/0013ca7af27dd8788d4b69ce7ac5df20302b8368b3cfca7ebfd0b0647f63/cameralyze-1.4.7.tar.gz
+[2023-05-25 11:50:44] INFO root fetch - processPackages [dj-whisperer]: executing diffoscope
+[2023-05-25 11:50:44] INFO root fetch - processPackages [dj-whisperer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj-whisperer-0.2.8.tar.gz tmp/dj-whisperer-0.2.9.tar.gz --markdown 20230525/d/dj-whisperer/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-25 11:50:45] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-05-25 11:50:45] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev95.tar.gz tmp/c2cciutils-1.6.0.dev98.tar.gz --markdown 20230525/c/c2cciutils/1.6.0.dev95-1.6.0.dev98/diff.md --exclude *.pyd
+[2023-05-25 11:50:45] INFO root fetch - processPackages [mse-cli-core]: Downloading https://files.pythonhosted.org/packages/d4/1a/4208285145af17a4a62bcdd10c47c9acd7547fb84ee50300986884fccef3/mse_cli_core-0.1a1.tar.gz
+[2023-05-25 11:50:45] INFO root fetch - processPackages [cameralyze]: executing diffoscope
+[2023-05-25 11:50:45] INFO root fetch - processPackages [cameralyze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cameralyze-1.4.6.tar.gz tmp/cameralyze-1.4.7.tar.gz --markdown 20230525/c/cameralyze/1.4.6-1.4.7/diff.md --exclude *.pyd
+[2023-05-25 11:50:45] INFO root fetch - processPackages [m-profiling-mf]: Downloading https://files.pythonhosted.org/packages/4a/d9/55d203223c8f15e5ede32adf37a86cc40b82f63028c3d7977da11c92b808/m-profiling-mf-0.1.7.tar.gz
+[2023-05-25 11:50:45] INFO root fetch - processPackages [ansys-meshing-prime]: executing diffoscope
+[2023-05-25 11:50:45] INFO root fetch - processPackages [ansys-meshing-prime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys-meshing-prime-0.4.0.dev6.tar.gz tmp/ansys_meshing_prime-0.4.0.dev8.tar.gz --markdown 20230525/a/ansys-meshing-prime/0.4.0.dev6-0.4.0.dev8/diff.md --exclude *.pyd
+[2023-05-25 11:50:45] INFO root fetch - processPackages [mse-cli-core]: executing diffoscope
+[2023-05-25 11:50:45] INFO root fetch - processPackages [mse-cli-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mse_cli_core-0.1a0.tar.gz tmp/mse_cli_core-0.1a1.tar.gz --markdown 20230525/m/mse-cli-core/0.1a0-0.1a1/diff.md --exclude *.pyd
+[2023-05-25 11:50:45] INFO root fetch - processPackages [m-profiling-mf]: executing diffoscope
+[2023-05-25 11:50:45] INFO root fetch - processPackages [m-profiling-mf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m-profiling-mf-0.1.6.4.tar.gz tmp/m-profiling-mf-0.1.7.tar.gz --markdown 20230525/m/m-profiling-mf/0.1.6.4-0.1.7/diff.md --exclude *.pyd
+[2023-05-25 11:50:46] INFO root fetch - processPackages [pyeCam]: Start processing: yuptools
+[2023-05-25 11:50:46] INFO root fetch - main [MainThread]: End processing [pyeCam]: success
+[2023-05-25 11:50:46] WARNING root fetch - processPackages [yuptools]: Skipping, unable to determine old version
+[2023-05-25 11:50:46] INFO root fetch - processPackages [yuptools]: Start processing: idun-tools
+[2023-05-25 11:50:46] INFO root fetch - main [MainThread]: End processing [yuptools] error
+[2023-05-25 11:50:46] WARNING root fetch - processPackages [idun-tools]: Skipping, unable to determine old version
+[2023-05-25 11:50:46] INFO root fetch - processPackages [idun-tools]: Start processing: idun-data-models
+[2023-05-25 11:50:46] INFO root fetch - main [MainThread]: End processing [idun-tools] error
+[2023-05-25 11:50:46] INFO root fetch - processPackages [camminapy]: Start processing: asana-exporter
+[2023-05-25 11:50:46] INFO root fetch - main [MainThread]: End processing [camminapy]: success
+[2023-05-25 11:50:46] WARNING root fetch - processPackages [idun-data-models]: Skipping, unable to determine old version
+[2023-05-25 11:50:46] INFO root fetch - processPackages [idun-data-models]: Start processing: SiteScraper
+[2023-05-25 11:50:46] INFO root fetch - main [MainThread]: End processing [idun-data-models] error
+[2023-05-25 11:50:46] INFO root fetch - processPackages [dbpyman]: Start processing: py-pde
+[2023-05-25 11:50:46] INFO root fetch - main [MainThread]: End processing [dbpyman]: success
+[2023-05-25 11:50:46] INFO root fetch - processPackages [SiteScraper]: New version: [1.2.2] Old Version: [0.2.4]
+[2023-05-25 11:50:46] WARNING root fetch - processPackages [asana-exporter]: Skipping, unable to determine old version
+[2023-05-25 11:50:46] INFO root fetch - processPackages [asana-exporter]: Start processing: logtail-python
+[2023-05-25 11:50:46] INFO root fetch - main [MainThread]: End processing [asana-exporter] error
+[2023-05-25 11:50:46] INFO root fetch - processPackages [SiteScraper]: executing diffoscope
+[2023-05-25 11:50:46] INFO root fetch - processPackages [SiteScraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SiteScraper-0.2.4-py3-none-any.whl.zip tmp/SiteScraper-1.2.2-py3-none-any.whl.zip --markdown 20230525/S/SiteScraper/0.2.4-1.2.2/diff.md --exclude *.pyd
+[2023-05-25 11:50:46] INFO root fetch - processPackages [py-pde]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-25 11:50:46] INFO root fetch - processPackages [logtail-python]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-25 11:50:46] INFO root fetch - processPackages [py-pde]: Downloading https://files.pythonhosted.org/packages/78/72/71526c622bd1fa8fc1bcf587b85c4b07042f25cfcfe62187fb88826ac730/py-pde-0.9.3.tar.gz
+[2023-05-25 11:50:46] INFO root fetch - processPackages [cameralyze]: Start processing: p10k-edit
+[2023-05-25 11:50:46] INFO root fetch - main [MainThread]: End processing [cameralyze]: success
+[2023-05-25 11:50:46] INFO root fetch - processPackages [logtail-python]: Downloading https://files.pythonhosted.org/packages/79/a2/1edfd9e4123f18ffc127ce4a02c11b1c3013a1859dafe582425d1377a2aa/logtail-python-0.2.5.tar.gz
+[2023-05-25 11:50:46] WARNING root fetch - processPackages [p10k-edit]: Skipping, unable to determine old version
+[2023-05-25 11:50:46] INFO root fetch - processPackages [p10k-edit]: Start processing: jfExt
+[2023-05-25 11:50:46] INFO root fetch - main [MainThread]: End processing [p10k-edit] error
+[2023-05-25 11:50:47] INFO root fetch - processPackages [jfExt]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-05-25 11:50:47] INFO root fetch - processPackages [dj-whisperer]: Start processing: pymvola
+[2023-05-25 11:50:47] INFO root fetch - main [MainThread]: End processing [dj-whisperer]: success
+[2023-05-25 11:50:47] INFO root fetch - processPackages [pymvola]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-25 11:50:47] INFO root fetch - processPackages [jfExt]: Downloading https://files.pythonhosted.org/packages/e5/7e/3fbfaa91d86cd9c088f8f42fabc1eebbc029ab575a9bbbb32e24abf1c20a/jfExt-1.9.2.tar.gz
+[2023-05-25 11:50:47] INFO root fetch - processPackages [logtail-python]: Downloading https://files.pythonhosted.org/packages/bb/52/65fd434f8840e1c9f9cf4f97be26f5dcc7ec3e7197266ac3dde0c1f8816d/logtail-python-0.2.6.tar.gz
+[2023-05-25 11:50:47] INFO root fetch - processPackages [py-pde]: Downloading https://files.pythonhosted.org/packages/69/86/702c3ff65158b6594b800bfa103b9a219bcc1cb270a17634266044af2efa/py-pde-0.9.4.tar.gz
+[2023-05-25 11:50:47] INFO root fetch - processPackages [logtail-python]: executing diffoscope
+[2023-05-25 11:50:47] INFO root fetch - processPackages [logtail-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logtail-python-0.2.5.tar.gz tmp/logtail-python-0.2.6.tar.gz --markdown 20230525/l/logtail-python/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-25 11:50:47] INFO root fetch - processPackages [pymvola]: Downloading https://files.pythonhosted.org/packages/7a/fe/16334df10d4e0de1645615605ac279853a5bd1a5defbfa7978558b16fe0f/pymvola-0.0.2.tar.gz
+[2023-05-25 11:50:47] INFO root fetch - main [MainThread]: End processing [mse-cli-core]: success
+[2023-05-25 11:50:47] INFO root fetch - processPackages [py-pde]: executing diffoscope
+[2023-05-25 11:50:47] INFO root fetch - processPackages [py-pde]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-pde-0.9.3.tar.gz tmp/py-pde-0.9.4.tar.gz --markdown 20230525/p/py-pde/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-25 11:50:47] INFO root fetch - processPackages [jfExt]: Downloading https://files.pythonhosted.org/packages/ce/51/95691ae4b5a72a967f0ef1b8e09494c5c40e7b25992912d677d442c10e66/jfExt-1.9.3.tar.gz
+[2023-05-25 11:50:47] INFO root fetch - processPackages [pymvola]: Downloading https://files.pythonhosted.org/packages/14/f5/5970f8a90e3870cfe6607808a70e0f150d6798e746e839ced162f3ece793/pymvola-0.0.3.tar.gz
+[2023-05-25 11:50:47] INFO root fetch - processPackages [pymvola]: executing diffoscope
+[2023-05-25 11:50:47] INFO root fetch - processPackages [pymvola]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymvola-0.0.2.tar.gz tmp/pymvola-0.0.3.tar.gz --markdown 20230525/p/pymvola/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-25 11:50:47] INFO root fetch - processPackages [jfExt]: executing diffoscope
+[2023-05-25 11:50:47] INFO root fetch - processPackages [jfExt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jfExt-1.9.2.tar.gz tmp/jfExt-1.9.3.tar.gz --markdown 20230525/j/jfExt/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-05-25 11:50:47] INFO root fetch - main [MainThread]: End processing [SiteScraper]: success
+[2023-05-25 11:50:48] INFO root fetch - main [MainThread]: End processing [logtail-python]: success
+[2023-05-25 11:50:48] INFO root fetch - main [MainThread]: End processing [pymvola]: success
+[2023-05-25 11:50:49] INFO root fetch - main [MainThread]: End processing [m-profiling-mf]: success
+[2023-05-25 11:50:49] INFO root fetch - main [MainThread]: End processing [jfExt]: success
+[2023-05-25 11:50:49] INFO root fetch - main [MainThread]: End processing [py-pde]: success
+[2023-05-25 11:50:50] INFO root fetch - main [MainThread]: End processing [ansys-meshing-prime]: success
+[2023-05-25 11:50:52] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-05-25 11:52:03] INFO root fetch - main [MainThread]: End processing [OpenFisca-France]: success
+[2023-05-25 11:52:03] INFO root fetch - main [MainThread]: Store serial: [18244745]
