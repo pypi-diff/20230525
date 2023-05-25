@@ -10791,3 +10791,69 @@
 [2023-05-25 08:27:47] INFO root fetch - main [MainThread]: End processing [acryl-executor]: success
 [2023-05-25 08:27:54] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2023-05-25 08:27:54] INFO root fetch - main [MainThread]: Store serial: [18242242]
+[2023-05-25 08:33:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18242242]
+[2023-05-25 08:33:05] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-25 08:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymysql
+[2023-05-25 08:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: paradigm
+[2023-05-25 08:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zope.location
+[2023-05-25 08:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-consulate-ms
+[2023-05-25 08:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cg
+[2023-05-25 08:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oarepo-model-builder-tests
+[2023-05-25 08:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyParseEarley
+[2023-05-25 08:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pydoxtools
+[2023-05-25 08:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: searchlogit
+[2023-05-25 08:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: shopcloud-serverless
+[2023-05-25 08:33:05] INFO root fetch - processPackages [zope.location]: New version: [4.3] Old Version: [4.2]
+[2023-05-25 08:33:05] INFO root fetch - processPackages [cg]: New version: [31.2.1] Old Version: [31.2.0]
+[2023-05-25 08:33:05] INFO root fetch - processPackages [pymysql]: New version: [1.1.0rc1] Old Version: [1.0.3rc1]
+[2023-05-25 08:33:05] INFO root fetch - processPackages [paradigm]: New version: [4.0.1] Old Version: [4.0.0]
+[2023-05-25 08:33:05] WARNING root fetch - processPackages [py-consulate-ms]: Skipping, unable to determine old version
+[2023-05-25 08:33:05] INFO root fetch - processPackages [py-consulate-ms]: Start processing: mmWave
+[2023-05-25 08:33:05] INFO root fetch - main [MainThread]: End processing [py-consulate-ms] error
+[2023-05-25 08:33:05] WARNING root fetch - processPackages [PyParseEarley]: Skipping, unable to determine old version
+[2023-05-25 08:33:05] INFO root fetch - processPackages [oarepo-model-builder-tests]: New version: [4.0.1] Old Version: [4.0.0]
+[2023-05-25 08:33:05] INFO root fetch - main [MainThread]: End processing [PyParseEarley] error
+[2023-05-25 08:33:05] INFO root fetch - processPackages [pydoxtools]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-05-25 08:33:05] INFO root fetch - processPackages [shopcloud-serverless]: New version: [4.9.0] Old Version: [4.8.0]
+[2023-05-25 08:33:05] INFO root fetch - processPackages [searchlogit]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-25 08:33:05] INFO root fetch - processPackages [zope.location]: Downloading https://files.pythonhosted.org/packages/0c/c3/f9ab5358f8289fbd1996075ae1d7914b25cbfc1a65823ae0258aec03837d/zope.location-4.2.tar.gz
+[2023-05-25 08:33:05] INFO root fetch - processPackages [mmWave]: New version: [0.1.97] Old Version: [0.1.96]
+[2023-05-25 08:33:05] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/0a/0a/3724f9540331552d6b77b9415b761a047d3edb50b4f3ea179b28895039a5/cg-31.2.1.tar.gz
+[2023-05-25 08:33:05] INFO root fetch - processPackages [pymysql]: Downloading https://files.pythonhosted.org/packages/5d/d3/e2458796526a4bb9fafd0104f6bed9430fcb4b796b84749ea8224fd3aea0/PyMySQL-1.0.3rc1.tar.gz
+[2023-05-25 08:33:05] INFO root fetch - processPackages [pydoxtools]: Downloading https://files.pythonhosted.org/packages/eb/63/809edee044ad54f52dc6d979c90a5dec1c59b508fcca19600cd280cc208c/pydoxtools-0.5.1.tar.gz
+[2023-05-25 08:33:05] INFO root fetch - processPackages [paradigm]: Downloading https://files.pythonhosted.org/packages/b8/23/0fdd9683b7a28ebd07dc6edfe9ee489839848978b2667812567b17beadfe/paradigm-4.0.0.tar.gz
+[2023-05-25 08:33:06] INFO root fetch - processPackages [oarepo-model-builder-tests]: Downloading https://files.pythonhosted.org/packages/aa/12/273ad6518ff22775ecb66bb0955c5491bd45c82e88b47287deedcf7e174b/oarepo-model-builder-tests-4.0.1.tar.gz
+[2023-05-25 08:33:06] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-05-25 08:33:06] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-31.2.0.tar.gz tmp/cg-31.2.1.tar.gz --markdown 20230525/c/cg/31.2.0-31.2.1/diff.md --exclude *.pyd
+[2023-05-25 08:33:06] INFO root fetch - processPackages [mmWave]: Downloading https://files.pythonhosted.org/packages/25/1d/9b5701ab243af600f556380a18d3545f468dcaada847a2338f58976a538f/mmWave-0.1.96.tar.gz
+[2023-05-25 08:33:06] INFO root fetch - processPackages [oarepo-model-builder-tests]: executing diffoscope
+[2023-05-25 08:33:06] INFO root fetch - processPackages [oarepo-model-builder-tests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-model-builder-tests-4.0.0.tar.gz tmp/oarepo-model-builder-tests-4.0.1.tar.gz --markdown 20230525/o/oarepo-model-builder-tests/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2023-05-25 08:33:06] INFO root fetch - processPackages [zope.location]: Downloading https://files.pythonhosted.org/packages/95/b5/433d8cd402e82320063192c3413c44abb1d64a8162a13abce16f09c91b9e/zope.location-4.3.tar.gz
+[2023-05-25 08:33:06] INFO root fetch - processPackages [shopcloud-serverless]: executing diffoscope
+[2023-05-25 08:33:06] INFO root fetch - processPackages [shopcloud-serverless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shopcloud-serverless-4.8.0.tar.gz tmp/shopcloud-serverless-4.9.0.tar.gz --markdown 20230525/s/shopcloud-serverless/4.8.0-4.9.0/diff.md --exclude *.pyd
+[2023-05-25 08:33:06] INFO root fetch - processPackages [pydoxtools]: Downloading https://files.pythonhosted.org/packages/13/fe/c1ad3a62a948be4e7d0a85c6d4fd7a2d71dfa4ce7f34c0f2be407d76473b/pydoxtools-0.6.0.tar.gz
+[2023-05-25 08:33:06] INFO root fetch - processPackages [pymysql]: Downloading https://files.pythonhosted.org/packages/ae/11/59e26d78cf43841c0e014264c0490913cd2e2a91b7bc1d4bab479d215c53/PyMySQL-1.1.0rc1.tar.gz
+[2023-05-25 08:33:06] INFO root fetch - processPackages [zope.location]: executing diffoscope
+[2023-05-25 08:33:06] INFO root fetch - processPackages [zope.location]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zope.location-4.2.tar.gz tmp/zope.location-4.3.tar.gz --markdown 20230525/z/zope.location/4.2-4.3/diff.md --exclude *.pyd
+[2023-05-25 08:33:06] INFO root fetch - processPackages [searchlogit]: executing diffoscope
+[2023-05-25 08:33:06] INFO root fetch - processPackages [searchlogit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/searchlogit-0.3.8.tar.gz tmp/searchlogit-0.3.9.tar.gz --markdown 20230525/s/searchlogit/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-25 08:33:06] INFO root fetch - processPackages [paradigm]: Downloading https://files.pythonhosted.org/packages/d2/01/5d4e040155c8686a5d17ed30329b14f85fce03a5aa429f3572480b382576/paradigm-4.0.1.tar.gz
+[2023-05-25 08:33:06] INFO root fetch - processPackages [pydoxtools]: executing diffoscope
+[2023-05-25 08:33:06] INFO root fetch - processPackages [pydoxtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydoxtools-0.5.1.tar.gz tmp/pydoxtools-0.6.0.tar.gz --markdown 20230525/p/pydoxtools/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-05-25 08:33:06] INFO root fetch - processPackages [pymysql]: executing diffoscope
+[2023-05-25 08:33:06] INFO root fetch - processPackages [pymysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyMySQL-1.0.3rc1.tar.gz tmp/PyMySQL-1.1.0rc1.tar.gz --markdown 20230525/p/pymysql/1.0.3rc1-1.1.0rc1/diff.md --exclude *.pyd
+[2023-05-25 08:33:06] INFO root fetch - processPackages [paradigm]: executing diffoscope
+[2023-05-25 08:33:06] INFO root fetch - processPackages [paradigm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paradigm-4.0.0.tar.gz tmp/paradigm-4.0.1.tar.gz --markdown 20230525/p/paradigm/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2023-05-25 08:33:06] INFO root fetch - processPackages [mmWave]: Downloading https://files.pythonhosted.org/packages/49/4f/4be2d489983fefa6129e6c6e92edf2f40f35b881d890c6126a569e4e7288/mmWave-0.1.97.tar.gz
+[2023-05-25 08:33:06] INFO root fetch - processPackages [mmWave]: executing diffoscope
+[2023-05-25 08:33:06] INFO root fetch - processPackages [mmWave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmWave-0.1.96.tar.gz tmp/mmWave-0.1.97.tar.gz --markdown 20230525/m/mmWave/0.1.96-0.1.97/diff.md --exclude *.pyd
+[2023-05-25 08:33:07] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder-tests]: success
+[2023-05-25 08:33:07] INFO root fetch - main [MainThread]: End processing [zope.location]: success
+[2023-05-25 08:33:07] INFO root fetch - main [MainThread]: End processing [shopcloud-serverless]: success
+[2023-05-25 08:33:08] INFO root fetch - main [MainThread]: End processing [searchlogit]: success
+[2023-05-25 08:33:08] INFO root fetch - main [MainThread]: End processing [pymysql]: success
+[2023-05-25 08:33:08] INFO root fetch - main [MainThread]: End processing [mmWave]: success
+[2023-05-25 08:33:08] INFO root fetch - main [MainThread]: End processing [paradigm]: success
+[2023-05-25 08:33:09] INFO root fetch - main [MainThread]: End processing [pydoxtools]: success
+[2023-05-25 08:33:20] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-05-25 08:33:20] INFO root fetch - main [MainThread]: Store serial: [18242279]
