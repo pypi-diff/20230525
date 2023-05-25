@@ -13065,3 +13065,648 @@
 [2023-05-25 10:52:29] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkbss]: success
 [2023-05-25 10:52:31] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkapig]: success
 [2023-05-25 10:52:31] INFO root fetch - main [MainThread]: Store serial: [18243704]
+[2023-05-25 10:57:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18243704]
+[2023-05-25 10:57:40] INFO root fetch - main [MainThread]: Found 123 changed packages
+[2023-05-25 10:57:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: huaweicloudsdkcae
+[2023-05-25 10:57:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tfp-nightly
+[2023-05-25 10:57:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-cloudapi20160714-py2
+[2023-05-25 10:57:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: huaweicloudsdkcampusgo
+[2023-05-25 10:57:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: huaweicloudsdkcbh
+[2023-05-25 10:57:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Xponge
+[2023-05-25 10:57:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: huaweicloudsdkcbr
+[2023-05-25 10:57:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: huaweicloudsdkcbs
+[2023-05-25 10:57:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: huaweicloudsdkcc
+[2023-05-25 10:57:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: huaweicloudsdkcce
+[2023-05-25 10:57:40] INFO root fetch - processPackages [huaweicloudsdkcae]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:57:40] INFO root fetch - processPackages [huaweicloudsdkcbh]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:57:40] INFO root fetch - processPackages [huaweicloudsdkcc]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:57:40] INFO root fetch - processPackages [Xponge]: New version: [1.3b7] Old Version: [1.3b6]
+[2023-05-25 10:57:40] INFO root fetch - processPackages [alibabacloud-cloudapi20160714-py2]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-05-25 10:57:40] INFO root fetch - processPackages [huaweicloudsdkcce]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:57:40] INFO root fetch - processPackages [huaweicloudsdkcbr]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:57:40] INFO root fetch - processPackages [huaweicloudsdkcampusgo]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:57:40] INFO root fetch - processPackages [huaweicloudsdkcbs]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:57:40] INFO root fetch - processPackages [huaweicloudsdkcae]: executing diffoscope
+[2023-05-25 10:57:40] INFO root fetch - processPackages [huaweicloudsdkcae]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkcae-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkcae-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkcae/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:57:40] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-05-25 10:57:40] INFO root fetch - processPackages [alibabacloud-cloudapi20160714-py2]: Downloading https://files.pythonhosted.org/packages/09/10/55275f079671f2324e93cbf499ece4017fd5a779a3ebe3d0d81d6780e4d4/alibabacloud_cloudapi20160714_py2-2.2.8.tar.gz
+[2023-05-25 10:57:40] INFO root fetch - processPackages [Xponge]: Downloading https://files.pythonhosted.org/packages/e0/56/241b08e4fff35dffb14f5676fc00ec121b28094b1373ff1590be56a7926b/Xponge-1.3b6.tar.gz
+[2023-05-25 10:57:40] INFO root fetch - processPackages [huaweicloudsdkcc]: executing diffoscope
+[2023-05-25 10:57:40] INFO root fetch - processPackages [huaweicloudsdkcc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkcc-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkcc-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkcc/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:57:40] INFO root fetch - processPackages [huaweicloudsdkcbh]: executing diffoscope
+[2023-05-25 10:57:40] INFO root fetch - processPackages [huaweicloudsdkcbh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkcbh-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkcbh-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkcbh/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:57:40] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-05-25 10:57:40] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230525/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-05-25 10:57:41] INFO root fetch - processPackages [huaweicloudsdkcce]: executing diffoscope
+[2023-05-25 10:57:41] INFO root fetch - processPackages [huaweicloudsdkcce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkcce-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkcce-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkcce/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:57:41] INFO root fetch - processPackages [huaweicloudsdkcampusgo]: executing diffoscope
+[2023-05-25 10:57:41] INFO root fetch - processPackages [huaweicloudsdkcampusgo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkcampusgo-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkcampusgo-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkcampusgo/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:57:41] INFO root fetch - processPackages [huaweicloudsdkcbr]: executing diffoscope
+[2023-05-25 10:57:41] INFO root fetch - processPackages [huaweicloudsdkcbr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkcbr-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkcbr-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkcbr/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:57:41] INFO root fetch - processPackages [huaweicloudsdkcbs]: executing diffoscope
+[2023-05-25 10:57:41] INFO root fetch - processPackages [huaweicloudsdkcbs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkcbs-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkcbs-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkcbs/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:57:41] INFO root fetch - processPackages [alibabacloud-cloudapi20160714-py2]: Downloading https://files.pythonhosted.org/packages/6c/01/9e15281f8c8ce41ba2c4b056f5647f40adc70f2672aa530585533a56b66f/alibabacloud_cloudapi20160714_py2-2.2.9.tar.gz
+[2023-05-25 10:57:41] INFO root fetch - processPackages [alibabacloud-cloudapi20160714-py2]: executing diffoscope
+[2023-05-25 10:57:41] INFO root fetch - processPackages [alibabacloud-cloudapi20160714-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cloudapi20160714_py2-2.2.8.tar.gz tmp/alibabacloud_cloudapi20160714_py2-2.2.9.tar.gz --markdown 20230525/a/alibabacloud-cloudapi20160714-py2/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-05-25 10:57:41] INFO root fetch - processPackages [Xponge]: Downloading https://files.pythonhosted.org/packages/0c/45/ab9b11eb5c44859c05e297110ea6af607ac2b0319030bdc84bdaa08fece7/Xponge-1.3b7.tar.gz
+[2023-05-25 10:57:42] INFO root fetch - processPackages [Xponge]: executing diffoscope
+[2023-05-25 10:57:42] INFO root fetch - processPackages [Xponge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Xponge-1.3b6.tar.gz tmp/Xponge-1.3b7.tar.gz --markdown 20230525/X/Xponge/1.3b6-1.3b7/diff.md --exclude *.pyd
+[2023-05-25 10:57:42] INFO root fetch - processPackages [huaweicloudsdkcbh]: Start processing: huaweicloudsdkccm
+[2023-05-25 10:57:42] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkcbh]: success
+[2023-05-25 10:57:42] INFO root fetch - processPackages [huaweicloudsdkccm]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:57:42] INFO root fetch - processPackages [huaweicloudsdkcc]: Start processing: huaweicloudsdkcdm
+[2023-05-25 10:57:42] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkcc]: success
+[2023-05-25 10:57:42] INFO root fetch - processPackages [huaweicloudsdkcampusgo]: Start processing: huaweicloudsdkcdn
+[2023-05-25 10:57:42] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkcampusgo]: success
+[2023-05-25 10:57:42] INFO root fetch - processPackages [huaweicloudsdkcae]: Start processing: huaweicloudsdkces
+[2023-05-25 10:57:42] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkcae]: success
+[2023-05-25 10:57:43] INFO root fetch - processPackages [huaweicloudsdkcdm]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:57:43] INFO root fetch - processPackages [huaweicloudsdkcdn]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:57:43] INFO root fetch - processPackages [huaweicloudsdkces]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:57:43] INFO root fetch - processPackages [huaweicloudsdkccm]: executing diffoscope
+[2023-05-25 10:57:43] INFO root fetch - processPackages [huaweicloudsdkccm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkccm-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkccm-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkccm/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:57:43] INFO root fetch - processPackages [huaweicloudsdkcbs]: Start processing: dbpyman
+[2023-05-25 10:57:43] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkcbs]: success
+[2023-05-25 10:57:43] WARNING root fetch - processPackages [dbpyman]: Skipping, unable to determine old version
+[2023-05-25 10:57:43] INFO root fetch - processPackages [dbpyman]: Start processing: alibabacloud-cloudapi20160714
+[2023-05-25 10:57:43] INFO root fetch - main [MainThread]: End processing [dbpyman] error
+[2023-05-25 10:57:43] INFO root fetch - processPackages [huaweicloudsdkcdm]: executing diffoscope
+[2023-05-25 10:57:43] INFO root fetch - processPackages [huaweicloudsdkcdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkcdm-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkcdm-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkcdm/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:57:43] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-05-25 10:57:43] INFO root fetch - processPackages [huaweicloudsdkcdn]: executing diffoscope
+[2023-05-25 10:57:43] INFO root fetch - processPackages [huaweicloudsdkcdn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkcdn-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkcdn-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkcdn/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:57:43] INFO root fetch - processPackages [huaweicloudsdkces]: executing diffoscope
+[2023-05-25 10:57:43] INFO root fetch - processPackages [huaweicloudsdkces]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkces-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkces-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkces/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:57:43] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: Downloading https://files.pythonhosted.org/packages/8d/4c/9bb9ff925f9039df8ff05f5b4c5108fca5c78674d90499a83f7429ee52b5/alibabacloud_cloudapi20160714-2.2.8.tar.gz
+[2023-05-25 10:57:43] INFO root fetch - processPackages [alibabacloud-cloudapi20160714-py2]: Start processing: huaweicloudsdkcfw
+[2023-05-25 10:57:43] INFO root fetch - main [MainThread]: End processing [alibabacloud-cloudapi20160714-py2]: success
+[2023-05-25 10:57:43] INFO root fetch - processPackages [huaweicloudsdkcfw]: New version: [3.1.41] Old Version: [3.1.40]
+[2023-05-25 10:57:43] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: Downloading https://files.pythonhosted.org/packages/7e/f4/72d4aa78c2eafed3b97cb3e8771ff32caef4c97ccda291b6c03af9e3be4f/alibabacloud_cloudapi20160714-2.2.9.tar.gz
+[2023-05-25 10:57:43] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: executing diffoscope
+[2023-05-25 10:57:43] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cloudapi20160714-2.2.8.tar.gz tmp/alibabacloud_cloudapi20160714-2.2.9.tar.gz --markdown 20230525/a/alibabacloud-cloudapi20160714/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-05-25 10:57:44] INFO root fetch - processPackages [huaweicloudsdkcfw]: Downloading https://files.pythonhosted.org/packages/47/f5/c9bdeaea8cf357580d355471f6438b4c971ce26773bf0427ca408d165c6d/huaweicloudsdkcfw-3.1.41-py2.py3-none-any.whl
+[2023-05-25 10:57:44] INFO root fetch - processPackages [huaweicloudsdkcbr]: Start processing: huaweicloudsdkcgs
+[2023-05-25 10:57:44] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkcbr]: success
+[2023-05-25 10:57:44] INFO root fetch - processPackages [huaweicloudsdkcfw]: executing diffoscope
+[2023-05-25 10:57:44] INFO root fetch - processPackages [huaweicloudsdkcfw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkcfw-3.1.40-py2.py3-none-any.whl.zip tmp/huaweicloudsdkcfw-3.1.41-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkcfw/3.1.40-3.1.41/diff.md --exclude *.pyd
+[2023-05-25 10:57:44] INFO root fetch - processPackages [huaweicloudsdkcgs]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:57:44] INFO root fetch - processPackages [huaweicloudsdkcce]: Start processing: huaweicloudsdkclassroom
+[2023-05-25 10:57:44] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkcce]: success
+[2023-05-25 10:57:44] INFO root fetch - processPackages [huaweicloudsdkclassroom]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:57:44] INFO root fetch - processPackages [huaweicloudsdkcgs]: executing diffoscope
+[2023-05-25 10:57:44] INFO root fetch - processPackages [huaweicloudsdkcgs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkcgs-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkcgs-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkcgs/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:57:45] INFO root fetch - processPackages [huaweicloudsdkclassroom]: executing diffoscope
+[2023-05-25 10:57:45] INFO root fetch - processPackages [huaweicloudsdkclassroom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkclassroom-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkclassroom-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkclassroom/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:57:45] INFO root fetch - processPackages [huaweicloudsdkccm]: Start processing: huaweicloudsdkclouddeploy
+[2023-05-25 10:57:45] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkccm]: success
+[2023-05-25 10:57:45] INFO root fetch - processPackages [huaweicloudsdkclouddeploy]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:57:45] INFO root fetch - processPackages [Xponge]: Start processing: huaweicloudsdkcloudide
+[2023-05-25 10:57:45] INFO root fetch - main [MainThread]: End processing [Xponge]: success
+[2023-05-25 10:57:45] INFO root fetch - processPackages [huaweicloudsdkcloudide]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:57:45] INFO root fetch - processPackages [huaweicloudsdkclouddeploy]: executing diffoscope
+[2023-05-25 10:57:45] INFO root fetch - processPackages [huaweicloudsdkclouddeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkclouddeploy-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkclouddeploy-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkclouddeploy/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:57:45] INFO root fetch - processPackages [huaweicloudsdkcdm]: Start processing: huaweicloudsdkcloudpipeline
+[2023-05-25 10:57:45] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkcdm]: success
+[2023-05-25 10:57:45] INFO root fetch - processPackages [huaweicloudsdkcloudpipeline]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:57:46] INFO root fetch - processPackages [huaweicloudsdkcloudide]: executing diffoscope
+[2023-05-25 10:57:46] INFO root fetch - processPackages [huaweicloudsdkcloudide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkcloudide-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkcloudide-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkcloudide/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:57:46] INFO root fetch - processPackages [huaweicloudsdkcgs]: Start processing: huaweicloudsdkcloudrtc
+[2023-05-25 10:57:46] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkcgs]: success
+[2023-05-25 10:57:46] INFO root fetch - processPackages [huaweicloudsdkcloudrtc]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:57:46] INFO root fetch - processPackages [huaweicloudsdkcloudpipeline]: executing diffoscope
+[2023-05-25 10:57:46] INFO root fetch - processPackages [huaweicloudsdkcloudpipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkcloudpipeline-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkcloudpipeline-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkcloudpipeline/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:57:46] INFO root fetch - processPackages [huaweicloudsdkcdn]: Start processing: huaweicloudsdkcloudtable
+[2023-05-25 10:57:46] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkcdn]: success
+[2023-05-25 10:57:46] INFO root fetch - processPackages [huaweicloudsdkcloudtable]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:57:46] INFO root fetch - processPackages [huaweicloudsdkcloudrtc]: executing diffoscope
+[2023-05-25 10:57:46] INFO root fetch - processPackages [huaweicloudsdkcloudrtc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkcloudrtc-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkcloudrtc-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkcloudrtc/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:57:46] INFO root fetch - processPackages [huaweicloudsdkces]: Start processing: huaweicloudsdkcloudtest
+[2023-05-25 10:57:46] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkces]: success
+[2023-05-25 10:57:46] INFO root fetch - processPackages [huaweicloudsdkclassroom]: Start processing: huaweicloudsdkcodeartsartifact
+[2023-05-25 10:57:46] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkclassroom]: success
+[2023-05-25 10:57:46] INFO root fetch - processPackages [huaweicloudsdkcloudtest]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:57:46] INFO root fetch - processPackages [huaweicloudsdkcodeartsartifact]: New version: [3.1.41] Old Version: [3.1.40]
+[2023-05-25 10:57:47] INFO root fetch - processPackages [huaweicloudsdkcloudtable]: executing diffoscope
+[2023-05-25 10:57:47] INFO root fetch - processPackages [huaweicloudsdkcloudtable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkcloudtable-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkcloudtable-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkcloudtable/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:57:47] INFO root fetch - processPackages [huaweicloudsdkcodeartsartifact]: Downloading https://files.pythonhosted.org/packages/4c/0a/49e6f5cf709ff6be5b882621a446feeb5774be08d692e75d803e2a91494e/huaweicloudsdkcodeartsartifact-3.1.41-py2.py3-none-any.whl
+[2023-05-25 10:57:47] INFO root fetch - processPackages [huaweicloudsdkcloudtest]: executing diffoscope
+[2023-05-25 10:57:47] INFO root fetch - processPackages [huaweicloudsdkcloudtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkcloudtest-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkcloudtest-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkcloudtest/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:57:47] INFO root fetch - processPackages [huaweicloudsdkcodeartsartifact]: executing diffoscope
+[2023-05-25 10:57:47] INFO root fetch - processPackages [huaweicloudsdkcodeartsartifact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkcodeartsartifact-3.1.40-py2.py3-none-any.whl.zip tmp/huaweicloudsdkcodeartsartifact-3.1.41-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkcodeartsartifact/3.1.40-3.1.41/diff.md --exclude *.pyd
+[2023-05-25 10:57:47] INFO root fetch - processPackages [huaweicloudsdkcfw]: Start processing: huaweicloudsdkcodeartsbuild
+[2023-05-25 10:57:47] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkcfw]: success
+[2023-05-25 10:57:47] INFO root fetch - processPackages [huaweicloudsdkcodeartsbuild]: New version: [3.1.41] Old Version: [3.1.40]
+[2023-05-25 10:57:47] INFO root fetch - processPackages [huaweicloudsdkclouddeploy]: Start processing: huaweicloudsdkcodecheck
+[2023-05-25 10:57:47] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkclouddeploy]: success
+[2023-05-25 10:57:47] INFO root fetch - processPackages [huaweicloudsdkcodecheck]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:57:47] INFO root fetch - processPackages [huaweicloudsdkcodeartsbuild]: Downloading https://files.pythonhosted.org/packages/26/b0/e296d5dd659b2a0278ddf377ea5c7f6a6001dad87f382dfddcb91190ad2b/huaweicloudsdkcodeartsbuild-3.1.41-py2.py3-none-any.whl
+[2023-05-25 10:57:47] INFO root fetch - processPackages [huaweicloudsdkcodeartsbuild]: executing diffoscope
+[2023-05-25 10:57:47] INFO root fetch - processPackages [huaweicloudsdkcodeartsbuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkcodeartsbuild-3.1.40-py2.py3-none-any.whl.zip tmp/huaweicloudsdkcodeartsbuild-3.1.41-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkcodeartsbuild/3.1.40-3.1.41/diff.md --exclude *.pyd
+[2023-05-25 10:57:48] INFO root fetch - processPackages [huaweicloudsdkcodecheck]: executing diffoscope
+[2023-05-25 10:57:48] INFO root fetch - processPackages [huaweicloudsdkcodecheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkcodecheck-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkcodecheck-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkcodecheck/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:57:48] INFO root fetch - processPackages [huaweicloudsdkcloudpipeline]: Start processing: huaweicloudsdkcodecraft
+[2023-05-25 10:57:48] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkcloudpipeline]: success
+[2023-05-25 10:57:48] INFO root fetch - processPackages [huaweicloudsdkcloudide]: Start processing: huaweicloudsdkcodehub
+[2023-05-25 10:57:48] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkcloudide]: success
+[2023-05-25 10:57:48] INFO root fetch - processPackages [huaweicloudsdkcodecraft]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:57:48] INFO root fetch - processPackages [huaweicloudsdkcodehub]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:57:48] INFO root fetch - processPackages [huaweicloudsdkcloudtable]: Start processing: huaweicloudsdkcore
+[2023-05-25 10:57:48] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkcloudtable]: success
+[2023-05-25 10:57:48] INFO root fetch - processPackages [huaweicloudsdkcore]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:57:48] INFO root fetch - processPackages [huaweicloudsdkcodecraft]: executing diffoscope
+[2023-05-25 10:57:48] INFO root fetch - processPackages [huaweicloudsdkcodecraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkcodecraft-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkcodecraft-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkcodecraft/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:57:48] INFO root fetch - processPackages [huaweicloudsdkcodehub]: executing diffoscope
+[2023-05-25 10:57:48] INFO root fetch - processPackages [huaweicloudsdkcodehub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkcodehub-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkcodehub-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkcodehub/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:57:48] INFO root fetch - processPackages [huaweicloudsdkcodeartsartifact]: Start processing: huaweicloudsdkcph
+[2023-05-25 10:57:48] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkcodeartsartifact]: success
+[2023-05-25 10:57:49] INFO root fetch - processPackages [huaweicloudsdkcph]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:57:49] INFO root fetch - processPackages [huaweicloudsdkcore]: executing diffoscope
+[2023-05-25 10:57:49] INFO root fetch - processPackages [huaweicloudsdkcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkcore-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkcore-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkcore/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:57:49] INFO root fetch - processPackages [huaweicloudsdkcloudrtc]: Start processing: huaweicloudsdkcpts
+[2023-05-25 10:57:49] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkcloudrtc]: success
+[2023-05-25 10:57:49] INFO root fetch - processPackages [huaweicloudsdkcpts]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:57:49] INFO root fetch - processPackages [huaweicloudsdkcph]: executing diffoscope
+[2023-05-25 10:57:49] INFO root fetch - processPackages [huaweicloudsdkcph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkcph-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkcph-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkcph/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:57:49] INFO root fetch - processPackages [huaweicloudsdkcloudtest]: Start processing: huaweicloudsdkcse
+[2023-05-25 10:57:49] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkcloudtest]: success
+[2023-05-25 10:57:49] INFO root fetch - processPackages [huaweicloudsdkcse]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:57:49] INFO root fetch - processPackages [huaweicloudsdkcodeartsbuild]: Start processing: huaweicloudsdkcsms
+[2023-05-25 10:57:49] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkcodeartsbuild]: success
+[2023-05-25 10:57:49] INFO root fetch - processPackages [huaweicloudsdkcpts]: executing diffoscope
+[2023-05-25 10:57:49] INFO root fetch - processPackages [huaweicloudsdkcpts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkcpts-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkcpts-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkcpts/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:57:49] INFO root fetch - processPackages [huaweicloudsdkcsms]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:57:49] INFO root fetch - processPackages [huaweicloudsdkcse]: executing diffoscope
+[2023-05-25 10:57:49] INFO root fetch - processPackages [huaweicloudsdkcse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkcse-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkcse-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkcse/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:57:50] INFO root fetch - processPackages [huaweicloudsdkcsms]: executing diffoscope
+[2023-05-25 10:57:50] INFO root fetch - processPackages [huaweicloudsdkcsms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkcsms-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkcsms-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkcsms/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:57:50] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: Start processing: huaweicloudsdkcss
+[2023-05-25 10:57:50] INFO root fetch - main [MainThread]: End processing [alibabacloud-cloudapi20160714]: success
+[2023-05-25 10:57:50] INFO root fetch - processPackages [huaweicloudsdkcss]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:57:50] INFO root fetch - processPackages [huaweicloudsdkcodecraft]: Start processing: huaweicloudsdkcts
+[2023-05-25 10:57:50] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkcodecraft]: success
+[2023-05-25 10:57:50] INFO root fetch - processPackages [huaweicloudsdkcts]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:57:50] INFO root fetch - processPackages [huaweicloudsdkcss]: executing diffoscope
+[2023-05-25 10:57:50] INFO root fetch - processPackages [huaweicloudsdkcss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkcss-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkcss-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkcss/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:57:50] INFO root fetch - processPackages [huaweicloudsdkcodecheck]: Start processing: opengeode
+[2023-05-25 10:57:50] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkcodecheck]: success
+[2023-05-25 10:57:50] INFO root fetch - processPackages [huaweicloudsdkcts]: executing diffoscope
+[2023-05-25 10:57:50] INFO root fetch - processPackages [huaweicloudsdkcts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkcts-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkcts-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkcts/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:57:50] INFO root fetch - processPackages [opengeode]: New version: [4.1.5] Old Version: [4.1.2]
+[2023-05-25 10:57:51] INFO root fetch - processPackages [opengeode]: Downloading https://files.pythonhosted.org/packages/80/7c/2f6e5f0768898286909f1ca614419a5cbc5de537d66c8199a0a7290fb8b3/opengeode-4.1.2.tar.gz
+[2023-05-25 10:57:51] INFO root fetch - processPackages [huaweicloudsdkcore]: Start processing: huaweicloudsdkdas
+[2023-05-25 10:57:51] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkcore]: success
+[2023-05-25 10:57:51] INFO root fetch - processPackages [huaweicloudsdkdas]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:57:51] INFO root fetch - processPackages [huaweicloudsdkcph]: Start processing: hcai-nova-server-nightly
+[2023-05-25 10:57:51] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkcph]: success
+[2023-05-25 10:57:51] INFO root fetch - processPackages [hcai-nova-server-nightly]: New version: [0.1.6.dev202305250842] Old Version: [0.1.6.dev202305250824]
+[2023-05-25 10:57:51] INFO root fetch - processPackages [huaweicloudsdkcse]: Start processing: huaweicloudsdkdbss
+[2023-05-25 10:57:51] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkcse]: success
+[2023-05-25 10:57:51] INFO root fetch - processPackages [huaweicloudsdkdas]: executing diffoscope
+[2023-05-25 10:57:51] INFO root fetch - processPackages [huaweicloudsdkdas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkdas-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkdas-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkdas/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:57:51] INFO root fetch - processPackages [huaweicloudsdkdbss]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:57:52] INFO root fetch - processPackages [hcai-nova-server-nightly]: Downloading https://files.pythonhosted.org/packages/0d/34/d8bb9e6dd8944cd5a65009687f6ba20bff0ae136d9a6232f9deb91550fb3/hcai-nova-server-nightly-0.1.6.dev202305250842.tar.gz
+[2023-05-25 10:57:52] INFO root fetch - processPackages [huaweicloudsdkcpts]: Start processing: huaweicloudsdkdc
+[2023-05-25 10:57:52] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkcpts]: success
+[2023-05-25 10:57:52] INFO root fetch - processPackages [hcai-nova-server-nightly]: executing diffoscope
+[2023-05-25 10:57:52] INFO root fetch - processPackages [hcai-nova-server-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-nova-server-nightly-0.1.6.dev202305250824.tar.gz tmp/hcai-nova-server-nightly-0.1.6.dev202305250842.tar.gz --markdown 20230525/h/hcai-nova-server-nightly/0.1.6.dev202305250824-0.1.6.dev202305250842/diff.md --exclude *.pyd
+[2023-05-25 10:57:52] INFO root fetch - processPackages [huaweicloudsdkdc]: New version: [3.1.41] Old Version: [3.1.40]
+[2023-05-25 10:57:52] INFO root fetch - processPackages [huaweicloudsdkdbss]: executing diffoscope
+[2023-05-25 10:57:52] INFO root fetch - processPackages [huaweicloudsdkdbss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkdbss-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkdbss-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkdbss/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:57:52] INFO root fetch - processPackages [huaweicloudsdkcsms]: Start processing: huaweicloudsdkdcs
+[2023-05-25 10:57:52] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkcsms]: success
+[2023-05-25 10:57:52] INFO root fetch - processPackages [opengeode]: Downloading https://files.pythonhosted.org/packages/e2/7e/37c0bddc164ca19d43becc7d82e2531f1fba3c39b3bda78d821988d83086/opengeode-4.1.5.tar.gz
+[2023-05-25 10:57:52] INFO root fetch - processPackages [huaweicloudsdkdcs]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:57:52] INFO root fetch - processPackages [huaweicloudsdkdc]: Downloading https://files.pythonhosted.org/packages/dd/44/9763334f20806da9bca2f4cffb7c920c29cdbec0ac9ff45aa244f517c983/huaweicloudsdkdc-3.1.41-py2.py3-none-any.whl
+[2023-05-25 10:57:52] INFO root fetch - processPackages [huaweicloudsdkcts]: Start processing: huaweicloudsdkddm
+[2023-05-25 10:57:52] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkcts]: success
+[2023-05-25 10:57:52] INFO root fetch - processPackages [opengeode]: executing diffoscope
+[2023-05-25 10:57:52] INFO root fetch - processPackages [opengeode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opengeode-4.1.2.tar.gz tmp/opengeode-4.1.5.tar.gz --markdown 20230525/o/opengeode/4.1.2-4.1.5/diff.md --exclude *.pyd
+[2023-05-25 10:57:52] INFO root fetch - processPackages [huaweicloudsdkdc]: executing diffoscope
+[2023-05-25 10:57:52] INFO root fetch - processPackages [huaweicloudsdkdc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkdc-3.1.40-py2.py3-none-any.whl.zip tmp/huaweicloudsdkdc-3.1.41-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkdc/3.1.40-3.1.41/diff.md --exclude *.pyd
+[2023-05-25 10:57:52] INFO root fetch - processPackages [huaweicloudsdkddm]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:57:52] INFO root fetch - processPackages [huaweicloudsdkdcs]: executing diffoscope
+[2023-05-25 10:57:52] INFO root fetch - processPackages [huaweicloudsdkdcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkdcs-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkdcs-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkdcs/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:57:52] INFO root fetch - processPackages [huaweicloudsdkcodehub]: Start processing: huaweicloudsdkdds
+[2023-05-25 10:57:52] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkcodehub]: success
+[2023-05-25 10:57:53] INFO root fetch - processPackages [huaweicloudsdkdds]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:57:53] INFO root fetch - processPackages [huaweicloudsdkddm]: executing diffoscope
+[2023-05-25 10:57:53] INFO root fetch - processPackages [huaweicloudsdkddm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkddm-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkddm-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkddm/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:57:53] INFO root fetch - processPackages [huaweicloudsdkdds]: executing diffoscope
+[2023-05-25 10:57:53] INFO root fetch - processPackages [huaweicloudsdkdds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkdds-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkdds-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkdds/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:57:53] INFO root fetch - processPackages [hcai-nova-server-nightly]: Start processing: huaweicloudsdkdeh
+[2023-05-25 10:57:53] INFO root fetch - main [MainThread]: End processing [hcai-nova-server-nightly]: success
+[2023-05-25 10:57:53] INFO root fetch - processPackages [huaweicloudsdkdeh]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:57:54] INFO root fetch - processPackages [huaweicloudsdkdas]: Start processing: huaweicloudsdkdevsecurity
+[2023-05-25 10:57:54] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkdas]: success
+[2023-05-25 10:57:54] INFO root fetch - processPackages [huaweicloudsdkdbss]: Start processing: huaweicloudsdkdevstar
+[2023-05-25 10:57:54] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkdbss]: success
+[2023-05-25 10:57:54] INFO root fetch - processPackages [huaweicloudsdkdevsecurity]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:57:54] INFO root fetch - processPackages [huaweicloudsdkdevstar]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:57:54] INFO root fetch - processPackages [huaweicloudsdkdeh]: executing diffoscope
+[2023-05-25 10:57:54] INFO root fetch - processPackages [huaweicloudsdkdeh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkdeh-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkdeh-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkdeh/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:57:54] INFO root fetch - processPackages [huaweicloudsdkdevsecurity]: executing diffoscope
+[2023-05-25 10:57:54] INFO root fetch - processPackages [huaweicloudsdkdevsecurity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkdevsecurity-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkdevsecurity-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkdevsecurity/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:57:54] INFO root fetch - processPackages [huaweicloudsdkdevstar]: executing diffoscope
+[2023-05-25 10:57:54] INFO root fetch - processPackages [huaweicloudsdkdevstar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkdevstar-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkdevstar-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkdevstar/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:57:54] INFO root fetch - processPackages [huaweicloudsdkcss]: Start processing: huaweicloudsdkdgc
+[2023-05-25 10:57:54] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkcss]: success
+[2023-05-25 10:57:54] INFO root fetch - processPackages [huaweicloudsdkdgc]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:57:54] INFO root fetch - processPackages [huaweicloudsdkdc]: Start processing: huaweicloudsdkdlf
+[2023-05-25 10:57:54] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkdc]: success
+[2023-05-25 10:57:55] INFO root fetch - processPackages [huaweicloudsdkdlf]: New version: [3.1.41] Old Version: [3.1.40]
+[2023-05-25 10:57:55] INFO root fetch - processPackages [huaweicloudsdkdgc]: executing diffoscope
+[2023-05-25 10:57:55] INFO root fetch - processPackages [huaweicloudsdkdgc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkdgc-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkdgc-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkdgc/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:57:55] INFO root fetch - processPackages [tfp-nightly]: Start processing: huaweicloudsdkdli
+[2023-05-25 10:57:55] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-05-25 10:57:55] INFO root fetch - processPackages [huaweicloudsdkdlf]: Downloading https://files.pythonhosted.org/packages/8d/c9/3d7b4e1f5a2286bdc6e3b47f63114c8e555ac4b61e489d9299b6617b18bf/huaweicloudsdkdlf-3.1.41-py2.py3-none-any.whl
+[2023-05-25 10:57:55] INFO root fetch - processPackages [huaweicloudsdkdli]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:57:55] INFO root fetch - processPackages [huaweicloudsdkdlf]: executing diffoscope
+[2023-05-25 10:57:55] INFO root fetch - processPackages [huaweicloudsdkdlf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkdlf-3.1.40-py2.py3-none-any.whl.zip tmp/huaweicloudsdkdlf-3.1.41-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkdlf/3.1.40-3.1.41/diff.md --exclude *.pyd
+[2023-05-25 10:57:55] INFO root fetch - processPackages [huaweicloudsdkddm]: Start processing: huaweicloudsdkdms
+[2023-05-25 10:57:55] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkddm]: success
+[2023-05-25 10:57:55] INFO root fetch - processPackages [huaweicloudsdkdms]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:57:55] INFO root fetch - processPackages [huaweicloudsdkdli]: executing diffoscope
+[2023-05-25 10:57:55] INFO root fetch - processPackages [huaweicloudsdkdli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkdli-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkdli-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkdli/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:57:56] INFO root fetch - processPackages [huaweicloudsdkdms]: executing diffoscope
+[2023-05-25 10:57:56] INFO root fetch - processPackages [huaweicloudsdkdms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkdms-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkdms-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkdms/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:57:56] INFO root fetch - processPackages [huaweicloudsdkdeh]: Start processing: huaweicloudsdkdns
+[2023-05-25 10:57:56] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkdeh]: success
+[2023-05-25 10:57:56] INFO root fetch - processPackages [huaweicloudsdkdns]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:57:56] INFO root fetch - processPackages [huaweicloudsdkdcs]: Start processing: huaweicloudsdkdris
+[2023-05-25 10:57:56] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkdcs]: success
+[2023-05-25 10:57:56] INFO root fetch - processPackages [huaweicloudsdkdris]: New version: [3.1.41] Old Version: [3.1.40]
+[2023-05-25 10:57:56] INFO root fetch - processPackages [huaweicloudsdkdevsecurity]: Start processing: huaweicloudsdkdrs
+[2023-05-25 10:57:56] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkdevsecurity]: success
+[2023-05-25 10:57:56] INFO root fetch - processPackages [huaweicloudsdkdns]: executing diffoscope
+[2023-05-25 10:57:56] INFO root fetch - processPackages [huaweicloudsdkdns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkdns-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkdns-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkdns/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:57:56] INFO root fetch - processPackages [huaweicloudsdkdrs]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:57:56] INFO root fetch - processPackages [huaweicloudsdkdris]: Downloading https://files.pythonhosted.org/packages/c1/36/23b110c84641f579e53002450708a73ba50924f30fd19ef5c9c0dc395535/huaweicloudsdkdris-3.1.41-py2.py3-none-any.whl
+[2023-05-25 10:57:56] INFO root fetch - processPackages [huaweicloudsdkdevstar]: Start processing: huaweicloudsdkdsc
+[2023-05-25 10:57:56] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkdevstar]: success
+[2023-05-25 10:57:56] INFO root fetch - processPackages [huaweicloudsdkdris]: executing diffoscope
+[2023-05-25 10:57:56] INFO root fetch - processPackages [huaweicloudsdkdris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkdris-3.1.40-py2.py3-none-any.whl.zip tmp/huaweicloudsdkdris-3.1.41-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkdris/3.1.40-3.1.41/diff.md --exclude *.pyd
+[2023-05-25 10:57:57] INFO root fetch - processPackages [huaweicloudsdkdsc]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:57:57] INFO root fetch - processPackages [huaweicloudsdkdrs]: executing diffoscope
+[2023-05-25 10:57:57] INFO root fetch - processPackages [huaweicloudsdkdrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkdrs-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkdrs-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkdrs/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:57:57] INFO root fetch - processPackages [huaweicloudsdkdsc]: executing diffoscope
+[2023-05-25 10:57:57] INFO root fetch - processPackages [huaweicloudsdkdsc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkdsc-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkdsc-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkdsc/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:57:57] INFO root fetch - processPackages [huaweicloudsdkdds]: Start processing: huaweicloudsdkdwr
+[2023-05-25 10:57:57] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkdds]: success
+[2023-05-25 10:57:57] INFO root fetch - processPackages [huaweicloudsdkdwr]: New version: [3.1.41] Old Version: [3.1.40]
+[2023-05-25 10:57:57] INFO root fetch - processPackages [huaweicloudsdkdgc]: Start processing: huaweicloudsdkdws
+[2023-05-25 10:57:57] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkdgc]: success
+[2023-05-25 10:57:57] INFO root fetch - processPackages [huaweicloudsdkdlf]: Start processing: huaweicloudsdkecs
+[2023-05-25 10:57:57] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkdlf]: success
+[2023-05-25 10:57:57] INFO root fetch - processPackages [huaweicloudsdkdws]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:57:57] INFO root fetch - processPackages [huaweicloudsdkecs]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:57:57] INFO root fetch - processPackages [huaweicloudsdkdwr]: Downloading https://files.pythonhosted.org/packages/4a/44/a43183f26de2b8eaad36b56585d9775c8d46fc2dda13b6941a69f0506d42/huaweicloudsdkdwr-3.1.41-py2.py3-none-any.whl
+[2023-05-25 10:57:58] INFO root fetch - processPackages [huaweicloudsdkdwr]: executing diffoscope
+[2023-05-25 10:57:58] INFO root fetch - processPackages [huaweicloudsdkdwr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkdwr-3.1.40-py2.py3-none-any.whl.zip tmp/huaweicloudsdkdwr-3.1.41-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkdwr/3.1.40-3.1.41/diff.md --exclude *.pyd
+[2023-05-25 10:57:58] INFO root fetch - processPackages [huaweicloudsdkdms]: Start processing: huaweicloudsdkeg
+[2023-05-25 10:57:58] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkdms]: success
+[2023-05-25 10:57:58] INFO root fetch - processPackages [huaweicloudsdkdws]: executing diffoscope
+[2023-05-25 10:57:58] INFO root fetch - processPackages [huaweicloudsdkdws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkdws-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkdws-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkdws/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:57:58] INFO root fetch - processPackages [huaweicloudsdkeg]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:57:58] INFO root fetch - processPackages [huaweicloudsdkecs]: executing diffoscope
+[2023-05-25 10:57:58] INFO root fetch - processPackages [huaweicloudsdkecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkecs-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkecs-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkecs/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:57:58] INFO root fetch - processPackages [huaweicloudsdkeg]: executing diffoscope
+[2023-05-25 10:57:58] INFO root fetch - processPackages [huaweicloudsdkeg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkeg-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkeg-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkeg/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:57:59] INFO root fetch - processPackages [huaweicloudsdkdns]: Start processing: huaweicloudsdkeihealth
+[2023-05-25 10:57:59] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkdns]: success
+[2023-05-25 10:57:59] INFO root fetch - processPackages [huaweicloudsdkeihealth]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:57:59] INFO root fetch - processPackages [huaweicloudsdkdsc]: Start processing: huaweicloudsdkeip
+[2023-05-25 10:57:59] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkdsc]: success
+[2023-05-25 10:57:59] INFO root fetch - processPackages [huaweicloudsdkeip]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:57:59] INFO root fetch - processPackages [huaweicloudsdkeihealth]: executing diffoscope
+[2023-05-25 10:57:59] INFO root fetch - processPackages [huaweicloudsdkeihealth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkeihealth-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkeihealth-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkeihealth/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:58:00] INFO root fetch - processPackages [huaweicloudsdkdwr]: Start processing: huaweicloudsdkelb
+[2023-05-25 10:58:00] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkdwr]: success
+[2023-05-25 10:58:00] INFO root fetch - processPackages [huaweicloudsdkeip]: executing diffoscope
+[2023-05-25 10:58:00] INFO root fetch - processPackages [huaweicloudsdkeip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkeip-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkeip-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkeip/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:58:00] INFO root fetch - processPackages [huaweicloudsdkdws]: Start processing: huaweicloudsdkeps
+[2023-05-25 10:58:00] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkdws]: success
+[2023-05-25 10:58:00] INFO root fetch - processPackages [huaweicloudsdkelb]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:58:00] INFO root fetch - processPackages [huaweicloudsdkeps]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:58:00] INFO root fetch - processPackages [huaweicloudsdkdris]: Start processing: huaweicloudsdker
+[2023-05-25 10:58:00] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkdris]: success
+[2023-05-25 10:58:00] INFO root fetch - processPackages [huaweicloudsdkdrs]: Start processing: huaweicloudsdkevs
+[2023-05-25 10:58:00] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkdrs]: success
+[2023-05-25 10:58:00] INFO root fetch - processPackages [huaweicloudsdker]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:58:00] INFO root fetch - processPackages [huaweicloudsdkevs]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:58:00] INFO root fetch - processPackages [huaweicloudsdkelb]: executing diffoscope
+[2023-05-25 10:58:00] INFO root fetch - processPackages [huaweicloudsdkelb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkelb-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkelb-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkelb/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:58:00] INFO root fetch - processPackages [huaweicloudsdkeps]: executing diffoscope
+[2023-05-25 10:58:00] INFO root fetch - processPackages [huaweicloudsdkeps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkeps-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkeps-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkeps/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:58:00] INFO root fetch - processPackages [huaweicloudsdkdli]: Start processing: huaweicloudsdkfrs
+[2023-05-25 10:58:00] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkdli]: success
+[2023-05-25 10:58:00] INFO root fetch - processPackages [huaweicloudsdkfrs]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:58:00] INFO root fetch - processPackages [huaweicloudsdker]: executing diffoscope
+[2023-05-25 10:58:00] INFO root fetch - processPackages [huaweicloudsdker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdker-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdker-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdker/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:58:01] INFO root fetch - processPackages [huaweicloudsdkevs]: executing diffoscope
+[2023-05-25 10:58:01] INFO root fetch - processPackages [huaweicloudsdkevs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkevs-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkevs-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkevs/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:58:01] INFO root fetch - processPackages [huaweicloudsdkeg]: Start processing: huaweicloudsdkfunctiongraph
+[2023-05-25 10:58:01] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkeg]: success
+[2023-05-25 10:58:01] INFO root fetch - processPackages [huaweicloudsdkfrs]: executing diffoscope
+[2023-05-25 10:58:01] INFO root fetch - processPackages [huaweicloudsdkfrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkfrs-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkfrs-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkfrs/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:58:01] INFO root fetch - processPackages [huaweicloudsdkfunctiongraph]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:58:01] INFO root fetch - processPackages [opengeode]: Start processing: huaweicloudsdkga
+[2023-05-25 10:58:01] INFO root fetch - main [MainThread]: End processing [opengeode]: success
+[2023-05-25 10:58:01] INFO root fetch - processPackages [huaweicloudsdkfunctiongraph]: executing diffoscope
+[2023-05-25 10:58:01] INFO root fetch - processPackages [huaweicloudsdkfunctiongraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkfunctiongraph-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkfunctiongraph-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkfunctiongraph/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:58:01] INFO root fetch - processPackages [huaweicloudsdkga]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:58:02] INFO root fetch - processPackages [huaweicloudsdkga]: executing diffoscope
+[2023-05-25 10:58:02] INFO root fetch - processPackages [huaweicloudsdkga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkga-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkga-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkga/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:58:02] INFO root fetch - processPackages [huaweicloudsdkeps]: Start processing: huaweicloudsdkgaussdb
+[2023-05-25 10:58:02] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkeps]: success
+[2023-05-25 10:58:02] INFO root fetch - processPackages [huaweicloudsdkgaussdb]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:58:03] INFO root fetch - processPackages [huaweicloudsdkgaussdb]: executing diffoscope
+[2023-05-25 10:58:03] INFO root fetch - processPackages [huaweicloudsdkgaussdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkgaussdb-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkgaussdb-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkgaussdb/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:58:03] INFO root fetch - processPackages [huaweicloudsdkeip]: Start processing: huaweicloudsdkgaussdbfornosql
+[2023-05-25 10:58:03] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkeip]: success
+[2023-05-25 10:58:03] INFO root fetch - processPackages [huaweicloudsdkgaussdbfornosql]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:58:03] INFO root fetch - processPackages [huaweicloudsdkecs]: Start processing: bionty
+[2023-05-25 10:58:03] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkecs]: success
+[2023-05-25 10:58:03] INFO root fetch - processPackages [bionty]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2023-05-25 10:58:03] INFO root fetch - processPackages [huaweicloudsdker]: Start processing: huaweicloudsdkgaussdbforopengauss
+[2023-05-25 10:58:03] INFO root fetch - main [MainThread]: End processing [huaweicloudsdker]: success
+[2023-05-25 10:58:03] INFO root fetch - processPackages [huaweicloudsdkgaussdbforopengauss]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:58:03] INFO root fetch - processPackages [bionty]: Downloading https://files.pythonhosted.org/packages/99/96/56b5f6e7d406917b173d9b761f4b2ff41b68d375105fe40b9b23131b295d/bionty-0.9.0.tar.gz
+[2023-05-25 10:58:03] INFO root fetch - processPackages [huaweicloudsdkgaussdbfornosql]: executing diffoscope
+[2023-05-25 10:58:03] INFO root fetch - processPackages [huaweicloudsdkgaussdbfornosql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkgaussdbfornosql-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkgaussdbfornosql-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkgaussdbfornosql/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:58:03] INFO root fetch - processPackages [huaweicloudsdkevs]: Start processing: huaweicloudsdkges
+[2023-05-25 10:58:03] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkevs]: success
+[2023-05-25 10:58:03] INFO root fetch - processPackages [huaweicloudsdkges]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:58:03] INFO root fetch - processPackages [huaweicloudsdkfrs]: Start processing: huaweicloudsdkgsl
+[2023-05-25 10:58:03] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkfrs]: success
+[2023-05-25 10:58:04] INFO root fetch - processPackages [huaweicloudsdkgsl]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:58:04] INFO root fetch - processPackages [huaweicloudsdkgaussdbforopengauss]: executing diffoscope
+[2023-05-25 10:58:04] INFO root fetch - processPackages [huaweicloudsdkgaussdbforopengauss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkgaussdbforopengauss-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkgaussdbforopengauss-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkgaussdbforopengauss/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:58:04] INFO root fetch - processPackages [bionty]: Downloading https://files.pythonhosted.org/packages/f4/01/3a99104d9a37cf7fbdae5c733cec97f252f8eb35f5553cd253a05edf8420/bionty-0.9.0rc1.tar.gz
+[2023-05-25 10:58:04] INFO root fetch - processPackages [huaweicloudsdkges]: executing diffoscope
+[2023-05-25 10:58:04] INFO root fetch - processPackages [huaweicloudsdkges]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkges-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkges-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkges/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:58:04] INFO root fetch - processPackages [huaweicloudsdkga]: Start processing: huaweicloudsdkhilens
+[2023-05-25 10:58:04] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkga]: success
+[2023-05-25 10:58:04] INFO root fetch - processPackages [huaweicloudsdkgsl]: executing diffoscope
+[2023-05-25 10:58:04] INFO root fetch - processPackages [huaweicloudsdkgsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkgsl-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkgsl-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkgsl/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:58:04] INFO root fetch - processPackages [huaweicloudsdkhilens]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:58:04] INFO root fetch - processPackages [bionty]: executing diffoscope
+[2023-05-25 10:58:04] INFO root fetch - processPackages [bionty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bionty-0.9.0.tar.gz tmp/bionty-0.9.0rc1.tar.gz --markdown 20230525/b/bionty/0.9.0-0.9.0rc1/diff.md --exclude *.pyd
+[2023-05-25 10:58:04] INFO root fetch - processPackages [huaweicloudsdkhilens]: executing diffoscope
+[2023-05-25 10:58:04] INFO root fetch - processPackages [huaweicloudsdkhilens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkhilens-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkhilens-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkhilens/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:58:05] INFO root fetch - processPackages [huaweicloudsdkfunctiongraph]: Start processing: huaweicloudsdkhss
+[2023-05-25 10:58:05] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkfunctiongraph]: success
+[2023-05-25 10:58:05] INFO root fetch - processPackages [huaweicloudsdkhss]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:58:05] INFO root fetch - processPackages [huaweicloudsdkhss]: executing diffoscope
+[2023-05-25 10:58:05] INFO root fetch - processPackages [huaweicloudsdkhss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkhss-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkhss-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkhss/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:58:06] INFO root fetch - processPackages [huaweicloudsdkgaussdbfornosql]: Start processing: huaweicloudsdkiam
+[2023-05-25 10:58:06] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkgaussdbfornosql]: success
+[2023-05-25 10:58:06] INFO root fetch - processPackages [huaweicloudsdkiam]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:58:06] INFO root fetch - processPackages [huaweicloudsdkhilens]: Start processing: huaweicloudsdkiec
+[2023-05-25 10:58:06] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkhilens]: success
+[2023-05-25 10:58:06] INFO root fetch - processPackages [huaweicloudsdkgaussdbforopengauss]: Start processing: huaweicloudsdkief
+[2023-05-25 10:58:06] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkgaussdbforopengauss]: success
+[2023-05-25 10:58:06] INFO root fetch - processPackages [huaweicloudsdkges]: Start processing: huaweicloudsdkies
+[2023-05-25 10:58:06] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkges]: success
+[2023-05-25 10:58:06] INFO root fetch - processPackages [huaweicloudsdkiec]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:58:06] INFO root fetch - processPackages [huaweicloudsdkgsl]: Start processing: huaweicloudsdkimage
+[2023-05-25 10:58:06] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkgsl]: success
+[2023-05-25 10:58:06] INFO root fetch - processPackages [huaweicloudsdkief]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:58:07] INFO root fetch - processPackages [huaweicloudsdkiam]: executing diffoscope
+[2023-05-25 10:58:07] INFO root fetch - processPackages [huaweicloudsdkiam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkiam-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkiam-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkiam/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:58:07] INFO root fetch - processPackages [huaweicloudsdkies]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:58:07] INFO root fetch - processPackages [huaweicloudsdkimage]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:58:07] INFO root fetch - processPackages [huaweicloudsdkgaussdb]: Start processing: huaweicloudsdkimagesearch
+[2023-05-25 10:58:07] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkgaussdb]: success
+[2023-05-25 10:58:07] INFO root fetch - processPackages [huaweicloudsdkimagesearch]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:58:07] INFO root fetch - processPackages [huaweicloudsdkiec]: executing diffoscope
+[2023-05-25 10:58:07] INFO root fetch - processPackages [huaweicloudsdkiec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkiec-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkiec-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkiec/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:58:07] INFO root fetch - processPackages [huaweicloudsdkief]: executing diffoscope
+[2023-05-25 10:58:07] INFO root fetch - processPackages [huaweicloudsdkief]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkief-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkief-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkief/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:58:07] INFO root fetch - processPackages [huaweicloudsdkies]: executing diffoscope
+[2023-05-25 10:58:07] INFO root fetch - processPackages [huaweicloudsdkies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkies-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkies-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkies/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:58:07] INFO root fetch - processPackages [huaweicloudsdkimage]: executing diffoscope
+[2023-05-25 10:58:07] INFO root fetch - processPackages [huaweicloudsdkimage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkimage-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkimage-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkimage/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:58:07] INFO root fetch - processPackages [bionty]: Start processing: huaweicloudsdkims
+[2023-05-25 10:58:07] INFO root fetch - main [MainThread]: End processing [bionty]: success
+[2023-05-25 10:58:07] INFO root fetch - processPackages [huaweicloudsdkims]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:58:07] INFO root fetch - processPackages [huaweicloudsdkimagesearch]: executing diffoscope
+[2023-05-25 10:58:07] INFO root fetch - processPackages [huaweicloudsdkimagesearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkimagesearch-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkimagesearch-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkimagesearch/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:58:07] INFO root fetch - processPackages [huaweicloudsdkhss]: Start processing: huaweicloudsdkiotanalytics
+[2023-05-25 10:58:07] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkhss]: success
+[2023-05-25 10:58:07] INFO root fetch - processPackages [huaweicloudsdkiotanalytics]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:58:08] INFO root fetch - processPackages [huaweicloudsdkims]: executing diffoscope
+[2023-05-25 10:58:08] INFO root fetch - processPackages [huaweicloudsdkims]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkims-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkims-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkims/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:58:08] INFO root fetch - processPackages [huaweicloudsdkelb]: Start processing: huaweicloudsdkiotda
+[2023-05-25 10:58:08] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkelb]: success
+[2023-05-25 10:58:08] INFO root fetch - processPackages [huaweicloudsdkiotda]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:58:08] INFO root fetch - processPackages [huaweicloudsdkiotanalytics]: executing diffoscope
+[2023-05-25 10:58:08] INFO root fetch - processPackages [huaweicloudsdkiotanalytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkiotanalytics-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkiotanalytics-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkiotanalytics/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:58:08] INFO root fetch - processPackages [huaweicloudsdkiotda]: executing diffoscope
+[2023-05-25 10:58:08] INFO root fetch - processPackages [huaweicloudsdkiotda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkiotda-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkiotda-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkiotda/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:58:09] INFO root fetch - processPackages [huaweicloudsdkimage]: Start processing: huaweicloudsdkiotedge
+[2023-05-25 10:58:09] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkimage]: success
+[2023-05-25 10:58:09] INFO root fetch - processPackages [huaweicloudsdkiotedge]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:58:09] INFO root fetch - processPackages [huaweicloudsdkeihealth]: Start processing: huaweicloudsdkivs
+[2023-05-25 10:58:09] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkeihealth]: success
+[2023-05-25 10:58:09] INFO root fetch - processPackages [huaweicloudsdkies]: Start processing: huaweicloudsdkkafka
+[2023-05-25 10:58:09] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkies]: success
+[2023-05-25 10:58:09] INFO root fetch - processPackages [huaweicloudsdkivs]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:58:09] INFO root fetch - processPackages [huaweicloudsdkkafka]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:58:09] INFO root fetch - processPackages [huaweicloudsdkimagesearch]: Start processing: huaweicloudsdkkms
+[2023-05-25 10:58:09] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkimagesearch]: success
+[2023-05-25 10:58:09] INFO root fetch - processPackages [huaweicloudsdkiotedge]: executing diffoscope
+[2023-05-25 10:58:09] INFO root fetch - processPackages [huaweicloudsdkiotedge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkiotedge-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkiotedge-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkiotedge/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:58:09] INFO root fetch - processPackages [huaweicloudsdkkms]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:58:10] INFO root fetch - processPackages [huaweicloudsdkivs]: executing diffoscope
+[2023-05-25 10:58:10] INFO root fetch - processPackages [huaweicloudsdkivs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkivs-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkivs-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkivs/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:58:10] INFO root fetch - processPackages [huaweicloudsdkkafka]: executing diffoscope
+[2023-05-25 10:58:10] INFO root fetch - processPackages [huaweicloudsdkkafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkkafka-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkkafka-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkkafka/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:58:10] INFO root fetch - processPackages [huaweicloudsdkkms]: executing diffoscope
+[2023-05-25 10:58:10] INFO root fetch - processPackages [huaweicloudsdkkms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkkms-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkkms-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkkms/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:58:10] INFO root fetch - processPackages [huaweicloudsdkims]: Start processing: huaweicloudsdkkps
+[2023-05-25 10:58:10] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkims]: success
+[2023-05-25 10:58:11] INFO root fetch - processPackages [huaweicloudsdkkps]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:58:11] INFO root fetch - processPackages [huaweicloudsdkkps]: executing diffoscope
+[2023-05-25 10:58:11] INFO root fetch - processPackages [huaweicloudsdkkps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkkps-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkkps-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkkps/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:58:11] INFO root fetch - processPackages [huaweicloudsdkiec]: Start processing: huaweicloudsdklakeformation
+[2023-05-25 10:58:11] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkiec]: success
+[2023-05-25 10:58:11] INFO root fetch - processPackages [huaweicloudsdklakeformation]: New version: [3.1.41] Old Version: [3.1.40]
+[2023-05-25 10:58:11] INFO root fetch - processPackages [huaweicloudsdkivs]: Start processing: huaweicloudsdklive
+[2023-05-25 10:58:11] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkivs]: success
+[2023-05-25 10:58:11] INFO root fetch - processPackages [huaweicloudsdklive]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:58:12] INFO root fetch - processPackages [huaweicloudsdklakeformation]: Downloading https://files.pythonhosted.org/packages/96/02/b9bb9cf7ff7cbe42428a118d49f5bd73efc5caabc7cf95db7e5085910f49/huaweicloudsdklakeformation-3.1.41-py2.py3-none-any.whl
+[2023-05-25 10:58:12] INFO root fetch - processPackages [huaweicloudsdklakeformation]: executing diffoscope
+[2023-05-25 10:58:12] INFO root fetch - processPackages [huaweicloudsdklakeformation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdklakeformation-3.1.40-py2.py3-none-any.whl.zip tmp/huaweicloudsdklakeformation-3.1.41-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdklakeformation/3.1.40-3.1.41/diff.md --exclude *.pyd
+[2023-05-25 10:58:12] INFO root fetch - processPackages [huaweicloudsdklive]: executing diffoscope
+[2023-05-25 10:58:12] INFO root fetch - processPackages [huaweicloudsdklive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdklive-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdklive-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdklive/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:58:12] INFO root fetch - processPackages [huaweicloudsdkief]: Start processing: huaweicloudsdklts
+[2023-05-25 10:58:12] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkief]: success
+[2023-05-25 10:58:12] INFO root fetch - processPackages [huaweicloudsdkiotedge]: Start processing: huaweicloudsdkmapds
+[2023-05-25 10:58:12] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkiotedge]: success
+[2023-05-25 10:58:12] INFO root fetch - processPackages [huaweicloudsdklts]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:58:12] INFO root fetch - processPackages [huaweicloudsdkmapds]: New version: [3.1.41] Old Version: [3.1.40]
+[2023-05-25 10:58:12] INFO root fetch - processPackages [huaweicloudsdkiotanalytics]: Start processing: huaweicloudsdkmas
+[2023-05-25 10:58:12] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkiotanalytics]: success
+[2023-05-25 10:58:12] INFO root fetch - processPackages [huaweicloudsdkiotda]: Start processing: huaweicloudsdkmeeting
+[2023-05-25 10:58:12] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkiotda]: success
+[2023-05-25 10:58:12] INFO root fetch - processPackages [huaweicloudsdkmas]: New version: [3.1.41] Old Version: [3.1.40]
+[2023-05-25 10:58:12] INFO root fetch - processPackages [huaweicloudsdkmapds]: Downloading https://files.pythonhosted.org/packages/97/38/20e8e810f0ddb1935ed807d5a055173d3c6daf6a5a434704adc9eb2c7d61/huaweicloudsdkmapds-3.1.41-py2.py3-none-any.whl
+[2023-05-25 10:58:12] INFO root fetch - processPackages [huaweicloudsdkmeeting]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:58:12] INFO root fetch - processPackages [huaweicloudsdklts]: executing diffoscope
+[2023-05-25 10:58:12] INFO root fetch - processPackages [huaweicloudsdklts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdklts-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdklts-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdklts/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:58:13] INFO root fetch - processPackages [huaweicloudsdkmapds]: executing diffoscope
+[2023-05-25 10:58:13] INFO root fetch - processPackages [huaweicloudsdkmapds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkmapds-3.1.40-py2.py3-none-any.whl.zip tmp/huaweicloudsdkmapds-3.1.41-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkmapds/3.1.40-3.1.41/diff.md --exclude *.pyd
+[2023-05-25 10:58:13] INFO root fetch - processPackages [huaweicloudsdkkps]: Start processing: odoo-addon-scrap-reason-code
+[2023-05-25 10:58:13] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkkps]: success
+[2023-05-25 10:58:13] INFO root fetch - processPackages [huaweicloudsdkmas]: Downloading https://files.pythonhosted.org/packages/7c/f4/f1ddf8fd4184c00e70b2059ae82d4886d168ba2093dcfc45ad7daff1dd3a/huaweicloudsdkmas-3.1.41-py2.py3-none-any.whl
+[2023-05-25 10:58:13] INFO root fetch - processPackages [odoo-addon-scrap-reason-code]: New version: [16.0.1.0.2] Old Version: [15.0.1.1.0]
+[2023-05-25 10:58:13] INFO root fetch - processPackages [huaweicloudsdkmeeting]: executing diffoscope
+[2023-05-25 10:58:13] INFO root fetch - processPackages [huaweicloudsdkmeeting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkmeeting-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkmeeting-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkmeeting/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:58:13] INFO root fetch - processPackages [odoo-addon-scrap-reason-code]: executing diffoscope
+[2023-05-25 10:58:13] INFO root fetch - processPackages [odoo-addon-scrap-reason-code]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_scrap_reason_code-15.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_scrap_reason_code-16.0.1.0.2-py3-none-any.whl.zip --markdown 20230525/o/odoo-addon-scrap-reason-code/15.0.1.1.0-16.0.1.0.2/diff.md --exclude *.pyd
+[2023-05-25 10:58:13] INFO root fetch - processPackages [huaweicloudsdkkafka]: Start processing: huaweicloudsdkmetastudio
+[2023-05-25 10:58:13] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkkafka]: success
+[2023-05-25 10:58:13] INFO root fetch - processPackages [huaweicloudsdkmas]: executing diffoscope
+[2023-05-25 10:58:13] INFO root fetch - processPackages [huaweicloudsdkmas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkmas-3.1.40-py2.py3-none-any.whl.zip tmp/huaweicloudsdkmas-3.1.41-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkmas/3.1.40-3.1.41/diff.md --exclude *.pyd
+[2023-05-25 10:58:13] INFO root fetch - processPackages [huaweicloudsdkmetastudio]: New version: [3.1.41] Old Version: [3.1.40]
+[2023-05-25 10:58:13] INFO root fetch - processPackages [huaweicloudsdkmetastudio]: Downloading https://files.pythonhosted.org/packages/d9/d8/2b53a792f0fd7f43e8cc321113f9df0e2a19625a84f2db6ef95f81f7cc52/huaweicloudsdkmetastudio-3.1.41-py2.py3-none-any.whl
+[2023-05-25 10:58:14] INFO root fetch - processPackages [huaweicloudsdkmetastudio]: executing diffoscope
+[2023-05-25 10:58:14] INFO root fetch - processPackages [huaweicloudsdkmetastudio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkmetastudio-3.1.40-py2.py3-none-any.whl.zip tmp/huaweicloudsdkmetastudio-3.1.41-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkmetastudio/3.1.40-3.1.41/diff.md --exclude *.pyd
+[2023-05-25 10:58:14] INFO root fetch - processPackages [huaweicloudsdkmapds]: Start processing: huaweicloudsdkmoderation
+[2023-05-25 10:58:14] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkmapds]: success
+[2023-05-25 10:58:14] INFO root fetch - processPackages [huaweicloudsdkmoderation]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:58:14] INFO root fetch - processPackages [huaweicloudsdkiam]: Start processing: huaweicloudsdkmpc
+[2023-05-25 10:58:14] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkiam]: success
+[2023-05-25 10:58:15] INFO root fetch - processPackages [huaweicloudsdkmpc]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:58:15] INFO root fetch - processPackages [huaweicloudsdkkms]: Start processing: huaweicloudsdkmrs
+[2023-05-25 10:58:15] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkkms]: success
+[2023-05-25 10:58:15] INFO root fetch - processPackages [huaweicloudsdkmrs]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:58:15] INFO root fetch - processPackages [odoo-addon-scrap-reason-code]: Start processing: huaweicloudsdkmsgsms
+[2023-05-25 10:58:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-scrap-reason-code]: success
+[2023-05-25 10:58:15] INFO root fetch - processPackages [huaweicloudsdkmoderation]: executing diffoscope
+[2023-05-25 10:58:15] INFO root fetch - processPackages [huaweicloudsdkmoderation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkmoderation-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkmoderation-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkmoderation/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:58:15] INFO root fetch - processPackages [huaweicloudsdkmas]: Start processing: huaweicloudsdknat
+[2023-05-25 10:58:15] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkmas]: success
+[2023-05-25 10:58:15] INFO root fetch - processPackages [huaweicloudsdkmsgsms]: New version: [3.1.41] Old Version: [3.1.40]
+[2023-05-25 10:58:15] INFO root fetch - processPackages [huaweicloudsdkmpc]: executing diffoscope
+[2023-05-25 10:58:15] INFO root fetch - processPackages [huaweicloudsdkmpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkmpc-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkmpc-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkmpc/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:58:15] INFO root fetch - processPackages [huaweicloudsdknat]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:58:15] INFO root fetch - processPackages [huaweicloudsdkmsgsms]: Downloading https://files.pythonhosted.org/packages/74/6b/ff76e8fc27a8ef8db87c4a09438f51f8a5f490c3c7704ad3b62ea08cfcbb/huaweicloudsdkmsgsms-3.1.40-py2.py3-none-any.whl
+[2023-05-25 10:58:15] INFO root fetch - processPackages [huaweicloudsdklive]: Start processing: huaweicloudsdknlp
+[2023-05-25 10:58:15] INFO root fetch - main [MainThread]: End processing [huaweicloudsdklive]: success
+[2023-05-25 10:58:15] INFO root fetch - processPackages [huaweicloudsdkmrs]: executing diffoscope
+[2023-05-25 10:58:15] INFO root fetch - processPackages [huaweicloudsdkmrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkmrs-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkmrs-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkmrs/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:58:15] INFO root fetch - processPackages [huaweicloudsdknlp]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:58:15] INFO root fetch - processPackages [huaweicloudsdkmsgsms]: Downloading https://files.pythonhosted.org/packages/85/80/37a4be9ef8888778434bc483e2f63e22cfc98eb84902b457d04698a9872c/huaweicloudsdkmsgsms-3.1.41-py2.py3-none-any.whl
+[2023-05-25 10:58:15] INFO root fetch - processPackages [huaweicloudsdknat]: executing diffoscope
+[2023-05-25 10:58:15] INFO root fetch - processPackages [huaweicloudsdknat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdknat-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdknat-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdknat/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:58:15] INFO root fetch - processPackages [huaweicloudsdkmsgsms]: executing diffoscope
+[2023-05-25 10:58:15] INFO root fetch - processPackages [huaweicloudsdkmsgsms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkmsgsms-3.1.40-py2.py3-none-any.whl.zip tmp/huaweicloudsdkmsgsms-3.1.41-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkmsgsms/3.1.40-3.1.41/diff.md --exclude *.pyd
+[2023-05-25 10:58:16] INFO root fetch - processPackages [huaweicloudsdkmetastudio]: Start processing: huaweicloudsdkocr
+[2023-05-25 10:58:16] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkmetastudio]: success
+[2023-05-25 10:58:16] INFO root fetch - processPackages [huaweicloudsdknlp]: executing diffoscope
+[2023-05-25 10:58:16] INFO root fetch - processPackages [huaweicloudsdknlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdknlp-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdknlp-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdknlp/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:58:16] INFO root fetch - processPackages [huaweicloudsdkocr]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:58:16] INFO root fetch - processPackages [huaweicloudsdklakeformation]: Start processing: huaweicloudsdkoms
+[2023-05-25 10:58:16] INFO root fetch - main [MainThread]: End processing [huaweicloudsdklakeformation]: success
+[2023-05-25 10:58:16] INFO root fetch - processPackages [huaweicloudsdkocr]: executing diffoscope
+[2023-05-25 10:58:16] INFO root fetch - processPackages [huaweicloudsdkocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkocr-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkocr-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkocr/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:58:16] INFO root fetch - processPackages [huaweicloudsdkoms]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:58:16] INFO root fetch - processPackages [huaweicloudsdklts]: Start processing: BaseNN
+[2023-05-25 10:58:16] INFO root fetch - main [MainThread]: End processing [huaweicloudsdklts]: success
+[2023-05-25 10:58:16] INFO root fetch - processPackages [BaseNN]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-25 10:58:17] INFO root fetch - processPackages [BaseNN]: Downloading https://files.pythonhosted.org/packages/9c/2d/87d9c5d1352b24f49c4cb9969cff52786495d0497ff342365fc369bd5223/BaseNN-0.1.2.tar.gz
+[2023-05-25 10:58:17] INFO root fetch - processPackages [BaseNN]: executing diffoscope
+[2023-05-25 10:58:17] INFO root fetch - processPackages [BaseNN]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BaseNN-0.1.1.tar.gz tmp/BaseNN-0.1.2.tar.gz --markdown 20230525/B/BaseNN/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-25 10:58:17] INFO root fetch - processPackages [huaweicloudsdkoms]: executing diffoscope
+[2023-05-25 10:58:17] INFO root fetch - processPackages [huaweicloudsdkoms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkoms-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkoms-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkoms/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:58:17] INFO root fetch - processPackages [huaweicloudsdkmoderation]: Start processing: huaweicloudsdkorganizations
+[2023-05-25 10:58:17] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkmoderation]: success
+[2023-05-25 10:58:17] INFO root fetch - processPackages [huaweicloudsdkorganizations]: New version: [3.1.41] Old Version: [3.1.40]
+[2023-05-25 10:58:17] INFO root fetch - processPackages [huaweicloudsdknat]: Start processing: huaweicloudsdkosm
+[2023-05-25 10:58:17] INFO root fetch - main [MainThread]: End processing [huaweicloudsdknat]: success
+[2023-05-25 10:58:17] INFO root fetch - processPackages [huaweicloudsdkosm]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:58:17] INFO root fetch - processPackages [huaweicloudsdkorganizations]: Downloading https://files.pythonhosted.org/packages/42/09/fa54d604482ee34b5c2a98613d9a080e937c96b39612a82784742fd92423/huaweicloudsdkorganizations-3.1.41-py2.py3-none-any.whl
+[2023-05-25 10:58:18] INFO root fetch - processPackages [huaweicloudsdkmsgsms]: Start processing: huaweicloudsdkprojectman
+[2023-05-25 10:58:18] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkmsgsms]: success
+[2023-05-25 10:58:18] INFO root fetch - processPackages [huaweicloudsdkorganizations]: executing diffoscope
+[2023-05-25 10:58:18] INFO root fetch - processPackages [huaweicloudsdkorganizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkorganizations-3.1.40-py2.py3-none-any.whl.zip tmp/huaweicloudsdkorganizations-3.1.41-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkorganizations/3.1.40-3.1.41/diff.md --exclude *.pyd
+[2023-05-25 10:58:18] INFO root fetch - processPackages [huaweicloudsdkprojectman]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:58:18] INFO root fetch - processPackages [huaweicloudsdkmrs]: Start processing: MeUtils
+[2023-05-25 10:58:18] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkmrs]: success
+[2023-05-25 10:58:18] INFO root fetch - processPackages [huaweicloudsdkosm]: executing diffoscope
+[2023-05-25 10:58:18] INFO root fetch - processPackages [huaweicloudsdkosm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkosm-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkosm-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkosm/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:58:18] INFO root fetch - processPackages [MeUtils]: New version: [2023.5.9.15.50.17] Old Version: [2023.5.5.13.0.43]
+[2023-05-25 10:58:18] INFO root fetch - processPackages [huaweicloudsdkprojectman]: executing diffoscope
+[2023-05-25 10:58:18] INFO root fetch - processPackages [huaweicloudsdkprojectman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkprojectman-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkprojectman-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkprojectman/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:58:18] INFO root fetch - processPackages [huaweicloudsdknlp]: Start processing: huaweicloudsdkrabbitmq
+[2023-05-25 10:58:18] INFO root fetch - main [MainThread]: End processing [huaweicloudsdknlp]: success
+[2023-05-25 10:58:18] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-05-25 10:58:18] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.5.5.13.0.43.tar.gz tmp/MeUtils-2023.5.9.15.50.17.tar.gz --markdown 20230525/M/MeUtils/2023.5.5.13.0.43-2023.5.9.15.50.17/diff.md --exclude *.pyd
+[2023-05-25 10:58:18] INFO root fetch - processPackages [BaseNN]: Start processing: huaweicloudsdkram
+[2023-05-25 10:58:18] INFO root fetch - main [MainThread]: End processing [BaseNN]: success
+[2023-05-25 10:58:18] INFO root fetch - processPackages [huaweicloudsdkrabbitmq]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:58:18] INFO root fetch - processPackages [huaweicloudsdkram]: New version: [3.1.41] Old Version: [3.1.40]
+[2023-05-25 10:58:19] INFO root fetch - processPackages [huaweicloudsdkram]: Downloading https://files.pythonhosted.org/packages/5a/88/5d4ff93ecde92f1723dbcee0c4f17609235fa2dd83fa1f75dd609af53a83/huaweicloudsdkram-3.1.40-py2.py3-none-any.whl
+[2023-05-25 10:58:19] INFO root fetch - processPackages [huaweicloudsdkrabbitmq]: executing diffoscope
+[2023-05-25 10:58:19] INFO root fetch - processPackages [huaweicloudsdkrabbitmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkrabbitmq-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkrabbitmq-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkrabbitmq/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:58:19] INFO root fetch - processPackages [huaweicloudsdkmpc]: Start processing: huaweicloudsdkrds
+[2023-05-25 10:58:19] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkmpc]: success
+[2023-05-25 10:58:19] INFO root fetch - processPackages [huaweicloudsdkram]: Downloading https://files.pythonhosted.org/packages/49/fc/6806d3e6157226e96ff6f5a290683309a2ea10be5720d8689bb41c49e97d/huaweicloudsdkram-3.1.41-py2.py3-none-any.whl
+[2023-05-25 10:58:19] INFO root fetch - processPackages [huaweicloudsdkrds]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:58:19] INFO root fetch - processPackages [huaweicloudsdkram]: executing diffoscope
+[2023-05-25 10:58:19] INFO root fetch - processPackages [huaweicloudsdkram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkram-3.1.40-py2.py3-none-any.whl.zip tmp/huaweicloudsdkram-3.1.41-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkram/3.1.40-3.1.41/diff.md --exclude *.pyd
+[2023-05-25 10:58:19] INFO root fetch - processPackages [huaweicloudsdkoms]: Start processing: huaweicloudsdkres
+[2023-05-25 10:58:19] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkoms]: success
+[2023-05-25 10:58:19] INFO root fetch - processPackages [huaweicloudsdkres]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:58:19] INFO root fetch - processPackages [huaweicloudsdkrds]: executing diffoscope
+[2023-05-25 10:58:19] INFO root fetch - processPackages [huaweicloudsdkrds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkrds-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkrds-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkrds/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:58:20] INFO root fetch - processPackages [huaweicloudsdkres]: executing diffoscope
+[2023-05-25 10:58:20] INFO root fetch - processPackages [huaweicloudsdkres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkres-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkres-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkres/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:58:20] INFO root fetch - processPackages [huaweicloudsdkocr]: Start processing: huaweicloudsdkrms
+[2023-05-25 10:58:20] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkocr]: success
+[2023-05-25 10:58:20] INFO root fetch - processPackages [huaweicloudsdkrms]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:58:20] INFO root fetch - processPackages [huaweicloudsdkorganizations]: Start processing: huaweicloudsdkrocketmq
+[2023-05-25 10:58:20] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkorganizations]: success
+[2023-05-25 10:58:20] INFO root fetch - processPackages [huaweicloudsdkrms]: executing diffoscope
+[2023-05-25 10:58:20] INFO root fetch - processPackages [huaweicloudsdkrms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkrms-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkrms-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkrms/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:58:20] INFO root fetch - processPackages [huaweicloudsdkrocketmq]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:58:21] INFO root fetch - processPackages [huaweicloudsdkrocketmq]: executing diffoscope
+[2023-05-25 10:58:21] INFO root fetch - processPackages [huaweicloudsdkrocketmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkrocketmq-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkrocketmq-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkrocketmq/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:58:21] INFO root fetch - processPackages [huaweicloudsdkrabbitmq]: Start processing: huaweicloudsdkroma
+[2023-05-25 10:58:21] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkrabbitmq]: success
+[2023-05-25 10:58:21] INFO root fetch - processPackages [huaweicloudsdkroma]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:58:21] INFO root fetch - processPackages [huaweicloudsdkroma]: executing diffoscope
+[2023-05-25 10:58:21] INFO root fetch - processPackages [huaweicloudsdkroma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkroma-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkroma-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkroma/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:58:21] INFO root fetch - processPackages [huaweicloudsdkram]: Start processing: huaweicloudsdksa
+[2023-05-25 10:58:21] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkram]: success
+[2023-05-25 10:58:21] INFO root fetch - processPackages [huaweicloudsdksa]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:58:22] INFO root fetch - processPackages [huaweicloudsdkosm]: Start processing: openai-parallel-toolkit
+[2023-05-25 10:58:22] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkosm]: success
+[2023-05-25 10:58:22] INFO root fetch - processPackages [huaweicloudsdksa]: executing diffoscope
+[2023-05-25 10:58:22] INFO root fetch - processPackages [huaweicloudsdksa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdksa-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdksa-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdksa/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:58:22] INFO root fetch - processPackages [openai-parallel-toolkit]: New version: [0.4.1] Old Version: [0.4]
+[2023-05-25 10:58:22] INFO root fetch - processPackages [huaweicloudsdkprojectman]: Start processing: huaweicloudsdkscm
+[2023-05-25 10:58:22] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkprojectman]: success
+[2023-05-25 10:58:22] INFO root fetch - processPackages [huaweicloudsdkscm]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:58:22] INFO root fetch - processPackages [openai-parallel-toolkit]: Downloading https://files.pythonhosted.org/packages/72/d2/bb5369f2ecc4fa01b6443f4bd0b9be64889c93f761aabef97ea460a08b25/openai_parallel_toolkit-0.4.1-py3-none-any.whl
+[2023-05-25 10:58:22] INFO root fetch - processPackages [huaweicloudsdkrms]: Start processing: huaweicloudsdksdrs
+[2023-05-25 10:58:22] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkrms]: success
+[2023-05-25 10:58:22] INFO root fetch - processPackages [openai-parallel-toolkit]: executing diffoscope
+[2023-05-25 10:58:22] INFO root fetch - processPackages [openai-parallel-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_parallel_toolkit-0.4-py3-none-any.whl.zip tmp/openai_parallel_toolkit-0.4.1-py3-none-any.whl.zip --markdown 20230525/o/openai-parallel-toolkit/0.4-0.4.1/diff.md --exclude *.pyd
+[2023-05-25 10:58:22] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkres]: success
+[2023-05-25 10:58:22] INFO root fetch - processPackages [huaweicloudsdksdrs]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-25 10:58:22] INFO root fetch - processPackages [huaweicloudsdkscm]: executing diffoscope
+[2023-05-25 10:58:22] INFO root fetch - processPackages [huaweicloudsdkscm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkscm-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkscm-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdkscm/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:58:22] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkmeeting]: success
+[2023-05-25 10:58:23] INFO root fetch - processPackages [huaweicloudsdksdrs]: executing diffoscope
+[2023-05-25 10:58:23] INFO root fetch - processPackages [huaweicloudsdksdrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdksdrs-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdksdrs-3.1.9-py2.py3-none-any.whl.zip --markdown 20230525/h/huaweicloudsdksdrs/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-25 10:58:23] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkrocketmq]: success
+[2023-05-25 10:58:24] INFO root fetch - main [MainThread]: End processing [huaweicloudsdksa]: success
+[2023-05-25 10:58:24] INFO root fetch - main [MainThread]: End processing [openai-parallel-toolkit]: success
+[2023-05-25 10:58:24] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkscm]: success
+[2023-05-25 10:58:24] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkrds]: success
+[2023-05-25 10:58:25] INFO root fetch - main [MainThread]: End processing [huaweicloudsdksdrs]: success
+[2023-05-25 10:58:29] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-05-25 10:58:35] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkroma]: success
+[2023-05-25 10:58:35] INFO root fetch - main [MainThread]: Store serial: [18243964]
