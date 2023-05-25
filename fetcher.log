@@ -16326,3 +16326,89 @@ EOFError: EOF read where object expected
 [2023-05-25 13:08:47] INFO root fetch - main [MainThread]: End processing [cubed]: success
 [2023-05-25 13:08:47] INFO root fetch - main [MainThread]: End processing [sleuren]: success
 [2023-05-25 13:08:47] INFO root fetch - main [MainThread]: Store serial: [18245477]
+[2023-05-25 13:13:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18245477]
+[2023-05-25 13:13:56] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-25 13:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: localstack-core
+[2023-05-25 13:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyqrack
+[2023-05-25 13:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spacy
+[2023-05-25 13:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kn-flatten-json
+[2023-05-25 13:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyaromatics
+[2023-05-25 13:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autosrt
+[2023-05-25 13:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: connect-cli
+[2023-05-25 13:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: th2-common-utils
+[2023-05-25 13:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ALMASim
+[2023-05-25 13:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kensu-datagalaxy-client
+[2023-05-25 13:13:56] INFO root fetch - processPackages [kn-flatten-json]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-25 13:13:56] WARNING root fetch - processPackages [kensu-datagalaxy-client]: Skipping, unable to determine old version
+[2023-05-25 13:13:56] INFO root fetch - processPackages [kensu-datagalaxy-client]: Start processing: cognite-sdk
+[2023-05-25 13:13:56] INFO root fetch - main [MainThread]: End processing [kensu-datagalaxy-client] error
+[2023-05-25 13:13:56] INFO root fetch - processPackages [spacy]: New version: [4.0.0.dev0] Old Version: [3.6.0.dev0]
+[2023-05-25 13:13:56] INFO root fetch - processPackages [th2-common-utils]: New version: [2.0.1] Old Version: [2.0.0.dev4574477823]
+[2023-05-25 13:13:56] INFO root fetch - processPackages [ALMASim]: New version: [1.5] Old Version: [1.1.1]
+[2023-05-25 13:13:56] INFO root fetch - processPackages [spacy]: executing diffoscope
+[2023-05-25 13:13:56] INFO root fetch - processPackages [kn-flatten-json]: executing diffoscope
+[2023-05-25 13:13:56] INFO root fetch - processPackages [spacy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacy-3.6.0.dev0.tar.gz tmp/spacy-4.0.0.dev0.tar.gz --markdown 20230525/s/spacy/3.6.0.dev0-4.0.0.dev0/diff.md --exclude *.pyd
+[2023-05-25 13:13:56] INFO root fetch - processPackages [kn-flatten-json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kn_flatten_json-0.0.6.tar.gz tmp/kn_flatten_json-0.0.7.tar.gz --markdown 20230525/k/kn-flatten-json/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-25 13:13:56] WARNING root fetch - processPackages [pyaromatics]: Skipping, unable to determine old version
+[2023-05-25 13:13:56] INFO root fetch - processPackages [pyaromatics]: Start processing: camminapy
+[2023-05-25 13:13:56] INFO root fetch - processPackages [autosrt]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-25 13:13:56] INFO root fetch - main [MainThread]: End processing [pyaromatics] error
+[2023-05-25 13:13:56] INFO root fetch - processPackages [th2-common-utils]: executing diffoscope
+[2023-05-25 13:13:56] INFO root fetch - processPackages [th2-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_common_utils-2.0.0.dev4574477823.tar.gz tmp/th2_common_utils-2.0.1.tar.gz --markdown 20230525/t/th2-common-utils/2.0.0.dev4574477823-2.0.1/diff.md --exclude *.pyd
+[2023-05-25 13:13:56] INFO root fetch - processPackages [connect-cli]: New version: [27.5] Old Version: [27.4]
+[2023-05-25 13:13:56] INFO root fetch - processPackages [camminapy]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-05-25 13:13:56] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230525110837] Old Version: [2.1.1.dev20230525100602]
+[2023-05-25 13:13:56] INFO root fetch - processPackages [pyqrack]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-05-25 13:13:56] INFO root fetch - processPackages [cognite-sdk]: New version: [6.2.0] Old Version: [6.1.9]
+[2023-05-25 13:13:56] INFO root fetch - processPackages [ALMASim]: executing diffoscope
+[2023-05-25 13:13:56] INFO root fetch - processPackages [ALMASim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ALMASim-1.1.1.tar.gz tmp/ALMASim-1.5.tar.gz --markdown 20230525/A/ALMASim/1.1.1-1.5/diff.md --exclude *.pyd
+[2023-05-25 13:13:56] INFO root fetch - processPackages [camminapy]: executing diffoscope
+[2023-05-25 13:13:56] INFO root fetch - processPackages [camminapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camminapy-0.8.8.tar.gz tmp/camminapy-0.8.9.tar.gz --markdown 20230525/c/camminapy/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-05-25 13:13:57] INFO root fetch - processPackages [connect-cli]: Downloading https://files.pythonhosted.org/packages/0b/b8/f7897e01d462f0e7a520405c701ecc51d6ea40f272dcfb18bf89b4873c4b/connect_cli-27.4.tar.gz
+[2023-05-25 13:13:57] INFO root fetch - processPackages [autosrt]: Downloading https://files.pythonhosted.org/packages/1c/ec/a4be6b54ee16e18afd8ed5299686f47cae0c1fae79e65710a53d94496b19/autosrt-1.2.8.tar.gz
+[2023-05-25 13:13:57] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/e8/68/b4ebefa654d5d2361efb701e30b0d091b682b34128185288830b81b3c650/localstack-core-2.1.1.dev20230525110837.tar.gz
+[2023-05-25 13:13:57] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/ae/be/7c6dcdab4eb0661855b593e29a526c7a33595ec5f44e6e89cb693aeef703/cognite_sdk-6.2.0.tar.gz
+[2023-05-25 13:13:57] INFO root fetch - processPackages [connect-cli]: Downloading https://files.pythonhosted.org/packages/c0/8c/92ecf91e966b3736b33f49ba2344ee3f5c3af61eb5d31ae248274fbe1251/connect_cli-27.5.tar.gz
+[2023-05-25 13:13:57] INFO root fetch - processPackages [cognite-sdk]: executing diffoscope
+[2023-05-25 13:13:57] INFO root fetch - processPackages [cognite-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_sdk-6.1.9.tar.gz tmp/cognite_sdk-6.2.0.tar.gz --markdown 20230525/c/cognite-sdk/6.1.9-6.2.0/diff.md --exclude *.pyd
+[2023-05-25 13:13:57] INFO root fetch - processPackages [autosrt]: Downloading https://files.pythonhosted.org/packages/c9/7a/e660dc6f4c3124dce558f07b54c0d522ab31efb02de0273b5e15838c2063/autosrt-1.2.9.tar.gz
+[2023-05-25 13:13:57] INFO root fetch - processPackages [pyqrack]: executing diffoscope
+[2023-05-25 13:13:57] INFO root fetch - processPackages [pyqrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqrack-1.9.5.tar.gz tmp/pyqrack-1.9.6.tar.gz --markdown 20230525/p/pyqrack/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-05-25 13:13:57] INFO root fetch - processPackages [autosrt]: executing diffoscope
+[2023-05-25 13:13:57] INFO root fetch - processPackages [autosrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autosrt-1.2.8.tar.gz tmp/autosrt-1.2.9.tar.gz --markdown 20230525/a/autosrt/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-25 13:13:57] INFO root fetch - processPackages [connect-cli]: executing diffoscope
+[2023-05-25 13:13:57] INFO root fetch - processPackages [connect-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connect_cli-27.4.tar.gz tmp/connect_cli-27.5.tar.gz --markdown 20230525/c/connect-cli/27.4-27.5/diff.md --exclude *.pyd
+[2023-05-25 13:13:57] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-05-25 13:13:57] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230525100602.tar.gz tmp/localstack-core-2.1.1.dev20230525110837.tar.gz --markdown 20230525/l/localstack-core/2.1.1.dev20230525100602-2.1.1.dev20230525110837/diff.md --exclude *.pyd
+[2023-05-25 13:13:58] INFO root fetch - processPackages [kn-flatten-json]: Start processing: camminapy
+[2023-05-25 13:13:58] INFO root fetch - main [MainThread]: End processing [kn-flatten-json]: success
+[2023-05-25 13:13:58] INFO root fetch - processPackages [camminapy]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-05-25 13:13:58] INFO root fetch - processPackages [camminapy]: executing diffoscope
+[2023-05-25 13:13:58] INFO root fetch - processPackages [camminapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camminapy-0.8.8.tar.gz tmp/camminapy-0.8.9.tar.gz --markdown 20230525/c/camminapy/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-05-25 13:13:58] INFO root fetch - processPackages [th2-common-utils]: Start processing: gtki-module-orup-errors
+[2023-05-25 13:13:58] INFO root fetch - main [MainThread]: End processing [th2-common-utils]: success
+[2023-05-25 13:13:58] INFO root fetch - processPackages [gtki-module-orup-errors]: New version: [1.36.61] Old Version: [1.36.6]
+[2023-05-25 13:13:58] INFO root fetch - processPackages [camminapy]: Start processing: tarvis-common
+[2023-05-25 13:13:58] INFO root fetch - main [MainThread]: End processing [camminapy]: success
+[2023-05-25 13:13:58] INFO root fetch - processPackages [tarvis-common]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-05-25 13:13:58] INFO root fetch - processPackages [gtki-module-orup-errors]: Downloading https://files.pythonhosted.org/packages/ff/7d/d4df7ec08a398249e0daf8288e14321cd5858ddb4ad7953325073ef2c576/gtki_module_orup_errors-1.36.61-py3-none-any.whl
+[2023-05-25 13:13:58] INFO root fetch - processPackages [tarvis-common]: Downloading https://files.pythonhosted.org/packages/f6/70/0458d83c868b50691e1a02cba41958930fc9c738e69417985b93ea277676/tarvis-common-0.9.6.tar.gz
+[2023-05-25 13:13:58] INFO root fetch - processPackages [pyqrack]: Start processing: wikiseriesbaslib
+[2023-05-25 13:13:58] INFO root fetch - main [MainThread]: End processing [pyqrack]: success
+[2023-05-25 13:13:58] INFO root fetch - processPackages [gtki-module-orup-errors]: executing diffoscope
+[2023-05-25 13:13:58] INFO root fetch - processPackages [gtki-module-orup-errors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gtki_module_orup_errors-1.36.6-py3-none-any.whl.zip tmp/gtki_module_orup_errors-1.36.61-py3-none-any.whl.zip --markdown 20230525/g/gtki-module-orup-errors/1.36.6-1.36.61/diff.md --exclude *.pyd
+[2023-05-25 13:13:59] ERROR root fetch - processPackages [wikiseriesbaslib]: Unable to get metadata: No such project 'wikiseriesbaslib'
+[2023-05-25 13:13:59] INFO root fetch - main [MainThread]: End processing [wikiseriesbaslib] error
+[2023-05-25 13:13:59] INFO root fetch - processPackages [tarvis-common]: Downloading https://files.pythonhosted.org/packages/a0/90/20ca7578b5f8a090eb4afb24ccae836c5227a1c54014a7d3d4e2dbd4bbb2/tarvis-common-0.9.7.tar.gz
+[2023-05-25 13:13:59] INFO root fetch - main [MainThread]: End processing [ALMASim]: success
+[2023-05-25 13:13:59] INFO root fetch - processPackages [tarvis-common]: executing diffoscope
+[2023-05-25 13:13:59] INFO root fetch - processPackages [tarvis-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tarvis-common-0.9.6.tar.gz tmp/tarvis-common-0.9.7.tar.gz --markdown 20230525/t/tarvis-common/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-05-25 13:13:59] INFO root fetch - main [MainThread]: End processing [autosrt]: success
+[2023-05-25 13:13:59] INFO root fetch - main [MainThread]: End processing [camminapy]: success
+[2023-05-25 13:14:00] INFO root fetch - main [MainThread]: End processing [gtki-module-orup-errors]: success
+[2023-05-25 13:14:00] INFO root fetch - main [MainThread]: End processing [tarvis-common]: success
+[2023-05-25 13:14:00] INFO root fetch - main [MainThread]: End processing [connect-cli]: success
+[2023-05-25 13:14:02] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
+[2023-05-25 13:14:06] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-05-25 13:14:13] INFO root fetch - main [MainThread]: End processing [spacy]: success
+[2023-05-25 13:14:13] INFO root fetch - main [MainThread]: Store serial: [18245551]
