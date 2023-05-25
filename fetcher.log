@@ -14321,3 +14321,195 @@
 [2023-05-25 11:20:00] INFO root fetch - main [MainThread]: End processing [pymodaq-plugins-physik-instrumente]: success
 [2023-05-25 11:20:43] INFO root fetch - main [MainThread]: End processing [seaborn-extensions]: success
 [2023-05-25 11:20:43] INFO root fetch - main [MainThread]: Store serial: [18244294]
+[2023-05-25 11:25:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18244294]
+[2023-05-25 11:25:52] INFO root fetch - main [MainThread]: Found 34 changed packages
+[2023-05-25 11:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coconut-develop
+[2023-05-25 11:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spanishconjugator
+[2023-05-25 11:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: camminapy
+[2023-05-25 11:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: camminapy
+[2023-05-25 11:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spanishconjugator
+[2023-05-25 11:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zerobug
+[2023-05-25 11:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: space-rocks
+[2023-05-25 11:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: getviz
+[2023-05-25 11:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: quarchpy
+[2023-05-25 11:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: edu-segmentation
+[2023-05-25 11:25:52] INFO root fetch - processPackages [space-rocks]: New version: [1.8.0] Old Version: [1.7.7]
+[2023-05-25 11:25:52] INFO root fetch - processPackages [edu-segmentation]: New version: [0.0.56] Old Version: [0.0.55]
+[2023-05-25 11:25:52] INFO root fetch - processPackages [camminapy]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-05-25 11:25:52] INFO root fetch - processPackages [camminapy]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-05-25 11:25:52] WARNING root fetch - processPackages [getviz]: Skipping, unable to determine old version
+[2023-05-25 11:25:52] INFO root fetch - processPackages [getviz]: Start processing: exchange-calendars
+[2023-05-25 11:25:52] INFO root fetch - main [MainThread]: End processing [getviz] error
+[2023-05-25 11:25:52] INFO root fetch - processPackages [space-rocks]: executing diffoscope
+[2023-05-25 11:25:52] INFO root fetch - processPackages [edu-segmentation]: executing diffoscope
+[2023-05-25 11:25:52] INFO root fetch - processPackages [space-rocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/space_rocks-1.7.7.tar.gz tmp/space_rocks-1.8.0.tar.gz --markdown 20230525/s/space-rocks/1.7.7-1.8.0/diff.md --exclude *.pyd
+[2023-05-25 11:25:52] INFO root fetch - processPackages [zerobug]: New version: [2.0.7] Old Version: [2.0.6]
+[2023-05-25 11:25:52] INFO root fetch - processPackages [edu-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edu_segmentation-0.0.55.tar.gz tmp/edu_segmentation-0.0.56.tar.gz --markdown 20230525/e/edu-segmentation/0.0.55-0.0.56/diff.md --exclude *.pyd
+[2023-05-25 11:25:52] INFO root fetch - processPackages [quarchpy]: New version: [2.1.9.dev3] Old Version: [2.1.9.dev2]
+[2023-05-25 11:25:52] INFO root fetch - processPackages [coconut-develop]: New version: [3.0.1.post0.dev4] Old Version: [3.0.1.post0.dev3]
+[2023-05-25 11:25:53] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-25 11:25:53] INFO root fetch - processPackages [exchange-calendars]: New version: [4.2.8] Old Version: [4.2.7]
+[2023-05-25 11:25:53] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-25 11:25:53] INFO root fetch - processPackages [camminapy]: Downloading https://files.pythonhosted.org/packages/43/a2/f042475791edde5adbb949f93fbaa80f5c74e096d5256969c936cb956d35/camminapy-0.7.0.tar.gz
+[2023-05-25 11:25:53] INFO root fetch - processPackages [camminapy]: Downloading https://files.pythonhosted.org/packages/43/a2/f042475791edde5adbb949f93fbaa80f5c74e096d5256969c936cb956d35/camminapy-0.7.0.tar.gz
+[2023-05-25 11:25:53] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/29/08/49781b4cb88f2191b8524afa695018e4a8e94fadbaf83dc7684b935e8487/coconut-develop-3.0.1.post0.dev3.tar.gz
+[2023-05-25 11:25:53] INFO root fetch - processPackages [quarchpy]: Downloading https://files.pythonhosted.org/packages/4c/58/57c71932b71449bc466e74bd8478a30bedf723227a6aa33c2934896c2345/quarchpy-2.1.9.dev2-py2.py3-none-any.whl
+[2023-05-25 11:25:53] INFO root fetch - processPackages [zerobug]: Downloading https://files.pythonhosted.org/packages/b8/82/f9a9c6f8c93dd0d016d6f921e994a0480e929be88989973aaccff42f9c75/zerobug-2.0.6.tar.gz
+[2023-05-25 11:25:53] INFO root fetch - processPackages [exchange-calendars]: Downloading https://files.pythonhosted.org/packages/98/0f/8e7cc32f734a0cc7c2a08d6cf27949706fb0cd3e5bc3c539842de133aecd/exchange_calendars-4.2.7.tar.gz
+[2023-05-25 11:25:53] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-25 11:25:53] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230525/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-25 11:25:53] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-25 11:25:53] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230525/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-25 11:25:53] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/d0/e0/6a5a6feb2af2dc7d4c860ee58500f1d43796cd7613f207c4318843cabe5a/coconut-develop-3.0.1.post0.dev4.tar.gz
+[2023-05-25 11:25:53] INFO root fetch - processPackages [camminapy]: Downloading https://files.pythonhosted.org/packages/5e/08/a060add0dc81045ad2e33b1fbbb7a3f54e4c8dbdb359b53b3a3aa3f644ac/camminapy-0.8.0.tar.gz
+[2023-05-25 11:25:53] INFO root fetch - processPackages [camminapy]: Downloading https://files.pythonhosted.org/packages/5e/08/a060add0dc81045ad2e33b1fbbb7a3f54e4c8dbdb359b53b3a3aa3f644ac/camminapy-0.8.0.tar.gz
+[2023-05-25 11:25:53] INFO root fetch - processPackages [zerobug]: Downloading https://files.pythonhosted.org/packages/1d/13/1671c61f3083a84e3b1502c3e8829ac00c51d493939f1792189f418f062d/zerobug-2.0.7.tar.gz
+[2023-05-25 11:25:53] INFO root fetch - processPackages [exchange-calendars]: Downloading https://files.pythonhosted.org/packages/72/e9/7beced34c213cb4bd2322e9f370e613bc497436d05168deedce74548baa8/exchange_calendars-4.2.8.tar.gz
+[2023-05-25 11:25:53] INFO root fetch - processPackages [coconut-develop]: executing diffoscope
+[2023-05-25 11:25:53] INFO root fetch - processPackages [coconut-develop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coconut-develop-3.0.1.post0.dev3.tar.gz tmp/coconut-develop-3.0.1.post0.dev4.tar.gz --markdown 20230525/c/coconut-develop/3.0.1.post0.dev3-3.0.1.post0.dev4/diff.md --exclude *.pyd
+[2023-05-25 11:25:53] INFO root fetch - processPackages [zerobug]: executing diffoscope
+[2023-05-25 11:25:53] INFO root fetch - processPackages [zerobug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zerobug-2.0.6.tar.gz tmp/zerobug-2.0.7.tar.gz --markdown 20230525/z/zerobug/2.0.6-2.0.7/diff.md --exclude *.pyd
+[2023-05-25 11:25:53] INFO root fetch - processPackages [camminapy]: executing diffoscope
+[2023-05-25 11:25:53] INFO root fetch - processPackages [camminapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camminapy-0.7.0.tar.gz tmp/camminapy-0.8.0.tar.gz --markdown 20230525/c/camminapy/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-05-25 11:25:53] INFO root fetch - processPackages [camminapy]: executing diffoscope
+[2023-05-25 11:25:53] INFO root fetch - processPackages [camminapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camminapy-0.7.0.tar.gz tmp/camminapy-0.8.0.tar.gz --markdown 20230525/c/camminapy/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-05-25 11:25:53] INFO root fetch - processPackages [exchange-calendars]: executing diffoscope
+[2023-05-25 11:25:53] INFO root fetch - processPackages [exchange-calendars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exchange_calendars-4.2.7.tar.gz tmp/exchange_calendars-4.2.8.tar.gz --markdown 20230525/e/exchange-calendars/4.2.7-4.2.8/diff.md --exclude *.pyd
+[2023-05-25 11:25:53] WARNING root fetch - processPackages [quarchpy]: Skipping package: exceeds size limit 34469980>=10485760
+[2023-05-25 11:25:53] INFO root fetch - processPackages [quarchpy]: Start processing: oculoushide
+[2023-05-25 11:25:53] INFO root fetch - main [MainThread]: End processing [quarchpy] error
+[2023-05-25 11:25:54] WARNING root fetch - processPackages [oculoushide]: Skipping, unable to determine old version
+[2023-05-25 11:25:54] INFO root fetch - processPackages [oculoushide]: Start processing: pyrosexmod
+[2023-05-25 11:25:54] INFO root fetch - main [MainThread]: End processing [oculoushide] error
+[2023-05-25 11:25:54] INFO root fetch - processPackages [pyrosexmod]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-25 11:25:54] INFO root fetch - processPackages [pyrosexmod]: executing diffoscope
+[2023-05-25 11:25:54] INFO root fetch - processPackages [pyrosexmod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrosexmod-0.0.7.tar.gz tmp/pyrosexmod-0.0.8.tar.gz --markdown 20230525/p/pyrosexmod/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-25 11:25:54] INFO root fetch - processPackages [space-rocks]: Start processing: swibots
+[2023-05-25 11:25:54] INFO root fetch - main [MainThread]: End processing [space-rocks]: success
+[2023-05-25 11:25:54] INFO root fetch - processPackages [swibots]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-05-25 11:25:54] INFO root fetch - processPackages [edu-segmentation]: Start processing: chgksuite
+[2023-05-25 11:25:54] INFO root fetch - main [MainThread]: End processing [edu-segmentation]: success
+[2023-05-25 11:25:54] INFO root fetch - processPackages [chgksuite]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-25 11:25:54] INFO root fetch - processPackages [chgksuite]: executing diffoscope
+[2023-05-25 11:25:54] INFO root fetch - processPackages [chgksuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chgksuite-0.9.0.tar.gz tmp/chgksuite-0.9.1.tar.gz --markdown 20230525/c/chgksuite/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-25 11:25:54] INFO root fetch - processPackages [swibots]: Downloading https://files.pythonhosted.org/packages/9d/95/34f2dd0ff9792e3800c7aa5c2dcba4be4ac57be38423c77c98b2a07a8322/swibots-1.2.2.tar.gz
+[2023-05-25 11:25:54] INFO root fetch - processPackages [spanishconjugator]: Start processing: zar
+[2023-05-25 11:25:54] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-25 11:25:54] INFO root fetch - processPackages [swibots]: executing diffoscope
+[2023-05-25 11:25:54] INFO root fetch - processPackages [swibots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swibots-1.2.1.tar.gz tmp/swibots-1.2.2.tar.gz --markdown 20230525/s/swibots/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-05-25 11:25:55] INFO root fetch - processPackages [zar]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-05-25 11:25:55] INFO root fetch - processPackages [zar]: Downloading https://files.pythonhosted.org/packages/84/18/62f7db55abc3c4e5f1c094226fd6adae79e6dcca42e67c4998ff22f56157/zar-2.0.1.tar.gz
+[2023-05-25 11:25:55] INFO root fetch - processPackages [camminapy]: Start processing: hcai-nova-server-nightly
+[2023-05-25 11:25:55] INFO root fetch - main [MainThread]: End processing [camminapy]: success
+[2023-05-25 11:25:55] INFO root fetch - processPackages [hcai-nova-server-nightly]: New version: [0.1.6.dev202305250853] Old Version: [0.1.6.dev202305250842]
+[2023-05-25 11:25:55] INFO root fetch - processPackages [spanishconjugator]: Start processing: z0bug-odoo
+[2023-05-25 11:25:55] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-25 11:25:55] INFO root fetch - processPackages [zar]: Downloading https://files.pythonhosted.org/packages/46/a5/85ee37a329eefd489fb968a253e90000669b40f6243fc370574db42c91a8/zar-2.0.2.tar.gz
+[2023-05-25 11:25:55] INFO root fetch - processPackages [zar]: executing diffoscope
+[2023-05-25 11:25:55] INFO root fetch - processPackages [zar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zar-2.0.1.tar.gz tmp/zar-2.0.2.tar.gz --markdown 20230525/z/zar/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-05-25 11:25:55] INFO root fetch - processPackages [z0bug-odoo]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-05-25 11:25:55] INFO root fetch - processPackages [hcai-nova-server-nightly]: Downloading https://files.pythonhosted.org/packages/e4/2b/17469cd7c68316d1929723b2471724a74615795d926e7350169f1bc13213/hcai-nova-server-nightly-0.1.6.dev202305250853.tar.gz
+[2023-05-25 11:25:55] INFO root fetch - processPackages [zerobug]: Start processing: mafese
+[2023-05-25 11:25:55] INFO root fetch - main [MainThread]: End processing [zerobug]: success
+[2023-05-25 11:25:55] WARNING root fetch - processPackages [mafese]: Skipping, unable to determine old version
+[2023-05-25 11:25:55] INFO root fetch - processPackages [mafese]: Start processing: localstack-core
+[2023-05-25 11:25:55] INFO root fetch - main [MainThread]: End processing [mafese] error
+[2023-05-25 11:25:55] INFO root fetch - processPackages [z0bug-odoo]: Downloading https://files.pythonhosted.org/packages/60/5d/81e4ab00cc39e85b45eab1a8781412f8b097db32058f1e5e8fc0db32040a/z0bug_odoo-2.0.7.tar.gz
+[2023-05-25 11:25:55] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230524230456] Old Version: [2.0.3.dev20230524220416]
+[2023-05-25 11:25:55] INFO root fetch - processPackages [coconut-develop]: Start processing: metabypassrecaptcha2
+[2023-05-25 11:25:55] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
+[2023-05-25 11:25:55] INFO root fetch - processPackages [hcai-nova-server-nightly]: executing diffoscope
+[2023-05-25 11:25:55] INFO root fetch - processPackages [hcai-nova-server-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-nova-server-nightly-0.1.6.dev202305250842.tar.gz tmp/hcai-nova-server-nightly-0.1.6.dev202305250853.tar.gz --markdown 20230525/h/hcai-nova-server-nightly/0.1.6.dev202305250842-0.1.6.dev202305250853/diff.md --exclude *.pyd
+[2023-05-25 11:25:55] INFO root fetch - processPackages [camminapy]: Start processing: lamindb
+[2023-05-25 11:25:55] INFO root fetch - main [MainThread]: End processing [camminapy]: success
+[2023-05-25 11:25:56] WARNING root fetch - processPackages [metabypassrecaptcha2]: Skipping, unable to determine old version
+[2023-05-25 11:25:56] INFO root fetch - processPackages [metabypassrecaptcha2]: Start processing: idyntree
+[2023-05-25 11:25:56] INFO root fetch - main [MainThread]: End processing [metabypassrecaptcha2] error
+[2023-05-25 11:25:56] INFO root fetch - processPackages [lamindb]: New version: [0.9.6] Old Version: [0.9.4]
+[2023-05-25 11:25:56] INFO root fetch - processPackages [idyntree]: New version: [9.1.0] Old Version: [9.0.0]
+[2023-05-25 11:25:56] INFO root fetch - processPackages [z0bug-odoo]: Downloading https://files.pythonhosted.org/packages/e4/2f/0b9eec0797bb80e1e8d34c5d784d617de855baf5d6389f322077c9d609db/z0bug_odoo-2.0.8.tar.gz
+[2023-05-25 11:25:56] INFO root fetch - processPackages [lamindb]: Downloading https://files.pythonhosted.org/packages/15/74/34148a2f59ec5fafeee3ffbc599388444e1e8d22d525c0b2e244aa151fef/lamindb-0.9.4.tar.gz
+[2023-05-25 11:25:56] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/1a/83/774d09f8edac6553bab31a876b7687913e680ec605b8ff4cfe58f66308be/localstack-core-2.0.3.dev20230524230456.tar.gz
+[2023-05-25 11:25:56] INFO root fetch - processPackages [idyntree]: Downloading https://files.pythonhosted.org/packages/35/ca/03d786a35fe7073931790715a2111f0c83901faf5132bf4ab50d8296242c/idyntree-9.0.0.tar.gz
+[2023-05-25 11:25:56] INFO root fetch - processPackages [z0bug-odoo]: executing diffoscope
+[2023-05-25 11:25:56] INFO root fetch - processPackages [z0bug-odoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/z0bug_odoo-2.0.7.tar.gz tmp/z0bug_odoo-2.0.8.tar.gz --markdown 20230525/z/z0bug-odoo/2.0.7-2.0.8/diff.md --exclude *.pyd
+[2023-05-25 11:25:56] INFO root fetch - processPackages [chgksuite]: Start processing: corby
+[2023-05-25 11:25:56] INFO root fetch - main [MainThread]: End processing [chgksuite]: success
+[2023-05-25 11:25:56] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-05-25 11:25:56] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.3.dev20230524220416.tar.gz tmp/localstack-core-2.0.3.dev20230524230456.tar.gz --markdown 20230525/l/localstack-core/2.0.3.dev20230524220416-2.0.3.dev20230524230456/diff.md --exclude *.pyd
+[2023-05-25 11:25:56] INFO root fetch - processPackages [corby]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-25 11:25:56] INFO root fetch - processPackages [pyrosexmod]: Start processing: camminapy
+[2023-05-25 11:25:56] INFO root fetch - main [MainThread]: End processing [pyrosexmod]: success
+[2023-05-25 11:25:56] INFO root fetch - processPackages [idyntree]: Downloading https://files.pythonhosted.org/packages/aa/cf/522ca67fdf938ba79de232b5b82eeb3739273833b71e0922d55d35eaefb7/idyntree-9.1.0.tar.gz
+[2023-05-25 11:25:56] INFO root fetch - processPackages [camminapy]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-05-25 11:25:56] INFO root fetch - processPackages [lamindb]: Downloading https://files.pythonhosted.org/packages/a8/dd/da42b7dd3f39064fda6a4977c93f1a040eefa69ef3a3cefd7b4b8d13efb6/lamindb-0.9.6.tar.gz
+[2023-05-25 11:25:56] INFO root fetch - processPackages [corby]: Downloading https://files.pythonhosted.org/packages/7b/ac/6f469950075b4525acd3f5438c4bf71664b464b6a4383b6bb27a681d5e9a/corby-0.0.7.tar.gz
+[2023-05-25 11:25:56] INFO root fetch - processPackages [camminapy]: executing diffoscope
+[2023-05-25 11:25:56] INFO root fetch - processPackages [camminapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camminapy-0.7.0.tar.gz tmp/camminapy-0.8.0.tar.gz --markdown 20230525/c/camminapy/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-05-25 11:25:56] INFO root fetch - processPackages [lamindb]: executing diffoscope
+[2023-05-25 11:25:56] INFO root fetch - processPackages [lamindb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb-0.9.4.tar.gz tmp/lamindb-0.9.6.tar.gz --markdown 20230525/l/lamindb/0.9.4-0.9.6/diff.md --exclude *.pyd
+[2023-05-25 11:25:56] INFO root fetch - processPackages [corby]: Downloading https://files.pythonhosted.org/packages/1e/47/a5f13465c311bda37faf90669345f78d43e3b0861d381a4c6cf2613aed50/corby-0.0.8.tar.gz
+[2023-05-25 11:25:57] INFO root fetch - processPackages [corby]: executing diffoscope
+[2023-05-25 11:25:57] INFO root fetch - processPackages [corby]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corby-0.0.7.tar.gz tmp/corby-0.0.8.tar.gz --markdown 20230525/c/corby/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-25 11:25:57] INFO root fetch - processPackages [zar]: Start processing: valmi-connector-lib
+[2023-05-25 11:25:57] INFO root fetch - main [MainThread]: End processing [zar]: success
+[2023-05-25 11:25:57] INFO root fetch - processPackages [idyntree]: executing diffoscope
+[2023-05-25 11:25:57] INFO root fetch - processPackages [idyntree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idyntree-9.0.0.tar.gz tmp/idyntree-9.1.0.tar.gz --markdown 20230525/i/idyntree/9.0.0-9.1.0/diff.md --exclude *.pyd
+[2023-05-25 11:25:57] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-25 11:25:57] INFO root fetch - processPackages [hcai-nova-server-nightly]: Start processing: crewmate
+[2023-05-25 11:25:57] INFO root fetch - main [MainThread]: End processing [hcai-nova-server-nightly]: success
+[2023-05-25 11:25:57] WARNING root fetch - processPackages [crewmate]: Skipping, unable to determine old version
+[2023-05-25 11:25:57] INFO root fetch - processPackages [crewmate]: Start processing: adapta
+[2023-05-25 11:25:57] INFO root fetch - main [MainThread]: End processing [crewmate] error
+[2023-05-25 11:25:57] INFO root fetch - processPackages [adapta]: New version: [2.2.7] Old Version: [2.2.5]
+[2023-05-25 11:25:57] INFO root fetch - processPackages [adapta]: Downloading https://files.pythonhosted.org/packages/08/84/26f42798614fab600742baadb5d7082adb9602cc9609e8a8fe73217e2a71/adapta-2.2.5.tar.gz
+[2023-05-25 11:25:57] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2023-05-25 11:25:57] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.8.tar.gz tmp/valmi_connector_lib-0.1.9.tar.gz --markdown 20230525/v/valmi-connector-lib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-25 11:25:57] INFO root fetch - processPackages [adapta]: Downloading https://files.pythonhosted.org/packages/85/3f/adaeb73c66228a886d3dabf96a03fc7be0634ff64155593b1c61c369b997/adapta-2.2.7.tar.gz
+[2023-05-25 11:25:57] INFO root fetch - processPackages [adapta]: executing diffoscope
+[2023-05-25 11:25:57] INFO root fetch - processPackages [adapta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adapta-2.2.5.tar.gz tmp/adapta-2.2.7.tar.gz --markdown 20230525/a/adapta/2.2.5-2.2.7/diff.md --exclude *.pyd
+[2023-05-25 11:25:57] INFO root fetch - processPackages [swibots]: Start processing: assisted-service-client
+[2023-05-25 11:25:57] INFO root fetch - main [MainThread]: End processing [swibots]: success
+[2023-05-25 11:25:58] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-05-25 11:25:58] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-05-25 11:25:58] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230525/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-05-25 11:25:58] INFO root fetch - processPackages [camminapy]: Start processing: edamame
+[2023-05-25 11:25:58] INFO root fetch - main [MainThread]: End processing [camminapy]: success
+[2023-05-25 11:25:58] INFO root fetch - processPackages [edamame]: New version: [0.57] Old Version: [0.56]
+[2023-05-25 11:25:58] INFO root fetch - processPackages [edamame]: executing diffoscope
+[2023-05-25 11:25:58] INFO root fetch - processPackages [edamame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edamame-0.56.tar.gz tmp/edamame-0.57.tar.gz --markdown 20230525/e/edamame/0.56-0.57/diff.md --exclude *.pyd
+[2023-05-25 11:25:58] INFO root fetch - processPackages [corby]: Start processing: camminapy
+[2023-05-25 11:25:58] INFO root fetch - main [MainThread]: End processing [corby]: success
+[2023-05-25 11:25:58] INFO root fetch - processPackages [camminapy]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-05-25 11:25:58] INFO root fetch - processPackages [lamindb]: Start processing: segment-anything-utils
+[2023-05-25 11:25:58] INFO root fetch - main [MainThread]: End processing [lamindb]: success
+[2023-05-25 11:25:58] INFO root fetch - processPackages [camminapy]: executing diffoscope
+[2023-05-25 11:25:58] INFO root fetch - processPackages [camminapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camminapy-0.7.0.tar.gz tmp/camminapy-0.8.0.tar.gz --markdown 20230525/c/camminapy/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-05-25 11:25:58] INFO root fetch - processPackages [segment-anything-utils]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-25 11:25:59] INFO root fetch - processPackages [segment-anything-utils]: Downloading https://files.pythonhosted.org/packages/32/88/5a2ce4f41e9ae9986ecc84a75cf26e22623905b58ed15d423b09c3c50bdc/segment_anything_utils-0.2.1.tar.gz
+[2023-05-25 11:25:59] INFO root fetch - processPackages [valmi-connector-lib]: Start processing: django-intenumfield
+[2023-05-25 11:25:59] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2023-05-25 11:25:59] INFO root fetch - processPackages [segment-anything-utils]: executing diffoscope
+[2023-05-25 11:25:59] INFO root fetch - processPackages [segment-anything-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/segment_anything_utils-0.2.0.tar.gz tmp/segment_anything_utils-0.2.1.tar.gz --markdown 20230525/s/segment-anything-utils/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-25 11:25:59] INFO root fetch - processPackages [django-intenumfield]: New version: [1.5.0] Old Version: [1.4.1]
+[2023-05-25 11:25:59] INFO root fetch - processPackages [django-intenumfield]: Downloading https://files.pythonhosted.org/packages/1d/db/d5db2eb94cebb3404c6ef8ff2e181818031782d1708e363b4eaaf974a780/django-intenumfield-1.4.1.tar.gz
+[2023-05-25 11:25:59] INFO root fetch - processPackages [django-intenumfield]: Downloading https://files.pythonhosted.org/packages/a8/6d/ff04c0aeae3e89c17e85fb0055db663afd0cfc8179f75b0184ba15c5b512/django_intenumfield-1.5.0.tar.gz
+[2023-05-25 11:25:59] INFO root fetch - processPackages [django-intenumfield]: executing diffoscope
+[2023-05-25 11:25:59] INFO root fetch - processPackages [django-intenumfield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-intenumfield-1.4.1.tar.gz tmp/django_intenumfield-1.5.0.tar.gz --markdown 20230525/d/django-intenumfield/1.4.1-1.5.0/diff.md --exclude *.pyd
+[2023-05-25 11:25:59] INFO root fetch - processPackages [adapta]: Start processing: pm-slack
+[2023-05-25 11:25:59] INFO root fetch - main [MainThread]: End processing [adapta]: success
+[2023-05-25 11:26:00] INFO root fetch - processPackages [pm-slack]: New version: [0.3.1] Old Version: [0.2.2]
+[2023-05-25 11:26:00] INFO root fetch - main [MainThread]: End processing [edamame]: success
+[2023-05-25 11:26:00] INFO root fetch - processPackages [pm-slack]: Downloading https://files.pythonhosted.org/packages/9c/c1/e6a1ac7d5017b66769a3b4e118971506526c7eb6cf77f5361b94650893d0/pm_slack-0.3.1.tar.gz
+[2023-05-25 11:26:00] INFO root fetch - main [MainThread]: End processing [camminapy]: success
+[2023-05-25 11:26:00] INFO root fetch - processPackages [pm-slack]: executing diffoscope
+[2023-05-25 11:26:00] INFO root fetch - processPackages [pm-slack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pm_slack-0.2.2.tar.gz tmp/pm_slack-0.3.1.tar.gz --markdown 20230525/p/pm-slack/0.2.2-0.3.1/diff.md --exclude *.pyd
+[2023-05-25 11:26:00] INFO root fetch - main [MainThread]: End processing [segment-anything-utils]: success
+[2023-05-25 11:26:01] INFO root fetch - main [MainThread]: End processing [z0bug-odoo]: success
+[2023-05-25 11:26:01] INFO root fetch - main [MainThread]: End processing [django-intenumfield]: success
+[2023-05-25 11:26:01] INFO root fetch - main [MainThread]: End processing [pm-slack]: success
+[2023-05-25 11:26:02] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-05-25 11:26:03] INFO root fetch - main [MainThread]: End processing [exchange-calendars]: success
+[2023-05-25 11:26:05] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-05-25 11:26:12] INFO root fetch - main [MainThread]: End processing [idyntree]: success
+[2023-05-25 11:26:12] INFO root fetch - main [MainThread]: Store serial: [18244401]
