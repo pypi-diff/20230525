@@ -21753,3 +21753,88 @@ EOFError: EOF read where object expected
 [2023-05-25 17:08:51] INFO root fetch - main [MainThread]: End processing [django-listable]: success
 [2023-05-25 17:08:52] INFO root fetch - main [MainThread]: End processing [tensorflow-text-nightly]: success
 [2023-05-25 17:08:52] INFO root fetch - main [MainThread]: Store serial: [18248754]
+[2023-05-25 17:13:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18248754]
+[2023-05-25 17:14:02] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-25 17:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rdeer-service
+[2023-05-25 17:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chime-frb-api
+[2023-05-25 17:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulpcore
+[2023-05-25 17:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulpcore-client
+[2023-05-25 17:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: maisaedu-utilities-prefect
+[2023-05-25 17:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: maisaedu-poormans-dms
+[2023-05-25 17:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: reolink-aio
+[2023-05-25 17:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulpcore
+[2023-05-25 17:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mytimer
+[2023-05-25 17:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulpcore-client
+[2023-05-25 17:14:02] INFO root fetch - processPackages [maisaedu-utilities-prefect]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-25 17:14:02] INFO root fetch - processPackages [mytimer]: New version: [0.5] Old Version: [0.4]
+[2023-05-25 17:14:02] INFO root fetch - processPackages [rdeer-service]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-05-25 17:14:02] INFO root fetch - processPackages [reolink-aio]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-25 17:14:02] INFO root fetch - processPackages [maisaedu-poormans-dms]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-25 17:14:02] INFO root fetch - processPackages [pulpcore]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-05-25 17:14:02] INFO root fetch - processPackages [chime-frb-api]: New version: [3.2.0] Old Version: [3.1.1]
+[2023-05-25 17:14:02] INFO root fetch - processPackages [pulpcore]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-05-25 17:14:02] INFO root fetch - processPackages [pulpcore-client]: New version: [3.9.1] Old Version: [3.9.0.dev1607297320]
+[2023-05-25 17:14:02] INFO root fetch - processPackages [pulpcore-client]: New version: [3.9.1] Old Version: [3.9.0.dev1607297320]
+[2023-05-25 17:14:02] INFO root fetch - processPackages [maisaedu-utilities-prefect]: executing diffoscope
+[2023-05-25 17:14:02] INFO root fetch - processPackages [maisaedu-utilities-prefect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maisaedu-utilities-prefect-1.0.8.tar.gz tmp/maisaedu-utilities-prefect-1.0.9.tar.gz --markdown 20230525/m/maisaedu-utilities-prefect/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-25 17:14:02] INFO root fetch - processPackages [maisaedu-poormans-dms]: executing diffoscope
+[2023-05-25 17:14:02] INFO root fetch - processPackages [maisaedu-poormans-dms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maisaedu-poormans-dms-1.0.8.tar.gz tmp/maisaedu-poormans-dms-1.0.9.tar.gz --markdown 20230525/m/maisaedu-poormans-dms/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-25 17:14:02] INFO root fetch - processPackages [mytimer]: Downloading https://files.pythonhosted.org/packages/cd/88/bb92f3383f4183e60fd77809c702e42a21dcb8164f3865dfb450a7b3ef7a/mytimer-0.4.tar.gz
+[2023-05-25 17:14:02] INFO root fetch - processPackages [reolink-aio]: Downloading https://files.pythonhosted.org/packages/1e/21/6e81cae2a4c915cf3bd0de1ae6887f9af93a07a1e4713aa1e8747d17d91f/reolink_aio-0.5.8.tar.gz
+[2023-05-25 17:14:02] INFO root fetch - processPackages [rdeer-service]: Downloading https://files.pythonhosted.org/packages/a3/74/df9a713466f4414c75380a294ef5095d4b6d3ba86c5321bd13b9b0e265f4/rdeer-service-1.3.5.tar.gz
+[2023-05-25 17:14:02] INFO root fetch - processPackages [chime-frb-api]: Downloading https://files.pythonhosted.org/packages/f3/5d/4c70b225f2f78a792c16280ea8ab070cfde554e330a3265af7dcf9bba41b/chime_frb_api-3.2.0.tar.gz
+[2023-05-25 17:14:02] INFO root fetch - processPackages [chime-frb-api]: executing diffoscope
+[2023-05-25 17:14:02] INFO root fetch - processPackages [rdeer-service]: Downloading https://files.pythonhosted.org/packages/bf/79/d60ba14195f600dd5bd31d14012e3fcf1f73202bbe8efbc0f4f368f1b1a1/rdeer-service-1.3.6.tar.gz
+[2023-05-25 17:14:02] INFO root fetch - processPackages [chime-frb-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chime_frb_api-3.1.1.tar.gz tmp/chime_frb_api-3.2.0.tar.gz --markdown 20230525/c/chime-frb-api/3.1.1-3.2.0/diff.md --exclude *.pyd
+[2023-05-25 17:14:02] INFO root fetch - processPackages [pulpcore-client]: executing diffoscope
+[2023-05-25 17:14:02] INFO root fetch - processPackages [pulpcore-client]: executing diffoscope
+[2023-05-25 17:14:02] INFO root fetch - processPackages [pulpcore-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulpcore-client-3.9.0.dev1607297320.tar.gz tmp/pulpcore-client-3.9.1.tar.gz --markdown 20230525/p/pulpcore-client/3.9.0.dev1607297320-3.9.1/diff.md --exclude *.pyd
+[2023-05-25 17:14:02] INFO root fetch - processPackages [pulpcore-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulpcore-client-3.9.0.dev1607297320.tar.gz tmp/pulpcore-client-3.9.1.tar.gz --markdown 20230525/p/pulpcore-client/3.9.0.dev1607297320-3.9.1/diff.md --exclude *.pyd
+[2023-05-25 17:14:02] INFO root fetch - processPackages [mytimer]: Downloading https://files.pythonhosted.org/packages/7c/71/c55d78bcd8c89d62f753ebd9e96e1751cc5b320d59efc727fbb20250de50/mytimer-0.5.tar.gz
+[2023-05-25 17:14:02] INFO root fetch - processPackages [pulpcore]: executing diffoscope
+[2023-05-25 17:14:02] INFO root fetch - processPackages [pulpcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulpcore-3.9.0.tar.gz tmp/pulpcore-3.9.1.tar.gz --markdown 20230525/p/pulpcore/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-05-25 17:14:02] INFO root fetch - processPackages [pulpcore]: executing diffoscope
+[2023-05-25 17:14:02] INFO root fetch - processPackages [pulpcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulpcore-3.9.0.tar.gz tmp/pulpcore-3.9.1.tar.gz --markdown 20230525/p/pulpcore/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-05-25 17:14:02] INFO root fetch - processPackages [rdeer-service]: executing diffoscope
+[2023-05-25 17:14:02] INFO root fetch - processPackages [rdeer-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdeer-service-1.3.5.tar.gz tmp/rdeer-service-1.3.6.tar.gz --markdown 20230525/r/rdeer-service/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-05-25 17:14:02] INFO root fetch - processPackages [reolink-aio]: Downloading https://files.pythonhosted.org/packages/dd/0a/f711f244291fb1854667f9496c26c7b79a2f7afbdf6c355d899cb1f1f31b/reolink_aio-0.5.9.tar.gz
+[2023-05-25 17:14:02] INFO root fetch - processPackages [mytimer]: executing diffoscope
+[2023-05-25 17:14:02] INFO root fetch - processPackages [mytimer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mytimer-0.4.tar.gz tmp/mytimer-0.5.tar.gz --markdown 20230525/m/mytimer/0.4-0.5/diff.md --exclude *.pyd
+[2023-05-25 17:14:02] INFO root fetch - processPackages [reolink-aio]: executing diffoscope
+[2023-05-25 17:14:02] INFO root fetch - processPackages [reolink-aio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reolink_aio-0.5.8.tar.gz tmp/reolink_aio-0.5.9.tar.gz --markdown 20230525/r/reolink-aio/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-25 17:14:03] INFO root fetch - processPackages [maisaedu-poormans-dms]: Start processing: ipyfilite
+[2023-05-25 17:14:03] INFO root fetch - main [MainThread]: End processing [maisaedu-poormans-dms]: success
+[2023-05-25 17:14:03] INFO root fetch - processPackages [ipyfilite]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-25 17:14:03] INFO root fetch - processPackages [ipyfilite]: Downloading https://files.pythonhosted.org/packages/e1/7c/1f17a195e4a4db57ea23d905cd4ade067de1ab540ab30a2dd2b0cc9d0f5c/ipyfilite-0.1.1.tar.gz
+[2023-05-25 17:14:04] INFO root fetch - processPackages [ipyfilite]: Downloading https://files.pythonhosted.org/packages/e3/81/bf68bd2c6381541ac9742b2539c3a8c6e6c3d552b50c830c22eb411d6058/ipyfilite-0.1.2.tar.gz
+[2023-05-25 17:14:04] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Start processing: textbsr
+[2023-05-25 17:14:04] INFO root fetch - main [MainThread]: End processing [maisaedu-utilities-prefect]: success
+[2023-05-25 17:14:04] INFO root fetch - processPackages [textbsr]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 17:14:04] INFO root fetch - processPackages [ipyfilite]: executing diffoscope
+[2023-05-25 17:14:04] INFO root fetch - processPackages [ipyfilite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipyfilite-0.1.1.tar.gz tmp/ipyfilite-0.1.2.tar.gz --markdown 20230525/i/ipyfilite/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-25 17:14:04] INFO root fetch - processPackages [textbsr]: executing diffoscope
+[2023-05-25 17:14:04] INFO root fetch - processPackages [textbsr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textbsr-0.0.8.tar.gz tmp/textbsr-0.0.9.tar.gz --markdown 20230525/t/textbsr/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 17:14:04] INFO root fetch - processPackages [rdeer-service]: Start processing: FlexGet
+[2023-05-25 17:14:04] INFO root fetch - main [MainThread]: End processing [rdeer-service]: success
+[2023-05-25 17:14:04] INFO root fetch - processPackages [FlexGet]: New version: [3.7.1] Old Version: [3.7.0]
+[2023-05-25 17:14:04] INFO root fetch - processPackages [chime-frb-api]: Start processing: ptseries
+[2023-05-25 17:14:04] INFO root fetch - main [MainThread]: End processing [chime-frb-api]: success
+[2023-05-25 17:14:04] INFO root fetch - processPackages [FlexGet]: Downloading https://files.pythonhosted.org/packages/c3/8e/aab84407ae06e913935e0cd9bc4b020dd933b9a29e1b8cf6ac661c85fcf7/FlexGet-3.7.0.tar.gz
+[2023-05-25 17:14:04] WARNING root fetch - processPackages [ptseries]: Skipping, unable to determine old version
+[2023-05-25 17:14:04] INFO root fetch - processPackages [ptseries]: Start processing: DDDA
+[2023-05-25 17:14:04] INFO root fetch - main [MainThread]: End processing [ptseries] error
+[2023-05-25 17:14:05] WARNING root fetch - processPackages [DDDA]: Skipping, unable to determine old version
+[2023-05-25 17:14:05] INFO root fetch - main [MainThread]: End processing [DDDA] error
+[2023-05-25 17:14:05] INFO root fetch - main [MainThread]: End processing [reolink-aio]: success
+[2023-05-25 17:14:05] INFO root fetch - processPackages [FlexGet]: Downloading https://files.pythonhosted.org/packages/80/7d/e4e201b6e2aa063b1e65a80c9cf417dae1560df7476a421a6273ddcb307e/FlexGet-3.7.1.tar.gz
+[2023-05-25 17:14:05] INFO root fetch - main [MainThread]: End processing [pulpcore-client]: success
+[2023-05-25 17:14:05] INFO root fetch - main [MainThread]: End processing [pulpcore-client]: success
+[2023-05-25 17:14:05] INFO root fetch - main [MainThread]: End processing [textbsr]: success
+[2023-05-25 17:14:06] INFO root fetch - main [MainThread]: End processing [mytimer]: success
+[2023-05-25 17:14:06] INFO root fetch - processPackages [FlexGet]: executing diffoscope
+[2023-05-25 17:14:06] INFO root fetch - processPackages [FlexGet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FlexGet-3.7.0.tar.gz tmp/FlexGet-3.7.1.tar.gz --markdown 20230525/F/FlexGet/3.7.0-3.7.1/diff.md --exclude *.pyd
+[2023-05-25 17:14:07] INFO root fetch - main [MainThread]: End processing [pulpcore]: success
+[2023-05-25 17:14:07] INFO root fetch - main [MainThread]: End processing [ipyfilite]: success
+[2023-05-25 17:14:08] INFO root fetch - main [MainThread]: End processing [pulpcore]: success
+[2023-05-25 17:14:19] INFO root fetch - main [MainThread]: End processing [FlexGet]: success
+[2023-05-25 17:14:19] INFO root fetch - main [MainThread]: Store serial: [18248811]
