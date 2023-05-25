@@ -7536,3 +7536,67 @@
 [2023-05-25 05:42:47] INFO root fetch - main [MainThread]: End processing [cracker]: success
 [2023-05-25 05:42:49] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes]: success
 [2023-05-25 05:42:49] INFO root fetch - main [MainThread]: Store serial: [18240698]
+[2023-05-25 05:47:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18240698]
+[2023-05-25 05:47:58] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-25 05:47:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coconut
+[2023-05-25 05:47:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llmspec
+[2023-05-25 05:47:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mb-sql
+[2023-05-25 05:47:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mixture-of-attention
+[2023-05-25 05:47:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rahaut9
+[2023-05-25 05:47:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo9-addon-l10n-it-ddt
+[2023-05-25 05:47:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: quick-batch
+[2023-05-25 05:47:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo8-addon-l10n-it-withholding-tax
+[2023-05-25 05:47:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo10-addon-l10n-it-riba-commission
+[2023-05-25 05:47:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: practica2-libros-erika
+[2023-05-25 05:47:58] INFO root fetch - processPackages [mixture-of-attention]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 05:47:58] INFO root fetch - processPackages [odoo8-addon-l10n-it-withholding-tax]: New version: [8.0.4.0.1.99.dev1] Old Version: [8.0.4.0.1]
+[2023-05-25 05:47:58] INFO root fetch - processPackages [quick-batch]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-25 05:47:58] WARNING root fetch - processPackages [mb-sql]: Skipping, unable to determine old version
+[2023-05-25 05:47:58] INFO root fetch - processPackages [mb-sql]: Start processing: odoo10-addon-l10n-it-withholding-tax
+[2023-05-25 05:47:58] INFO root fetch - main [MainThread]: End processing [mb-sql] error
+[2023-05-25 05:47:58] INFO root fetch - processPackages [coconut]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-05-25 05:47:58] WARNING root fetch - processPackages [rahaut9]: Skipping, unable to determine old version
+[2023-05-25 05:47:58] INFO root fetch - main [MainThread]: End processing [rahaut9] error
+[2023-05-25 05:47:58] WARNING root fetch - processPackages [practica2-libros-erika]: Skipping, unable to determine old version
+[2023-05-25 05:47:58] INFO root fetch - processPackages [llmspec]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-25 05:47:58] INFO root fetch - main [MainThread]: End processing [practica2-libros-erika] error
+[2023-05-25 05:47:58] INFO root fetch - processPackages [odoo9-addon-l10n-it-ddt]: New version: [9.0.1.0.0.99.dev43] Old Version: [9.0.1.0.0.99.dev42]
+[2023-05-25 05:47:58] INFO root fetch - processPackages [odoo8-addon-l10n-it-withholding-tax]: Downloading https://files.pythonhosted.org/packages/9e/fe/f508edc1239c614cb55bf8928644437b550dcd6b55a5127799008c7b8686/odoo8_addon_l10n_it_withholding_tax-8.0.4.0.1-py2-none-any.whl
+[2023-05-25 05:47:58] INFO root fetch - processPackages [odoo10-addon-l10n-it-withholding-tax]: New version: [10.0.2.0.1.99.dev4] Old Version: [10.0.2.0.1.99.dev3]
+[2023-05-25 05:47:58] INFO root fetch - processPackages [odoo10-addon-l10n-it-riba-commission]: New version: [10.0.1.0.1.99.dev3] Old Version: [10.0.1.0.1.99.dev2]
+[2023-05-25 05:47:58] INFO root fetch - processPackages [coconut]: Downloading https://files.pythonhosted.org/packages/24/f7/efd7ba4c501ee49295b55f2e95ba102dbe987a7811e79bce6d8c02a1ad03/coconut-3.0.0.tar.gz
+[2023-05-25 05:47:58] INFO root fetch - processPackages [llmspec]: Downloading https://files.pythonhosted.org/packages/bd/0c/0f1896dd9da83991cdcc08930775bd20fb11b9b9213216c1c370a488db14/llmspec-0.3.2.tar.gz
+[2023-05-25 05:47:58] INFO root fetch - processPackages [quick-batch]: Downloading https://files.pythonhosted.org/packages/7d/97/5428c276e3672771715b4eb0ee17da2ca65dfa480aee0236f3e5a9d7c494/quick_batch-0.1.2.tar.gz
+[2023-05-25 05:47:58] INFO root fetch - processPackages [quick-batch]: executing diffoscope
+[2023-05-25 05:47:58] INFO root fetch - processPackages [quick-batch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quick_batch-0.1.1.tar.gz tmp/quick_batch-0.1.2.tar.gz --markdown 20230525/q/quick-batch/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-25 05:47:58] INFO root fetch - processPackages [odoo10-addon-l10n-it-withholding-tax]: Downloading https://files.pythonhosted.org/packages/cb/8f/9975af7b19c4337dfa14fd2789588f85a50ccf0af4dcb57329b1c58ba80f/odoo10_addon_l10n_it_withholding_tax-10.0.2.0.1.99.dev3-py2-none-any.whl
+[2023-05-25 05:47:59] INFO root fetch - processPackages [mixture-of-attention]: executing diffoscope
+[2023-05-25 05:47:59] INFO root fetch - processPackages [mixture-of-attention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mixture-of-attention-0.0.8.tar.gz tmp/mixture-of-attention-0.0.9.tar.gz --markdown 20230525/m/mixture-of-attention/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 05:47:59] INFO root fetch - processPackages [odoo10-addon-l10n-it-riba-commission]: Downloading https://files.pythonhosted.org/packages/f9/dd/b052131a60e778001dcdfaddc3f54b10e743b6d3384a0ba9fdbbbd6fdf2c/odoo10_addon_l10n_it_riba_commission-10.0.1.0.1.99.dev2-py2-none-any.whl
+[2023-05-25 05:47:59] INFO root fetch - processPackages [odoo9-addon-l10n-it-ddt]: Downloading https://files.pythonhosted.org/packages/70/49/543f5813de158aa5295af5edfddae91360be4993fd1f32409c65d785a639/odoo9_addon_l10n_it_ddt-9.0.1.0.0.99.dev43-py2-none-any.whl
+[2023-05-25 05:47:59] INFO root fetch - processPackages [llmspec]: Downloading https://files.pythonhosted.org/packages/2f/dc/0feb31788fbe38044c8161abc3b01e8909e6f0fc6a92f30fad8697cc2117/llmspec-0.3.3.tar.gz
+[2023-05-25 05:47:59] INFO root fetch - processPackages [coconut]: Downloading https://files.pythonhosted.org/packages/af/92/a55e44eab3d943263f53396e3051fddb2e672b3ae260770a5d9eeca4f153/coconut-3.0.1.tar.gz
+[2023-05-25 05:47:59] INFO root fetch - processPackages [odoo8-addon-l10n-it-withholding-tax]: Downloading https://files.pythonhosted.org/packages/0e/e5/f76264f983bf6ffa575e366c32377e46402709770cd5cc670cba90758b19/odoo8_addon_l10n_it_withholding_tax-8.0.4.0.1.99.dev1-py2-none-any.whl
+[2023-05-25 05:47:59] INFO root fetch - processPackages [odoo9-addon-l10n-it-ddt]: executing diffoscope
+[2023-05-25 05:47:59] INFO root fetch - processPackages [odoo9-addon-l10n-it-ddt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_l10n_it_ddt-9.0.1.0.0.99.dev42-py2-none-any.whl.zip tmp/odoo9_addon_l10n_it_ddt-9.0.1.0.0.99.dev43-py2-none-any.whl.zip --markdown 20230525/o/odoo9-addon-l10n-it-ddt/9.0.1.0.0.99.dev42-9.0.1.0.0.99.dev43/diff.md --exclude *.pyd
+[2023-05-25 05:47:59] INFO root fetch - processPackages [llmspec]: executing diffoscope
+[2023-05-25 05:47:59] INFO root fetch - processPackages [llmspec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmspec-0.3.2.tar.gz tmp/llmspec-0.3.3.tar.gz --markdown 20230525/l/llmspec/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-25 05:47:59] INFO root fetch - processPackages [coconut]: executing diffoscope
+[2023-05-25 05:47:59] INFO root fetch - processPackages [coconut]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coconut-3.0.0.tar.gz tmp/coconut-3.0.1.tar.gz --markdown 20230525/c/coconut/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-05-25 05:47:59] INFO root fetch - processPackages [odoo8-addon-l10n-it-withholding-tax]: executing diffoscope
+[2023-05-25 05:47:59] INFO root fetch - processPackages [odoo8-addon-l10n-it-withholding-tax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_l10n_it_withholding_tax-8.0.4.0.1-py2-none-any.whl.zip tmp/odoo8_addon_l10n_it_withholding_tax-8.0.4.0.1.99.dev1-py2-none-any.whl.zip --markdown 20230525/o/odoo8-addon-l10n-it-withholding-tax/8.0.4.0.1-8.0.4.0.1.99.dev1/diff.md --exclude *.pyd
+[2023-05-25 05:47:59] INFO root fetch - processPackages [odoo10-addon-l10n-it-riba-commission]: Downloading https://files.pythonhosted.org/packages/2a/5e/54ec7716a2e66c3a995ab16355f26241827cffe0253575b8c4c6b19115b6/odoo10_addon_l10n_it_riba_commission-10.0.1.0.1.99.dev3-py2-none-any.whl
+[2023-05-25 05:47:59] INFO root fetch - processPackages [odoo10-addon-l10n-it-riba-commission]: executing diffoscope
+[2023-05-25 05:47:59] INFO root fetch - processPackages [odoo10-addon-l10n-it-riba-commission]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_l10n_it_riba_commission-10.0.1.0.1.99.dev2-py2-none-any.whl.zip tmp/odoo10_addon_l10n_it_riba_commission-10.0.1.0.1.99.dev3-py2-none-any.whl.zip --markdown 20230525/o/odoo10-addon-l10n-it-riba-commission/10.0.1.0.1.99.dev2-10.0.1.0.1.99.dev3/diff.md --exclude *.pyd
+[2023-05-25 05:47:59] INFO root fetch - processPackages [odoo10-addon-l10n-it-withholding-tax]: Downloading https://files.pythonhosted.org/packages/b8/8c/179435946d9f4eab96cee459fdf5c17a2273aa05ad0ac02ac6a1df4b2bef/odoo10_addon_l10n_it_withholding_tax-10.0.2.0.1.99.dev4-py2-none-any.whl
+[2023-05-25 05:47:59] INFO root fetch - processPackages [odoo10-addon-l10n-it-withholding-tax]: executing diffoscope
+[2023-05-25 05:47:59] INFO root fetch - processPackages [odoo10-addon-l10n-it-withholding-tax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_l10n_it_withholding_tax-10.0.2.0.1.99.dev3-py2-none-any.whl.zip tmp/odoo10_addon_l10n_it_withholding_tax-10.0.2.0.1.99.dev4-py2-none-any.whl.zip --markdown 20230525/o/odoo10-addon-l10n-it-withholding-tax/10.0.2.0.1.99.dev3-10.0.2.0.1.99.dev4/diff.md --exclude *.pyd
+[2023-05-25 05:48:00] INFO root fetch - main [MainThread]: End processing [mixture-of-attention]: success
+[2023-05-25 05:48:00] INFO root fetch - main [MainThread]: End processing [quick-batch]: success
+[2023-05-25 05:48:00] INFO root fetch - main [MainThread]: End processing [llmspec]: success
+[2023-05-25 05:48:00] INFO root fetch - main [MainThread]: End processing [odoo8-addon-l10n-it-withholding-tax]: success
+[2023-05-25 05:48:00] INFO root fetch - main [MainThread]: End processing [odoo10-addon-l10n-it-riba-commission]: success
+[2023-05-25 05:48:01] INFO root fetch - main [MainThread]: End processing [odoo9-addon-l10n-it-ddt]: success
+[2023-05-25 05:48:01] INFO root fetch - main [MainThread]: End processing [odoo10-addon-l10n-it-withholding-tax]: success
+[2023-05-25 05:48:01] INFO root fetch - main [MainThread]: End processing [coconut]: success
+[2023-05-25 05:48:01] INFO root fetch - main [MainThread]: Store serial: [18240740]
