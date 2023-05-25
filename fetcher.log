@@ -21638,3 +21638,118 @@ EOFError: EOF read where object expected
 [2023-05-25 17:03:29] INFO root fetch - main [MainThread]: End processing [pixie-price-forecast]: success
 [2023-05-25 17:03:35] INFO root fetch - main [MainThread]: End processing [jupyterlab-training]: success
 [2023-05-25 17:03:35] INFO root fetch - main [MainThread]: Store serial: [18248666]
+[2023-05-25 17:08:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18248666]
+[2023-05-25 17:08:46] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-25 17:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: macos-notifications
+[2023-05-25 17:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: genser
+[2023-05-25 17:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wagtail-mailchimp-integration
+[2023-05-25 17:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: netbox-cisco-maintenance
+[2023-05-25 17:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: runningz
+[2023-05-25 17:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: keepvariable
+[2023-05-25 17:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: UComp
+[2023-05-25 17:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lifeguard
+[2023-05-25 17:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spreadsheet-migrator
+[2023-05-25 17:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: steam-acolyte
+[2023-05-25 17:08:46] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 17:08:46] WARNING root fetch - processPackages [genser]: Skipping, unable to determine old version
+[2023-05-25 17:08:46] INFO root fetch - processPackages [macos-notifications]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-25 17:08:46] INFO root fetch - processPackages [genser]: Start processing: rsconnect-python
+[2023-05-25 17:08:46] INFO root fetch - main [MainThread]: End processing [genser] error
+[2023-05-25 17:08:46] INFO root fetch - processPackages [runningz]: New version: [0.11.3.8] Old Version: [0.11.3.7]
+[2023-05-25 17:08:46] WARNING root fetch - processPackages [spreadsheet-migrator]: Skipping, unable to determine old version
+[2023-05-25 17:08:46] INFO root fetch - processPackages [wagtail-mailchimp-integration]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-25 17:08:46] INFO root fetch - processPackages [spreadsheet-migrator]: Start processing: tensorflow-text-nightly
+[2023-05-25 17:08:46] INFO root fetch - main [MainThread]: End processing [spreadsheet-migrator] error
+[2023-05-25 17:08:46] INFO root fetch - processPackages [steam-acolyte]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-25 17:08:46] INFO root fetch - processPackages [keepvariable]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-05-25 17:08:46] INFO root fetch - processPackages [lifeguard]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-25 17:08:46] INFO root fetch - processPackages [rsconnect-python]: New version: [1.9.0b2] Old Version: [1.9.0b1]
+[2023-05-25 17:08:46] INFO root fetch - processPackages [tensorflow-text-nightly]: New version: [2.14.0.dev20230524] Old Version: [2.14.0.dev20230523]
+[2023-05-25 17:08:46] WARNING root fetch - processPackages [UComp]: Skipping, unable to determine old version
+[2023-05-25 17:08:46] INFO root fetch - processPackages [UComp]: Start processing: mctextworld-zhwang
+[2023-05-25 17:08:46] INFO root fetch - main [MainThread]: End processing [UComp] error
+[2023-05-25 17:08:46] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-05-25 17:08:46] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.8.tar.gz tmp/netbox-cisco-maintenance-0.0.9.tar.gz --markdown 20230525/n/netbox-cisco-maintenance/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 17:08:46] INFO root fetch - processPackages [rsconnect-python]: executing diffoscope
+[2023-05-25 17:08:46] INFO root fetch - processPackages [rsconnect-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rsconnect_python-1.9.0b1-py2.py3-none-any.whl.zip tmp/rsconnect_python-1.9.0b2-py2.py3-none-any.whl.zip --markdown 20230525/r/rsconnect-python/1.9.0b1-1.9.0b2/diff.md --exclude *.pyd
+[2023-05-25 17:08:46] ERROR root fetch - processPackages [mctextworld-zhwang]: Unable to get metadata: No such project 'mctextworld-zhwang'
+[2023-05-25 17:08:46] INFO root fetch - processPackages [mctextworld-zhwang]: Start processing: draggan
+[2023-05-25 17:08:46] INFO root fetch - main [MainThread]: End processing [mctextworld-zhwang] error
+[2023-05-25 17:08:46] INFO root fetch - processPackages [draggan]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-25 17:08:46] INFO root fetch - processPackages [keepvariable]: Downloading https://files.pythonhosted.org/packages/ac/1c/66b1f9b612f588131fe9a23725834f148246851d8de65ec5217ffc143566/keepvariable-1.0.3.tar.gz
+[2023-05-25 17:08:46] INFO root fetch - processPackages [macos-notifications]: Downloading https://files.pythonhosted.org/packages/7c/bf/eac1612e4fbd854b9149cd13d94dab003c1b8b5dd6dff39e66b8d4b150bb/macos-notifications-0.1.5.tar.gz
+[2023-05-25 17:08:46] INFO root fetch - processPackages [wagtail-mailchimp-integration]: Downloading https://files.pythonhosted.org/packages/fb/e9/db301f26126b7a2597ce929bf6d179a15b992699130ce72de4eccdb37ac1/wagtail-mailchimp-integration-0.0.3.tar.gz
+[2023-05-25 17:08:46] INFO root fetch - processPackages [steam-acolyte]: Downloading https://files.pythonhosted.org/packages/68/7a/4933c23f58f1dfdf717dee6656d649d308e9e2938c56b905f305a89e6042/steam-acolyte-0.8.1.tar.gz
+[2023-05-25 17:08:46] INFO root fetch - processPackages [lifeguard]: Downloading https://files.pythonhosted.org/packages/80/a5/65015ccef07a80a36d2875db3539059a3bb5440e453c51d9eb1ccc5f47e3/lifeguard-1.0.1.tar.gz
+[2023-05-25 17:08:46] INFO root fetch - processPackages [runningz]: Downloading https://files.pythonhosted.org/packages/50/b9/a8a8d286e73547313a94bd87532b9aae5e524898baa17ce41bffc7c79c9d/runningz-0.11.3.8-py39-none-any.whl
+[2023-05-25 17:08:46] INFO root fetch - processPackages [wagtail-mailchimp-integration]: executing diffoscope
+[2023-05-25 17:08:46] INFO root fetch - processPackages [wagtail-mailchimp-integration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail-mailchimp-integration-0.0.2.tar.gz tmp/wagtail-mailchimp-integration-0.0.3.tar.gz --markdown 20230525/w/wagtail-mailchimp-integration/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-25 17:08:46] INFO root fetch - processPackages [draggan]: Downloading https://files.pythonhosted.org/packages/0b/7d/919835e95661b64776704fd02241c3831a7e2262e8bf7a4915a65c30f17c/draggan-1.0.5.tar.gz
+[2023-05-25 17:08:46] INFO root fetch - processPackages [lifeguard]: executing diffoscope
+[2023-05-25 17:08:46] INFO root fetch - processPackages [lifeguard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lifeguard-1.0.0.tar.gz tmp/lifeguard-1.0.1.tar.gz --markdown 20230525/l/lifeguard/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-25 17:08:46] INFO root fetch - processPackages [draggan]: executing diffoscope
+[2023-05-25 17:08:46] INFO root fetch - processPackages [draggan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/draggan-1.0.4.tar.gz tmp/draggan-1.0.5.tar.gz --markdown 20230525/d/draggan/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-25 17:08:46] INFO root fetch - processPackages [steam-acolyte]: Downloading https://files.pythonhosted.org/packages/7a/5e/aefc34713c25179925e5b1797bda0c951414c8f1807dee3c6d22a527d236/steam-acolyte-0.9.0.tar.gz
+[2023-05-25 17:08:46] INFO root fetch - processPackages [steam-acolyte]: executing diffoscope
+[2023-05-25 17:08:46] INFO root fetch - processPackages [steam-acolyte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steam-acolyte-0.8.1.tar.gz tmp/steam-acolyte-0.9.0.tar.gz --markdown 20230525/s/steam-acolyte/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-25 17:08:46] INFO root fetch - processPackages [keepvariable]: Downloading https://files.pythonhosted.org/packages/92/14/4d0f57f106bb5e6ac19c91fc3741b11557062b5142cda5c28e3f3f2b60d9/keepvariable-1.1.0.tar.gz
+[2023-05-25 17:08:46] INFO root fetch - processPackages [runningz]: executing diffoscope
+[2023-05-25 17:08:46] INFO root fetch - processPackages [runningz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runningz-0.11.3.7-py39-none-any.whl.zip tmp/runningz-0.11.3.8-py39-none-any.whl.zip --markdown 20230525/r/runningz/0.11.3.7-0.11.3.8/diff.md --exclude *.pyd
+[2023-05-25 17:08:46] INFO root fetch - processPackages [macos-notifications]: Downloading https://files.pythonhosted.org/packages/c3/a7/4701a94c927051dcb0b7439f71cf11b4ab444a3955bae0a11fc590883470/macos_notifications-0.1.6.tar.gz
+[2023-05-25 17:08:46] INFO root fetch - processPackages [macos-notifications]: executing diffoscope
+[2023-05-25 17:08:46] INFO root fetch - processPackages [macos-notifications]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macos-notifications-0.1.5.tar.gz tmp/macos_notifications-0.1.6.tar.gz --markdown 20230525/m/macos-notifications/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-25 17:08:46] INFO root fetch - processPackages [keepvariable]: executing diffoscope
+[2023-05-25 17:08:46] INFO root fetch - processPackages [keepvariable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keepvariable-1.0.3.tar.gz tmp/keepvariable-1.1.0.tar.gz --markdown 20230525/k/keepvariable/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-05-25 17:08:47] INFO root fetch - processPackages [tensorflow-text-nightly]: Downloading https://files.pythonhosted.org/packages/16/15/e92496b74b02d56f93ab8b9063edc9e090bfe75c3fdde5d6181cf61b4ab2/tensorflow_text_nightly-2.14.0.dev20230524-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-25 17:08:47] INFO root fetch - processPackages [netbox-cisco-maintenance]: Start processing: Subsearch
+[2023-05-25 17:08:47] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-05-25 17:08:47] INFO root fetch - processPackages [Subsearch]: New version: [2.35.0rc3] Old Version: [2.35.0rc2]
+[2023-05-25 17:08:47] INFO root fetch - processPackages [rsconnect-python]: Start processing: cht-tide
+[2023-05-25 17:08:47] INFO root fetch - main [MainThread]: End processing [rsconnect-python]: success
+[2023-05-25 17:08:47] WARNING root fetch - processPackages [cht-tide]: Skipping, unable to determine old version
+[2023-05-25 17:08:47] INFO root fetch - processPackages [cht-tide]: Start processing: elgin
+[2023-05-25 17:08:47] INFO root fetch - main [MainThread]: End processing [cht-tide] error
+[2023-05-25 17:08:47] INFO root fetch - processPackages [tensorflow-text-nightly]: executing diffoscope
+[2023-05-25 17:08:47] INFO root fetch - processPackages [tensorflow-text-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_text_nightly-2.14.0.dev20230523-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/tensorflow_text_nightly-2.14.0.dev20230524-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230525/t/tensorflow-text-nightly/2.14.0.dev20230523-2.14.0.dev20230524/diff.md --exclude *.pyd
+[2023-05-25 17:08:47] WARNING root fetch - processPackages [elgin]: Skipping, unable to determine old version
+[2023-05-25 17:08:47] INFO root fetch - processPackages [elgin]: Start processing: django-listable
+[2023-05-25 17:08:47] INFO root fetch - main [MainThread]: End processing [elgin] error
+[2023-05-25 17:08:47] INFO root fetch - processPackages [django-listable]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-05-25 17:08:48] INFO root fetch - processPackages [Subsearch]: Downloading https://files.pythonhosted.org/packages/e9/ab/86143974e6dcd2fb217f0074652034dfb8e5586b6dc75fed42328332f50e/Subsearch-2.35.0rc2.tar.gz
+[2023-05-25 17:08:48] INFO root fetch - processPackages [django-listable]: Downloading https://files.pythonhosted.org/packages/88/cb/1d6cef6e974be6c3ced82801aa904c2edfb5799fb748d77199b75929e9c5/django-listable-0.8.0.tar.gz
+[2023-05-25 17:08:48] INFO root fetch - processPackages [Subsearch]: Downloading https://files.pythonhosted.org/packages/65/2e/7a83ac80369afb68ef1b6c25a73214a85ae45cb00a498c5db23761770e0c/Subsearch-2.35.0rc3.tar.gz
+[2023-05-25 17:08:48] INFO root fetch - processPackages [django-listable]: Downloading https://files.pythonhosted.org/packages/a8/34/07df55e20303869c4b7b902815c70e72b3c14386e37941fc00c08ead6e2b/django-listable-0.8.1.tar.gz
+[2023-05-25 17:08:48] INFO root fetch - processPackages [Subsearch]: executing diffoscope
+[2023-05-25 17:08:48] INFO root fetch - processPackages [Subsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Subsearch-2.35.0rc2.tar.gz tmp/Subsearch-2.35.0rc3.tar.gz --markdown 20230525/S/Subsearch/2.35.0rc2-2.35.0rc3/diff.md --exclude *.pyd
+[2023-05-25 17:08:48] INFO root fetch - processPackages [wagtail-mailchimp-integration]: Start processing: etl-csm
+[2023-05-25 17:08:48] INFO root fetch - main [MainThread]: End processing [wagtail-mailchimp-integration]: success
+[2023-05-25 17:08:48] INFO root fetch - processPackages [django-listable]: executing diffoscope
+[2023-05-25 17:08:48] INFO root fetch - processPackages [django-listable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-listable-0.8.0.tar.gz tmp/django-listable-0.8.1.tar.gz --markdown 20230525/d/django-listable/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-05-25 17:08:48] INFO root fetch - processPackages [etl-csm]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-25 17:08:48] INFO root fetch - processPackages [draggan]: Start processing: mpipartition
+[2023-05-25 17:08:48] INFO root fetch - main [MainThread]: End processing [draggan]: success
+[2023-05-25 17:08:48] INFO root fetch - processPackages [mpipartition]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-25 17:08:48] INFO root fetch - processPackages [lifeguard]: Start processing: th2-data-services-lwdp
+[2023-05-25 17:08:48] INFO root fetch - main [MainThread]: End processing [lifeguard]: success
+[2023-05-25 17:08:48] INFO root fetch - processPackages [th2-data-services-lwdp]: New version: [2.0.3.0.dev5071725666] Old Version: [2.0.3.0.dev4893468846]
+[2023-05-25 17:08:48] INFO root fetch - processPackages [etl-csm]: Downloading https://files.pythonhosted.org/packages/fc/fd/e308f0e8eab498338c81f117a52961a4bc0264b3763229612a59d4ba0dd8/etl_csm-0.1.8.tar.gz
+[2023-05-25 17:08:48] INFO root fetch - processPackages [etl-csm]: executing diffoscope
+[2023-05-25 17:08:48] INFO root fetch - processPackages [etl-csm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etl_csm-0.1.7.tar.gz tmp/etl_csm-0.1.8.tar.gz --markdown 20230525/e/etl-csm/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-25 17:08:48] INFO root fetch - processPackages [mpipartition]: Downloading https://files.pythonhosted.org/packages/a7/b7/b0b9c7105f08a8ee098f48a76647a75bcf92c01acf4c57d671244337bf1a/mpipartition-1.0.4.tar.gz
+[2023-05-25 17:08:48] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/3d/67/0fc201deaa1dd8cb088bf88655b6a316ef81243afac39268467157f71c8f/th2_data_services_lwdp-2.0.3.0.dev5071725666.tar.gz
+[2023-05-25 17:08:49] INFO root fetch - processPackages [th2-data-services-lwdp]: executing diffoscope
+[2023-05-25 17:08:49] INFO root fetch - processPackages [th2-data-services-lwdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services_lwdp-2.0.3.0.dev4893468846.tar.gz tmp/th2_data_services_lwdp-2.0.3.0.dev5071725666.tar.gz --markdown 20230525/t/th2-data-services-lwdp/2.0.3.0.dev4893468846-2.0.3.0.dev5071725666/diff.md --exclude *.pyd
+[2023-05-25 17:08:49] INFO root fetch - main [MainThread]: End processing [keepvariable]: success
+[2023-05-25 17:08:49] INFO root fetch - processPackages [mpipartition]: Downloading https://files.pythonhosted.org/packages/e5/88/c7164dc90499f91f3144b71078795471e77e383021c0260d89c6c615020c/mpipartition-1.0.5.tar.gz
+[2023-05-25 17:08:49] INFO root fetch - main [MainThread]: End processing [macos-notifications]: success
+[2023-05-25 17:08:49] INFO root fetch - main [MainThread]: End processing [steam-acolyte]: success
+[2023-05-25 17:08:49] INFO root fetch - processPackages [mpipartition]: executing diffoscope
+[2023-05-25 17:08:49] INFO root fetch - processPackages [mpipartition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpipartition-1.0.4.tar.gz tmp/mpipartition-1.0.5.tar.gz --markdown 20230525/m/mpipartition/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-25 17:08:49] INFO root fetch - main [MainThread]: End processing [runningz]: success
+[2023-05-25 17:08:50] INFO root fetch - main [MainThread]: End processing [Subsearch]: success
+[2023-05-25 17:08:50] INFO root fetch - main [MainThread]: End processing [etl-csm]: success
+[2023-05-25 17:08:50] INFO root fetch - main [MainThread]: End processing [mpipartition]: success
+[2023-05-25 17:08:50] INFO root fetch - main [MainThread]: End processing [th2-data-services-lwdp]: success
+[2023-05-25 17:08:51] INFO root fetch - main [MainThread]: End processing [django-listable]: success
+[2023-05-25 17:08:52] INFO root fetch - main [MainThread]: End processing [tensorflow-text-nightly]: success
+[2023-05-25 17:08:52] INFO root fetch - main [MainThread]: Store serial: [18248754]
