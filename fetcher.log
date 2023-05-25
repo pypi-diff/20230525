@@ -20704,3 +20704,141 @@ EOFError: EOF read where object expected
 [2023-05-25 16:20:04] INFO root fetch - main [MainThread]: End processing [dev-gpt]: success
 [2023-05-25 16:20:05] INFO root fetch - main [MainThread]: End processing [fief-server]: success
 [2023-05-25 16:20:05] INFO root fetch - main [MainThread]: Store serial: [18248074]
+[2023-05-25 16:25:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18248074]
+[2023-05-25 16:25:14] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-05-25 16:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: relion
+[2023-05-25 16:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyterlab-training
+[2023-05-25 16:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: petisco
+[2023-05-25 16:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nsj-rest-lib
+[2023-05-25 16:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Sneed
+[2023-05-25 16:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: text2story
+[2023-05-25 16:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-travelmanager
+[2023-05-25 16:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: seamapi
+[2023-05-25 16:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: textbsr
+[2023-05-25 16:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: agnm
+[2023-05-25 16:25:14] WARNING root fetch - processPackages [jupyterlab-training]: Skipping, unable to determine old version
+[2023-05-25 16:25:14] INFO root fetch - processPackages [jupyterlab-training]: Start processing: datasieve
+[2023-05-25 16:25:14] INFO root fetch - main [MainThread]: End processing [jupyterlab-training] error
+[2023-05-25 16:25:14] WARNING root fetch - processPackages [Sneed]: Skipping, unable to determine old version
+[2023-05-25 16:25:14] INFO root fetch - processPackages [Sneed]: Start processing: nxselector
+[2023-05-25 16:25:14] INFO root fetch - main [MainThread]: End processing [Sneed] error
+[2023-05-25 16:25:14] INFO root fetch - processPackages [agnm]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-25 16:25:14] INFO root fetch - processPackages [python-travelmanager]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-25 16:25:14] INFO root fetch - processPackages [seamapi]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-05-25 16:25:14] INFO root fetch - processPackages [nsj-rest-lib]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-05-25 16:25:14] INFO root fetch - processPackages [textbsr]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 16:25:14] INFO root fetch - processPackages [text2story]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-25 16:25:14] INFO root fetch - processPackages [datasieve]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-25 16:25:14] INFO root fetch - processPackages [relion]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-25 16:25:14] INFO root fetch - processPackages [nxselector]: New version: [3.19.0] Old Version: [3.18.4]
+[2023-05-25 16:25:14] INFO root fetch - processPackages [petisco]: New version: [2.0.0rc0] Old Version: [1.9.9]
+[2023-05-25 16:25:14] INFO root fetch - processPackages [textbsr]: executing diffoscope
+[2023-05-25 16:25:14] INFO root fetch - processPackages [textbsr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textbsr-0.0.8.tar.gz tmp/textbsr-0.0.9.tar.gz --markdown 20230525/t/textbsr/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 16:25:14] INFO root fetch - processPackages [text2story]: executing diffoscope
+[2023-05-25 16:25:14] INFO root fetch - processPackages [text2story]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text2story-1.2.8.tar.gz tmp/text2story-1.2.9.tar.gz --markdown 20230525/t/text2story/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-25 16:25:14] INFO root fetch - processPackages [python-travelmanager]: Downloading https://files.pythonhosted.org/packages/12/5c/418db0359ae129a9cefef971b41319129baba18e9a060e76c3f0e40d364e/python_travelmanager-1.0.0.tar.gz
+[2023-05-25 16:25:14] INFO root fetch - processPackages [agnm]: Downloading https://files.pythonhosted.org/packages/53/64/326939ccc09f7df2ea3a10bd84e58d438659be87cffeaf63e4eabded6418/agnm-1.0.1.tar.gz
+[2023-05-25 16:25:14] INFO root fetch - processPackages [datasieve]: Downloading https://files.pythonhosted.org/packages/d0/1f/846f1a0451df1d885898072e84d1962a8b24f384542a5868218c362e88d1/datasieve-0.0.1.tar.gz
+[2023-05-25 16:25:14] INFO root fetch - processPackages [nsj-rest-lib]: Downloading https://files.pythonhosted.org/packages/82/5e/6c5c03ff9fb837776bc4f929d95fc514f61235c060710778c09ebca3872a/nsj_rest_lib-0.1.9.tar.gz
+[2023-05-25 16:25:14] INFO root fetch - processPackages [nxselector]: Downloading https://files.pythonhosted.org/packages/70/8d/d381dbe9bc963594d79bf4eca8f0995573c9dabad1fef87a76d8813b2d2f/nxselector-3.18.4.tar.gz
+[2023-05-25 16:25:14] INFO root fetch - processPackages [python-travelmanager]: Downloading https://files.pythonhosted.org/packages/3f/a1/fd01b7f58260835fd2e1c5768d7d09cfafdad6a925bdad44058092f58a0c/python_travelmanager-1.0.1.tar.gz
+[2023-05-25 16:25:14] INFO root fetch - processPackages [petisco]: Downloading https://files.pythonhosted.org/packages/d7/43/78f9603b40ce70a8dceccf4ce680a08ecbc8145f2fcd5c4ef6cc9df13eef/petisco-2.0.0rc0.tar.gz
+[2023-05-25 16:25:14] INFO root fetch - processPackages [agnm]: Downloading https://files.pythonhosted.org/packages/2f/7c/1f0cd0ed673a7ba87f7f4c161593a8da237641c52cf3efd602194967c5a3/agnm-1.0.2.tar.gz
+[2023-05-25 16:25:14] INFO root fetch - processPackages [python-travelmanager]: executing diffoscope
+[2023-05-25 16:25:14] INFO root fetch - processPackages [python-travelmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_travelmanager-1.0.0.tar.gz tmp/python_travelmanager-1.0.1.tar.gz --markdown 20230525/p/python-travelmanager/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-25 16:25:14] INFO root fetch - processPackages [nsj-rest-lib]: Downloading https://files.pythonhosted.org/packages/7e/cd/0350c252ceead68ad0746a099c2d8ef5d44b6bca01e4c690b7dfc0ad60dd/nsj_rest_lib-0.2.0.tar.gz
+[2023-05-25 16:25:14] INFO root fetch - processPackages [seamapi]: executing diffoscope
+[2023-05-25 16:25:14] INFO root fetch - processPackages [nxselector]: Downloading https://files.pythonhosted.org/packages/3e/11/3f088d6e2332a673789c6cfcce09179978b10140ad6b23d8e73e98ecb509/nxselector-3.19.0.tar.gz
+[2023-05-25 16:25:14] INFO root fetch - processPackages [seamapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seamapi-2.9.0.tar.gz tmp/seamapi-2.9.1.tar.gz --markdown 20230525/s/seamapi/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-05-25 16:25:14] INFO root fetch - processPackages [agnm]: executing diffoscope
+[2023-05-25 16:25:14] INFO root fetch - processPackages [relion]: executing diffoscope
+[2023-05-25 16:25:14] INFO root fetch - processPackages [relion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/relion-0.9.8.tar.gz tmp/relion-0.9.9.tar.gz --markdown 20230525/r/relion/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-25 16:25:14] INFO root fetch - processPackages [agnm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agnm-1.0.1.tar.gz tmp/agnm-1.0.2.tar.gz --markdown 20230525/a/agnm/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-25 16:25:14] INFO root fetch - processPackages [nsj-rest-lib]: executing diffoscope
+[2023-05-25 16:25:14] INFO root fetch - processPackages [nsj-rest-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsj_rest_lib-0.1.9.tar.gz tmp/nsj_rest_lib-0.2.0.tar.gz --markdown 20230525/n/nsj-rest-lib/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-05-25 16:25:14] INFO root fetch - processPackages [nxselector]: executing diffoscope
+[2023-05-25 16:25:14] INFO root fetch - processPackages [nxselector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nxselector-3.18.4.tar.gz tmp/nxselector-3.19.0.tar.gz --markdown 20230525/n/nxselector/3.18.4-3.19.0/diff.md --exclude *.pyd
+[2023-05-25 16:25:14] INFO root fetch - processPackages [datasieve]: Downloading https://files.pythonhosted.org/packages/e5/f9/a86c8d9b6e960f4ed1a0026ca2ec65ba5174d5757606249ce818977da13b/datasieve-0.0.2.tar.gz
+[2023-05-25 16:25:14] INFO root fetch - processPackages [petisco]: executing diffoscope
+[2023-05-25 16:25:14] INFO root fetch - processPackages [petisco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petisco-1.9.9.tar.gz tmp/petisco-2.0.0rc0.tar.gz --markdown 20230525/p/petisco/1.9.9-2.0.0rc0/diff.md --exclude *.pyd
+[2023-05-25 16:25:14] INFO root fetch - processPackages [datasieve]: executing diffoscope
+[2023-05-25 16:25:14] INFO root fetch - processPackages [datasieve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasieve-0.0.1.tar.gz tmp/datasieve-0.0.2.tar.gz --markdown 20230525/d/datasieve/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-25 16:25:15] INFO root fetch - processPackages [textbsr]: Start processing: lzstring-optimized
+[2023-05-25 16:25:15] INFO root fetch - main [MainThread]: End processing [textbsr]: success
+[2023-05-25 16:25:16] INFO root fetch - processPackages [lzstring-optimized]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-25 16:25:16] INFO root fetch - processPackages [lzstring-optimized]: Downloading https://files.pythonhosted.org/packages/28/a7/e3167dcaa731d906952f0816e40c952daa204d06da721eced8fb33791c4e/lzstring_optimized-0.4.0.tar.gz
+[2023-05-25 16:25:16] INFO root fetch - processPackages [text2story]: Start processing: napari-hdf5-netcdf-viewer
+[2023-05-25 16:25:16] INFO root fetch - main [MainThread]: End processing [text2story]: success
+[2023-05-25 16:25:16] INFO root fetch - processPackages [napari-hdf5-netcdf-viewer]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-05-25 16:25:16] INFO root fetch - processPackages [lzstring-optimized]: Downloading https://files.pythonhosted.org/packages/b4/5f/5ce40126fb38f9c10562e4d094b2114c4dd36a51f0e685353db2d898d6f3/lzstring_optimized-0.5.0.tar.gz
+[2023-05-25 16:25:16] INFO root fetch - processPackages [lzstring-optimized]: executing diffoscope
+[2023-05-25 16:25:16] INFO root fetch - processPackages [lzstring-optimized]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lzstring_optimized-0.4.0.tar.gz tmp/lzstring_optimized-0.5.0.tar.gz --markdown 20230525/l/lzstring-optimized/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-25 16:25:16] INFO root fetch - processPackages [python-travelmanager]: Start processing: adt-cache
+[2023-05-25 16:25:16] INFO root fetch - main [MainThread]: End processing [python-travelmanager]: success
+[2023-05-25 16:25:16] INFO root fetch - processPackages [napari-hdf5-netcdf-viewer]: Downloading https://files.pythonhosted.org/packages/f6/11/0998c15012ae767c993abd84257c63dd011dc702353032f2c5797c157117/napari-hdf5-netcdf-viewer-0.0.2.tar.gz
+[2023-05-25 16:25:16] INFO root fetch - processPackages [adt-cache]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-25 16:25:16] INFO root fetch - processPackages [seamapi]: Start processing: spanishconjugator
+[2023-05-25 16:25:16] INFO root fetch - main [MainThread]: End processing [seamapi]: success
+[2023-05-25 16:25:16] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-25 16:25:16] INFO root fetch - processPackages [napari-hdf5-netcdf-viewer]: Downloading https://files.pythonhosted.org/packages/a9/08/e758065b3f903bc7094690a52111982988d6c13f24a917f8bfd6074f1e93/napari-hdf5-netcdf-viewer-0.1.0.tar.gz
+[2023-05-25 16:25:16] INFO root fetch - processPackages [adt-cache]: Downloading https://files.pythonhosted.org/packages/6c/27/f41fb956d430208b9020fe1aa5ae3b1f53629e619a0f0eff81294e6d732c/adt_cache-0.0.8.tar.gz
+[2023-05-25 16:25:16] INFO root fetch - processPackages [napari-hdf5-netcdf-viewer]: executing diffoscope
+[2023-05-25 16:25:16] INFO root fetch - processPackages [napari-hdf5-netcdf-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-hdf5-netcdf-viewer-0.0.2.tar.gz tmp/napari-hdf5-netcdf-viewer-0.1.0.tar.gz --markdown 20230525/n/napari-hdf5-netcdf-viewer/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-05-25 16:25:16] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-25 16:25:16] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230525/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-25 16:25:17] INFO root fetch - processPackages [agnm]: Start processing: spanishconjugator
+[2023-05-25 16:25:17] INFO root fetch - main [MainThread]: End processing [agnm]: success
+[2023-05-25 16:25:17] INFO root fetch - processPackages [adt-cache]: executing diffoscope
+[2023-05-25 16:25:17] INFO root fetch - processPackages [adt-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adt_cache-0.0.7.tar.gz tmp/adt_cache-0.0.8.tar.gz --markdown 20230525/a/adt-cache/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-25 16:25:17] INFO root fetch - processPackages [relion]: Start processing: aimmo
+[2023-05-25 16:25:17] INFO root fetch - main [MainThread]: End processing [relion]: success
+[2023-05-25 16:25:17] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-25 16:25:17] INFO root fetch - processPackages [datasieve]: Start processing: always-updates
+[2023-05-25 16:25:17] INFO root fetch - main [MainThread]: End processing [datasieve]: success
+[2023-05-25 16:25:17] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-05-25 16:25:17] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-25 16:25:17] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230525/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-25 16:25:17] INFO root fetch - processPackages [aimmo]: New version: [v0.1.1-alpha.post.dev9] Old Version: [v0.1.1-alpha.post.dev8]
+[2023-05-25 16:25:17] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-05-25 16:25:17] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230525/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-05-25 16:25:17] INFO root fetch - processPackages [nxselector]: Start processing: datamarket
+[2023-05-25 16:25:17] INFO root fetch - main [MainThread]: End processing [nxselector]: success
+[2023-05-25 16:25:17] INFO root fetch - processPackages [datamarket]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-25 16:25:17] INFO root fetch - processPackages [nsj-rest-lib]: Start processing: ut-date
+[2023-05-25 16:25:17] INFO root fetch - main [MainThread]: End processing [nsj-rest-lib]: success
+[2023-05-25 16:25:17] INFO root fetch - processPackages [datamarket]: executing diffoscope
+[2023-05-25 16:25:17] INFO root fetch - processPackages [datamarket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamarket-0.2.5.tar.gz tmp/datamarket-0.2.6.tar.gz --markdown 20230525/d/datamarket/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-25 16:25:17] INFO root fetch - processPackages [ut-date]: New version: [1.5.0] Old Version: [1.4.8]
+[2023-05-25 16:25:17] INFO root fetch - processPackages [aimmo]: executing diffoscope
+[2023-05-25 16:25:17] INFO root fetch - processPackages [aimmo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aimmo-v0.1.1-alpha.post.dev8.tar.gz tmp/aimmo-v0.1.1-alpha.post.dev9.tar.gz --markdown 20230525/a/aimmo/v0.1.1-alpha.post.dev8-v0.1.1-alpha.post.dev9/diff.md --exclude *.pyd
+[2023-05-25 16:25:17] INFO root fetch - processPackages [ut-date]: Downloading https://files.pythonhosted.org/packages/97/2e/d2eeb9588fed2b55046af99110cbb54fdff8dc4643aa8691ccaca956a36f/ut-date-1.4.8.tar.gz
+[2023-05-25 16:25:17] WARNING root fetch - processPackages [ut-date]: Skipping package: exceeds size limit 70934237>=10485760
+[2023-05-25 16:25:17] INFO root fetch - processPackages [ut-date]: Start processing: elliptic-sdk
+[2023-05-25 16:25:17] INFO root fetch - main [MainThread]: End processing [ut-date] error
+[2023-05-25 16:25:17] INFO root fetch - processPackages [elliptic-sdk]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-25 16:25:18] INFO root fetch - processPackages [elliptic-sdk]: executing diffoscope
+[2023-05-25 16:25:18] INFO root fetch - processPackages [elliptic-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elliptic_sdk-0.0.4.tar.gz tmp/elliptic_sdk-0.0.5.tar.gz --markdown 20230525/e/elliptic-sdk/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-25 16:25:18] INFO root fetch - processPackages [lzstring-optimized]: Start processing: blockdivision
+[2023-05-25 16:25:18] INFO root fetch - main [MainThread]: End processing [lzstring-optimized]: success
+[2023-05-25 16:25:18] WARNING root fetch - processPackages [blockdivision]: Skipping, unable to determine old version
+[2023-05-25 16:25:18] INFO root fetch - processPackages [blockdivision]: Start processing: vid2info
+[2023-05-25 16:25:18] INFO root fetch - main [MainThread]: End processing [blockdivision] error
+[2023-05-25 16:25:18] INFO root fetch - processPackages [vid2info]: New version: [1.99] Old Version: [1.98]
+[2023-05-25 16:25:18] INFO root fetch - processPackages [vid2info]: executing diffoscope
+[2023-05-25 16:25:18] INFO root fetch - processPackages [vid2info]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vid2info-1.98.tar.gz tmp/vid2info-1.99.tar.gz --markdown 20230525/v/vid2info/1.98-1.99/diff.md --exclude *.pyd
+[2023-05-25 16:25:19] INFO root fetch - processPackages [adt-cache]: Start processing: upgini
+[2023-05-25 16:25:19] INFO root fetch - main [MainThread]: End processing [adt-cache]: success
+[2023-05-25 16:25:19] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-05-25 16:25:19] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-25 16:25:19] INFO root fetch - main [MainThread]: End processing [napari-hdf5-netcdf-viewer]: success
+[2023-05-25 16:25:19] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2023-05-25 16:25:19] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20230525/u/upgini/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-05-25 16:25:19] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-05-25 16:25:19] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-25 16:25:19] INFO root fetch - main [MainThread]: End processing [datamarket]: success
+[2023-05-25 16:25:19] INFO root fetch - main [MainThread]: End processing [elliptic-sdk]: success
+[2023-05-25 16:25:20] INFO root fetch - main [MainThread]: End processing [petisco]: success
+[2023-05-25 16:25:20] INFO root fetch - main [MainThread]: End processing [aimmo]: success
+[2023-05-25 16:25:21] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2023-05-25 16:25:21] INFO root fetch - main [MainThread]: End processing [vid2info]: success
+[2023-05-25 16:25:21] INFO root fetch - main [MainThread]: Store serial: [18248162]
