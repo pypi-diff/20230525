@@ -7124,3 +7124,88 @@
 [2023-05-25 05:15:47] INFO root fetch - main [MainThread]: End processing [alibabacloud-ecs20140526-py2]: success
 [2023-05-25 05:15:58] INFO root fetch - main [MainThread]: End processing [jupyter-scatter]: success
 [2023-05-25 05:15:58] INFO root fetch - main [MainThread]: Store serial: [18240488]
+[2023-05-25 05:21:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18240488]
+[2023-05-25 05:21:09] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-25 05:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyderive3
+[2023-05-25 05:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cupy-rocm-5-0
+[2023-05-25 05:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cupy-rocm-4-3
+[2023-05-25 05:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aliyun-python-sdk-polardb
+[2023-05-25 05:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Alpha-Rabbit
+[2023-05-25 05:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: seven-cloudapp-frame
+[2023-05-25 05:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: GANDLF
+[2023-05-25 05:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cupy-rocm-5-0
+[2023-05-25 05:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mb-base
+[2023-05-25 05:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: auto-eval
+[2023-05-25 05:21:09] INFO root fetch - processPackages [Alpha-Rabbit]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-25 05:21:09] INFO root fetch - processPackages [GANDLF]: New version: [0.0.17.dev20230524] Old Version: [0.0.17.dev20230523]
+[2023-05-25 05:21:10] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.9.9] Old Version: [1.0.9.8]
+[2023-05-25 05:21:10] INFO root fetch - processPackages [cupy-rocm-5-0]: New version: [12.1.0] Old Version: [12.0.0]
+[2023-05-25 05:21:10] INFO root fetch - processPackages [cupy-rocm-5-0]: New version: [12.1.0] Old Version: [12.0.0]
+[2023-05-25 05:21:10] WARNING root fetch - processPackages [pyderive3]: Skipping, unable to determine old version
+[2023-05-25 05:21:10] INFO root fetch - processPackages [pyderive3]: Start processing: cupy-rocm-4-3
+[2023-05-25 05:21:10] INFO root fetch - processPackages [auto-eval]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-25 05:21:10] INFO root fetch - main [MainThread]: End processing [pyderive3] error
+[2023-05-25 05:21:10] INFO root fetch - processPackages [Alpha-Rabbit]: executing diffoscope
+[2023-05-25 05:21:10] INFO root fetch - processPackages [cupy-rocm-4-3]: New version: [9.6.0] Old Version: [9.5.0]
+[2023-05-25 05:21:10] INFO root fetch - processPackages [mb-base]: New version: [1.0.202305250320] Old Version: [1.0.202305250319]
+[2023-05-25 05:21:10] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: New version: [1.8.9] Old Version: [1.8.8]
+[2023-05-25 05:21:10] INFO root fetch - processPackages [GANDLF]: executing diffoscope
+[2023-05-25 05:21:10] INFO root fetch - processPackages [Alpha-Rabbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Alpha_Rabbit-1.3.8.tar.gz tmp/Alpha_Rabbit-1.3.9.tar.gz --markdown 20230525/A/Alpha-Rabbit/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-25 05:21:10] INFO root fetch - processPackages [GANDLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GANDLF-0.0.17.dev20230523.tar.gz tmp/GANDLF-0.0.17.dev20230524.tar.gz --markdown 20230525/G/GANDLF/0.0.17.dev20230523-0.0.17.dev20230524/diff.md --exclude *.pyd
+[2023-05-25 05:21:10] INFO root fetch - processPackages [cupy-rocm-4-3]: New version: [9.6.0] Old Version: [9.5.0]
+[2023-05-25 05:21:10] INFO root fetch - processPackages [cupy-rocm-5-0]: Downloading https://files.pythonhosted.org/packages/bd/54/73d97f107fb5e384fdf22a7133fdb3795d8f8a6743f1ff245e699d488780/cupy_rocm_5_0-12.0.0-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-25 05:21:10] INFO root fetch - processPackages [cupy-rocm-5-0]: Downloading https://files.pythonhosted.org/packages/bd/54/73d97f107fb5e384fdf22a7133fdb3795d8f8a6743f1ff245e699d488780/cupy_rocm_5_0-12.0.0-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-25 05:21:10] INFO root fetch - processPackages [mb-base]: Downloading https://files.pythonhosted.org/packages/9e/80/3e9b9ee222091c1d83879c1e4cb64a5c1fc33c1062cb973edec0de0a0f83/mb_base-1.0.202305250319-py3-none-any.whl
+[2023-05-25 05:21:10] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: Downloading https://files.pythonhosted.org/packages/01/fe/f5790b8610dcb697110bfde0cee5a9b77c5d4fdda092e10ee9c36171477c/aliyun-python-sdk-polardb-1.8.8.tar.gz
+[2023-05-25 05:21:10] INFO root fetch - processPackages [cupy-rocm-4-3]: Downloading https://files.pythonhosted.org/packages/13/46/20402f80b2543cb83ae3f2659d30f0c0d35b3a80e885c9453511750b20ad/cupy_rocm_4_3-9.5.0-cp39-cp39-manylinux1_x86_64.whl
+[2023-05-25 05:21:10] INFO root fetch - processPackages [cupy-rocm-4-3]: Downloading https://files.pythonhosted.org/packages/13/46/20402f80b2543cb83ae3f2659d30f0c0d35b3a80e885c9453511750b20ad/cupy_rocm_4_3-9.5.0-cp39-cp39-manylinux1_x86_64.whl
+[2023-05-25 05:21:10] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-05-25 05:21:10] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.9.8.tar.gz tmp/seven_cloudapp_frame-1.0.9.9.tar.gz --markdown 20230525/s/seven-cloudapp-frame/1.0.9.8-1.0.9.9/diff.md --exclude *.pyd
+[2023-05-25 05:21:10] INFO root fetch - processPackages [auto-eval]: Downloading https://files.pythonhosted.org/packages/08/40/bb97b60ba80da7311a6520ccf15badf2582f5bd00d6d6bd307a86c1379b4/auto-eval-0.2.3.tar.gz
+[2023-05-25 05:21:10] WARNING root fetch - processPackages [cupy-rocm-4-3]: Skipping package: exceeds size limit 33470653>=10485760
+[2023-05-25 05:21:10] INFO root fetch - processPackages [cupy-rocm-4-3]: Start processing: qky-tools
+[2023-05-25 05:21:10] INFO root fetch - main [MainThread]: End processing [cupy-rocm-4-3] error
+[2023-05-25 05:21:10] INFO root fetch - processPackages [qky-tools]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-05-25 05:21:10] INFO root fetch - processPackages [mb-base]: Downloading https://files.pythonhosted.org/packages/d8/32/2e21d8be5926c52659ff3807093ed41b7077bc54961f464304e00991ad61/mb_base-1.0.202305250320-py3-none-any.whl
+[2023-05-25 05:21:10] WARNING root fetch - processPackages [cupy-rocm-4-3]: Skipping package: exceeds size limit 33470653>=10485760
+[2023-05-25 05:21:10] INFO root fetch - processPackages [cupy-rocm-4-3]: Start processing: mb-base
+[2023-05-25 05:21:10] INFO root fetch - main [MainThread]: End processing [cupy-rocm-4-3] error
+[2023-05-25 05:21:10] INFO root fetch - processPackages [mb-base]: New version: [1.0.202305250320] Old Version: [1.0.202305250319]
+[2023-05-25 05:21:10] INFO root fetch - processPackages [auto-eval]: executing diffoscope
+[2023-05-25 05:21:10] INFO root fetch - processPackages [auto-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-eval-0.2.2.tar.gz tmp/auto-eval-0.2.3.tar.gz --markdown 20230525/a/auto-eval/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-25 05:21:10] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: Downloading https://files.pythonhosted.org/packages/98/11/7b55beb702af2e9183edd5e70523b817de7c96f4f0e211ad727fd870afd2/aliyun-python-sdk-polardb-1.8.9.tar.gz
+[2023-05-25 05:21:10] INFO root fetch - processPackages [mb-base]: Downloading https://files.pythonhosted.org/packages/d8/32/2e21d8be5926c52659ff3807093ed41b7077bc54961f464304e00991ad61/mb_base-1.0.202305250320-py3-none-any.whl
+[2023-05-25 05:21:10] INFO root fetch - processPackages [mb-base]: executing diffoscope
+[2023-05-25 05:21:10] INFO root fetch - processPackages [mb-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_base-1.0.202305250319-py3-none-any.whl.zip tmp/mb_base-1.0.202305250320-py3-none-any.whl.zip --markdown 20230525/m/mb-base/1.0.202305250319-1.0.202305250320/diff.md --exclude *.pyd
+[2023-05-25 05:21:10] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: executing diffoscope
+[2023-05-25 05:21:10] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-polardb-1.8.8.tar.gz tmp/aliyun-python-sdk-polardb-1.8.9.tar.gz --markdown 20230525/a/aliyun-python-sdk-polardb/1.8.8-1.8.9/diff.md --exclude *.pyd
+[2023-05-25 05:21:10] INFO root fetch - processPackages [qky-tools]: executing diffoscope
+[2023-05-25 05:21:10] INFO root fetch - processPackages [qky-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qky-tools-0.5.0.tar.gz tmp/qky-tools-0.6.0.tar.gz --markdown 20230525/q/qky-tools/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-05-25 05:21:10] INFO root fetch - processPackages [mb-base]: executing diffoscope
+[2023-05-25 05:21:10] INFO root fetch - processPackages [mb-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_base-1.0.202305250319-py3-none-any.whl.zip tmp/mb_base-1.0.202305250320-py3-none-any.whl.zip --markdown 20230525/m/mb-base/1.0.202305250319-1.0.202305250320/diff.md --exclude *.pyd
+[2023-05-25 05:21:11] WARNING root fetch - processPackages [cupy-rocm-5-0]: Skipping package: exceeds size limit 57818981>=10485760
+[2023-05-25 05:21:11] WARNING root fetch - processPackages [cupy-rocm-5-0]: Skipping package: exceeds size limit 57818981>=10485760
+[2023-05-25 05:21:11] INFO root fetch - processPackages [cupy-rocm-5-0]: Start processing: odoo13-addon-fieldservice
+[2023-05-25 05:21:11] INFO root fetch - main [MainThread]: End processing [cupy-rocm-5-0] error
+[2023-05-25 05:21:11] INFO root fetch - processPackages [cupy-rocm-5-0]: Start processing: odoo12-addon-fieldservice
+[2023-05-25 05:21:11] INFO root fetch - main [MainThread]: End processing [cupy-rocm-5-0] error
+[2023-05-25 05:21:11] INFO root fetch - processPackages [odoo12-addon-fieldservice]: New version: [12.0.2.9.0.99.dev1] Old Version: [12.0.2.9.0]
+[2023-05-25 05:21:11] INFO root fetch - processPackages [odoo13-addon-fieldservice]: New version: [13.0.1.2.2.dev9] Old Version: [13.0.1.2.2.dev8]
+[2023-05-25 05:21:11] INFO root fetch - processPackages [Alpha-Rabbit]: Start processing: InstallDemo
+[2023-05-25 05:21:11] INFO root fetch - main [MainThread]: End processing [Alpha-Rabbit]: success
+[2023-05-25 05:21:11] WARNING root fetch - processPackages [InstallDemo]: Skipping, unable to determine old version
+[2023-05-25 05:21:11] INFO root fetch - main [MainThread]: End processing [InstallDemo] error
+[2023-05-25 05:21:11] INFO root fetch - processPackages [odoo12-addon-fieldservice]: executing diffoscope
+[2023-05-25 05:21:11] INFO root fetch - processPackages [odoo12-addon-fieldservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_fieldservice-12.0.2.9.0-py3-none-any.whl.zip tmp/odoo12_addon_fieldservice-12.0.2.9.0.99.dev1-py3-none-any.whl.zip --markdown 20230525/o/odoo12-addon-fieldservice/12.0.2.9.0-12.0.2.9.0.99.dev1/diff.md --exclude *.pyd
+[2023-05-25 05:21:11] INFO root fetch - processPackages [odoo13-addon-fieldservice]: executing diffoscope
+[2023-05-25 05:21:11] INFO root fetch - processPackages [odoo13-addon-fieldservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_fieldservice-13.0.1.2.2.dev8-py3-none-any.whl.zip tmp/odoo13_addon_fieldservice-13.0.1.2.2.dev9-py3-none-any.whl.zip --markdown 20230525/o/odoo13-addon-fieldservice/13.0.1.2.2.dev8-13.0.1.2.2.dev9/diff.md --exclude *.pyd
+[2023-05-25 05:21:11] INFO root fetch - main [MainThread]: End processing [auto-eval]: success
+[2023-05-25 05:21:12] INFO root fetch - main [MainThread]: End processing [mb-base]: success
+[2023-05-25 05:21:12] INFO root fetch - main [MainThread]: End processing [mb-base]: success
+[2023-05-25 05:21:12] INFO root fetch - main [MainThread]: End processing [qky-tools]: success
+[2023-05-25 05:21:12] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-polardb]: success
+[2023-05-25 05:21:13] INFO root fetch - main [MainThread]: End processing [odoo13-addon-fieldservice]: success
+[2023-05-25 05:21:13] INFO root fetch - main [MainThread]: End processing [odoo12-addon-fieldservice]: success
+[2023-05-25 05:21:14] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
+[2023-05-25 05:21:14] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-05-25 05:21:14] INFO root fetch - main [MainThread]: Store serial: [18240539]
