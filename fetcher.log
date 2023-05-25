@@ -18314,3 +18314,75 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-25 14:31:28] INFO root fetch - main [MainThread]: End processing [YMS]: success
 [2023-05-25 14:31:28] INFO root fetch - main [MainThread]: End processing [meteva]: success
 [2023-05-25 14:31:28] INFO root fetch - main [MainThread]: Store serial: [18246527]
+[2023-05-25 14:36:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18246527]
+[2023-05-25 14:36:37] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-25 14:36:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crc-event-schemas
+[2023-05-25 14:36:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: thztools
+[2023-05-25 14:36:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: biaslyze
+[2023-05-25 14:36:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: harness-featureflags
+[2023-05-25 14:36:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: legend-pydataobj
+[2023-05-25 14:36:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dwiqc
+[2023-05-25 14:36:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: OpenGeode-core
+[2023-05-25 14:36:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: enebootools
+[2023-05-25 14:36:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: widefield-analysis
+[2023-05-25 14:36:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: genomenotebook
+[2023-05-25 14:36:37] INFO root fetch - processPackages [biaslyze]: New version: [0.0.2a0] Old Version: [0.0.1a0]
+[2023-05-25 14:36:37] INFO root fetch - processPackages [enebootools]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-05-25 14:36:37] INFO root fetch - processPackages [widefield-analysis]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-25 14:36:37] INFO root fetch - processPackages [genomenotebook]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-05-25 14:36:37] INFO root fetch - processPackages [legend-pydataobj]: New version: [1.1.1] Old Version: [1.0.0]
+[2023-05-25 14:36:37] WARNING root fetch - processPackages [thztools]: Skipping, unable to determine old version
+[2023-05-25 14:36:37] INFO root fetch - processPackages [thztools]: Start processing: mjcal
+[2023-05-25 14:36:37] INFO root fetch - main [MainThread]: End processing [thztools] error
+[2023-05-25 14:36:37] INFO root fetch - processPackages [crc-event-schemas]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-25 14:36:37] INFO root fetch - processPackages [harness-featureflags]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-25 14:36:37] INFO root fetch - processPackages [dwiqc]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-25 14:36:37] INFO root fetch - processPackages [OpenGeode-core]: New version: [9.10.4] Old Version: [14.1.9]
+[2023-05-25 14:36:37] INFO root fetch - processPackages [biaslyze]: Downloading https://files.pythonhosted.org/packages/74/30/5041d0f00b96c90161728ee1b06c9c25d6a68766f083142428e2fedab994/biaslyze-0.0.1a0.tar.gz
+[2023-05-25 14:36:37] WARNING root fetch - processPackages [mjcal]: Skipping, unable to determine old version
+[2023-05-25 14:36:37] INFO root fetch - processPackages [mjcal]: Start processing: zh-langchain
+[2023-05-25 14:36:37] INFO root fetch - main [MainThread]: End processing [mjcal] error
+[2023-05-25 14:36:37] INFO root fetch - processPackages [legend-pydataobj]: Downloading https://files.pythonhosted.org/packages/f4/88/79a3fc9c68934539d453b70e75bbc0853d31c3102c11b63b07195cd91b4e/legend_pydataobj-1.0.0.tar.gz
+[2023-05-25 14:36:37] INFO root fetch - processPackages [enebootools]: Downloading https://files.pythonhosted.org/packages/56/f4/b7884718ae43ba57e910c18e234ae6c116a0eec1adeee4ca4a5ddd543663/enebootools-2.0.6.tar.gz
+[2023-05-25 14:36:37] WARNING root fetch - processPackages [zh-langchain]: Skipping, unable to determine old version
+[2023-05-25 14:36:37] INFO root fetch - processPackages [zh-langchain]: Start processing: obsession
+[2023-05-25 14:36:37] INFO root fetch - main [MainThread]: End processing [zh-langchain] error
+[2023-05-25 14:36:37] INFO root fetch - processPackages [genomenotebook]: Downloading https://files.pythonhosted.org/packages/dc/ce/5b5514fafb0021a0556efc7c27828e037741f80c41706531bb7c1fdc03a6/genomenotebook-0.6.1.tar.gz
+[2023-05-25 14:36:37] INFO root fetch - processPackages [widefield-analysis]: Downloading https://files.pythonhosted.org/packages/b3/6b/e7329f8e96208b60dd82c7e3b40772ec2ace8dbd0e223b6460606a951373/widefield_analysis-0.1.4.tar.gz
+[2023-05-25 14:36:37] WARNING root fetch - processPackages [genomenotebook]: Skipping package: exceeds size limit 21355371>=10485760
+[2023-05-25 14:36:37] INFO root fetch - main [MainThread]: End processing [genomenotebook] error
+[2023-05-25 14:36:37] INFO root fetch - processPackages [crc-event-schemas]: Downloading https://files.pythonhosted.org/packages/e9/4d/e5a29b285c060eb4d52db7ffcbbd58042b02d6e3a0f213fd17027f60719f/crc-event-schemas-0.1.5.tar.gz
+[2023-05-25 14:36:37] INFO root fetch - processPackages [enebootools]: executing diffoscope
+[2023-05-25 14:36:37] INFO root fetch - processPackages [enebootools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enebootools-2.0.5.tar.gz tmp/enebootools-2.0.6.tar.gz --markdown 20230525/e/enebootools/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-05-25 14:36:38] INFO root fetch - processPackages [OpenGeode-core]: Downloading https://files.pythonhosted.org/packages/ae/8f/b14e2fa709a50b6b738320502b2288bb91b1784d173b34624f3a79bea01b/OpenGeode_core-14.1.9-cp39-cp39-win_amd64.whl
+[2023-05-25 14:36:38] INFO root fetch - processPackages [obsession]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-05-25 14:36:38] INFO root fetch - processPackages [widefield-analysis]: executing diffoscope
+[2023-05-25 14:36:38] INFO root fetch - processPackages [widefield-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/widefield_analysis-0.1.3.tar.gz tmp/widefield_analysis-0.1.4.tar.gz --markdown 20230525/w/widefield-analysis/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-25 14:36:38] INFO root fetch - processPackages [legend-pydataobj]: Downloading https://files.pythonhosted.org/packages/bf/6a/d7c71424d3b846fd43c3c3780ea146476bf0220ee21ed5f25a4527c2aa0b/legend_pydataobj-1.1.1.tar.gz
+[2023-05-25 14:36:38] INFO root fetch - processPackages [harness-featureflags]: executing diffoscope
+[2023-05-25 14:36:38] INFO root fetch - processPackages [harness-featureflags]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/harness-featureflags-1.1.8.tar.gz tmp/harness-featureflags-1.1.9.tar.gz --markdown 20230525/h/harness-featureflags/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-25 14:36:38] INFO root fetch - processPackages [crc-event-schemas]: Downloading https://files.pythonhosted.org/packages/d7/94/70b7396744e98e69a1c2f1caea7e5dbf93d64ea4809be20cacc4d17b03ac/crc-event-schemas-0.1.6.tar.gz
+[2023-05-25 14:36:38] INFO root fetch - processPackages [biaslyze]: Downloading https://files.pythonhosted.org/packages/aa/9e/f56e7d71ae82d503506a39317cba5c85819ce208bba4d37f2a480a91dad7/biaslyze-0.0.2a0.tar.gz
+[2023-05-25 14:36:38] WARNING root fetch - processPackages [OpenGeode-core]: Skipping package: exceeds size limit 17504936>=10485760
+[2023-05-25 14:36:38] INFO root fetch - main [MainThread]: End processing [OpenGeode-core] error
+[2023-05-25 14:36:38] INFO root fetch - processPackages [dwiqc]: executing diffoscope
+[2023-05-25 14:36:38] INFO root fetch - processPackages [dwiqc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwiqc-0.1.8-py2.py3-none-any.whl.zip tmp/dwiqc-0.1.9-py2.py3-none-any.whl.zip --markdown 20230525/d/dwiqc/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-25 14:36:38] INFO root fetch - processPackages [legend-pydataobj]: executing diffoscope
+[2023-05-25 14:36:38] INFO root fetch - processPackages [legend-pydataobj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/legend_pydataobj-1.0.0.tar.gz tmp/legend_pydataobj-1.1.1.tar.gz --markdown 20230525/l/legend-pydataobj/1.0.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-25 14:36:38] INFO root fetch - processPackages [obsession]: Downloading https://files.pythonhosted.org/packages/41/77/cf79cf655023c0efb4f1c13dbdb6eb39bc2951fbbdb3d0a273149090a6e3/obsession-1.2.0.tar.gz
+[2023-05-25 14:36:38] INFO root fetch - processPackages [crc-event-schemas]: executing diffoscope
+[2023-05-25 14:36:38] INFO root fetch - processPackages [biaslyze]: executing diffoscope
+[2023-05-25 14:36:38] INFO root fetch - processPackages [crc-event-schemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crc-event-schemas-0.1.5.tar.gz tmp/crc-event-schemas-0.1.6.tar.gz --markdown 20230525/c/crc-event-schemas/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-25 14:36:38] INFO root fetch - processPackages [biaslyze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biaslyze-0.0.1a0.tar.gz tmp/biaslyze-0.0.2a0.tar.gz --markdown 20230525/b/biaslyze/0.0.1a0-0.0.2a0/diff.md --exclude *.pyd
+[2023-05-25 14:36:38] INFO root fetch - processPackages [obsession]: Downloading https://files.pythonhosted.org/packages/b7/fc/cbab7f4b48e5bd5f7890571d5ce47ac5418141317d24ddede4e46186b8f5/obsession-1.2.1.tar.gz
+[2023-05-25 14:36:38] INFO root fetch - processPackages [obsession]: executing diffoscope
+[2023-05-25 14:36:38] INFO root fetch - processPackages [obsession]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/obsession-1.2.0.tar.gz tmp/obsession-1.2.1.tar.gz --markdown 20230525/o/obsession/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-05-25 14:36:39] INFO root fetch - main [MainThread]: End processing [widefield-analysis]: success
+[2023-05-25 14:36:39] INFO root fetch - main [MainThread]: End processing [enebootools]: success
+[2023-05-25 14:36:39] INFO root fetch - main [MainThread]: End processing [dwiqc]: success
+[2023-05-25 14:36:40] INFO root fetch - main [MainThread]: End processing [legend-pydataobj]: success
+[2023-05-25 14:36:40] INFO root fetch - main [MainThread]: End processing [biaslyze]: success
+[2023-05-25 14:36:40] INFO root fetch - main [MainThread]: End processing [obsession]: success
+[2023-05-25 14:36:40] INFO root fetch - main [MainThread]: End processing [crc-event-schemas]: success
+[2023-05-25 14:36:40] INFO root fetch - main [MainThread]: End processing [harness-featureflags]: success
+[2023-05-25 14:36:40] INFO root fetch - main [MainThread]: Store serial: [18246575]
