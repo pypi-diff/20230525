@@ -5849,3 +5849,45 @@
 [2023-05-25 03:35:10] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-iam]: success
 [2023-05-25 03:35:11] INFO root fetch - main [MainThread]: End processing [ddqa]: success
 [2023-05-25 03:35:11] INFO root fetch - main [MainThread]: Store serial: [18239793]
+[2023-05-25 03:40:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18239793]
+[2023-05-25 03:40:20] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-25 03:40:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-numpy
+[2023-05-25 03:40:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-Ayiin
+[2023-05-25 03:40:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-pandas
+[2023-05-25 03:40:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zipstream-ng
+[2023-05-25 03:40:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-pytorch
+[2023-05-25 03:40:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbdev-scipy
+[2023-05-25 03:40:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: isoCycle
+[2023-05-25 03:40:20] INFO root fetch - processPackages [py-Ayiin]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-05-25 03:40:20] INFO root fetch - processPackages [zipstream-ng]: New version: [1.6.0] Old Version: [1.5.0]
+[2023-05-25 03:40:20] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-25 03:40:20] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-25 03:40:20] INFO root fetch - processPackages [isoCycle]: New version: [0.0.42] Old Version: [0.0.41]
+[2023-05-25 03:40:20] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-25 03:40:20] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-25 03:40:20] INFO root fetch - processPackages [isoCycle]: Downloading https://files.pythonhosted.org/packages/9c/4c/b16ac5b3a467755eebbf218941695aceef0c512bbbec49a72e6c6ca4fb83/isoCycle-0.0.41.tar.gz
+[2023-05-25 03:40:20] WARNING root fetch - processPackages [isoCycle]: Skipping package: exceeds size limit 18921454>=10485760
+[2023-05-25 03:40:20] INFO root fetch - main [MainThread]: End processing [isoCycle] error
+[2023-05-25 03:40:20] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/ed/c4/dc0dad04153f39a374fe2d77d6bf2008961973761f9182e3ee3a4cc2012e/py-Ayiin-0.3.6.tar.gz
+[2023-05-25 03:40:20] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-05-25 03:40:20] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230525/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-25 03:40:20] INFO root fetch - processPackages [zipstream-ng]: Downloading https://files.pythonhosted.org/packages/c6/c7/d47bba2233561de4e8f5937d95700817b0b7efe3bc6fb144a776bb50f15b/zipstream-ng-1.5.0.tar.gz
+[2023-05-25 03:40:20] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-05-25 03:40:20] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230525/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-25 03:40:20] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-05-25 03:40:20] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230525/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-25 03:40:20] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/9c/6f/5d9cdeb652db57ac30f561087cdad204db743834ec75d9025bc260144d3d/py-Ayiin-0.3.7.tar.gz
+[2023-05-25 03:40:20] INFO root fetch - processPackages [zipstream-ng]: Downloading https://files.pythonhosted.org/packages/5d/48/8927c36fb7521068c895e39585cf3be2c756fff5b38caaaa8e94e8d564f4/zipstream-ng-1.6.0.tar.gz
+[2023-05-25 03:40:20] INFO root fetch - processPackages [py-Ayiin]: executing diffoscope
+[2023-05-25 03:40:20] INFO root fetch - processPackages [py-Ayiin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-Ayiin-0.3.6.tar.gz tmp/py-Ayiin-0.3.7.tar.gz --markdown 20230525/p/py-Ayiin/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-05-25 03:40:20] INFO root fetch - processPackages [zipstream-ng]: executing diffoscope
+[2023-05-25 03:40:20] INFO root fetch - processPackages [zipstream-ng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zipstream-ng-1.5.0.tar.gz tmp/zipstream-ng-1.6.0.tar.gz --markdown 20230525/z/zipstream-ng/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2023-05-25 03:40:20] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-05-25 03:40:20] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230525/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-25 03:40:21] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-05-25 03:40:21] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-05-25 03:40:21] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-05-25 03:40:22] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-05-25 03:40:22] INFO root fetch - main [MainThread]: End processing [py-Ayiin]: success
+[2023-05-25 03:40:23] INFO root fetch - main [MainThread]: End processing [zipstream-ng]: success
+[2023-05-25 03:40:23] INFO root fetch - main [MainThread]: Store serial: [18239813]
