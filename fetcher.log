@@ -15275,3 +15275,72 @@
 [2023-05-25 12:02:33] INFO root fetch - main [MainThread]: End processing [hcai-nova-server-nightly]: success
 [2023-05-25 12:02:34] INFO root fetch - main [MainThread]: End processing [hcai-datasets]: success
 [2023-05-25 12:02:34] INFO root fetch - main [MainThread]: Store serial: [18244856]
+[2023-05-25 12:07:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18244856]
+[2023-05-25 12:07:43] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-25 12:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: text-fabric
+[2023-05-25 12:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiorobonect
+[2023-05-25 12:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pybotx-fsm
+[2023-05-25 12:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sdkit
+[2023-05-25 12:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: troncos
+[2023-05-25 12:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: magnus-extensions
+[2023-05-25 12:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: datasmoothie-tally-client
+[2023-05-25 12:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: localstack-core
+[2023-05-25 12:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: localstack-core
+[2023-05-25 12:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-project-hr
+[2023-05-25 12:07:43] INFO root fetch - processPackages [aiorobonect]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-25 12:07:43] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230525092346] Old Version: [2.0.3.dev20230524230456]
+[2023-05-25 12:07:43] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230525092346] Old Version: [2.0.3.dev20230524230456]
+[2023-05-25 12:07:43] INFO root fetch - processPackages [troncos]: New version: [4.0.0b3] Old Version: [4.0.0b2]
+[2023-05-25 12:07:43] INFO root fetch - processPackages [aiorobonect]: executing diffoscope
+[2023-05-25 12:07:43] INFO root fetch - processPackages [aiorobonect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiorobonect-0.1.8.tar.gz tmp/aiorobonect-0.1.9.tar.gz --markdown 20230525/a/aiorobonect/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-25 12:07:43] INFO root fetch - processPackages [sdkit]: New version: [1.0.98] Old Version: [1.0.97]
+[2023-05-25 12:07:43] INFO root fetch - processPackages [text-fabric]: New version: [9.5.2] Old Version: [9.4.4]
+[2023-05-25 12:07:43] WARNING root fetch - processPackages [odoo-addon-project-hr]: Skipping, unable to determine old version
+[2023-05-25 12:07:43] INFO root fetch - processPackages [odoo-addon-project-hr]: Start processing: SiteScraper
+[2023-05-25 12:07:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-hr] error
+[2023-05-25 12:07:43] INFO root fetch - processPackages [magnus-extensions]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-25 12:07:43] INFO root fetch - processPackages [datasmoothie-tally-client]: New version: [0.9] Old Version: [0.8]
+[2023-05-25 12:07:43] INFO root fetch - processPackages [pybotx-fsm]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-25 12:07:43] INFO root fetch - processPackages [SiteScraper]: New version: [1.2.2] Old Version: [0.2.2]
+[2023-05-25 12:07:43] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/e6/ce/b6114ee2f3e61ae657c064d5a28b20b46a6c0d14b99e9200c78c8b7f1399/localstack-core-2.0.3.dev20230525092346.tar.gz
+[2023-05-25 12:07:43] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/e6/ce/b6114ee2f3e61ae657c064d5a28b20b46a6c0d14b99e9200c78c8b7f1399/localstack-core-2.0.3.dev20230525092346.tar.gz
+[2023-05-25 12:07:43] INFO root fetch - processPackages [troncos]: Downloading https://files.pythonhosted.org/packages/35/45/afea8ebdd9c3bb6d8b7e12e7cf5b724bbcd07986059893b25e6358bd443d/troncos-4.0.0b3.tar.gz
+[2023-05-25 12:07:43] INFO root fetch - processPackages [text-fabric]: Downloading https://files.pythonhosted.org/packages/bb/80/b9db47ad2d39859a5c2276e27c56daae0db451a130db8305340dfe7dd7ee/text_fabric-9.4.4-py3-none-any.whl
+[2023-05-25 12:07:43] INFO root fetch - processPackages [pybotx-fsm]: Downloading https://files.pythonhosted.org/packages/bb/80/5882c33d6a5d35b98937decbeae415f0c5fa29ee5ee66f2ac8d4bf28a3ca/pybotx_fsm-0.4.8.tar.gz
+[2023-05-25 12:07:43] INFO root fetch - processPackages [troncos]: executing diffoscope
+[2023-05-25 12:07:43] INFO root fetch - processPackages [troncos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/troncos-4.0.0b2.tar.gz tmp/troncos-4.0.0b3.tar.gz --markdown 20230525/t/troncos/4.0.0b2-4.0.0b3/diff.md --exclude *.pyd
+[2023-05-25 12:07:43] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-05-25 12:07:43] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-05-25 12:07:43] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.3.dev20230524230456.tar.gz tmp/localstack-core-2.0.3.dev20230525092346.tar.gz --markdown 20230525/l/localstack-core/2.0.3.dev20230524230456-2.0.3.dev20230525092346/diff.md --exclude *.pyd
+[2023-05-25 12:07:43] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.3.dev20230524230456.tar.gz tmp/localstack-core-2.0.3.dev20230525092346.tar.gz --markdown 20230525/l/localstack-core/2.0.3.dev20230524230456-2.0.3.dev20230525092346/diff.md --exclude *.pyd
+[2023-05-25 12:07:43] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/d1/c1/f3e251106f7f4c022d55f8fe3a3c0eacdb5bfdf84ce4182f71368c4f3a5f/sdkit-1.0.98.tar.gz
+[2023-05-25 12:07:43] INFO root fetch - processPackages [datasmoothie-tally-client]: executing diffoscope
+[2023-05-25 12:07:43] INFO root fetch - processPackages [datasmoothie-tally-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasmoothie-tally-client-0.8.tar.gz tmp/datasmoothie-tally-client-0.9.tar.gz --markdown 20230525/d/datasmoothie-tally-client/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-25 12:07:43] INFO root fetch - processPackages [magnus-extensions]: executing diffoscope
+[2023-05-25 12:07:43] INFO root fetch - processPackages [magnus-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magnus_extensions-0.2.8.tar.gz tmp/magnus_extensions-0.2.9.tar.gz --markdown 20230525/m/magnus-extensions/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-25 12:07:43] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2023-05-25 12:07:43] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-1.0.97.tar.gz tmp/sdkit-1.0.98.tar.gz --markdown 20230525/s/sdkit/1.0.97-1.0.98/diff.md --exclude *.pyd
+[2023-05-25 12:07:43] ERROR root fetch - processPackages [SiteScraper]: Unable to fetch info: No such project/version 'SiteScraper' 1.2.2
+[2023-05-25 12:07:43] INFO root fetch - processPackages [SiteScraper]: Start processing: cognite-cdffs
+[2023-05-25 12:07:43] INFO root fetch - main [MainThread]: End processing [SiteScraper] error
+[2023-05-25 12:07:44] INFO root fetch - processPackages [cognite-cdffs]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-25 12:07:44] INFO root fetch - processPackages [pybotx-fsm]: Downloading https://files.pythonhosted.org/packages/5c/26/07543e1a2a25d1666d6d9a3b11980c53541873f1347dd1e0b5e7632bbce8/pybotx_fsm-0.4.9.tar.gz
+[2023-05-25 12:07:44] INFO root fetch - processPackages [pybotx-fsm]: executing diffoscope
+[2023-05-25 12:07:44] INFO root fetch - processPackages [pybotx-fsm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybotx_fsm-0.4.8.tar.gz tmp/pybotx_fsm-0.4.9.tar.gz --markdown 20230525/p/pybotx-fsm/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-25 12:07:44] INFO root fetch - processPackages [cognite-cdffs]: Downloading https://files.pythonhosted.org/packages/37/57/6c8f8f058d9eee8e09dddc0f2b336deeff87136b742fe8586a1abbcf63e0/cognite_cdffs-0.2.3.tar.gz
+[2023-05-25 12:07:44] INFO root fetch - processPackages [cognite-cdffs]: executing diffoscope
+[2023-05-25 12:07:44] INFO root fetch - processPackages [cognite-cdffs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_cdffs-0.2.2.tar.gz tmp/cognite_cdffs-0.2.3.tar.gz --markdown 20230525/c/cognite-cdffs/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-25 12:07:44] INFO root fetch - main [MainThread]: End processing [aiorobonect]: success
+[2023-05-25 12:07:45] INFO root fetch - main [MainThread]: End processing [troncos]: success
+[2023-05-25 12:07:45] INFO root fetch - main [MainThread]: End processing [datasmoothie-tally-client]: success
+[2023-05-25 12:07:45] INFO root fetch - main [MainThread]: End processing [magnus-extensions]: success
+[2023-05-25 12:07:45] INFO root fetch - main [MainThread]: End processing [pybotx-fsm]: success
+[2023-05-25 12:07:46] INFO root fetch - processPackages [text-fabric]: Downloading https://files.pythonhosted.org/packages/5a/68/601e800ea7b082fabb89c3c0c122fd9fa13b4da75c0bdfbafa945139092a/text_fabric-9.5.2-py3-none-any.whl
+[2023-05-25 12:07:46] INFO root fetch - main [MainThread]: End processing [cognite-cdffs]: success
+[2023-05-25 12:07:46] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2023-05-25 12:07:48] INFO root fetch - processPackages [text-fabric]: executing diffoscope
+[2023-05-25 12:07:48] INFO root fetch - processPackages [text-fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_fabric-9.4.4-py3-none-any.whl.zip tmp/text_fabric-9.5.2-py3-none-any.whl.zip --markdown 20230525/t/text-fabric/9.4.4-9.5.2/diff.md --exclude *.pyd
+[2023-05-25 12:07:50] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-05-25 12:07:50] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-05-25 12:07:51] INFO root fetch - main [MainThread]: End processing [text-fabric]: success
+[2023-05-25 12:07:51] INFO root fetch - main [MainThread]: Store serial: [18244898]
