@@ -10267,3 +10267,55 @@
 [2023-05-25 07:39:37] INFO root fetch - main [MainThread]: End processing [xklb]: success
 [2023-05-25 07:39:43] INFO root fetch - main [MainThread]: End processing [pipen-board]: success
 [2023-05-25 07:39:43] INFO root fetch - main [MainThread]: Store serial: [18241967]
+[2023-05-25 07:44:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18241967]
+[2023-05-25 07:44:51] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-25 07:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo8-addon-web-ckeditor4
+[2023-05-25 07:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo8-addon-help-online
+[2023-05-25 07:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pectrainer
+[2023-05-25 07:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo8-addon-web-dashboard-tile
+[2023-05-25 07:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo8-addon-web-shortcuts
+[2023-05-25 07:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyFipper
+[2023-05-25 07:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chunked-uploads-attentive
+[2023-05-25 07:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: apache-flink
+[2023-05-25 07:44:52] WARNING root fetch - processPackages [pectrainer]: Skipping, unable to determine old version
+[2023-05-25 07:44:52] INFO root fetch - main [MainThread]: End processing [pectrainer] error
+[2023-05-25 07:44:52] INFO root fetch - processPackages [odoo8-addon-web-ckeditor4]: New version: [8.0.1.0.0.99.dev26] Old Version: [8.0.1.0.0.99.dev25]
+[2023-05-25 07:44:52] INFO root fetch - processPackages [pyFipper]: New version: [0.1.2.dev4] Old Version: [0.1.2.dev3]
+[2023-05-25 07:44:52] INFO root fetch - processPackages [odoo8-addon-web-dashboard-tile]: New version: [8.0.4.0.0.99.dev9] Old Version: [8.0.4.0.0.99.dev8]
+[2023-05-25 07:44:52] INFO root fetch - processPackages [odoo8-addon-web-shortcuts]: New version: [8.0.1.0.0.99.dev25] Old Version: [8.0.1.0.0.99.dev24]
+[2023-05-25 07:44:52] INFO root fetch - processPackages [odoo8-addon-help-online]: New version: [8.0.1.0.0.99.dev37] Old Version: [8.0.1.0.0.99.dev36]
+[2023-05-25 07:44:52] INFO root fetch - processPackages [apache-flink]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-05-25 07:44:52] INFO root fetch - processPackages [chunked-uploads-attentive]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-25 07:44:52] INFO root fetch - processPackages [odoo8-addon-web-shortcuts]: Downloading https://files.pythonhosted.org/packages/d5/5d/19df189155cc0b2f1804fd5defbf5f38f316c358f85a05b2be3b6f188ef2/odoo8_addon_web_shortcuts-8.0.1.0.0.99.dev24-py2-none-any.whl
+[2023-05-25 07:44:52] INFO root fetch - processPackages [odoo8-addon-web-ckeditor4]: Downloading https://files.pythonhosted.org/packages/53/fd/e2d3658fd03531192e0344620b4b4cfcf481aff1d2000ba76432632cadc9/odoo8_addon_web_ckeditor4-8.0.1.0.0.99.dev25-py2-none-any.whl
+[2023-05-25 07:44:52] INFO root fetch - processPackages [odoo8-addon-web-dashboard-tile]: Downloading https://files.pythonhosted.org/packages/ca/07/571ab3e20144b63fb50485b54fb82600eac9acb3a890c2abb7cac804c4ec/odoo8_addon_web_dashboard_tile-8.0.4.0.0.99.dev8-py2-none-any.whl
+[2023-05-25 07:44:52] INFO root fetch - processPackages [odoo8-addon-help-online]: Downloading https://files.pythonhosted.org/packages/94/24/6940cae6bfc14537b2b5fbdc8aa0734f756368585b4104a2680ef3bc53ec/odoo8_addon_help_online-8.0.1.0.0.99.dev36-py2-none-any.whl
+[2023-05-25 07:44:52] INFO root fetch - processPackages [apache-flink]: Downloading https://files.pythonhosted.org/packages/d7/d4/ee61e98449c7ccd8a2235b7f31aa3f1e3ba15e7c1c3d7d66f12391c250a5/apache-flink-1.9.2.tar.gz
+[2023-05-25 07:44:52] INFO root fetch - processPackages [pyFipper]: Downloading https://files.pythonhosted.org/packages/f3/2e/83a56f40f735ceec79147ed330f200abd9ff7857be61b298c6b23f57458a/pyFipper-0.1.2.dev4.tar.gz
+[2023-05-25 07:44:52] INFO root fetch - processPackages [chunked-uploads-attentive]: Downloading https://files.pythonhosted.org/packages/b0/e6/34fea22054cdbbfe2d59816f15875d95ed233eec133115485124d3438a4b/chunked-uploads-attentive-0.0.5.tar.gz
+[2023-05-25 07:44:52] INFO root fetch - processPackages [pyFipper]: executing diffoscope
+[2023-05-25 07:44:52] INFO root fetch - processPackages [pyFipper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyFipper-0.1.2.dev3.tar.gz tmp/pyFipper-0.1.2.dev4.tar.gz --markdown 20230525/p/pyFipper/0.1.2.dev3-0.1.2.dev4/diff.md --exclude *.pyd
+[2023-05-25 07:44:52] INFO root fetch - processPackages [odoo8-addon-web-shortcuts]: Downloading https://files.pythonhosted.org/packages/20/f6/d478395c5a37b64ff5fd311bb5bc65a6f81a37b6be2fa2ff42b9f4bdccee/odoo8_addon_web_shortcuts-8.0.1.0.0.99.dev25-py2-none-any.whl
+[2023-05-25 07:44:52] INFO root fetch - processPackages [odoo8-addon-web-ckeditor4]: Downloading https://files.pythonhosted.org/packages/30/7d/0937e1ac447ec2e77cc598faea1df096af6063d9ee104952ab7952e8ee99/odoo8_addon_web_ckeditor4-8.0.1.0.0.99.dev26-py2-none-any.whl
+[2023-05-25 07:44:52] INFO root fetch - processPackages [odoo8-addon-help-online]: Downloading https://files.pythonhosted.org/packages/93/f0/de9f502aaa1b5f89ea33a699143abc9e6ab97919b604a83f0a7881ecafd9/odoo8_addon_help_online-8.0.1.0.0.99.dev37-py2-none-any.whl
+[2023-05-25 07:44:52] INFO root fetch - processPackages [chunked-uploads-attentive]: Downloading https://files.pythonhosted.org/packages/79/58/6ed4aed48810291c88addb5269e50fec00cb0dd3880f68185edeb30fd660/chunked-uploads-attentive-0.0.6.tar.gz
+[2023-05-25 07:44:52] WARNING root fetch - processPackages [apache-flink]: Skipping package: exceeds size limit 251149263>=10485760
+[2023-05-25 07:44:52] INFO root fetch - main [MainThread]: End processing [apache-flink] error
+[2023-05-25 07:44:52] INFO root fetch - processPackages [odoo8-addon-web-shortcuts]: executing diffoscope
+[2023-05-25 07:44:52] INFO root fetch - processPackages [odoo8-addon-web-shortcuts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_web_shortcuts-8.0.1.0.0.99.dev24-py2-none-any.whl.zip tmp/odoo8_addon_web_shortcuts-8.0.1.0.0.99.dev25-py2-none-any.whl.zip --markdown 20230525/o/odoo8-addon-web-shortcuts/8.0.1.0.0.99.dev24-8.0.1.0.0.99.dev25/diff.md --exclude *.pyd
+[2023-05-25 07:44:52] INFO root fetch - processPackages [odoo8-addon-web-dashboard-tile]: Downloading https://files.pythonhosted.org/packages/70/df/eb0d754d1d131f5b3753f20e282472a72e764e30e4acfda161c53778f76f/odoo8_addon_web_dashboard_tile-8.0.4.0.0.99.dev9-py2-none-any.whl
+[2023-05-25 07:44:52] INFO root fetch - processPackages [odoo8-addon-web-ckeditor4]: executing diffoscope
+[2023-05-25 07:44:52] INFO root fetch - processPackages [odoo8-addon-web-ckeditor4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_web_ckeditor4-8.0.1.0.0.99.dev25-py2-none-any.whl.zip tmp/odoo8_addon_web_ckeditor4-8.0.1.0.0.99.dev26-py2-none-any.whl.zip --markdown 20230525/o/odoo8-addon-web-ckeditor4/8.0.1.0.0.99.dev25-8.0.1.0.0.99.dev26/diff.md --exclude *.pyd
+[2023-05-25 07:44:52] INFO root fetch - processPackages [odoo8-addon-help-online]: executing diffoscope
+[2023-05-25 07:44:52] INFO root fetch - processPackages [odoo8-addon-help-online]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_help_online-8.0.1.0.0.99.dev36-py2-none-any.whl.zip tmp/odoo8_addon_help_online-8.0.1.0.0.99.dev37-py2-none-any.whl.zip --markdown 20230525/o/odoo8-addon-help-online/8.0.1.0.0.99.dev36-8.0.1.0.0.99.dev37/diff.md --exclude *.pyd
+[2023-05-25 07:44:52] INFO root fetch - processPackages [chunked-uploads-attentive]: executing diffoscope
+[2023-05-25 07:44:52] INFO root fetch - processPackages [chunked-uploads-attentive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chunked-uploads-attentive-0.0.5.tar.gz tmp/chunked-uploads-attentive-0.0.6.tar.gz --markdown 20230525/c/chunked-uploads-attentive/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-25 07:44:52] INFO root fetch - processPackages [odoo8-addon-web-dashboard-tile]: executing diffoscope
+[2023-05-25 07:44:52] INFO root fetch - processPackages [odoo8-addon-web-dashboard-tile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_web_dashboard_tile-8.0.4.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_web_dashboard_tile-8.0.4.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230525/o/odoo8-addon-web-dashboard-tile/8.0.4.0.0.99.dev8-8.0.4.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-05-25 07:44:54] INFO root fetch - main [MainThread]: End processing [chunked-uploads-attentive]: success
+[2023-05-25 07:44:54] INFO root fetch - main [MainThread]: End processing [odoo8-addon-web-shortcuts]: success
+[2023-05-25 07:44:54] INFO root fetch - main [MainThread]: End processing [odoo8-addon-help-online]: success
+[2023-05-25 07:44:54] INFO root fetch - main [MainThread]: End processing [odoo8-addon-web-dashboard-tile]: success
+[2023-05-25 07:44:56] INFO root fetch - main [MainThread]: End processing [pyFipper]: success
+[2023-05-25 07:44:57] INFO root fetch - main [MainThread]: End processing [odoo8-addon-web-ckeditor4]: success
+[2023-05-25 07:44:57] INFO root fetch - main [MainThread]: Store serial: [18241988]
