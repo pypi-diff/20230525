@@ -11094,3 +11094,102 @@
 [2023-05-25 08:54:28] INFO root fetch - main [MainThread]: End processing [napari-boxmanager]: success
 [2023-05-25 08:54:32] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
 [2023-05-25 08:54:32] INFO root fetch - main [MainThread]: Store serial: [18242417]
+[2023-05-25 08:59:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18242417]
+[2023-05-25 08:59:41] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-25 08:59:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abuscom-libs
+[2023-05-25 08:59:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agsi
+[2023-05-25 08:59:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: marshmallow-peewee
+[2023-05-25 08:59:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pylity
+[2023-05-25 08:59:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: musicTour-Nathan-Arditti
+[2023-05-25 08:59:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: musicTour-Nathan-Arditti
+[2023-05-25 08:59:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: musicTour
+[2023-05-25 08:59:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kcli
+[2023-05-25 08:59:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: molecule-qemu
+[2023-05-25 08:59:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: IntuneCD
+[2023-05-25 08:59:41] WARNING root fetch - processPackages [molecule-qemu]: Skipping, unable to determine old version
+[2023-05-25 08:59:41] INFO root fetch - processPackages [molecule-qemu]: Start processing: molecule-qemu
+[2023-05-25 08:59:41] INFO root fetch - main [MainThread]: End processing [molecule-qemu] error
+[2023-05-25 08:59:41] WARNING root fetch - processPackages [molecule-qemu]: Skipping, unable to determine old version
+[2023-05-25 08:59:41] INFO root fetch - processPackages [molecule-qemu]: Start processing: kfish
+[2023-05-25 08:59:41] INFO root fetch - main [MainThread]: End processing [molecule-qemu] error
+[2023-05-25 08:59:41] INFO root fetch - processPackages [kcli]: New version: [99.0.202305242209] Old Version: [99.0.202305241200]
+[2023-05-25 08:59:41] INFO root fetch - processPackages [musicTour-Nathan-Arditti]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-25 08:59:41] INFO root fetch - processPackages [agsi]: New version: [1.4] Old Version: [1.3]
+[2023-05-25 08:59:41] INFO root fetch - processPackages [musicTour-Nathan-Arditti]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-25 08:59:41] INFO root fetch - processPackages [abuscom-libs]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-25 08:59:41] INFO root fetch - processPackages [musicTour]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-25 08:59:41] INFO root fetch - processPackages [IntuneCD]: New version: [1.4.6b1] Old Version: [1.4.6]
+[2023-05-25 08:59:41] INFO root fetch - processPackages [pylity]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 08:59:41] INFO root fetch - processPackages [marshmallow-peewee]: New version: [4.3.0] Old Version: [4.2.2]
+[2023-05-25 08:59:41] INFO root fetch - processPackages [kfish]: New version: [99.0.202305242211] Old Version: [99.0.202305241202]
+[2023-05-25 08:59:41] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-05-25 08:59:41] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202305241202-py3-none-any.whl.zip tmp/kfish-99.0.202305242211-py3-none-any.whl.zip --markdown 20230525/k/kfish/99.0.202305241202-99.0.202305242211/diff.md --exclude *.pyd
+[2023-05-25 08:59:41] INFO root fetch - processPackages [IntuneCD]: Downloading https://files.pythonhosted.org/packages/a8/78/6e0c12bea2d338f2fecaeb423d733049506d906a55bb5601fb7c332050bd/IntuneCD-1.4.6.tar.gz
+[2023-05-25 08:59:41] INFO root fetch - processPackages [abuscom-libs]: Downloading https://files.pythonhosted.org/packages/39/c5/8bbde9ee5d1350adf1df29c75082873e447ef034106e9ac88063af9b5e84/abuscom-libs-0.1.6.tar.gz
+[2023-05-25 08:59:41] INFO root fetch - processPackages [marshmallow-peewee]: Downloading https://files.pythonhosted.org/packages/bb/72/522004e117fcab9c3167ebcaaf9c371492869033a6857258dddba0ab3007/marshmallow_peewee-4.2.2.tar.gz
+[2023-05-25 08:59:41] INFO root fetch - processPackages [musicTour-Nathan-Arditti]: Downloading https://files.pythonhosted.org/packages/c9/f5/c2c03b1dd33e3b0b241b96bdd9922283687ece2b0e4661091e1aef13afb1/musicTour_Nathan_Arditti-1.0.0.tar.gz
+[2023-05-25 08:59:41] INFO root fetch - processPackages [musicTour]: Downloading https://files.pythonhosted.org/packages/46/3b/5bc892a21c9b3b4960ae36c2e46f613e5773eafee7b0344dd67fb525de51/musicTour-1.1.0.tar.gz
+[2023-05-25 08:59:41] INFO root fetch - processPackages [musicTour-Nathan-Arditti]: Downloading https://files.pythonhosted.org/packages/c9/f5/c2c03b1dd33e3b0b241b96bdd9922283687ece2b0e4661091e1aef13afb1/musicTour_Nathan_Arditti-1.0.0.tar.gz
+[2023-05-25 08:59:41] INFO root fetch - processPackages [agsi]: Downloading https://files.pythonhosted.org/packages/ad/c1/d543934b4a163e7606cfb1a224475e2c322a5ca00444da660d69da9a457b/agsi-1.3.tar.gz
+[2023-05-25 08:59:41] INFO root fetch - processPackages [pylity]: Downloading https://files.pythonhosted.org/packages/16/44/1bb845119f734169dc914166a3c8854da4ed99c3952f2efbc25a35540d37/pylity-0.0.8.tar.gz
+[2023-05-25 08:59:41] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/96/97/60752c69185fc172e7d75a1749a01d2735aa4db125077a45e82227a47bdf/kcli-99.0.202305242209-py3-none-any.whl
+[2023-05-25 08:59:41] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-05-25 08:59:41] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202305241200-py3-none-any.whl.zip tmp/kcli-99.0.202305242209-py3-none-any.whl.zip --markdown 20230525/k/kcli/99.0.202305241200-99.0.202305242209/diff.md --exclude *.pyd
+[2023-05-25 08:59:41] INFO root fetch - processPackages [abuscom-libs]: Downloading https://files.pythonhosted.org/packages/0d/92/4b330f82541c4a9d6649571b8a1284660eea41b7540032c4aaab8e43d3b8/abuscom-libs-0.1.7.tar.gz
+[2023-05-25 08:59:41] INFO root fetch - processPackages [IntuneCD]: executing diffoscope
+[2023-05-25 08:59:41] INFO root fetch - processPackages [IntuneCD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IntuneCD-1.4.6.tar.gz tmp/IntuneCD-1.4.6b1.tar.gz --markdown 20230525/I/IntuneCD/1.4.6-1.4.6b1/diff.md --exclude *.pyd
+[2023-05-25 08:59:41] INFO root fetch - processPackages [agsi]: Downloading https://files.pythonhosted.org/packages/81/be/99dfc3dcde5ed70c69651f09be9ae031c4d461e7e6e659941d945c6dea19/agsi-1.4.tar.gz
+[2023-05-25 08:59:41] INFO root fetch - processPackages [musicTour-Nathan-Arditti]: Downloading https://files.pythonhosted.org/packages/16/5c/b56d58c97b47856e1e0de91b243d6794dfb8c94385b7f58a75b2017691f9/musicTour_Nathan_Arditti-1.1.0.tar.gz
+[2023-05-25 08:59:41] INFO root fetch - processPackages [musicTour-Nathan-Arditti]: Downloading https://files.pythonhosted.org/packages/16/5c/b56d58c97b47856e1e0de91b243d6794dfb8c94385b7f58a75b2017691f9/musicTour_Nathan_Arditti-1.1.0.tar.gz
+[2023-05-25 08:59:41] INFO root fetch - processPackages [pylity]: Downloading https://files.pythonhosted.org/packages/6b/b2/315346ececccc4a21ae8ab917394587c50419f43f5d02e82ec3695273044/pylity-0.0.9.tar.gz
+[2023-05-25 08:59:41] INFO root fetch - processPackages [musicTour]: Downloading https://files.pythonhosted.org/packages/07/b2/dd9f60ce624df3324337ff221f2b5a8e79a566aeaaf50141ec97183f984a/musicTour-1.2.0.tar.gz
+[2023-05-25 08:59:41] INFO root fetch - processPackages [marshmallow-peewee]: Downloading https://files.pythonhosted.org/packages/9d/4a/8aa41b798b07b5c801880b5b85ff1c014a17de9f1795c2bffe76bd9a4c9a/marshmallow_peewee-4.3.0.tar.gz
+[2023-05-25 08:59:42] INFO root fetch - processPackages [abuscom-libs]: executing diffoscope
+[2023-05-25 08:59:42] INFO root fetch - processPackages [abuscom-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abuscom-libs-0.1.6.tar.gz tmp/abuscom-libs-0.1.7.tar.gz --markdown 20230525/a/abuscom-libs/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-25 08:59:42] INFO root fetch - processPackages [musicTour-Nathan-Arditti]: executing diffoscope
+[2023-05-25 08:59:42] INFO root fetch - processPackages [musicTour-Nathan-Arditti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musicTour_Nathan_Arditti-1.0.0.tar.gz tmp/musicTour_Nathan_Arditti-1.1.0.tar.gz --markdown 20230525/m/musicTour-Nathan-Arditti/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-25 08:59:42] INFO root fetch - processPackages [marshmallow-peewee]: executing diffoscope
+[2023-05-25 08:59:42] INFO root fetch - processPackages [marshmallow-peewee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marshmallow_peewee-4.2.2.tar.gz tmp/marshmallow_peewee-4.3.0.tar.gz --markdown 20230525/m/marshmallow-peewee/4.2.2-4.3.0/diff.md --exclude *.pyd
+[2023-05-25 08:59:42] INFO root fetch - processPackages [musicTour-Nathan-Arditti]: executing diffoscope
+[2023-05-25 08:59:42] INFO root fetch - processPackages [musicTour-Nathan-Arditti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musicTour_Nathan_Arditti-1.0.0.tar.gz tmp/musicTour_Nathan_Arditti-1.1.0.tar.gz --markdown 20230525/m/musicTour-Nathan-Arditti/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-25 08:59:42] INFO root fetch - processPackages [agsi]: executing diffoscope
+[2023-05-25 08:59:42] INFO root fetch - processPackages [agsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agsi-1.3.tar.gz tmp/agsi-1.4.tar.gz --markdown 20230525/a/agsi/1.3-1.4/diff.md --exclude *.pyd
+[2023-05-25 08:59:42] INFO root fetch - processPackages [pylity]: executing diffoscope
+[2023-05-25 08:59:42] INFO root fetch - processPackages [pylity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylity-0.0.8.tar.gz tmp/pylity-0.0.9.tar.gz --markdown 20230525/p/pylity/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 08:59:42] INFO root fetch - processPackages [musicTour]: executing diffoscope
+[2023-05-25 08:59:42] INFO root fetch - processPackages [musicTour]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musicTour-1.1.0.tar.gz tmp/musicTour-1.2.0.tar.gz --markdown 20230525/m/musicTour/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-25 08:59:42] INFO root fetch - processPackages [kfish]: Start processing: azure-mgmt-compute
+[2023-05-25 08:59:42] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-05-25 08:59:42] INFO root fetch - processPackages [azure-mgmt-compute]: New version: [9.0.0] Old Version: [8.0.0]
+[2023-05-25 08:59:43] INFO root fetch - processPackages [azure-mgmt-compute]: Downloading https://files.pythonhosted.org/packages/7f/13/7dc8e3a4583a997d48f833bd5da516ea85ab6431bf0142a85772ff08f9bf/azure-mgmt-compute-8.0.0.zip
+[2023-05-25 08:59:43] INFO root fetch - processPackages [azure-mgmt-compute]: Downloading https://files.pythonhosted.org/packages/a4/a6/6db35285609cc32d3941ceecfe58ab3b4c1db0242c13ff5eea5495cfd291/azure-mgmt-compute-9.0.0.zip
+[2023-05-25 08:59:43] INFO root fetch - processPackages [abuscom-libs]: Start processing: ibasis
+[2023-05-25 08:59:43] INFO root fetch - main [MainThread]: End processing [abuscom-libs]: success
+[2023-05-25 08:59:43] WARNING root fetch - processPackages [ibasis]: Skipping, unable to determine old version
+[2023-05-25 08:59:43] INFO root fetch - processPackages [ibasis]: Start processing: ronnytest
+[2023-05-25 08:59:43] INFO root fetch - main [MainThread]: End processing [ibasis] error
+[2023-05-25 08:59:43] INFO root fetch - processPackages [ronnytest]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-25 08:59:43] INFO root fetch - processPackages [azure-mgmt-compute]: executing diffoscope
+[2023-05-25 08:59:43] INFO root fetch - processPackages [azure-mgmt-compute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-compute-8.0.0.zip tmp/azure-mgmt-compute-9.0.0.zip --markdown 20230525/a/azure-mgmt-compute/8.0.0-9.0.0/diff.md --exclude *.pyd
+[2023-05-25 08:59:43] INFO root fetch - processPackages [marshmallow-peewee]: Start processing: musicTour
+[2023-05-25 08:59:43] INFO root fetch - main [MainThread]: End processing [marshmallow-peewee]: success
+[2023-05-25 08:59:43] INFO root fetch - processPackages [musicTour]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-25 08:59:43] INFO root fetch - processPackages [musicTour]: executing diffoscope
+[2023-05-25 08:59:43] INFO root fetch - processPackages [musicTour]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musicTour-1.1.0.tar.gz tmp/musicTour-1.2.0.tar.gz --markdown 20230525/m/musicTour/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-25 08:59:43] INFO root fetch - main [MainThread]: End processing [musicTour-Nathan-Arditti]: success
+[2023-05-25 08:59:43] INFO root fetch - main [MainThread]: End processing [musicTour-Nathan-Arditti]: success
+[2023-05-25 08:59:43] INFO root fetch - processPackages [ronnytest]: Downloading https://files.pythonhosted.org/packages/26/a8/ed2088455c0f5d58e225619a502c1de5264b2a327867bb12f7ae202d1a71/ronnytest-0.1.5-py3-none-any.whl
+[2023-05-25 08:59:44] INFO root fetch - main [MainThread]: End processing [musicTour]: success
+[2023-05-25 08:59:44] INFO root fetch - processPackages [ronnytest]: Downloading https://files.pythonhosted.org/packages/5f/dc/d1d7c5347e85e96d3c629154863446c5e0779a261cd0eb3cd7922f882a1f/ronnytest-0.1.6.tar.gz
+[2023-05-25 08:59:44] INFO root fetch - main [MainThread]: End processing [pylity]: success
+[2023-05-25 08:59:44] INFO root fetch - processPackages [ronnytest]: executing diffoscope
+[2023-05-25 08:59:44] INFO root fetch - processPackages [ronnytest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ronnytest-0.1.5-py3-none-any.whl.zip tmp/ronnytest-0.1.6.tar.gz --markdown 20230525/r/ronnytest/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-25 08:59:44] ERROR root fetch - processPackages [ronnytest]: Diffoscope failed: Error: error creating container storage: the container name "gracious_mclaren" is already in use by "b2ada69aceedf2d8580d53bd7c6a8b36eeb9c437bf93ea897538280edffbeb26". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-05-25 08:59:44] INFO root fetch - main [MainThread]: End processing [ronnytest] error
+[2023-05-25 08:59:45] INFO root fetch - main [MainThread]: End processing [musicTour]: success
+[2023-05-25 08:59:45] INFO root fetch - main [MainThread]: End processing [IntuneCD]: success
+[2023-05-25 08:59:45] INFO root fetch - main [MainThread]: End processing [agsi]: success
+[2023-05-25 08:59:50] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-05-25 08:59:57] INFO root fetch - main [MainThread]: End processing [azure-mgmt-compute]: success
+[2023-05-25 08:59:57] INFO root fetch - main [MainThread]: Store serial: [18242465]
