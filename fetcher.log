@@ -6412,3 +6412,70 @@
 [2023-05-25 04:38:06] INFO root fetch - main [MainThread]: End processing [perseus-restful-api-framework]: success
 [2023-05-25 04:38:10] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
 [2023-05-25 04:38:10] INFO root fetch - main [MainThread]: Store serial: [18240133]
+[2023-05-25 04:43:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18240133]
+[2023-05-25 04:43:19] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-25 04:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sbase
+[2023-05-25 04:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: selenium-base
+[2023-05-25 04:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytest-sbase
+[2023-05-25 04:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytest-seleniumbase
+[2023-05-25 04:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addons-oca-account-financial-tools
+[2023-05-25 04:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tidevice
+[2023-05-25 04:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ronnytest
+[2023-05-25 04:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lightdash-client-python
+[2023-05-25 04:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hx-requests
+[2023-05-25 04:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PaperCrawlerUtil
+[2023-05-25 04:43:19] INFO root fetch - processPackages [tidevice]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-25 04:43:19] INFO root fetch - processPackages [odoo-addons-oca-account-financial-tools]: New version: [16.0.20230524.0] Old Version: [16.0.20230216.0]
+[2023-05-25 04:43:19] WARNING root fetch - processPackages [lightdash-client-python]: Skipping, unable to determine old version
+[2023-05-25 04:43:19] INFO root fetch - processPackages [ronnytest]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-05-25 04:43:19] INFO root fetch - main [MainThread]: End processing [lightdash-client-python] error
+[2023-05-25 04:43:19] INFO root fetch - processPackages [sbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-05-25 04:43:19] INFO root fetch - processPackages [PaperCrawlerUtil]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-25 04:43:19] INFO root fetch - processPackages [selenium-base]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-05-25 04:43:19] INFO root fetch - processPackages [pytest-sbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-05-25 04:43:19] INFO root fetch - processPackages [pytest-seleniumbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-05-25 04:43:19] INFO root fetch - processPackages [hx-requests]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-25 04:43:19] INFO root fetch - processPackages [odoo-addons-oca-account-financial-tools]: Downloading https://files.pythonhosted.org/packages/19/f4/cc376ae8ca2897dcbda6648245499d5262a1c7f2191ea46d428de3307c37/odoo_addons_oca_account_financial_tools-16.0.20230216.0-py3-none-any.whl
+[2023-05-25 04:43:19] INFO root fetch - processPackages [tidevice]: Downloading https://files.pythonhosted.org/packages/56/86/dd8f7742c20194dce5edb12b48b80d8eebd0a33d93f39d36d07486e5d2ee/tidevice-0.9.8.tar.gz
+[2023-05-25 04:43:19] INFO root fetch - processPackages [sbase]: Downloading https://files.pythonhosted.org/packages/10/f9/904caa9ffcdc6c4e7625f527d7ff03e2ccbecc9c360a7557b298321e506d/sbase-4.9.8.tar.gz
+[2023-05-25 04:43:19] INFO root fetch - processPackages [hx-requests]: executing diffoscope
+[2023-05-25 04:43:19] INFO root fetch - processPackages [hx-requests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hx_requests-0.8.0.tar.gz tmp/hx_requests-0.9.0.tar.gz --markdown 20230525/h/hx-requests/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-25 04:43:19] INFO root fetch - processPackages [ronnytest]: Downloading https://files.pythonhosted.org/packages/f0/30/cfd7522fa12de353dddcc3b01f24bf01d0b34852a136e019b3908e326579/ronnytest-0.0.9.tar.gz
+[2023-05-25 04:43:19] INFO root fetch - processPackages [PaperCrawlerUtil]: Downloading https://files.pythonhosted.org/packages/e3/a8/25070c0498776702b1fb6ccc97479b20d914dc021d02e9a8fd53947656d9/PaperCrawlerUtil-0.1.6.tar.gz
+[2023-05-25 04:43:19] INFO root fetch - processPackages [pytest-sbase]: Downloading https://files.pythonhosted.org/packages/91/87/a1223948d4bac31ab82915c4e7a930c22af874859aa805d6c3abd6b5bb3e/pytest-sbase-4.9.8.tar.gz
+[2023-05-25 04:43:19] INFO root fetch - processPackages [selenium-base]: Downloading https://files.pythonhosted.org/packages/49/eb/ad6c55d2af108681e38505aff036aef13544a2d1c09817221f499826a6f9/selenium-base-4.9.8.tar.gz
+[2023-05-25 04:43:19] INFO root fetch - processPackages [pytest-seleniumbase]: Downloading https://files.pythonhosted.org/packages/40/bb/757cad3c5535e64c18cee852b145a86e4d539878bd9dce7c2934bcfb972d/pytest-seleniumbase-4.9.8.tar.gz
+[2023-05-25 04:43:19] INFO root fetch - processPackages [sbase]: Downloading https://files.pythonhosted.org/packages/d2/57/c23bf788f4a8fba6ef62c68be73c8fb443dc5aa71c69b03726c1254377f7/sbase-4.9.9.tar.gz
+[2023-05-25 04:43:19] INFO root fetch - processPackages [ronnytest]: Downloading https://files.pythonhosted.org/packages/f0/f4/27f1f9b3669f18f2c128186726799352bb7e7d8e57d943924c8e5631561e/ronnytest-0.1.0.tar.gz
+[2023-05-25 04:43:19] INFO root fetch - processPackages [odoo-addons-oca-account-financial-tools]: Downloading https://files.pythonhosted.org/packages/8d/3a/e9a66d4dcb34037b541894c35287869b485828b8fe24c5688a833af2230c/odoo_addons_oca_account_financial_tools-16.0.20230524.0-py3-none-any.whl
+[2023-05-25 04:43:19] INFO root fetch - processPackages [sbase]: executing diffoscope
+[2023-05-25 04:43:19] INFO root fetch - processPackages [sbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbase-4.9.8.tar.gz tmp/sbase-4.9.9.tar.gz --markdown 20230525/s/sbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-05-25 04:43:20] INFO root fetch - processPackages [odoo-addons-oca-account-financial-tools]: executing diffoscope
+[2023-05-25 04:43:20] INFO root fetch - processPackages [odoo-addons-oca-account-financial-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_account_financial_tools-16.0.20230216.0-py3-none-any.whl.zip tmp/odoo_addons_oca_account_financial_tools-16.0.20230524.0-py3-none-any.whl.zip --markdown 20230525/o/odoo-addons-oca-account-financial-tools/16.0.20230216.0-16.0.20230524.0/diff.md --exclude *.pyd
+[2023-05-25 04:43:20] INFO root fetch - processPackages [ronnytest]: executing diffoscope
+[2023-05-25 04:43:20] INFO root fetch - processPackages [ronnytest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ronnytest-0.0.9.tar.gz tmp/ronnytest-0.1.0.tar.gz --markdown 20230525/r/ronnytest/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-05-25 04:43:20] INFO root fetch - processPackages [PaperCrawlerUtil]: Downloading https://files.pythonhosted.org/packages/2a/91/f80b84242ece6b7798cd753600ccf84f08b351f6c8df53b7d951259192fc/PaperCrawlerUtil-0.1.7.tar.gz
+[2023-05-25 04:43:20] INFO root fetch - processPackages [selenium-base]: Downloading https://files.pythonhosted.org/packages/0a/3b/8bdd54f85b1550af5050c8683212c3f88b854c0ef99e22fa6fe216094900/selenium-base-4.9.9.tar.gz
+[2023-05-25 04:43:20] INFO root fetch - processPackages [pytest-sbase]: Downloading https://files.pythonhosted.org/packages/ea/6c/61da56c0f8d30ee6ecfbf486bd770ce073eba9a09e63981ae35863a37cb0/pytest-sbase-4.9.9.tar.gz
+[2023-05-25 04:43:20] INFO root fetch - processPackages [pytest-seleniumbase]: Downloading https://files.pythonhosted.org/packages/34/03/c67c6c24b8d7c3e49595b97d914034cf101d3d1d029f9e9453f497e0937a/pytest-seleniumbase-4.9.9.tar.gz
+[2023-05-25 04:43:20] INFO root fetch - processPackages [PaperCrawlerUtil]: executing diffoscope
+[2023-05-25 04:43:20] INFO root fetch - processPackages [PaperCrawlerUtil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PaperCrawlerUtil-0.1.6.tar.gz tmp/PaperCrawlerUtil-0.1.7.tar.gz --markdown 20230525/P/PaperCrawlerUtil/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-25 04:43:20] INFO root fetch - processPackages [pytest-sbase]: executing diffoscope
+[2023-05-25 04:43:20] INFO root fetch - processPackages [pytest-sbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-sbase-4.9.8.tar.gz tmp/pytest-sbase-4.9.9.tar.gz --markdown 20230525/p/pytest-sbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-05-25 04:43:20] INFO root fetch - processPackages [pytest-seleniumbase]: executing diffoscope
+[2023-05-25 04:43:20] INFO root fetch - processPackages [pytest-seleniumbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-seleniumbase-4.9.8.tar.gz tmp/pytest-seleniumbase-4.9.9.tar.gz --markdown 20230525/p/pytest-seleniumbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-05-25 04:43:20] INFO root fetch - processPackages [tidevice]: Downloading https://files.pythonhosted.org/packages/d0/2b/0785b0a9a84f8204b3554b13a0135ae6d21afc9840aaea71e9d3f1fbddb1/tidevice-0.9.9.tar.gz
+[2023-05-25 04:43:20] INFO root fetch - processPackages [selenium-base]: executing diffoscope
+[2023-05-25 04:43:20] INFO root fetch - processPackages [selenium-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium-base-4.9.8.tar.gz tmp/selenium-base-4.9.9.tar.gz --markdown 20230525/s/selenium-base/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-05-25 04:43:20] INFO root fetch - processPackages [tidevice]: executing diffoscope
+[2023-05-25 04:43:20] INFO root fetch - processPackages [tidevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidevice-0.9.8.tar.gz tmp/tidevice-0.9.9.tar.gz --markdown 20230525/t/tidevice/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-25 04:43:20] INFO root fetch - main [MainThread]: End processing [hx-requests]: success
+[2023-05-25 04:43:21] INFO root fetch - main [MainThread]: End processing [sbase]: success
+[2023-05-25 04:43:21] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-account-financial-tools]: success
+[2023-05-25 04:43:21] INFO root fetch - main [MainThread]: End processing [ronnytest]: success
+[2023-05-25 04:43:21] INFO root fetch - main [MainThread]: End processing [pytest-sbase]: success
+[2023-05-25 04:43:22] INFO root fetch - main [MainThread]: End processing [PaperCrawlerUtil]: success
+[2023-05-25 04:43:22] INFO root fetch - main [MainThread]: End processing [pytest-seleniumbase]: success
+[2023-05-25 04:43:22] INFO root fetch - main [MainThread]: End processing [selenium-base]: success
+[2023-05-25 04:43:23] INFO root fetch - main [MainThread]: End processing [tidevice]: success
+[2023-05-25 04:43:23] INFO root fetch - main [MainThread]: Store serial: [18240166]
