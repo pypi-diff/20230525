@@ -3658,3 +3658,46 @@
 [2023-05-25 02:52:11] INFO root fetch - main [MainThread]: End processing [steamship]: success
 [2023-05-25 02:52:30] INFO root fetch - main [MainThread]: End processing [dss-python]: success
 [2023-05-25 02:52:30] INFO root fetch - main [MainThread]: Store serial: [18238478]
+[2023-05-25 02:57:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18238478]
+[2023-05-25 02:57:46] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-25 02:57:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: common-test
+[2023-05-25 02:57:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-invoice-clearing
+[2023-05-25 02:57:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bioversions
+[2023-05-25 02:57:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cerc-geometry
+[2023-05-25 02:57:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-sns-notify
+[2023-05-25 02:57:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-lambda-layer-wget
+[2023-05-25 02:57:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-emrserverless-with-delta-lake
+[2023-05-25 02:57:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openai-shell-craft
+[2023-05-25 02:57:46] WARNING root fetch - processPackages [odoo-addon-account-invoice-clearing]: Skipping, unable to determine old version
+[2023-05-25 02:57:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-clearing] error
+[2023-05-25 02:57:46] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-05-25 02:57:46] INFO root fetch - processPackages [common-test]: New version: [29.9.41] Old Version: [29.9.40]
+[2023-05-25 02:57:46] INFO root fetch - processPackages [openai-shell-craft]: New version: [0.8.4] Old Version: [0.8.3]
+[2023-05-25 02:57:46] INFO root fetch - processPackages [cerc-geometry]: New version: [2.1.0] Old Version: [2.0.9]
+[2023-05-25 02:57:46] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-25 02:57:46] INFO root fetch - processPackages [cdk-lambda-layer-wget]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-25 02:57:46] INFO root fetch - processPackages [cdk-sns-notify]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-25 02:57:46] INFO root fetch - processPackages [common-test]: executing diffoscope
+[2023-05-25 02:57:46] INFO root fetch - processPackages [common-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/common-test-29.9.40.tar.gz tmp/common-test-29.9.41.tar.gz --markdown 20230525/c/common-test/29.9.40-29.9.41/diff.md --exclude *.pyd
+[2023-05-25 02:57:46] INFO root fetch - processPackages [openai-shell-craft]: executing diffoscope
+[2023-05-25 02:57:46] INFO root fetch - processPackages [openai-shell-craft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_shell_craft-0.8.3.tar.gz tmp/openai_shell_craft-0.8.4.tar.gz --markdown 20230525/o/openai-shell-craft/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2023-05-25 02:57:46] INFO root fetch - processPackages [cdk-sns-notify]: executing diffoscope
+[2023-05-25 02:57:46] INFO root fetch - processPackages [cdk-sns-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sns-notify-0.0.98.tar.gz tmp/cdk-sns-notify-0.0.99.tar.gz --markdown 20230525/c/cdk-sns-notify/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-25 02:57:46] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2023-05-25 02:57:46] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20230525/b/bioversions/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-05-25 02:57:46] INFO root fetch - processPackages [cerc-geometry]: Downloading https://files.pythonhosted.org/packages/d9/17/ec3ee74e16be807642d03b8a9f023662254f1a9dbc4324d8d1e6bc5acd28/cerc-geometry-2.0.9.tar.gz
+[2023-05-25 02:57:46] INFO root fetch - processPackages [cdk-lambda-layer-wget]: executing diffoscope
+[2023-05-25 02:57:46] INFO root fetch - processPackages [cdk-lambda-layer-wget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-wget-2.0.98.tar.gz tmp/cdk-lambda-layer-wget-2.0.99.tar.gz --markdown 20230525/c/cdk-lambda-layer-wget/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-25 02:57:47] INFO root fetch - processPackages [cerc-geometry]: Downloading https://files.pythonhosted.org/packages/a8/e5/7185dcccacb4ab0888a7afbfb977d499bebe80bd0e5bba6e9e4c2bff347c/cerc-geometry-2.1.0.tar.gz
+[2023-05-25 02:57:47] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2023-05-25 02:57:47] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20230525/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-25 02:57:47] INFO root fetch - processPackages [cerc-geometry]: executing diffoscope
+[2023-05-25 02:57:47] INFO root fetch - processPackages [cerc-geometry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerc-geometry-2.0.9.tar.gz tmp/cerc-geometry-2.1.0.tar.gz --markdown 20230525/c/cerc-geometry/2.0.9-2.1.0/diff.md --exclude *.pyd
+[2023-05-25 02:57:48] INFO root fetch - main [MainThread]: End processing [common-test]: success
+[2023-05-25 02:57:48] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
+[2023-05-25 02:57:48] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
+[2023-05-25 02:57:48] INFO root fetch - main [MainThread]: End processing [openai-shell-craft]: success
+[2023-05-25 02:57:48] INFO root fetch - main [MainThread]: End processing [cerc-geometry]: success
+[2023-05-25 02:57:49] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2023-05-25 02:58:07] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2023-05-25 02:58:07] INFO root fetch - main [MainThread]: Store serial: [18238510]
