@@ -20429,3 +20429,115 @@ EOFError: EOF read where object expected
 [2023-05-25 16:04:09] INFO root fetch - main [MainThread]: End processing [WhooshSms]: success
 [2023-05-25 16:04:10] INFO root fetch - main [MainThread]: End processing [volcengine]: success
 [2023-05-25 16:04:10] INFO root fetch - main [MainThread]: Store serial: [18247919]
+[2023-05-25 16:09:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18247919]
+[2023-05-25 16:09:20] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-25 16:09:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rapidpro-flow-tools
+[2023-05-25 16:09:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: textbsr
+[2023-05-25 16:09:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pgwrapper
+[2023-05-25 16:09:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RobustifyToolkit
+[2023-05-25 16:09:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Subsearch
+[2023-05-25 16:09:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cv2obs
+[2023-05-25 16:09:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: draggan
+[2023-05-25 16:09:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: irene-pro
+[2023-05-25 16:09:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: iqrfpy
+[2023-05-25 16:09:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-mail-send-copy
+[2023-05-25 16:09:20] INFO root fetch - processPackages [RobustifyToolkit]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-25 16:09:20] INFO root fetch - processPackages [draggan]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-25 16:09:20] INFO root fetch - processPackages [textbsr]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 16:09:20] INFO root fetch - processPackages [irene-pro]: New version: [0.0.44] Old Version: [0.0.43]
+[2023-05-25 16:09:20] INFO root fetch - processPackages [Subsearch]: New version: [2.35.0rc1] Old Version: [2.34.0rc1]
+[2023-05-25 16:09:20] INFO root fetch - processPackages [pgwrapper]: New version: [0.3.1] Old Version: [0.2.0]
+[2023-05-25 16:09:20] INFO root fetch - processPackages [textbsr]: executing diffoscope
+[2023-05-25 16:09:20] INFO root fetch - processPackages [textbsr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textbsr-0.0.8.tar.gz tmp/textbsr-0.0.9.tar.gz --markdown 20230525/t/textbsr/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 16:09:20] WARNING root fetch - processPackages [rapidpro-flow-tools]: Skipping, unable to determine old version
+[2023-05-25 16:09:20] INFO root fetch - processPackages [rapidpro-flow-tools]: Start processing: module-qc-database-tools
+[2023-05-25 16:09:20] INFO root fetch - main [MainThread]: End processing [rapidpro-flow-tools] error
+[2023-05-25 16:09:20] INFO root fetch - processPackages [pgwrapper]: executing diffoscope
+[2023-05-25 16:09:20] INFO root fetch - processPackages [pgwrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgwrapper-0.2.0-py3-none-any.whl.zip tmp/pgwrapper-0.3.1.tar.gz --markdown 20230525/p/pgwrapper/0.2.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-25 16:09:20] WARNING root fetch - processPackages [cv2obs]: Skipping, unable to determine old version
+[2023-05-25 16:09:20] WARNING root fetch - processPackages [odoo-addon-mail-send-copy]: Skipping, unable to determine old version
+[2023-05-25 16:09:20] INFO root fetch - processPackages [cv2obs]: Start processing: netbox-cisco-maintenance
+[2023-05-25 16:09:20] INFO root fetch - main [MainThread]: End processing [cv2obs] error
+[2023-05-25 16:09:20] INFO root fetch - processPackages [odoo-addon-mail-send-copy]: Start processing: tap-zendesk
+[2023-05-25 16:09:20] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-send-copy] error
+[2023-05-25 16:09:20] INFO root fetch - processPackages [iqrfpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-25 16:09:20] INFO root fetch - processPackages [Subsearch]: executing diffoscope
+[2023-05-25 16:09:20] INFO root fetch - processPackages [Subsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Subsearch-2.34.0rc1.tar.gz tmp/Subsearch-2.35.0rc1.tar.gz --markdown 20230525/S/Subsearch/2.34.0rc1-2.35.0rc1/diff.md --exclude *.pyd
+[2023-05-25 16:09:20] INFO root fetch - processPackages [tap-zendesk]: New version: [1.7.6] Old Version: [1.7.5]
+[2023-05-25 16:09:20] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 16:09:20] INFO root fetch - processPackages [RobustifyToolkit]: Downloading https://files.pythonhosted.org/packages/81/7f/804f2324968bd3d06e0495cbbc8e2e80bf56793c6808e78ba8e12432ba0f/RobustifyToolkit-0.0.5.tar.gz
+[2023-05-25 16:09:20] INFO root fetch - processPackages [draggan]: Downloading https://files.pythonhosted.org/packages/d7/f0/18a43558bd8ac85e92da3b9640fc2754999fc9b9896f4ad20d794daa653a/draggan-1.0.0.tar.gz
+[2023-05-25 16:09:20] INFO root fetch - processPackages [module-qc-database-tools]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-25 16:09:20] INFO root fetch - processPackages [tap-zendesk]: executing diffoscope
+[2023-05-25 16:09:20] INFO root fetch - processPackages [tap-zendesk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap-zendesk-1.7.5.tar.gz tmp/tap-zendesk-1.7.6.tar.gz --markdown 20230525/t/tap-zendesk/1.7.5-1.7.6/diff.md --exclude *.pyd
+[2023-05-25 16:09:20] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-05-25 16:09:20] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.8.tar.gz tmp/netbox-cisco-maintenance-0.0.9.tar.gz --markdown 20230525/n/netbox-cisco-maintenance/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 16:09:20] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/dd/b6/6a13678016e04c6b18b5f904bde46e7b2171b326ab309854d8ee4f02ee6d/irene_pro-0.0.44.tar.gz
+[2023-05-25 16:09:20] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-05-25 16:09:20] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.0.43.tar.gz tmp/irene_pro-0.0.44.tar.gz --markdown 20230525/i/irene-pro/0.0.43-0.0.44/diff.md --exclude *.pyd
+[2023-05-25 16:09:20] INFO root fetch - processPackages [RobustifyToolkit]: Downloading https://files.pythonhosted.org/packages/15/77/197449760e9b6d8281864ebdc3360d76ad365d79469e5412a6b707923523/RobustifyToolkit-0.0.6.tar.gz
+[2023-05-25 16:09:20] INFO root fetch - processPackages [RobustifyToolkit]: executing diffoscope
+[2023-05-25 16:09:20] INFO root fetch - processPackages [RobustifyToolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RobustifyToolkit-0.0.5.tar.gz tmp/RobustifyToolkit-0.0.6.tar.gz --markdown 20230525/R/RobustifyToolkit/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-25 16:09:20] INFO root fetch - processPackages [draggan]: Downloading https://files.pythonhosted.org/packages/b0/49/4b7482db6c337753f561d4f3df989262aa7c5d174842a5635c0a74eb7eaf/draggan-1.0.1.tar.gz
+[2023-05-25 16:09:20] INFO root fetch - processPackages [iqrfpy]: executing diffoscope
+[2023-05-25 16:09:20] INFO root fetch - processPackages [iqrfpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iqrfpy-0.1.8.tar.gz tmp/iqrfpy-0.1.9.tar.gz --markdown 20230525/i/iqrfpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-25 16:09:20] INFO root fetch - processPackages [module-qc-database-tools]: Downloading https://files.pythonhosted.org/packages/df/d7/7c40bbda376d28472bb2c5c3591947568b503cbcab84fd24302e2453fee6/module_qc_database_tools-2.0.1.tar.gz
+[2023-05-25 16:09:20] INFO root fetch - processPackages [draggan]: executing diffoscope
+[2023-05-25 16:09:20] INFO root fetch - processPackages [draggan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/draggan-1.0.0.tar.gz tmp/draggan-1.0.1.tar.gz --markdown 20230525/d/draggan/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-25 16:09:20] INFO root fetch - processPackages [module-qc-database-tools]: executing diffoscope
+[2023-05-25 16:09:20] INFO root fetch - processPackages [module-qc-database-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/module_qc_database_tools-2.0.0.tar.gz tmp/module_qc_database_tools-2.0.1.tar.gz --markdown 20230525/m/module-qc-database-tools/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-25 16:09:21] INFO root fetch - processPackages [pgwrapper]: Start processing: FuncsForSPO
+[2023-05-25 16:09:21] INFO root fetch - main [MainThread]: End processing [pgwrapper]: success
+[2023-05-25 16:09:21] INFO root fetch - processPackages [FuncsForSPO]: New version: [4.43.0] Old Version: [4.42.0]
+[2023-05-25 16:09:21] INFO root fetch - processPackages [textbsr]: Start processing: ar-ex-sys-worker
+[2023-05-25 16:09:21] INFO root fetch - main [MainThread]: End processing [textbsr]: success
+[2023-05-25 16:09:21] INFO root fetch - processPackages [ar-ex-sys-worker]: New version: [1.6.24] Old Version: [1.6.23]
+[2023-05-25 16:09:22] INFO root fetch - processPackages [FuncsForSPO]: Downloading https://files.pythonhosted.org/packages/2b/65/172bf2320fb5062982f48c311c62bc8df18692a7f9076065403031cde9ff/FuncsForSPO-4.42.0.tar.gz
+[2023-05-25 16:09:22] INFO root fetch - processPackages [ar-ex-sys-worker]: Downloading https://files.pythonhosted.org/packages/6a/52/72abe52a891f3a37671378094baa232d38881059b64810a632d0cd49588d/ar_ex_sys_worker-1.6.23-py3-none-any.whl
+[2023-05-25 16:09:22] INFO root fetch - processPackages [FuncsForSPO]: Downloading https://files.pythonhosted.org/packages/c0/d4/a6dce0427ef3f5916e14d72806ccada3e5f579f80110ce3b43d8f2bce88b/FuncsForSPO-4.43.0.tar.gz
+[2023-05-25 16:09:22] INFO root fetch - processPackages [FuncsForSPO]: executing diffoscope
+[2023-05-25 16:09:22] INFO root fetch - processPackages [FuncsForSPO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FuncsForSPO-4.42.0.tar.gz tmp/FuncsForSPO-4.43.0.tar.gz --markdown 20230525/F/FuncsForSPO/4.42.0-4.43.0/diff.md --exclude *.pyd
+[2023-05-25 16:09:22] INFO root fetch - processPackages [ar-ex-sys-worker]: Downloading https://files.pythonhosted.org/packages/4f/94/2aeda250e45d920133d437ff935c61fbab33662597fc71edd7c11d9cc6fd/ar_ex_sys_worker-1.6.24-py3-none-any.whl
+[2023-05-25 16:09:22] INFO root fetch - processPackages [ar-ex-sys-worker]: executing diffoscope
+[2023-05-25 16:09:22] INFO root fetch - processPackages [ar-ex-sys-worker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ar_ex_sys_worker-1.6.23-py3-none-any.whl.zip tmp/ar_ex_sys_worker-1.6.24-py3-none-any.whl.zip --markdown 20230525/a/ar-ex-sys-worker/1.6.23-1.6.24/diff.md --exclude *.pyd
+[2023-05-25 16:09:22] INFO root fetch - processPackages [irene-pro]: Start processing: textbsr
+[2023-05-25 16:09:22] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-05-25 16:09:22] INFO root fetch - processPackages [textbsr]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 16:09:22] INFO root fetch - processPackages [RobustifyToolkit]: Start processing: coastseg
+[2023-05-25 16:09:22] INFO root fetch - main [MainThread]: End processing [RobustifyToolkit]: success
+[2023-05-25 16:09:22] INFO root fetch - processPackages [coastseg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 16:09:22] INFO root fetch - processPackages [Subsearch]: Start processing: pyhdbpp
+[2023-05-25 16:09:22] INFO root fetch - main [MainThread]: End processing [Subsearch]: success
+[2023-05-25 16:09:22] INFO root fetch - processPackages [textbsr]: executing diffoscope
+[2023-05-25 16:09:22] INFO root fetch - processPackages [textbsr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textbsr-0.0.8.tar.gz tmp/textbsr-0.0.9.tar.gz --markdown 20230525/t/textbsr/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 16:09:22] INFO root fetch - processPackages [coastseg]: Downloading https://files.pythonhosted.org/packages/75/3b/19efffac60ef69a861417a37a370dc3f3a497cb93009fe8fff8dda38b476/coastseg-0.0.8.tar.gz
+[2023-05-25 16:09:22] WARNING root fetch - processPackages [coastseg]: Skipping package: exceeds size limit 38421077>=10485760
+[2023-05-25 16:09:22] INFO root fetch - processPackages [coastseg]: Start processing: pref-voting
+[2023-05-25 16:09:22] INFO root fetch - main [MainThread]: End processing [coastseg] error
+[2023-05-25 16:09:22] INFO root fetch - processPackages [pref-voting]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-25 16:09:22] INFO root fetch - processPackages [pyhdbpp]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-05-25 16:09:22] INFO root fetch - processPackages [pref-voting]: executing diffoscope
+[2023-05-25 16:09:22] INFO root fetch - processPackages [pref-voting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pref_voting-0.2.8.tar.gz tmp/pref_voting-0.2.9.tar.gz --markdown 20230525/p/pref-voting/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-25 16:09:22] INFO root fetch - processPackages [tap-zendesk]: Start processing: pywhichlang
+[2023-05-25 16:09:22] INFO root fetch - main [MainThread]: End processing [tap-zendesk]: success
+[2023-05-25 16:09:23] WARNING root fetch - processPackages [pywhichlang]: Skipping, unable to determine old version
+[2023-05-25 16:09:23] INFO root fetch - processPackages [pywhichlang]: Start processing: elefantolib
+[2023-05-25 16:09:23] INFO root fetch - main [MainThread]: End processing [pywhichlang] error
+[2023-05-25 16:09:23] INFO root fetch - processPackages [pyhdbpp]: Downloading https://files.pythonhosted.org/packages/0e/a1/1225e601209f22e207f89ca38186349f759e484a74c71f3ed6feccde95b0/pyhdbpp-1.1.4.tar.gz
+[2023-05-25 16:09:23] INFO root fetch - processPackages [elefantolib]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-25 16:09:23] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-05-25 16:09:23] INFO root fetch - main [MainThread]: End processing [draggan]: success
+[2023-05-25 16:09:23] INFO root fetch - processPackages [elefantolib]: executing diffoscope
+[2023-05-25 16:09:23] INFO root fetch - processPackages [elefantolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elefantolib-0.9.1.tar.gz tmp/elefantolib-0.9.2.tar.gz --markdown 20230525/e/elefantolib/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-25 16:09:23] INFO root fetch - processPackages [pyhdbpp]: Downloading https://files.pythonhosted.org/packages/e9/6c/5f1d317ef052be105be2aab1ff7eb53c69cdeb047c8750b29d4347ce02cb/pyhdbpp-1.1.5.tar.gz
+[2023-05-25 16:09:23] INFO root fetch - main [MainThread]: End processing [module-qc-database-tools]: success
+[2023-05-25 16:09:23] INFO root fetch - processPackages [pyhdbpp]: executing diffoscope
+[2023-05-25 16:09:23] INFO root fetch - processPackages [pyhdbpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhdbpp-1.1.4.tar.gz tmp/pyhdbpp-1.1.5.tar.gz --markdown 20230525/p/pyhdbpp/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-05-25 16:09:23] INFO root fetch - main [MainThread]: End processing [iqrfpy]: success
+[2023-05-25 16:09:24] INFO root fetch - main [MainThread]: End processing [FuncsForSPO]: success
+[2023-05-25 16:09:24] INFO root fetch - main [MainThread]: End processing [ar-ex-sys-worker]: success
+[2023-05-25 16:09:24] INFO root fetch - main [MainThread]: End processing [textbsr]: success
+[2023-05-25 16:09:24] INFO root fetch - main [MainThread]: End processing [elefantolib]: success
+[2023-05-25 16:09:24] INFO root fetch - main [MainThread]: End processing [pref-voting]: success
+[2023-05-25 16:09:24] INFO root fetch - main [MainThread]: End processing [pyhdbpp]: success
+[2023-05-25 16:09:24] INFO root fetch - main [MainThread]: Store serial: [18247987]
