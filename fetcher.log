@@ -11453,3 +11453,51 @@
 [2023-05-25 09:17:55] INFO root fetch - main [MainThread]: End processing [mc-netease-sdk]: success
 [2023-05-25 09:17:55] INFO root fetch - main [MainThread]: End processing [FreeTVG-karjakak]: success
 [2023-05-25 09:17:55] INFO root fetch - main [MainThread]: Store serial: [18242613]
+[2023-05-25 09:23:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18242613]
+[2023-05-25 09:23:06] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-25 09:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xw-utils
+[2023-05-25 09:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamlit-nightly
+[2023-05-25 09:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-mrp-component-operation-scrap-reason
+[2023-05-25 09:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aioairzone-cloud
+[2023-05-25 09:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: opentf-toolkit
+[2023-05-25 09:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ptas-unittest
+[2023-05-25 09:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cq23
+[2023-05-25 09:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: quyuan
+[2023-05-25 09:23:06] INFO root fetch - processPackages [aioairzone-cloud]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-25 09:23:06] INFO root fetch - processPackages [xw-utils]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-25 09:23:06] INFO root fetch - processPackages [cq23]: New version: [1.0.0] Old Version: [0.1.4]
+[2023-05-25 09:23:06] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.9.3.dev20220601] Old Version: [1.9.3.dev20220531]
+[2023-05-25 09:23:06] INFO root fetch - processPackages [opentf-toolkit]: New version: [0.47.0] Old Version: [0.46.0]
+[2023-05-25 09:23:06] WARNING root fetch - processPackages [quyuan]: Skipping, unable to determine old version
+[2023-05-25 09:23:06] INFO root fetch - main [MainThread]: End processing [quyuan] error
+[2023-05-25 09:23:06] INFO root fetch - processPackages [ptas-unittest]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-25 09:23:06] INFO root fetch - processPackages [odoo14-addon-mrp-component-operation-scrap-reason]: New version: [14.0.1.1.0] Old Version: [14.0.1.0.1.dev5]
+[2023-05-25 09:23:06] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2023-05-25 09:23:06] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz --markdown 20230525/s/streamlit-nightly/1.9.3.dev20220531-1.9.3.dev20220601/diff.md --exclude *.pyd
+[2023-05-25 09:23:06] INFO root fetch - processPackages [cq23]: executing diffoscope
+[2023-05-25 09:23:06] INFO root fetch - processPackages [cq23]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cq23-0.1.4.tar.gz tmp/cq23-1.0.0.tar.gz --markdown 20230525/c/cq23/0.1.4-1.0.0/diff.md --exclude *.pyd
+[2023-05-25 09:23:07] INFO root fetch - processPackages [ptas-unittest]: Downloading https://files.pythonhosted.org/packages/0e/a5/162d2275dd3d7a416a960b1e731d2b55f1c90903b54ad5774b469c71eb65/ptas_unittest-1.0.1-py3-none-any.whl
+[2023-05-25 09:23:07] INFO root fetch - processPackages [opentf-toolkit]: Downloading https://files.pythonhosted.org/packages/56/1e/4be565aeb77fa1c34cb7084b299047df6e662087309e24eb5e59e8f460c5/opentf_toolkit-0.46.0-py3-none-any.whl
+[2023-05-25 09:23:07] INFO root fetch - processPackages [aioairzone-cloud]: Downloading https://files.pythonhosted.org/packages/f0/18/f725700696300e158329104ef1e5731ffd1dc118852898f3928c1bc929c0/aioairzone-cloud-0.1.3.tar.gz
+[2023-05-25 09:23:07] INFO root fetch - processPackages [aioairzone-cloud]: executing diffoscope
+[2023-05-25 09:23:07] INFO root fetch - processPackages [aioairzone-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioairzone-cloud-0.1.2.tar.gz tmp/aioairzone-cloud-0.1.3.tar.gz --markdown 20230525/a/aioairzone-cloud/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-25 09:23:07] INFO root fetch - processPackages [xw-utils]: Downloading https://files.pythonhosted.org/packages/38/15/5f7c83919b1df84b849a0655d61c15db44e67b45f40c1ef5d57cd448452f/xw_utils-1.0.2-cp39-cp39-win_amd64.whl
+[2023-05-25 09:23:07] INFO root fetch - processPackages [odoo14-addon-mrp-component-operation-scrap-reason]: Downloading https://files.pythonhosted.org/packages/b8/37/c29215cd99973958a18dba7901cb3b6a3f5417016e098724df8d53c84eb0/odoo14_addon_mrp_component_operation_scrap_reason-14.0.1.1.0-py3-none-any.whl
+[2023-05-25 09:23:07] INFO root fetch - processPackages [xw-utils]: executing diffoscope
+[2023-05-25 09:23:07] INFO root fetch - processPackages [xw-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xw_utils-1.0.1-cp39-cp39-win_amd64.whl.zip tmp/xw_utils-1.0.2-cp39-cp39-win_amd64.whl.zip --markdown 20230525/x/xw-utils/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-25 09:23:07] INFO root fetch - processPackages [odoo14-addon-mrp-component-operation-scrap-reason]: executing diffoscope
+[2023-05-25 09:23:07] INFO root fetch - processPackages [odoo14-addon-mrp-component-operation-scrap-reason]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_mrp_component_operation_scrap_reason-14.0.1.0.1.dev5-py3-none-any.whl.zip tmp/odoo14_addon_mrp_component_operation_scrap_reason-14.0.1.1.0-py3-none-any.whl.zip --markdown 20230525/o/odoo14-addon-mrp-component-operation-scrap-reason/14.0.1.0.1.dev5-14.0.1.1.0/diff.md --exclude *.pyd
+[2023-05-25 09:23:07] INFO root fetch - processPackages [ptas-unittest]: Downloading https://files.pythonhosted.org/packages/bb/52/c9a934da31093f8c763d20bb3d9de48e5c99c9860e01ce4df65fa302d760/ptas_unittest-1.0.2-py3-none-any.whl
+[2023-05-25 09:23:07] INFO root fetch - processPackages [opentf-toolkit]: Downloading https://files.pythonhosted.org/packages/dc/8f/3e2192bbc045b582fe1d57694fc249ee5d90bfa7449d9e5bfb64a9eab950/opentf_toolkit-0.47.0-py3-none-any.whl
+[2023-05-25 09:23:07] INFO root fetch - processPackages [ptas-unittest]: executing diffoscope
+[2023-05-25 09:23:07] INFO root fetch - processPackages [ptas-unittest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptas_unittest-1.0.1-py3-none-any.whl.zip tmp/ptas_unittest-1.0.2-py3-none-any.whl.zip --markdown 20230525/p/ptas-unittest/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-25 09:23:07] INFO root fetch - processPackages [opentf-toolkit]: executing diffoscope
+[2023-05-25 09:23:07] INFO root fetch - processPackages [opentf-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentf_toolkit-0.46.0-py3-none-any.whl.zip tmp/opentf_toolkit-0.47.0-py3-none-any.whl.zip --markdown 20230525/o/opentf-toolkit/0.46.0-0.47.0/diff.md --exclude *.pyd
+[2023-05-25 09:23:08] INFO root fetch - main [MainThread]: End processing [cq23]: success
+[2023-05-25 09:23:08] INFO root fetch - main [MainThread]: End processing [xw-utils]: success
+[2023-05-25 09:23:08] INFO root fetch - main [MainThread]: End processing [aioairzone-cloud]: success
+[2023-05-25 09:23:08] INFO root fetch - main [MainThread]: End processing [odoo14-addon-mrp-component-operation-scrap-reason]: success
+[2023-05-25 09:23:08] INFO root fetch - main [MainThread]: End processing [ptas-unittest]: success
+[2023-05-25 09:23:09] INFO root fetch - main [MainThread]: End processing [opentf-toolkit]: success
+[2023-05-25 09:23:17] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2023-05-25 09:23:17] INFO root fetch - main [MainThread]: Store serial: [18242684]
