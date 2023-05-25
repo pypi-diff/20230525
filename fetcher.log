@@ -15624,3 +15624,93 @@ EOFError: EOF read where object expected
 [2023-05-25 12:24:30] INFO root fetch - main [MainThread]: End processing [appmap] error
 [2023-05-25 12:24:30] INFO root fetch - main [MainThread]: End processing [mwrpy]: success
 [2023-05-25 12:24:30] INFO root fetch - main [MainThread]: Store serial: [18245025]
+[2023-05-25 12:29:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18245025]
+[2023-05-25 12:29:39] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-25 12:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mybar
+[2023-05-25 12:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: connectpyHFU
+[2023-05-25 12:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gardener-component-model
+[2023-05-25 12:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: questdb-connect
+[2023-05-25 12:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyrosexmod
+[2023-05-25 12:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: querymaster
+[2023-05-25 12:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wikiseriesricardolib
+[2023-05-25 12:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oneai
+[2023-05-25 12:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hordelib
+[2023-05-25 12:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pozalabs-compose
+[2023-05-25 12:29:39] INFO root fetch - processPackages [pyrosexmod]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-05-25 12:29:39] INFO root fetch - processPackages [questdb-connect]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-25 12:29:39] INFO root fetch - processPackages [mybar]: New version: [0.6] Old Version: [0.5.2]
+[2023-05-25 12:29:39] ERROR root fetch - processPackages [connectpyHFU]: Unable to get metadata: No such project 'connectpyHFU'
+[2023-05-25 12:29:39] INFO root fetch - processPackages [connectpyHFU]: Start processing: panoptic
+[2023-05-25 12:29:39] INFO root fetch - main [MainThread]: End processing [connectpyHFU] error
+[2023-05-25 12:29:39] WARNING root fetch - processPackages [querymaster]: Skipping, unable to determine old version
+[2023-05-25 12:29:39] INFO root fetch - processPackages [querymaster]: Start processing: CEEcache
+[2023-05-25 12:29:39] INFO root fetch - main [MainThread]: End processing [querymaster] error
+[2023-05-25 12:29:39] INFO root fetch - processPackages [oneai]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-25 12:29:39] INFO root fetch - processPackages [panoptic]: New version: [0.0.9.dev3] Old Version: [0.0.9.dev2]
+[2023-05-25 12:29:39] WARNING root fetch - processPackages [wikiseriesricardolib]: Skipping, unable to determine old version
+[2023-05-25 12:29:39] INFO root fetch - processPackages [pozalabs-compose]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-25 12:29:39] INFO root fetch - processPackages [wikiseriesricardolib]: Start processing: wikiseriesmarcblib
+[2023-05-25 12:29:39] INFO root fetch - main [MainThread]: End processing [wikiseriesricardolib] error
+[2023-05-25 12:29:39] INFO root fetch - processPackages [gardener-component-model]: New version: [0.0.94] Old Version: [0.0.93]
+[2023-05-25 12:29:39] INFO root fetch - processPackages [hordelib]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-05-25 12:29:39] INFO root fetch - processPackages [pyrosexmod]: Downloading https://files.pythonhosted.org/packages/8b/0e/bdbe6055b1a5b6354638f8c1d2159d29b24a7a10a675fb9b2b4da12b4f65/pyrosexmod-0.1.0.tar.gz
+[2023-05-25 12:29:39] WARNING root fetch - processPackages [CEEcache]: Skipping, unable to determine old version
+[2023-05-25 12:29:39] INFO root fetch - processPackages [CEEcache]: Start processing: xj-role
+[2023-05-25 12:29:39] INFO root fetch - main [MainThread]: End processing [CEEcache] error
+[2023-05-25 12:29:39] INFO root fetch - processPackages [xj-role]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-25 12:29:39] INFO root fetch - processPackages [mybar]: Downloading https://files.pythonhosted.org/packages/eb/77/ca143d523ac879af56fa7a2e7fe33e492e2ffbb37da12ad29d84d52fe8b3/mybar-0.5.2.tar.gz
+[2023-05-25 12:29:39] INFO root fetch - processPackages [pyrosexmod]: executing diffoscope
+[2023-05-25 12:29:39] INFO root fetch - processPackages [pyrosexmod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrosexmod-0.0.9.tar.gz tmp/pyrosexmod-0.1.0.tar.gz --markdown 20230525/p/pyrosexmod/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-05-25 12:29:40] INFO root fetch - processPackages [questdb-connect]: executing diffoscope
+[2023-05-25 12:29:40] INFO root fetch - processPackages [questdb-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/questdb-connect-1.0.5.tar.gz tmp/questdb-connect-1.0.6.tar.gz --markdown 20230525/q/questdb-connect/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-25 12:29:40] INFO root fetch - processPackages [xj-role]: executing diffoscope
+[2023-05-25 12:29:40] INFO root fetch - processPackages [xj-role]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_role-1.0.8.tar.gz tmp/xj_role-1.0.9.tar.gz --markdown 20230525/x/xj-role/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-25 12:29:40] INFO root fetch - processPackages [panoptic]: executing diffoscope
+[2023-05-25 12:29:40] INFO root fetch - processPackages [panoptic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panoptic-0.0.9.dev2.tar.gz tmp/panoptic-0.0.9.dev3.tar.gz --markdown 20230525/p/panoptic/0.0.9.dev2-0.0.9.dev3/diff.md --exclude *.pyd
+[2023-05-25 12:29:40] WARNING root fetch - processPackages [wikiseriesmarcblib]: Skipping, unable to determine old version
+[2023-05-25 12:29:40] INFO root fetch - processPackages [wikiseriesmarcblib]: Start processing: emulsion
+[2023-05-25 12:29:40] INFO root fetch - main [MainThread]: End processing [wikiseriesmarcblib] error
+[2023-05-25 12:29:40] INFO root fetch - processPackages [oneai]: Downloading https://files.pythonhosted.org/packages/89/0a/916602909edf1a6e1b661edd45fea91d4c79d5b47c0e06ab35b279a9464b/oneai-0.9.8.tar.gz
+[2023-05-25 12:29:40] INFO root fetch - processPackages [hordelib]: Downloading https://files.pythonhosted.org/packages/76/3e/367c4cc176e27dc96bfb8b964d8767288373b5d62788bd75347357c3c23b/hordelib-1.3.3.tar.gz
+[2023-05-25 12:29:40] INFO root fetch - processPackages [mybar]: Downloading https://files.pythonhosted.org/packages/b9/fb/950f949ad1ffbae65ead47a314b3a6fffdef42ea434b9705c3c4aedcad2a/mybar-0.6.tar.gz
+[2023-05-25 12:29:40] INFO root fetch - processPackages [emulsion]: New version: [1.3b1] Old Version: [1.2rc2]
+[2023-05-25 12:29:40] INFO root fetch - processPackages [gardener-component-model]: Downloading https://files.pythonhosted.org/packages/45/1f/baa2d0f84da4c8b300e93d0727305ff16924ba56819653e661aea9a25ccc/gardener-component-model-0.0.94.tar.gz
+[2023-05-25 12:29:40] INFO root fetch - processPackages [pozalabs-compose]: executing diffoscope
+[2023-05-25 12:29:40] INFO root fetch - processPackages [pozalabs-compose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pozalabs-compose-0.9.0.tar.gz tmp/pozalabs-compose-0.9.1.tar.gz --markdown 20230525/p/pozalabs-compose/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-25 12:29:40] INFO root fetch - processPackages [mybar]: executing diffoscope
+[2023-05-25 12:29:40] INFO root fetch - processPackages [mybar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mybar-0.5.2.tar.gz tmp/mybar-0.6.tar.gz --markdown 20230525/m/mybar/0.5.2-0.6/diff.md --exclude *.pyd
+[2023-05-25 12:29:40] INFO root fetch - processPackages [emulsion]: Downloading https://files.pythonhosted.org/packages/71/9b/7762828ed0cf9365119345c8e41f39650bc158f8f7f54f6dd5816db8f13a/emulsion-1.2rc2.tar.gz
+[2023-05-25 12:29:40] INFO root fetch - processPackages [gardener-component-model]: executing diffoscope
+[2023-05-25 12:29:40] INFO root fetch - processPackages [gardener-component-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-component-model-0.0.93.tar.gz tmp/gardener-component-model-0.0.94.tar.gz --markdown 20230525/g/gardener-component-model/0.0.93-0.0.94/diff.md --exclude *.pyd
+[2023-05-25 12:29:40] INFO root fetch - processPackages [emulsion]: Downloading https://files.pythonhosted.org/packages/98/99/a23cb4a05b2826983f2801c34c55023174c578c72b53e86e4c8906744ec7/emulsion-1.3beta1.tar.gz
+[2023-05-25 12:29:40] INFO root fetch - processPackages [oneai]: Downloading https://files.pythonhosted.org/packages/a8/be/4f8d749fd967478a2b1fff1577b187c9e85d1892517acbe16a8cdf91e094/oneai-0.9.9.tar.gz
+[2023-05-25 12:29:41] INFO root fetch - processPackages [oneai]: executing diffoscope
+[2023-05-25 12:29:41] INFO root fetch - processPackages [oneai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oneai-0.9.8.tar.gz tmp/oneai-0.9.9.tar.gz --markdown 20230525/o/oneai/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-25 12:29:41] INFO root fetch - processPackages [hordelib]: executing diffoscope
+[2023-05-25 12:29:41] INFO root fetch - processPackages [hordelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hordelib-1.3.2.tar.gz tmp/hordelib-1.3.3.tar.gz --markdown 20230525/h/hordelib/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-05-25 12:29:41] INFO root fetch - processPackages [emulsion]: executing diffoscope
+[2023-05-25 12:29:41] INFO root fetch - processPackages [emulsion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emulsion-1.2rc2.tar.gz tmp/emulsion-1.3beta1.tar.gz --markdown 20230525/e/emulsion/1.2rc2-1.3b1/diff.md --exclude *.pyd
+[2023-05-25 12:29:41] INFO root fetch - processPackages [xj-role]: Start processing: scipion-pyworkflow
+[2023-05-25 12:29:41] INFO root fetch - main [MainThread]: End processing [xj-role]: success
+[2023-05-25 12:29:41] INFO root fetch - processPackages [scipion-pyworkflow]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-05-25 12:29:41] INFO root fetch - processPackages [panoptic]: Start processing: connectHFU
+[2023-05-25 12:29:41] INFO root fetch - main [MainThread]: End processing [panoptic]: success
+[2023-05-25 12:29:41] INFO root fetch - processPackages [scipion-pyworkflow]: Downloading https://files.pythonhosted.org/packages/46/cb/483f1a71d4f92275c86b2aeec40c4e116d7fde59672bdd1b442bf917336e/scipion-pyworkflow-3.0.8.tar.gz
+[2023-05-25 12:29:41] INFO root fetch - processPackages [pyrosexmod]: Start processing: BookerMarkdownTool
+[2023-05-25 12:29:41] INFO root fetch - main [MainThread]: End processing [pyrosexmod]: success
+[2023-05-25 12:29:41] WARNING root fetch - processPackages [connectHFU]: Skipping, unable to determine old version
+[2023-05-25 12:29:41] INFO root fetch - main [MainThread]: End processing [connectHFU] error
+[2023-05-25 12:29:42] INFO root fetch - main [MainThread]: End processing [gardener-component-model]: success
+[2023-05-25 12:29:42] WARNING root fetch - processPackages [BookerMarkdownTool]: Skipping, unable to determine old version
+[2023-05-25 12:29:42] INFO root fetch - main [MainThread]: End processing [BookerMarkdownTool] error
+[2023-05-25 12:29:42] INFO root fetch - main [MainThread]: End processing [mybar]: success
+[2023-05-25 12:29:42] INFO root fetch - processPackages [scipion-pyworkflow]: Downloading https://files.pythonhosted.org/packages/4a/2e/541e07a135c684ed05eccef6feef07c6b5c49e7c97f6bf4e5a00c44c0834/scipion-pyworkflow-3.0.9.tar.gz
+[2023-05-25 12:29:42] INFO root fetch - main [MainThread]: End processing [pozalabs-compose]: success
+[2023-05-25 12:29:42] INFO root fetch - main [MainThread]: End processing [questdb-connect]: success
+[2023-05-25 12:29:42] INFO root fetch - processPackages [scipion-pyworkflow]: executing diffoscope
+[2023-05-25 12:29:42] INFO root fetch - processPackages [scipion-pyworkflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-pyworkflow-3.0.8.tar.gz tmp/scipion-pyworkflow-3.0.9.tar.gz --markdown 20230525/s/scipion-pyworkflow/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-05-25 12:29:43] INFO root fetch - main [MainThread]: End processing [oneai]: success
+[2023-05-25 12:29:45] INFO root fetch - main [MainThread]: End processing [scipion-pyworkflow]: success
+[2023-05-25 12:29:45] INFO root fetch - main [MainThread]: End processing [emulsion]: success
+[2023-05-25 12:29:49] INFO root fetch - main [MainThread]: End processing [hordelib]: success
+[2023-05-25 12:29:49] INFO root fetch - main [MainThread]: Store serial: [18245095]
