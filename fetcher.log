@@ -11370,3 +11370,86 @@
 [2023-05-25 09:12:15] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
 [2023-05-25 09:12:34] INFO root fetch - main [MainThread]: End processing [cyberlang]: success
 [2023-05-25 09:12:34] INFO root fetch - main [MainThread]: Store serial: [18242560]
+[2023-05-25 09:17:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18242560]
+[2023-05-25 09:17:51] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-25 09:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mc-netease-sdk
+[2023-05-25 09:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TCFnetworks
+[2023-05-25 09:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: msaBase
+[2023-05-25 09:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: FreeTVG-karjakak
+[2023-05-25 09:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hyperparameter
+[2023-05-25 09:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tf-hub-nightly
+[2023-05-25 09:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spiderx
+[2023-05-25 09:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lupin-grognard
+[2023-05-25 09:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fad-pytorch
+[2023-05-25 09:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Nombres
+[2023-05-25 09:17:51] INFO root fetch - processPackages [mc-netease-sdk]: New version: [2.7.0.43550] Old Version: [2.7.0.43543]
+[2023-05-25 09:17:51] INFO root fetch - processPackages [TCFnetworks]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-05-25 09:17:51] INFO root fetch - processPackages [hyperparameter]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-05-25 09:17:51] INFO root fetch - processPackages [lupin-grognard]: New version: [1.9.0] Old Version: [1.7.0]
+[2023-05-25 09:17:51] WARNING root fetch - processPackages [fad-pytorch]: Skipping, unable to determine old version
+[2023-05-25 09:17:51] INFO root fetch - processPackages [fad-pytorch]: Start processing: musicTour
+[2023-05-25 09:17:51] INFO root fetch - main [MainThread]: End processing [fad-pytorch] error
+[2023-05-25 09:17:51] INFO root fetch - processPackages [msaBase]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-25 09:17:51] INFO root fetch - processPackages [FreeTVG-karjakak]: New version: [3.2.8rc1] Old Version: [3.2.8]
+[2023-05-25 09:17:51] INFO root fetch - processPackages [hyperparameter]: Downloading https://files.pythonhosted.org/packages/b6/48/cdff3258db259a47ac9dd5639a23bd6bf6af576d9f267067af4342b2cada/hyperparameter-0.5.3-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-25 09:17:51] INFO root fetch - processPackages [musicTour]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-25 09:17:51] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2023-05-25 09:17:51] WARNING root fetch - processPackages [Nombres]: Skipping, unable to determine old version
+[2023-05-25 09:17:51] INFO root fetch - processPackages [Nombres]: Start processing: paddlepaddle-gpu
+[2023-05-25 09:17:51] INFO root fetch - main [MainThread]: End processing [Nombres] error
+[2023-05-25 09:17:51] INFO root fetch - processPackages [spiderx]: New version: [1.8.9] Old Version: [1.8.2]
+[2023-05-25 09:17:51] INFO root fetch - processPackages [lupin-grognard]: executing diffoscope
+[2023-05-25 09:17:51] INFO root fetch - processPackages [lupin-grognard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lupin-grognard-1.7.0.tar.gz tmp/lupin-grognard-1.9.0.tar.gz --markdown 20230525/l/lupin-grognard/1.7.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-25 09:17:51] INFO root fetch - processPackages [musicTour]: executing diffoscope
+[2023-05-25 09:17:51] INFO root fetch - processPackages [musicTour]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musicTour-1.1.0.tar.gz tmp/musicTour-1.2.0.tar.gz --markdown 20230525/m/musicTour/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-25 09:17:51] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2023-05-25 09:17:51] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20230525/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2023-05-25 09:17:51] INFO root fetch - processPackages [FreeTVG-karjakak]: Downloading https://files.pythonhosted.org/packages/c7/54/795ea795f32aa9a1bfe655882d550f06cc4207f805ae8e4dfff73a3f4668/FreeTVG-karjakak-3.2.8.tar.gz
+[2023-05-25 09:17:51] INFO root fetch - processPackages [TCFnetworks]: Downloading https://files.pythonhosted.org/packages/05/93/b250545dbdfa18ba522e27ce71a1aeb6056721f39e5cd61f3de0075dd74b/TCFnetworks-0.2.2.tar.gz
+[2023-05-25 09:17:51] INFO root fetch - processPackages [paddlepaddle-gpu]: New version: [2.5.0rc1] Old Version: [2.5.0rc0]
+[2023-05-25 09:17:51] INFO root fetch - processPackages [mc-netease-sdk]: Downloading https://files.pythonhosted.org/packages/aa/c9/18d6974da4cca478f84ac51d318d959cde44d17d6eb4e1ab5cf9c2f08f95/mc_netease_sdk-2.7.0.43550-py2-none-any.whl
+[2023-05-25 09:17:51] INFO root fetch - processPackages [msaBase]: executing diffoscope
+[2023-05-25 09:17:51] INFO root fetch - processPackages [msaBase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msaBase-0.0.8.tar.gz tmp/msaBase-0.0.9.tar.gz --markdown 20230525/m/msaBase/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-25 09:17:51] INFO root fetch - processPackages [paddlepaddle-gpu]: Downloading https://files.pythonhosted.org/packages/09/29/e5edf7577f2ce3ce4edc9c832fc8d5b688eeed0116e839556ee7efa6ef88/paddlepaddle_gpu-2.5.0rc0-cp39-cp39-win_amd64.whl
+[2023-05-25 09:17:51] INFO root fetch - processPackages [TCFnetworks]: Downloading https://files.pythonhosted.org/packages/fc/64/9854ec653420cd9573a2fb0d84264910b8d903b62638c64da75e7a9394f5/TCFnetworks-0.3.0.tar.gz
+[2023-05-25 09:17:51] INFO root fetch - processPackages [mc-netease-sdk]: executing diffoscope
+[2023-05-25 09:17:51] INFO root fetch - processPackages [mc-netease-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mc_netease_sdk-2.7.0.43543-py2-none-any.whl.zip tmp/mc_netease_sdk-2.7.0.43550-py2-none-any.whl.zip --markdown 20230525/m/mc-netease-sdk/2.7.0.43543-2.7.0.43550/diff.md --exclude *.pyd
+[2023-05-25 09:17:51] INFO root fetch - processPackages [hyperparameter]: Downloading https://files.pythonhosted.org/packages/27/e1/2ac7f51b1d636ec798c0eba1c535971cb236a2248d7e36e5a1267743aea3/hyperparameter-0.5.4.tar.gz
+[2023-05-25 09:17:51] INFO root fetch - processPackages [spiderx]: executing diffoscope
+[2023-05-25 09:17:51] INFO root fetch - processPackages [spiderx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spiderx-1.8.2.tar.gz tmp/spiderx-1.8.9.tar.gz --markdown 20230525/s/spiderx/1.8.2-1.8.9/diff.md --exclude *.pyd
+[2023-05-25 09:17:51] INFO root fetch - processPackages [FreeTVG-karjakak]: Downloading https://files.pythonhosted.org/packages/02/85/71c852028ea533a2ab891c28a78ad4edce227d78b9655609b9ef1b63ceca/FreeTVG-karjakak-3.2.8rc1.tar.gz
+[2023-05-25 09:17:52] INFO root fetch - processPackages [hyperparameter]: executing diffoscope
+[2023-05-25 09:17:52] INFO root fetch - processPackages [hyperparameter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperparameter-0.5.3-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/hyperparameter-0.5.4.tar.gz --markdown 20230525/h/hyperparameter/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-05-25 09:17:52] INFO root fetch - processPackages [TCFnetworks]: executing diffoscope
+[2023-05-25 09:17:52] INFO root fetch - processPackages [TCFnetworks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TCFnetworks-0.2.2.tar.gz tmp/TCFnetworks-0.3.0.tar.gz --markdown 20230525/T/TCFnetworks/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-05-25 09:17:52] INFO root fetch - processPackages [FreeTVG-karjakak]: executing diffoscope
+[2023-05-25 09:17:52] INFO root fetch - processPackages [FreeTVG-karjakak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FreeTVG-karjakak-3.2.8.tar.gz tmp/FreeTVG-karjakak-3.2.8rc1.tar.gz --markdown 20230525/F/FreeTVG-karjakak/3.2.8-3.2.8rc1/diff.md --exclude *.pyd
+[2023-05-25 09:17:52] WARNING root fetch - processPackages [paddlepaddle-gpu]: Skipping package: exceeds size limit 452434513>=10485760
+[2023-05-25 09:17:52] INFO root fetch - processPackages [paddlepaddle-gpu]: Start processing: fuzzymap
+[2023-05-25 09:17:52] INFO root fetch - main [MainThread]: End processing [paddlepaddle-gpu] error
+[2023-05-25 09:17:52] INFO root fetch - processPackages [fuzzymap]: New version: [1.1.2] Old Version: [1.1.0]
+[2023-05-25 09:17:52] INFO root fetch - processPackages [fuzzymap]: Downloading https://files.pythonhosted.org/packages/8a/b3/9c5346254cf5cc5047eda1656a1fb3ef7f6e0dcc24746beb57719dcc90e1/fuzzymap-1.1.0.tar.gz
+[2023-05-25 09:17:52] INFO root fetch - processPackages [fuzzymap]: Downloading https://files.pythonhosted.org/packages/f0/da/ce50a634b29c21a664bb45dc55e1fb6eeedb38bb986d7d0389cdbe498b82/fuzzymap-1.1.2.tar.gz
+[2023-05-25 09:17:52] INFO root fetch - processPackages [musicTour]: Start processing: paradigm
+[2023-05-25 09:17:52] INFO root fetch - main [MainThread]: End processing [musicTour]: success
+[2023-05-25 09:17:52] INFO root fetch - processPackages [paradigm]: New version: [4.0.1] Old Version: [4.0.0]
+[2023-05-25 09:17:52] INFO root fetch - processPackages [fuzzymap]: executing diffoscope
+[2023-05-25 09:17:52] INFO root fetch - processPackages [fuzzymap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fuzzymap-1.1.0.tar.gz tmp/fuzzymap-1.1.2.tar.gz --markdown 20230525/f/fuzzymap/1.1.0-1.1.2/diff.md --exclude *.pyd
+[2023-05-25 09:17:52] INFO root fetch - processPackages [paradigm]: executing diffoscope
+[2023-05-25 09:17:52] INFO root fetch - processPackages [paradigm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paradigm-4.0.0.tar.gz tmp/paradigm-4.0.1.tar.gz --markdown 20230525/p/paradigm/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2023-05-25 09:17:53] INFO root fetch - processPackages [tf-hub-nightly]: Start processing: fanucpy
+[2023-05-25 09:17:53] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2023-05-25 09:17:53] INFO root fetch - processPackages [fanucpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-25 09:17:53] INFO root fetch - main [MainThread]: End processing [msaBase]: success
+[2023-05-25 09:17:53] INFO root fetch - main [MainThread]: End processing [lupin-grognard]: success
+[2023-05-25 09:17:53] INFO root fetch - main [MainThread]: End processing [spiderx]: success
+[2023-05-25 09:17:53] INFO root fetch - processPackages [fanucpy]: executing diffoscope
+[2023-05-25 09:17:53] INFO root fetch - processPackages [fanucpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230525:/home/abi/fetcher/20230525:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fanucpy-0.1.8.tar.gz tmp/fanucpy-0.1.9.tar.gz --markdown 20230525/f/fanucpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-25 09:17:54] INFO root fetch - main [MainThread]: End processing [TCFnetworks]: success
+[2023-05-25 09:17:54] INFO root fetch - main [MainThread]: End processing [fuzzymap]: success
+[2023-05-25 09:17:54] INFO root fetch - main [MainThread]: End processing [hyperparameter]: success
+[2023-05-25 09:17:54] INFO root fetch - main [MainThread]: End processing [paradigm]: success
+[2023-05-25 09:17:54] INFO root fetch - main [MainThread]: End processing [fanucpy]: success
+[2023-05-25 09:17:55] INFO root fetch - main [MainThread]: End processing [mc-netease-sdk]: success
+[2023-05-25 09:17:55] INFO root fetch - main [MainThread]: End processing [FreeTVG-karjakak]: success
+[2023-05-25 09:17:55] INFO root fetch - main [MainThread]: Store serial: [18242613]
